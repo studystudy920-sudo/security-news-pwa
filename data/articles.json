@@ -1,1 +1,165 @@
-{"articles":[],"updated":"データ取得前"}
+{
+  "articles": [
+    {
+      "title": "Reynolds Ransomware Emerges with BYOVD Technique to Disable EDR",
+      "url": "https://thehackernews.com/",
+      "source": "The Hacker News",
+      "language": "英語",
+      "summary": "新型ランサムウェア「Reynolds」が登場。BYOVD(脆弱なドライバーを持ち込む)技術でEDRセキュリティツールを無効化。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "BeyondTrust Patches Critical Pre-Auth RCE in Remote Support and PRA Products",
+      "url": "https://thehackernews.com/",
+      "source": "The Hacker News",
+      "language": "英語",
+      "summary": "BeyondTrustがRemote Support(RS)とPrivileged Remote Access(PRA)製品の事前認証不要のRCE脆弱性を修正。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "CISA Vulnerability Summary for the Week of February 2, 2026",
+      "url": "https://www.cisa.gov/news-events/bulletins/sb26-040",
+      "source": "その他",
+      "language": "英語",
+      "summary": "CISAが2026年2月2日週の脆弱性サマリーを公開。主要な脆弱性情報を網羅。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "February 2026 Patch Tuesday Includes Six Actively Exploited Zero-Days",
+      "url": "https://www.malwarebytes.com/blog/news/2026/02/february-2026-patch-tuesday-includes-six-actively-exploited-zero-days",
+      "source": "その他",
+      "language": "英語",
+      "summary": "MalwarebytesによるMicrosoft 2月月例パッチの詳細分析。CrowdStrikeがCVE-2026-21533の悪用を確認、米国・カナダの組織が標的。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "IPA「情報セキュリティ10大脅威 2026」公開",
+      "url": "https://www.ipa.go.jp/security/10threats/10threats2026.html",
+      "source": "IPA",
+      "language": "日本語",
+      "summary": "IPAが2025年のセキュリティ事案を基に「情報セキュリティ10大脅威2026」を公開。約250名の専門家が審議・投票で決定。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Apple Zero-Day CVE-2026-20700 - dyld Memory Corruption Exploited in Targeted Attacks",
+      "url": "https://www.securityweek.com/",
+      "source": "その他",
+      "language": "英語",
+      "summary": "Appleのdyldにメモリ破損の脆弱性。Google TAGが発見。標的型攻撃で悪用確認済み。iOS 26.3/iPadOS 26.3で修正。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Ivanti EPMM Exploitation CVE-2026-1281 - Bulletproof Hostingからの攻撃が活発化",
+      "url": "https://thehackernews.com/",
+      "source": "The Hacker News",
+      "language": "英語",
+      "summary": "Ivanti EPMMの脆弱性(CVE-2026-1281, CVSS 9.8)が活発に悪用中。GreyNoiseが2/1-9に417セッションの攻撃を記録。未認証でリモートコード実行可能。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "アデコ、フリーランス事業のSESマッチングサービスで不正アクセス",
+      "url": "https://cybersecurity-jp.com/news",
+      "source": "その他",
+      "language": "日本語",
+      "summary": "アデコが2026年2月5日にフリーランス事業のSESマッチングサービスのメールアカウントが不正アクセスを受けたと公表。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "LINEグループ作成を要求されるCEO詐欺メールについてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/01/16/155626",
+      "source": "piyolog",
+      "language": "日本語",
+      "summary": "2025年12月半ばより日本全国でCEO詐欺メールが急増。1ヶ月で600件超の注意喚起。LINEグループ作成を要求する手口が特徴。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Apple iOS 26.3/iPadOS 26.3リリース - ゼロデイ脆弱性CVE-2026-20700に対処",
+      "url": "https://support.apple.com/en-us/100100",
+      "source": "その他",
+      "language": "日本語",
+      "summary": "AppleがiOS 26.3/iPadOS 26.3をリリース。dyldのメモリ破損脆弱性(CVE-2026-20700)が標的型攻撃で悪用確認済み。Google TAGが発見。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "SAP月2月の月例セキュリティアドバイザリ公開 - クリティカル含む27件",
+      "url": "https://www.security-next.com/",
+      "source": "Security NEXT",
+      "language": "日本語",
+      "summary": "SAPが月例アドバイザリを公開。新規26件・更新1件。SAP CRM/S4HANAのコードインジェクション(CVE-2026-0488, CVSS 9.9)など深刻な脆弱性を含む。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "アルバック韓国子会社、ランサムウェア被害を公表",
+      "url": "https://cybersecurity-jp.com/news",
+      "source": "その他",
+      "language": "日本語",
+      "summary": "株式会社アルバックの韓国連結子会社がランサムウェアによる不正アクセス被害を公表(2026年2月4日)。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "ホソカワミクロン、サイバー攻撃の可能性ある事象を確認",
+      "url": "https://cybersecurity-jp.com/news",
+      "source": "その他",
+      "language": "日本語",
+      "summary": "粉体機器メーカーのホソカワミクロンが2026年2月2日にサイバー攻撃を受けた可能性を確認。東証プライム上場企業。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "信和株式会社、サイバー攻撃の可能性ある事象を公表",
+      "url": "https://cybersecurity-jp.com/news",
+      "source": "その他",
+      "language": "日本語",
+      "summary": "信和株式会社(東証スタンダード:3447)が2026年2月2日にサイバー攻撃を受けた可能性を公表。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Microsoft 製品の脆弱性対策について(2026年2月)",
+      "url": "https://www.ipa.go.jp/security/security-alert/2025/0212-ms.html",
+      "source": "IPA",
+      "language": "日本語",
+      "summary": "Microsoftが2026年2月の月例セキュリティ更新プログラムを公開。ゼロデイ脆弱性6件を含む59件の脆弱性に対処。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "2月のMS月例パッチが公開 - ゼロデイ脆弱性6件含む55件に対処",
+      "url": "https://www.security-next.com/180872",
+      "source": "Security NEXT",
+      "language": "日本語",
+      "summary": "2月の月例パッチでは55件の脆弱性に対処。CVSSv3ベーススコア9.0以上の脆弱性も含まれる。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+      "url": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+      "source": "The Hacker News",
+      "language": "英語",
+      "summary": "n8nワークフロー自動化プラットフォームに深刻な脆弱性(CVSS 9.4)が発見。サーバー侵害やデータ窃取の可能性。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "6 Actively Exploited Zero-Days Patched by Microsoft With February 2026 Updates",
+      "url": "https://www.securityweek.com/6-actively-exploited-zero-days-patched-by-microsoft-with-february-2026-updates/",
+      "source": "その他",
+      "language": "英語",
+      "summary": "CISAが6件のゼロデイ脆弱性をKEVカタログに追加。連邦機関は2026年3月3日までに修正適用が必要。",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days",
+      "url": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
+      "source": "The Hacker News",
+      "language": "英語",
+      "summary": "Microsoft February 2026 Patch Tuesday: 59 vulnerabilities fixed including 6 zero-days actively exploited in the wild.",
+      "date": "2026-02-13"
+    },
+    {
+      "title": "",
+      "url": "",
+      "source": "",
+      "language": "",
+      "summary": "",
+      "date": ""
+    }
+  ],
+  "updated": "2026/2/15 11:31:12"
+}

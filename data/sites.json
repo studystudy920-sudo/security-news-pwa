@@ -1,1 +1,53 @@
-{"sites":[]}
+{
+  "sites": [
+    {
+      "name": "JPCERT/CC",
+      "url": "https://www.jpcert.or.jp/",
+      "category": "日本語",
+      "feed": "RSS/Atom",
+      "enabled": true
+    },
+    {
+      "name": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "category": "英語",
+      "feed": "RSS/Atom",
+      "enabled": true
+    },
+    {
+      "name": "IPA（情報処理推進機構）",
+      "url": "https://www.ipa.go.jp/security/announce/alert.html",
+      "category": "日本語",
+      "feed": "RSS/Atom",
+      "enabled": true
+    },
+    {
+      "name": "piyolog",
+      "url": "https://piyolog.hatenadiary.jp/",
+      "category": "日本語",
+      "feed": "RSS/Atom",
+      "enabled": true
+    },
+    {
+      "name": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/",
+      "category": "英語",
+      "feed": "RSS/Atom",
+      "enabled": true
+    },
+    {
+      "name": "Security NEXT",
+      "url": "https://www.security-next.com/",
+      "category": "日本語",
+      "feed": "RSS/Atom",
+      "enabled": true
+    },
+    {
+      "name": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/",
+      "category": "英語",
+      "feed": "RSS/Atom",
+      "enabled": true
+    }
+  ]
+}
