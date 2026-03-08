@@ -315,7 +315,7 @@
       document.getElementById("home-gmail-count").textContent = state.gmail.length+"件";
       document.getElementById("home-gmail").innerHTML = gmailItems.length
         ? gmailItems.map(g=>'<div class="dash-item"><span class="di-source">'+esc(g.from)+'</span>'+esc(g.subject)+'<span class="di-date">'+esc(g.date)+'</span></div>').join("")
-        : '<p class="note">毎朝7時にGmailから自動収集されます</p>';
+        : '<p class="note">毎朝6時にGmailから自動収集されます</p>';
     }
 
     function renderHomeStudy() {
@@ -454,11 +454,11 @@
       let filtered = state.gmail;
       if(state.gmailFilter==="google") filtered=filtered.filter(g=>g.type==="google");
       else if(state.gmailFilter==="newsletter") filtered=filtered.filter(g=>g.type==="newsletter");
-      document.getElementById("gmail-updated").textContent = state.gmail.length ? "毎朝7時に自動収集" : "";
+      document.getElementById("gmail-updated").textContent = state.gmail.length ? "毎朝6時に自動収集" : "";
       document.getElementById("gmail-count").textContent = filtered.length+"件の通知";
       const listEl = document.getElementById("gmail-list");
       if(!filtered.length){
-        listEl.innerHTML='<div class="dash-card"><p class="note">毎朝7時のスケジュールタスクで<br>Gmailからセキュリティ通知を自動収集します。<br><br>収集対象：<br>• Googleセキュリティ通知（ログイン検知等）<br>• ScanNetSecurity<br>• 日経BP セキュリティ<br>• ISACA東京支部<br>• ISC2 Japan</p></div>';
+        listEl.innerHTML='<div class="dash-card"><p class="note">毎朝6時のスケジュールタスクで<br>Gmailからセキュリティ通知を自動収集します。<br><br>収集対象：<br>• Googleセキュリティ通知（ログイン検知等）<br>• ScanNetSecurity<br>• 日経BP セキュリティ<br>• ISACA東京支部<br>• ISC2 Japan</p></div>';
         return;
       }
       listEl.innerHTML = filtered.map(g=>
