@@ -1,0 +1,40 @@
+name: Fetch Security Data
+on:
+  schedule:
+    - cron: '0 22 * * *'   # 毎日 UTC 22:00 = JST 07:00
+  workflow_dispatch:        # 手動実行も可能
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - run: npm install @notionhq/client
+
+      # 1. Notionからデータ取得
+      - name: Fetch data from Notion
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_ARTICLES_DB: ${{ secrets.NOTION_ARTICLES_DB }}
+          NOTION_VIDEOS_DB: ${{ secrets.NOTION_VIDEOS_DB }}
+          NOTION_SITES_DB: ${{ secrets.NOTION_SITES_DB }}
+        run: node scripts/fetch-notion.mjs
+        continue-on-error: true
+
+      # 2. セキュリティRSSフィード取得
+      - name: Fetch security RSS feeds
+        run: node scripts/fetch-rss.mjs
+
+      # 3. コミット & プッシュ
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --staged --quiet || (git commit -m "Update security data \$(date -u +%Y-%m-%dT%H:%M:%SZ)" && git push)
