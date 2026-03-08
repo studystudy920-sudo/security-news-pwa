@@ -66,7 +66,11 @@ function extractDate(xml) {
 }
 
 function stripHTML(html) {
-  return html.replace(/<[^>]*>/g, "").replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, " ").trim();
+  return html
+    .replace(/&lt;/g, "<").replace(/&gt;/g, ">")   // エンティティ→HTMLに戻す
+    .replace(/<[^>]*>/g, "")                         // HTMLタグ除去
+    .replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/\s+/g, " ").trim();
 }
 
 function formatDate(dateStr) {
