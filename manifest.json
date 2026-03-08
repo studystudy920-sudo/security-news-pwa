@@ -1,11 +1,13 @@
 {
-  "name": "セキュリティニュース",
-  "short_name": "SecNews",
+  "name": "SecureDaily - セキュリティ情報 & SC学習",
+  "short_name": "SecureDaily",
+  "description": "セキュリティ情報収集 & 情報処理安全確保支援士(SC)試験学習支援",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#0f172a",
   "theme_color": "#1e40af",
   "orientation": "portrait",
+  "categories": ["education", "news", "security"],
   "icons": [
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }

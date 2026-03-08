@@ -3,72 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, viewport-fit=cover">
-  <title>セキュリティニュース</title>
-  <meta name="description" content="最新のセキュリティニュース・動画を収集・閲覧するアプリ">
+  <title>SecureDaily</title>
+  <meta name="description" content="セキュリティ情報収集 & SC試験学習支援ダッシュボード">
   <meta name="theme-color" content="#1e40af">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="SecNews">
+  <meta name="apple-mobile-web-app-title" content="SecureDaily">
   <link rel="manifest" href="manifest.json">
   <link rel="apple-touch-icon" href="icon-192.png">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    :root {
-      --bg: #0f172a; --bg-card: #1e293b; --bg-hover: #334155;
-      --text: #f1f5f9; --text-dim: #94a3b8;
-      --accent: #3b82f6; --accent-dark: #1e40af;
-      --border: #334155;
-      --safe-top: env(safe-area-inset-top, 0px);
-      --safe-bottom: env(safe-area-inset-bottom, 0px);
+    *{margin:0;padding:0;box-sizing:border-box}
+    :root{
+      --bg:#0f172a;--bg-card:#1e293b;--bg-hover:#334155;
+      --text:#f1f5f9;--text-dim:#94a3b8;
+      --accent:#3b82f6;--accent-dark:#1e40af;
+      --red:#ef4444;--green:#22c55e;--yellow:#eab308;--purple:#a855f7;--orange:#f97316;
+      --border:#334155;
+      --safe-top:env(safe-area-inset-top,0px);
+      --safe-bottom:env(safe-area-inset-bottom,0px);
     }
-    html { font-size: 16px; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
-      background: var(--bg); color: var(--text);
-      min-height: 100dvh; -webkit-font-smoothing: antialiased;
-    }
-    .app { max-width: 480px; margin: 0 auto; padding-top: var(--safe-top); padding-bottom: calc(72px + var(--safe-bottom)); }
-    .header { position: sticky; top: 0; z-index: 100; background: var(--bg); padding: 16px 20px 12px; border-bottom: 1px solid var(--border); }
-    .header h1 { font-size: 1.4rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
-    .header h1 svg { width: 28px; height: 28px; }
-    .header .subtitle { font-size: 0.8rem; color: var(--text-dim); margin-top: 4px; }
-    .tab-bar { position: fixed; bottom: 0; left: 0; right: 0; z-index: 100; background: var(--bg-card); border-top: 1px solid var(--border); display: flex; justify-content: space-around; padding: 8px 0 calc(8px + var(--safe-bottom)); }
-    .tab-btn { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 6px; background: none; border: none; color: var(--text-dim); font-size: 0.65rem; cursor: pointer; transition: color 0.2s; }
-    .tab-btn.active { color: var(--accent); }
-    .tab-btn svg { width: 22px; height: 22px; }
-    .content { padding: 12px 16px; }
-    .tab-content { display: none; }
-    .tab-content.active { display: block; }
-    .filters { display: flex; gap: 8px; padding: 8px 0 12px; overflow-x: auto; }
-    .filter-btn { flex-shrink: 0; padding: 6px 14px; border-radius: 99px; border: 1px solid var(--border); background: none; color: var(--text-dim); font-size: 0.75rem; cursor: pointer; transition: all 0.2s; }
-    .filter-btn.active { background: var(--accent); border-color: var(--accent); color: white; }
-    .card { background: var(--bg-card); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; border: 1px solid var(--border); text-decoration: none; color: inherit; display: block; transition: background 0.2s; }
-    .card:active { background: var(--bg-hover); }
-    .card-title { font-size: 0.95rem; font-weight: 600; line-height: 1.4; margin-bottom: 6px; }
-    .card-meta { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 6px; }
-    .card-summary { font-size: 0.8rem; color: var(--text-dim); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
-    .badge { font-size: 0.65rem; padding: 2px 8px; border-radius: 99px; font-weight: 600; }
-    .badge-source { background: var(--accent-dark); color: #dbeafe; }
-    .badge-ja { background: #1e3a5f; color: #93c5fd; }
-    .badge-en { background: #14532d; color: #86efac; }
-    .badge-date { background: var(--bg); color: var(--text-dim); }
-    .badge-category { background: #581c87; color: #d8b4fe; }
-    .badge-platform { background: #7f1d1d; color: #fca5a5; }
-    .site-card { display: flex; align-items: center; justify-content: space-between; background: var(--bg-card); border-radius: 12px; padding: 14px 16px; margin-bottom: 10px; border: 1px solid var(--border); }
-    .site-info { flex: 1; }
-    .site-name { font-weight: 600; font-size: 0.9rem; }
-    .site-url { font-size: 0.75rem; color: var(--text-dim); word-break: break-all; }
-    .site-toggle { width: 44px; height: 24px; background: var(--border); border-radius: 12px; border: none; position: relative; cursor: pointer; flex-shrink: 0; margin-left: 12px; transition: background 0.3s; }
-    .site-toggle.on { background: #22c55e; }
-    .site-toggle::after { content: ""; width: 20px; height: 20px; background: white; border-radius: 50%; position: absolute; top: 2px; left: 2px; transition: transform 0.3s; }
-    .site-toggle.on::after { transform: translateX(20px); }
-    .loading { display: flex; justify-content: center; padding: 40px; }
-    .spinner { width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .error-msg { text-align: center; padding: 40px 20px; color: #ef4444; font-size: 0.9rem; }
-    .count { font-size: 0.8rem; color: var(--text-dim); padding: 4px 0 8px; }
-    .note { font-size: 0.75rem; color: #64748b; text-align: center; padding: 12px; }
-    .updated { font-size: 0.7rem; color: var(--text-dim); text-align: right; padding: 4px 0; }
+    html{font-size:16px}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans",sans-serif;background:var(--bg);color:var(--text);min-height:100dvh;-webkit-font-smoothing:antialiased}
+    .app{max-width:480px;margin:0 auto;padding-top:var(--safe-top);padding-bottom:calc(72px + var(--safe-bottom))}
+    .header{position:sticky;top:0;z-index:100;background:var(--bg);padding:16px 20px 12px;border-bottom:1px solid var(--border)}
+    .header h1{font-size:1.3rem;font-weight:700;display:flex;align-items:center;gap:8px}
+    .header h1 svg{width:26px;height:26px}
+    .header .subtitle{font-size:0.75rem;color:var(--text-dim);margin-top:4px}
+    .tab-bar{position:fixed;bottom:0;left:0;right:0;z-index:100;background:var(--bg-card);border-top:1px solid var(--border);display:flex;justify-content:space-around;padding:6px 0 calc(6px + var(--safe-bottom))}
+    .tab-btn{flex:1;display:flex;flex-direction:column;align-items:center;gap:3px;padding:4px;background:none;border:none;color:var(--text-dim);font-size:0.6rem;cursor:pointer;transition:color .2s}
+    .tab-btn.active{color:var(--accent)}
+    .tab-btn svg{width:20px;height:20px}
+    .content{padding:12px 16px}
+    .tab-content{display:none}.tab-content.active{display:block}
+    .filters{display:flex;gap:6px;padding:8px 0 12px;overflow-x:auto;-webkit-overflow-scrolling:touch}
+    .filter-btn{flex-shrink:0;padding:5px 12px;border-radius:99px;border:1px solid var(--border);background:none;color:var(--text-dim);font-size:0.7rem;cursor:pointer;transition:all .2s;white-space:nowrap}
+    .filter-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+    .card{background:var(--bg-card);border-radius:12px;padding:14px 16px;margin-bottom:10px;border:1px solid var(--border);text-decoration:none;color:inherit;display:block;transition:background .2s}
+    .card:active{background:var(--bg-hover)}
+    .card-title{font-size:0.9rem;font-weight:600;line-height:1.4;margin-bottom:6px}
+    .card-meta{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+    .card-summary{font-size:0.78rem;color:var(--text-dim);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .badge{font-size:0.6rem;padding:2px 7px;border-radius:99px;font-weight:600}
+    .badge-source{background:var(--accent-dark);color:#dbeafe}
+    .badge-ja{background:#1e3a5f;color:#93c5fd}
+    .badge-en{background:#14532d;color:#86efac}
+    .badge-date{background:var(--bg);color:var(--text-dim)}
+    .badge-alert{background:#7f1d1d;color:#fca5a5}
+    .badge-vuln{background:#78350f;color:#fde68a}
+    .badge-news{background:#14532d;color:#86efac}
+    .badge-analysis{background:#581c87;color:#d8b4fe}
+    .badge-gmail{background:#1e3a5f;color:#93c5fd}
+    .badge-category{background:#581c87;color:#d8b4fe}
+    .badge-platform{background:#7f1d1d;color:#fca5a5}
+    .count{font-size:0.78rem;color:var(--text-dim);padding:4px 0 8px}
+    .updated{font-size:0.68rem;color:var(--text-dim);text-align:right;padding:4px 0}
+    .error-msg{text-align:center;padding:40px 20px;color:var(--red);font-size:0.85rem}
+    .note{font-size:0.72rem;color:#64748b;text-align:center;padding:12px}
+    /* ホームダッシュボード */
+    .dash-section{margin-bottom:16px}
+    .dash-section h2{font-size:0.95rem;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:6px}
+    .dash-section h2 .dash-count{font-size:0.7rem;color:var(--text-dim);font-weight:400}
+    .dash-card{background:var(--bg-card);border-radius:12px;padding:14px 16px;border:1px solid var(--border);margin-bottom:8px}
+    .dash-item{padding:8px 0;border-bottom:1px solid var(--border);font-size:0.82rem;line-height:1.4}
+    .dash-item:last-child{border-bottom:none}
+    .dash-item a{color:var(--text);text-decoration:none}
+    .dash-item .di-source{font-size:0.65rem;color:var(--accent);margin-right:6px}
+    .dash-item .di-date{font-size:0.6rem;color:var(--text-dim);float:right}
+    .dash-more{font-size:0.75rem;color:var(--accent);text-align:center;padding:8px;cursor:pointer}
+    /* SC学習 */
+    .study-hero{background:linear-gradient(135deg,#1e40af,#7c3aed);border-radius:16px;padding:20px;margin-bottom:16px;text-align:center}
+    .study-hero .study-icon{font-size:2.5rem;margin-bottom:8px}
+    .study-hero .study-day{font-size:0.75rem;color:#c7d2fe}
+    .study-hero .study-theme{font-size:1.2rem;font-weight:700;margin:6px 0}
+    .study-hero .study-desc{font-size:0.78rem;color:#e0e7ff;line-height:1.5}
+    .study-keywords{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+    .study-kw{background:rgba(255,255,255,0.15);color:#e0e7ff;padding:3px 10px;border-radius:99px;font-size:0.68rem}
+    .study-items{list-style:none;padding:0}
+    .study-items li{padding:10px 0;border-bottom:1px solid var(--border);font-size:0.82rem;line-height:1.5;display:flex;align-items:flex-start;gap:8px}
+    .study-items li::before{content:"□";color:var(--accent);flex-shrink:0;margin-top:1px}
+    .study-items li:last-child{border-bottom:none}
+    .study-link{display:flex;align-items:center;gap:8px;background:var(--bg-card);border-radius:10px;padding:12px 14px;margin-bottom:8px;border:1px solid var(--border);text-decoration:none;color:var(--text);font-size:0.82rem;font-weight:500;transition:background .2s}
+    .study-link:active{background:var(--bg-hover)}
+    .study-link .sl-arrow{margin-left:auto;color:var(--text-dim)}
+    .exam-info{background:var(--bg-card);border-radius:12px;padding:16px;border:1px solid var(--border);margin-top:16px}
+    .exam-info h3{font-size:0.85rem;margin-bottom:10px}
+    .exam-info .ei-row{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid var(--border);font-size:0.78rem}
+    .exam-info .ei-row:last-child{border-bottom:none}
+    .exam-info .ei-label{color:var(--text-dim)}
+    /* Gmail通知 */
+    .gmail-card{background:var(--bg-card);border-radius:12px;padding:14px 16px;margin-bottom:10px;border:1px solid var(--border);border-left:3px solid var(--accent)}
+    .gmail-card.alert{border-left-color:var(--red)}
+    .gmail-card.newsletter{border-left-color:var(--green)}
+    .gmail-card .gc-from{font-size:0.7rem;color:var(--accent);font-weight:600}
+    .gmail-card .gc-subject{font-size:0.88rem;font-weight:600;margin:4px 0}
+    .gmail-card .gc-snippet{font-size:0.75rem;color:var(--text-dim);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    .gmail-card .gc-date{font-size:0.65rem;color:var(--text-dim);margin-top:6px}
+    /* サイト管理 */
+    .site-card{display:flex;align-items:center;justify-content:space-between;background:var(--bg-card);border-radius:12px;padding:14px 16px;margin-bottom:10px;border:1px solid var(--border)}
+    .site-info{flex:1}.site-name{font-weight:600;font-size:0.85rem}.site-url{font-size:0.7rem;color:var(--text-dim);word-break:break-all}
+    .site-toggle{width:44px;height:24px;background:var(--border);border-radius:12px;border:none;position:relative;cursor:pointer;flex-shrink:0;margin-left:12px;transition:background .3s}
+    .site-toggle.on{background:var(--green)}
+    .site-toggle::after{content:"";width:20px;height:20px;background:#fff;border-radius:50%;position:absolute;top:2px;left:2px;transition:transform .3s}
+    .site-toggle.on::after{transform:translateX(20px)}
+    /* 動画 */
+    .video-card{background:var(--bg-card);border-radius:12px;padding:14px 16px;margin-bottom:10px;border:1px solid var(--border);text-decoration:none;color:inherit;display:block;transition:background .2s}
+    .video-card:active{background:var(--bg-hover)}
+    /* ストリーク */
+    .streak{display:inline-flex;align-items:center;gap:4px;background:rgba(249,115,22,0.15);color:var(--orange);padding:4px 10px;border-radius:99px;font-size:0.75rem;font-weight:600}
   </style>
 </head>
 <body>
@@ -76,132 +117,401 @@
     <header class="header">
       <h1>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        セキュリティニュース
+        SecureDaily
       </h1>
-      <p class="subtitle">最新のセキュリティ情報をまとめてチェック</p>
+      <p class="subtitle">セキュリティ情報収集 & SC試験学習支援</p>
     </header>
 
     <main class="content">
-      <div id="tab-articles" class="tab-content active">
-        <div class="filters">
-          <button class="filter-btn active" data-filter="all" onclick="setFilter('articles','all')">すべて</button>
-          <button class="filter-btn" data-filter="ja" onclick="setFilter('articles','ja')">日本語</button>
-          <button class="filter-btn" data-filter="en" onclick="setFilter('articles','en')">英語</button>
+      <!-- ===== ホーム ===== -->
+      <div id="tab-home" class="tab-content active">
+        <div id="home-updated" class="updated"></div>
+
+        <div class="dash-section">
+          <h2>🚨 セキュリティアラート <span class="dash-count" id="home-alert-count"></span></h2>
+          <div id="home-alerts" class="dash-card"></div>
         </div>
+
+        <div class="dash-section">
+          <h2>📰 最新ニュース <span class="dash-count" id="home-news-count"></span></h2>
+          <div id="home-news" class="dash-card"></div>
+          <div class="dash-more" onclick="switchTab('articles')">すべての記事を見る →</div>
+        </div>
+
+        <div class="dash-section">
+          <h2>📚 今日のSC学習テーマ</h2>
+          <div id="home-study"></div>
+        </div>
+
+        <div class="dash-section">
+          <h2>📧 Gmail通知 <span class="dash-count" id="home-gmail-count"></span></h2>
+          <div id="home-gmail" class="dash-card"></div>
+          <div class="dash-more" onclick="switchTab('gmail')">すべての通知を見る →</div>
+        </div>
+      </div>
+
+      <!-- ===== 記事 ===== -->
+      <div id="tab-articles" class="tab-content">
+        <div class="filters" id="articles-filters"></div>
         <div id="articles-updated" class="updated"></div>
         <div id="articles-count" class="count"></div>
         <div id="articles-list"></div>
       </div>
 
-      <div id="tab-videos" class="tab-content">
-        <div class="filters">
-          <button class="filter-btn active" data-filter="all" onclick="setFilter('videos','all')">すべて</button>
-          <button class="filter-btn" data-filter="ja" onclick="setFilter('videos','ja')">日本語</button>
-          <button class="filter-btn" data-filter="en" onclick="setFilter('videos','en')">英語</button>
-        </div>
-        <div id="videos-updated" class="updated"></div>
-        <div id="videos-count" class="count"></div>
-        <div id="videos-list"></div>
+      <!-- ===== SC学習 ===== -->
+      <div id="tab-study" class="tab-content">
+        <div id="study-content"></div>
       </div>
 
-      <div id="tab-sites" class="tab-content">
-        <div id="sites-list"></div>
-        <p class="note">サイトの追加・削除はNotionアプリから行えます</p>
+      <!-- ===== Gmail通知 ===== -->
+      <div id="tab-gmail" class="tab-content">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all" onclick="setGmailFilter('all')">すべて</button>
+          <button class="filter-btn" data-filter="google" onclick="setGmailFilter('google')">Google通知</button>
+          <button class="filter-btn" data-filter="newsletter" onclick="setGmailFilter('newsletter')">メルマガ</button>
+        </div>
+        <div id="gmail-updated" class="updated"></div>
+        <div id="gmail-count" class="count"></div>
+        <div id="gmail-list"></div>
+      </div>
+
+      <!-- ===== 設定 ===== -->
+      <div id="tab-settings" class="tab-content">
+        <div class="dash-section">
+          <h2>📡 RSSフィードソース</h2>
+          <div id="feed-sources"></div>
+        </div>
+        <div class="dash-section">
+          <h2>🌐 監視サイト</h2>
+          <div id="sites-list"></div>
+          <p class="note">サイトの追加・削除はNotionアプリから行えます</p>
+        </div>
+        <div class="dash-section">
+          <h2>📊 試験情報</h2>
+          <div id="exam-info"></div>
+        </div>
       </div>
     </main>
 
     <nav class="tab-bar">
-      <button class="tab-btn active" onclick="switchTab('articles')">
+      <button class="tab-btn active" onclick="switchTab('home')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        ホーム
+      </button>
+      <button class="tab-btn" onclick="switchTab('articles')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/></svg>
         記事
       </button>
-      <button class="tab-btn" onclick="switchTab('videos')">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
-        動画
+      <button class="tab-btn" onclick="switchTab('study')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/></svg>
+        SC学習
       </button>
-      <button class="tab-btn" onclick="switchTab('sites')">
+      <button class="tab-btn" onclick="switchTab('gmail')">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/></svg>
+        通知
+      </button>
+      <button class="tab-btn" onclick="switchTab('settings')">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 01-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
-        サイト管理
+        設定
       </button>
     </nav>
   </div>
 
   <script>
-    let data = { articles: [], videos: [], sites: [], updated: "" };
-    let currentTab = "articles";
-    let filters = { articles: "all", videos: "all" };
+    // ===== State =====
+    const state = {
+      articles: [], feeds: [], sites: [], videos: [], gmail: [], scStudy: null,
+      updated: "", feedSources: [],
+      articleFilter: "all", gmailFilter: "all",
+    };
+    const TABS = ["home","articles","study","gmail","settings"];
+    let currentTab = "home";
 
-    async function loadData() {
-      try {
-        const res = await fetch("data/articles.json");
-        if (res.ok) { const json = await res.json(); data.articles = json.articles || []; data.updated = json.updated || ""; }
-      } catch (e) { console.log("記事データなし"); }
-      try {
-        const res = await fetch("data/videos.json");
-        if (res.ok) { const json = await res.json(); data.videos = json.videos || []; }
-      } catch (e) { console.log("動画データなし"); }
-      try {
-        const res = await fetch("data/sites.json");
-        if (res.ok) { const json = await res.json(); data.sites = json.sites || []; }
-      } catch (e) { console.log("サイトデータなし"); }
+    // ===== Data Loading =====
+    async function loadAll() {
+      const fetches = [
+        fetch("data/articles.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
+        fetch("data/security-feeds.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
+        fetch("data/videos.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
+        fetch("data/sites.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
+        fetch("data/sc-study.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
+        fetch("data/gmail-digest.json").then(r=>r.ok?r.json():{}).catch(()=>({})),
+      ];
+      const [arts, feeds, vids, sites, sc, gmail] = await Promise.all(fetches);
+      state.articles = arts.articles || [];
+      state.updated = arts.updated || feeds.updated || "";
+      state.feeds = feeds.feeds || [];
+      state.feedSources = feeds.sources || [];
+      state.videos = vids.videos || [];
+      state.sites = sites.sites || [];
+      state.scStudy = sc;
+      state.gmail = gmail.notifications || [];
       render();
     }
 
+    // ===== Tab Switching =====
     function switchTab(tab) {
       currentTab = tab;
-      document.querySelectorAll(".tab-content").forEach(el => el.classList.remove("active"));
-      document.getElementById("tab-" + tab).classList.add("active");
-      document.querySelectorAll(".tab-btn").forEach((btn, i) => {
-        btn.classList.toggle("active", ["articles", "videos", "sites"][i] === tab);
-      });
-    }
-
-    function setFilter(tab, value) {
-      filters[tab] = value;
-      const container = document.getElementById("tab-" + tab);
-      container.querySelectorAll(".filter-btn").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.filter === value);
+      document.querySelectorAll(".tab-content").forEach(el=>el.classList.remove("active"));
+      document.getElementById("tab-"+tab).classList.add("active");
+      document.querySelectorAll(".tab-btn").forEach((btn,i)=>{
+        btn.classList.toggle("active",TABS[i]===tab);
       });
       render();
     }
 
-    function applyFilter(items, tab) {
-      const f = filters[tab];
-      if (f === "all") return items;
-      if (f === "ja") return items.filter(i => i.language === "日本語");
-      if (f === "en") return items.filter(i => i.language === "英語");
-      return items;
+    // ===== Filters =====
+    function setArticleFilter(val) {
+      state.articleFilter = val;
+      document.querySelectorAll("#articles-filters .filter-btn").forEach(b=>{
+        b.classList.toggle("active", b.dataset.filter===val);
+      });
+      renderArticles();
+    }
+    function setGmailFilter(val) {
+      state.gmailFilter = val;
+      document.querySelectorAll("#tab-gmail .filter-btn").forEach(b=>{
+        b.classList.toggle("active", b.dataset.filter===val);
+      });
+      renderGmail();
     }
 
-    function render() { renderArticles(); renderVideos(); renderSites(); }
+    // ===== Rendering =====
+    function render() {
+      if(currentTab==="home") renderHome();
+      else if(currentTab==="articles") renderArticles();
+      else if(currentTab==="study") renderStudy();
+      else if(currentTab==="gmail") renderGmail();
+      else if(currentTab==="settings") renderSettings();
+    }
 
+    function esc(s){if(!s)return"";return s.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;")}
+
+    function categoryBadge(cat) {
+      const m = {alert:"badge-alert",vuln:"badge-vuln",news:"badge-news",analysis:"badge-analysis"};
+      const labels = {alert:"アラート",vuln:"脆弱性",news:"ニュース",analysis:"分析"};
+      return '<span class="badge '+(m[cat]||"badge-source")+'">'+(labels[cat]||cat)+'</span>';
+    }
+
+    // --- Home ---
+    function renderHome() {
+      document.getElementById("home-updated").textContent = state.updated ? "最終更新: "+state.updated : "";
+      // Alerts (JPCERT, IPA, CISA)
+      const alerts = state.articles.filter(a=>["JPCERT/CC","IPA","CISA","JVN"].includes(a.source)).slice(0,5);
+      document.getElementById("home-alert-count").textContent = alerts.length+"件";
+      document.getElementById("home-alerts").innerHTML = alerts.length
+        ? alerts.map(a=>'<div class="dash-item"><a href="'+esc(a.url)+'" target="_blank"><span class="di-source">'+esc(a.source)+'</span>'+esc(a.title)+'<span class="di-date">'+esc(a.date)+'</span></a></div>').join("")
+        : '<p class="note">新しいアラートはありません</p>';
+      // News
+      const news = state.articles.filter(a=>!["JPCERT/CC","IPA","CISA","JVN"].includes(a.source)).slice(0,5);
+      document.getElementById("home-news-count").textContent = state.articles.length+"件";
+      document.getElementById("home-news").innerHTML = news.length
+        ? news.map(a=>'<div class="dash-item"><a href="'+esc(a.url)+'" target="_blank"><span class="di-source">'+esc(a.source)+'</span>'+esc(a.title)+'<span class="di-date">'+esc(a.date)+'</span></a></div>').join("")
+        : '<p class="note">記事がありません</p>';
+      // SC Study
+      renderHomeStudy();
+      // Gmail
+      const gmailItems = state.gmail.slice(0,3);
+      document.getElementById("home-gmail-count").textContent = state.gmail.length+"件";
+      document.getElementById("home-gmail").innerHTML = gmailItems.length
+        ? gmailItems.map(g=>'<div class="dash-item"><span class="di-source">'+esc(g.from)+'</span>'+esc(g.subject)+'<span class="di-date">'+esc(g.date)+'</span></div>').join("")
+        : '<p class="note">毎朝7時にGmailから自動収集されます</p>';
+    }
+
+    function renderHomeStudy() {
+      if(!state.scStudy || !state.scStudy.topics) {
+        document.getElementById("home-study").innerHTML = '<p class="note">学習データ読込中...</p>';
+        return;
+      }
+      const day = new Date().getDay();
+      const topic = state.scStudy.topics.find(t=>t.day===day) || state.scStudy.topics[0];
+      const streak = parseInt(localStorage.getItem("sc-streak")||"0");
+      document.getElementById("home-study").innerHTML =
+        '<div class="study-hero" onclick="switchTab(\'study\')" style="cursor:pointer">'+
+        '<div class="study-icon">'+topic.icon+'</div>'+
+        '<div class="study-day">'+topic.dayName+'</div>'+
+        '<div class="study-theme">'+esc(topic.theme)+'</div>'+
+        '<div class="study-desc">'+esc(topic.description)+'</div>'+
+        (streak>0?'<div style="margin-top:10px"><span class="streak">🔥 '+streak+'日連続学習中</span></div>':'')+
+        '</div>';
+    }
+
+    // --- Articles ---
     function renderArticles() {
-      const filtered = applyFilter(data.articles, "articles");
-      document.getElementById("articles-updated").textContent = data.updated ? "最終更新: " + data.updated : "";
-      document.getElementById("articles-count").textContent = filtered.length + "件の記事";
+      // Build filter buttons
+      const sources = [...new Set(state.articles.map(a=>a.source))];
+      const filterEl = document.getElementById("articles-filters");
+      filterEl.innerHTML =
+        '<button class="filter-btn '+(state.articleFilter==="all"?"active":"")+'" data-filter="all" onclick="setArticleFilter(\'all\')">すべて</button>'+
+        '<button class="filter-btn '+(state.articleFilter==="ja"?"active":"")+'" data-filter="ja" onclick="setArticleFilter(\'ja\')">日本語</button>'+
+        '<button class="filter-btn '+(state.articleFilter==="en"?"active":"")+'" data-filter="en" onclick="setArticleFilter(\'en\')">英語</button>'+
+        '<button class="filter-btn '+(state.articleFilter==="alert"?"active":"")+'" data-filter="alert" onclick="setArticleFilter(\'alert\')">アラート</button>'+
+        '<button class="filter-btn '+(state.articleFilter==="vuln"?"active":"")+'" data-filter="vuln" onclick="setArticleFilter(\'vuln\')">脆弱性</button>';
+      // Filter
+      let filtered = state.articles;
+      if(state.articleFilter==="ja") filtered = filtered.filter(a=>a.language==="日本語");
+      else if(state.articleFilter==="en") filtered = filtered.filter(a=>a.language==="英語");
+      else if(state.articleFilter==="alert") filtered = filtered.filter(a=>a.category==="alert"||["JPCERT/CC","IPA","CISA"].includes(a.source));
+      else if(state.articleFilter==="vuln") filtered = filtered.filter(a=>a.category==="vuln"||a.source==="JVN");
+      document.getElementById("articles-updated").textContent = state.updated?"最終更新: "+state.updated:"";
+      document.getElementById("articles-count").textContent = filtered.length+"件の記事";
       const listEl = document.getElementById("articles-list");
-      if (filtered.length === 0) { listEl.innerHTML = '<p class="error-msg">記事がありません</p>'; return; }
-      listEl.innerHTML = filtered.map(a => '<a href="'+a.url+'" target="_blank" rel="noopener noreferrer" class="card"><div class="card-title">'+esc(a.title)+' ↗</div><div class="card-meta"><span class="badge badge-source">'+esc(a.source)+'</span><span class="badge badge-'+(a.language==="日本語"?"ja":"en")+'">'+esc(a.language)+'</span><span class="badge badge-date">'+esc(a.date)+'</span></div><div class="card-summary">'+esc(a.summary)+'</div></a>').join("");
+      if(!filtered.length){listEl.innerHTML='<p class="error-msg">記事がありません</p>';return;}
+      listEl.innerHTML = filtered.map(a=>
+        '<a href="'+esc(a.url)+'" target="_blank" rel="noopener" class="card">'+
+        '<div class="card-title">'+esc(a.title)+' ↗</div>'+
+        '<div class="card-meta">'+
+        '<span class="badge badge-source">'+esc(a.source)+'</span>'+
+        (a.category?categoryBadge(a.category):'')+
+        '<span class="badge badge-'+(a.language==="日本語"?"ja":"en")+'">'+esc(a.language)+'</span>'+
+        '<span class="badge badge-date">'+esc(a.date)+'</span>'+
+        '</div>'+
+        '<div class="card-summary">'+esc(a.summary)+'</div>'+
+        '</a>'
+      ).join("");
     }
 
-    function renderVideos() {
-      const filtered = applyFilter(data.videos, "videos");
-      document.getElementById("videos-count").textContent = filtered.length + "件の動画";
-      const listEl = document.getElementById("videos-list");
-      if (filtered.length === 0) { listEl.innerHTML = '<p class="error-msg">動画がありません</p>'; return; }
-      listEl.innerHTML = filtered.map(v => '<a href="'+v.url+'" target="_blank" rel="noopener noreferrer" class="card"><div class="card-title">'+esc(v.title)+' ↗</div><div class="card-meta"><span class="badge badge-category">'+esc(v.category)+'</span><span class="badge badge-platform">'+esc(v.platform)+'</span><span class="badge badge-'+(v.language==="日本語"?"ja":"en")+'">'+esc(v.language)+'</span><span class="badge badge-date">'+esc(v.date)+'</span></div><div class="card-summary">'+(v.channel?"📺 "+esc(v.channel):"")+(v.channel&&v.summary?" — ":"")+esc(v.summary)+'</div></a>').join("");
+    // --- SC Study ---
+    function renderStudy() {
+      if(!state.scStudy||!state.scStudy.topics){
+        document.getElementById("study-content").innerHTML='<p class="error-msg">学習データ読込中...</p>';
+        return;
+      }
+      const day = new Date().getDay();
+      const topic = state.scStudy.topics.find(t=>t.day===day)||state.scStudy.topics[0];
+      const streak = parseInt(localStorage.getItem("sc-streak")||"0");
+      const lastDate = localStorage.getItem("sc-last-date")||"";
+      const today = new Date().toISOString().split("T")[0];
+
+      let html = '<div class="study-hero">'+
+        '<div class="study-icon">'+topic.icon+'</div>'+
+        '<div class="study-day">'+topic.dayName+'の学習テーマ</div>'+
+        '<div class="study-theme">'+esc(topic.theme)+'</div>'+
+        '<div class="study-desc">'+esc(topic.description)+'</div>'+
+        '<div class="study-keywords">'+topic.keywords.map(k=>'<span class="study-kw">'+esc(k)+'</span>').join("")+'</div>'+
+        (streak>0?'<span class="streak">🔥 '+streak+'日連続</span>':'')+
+        '</div>';
+
+      html += '<h3 style="font-size:0.9rem;margin:16px 0 10px">📝 今日の学習項目</h3>';
+      html += '<div class="dash-card"><ul class="study-items">'+
+        topic.studyItems.map(item=>'<li>'+esc(item)+'</li>').join("")+
+        '</ul></div>';
+
+      html += '<h3 style="font-size:0.9rem;margin:16px 0 10px">🔗 学習リソース</h3>';
+      html += topic.links.map(l=>
+        '<a href="'+esc(l.url)+'" target="_blank" class="study-link">'+esc(l.title)+'<span class="sl-arrow">→</span></a>'
+      ).join("");
+
+      // 学習完了ボタン
+      if(lastDate!==today) {
+        html += '<div style="text-align:center;margin:20px 0">'+
+          '<button onclick="markStudyDone()" style="background:var(--accent);color:#fff;border:none;padding:12px 32px;border-radius:99px;font-size:0.85rem;font-weight:600;cursor:pointer">✅ 今日の学習を完了</button>'+
+          '</div>';
+      } else {
+        html += '<div style="text-align:center;margin:20px 0;color:var(--green);font-size:0.85rem">✅ 今日の学習は完了しています！</div>';
+      }
+
+      // 試験情報
+      if(state.scStudy.examInfo) {
+        const ei = state.scStudy.examInfo;
+        html += '<div class="exam-info"><h3>📊 '+esc(ei.name)+'</h3>'+
+          '<div class="ei-row"><span class="ei-label">次回試験</span><span>'+esc(ei.nextExam)+'</span></div>'+
+          '<div class="ei-row"><span class="ei-label">合格率</span><span>'+esc(ei.passRate)+'</span></div>'+
+          ei.sections.map(s=>'<div class="ei-row"><span class="ei-label">'+esc(s.name)+'</span><span>'+esc(s.format)+'</span></div>').join("")+
+          '</div>';
+        html += '<h3 style="font-size:0.9rem;margin:16px 0 10px">📚 おすすめリソース</h3>';
+        html += ei.resources.map(r=>
+          '<a href="'+esc(r.url)+'" target="_blank" class="study-link"><div><div>'+esc(r.title)+'</div><div style="font-size:0.7rem;color:var(--text-dim);font-weight:400">'+esc(r.description)+'</div></div><span class="sl-arrow">→</span></a>'
+        ).join("");
+      }
+
+      // 全曜日テーマ一覧
+      html += '<h3 style="font-size:0.9rem;margin:20px 0 10px">📅 週間学習スケジュール</h3>';
+      html += state.scStudy.topics.map(t=>
+        '<div class="dash-card" style="padding:10px 14px;margin-bottom:6px;'+(t.day===day?'border-left:3px solid var(--accent)':'')+
+        '"><span style="font-size:0.75rem;color:var(--accent)">'+t.dayName+'</span> '+t.icon+' <span style="font-size:0.82rem;font-weight:600">'+esc(t.theme)+'</span></div>'
+      ).join("");
+
+      document.getElementById("study-content").innerHTML = html;
     }
 
-    function renderSites() {
-      const listEl = document.getElementById("sites-list");
-      if (data.sites.length === 0) { listEl.innerHTML = '<p class="error-msg">サイトデータがありません</p>'; return; }
-      listEl.innerHTML = data.sites.map(s => '<div class="site-card"><div class="site-info"><div class="site-name">'+esc(s.name)+'</div><div class="site-url">'+esc(s.url)+'</div><div class="card-meta" style="margin-top:4px"><span class="badge badge-'+(s.category==="日本語"?"ja":"en")+'">'+esc(s.category)+'</span></div></div><div class="site-toggle '+(s.enabled?"on":"")+'"></div></div>').join("");
+    function markStudyDone() {
+      const today = new Date().toISOString().split("T")[0];
+      const lastDate = localStorage.getItem("sc-last-date")||"";
+      let streak = parseInt(localStorage.getItem("sc-streak")||"0");
+      // 昨日の日付を計算
+      const yesterday = new Date(Date.now()-86400000).toISOString().split("T")[0];
+      if(lastDate===yesterday) streak++;
+      else if(lastDate!==today) streak=1;
+      localStorage.setItem("sc-streak", streak.toString());
+      localStorage.setItem("sc-last-date", today);
+      renderStudy();
+      renderHomeStudy();
     }
 
-    function esc(str) { if (!str) return ""; return str.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"); }
+    // --- Gmail ---
+    function renderGmail() {
+      let filtered = state.gmail;
+      if(state.gmailFilter==="google") filtered=filtered.filter(g=>g.type==="google");
+      else if(state.gmailFilter==="newsletter") filtered=filtered.filter(g=>g.type==="newsletter");
+      document.getElementById("gmail-updated").textContent = state.gmail.length ? "毎朝7時に自動収集" : "";
+      document.getElementById("gmail-count").textContent = filtered.length+"件の通知";
+      const listEl = document.getElementById("gmail-list");
+      if(!filtered.length){
+        listEl.innerHTML='<div class="dash-card"><p class="note">毎朝7時のスケジュールタスクで<br>Gmailからセキュリティ通知を自動収集します。<br><br>収集対象：<br>• Googleセキュリティ通知（ログイン検知等）<br>• ScanNetSecurity<br>• 日経BP セキュリティ<br>• ISACA東京支部<br>• ISC2 Japan</p></div>';
+        return;
+      }
+      listEl.innerHTML = filtered.map(g=>
+        '<div class="gmail-card '+(g.type==="google"?"alert":"newsletter")+'">'+
+        '<div class="gc-from">'+esc(g.from)+'</div>'+
+        '<div class="gc-subject">'+esc(g.subject)+'</div>'+
+        '<div class="gc-snippet">'+esc(g.snippet)+'</div>'+
+        '<div class="gc-date">'+esc(g.date)+'</div>'+
+        '</div>'
+      ).join("");
+    }
 
-    if ("serviceWorker" in navigator) { navigator.serviceWorker.register("sw.js"); }
-    loadData();
+    // --- Settings ---
+    function renderSettings() {
+      // Feed sources
+      const srcEl = document.getElementById("feed-sources");
+      if(state.feedSources.length) {
+        srcEl.innerHTML = state.feedSources.map(s=>{
+          const langBadge = s.lang==="ja"?"badge-ja":"badge-en";
+          const langLabel = s.lang==="ja"?"日本語":"英語";
+          return '<div class="site-card"><div class="site-info"><div class="site-name">'+esc(s.name)+'</div>'+
+            '<div class="card-meta" style="margin-top:4px"><span class="badge '+langBadge+'">'+langLabel+'</span>'+
+            categoryBadge(s.category)+'</div></div><div class="site-toggle on"></div></div>';
+        }).join("");
+      } else {
+        srcEl.innerHTML = '<p class="note">RSSフィードソースはGitHub Actionsで定期取得されます</p>';
+      }
+      // Sites
+      const sitesEl = document.getElementById("sites-list");
+      if(state.sites.length) {
+        sitesEl.innerHTML = state.sites.map(s=>
+          '<div class="site-card"><div class="site-info"><div class="site-name">'+esc(s.name)+'</div>'+
+          '<div class="site-url">'+esc(s.url)+'</div></div>'+
+          '<div class="site-toggle '+(s.enabled?"on":"")+'"></div></div>'
+        ).join("");
+      } else {
+        sitesEl.innerHTML = '<p class="note">Notionからサイトデータを取得中...</p>';
+      }
+      // Exam info
+      if(state.scStudy && state.scStudy.examInfo) {
+        const ei = state.scStudy.examInfo;
+        document.getElementById("exam-info").innerHTML =
+          '<div class="exam-info"><h3>'+esc(ei.name)+'</h3>'+
+          '<div class="ei-row"><span class="ei-label">次回試験</span><span>'+esc(ei.nextExam)+'</span></div>'+
+          '<div class="ei-row"><span class="ei-label">合格率</span><span>'+esc(ei.passRate)+'</span></div>'+
+          ei.sections.map(s=>'<div class="ei-row"><span class="ei-label">'+esc(s.name)+'</span><span>'+esc(s.format)+'</span></div>').join("")+
+          '</div>';
+      }
+    }
+
+    // ===== Init =====
+    if("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+    loadAll();
   </script>
 </body>
 </html>

@@ -1,0 +1,153 @@
+{
+  "topics": [
+    {
+      "day": 0,
+      "dayName": "日曜",
+      "theme": "総合復習・模擬問題",
+      "icon": "📝",
+      "keywords": ["過去問演習", "弱点補強", "時間配分練習"],
+      "description": "1週間の学習内容を振り返り、過去問で実力チェック。午後問題の記述練習を重点的に。",
+      "studyItems": [
+        "今週学んだキーワードの総復習",
+        "sc-siken.com で模擬試験モードを実施",
+        "間違えた問題の解説を熟読",
+        "午後問題を1問、時間を計って解く"
+      ],
+      "links": [
+        { "title": "sc-siken.com 過去問道場", "url": "https://www.sc-siken.com/sckakomon.php" },
+        { "title": "IPA 過去問PDF", "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/index.html" }
+      ]
+    },
+    {
+      "day": 1,
+      "dayName": "月曜",
+      "theme": "ネットワークセキュリティ",
+      "icon": "🌐",
+      "keywords": ["ファイアウォール", "VPN", "IDS/IPS", "DMZ", "TCP/IP", "プロキシ"],
+      "description": "午後試験で最頻出のテーマ。ネットワーク構成図を読み解き、通信フローとセキュリティ対策を理解する。",
+      "studyItems": [
+        "ファイアウォールのルール設定（許可/拒否の判断）",
+        "VPNの種類と用途（IPsec, SSL-VPN）",
+        "IDS/IPSの検知方式（シグネチャ型/アノマリ型）",
+        "DMZ構成のベストプラクティス",
+        "ポート番号と主要プロトコルの暗記"
+      ],
+      "links": [
+        { "title": "SE娘の剣 - ネットワーク", "url": "https://sc.seeeko.com/" },
+        { "title": "sc-siken.com 過去問道場", "url": "https://www.sc-siken.com/sckakomon.php" }
+      ]
+    },
+    {
+      "day": 2,
+      "dayName": "火曜",
+      "theme": "暗号・認証技術",
+      "icon": "🔐",
+      "keywords": ["TLS/SSL", "PKI", "電子署名", "ハッシュ関数", "共通鍵/公開鍵", "多要素認証"],
+      "description": "暗号技術はSC試験の基礎。鍵管理、証明書チェーン、認証プロトコルを体系的に理解する。",
+      "studyItems": [
+        "共通鍵暗号と公開鍵暗号の違い・用途",
+        "TLS 1.3のハンドシェイクの流れ",
+        "デジタル証明書とPKIの仕組み",
+        "OAuth 2.0 / SAML / OpenID Connectの違い",
+        "ハッシュ関数（SHA-256等）の特性と用途"
+      ],
+      "links": [
+        { "title": "SE娘の剣 - 暗号", "url": "https://sc.seeeko.com/" },
+        { "title": "sc-siken.com 過去問道場", "url": "https://www.sc-siken.com/sckakomon.php" }
+      ]
+    },
+    {
+      "day": 3,
+      "dayName": "水曜",
+      "theme": "Webアプリケーションセキュリティ",
+      "icon": "🕸️",
+      "keywords": ["XSS", "SQLインジェクション", "CSRF", "セッション管理", "CORS", "セキュアコーディング"],
+      "description": "Webアプリの脆弱性は午後試験の定番。攻撃手法と対策をセットで暗記する。",
+      "studyItems": [
+        "XSS（反射型/蓄積型/DOM-based）の攻撃と対策",
+        "SQLインジェクションとプリペアドステートメント",
+        "CSRF対策（トークン、SameSite Cookie）",
+        "セッション管理の安全な実装",
+        "HTTPヘッダによるセキュリティ対策（CSP等）"
+      ],
+      "links": [
+        { "title": "徳丸浩の日記", "url": "https://blog.tokumaru.org/" },
+        { "title": "sc-siken.com 過去問道場", "url": "https://www.sc-siken.com/sckakomon.php" }
+      ]
+    },
+    {
+      "day": 4,
+      "dayName": "木曜",
+      "theme": "セキュリティマネジメント",
+      "icon": "📋",
+      "keywords": ["ISMS", "リスクアセスメント", "BCP/DR", "ISO 27001", "セキュリティポリシー"],
+      "description": "午前II・午後ともに出題される管理系テーマ。ISMSのPDCAとリスク対応の4パターンを確実に押さえる。",
+      "studyItems": [
+        "ISMSの要求事項（ISO 27001）の概要",
+        "リスクアセスメントの手順と用語",
+        "リスク対応（低減/移転/回避/保有）",
+        "情報セキュリティポリシーの階層構造",
+        "BCP/DRの策定手順とRPO/RTO"
+      ],
+      "links": [
+        { "title": "支援士ゼミ", "url": "https://shienshizemi.com/column/afternoon-exam/" },
+        { "title": "sc-siken.com 過去問道場", "url": "https://www.sc-siken.com/sckakomon.php" }
+      ]
+    },
+    {
+      "day": 5,
+      "dayName": "金曜",
+      "theme": "インシデント対応・フォレンジクス",
+      "icon": "🚨",
+      "keywords": ["CSIRT", "ログ分析", "マルウェア解析", "封じ込め", "証拠保全"],
+      "description": "インシデント対応の手順を時系列で理解。特にログ分析とフォレンジクスの実務的知識が問われる。",
+      "studyItems": [
+        "インシデント対応の6フェーズ（準備→検知→分析→封じ込め→根絶→復旧）",
+        "CSIRTの役割と体制",
+        "ログ分析の手法（Syslog, Windows Event Log）",
+        "デジタルフォレンジクスの証拠保全手順",
+        "マルウェアの種類と動的/静的解析"
+      ],
+      "links": [
+        { "title": "JPCERT/CC インシデント対応", "url": "https://www.jpcert.or.jp/" },
+        { "title": "sc-siken.com 過去問道場", "url": "https://www.sc-siken.com/sckakomon.php" }
+      ]
+    },
+    {
+      "day": 6,
+      "dayName": "土曜",
+      "theme": "法律・制度・最新動向",
+      "icon": "⚖️",
+      "keywords": ["個人情報保護法", "不正アクセス禁止法", "マイナンバー法", "GDPR", "クラウドセキュリティ"],
+      "description": "法律問題は午前IIで頻出。最新の法改正やクラウド/ゼロトラストの動向もチェック。",
+      "studyItems": [
+        "個人情報保護法の要点（要配慮個人情報等）",
+        "不正アクセス禁止法の構成要件",
+        "マイナンバー法の安全管理措置",
+        "クラウドセキュリティ（責任共有モデル）",
+        "ゼロトラストアーキテクチャの基本概念"
+      ],
+      "links": [
+        { "title": "IPA セキュリティ情報", "url": "https://www.ipa.go.jp/security/" },
+        { "title": "sc-siken.com 過去問道場", "url": "https://www.sc-siken.com/sckakomon.php" }
+      ]
+    }
+  ],
+  "examInfo": {
+    "name": "情報処理安全確保支援士（SC）",
+    "nextExam": "2026年11月頃（CBT移行後）",
+    "passRate": "約20%",
+    "sections": [
+      { "name": "科目A-1（旧午前I）", "format": "4択 30問 50分" },
+      { "name": "科目A-2（旧午前II）", "format": "4択 25問 40分" },
+      { "name": "科目B（旧午後）", "format": "記述式 4問中2問選択 150分" }
+    ],
+    "resources": [
+      { "title": "sc-siken.com 過去問道場", "url": "https://www.sc-siken.com/sckakomon.php", "description": "825問以上の過去問を無料で演習" },
+      { "title": "IPA 公式過去問", "url": "https://www.ipa.go.jp/shiken/mondai-kaiotu/index.html", "description": "公式解答例・講評付き" },
+      { "title": "SE娘の剣", "url": "https://sc.seeeko.com/", "description": "テーマ別の技術解説" },
+      { "title": "支援士ゼミ", "url": "https://shienshizemi.com/column/afternoon-exam/", "description": "午後試験対策コラム" },
+      { "title": "IPA SC試験ページ", "url": "https://www.ipa.go.jp/shiken/kubun/sc.html", "description": "試験概要・CBT移行情報" }
+    ]
+  }
+}

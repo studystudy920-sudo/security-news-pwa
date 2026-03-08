@@ -1,5 +1,9 @@
-const CACHE_NAME = "secnews-v1";
-const ASSETS = ["./", "index.html", "manifest.json", "data/articles.json", "data/videos.json", "data/sites.json"];
+const CACHE_NAME = "securedaily-v2";
+const ASSETS = [
+  "./", "index.html", "manifest.json",
+  "data/articles.json", "data/videos.json", "data/sites.json",
+  "data/security-feeds.json", "data/sc-study.json", "data/gmail-digest.json",
+];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE_NAME).then(c => c.addAll(ASSETS)));
