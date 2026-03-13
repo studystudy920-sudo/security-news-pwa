@@ -1,52 +1,43 @@
 {
   "notifications": [
     {
-      "type": "newsletter",
-      "from": "ISC2",
-      "subject": "Call for Presentations Deadline – Extended!",
-      "snippet": "Security Congress 2026のプレゼン募集期間延長。新締切は3月20日 11:59PM ET。ソフトウェアセキュリティ、サイバーリーダーシップ、ワークフォース開発等のトピック募集中。",
-      "date": "2026-03-12 22:03",
-      "messageId": "19ce22736765309d",
-      "tags": ["ISC2", "Security Congress 2026", "カンファレンス"]
-    },
-    {
-      "type": "newsletter",
-      "from": "ISC2",
-      "subject": "Top ISC2 Insights Articles from the Last Month",
-      "snippet": "今月のハイライト：AIセキュリティ取締役会レポートテンプレート公開、クラウドゼロトラストとセキュアアクセスフレームワーク解説、ISC2プロフェッショナル行動規範ローンチ、サイバーセキュリティリスク定量化特集。CPEクイズ2単位獲得可能。",
-      "date": "2026-03-12 22:02",
-      "messageId": "19ce2256d2de881f",
-      "tags": ["ISC2", "AI Security", "Zero Trust", "GRC", "CPE"]
+      "type": "google",
+      "from": "Google",
+      "subject": "セキュリティ通知",
+      "snippet": "Udemy に Google アカウントのデータの一部へのアクセスを許可しました。studystudy920@gmail.com のアクティビティを確認してください。",
+      "date": "2026-03-13 08:52",
+      "messageId": "19ce665e2514155a",
+      "tags": ["Google", "アカウント", "Udemy", "アクセス許可"]
     },
     {
       "type": "newsletter",
       "from": "IT注目記事 by 日経クロステック",
-      "subject": "「未知の問題を解けるのがAGI」フランソワ・ショレ氏指摘／テクノロジー産業の資金流入に異変",
-      "snippet": "AGI研究者ショレ氏がAGIの定義を語る。SaaS市場縮小の動向（SaaSの死）。残業4割減：特注設備メーカーがTeamsに独自AI導入。山口FG地銀3行が勘定系刷新。アリババクラウドが日本人員2.5倍に増強。",
-      "date": "2026-03-12 16:38",
-      "messageId": "19ce0fbe69363aa0",
-      "tags": ["AGI", "AI", "SaaS", "DX"]
+      "subject": "先端LLMで例外なく観測された「思わぬ弱点」／Microsoft版「Cowork」、Anthropic版との違いとは",
+      "snippet": "アスクルがCISOの設置で全社セキュリティー強化。エプソン販売、製品の問い合わせフォームに不備（約5600件未回答）。先端LLMで例外なく観測された「思わぬ弱点」とは。",
+      "date": "2026-03-13 16:41",
+      "messageId": "19ce624dcb0d8bc0",
+      "tags": ["CISO", "セキュリティ", "LLM", "AI", "インシデント"]
     },
     {
       "type": "newsletter",
-      "from": "日経ビジネス Editor's EYE",
-      "subject": "TSMC、高専生100人採用 初任給4割増／明治、チェルシー終売 苦渋の舞台裏 - 日経ビジネス（3/13）",
-      "snippet": "TSMC熊本工場が高専生100人採用、初任給4割増の破格待遇。半導体人材確保競争が激化。明治グループがチェルシーブランドを終売決定。",
-      "date": "2026-03-13 05:32",
-      "messageId": "19ce3c04a172e929",
-      "tags": ["TSMC", "半導体", "人材"]
+      "from": "日経ビジネス 最新号案内",
+      "subject": "特集　今こそ高専　戦略17分野の即戦力／2兆円企業ロレックス - 日経ビジネス（3/14）",
+      "snippet": "日経ビジネス最新号。特集：今こそ高専 戦略17分野の即戦力。2兆円企業ロレックスの経営戦略。",
+      "date": "2026-03-14 05:32",
+      "messageId": "19ce8e67c7ba8975",
+      "tags": ["高専", "ビジネス"]
     },
     {
       "type": "newsletter",
-      "from": "日経クロステック Active",
-      "subject": "1位は「サムスン電子が「3つ折り」を発表、折り畳みスマホは日本で盛り上がるのか」人気記事ランキング",
-      "snippet": "日経クロステックActiveの人気記事ランキング。サムスン電子の三つ折りスマートフォン発表が1位。最新デバイストレンドと日本市場の動向分析。",
-      "date": "2026-03-12 10:02",
-      "messageId": "19cdf90bdee546b1",
-      "tags": ["サムスン", "スマートフォン", "デバイス"]
+      "from": "日経ビジネス Update 夕刊",
+      "subject": "ホルムズ海峡の原油船滞留1.7倍／オアシスが目指すニデック改革 - 日経ビジネス（3/13）",
+      "snippet": "ホルムズ海峡の原油船滞留が1.7倍に拡大。オアシスが目指すニデック改革の戦略と課題。",
+      "date": "2026-03-13 17:34",
+      "messageId": "19ce6555a236569b",
+      "tags": ["地政学", "エネルギー", "ビジネス"]
     }
   ],
   "googleAlerts": [],
-  "updated": "2026-03-13 09:00",
+  "updated": "2026-03-14 09:00",
   "source": "Gmail MCP"
 }
