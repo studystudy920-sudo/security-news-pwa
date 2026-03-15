@@ -1,6 +1,24 @@
 {
   "articles": [
     {
+      "title": "Betterleaks, a new open-source secrets scanner to replace Gitleaks",
+      "url": "https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/",
+      "summary": "A new open-source tool called Betterleaks can scan directories, files, and git repositories and identify valid secrets using default or customized rules. [...]",
+      "date": "2026-03-15",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "大容量通信＆電力制御＆サイバーセキュリティー…AIインフラ最前線【放送版/円卓コンフィデンシャル】 - テレ東BIZ",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB3dWJmVXFlcFplanAzSm9vTVVhTlhrdTdqeDI0dkJIUkVrTVVGdlpjX3hzSEVDZ1JUR2VJSnVWZU02LUVqcUN3M2ljZEhWczQwNmwzcGFnMlR6ZVZVSXNR?oc=5",
+      "summary": "大容量通信＆電力制御＆サイバーセキュリティー…AIインフラ最前線【放送版/円卓コンフィデンシャル】&nbsp;&nbsp;テレ東BIZ",
+      "date": "2026-03-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration",
       "url": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
       "summary": "China's National Computer Network Emergency Response Technical Team (CNCERT) has issued a warning about the security stemming from the use of OpenClaw (formerly Clawdbot and Moltbot), an open-source a",
@@ -15,6 +33,15 @@
       "summary": "Cybersecurity researchers have flagged a new iteration of the GlassWorm campaign that they say represents a \"significant escalation\" in how it propagates through the Open VSX registry. \"Instead of req",
       "date": "2026-03-14",
       "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft releases Windows 11 OOB hotpatch to fix RRAS RCE flaw",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/",
+      "summary": "Microsoft has released an out-of-band (OOB) update to fix a security vulnerabilities affecting Windows 11 Enterprise devices that receive hotpatch updates instead of the regular Patch Tuesday cumulati",
+      "date": "2026-03-14",
+      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -35,15 +62,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "大容量通信＆電力制御＆サイバーセキュリティー…AIインフラ最前線【放送版/円卓コンフィデンシャル】 - テレ東BIZ",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83ZjIycVB2bFhqSTJhRHp6cHNEOUV4S1gwYy1yaG84VUxKc3R1bjdMZ1E0cWNmb1I2aTF2eFZvQkJtY0tqM0FyaER0Q3BiUFhFZm9BcERyLXBfNzlscjlBbQ?oc=5",
-      "summary": "大容量通信＆電力制御＆サイバーセキュリティー…AIインフラ最前線【放送版/円卓コンフィデンシャル】&nbsp;&nbsp;テレ東BIZ",
-      "date": "2026-03-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "複数のTrane製品における複数の脆弱性",
@@ -217,24 +235,6 @@
       "category": "news"
     },
     {
-      "title": "Starbucks discloses data breach affecting hundreds of employees",
-      "url": "https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/",
-      "summary": "Starbucks has disclosed a data breach affecting hundreds of employees after threat actors gained access to their Starbucks Partner Central accounts. [...]",
-      "date": "2026-03-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Google fixes two new Chrome zero-days exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
-      "summary": "Google has released emergency security updates to patch two high-severity Chrome vulnerabilities exploited in zero-day attacks. [...]",
-      "date": "2026-03-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "A React-based phishing page with credential exfiltration via EmailJS, (Fri, Mar 13th)",
       "url": "https://isc.sans.edu/diary/rss/32794",
       "summary": "On Wednesday, a phishing message made its way into our handler inbox that contained a fairly typical low-quality lure, but turned out to be quite interesting in the end nonetheless. That is because th",
@@ -262,63 +262,18 @@
       "category": "alert"
     },
     {
-      "title": "Web媒介型サイバー攻撃対策プロジェクト「WarpDrive」にタチコマ育成機能搭載！ - NICT",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16d00ydmc2bFNiOW9WVVZ4YWVvRDZtVHE5VUJqM2FseFJodWxOTmZoZWM5LXRqTkZZdTZEUUY1MVR2b1hGaXZiYWhGQ0ZvZWZ6TEY0WDM1U3JUQQ?oc=5",
-      "summary": "Web媒介型サイバー攻撃対策プロジェクト「WarpDrive」にタチコマ育成機能搭載！&nbsp;&nbsp;NICT",
+      "title": "【デジタルコンテンツ科・セキュリティネットワーク科】サイバーセキュリティ作品コンテスト - 浜松未来総合専門学校",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PckUyUVJoZUlkQlFDa09sRDlYVVRyTTdNMFRlS0dXMzNJRmNhUVo4WmlqeEVLWjZ2QzFUUHhDem95T1c3bWxZTV9aR2Zpb2RiOVBRbQ?oc=5",
+      "summary": "【デジタルコンテンツ科・セキュリティネットワーク科】サイバーセキュリティ作品コンテスト&nbsp;&nbsp;浜松未来総合専門学校",
       "date": "2026-03-13",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "45％が「週6日相当勤務」 セキュリティ責任者のやる気を削がない組織運用とは？（ITmedia エンタープライズ） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SR1ZwUThvZVlCQTZZa3lISHE1S0dWMXE2OF9rUFp5QTVIaHZqWnIyZ3Ztdmo0dXZSalNlRlVPMGZyUmlfNWhTN1hNc29nQmhyRV9wVmVyQkplQzlGRDJMbVhOMUtLNDB0UUVzUWZxOGtDOTFILU5HXzd3MDNPcWM?oc=5",
-      "summary": "45％が「週6日相当勤務」 セキュリティ責任者のやる気を削がない組織運用とは？（ITmedia エンタープライズ）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-03-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ATENジャパン、ものづくりワールド名古屋「製造業サイバーセキュリティ展」に出展 ― セキュアな遠隔操作で製造現場の効率化・省人化を実現 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLZXZFOE11eTBjeEtRLWZ0Q2JXMXNJRWtweE5lemFFRnJQNkd4c0ZRSlRfejN5VF9HUlJ2N0hETG9ZaHBJRWZVNTN4RHdCeTlSMlMxRlE0bmE2SWpwWUp1ZDNXSDhWOFFDQmc?oc=5",
-      "summary": "ATENジャパン、ものづくりワールド名古屋「製造業サイバーセキュリティ展」に出展 ― セキュアな遠隔操作で製造現場の効率化・省人化を実現&nbsp;&nbsp;PR TIMES",
-      "date": "2026-03-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIが加速させる“サイバー軍拡競争” 世界経済フォーラム報告から読み解くCISOの課題 - ASCII.jp",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB1a2RxV2t5dUk2cXJTM2swcnpQQTR5RTRHQlA4b2cxYi0xTXlMYVNha1dOaC1ZNTEyVGtqMWNlWkozd1hrNk9QSHFMQVJHd19leXY1Nw?oc=5",
-      "summary": "AIが加速させる“サイバー軍拡競争” 世界経済フォーラム報告から読み解くCISOの課題&nbsp;&nbsp;ASCII.jp",
-      "date": "2026-03-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "インテューイティブ・サージカルの株価、サイバーセキュリティ侵害開示後に下落 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVR2pJbk1yT1JoaDY1Y1FfSHFjQk51WW9hVlAtbWdfenR1SEJIZmpfZ2g2djZzd3JkREhwOFVTdV9QOHdjVFhGWGlwdnNoRDJpWlFGSmVROE5jZWlLV2ZjYjVFUk43LU9rRG9UcUphYU4zSWx4M3ZB?oc=5",
-      "summary": "インテューイティブ・サージカルの株価、サイバーセキュリティ侵害開示後に下落 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "date": "2026-03-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティの仕事を学び、10年後のキャリアを考えよう！ビズリーチ、中高生向けキャリア教育イベントを開催 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qcUw4X3NpNkVkTFB6Rl9peGNWZGQwSFZNU2ZMZzFaUkQ5WTNoWnM5anRHM2d3UFI1M19jYk1PbEMyRUl2aUp3a2FjWkRVLTNJRVpxUTM2akYtMFdjbFlQWi01RncwZjZYUURfVXFoNzVadUlaUFhCaG1PVQ?oc=5",
-      "summary": "サイバーセキュリティの仕事を学び、10年後のキャリアを考えよう！ビズリーチ、中高生向けキャリア教育イベントを開催&nbsp;&nbsp;ニコニコニュース",
-      "date": "2026-03-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【「サイバーセキュリティ月間」特別セミナー開催】「国家サイバー統括室」内閣参事官 鈴木健太郎氏が登壇 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9xeVZDU050SHJBd1JjSU5CeHFMbGVsUG9TWnZ4NFVjTEItRDNJTDBRRjRudGhYeDJ2SjBvbTRXMVdoQXZGRVRfX21VRDFJMzhBak5sa1AzSUh1VktWeXJhZTBGRmFNMTJ2aUpnX2d3bW85V3dtVTJxTi1Fb0NYbTjSAYQBQVVfeXFMTXBHcnloWXRRTVhRS2xSaGxCU0I5cnZvSXhjeWpZcGQtZXY0cWlsZVNGYkVNejNNSTR0Qk56NHFYYzNXQ2RTdjVPVC1INE9nUnRzUEVZM2FOOTAwUDVnVWNHYmp2RjhXNUd3UXdwUnlhN3lVTEVOY0JfT2hPZDhobWpWNU14?oc=5",
-      "summary": "【「サイバーセキュリティ月間」特別セミナー開催】「国家サイバー統括室」内閣参事官 鈴木健太郎氏が登壇&nbsp;&nbsp;ｄメニューニュース",
+      "title": "産業用サイバーセキュリティ市場の将来展望：CAGR8.32％で成長し2035年に585.8億米ドルへ到達する次世代インフラ防御ビジネス - Newscast.jp",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1GT2l5TVgydjJOTDhySjhvcjRDb01Pd0djZHprTFhaazR3WFB4c2ZlZThvaHh6T2VPWlh4UzJHa3dXaWJKUHVV?oc=5",
+      "summary": "産業用サイバーセキュリティ市場の将来展望：CAGR8.32％で成長し2035年に585.8億米ドルへ到達する次世代インフラ防御ビジネス&nbsp;&nbsp;Newscast.jp",
       "date": "2026-03-13",
       "source": "Google News JP",
       "language": "日本語",
@@ -406,18 +361,18 @@
       "category": "alert"
     },
     {
-      "title": "鹿島、富士通…「国策でも売られた」が反転期待の「高市銘柄5選」 - 現代ビジネス",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sTXVoNVE3WFhWZTYwSXYxckhRU3FybmdFNGxMUkRKNHVEbjBXeDRTZE03TUVla3pSc0owajI0ZThaZEhqNVU5dmRCZ2cyRlpxNUpDdWJ0aVA?oc=5",
-      "summary": "鹿島、富士通…「国策でも売られた」が反転期待の「高市銘柄5選」&nbsp;&nbsp;現代ビジネス",
+      "title": "Stryker、世界的な業務を混乱させるサイバーセキュリティインシデントを報告 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qOW11UGtzNjZXNXJFMFVQVENJLUllbEx2NmlHUmtBOE9jYWJZOFg2UFE2OE9NdGlBdFVtX3VQcFlrWlR4aDQtSThXVFJab1hkcnVKQVo0NS1PcFd1YmVzVm5yUTF3RmlqVURlUkd1bw?oc=5",
+      "summary": "Stryker、世界的な業務を混乱させるサイバーセキュリティインシデントを報告 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
       "date": "2026-03-12",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "リスクか、保護か--AIでも必須になる5つのセキュリティ対策ポイント - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hZGwzekRHbW4zeUhWa2NiTmowLWJuVWpQRmxlbzNBYnlITGpTbFJzWjlvWFlJMXhDemdxSC1tWFgtTGhWdE9nQVZ4MVFPRTlmMThz?oc=5",
-      "summary": "リスクか、保護か--AIでも必須になる5つのセキュリティ対策ポイント&nbsp;&nbsp;ZDNET Japan",
+      "title": "サイバーセキュリティクラウド、AWS環境でのインシデント対応を一気通貫で支援する「CloudFastener」のオプションを提供 - クラウド Watch",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrcHlaMW52bHNVd3dLN3pGTklxbEl2WXU5M2N6dklNeGhEdG1sSGN4aHNMNm5NZ0RieDAtOHFUUkl0RGhmSFZIRXRuSzdyc200RS1ibTFqaFVfRi1QZGtaSTFXd3ZxRVU?oc=5",
+      "summary": "サイバーセキュリティクラウド、AWS環境でのインシデント対応を一気通貫で支援する「CloudFastener」のオプションを提供&nbsp;&nbsp;クラウド Watch",
       "date": "2026-03-12",
       "source": "Google News JP",
       "language": "日本語",
@@ -586,6 +541,15 @@
       "category": "alert"
     },
     {
+      "title": "セキュリティインシデント報告一元化の概要と企業実務への影響 スケジュール、様式、今後の課題 - unitis.jp",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE01eW5NNUI2eXBvNFcwbnlZUDNyZTYtUFVvRzVzcnM5MGJudllTRkpHd254QzQ4WUZ2Tk9ESFdZMnVxcVZleFJPVg?oc=5",
+      "summary": "セキュリティインシデント報告一元化の概要と企業実務への影響 スケジュール、様式、今後の課題&nbsp;&nbsp;unitis.jp",
+      "date": "2026-03-10",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "お知らせ：JPCERT/CC インターネット定点観測レポート［2025年10月1日～2025年12月31日］",
       "url": "https://www.jpcert.or.jp/tsubame/report/report202510-12.html",
       "summary": "",
@@ -622,6 +586,15 @@
       "category": "news"
     },
     {
+      "title": "バーチャル空間の防衛強化へ、「サイバーセキュリティー」6銘柄大選抜 ＜株探トップ特集＞ | 特集 - 株探ニュース - かぶたん",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9zcmFjc1lZdWhDcV9rOVVOY0JuLVZlUFpzR1FkNVgxajdNekM4QW80NFhXcW1IclhpRHUtbWM1cHFseGd6YzFhMXc3a05TS3QySzhRcV9WSGFFRzFNcENaeg?oc=5",
+      "summary": "バーチャル空間の防衛強化へ、「サイバーセキュリティー」6銘柄大選抜 ＜株探トップ特集＞ | 特集 - 株探ニュース&nbsp;&nbsp;かぶたん",
+      "date": "2026-03-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "お知らせ：JPCERT/CC Eyes「JSAC2026 開催レポート～Workshop／Lightning Talk Session／Panel Discussion～",
       "url": "https://blogs.jpcert.or.jp/ja/2026/03/jsac2026-ws-lt-pd.html",
       "summary": "",
@@ -629,6 +602,15 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
+    },
+    {
+      "title": "金融分野におけるサイバーセキュリティに関するガイドライン対応に向けた評価・監査支援 - PwC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRzNubnN5QmozMmc5S1BCNG02clBkdG1aaHVfWWQxR1JYTFV6bU5yT3pmSzVIYmkyaU1kM01VRjRBMTB4ZTREQ3JocV9wZFEzazVDb2FEa0Y0a3hUMnhHWU5xY1ZDYnMydm5LVTVZM1hOd3FWV0tYTnYyRXhwbDlETTFfRTBzcTU5WWFCSHJucjhNOXgwZ09JQVRaNjJYRkR5RVkwd0Z0VDZMdw?oc=5",
+      "summary": "金融分野におけるサイバーセキュリティに関するガイドライン対応に向けた評価・監査支援&nbsp;&nbsp;PwC",
+      "date": "2026-03-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "お知らせ：インシデント報告Webフォームメンテナンス（2026年3月5日）終了のお知らせ",
@@ -685,6 +667,15 @@
       "category": "alert"
     },
     {
+      "title": "2月1日から3月18日は、「サイバーセキュリティ月間」です - デジタル庁",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KRW12ak1RWDZDdkRjRjRZbUlNWFRjRXpXUlpOanVfMDh6cHN2VUVIMVpKb2hMS2wza2ptQmFBR09wWjllWEsxWVJXTVVIeUZ6SXNDZHBvUi02YzNBRG5sQmx3RGE5OE5wY1gwd2I3ak9ON3VKanc?oc=5",
+      "summary": "2月1日から3月18日は、「サイバーセキュリティ月間」です&nbsp;&nbsp;デジタル庁",
+      "date": "2026-02-24",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "委託先の誤消去と記録操作が原因だったJALの配送サービス障害についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/02/20/150715",
       "summary": "2026年2月17日、日本航空は同月9日明らかにした同社の手荷物当日配送サービスへの不正アクセスについて、詳細な調査を行ったところ、委託先の作業誤りに端を発したものであり、外部への流出は確認されなかったと公表しました。ここでは関連する情報をまとめます。 障害発生、不正アクセス痕跡を確認 2月10日に日本航空が外部からの不正アクセスの痕跡が確認されたと公表したのは手荷物当日配送サービスを提供するシス",
@@ -709,6 +700,15 @@
       "date": "2026-02-19",
       "source": "Google Security Blog",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティお助け隊サービス（新類型） - meti.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZjJmOTQzZ2NVMkVMdTBJX3g2SkstSkY0X29BLXFKMVk0bmhQZkotQWtGajh0R2lxVWt1bVZPczFfN2ZJMFc5V1Y1OXlITEVRbm9kelpqUU9EWTR4N01ERHhQaE1JUlpSNFBNVVNOS2MwZw?oc=5",
+      "summary": "サイバーセキュリティお助け隊サービス（新類型）&nbsp;&nbsp;meti.go.jp",
+      "date": "2026-02-19",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -1313,5 +1313,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/3/15 6:33:54"
+  "updated": "2026/3/16 6:35:06"
 }
