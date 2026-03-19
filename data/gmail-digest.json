@@ -1,6 +1,14 @@
 {
   "notifications": [
     {
+      "type": "google",
+      "from": "Google",
+      "subject": "セキュリティ通知",
+      "snippet": "あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。ログインに心当たりがない場合はアカウントを保護してください。",
+      "date": "2026-03-19 21:23",
+      "messageId": "19d07fb550eb9526"
+    },
+    {
       "type": "newsletter",
       "from": "日経ビジネス Editor's EYE",
       "subject": "中国デュアルユース品規制、日本狙いに／中国式ルール重視で転換 - 日経ビジネス（3/20）",
@@ -12,16 +20,16 @@
       "type": "newsletter",
       "from": "ISC2",
       "subject": "⏰Time's Running Out! Send Your Presentation Proposals",
-      "snippet": "ISC2 Security Congress 2026（10月24-28日、コロラド）の発表提案締切が迫る。締切：3月20日23:59 ET。",
-      "date": "2026-03-19 07:01",
+      "snippet": "ISC2 Security Congress 2026（10月24-28日、コロラド）の発表提案締切が迫る。締切：3月20日23:59 ET。クラウドセキュリティ・GRC・SecOpsなどのテーマで募集中。",
+      "date": "2026-03-19 22:01",
       "messageId": "19d06316fe70a22a"
     },
     {
       "type": "newsletter",
       "from": "ISC2 Asia-Pacific",
       "subject": "[CPE Opportunity] Join Us at Black Hat Asia 2026 and Earn CPE Credits",
-      "snippet": "Black Hat Asia 2026（4月21-24日、シンガポール）でCPEクレジット取得可能。ISC2会員はS$500割引コード「ISC2500」あり。",
-      "date": "2026-03-19 03:23",
+      "snippet": "Black Hat Asia 2026（4月21-24日、シンガポール・マリーナベイサンズ）でCPEクレジット取得可能。ISC2会員はS$500割引コード「ISC2500」あり。ブース229番でメンバーピン配布。",
+      "date": "2026-03-19 18:23",
       "messageId": "19d05694249156e7"
     },
     {
@@ -36,7 +44,7 @@
       "type": "newsletter",
       "from": "IT注目記事 by 日経クロステック",
       "subject": "中国AI企業が他社製AIを「ただ乗り蒸留」か／製造業の暗黙知をAIで継承へ",
-      "snippet": "中国AI企業が他社製AIを「ただ乗り蒸留」か、米社が主張し安全保障リスクも指摘。応用情報・ネスペ試験が激変。",
+      "snippet": "中国AI企業が他社製AIを「ただ乗り蒸留」か、米社が主張し安全保障リスクも指摘。製造業の暗黙知をAIで継承する取り組みも紹介。",
       "date": "2026-03-19 16:39",
       "messageId": "19d05092e91986c9"
     },
@@ -47,25 +55,17 @@
       "snippet": "中国AI企業によるAI蒸留問題、AIで雇用が増えるとする5つのAI潮流を解説。",
       "date": "2026-03-19 12:36",
       "messageId": "19d042a64d9a2fe4"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック カバーストーリー",
-      "subject": "労務費削る元請け会社に退場迫る、建設の取引のルールが変わる／土木・建築28社に独自調査",
-      "snippet": "建設業界の取引ルール変更。労務費を削減する元請け会社への対処と28社調査結果。",
-      "date": "2026-03-19 12:15",
-      "messageId": "19d04175fda72b52"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BPメール",
-      "subject": "TBSサンモニで快挙も…なぜ出演者に不文律？◆理系中心職場で必要なもの",
-      "snippet": "TBSサンモニでの快挙と出演者の不文律。理系職場でのコミュニケーション術。",
-      "date": "2026-03-19 12:07",
-      "messageId": "19d04100b88c4666"
     }
   ],
-  "googleAlerts": [],
+  "googleAlerts": [
+    {
+      "type": "new_login",
+      "account": "studystudy920@gmail.com",
+      "detected": "2026-03-19 21:23",
+      "action_required": false,
+      "messageId": "19d07fb550eb9526"
+    }
+  ],
   "updated": "2026-03-20 09:00",
   "source": "Gmail MCP"
 }
