@@ -55,6 +55,14 @@
       "snippet": "中国AI企業によるAI蒸留問題、AIで雇用が増えるとする5つのAI潮流を解説。",
       "date": "2026-03-19 12:36",
       "messageId": "19d042a64d9a2fe4"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール（セキュリティ特集）",
+      "subject": "AIでサイバー攻撃が100倍速にも！ セキュリティ脅威の最新動向とその手口【日経BP Topics】",
+      "snippet": "サイバー攻撃は過去4年で3倍高速化。5件に1件は1時間以内でデータ窃取成功。AIの活用で攻撃が100倍高速になる可能性。Webブラウザ経由のインシデント44%。ランサムウェア脅迫・AI攻撃トレンドを解説。",
+      "date": "2026-03-19 10:38",
+      "messageId": "19d03be407e657c0"
     }
   ],
   "googleAlerts": [
@@ -66,6 +74,13 @@
       "messageId": "19d07fb550eb9526"
     }
   ],
+  "sources": {
+    "google_security": { "count": 1, "note": "新しいログイン検知 1件" },
+    "scan_netsecurity": { "count": 0, "note": "メールなし" },
+    "nikkei_bp": { "count": 7, "note": "セキュリティ特集1件含むIT全般7件" },
+    "isc2": { "count": 2, "note": "Security Congress 2026発表締切、Black Hat Asia 2026 CPE" },
+    "isaca_tokyo": { "count": 0, "note": "メールなし" }
+  },
   "updated": "2026-03-20 09:00",
   "source": "Gmail MCP"
 }
