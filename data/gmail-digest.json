@@ -10,59 +10,27 @@
     },
     {
       "type": "newsletter",
-      "from": "日経ビジネス Editor's EYE",
-      "subject": "中国デュアルユース品規制、日本狙いに／中国式ルール重視で転換 - 日経ビジネス（3/20）",
-      "snippet": "中国のデュアルユース品規制が日本を対象に。中国式ルール重視への転換について解説。",
-      "date": "2026-03-20 05:32",
-      "messageId": "19d07cc5c9e86468"
+      "from": "日経ビジネス 最新号案内",
+      "subject": "特集　JERAの覚悟　混迷エネ安保の先兵／日東電工、ニッチ最強 - 日経ビジネス（3/21）",
+      "snippet": "日経ビジネス3/21号。特集はJERAのエネルギー安全保障戦略と覚悟、ニッチ市場で最強を誇る日東電工の経営戦略を掘り下げ。",
+      "date": "2026-03-21 05:32",
+      "messageId": "19d0cf2f64cca359"
     },
     {
       "type": "newsletter",
       "from": "ISC2",
-      "subject": "⏰Time's Running Out! Send Your Presentation Proposals",
-      "snippet": "ISC2 Security Congress 2026（10月24-28日、コロラド）の発表提案締切が迫る。締切：3月20日23:59 ET。クラウドセキュリティ・GRC・SecOpsなどのテーマで募集中。",
-      "date": "2026-03-19 22:01",
-      "messageId": "19d06316fe70a22a"
+      "subject": "New Speakers + Sessions | ISC2 Spotlight: Cloud Security",
+      "snippet": "ISC2 Spotlight: Cloud Security（4月28-29日）にセッション追加。「Securing Data in the Age of AI with DSPM」（Netwrix）と「Converging Cloud Security into the Modern SOC」（Palo Alto Networks）が新たに加わる。CPE 5.5単位取得可。",
+      "date": "2026-03-20 06:01",
+      "messageId": "19d0b2057d7fb13f"
     },
     {
       "type": "newsletter",
       "from": "ISC2 Asia-Pacific",
-      "subject": "[CPE Opportunity] Join Us at Black Hat Asia 2026 and Earn CPE Credits",
-      "snippet": "Black Hat Asia 2026（4月21-24日、シンガポール・マリーナベイサンズ）でCPEクレジット取得可能。ISC2会員はS$500割引コード「ISC2500」あり。ブース229番でメンバーピン配布。",
-      "date": "2026-03-19 18:23",
-      "messageId": "19d05694249156e7"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス Update 夕刊",
-      "subject": "JERA会長「有事の勝敗は事前の備えで決まる」／ホルムズ海峡通過54隻の真相",
-      "snippet": "JERA会長のエネルギー安全保障論。有事に備えた事前準備の重要性とホルムズ海峡の最新動向。",
-      "date": "2026-03-19 17:40",
-      "messageId": "19d05414e3fb9e0d"
-    },
-    {
-      "type": "newsletter",
-      "from": "IT注目記事 by 日経クロステック",
-      "subject": "中国AI企業が他社製AIを「ただ乗り蒸留」か／製造業の暗黙知をAIで継承へ",
-      "snippet": "中国AI企業が他社製AIを「ただ乗り蒸留」か、米社が主張し安全保障リスクも指摘。製造業の暗黙知をAIで継承する取り組みも紹介。",
-      "date": "2026-03-19 16:39",
-      "messageId": "19d05092e91986c9"
-    },
-    {
-      "type": "newsletter",
-      "from": "IT最新ニュース by 日経クロステック",
-      "subject": "中国AI企業が他社製AIを「ただ乗り蒸留」か／「AIで雇用は増える」、5つのAI潮流を解説",
-      "snippet": "中国AI企業によるAI蒸留問題、AIで雇用が増えるとする5つのAI潮流を解説。",
-      "date": "2026-03-19 12:36",
-      "messageId": "19d042a64d9a2fe4"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BPメール（セキュリティ特集）",
-      "subject": "AIでサイバー攻撃が100倍速にも！ セキュリティ脅威の最新動向とその手口【日経BP Topics】",
-      "snippet": "サイバー攻撃は過去4年で3倍高速化。5件に1件は1時間以内でデータ窃取成功。AIの活用で攻撃が100倍高速になる可能性。Webブラウザ経由のインシデント44%。ランサムウェア脅迫・AI攻撃トレンドを解説。",
-      "date": "2026-03-19 10:38",
-      "messageId": "19d03be407e657c0"
+      "subject": "Move Beyond the CISSP: New ISSAP Enhanced Online Training for Architects in APAC",
+      "snippet": "CISSPホルダー向け専門資格ISSAP（情報システムセキュリティアーキテクチャ専門家）のAPAC向けオンライン研修が新設。2026年6月8-10日・11月16-18日（GMT+8）。セキュリティアーキテクト向けキャリアアップに最適。",
+      "date": "2026-03-19 21:45",
+      "messageId": "19d0959aee347a43"
     }
   ],
   "googleAlerts": [
@@ -75,12 +43,12 @@
     }
   ],
   "sources": {
-    "google_security": { "count": 1, "note": "新しいログイン検知 1件" },
+    "google_security": { "count": 1, "note": "新しいログイン検知 1件（2026-03-19）" },
     "scan_netsecurity": { "count": 0, "note": "メールなし" },
-    "nikkei_bp": { "count": 7, "note": "セキュリティ特集1件含むIT全般7件" },
-    "isc2": { "count": 2, "note": "Security Congress 2026発表締切、Black Hat Asia 2026 CPE" },
+    "nikkei_bp": { "count": 1, "note": "日経ビジネス3/21号案内 1件" },
+    "isc2": { "count": 2, "note": "Cloud Security Spotlight新セッション追加、ISSAP APAC研修新設" },
     "isaca_tokyo": { "count": 0, "note": "メールなし" }
   },
-  "updated": "2026-03-20 09:00",
+  "updated": "2026-03-21 09:00",
   "source": "Gmail MCP"
 }
