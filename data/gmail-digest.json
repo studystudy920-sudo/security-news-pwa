@@ -4,51 +4,36 @@
       "type": "google",
       "from": "Google",
       "subject": "セキュリティ通知",
-      "snippet": "あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。ログインに心当たりがない場合はアカウントを保護してください。",
-      "date": "2026-03-19 21:23",
-      "messageId": "19d07fb550eb9526"
+      "snippet": "あなたのGoogleアカウントへの新しいログインが検出されました。studystudy920@gmail.com へのログイン。ご自身によるものであれば、何もする必要はありません。",
+      "date": "2026-03-21 07:36",
+      "messageId": "19d0f52f364b1a74"
     },
     {
       "type": "newsletter",
-      "from": "日経ビジネス 最新号案内",
-      "subject": "特集　JERAの覚悟　混迷エネ安保の先兵／日東電工、ニッチ最強 - 日経ビジネス（3/21）",
-      "snippet": "日経ビジネス3/21号。特集はJERAのエネルギー安全保障戦略と覚悟、ニッチ市場で最強を誇る日東電工の経営戦略を掘り下げ。",
-      "date": "2026-03-21 05:32",
-      "messageId": "19d0cf2f64cca359"
-    },
-    {
-      "type": "newsletter",
-      "from": "ISC2",
-      "subject": "New Speakers + Sessions | ISC2 Spotlight: Cloud Security",
-      "snippet": "ISC2 Spotlight: Cloud Security（4月28-29日）にセッション追加。「Securing Data in the Age of AI with DSPM」（Netwrix）と「Converging Cloud Security into the Modern SOC」（Palo Alto Networks）が新たに加わる。CPE 5.5単位取得可。",
-      "date": "2026-03-20 06:01",
-      "messageId": "19d0b2057d7fb13f"
-    },
-    {
-      "type": "newsletter",
-      "from": "ISC2 Asia-Pacific",
-      "subject": "Move Beyond the CISSP: New ISSAP Enhanced Online Training for Architects in APAC",
-      "snippet": "CISSPホルダー向け専門資格ISSAP（情報システムセキュリティアーキテクチャ専門家）のAPAC向けオンライン研修が新設。2026年6月8-10日・11月16-18日（GMT+8）。セキュリティアーキテクト向けキャリアアップに最適。",
-      "date": "2026-03-19 21:45",
-      "messageId": "19d0959aee347a43"
+      "from": "日経クロステック Special",
+      "subject": "【週刊日経クロステック Special】「全員参加型セキュリティー」実現のカギ ほか",
+      "snippet": "今週のピックアップ：「全員参加型セキュリティー」実現のカギ、新・運用監視コスト革命、クラウドに潜む見えない危険を丸ごと可視化、運用負担を減らせる日本発のクラウド防御",
+      "date": "2026-03-21 09:08",
+      "messageId": "19d0db8b61153cd9"
     }
   ],
   "googleAlerts": [
     {
       "type": "new_login",
       "account": "studystudy920@gmail.com",
-      "detected": "2026-03-19 21:23",
+      "detected": "2026-03-21 07:36",
       "action_required": false,
-      "messageId": "19d07fb550eb9526"
+      "messageId": "19d0f52f364b1a74"
     }
   ],
   "sources": {
-    "google_security": { "count": 1, "note": "新しいログイン検知 1件（2026-03-19）" },
+    "google_security": { "count": 1, "note": "新しいログイン検知 1件（2026-03-21）" },
     "scan_netsecurity": { "count": 0, "note": "メールなし" },
-    "nikkei_bp": { "count": 1, "note": "日経ビジネス3/21号案内 1件" },
-    "isc2": { "count": 2, "note": "Cloud Security Spotlight新セッション追加、ISSAP APAC研修新設" },
+    "nikkei_xtech_special": { "count": 1, "note": "週刊日経クロステック Special 1件（全員参加型セキュリティー特集）" },
+    "nikkei_bp_xtech_ac": { "count": 0, "note": "メールなし" },
+    "isc2": { "count": 0, "note": "メールなし" },
     "isaca_tokyo": { "count": 0, "note": "メールなし" }
   },
-  "updated": "2026-03-21 09:00",
+  "updated": "2026-03-22 07:00",
   "source": "Gmail MCP"
 }
