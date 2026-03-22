@@ -4,17 +4,9 @@
       "type": "google",
       "from": "Google",
       "subject": "セキュリティ通知",
-      "snippet": "あなたのGoogleアカウントへの新しいログインが検出されました。studystudy920@gmail.com へのログイン。ご自身によるものであれば、何もする必要はありません。",
+      "snippet": "あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。ログインに心当たりがない場合は、アカウントを保護していただけるようサポートします。",
       "date": "2026-03-21 07:36",
       "messageId": "19d0f52f364b1a74"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Special",
-      "subject": "【週刊日経クロステック Special】「全員参加型セキュリティー」実現のカギ ほか",
-      "snippet": "今週のピックアップ：「全員参加型セキュリティー」実現のカギ、新・運用監視コスト革命、クラウドに潜む見えない危険を丸ごと可視化、運用負担を減らせる日本発のクラウド防御",
-      "date": "2026-03-21 09:08",
-      "messageId": "19d0db8b61153cd9"
     }
   ],
   "googleAlerts": [
@@ -29,7 +21,7 @@
   "sources": {
     "google_security": { "count": 1, "note": "新しいログイン検知 1件（2026-03-21）" },
     "scan_netsecurity": { "count": 0, "note": "メールなし" },
-    "nikkei_xtech_special": { "count": 1, "note": "週刊日経クロステック Special 1件（全員参加型セキュリティー特集）" },
+    "nikkei_xtech_special": { "count": 0, "note": "メールなし" },
     "nikkei_bp_xtech_ac": { "count": 0, "note": "メールなし" },
     "isc2": { "count": 0, "note": "メールなし" },
     "isaca_tokyo": { "count": 0, "note": "メールなし" }
