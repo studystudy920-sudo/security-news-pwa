@@ -1,31 +1,29 @@
 {
   "notifications": [
     {
-      "type": "google",
-      "from": "Google",
-      "subject": "セキュリティ通知",
-      "snippet": "あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。ログインに心当たりがない場合は、アカウントを保護していただけるようサポートします。",
-      "date": "2026-03-21 07:36",
-      "messageId": "19d0f52f364b1a74"
-    }
-  ],
-  "googleAlerts": [
+      "type": "newsletter",
+      "from": "PC/モバイルメール by 日経クロステック",
+      "subject": "USBストレージをいきなり抜くとデータは消える？／iPhoneのロック画面の時刻表示を見やすくする：日経クロステック PC/モバイルメール",
+      "snippet": "ファイル名の付け方、分かりやすさを保つ3大原則／1年で90件の脆弱性を悪用、「ゼロデイ攻撃」の危険な現状／JAPANローミング、26年4月に開始",
+      "date": "2026-03-23 06:08",
+      "messageId": "19d176074e5bc753"
+    },
     {
-      "type": "new_login",
-      "account": "studystudy920@gmail.com",
-      "detected": "2026-03-21 07:36",
-      "action_required": false,
-      "messageId": "19d0f52f364b1a74"
+      "type": "newsletter",
+      "from": "日経ビジネス Editor's EYE",
+      "subject": "日東電工、ニッチで1兆円の企業メソッド／JERA、米LNG9兆円調達で強靱供給網 - 日経ビジネス（3/23）",
+      "snippet": "日東電工、ニッチで1兆円の企業メソッド／JERA、米LNG9兆円調達で強靱供給網（日経ビジネス朝刊ブリーフィング）",
+      "date": "2026-03-23 05:31",
+      "messageId": "19d173f0d77b8f54"
     }
   ],
   "sources": {
-    "google_security": { "count": 1, "note": "新しいログイン検知 1件（2026-03-21）" },
+    "google_security": { "count": 0, "note": "メールなし（過去24時間）" },
     "scan_netsecurity": { "count": 0, "note": "メールなし" },
-    "nikkei_xtech_special": { "count": 0, "note": "メールなし" },
-    "nikkei_bp_xtech_ac": { "count": 0, "note": "メールなし" },
+    "nikkei_bp": { "count": 2, "note": "日経クロステック PC/モバイル 1件、日経ビジネス Editor's EYE 1件" },
     "isc2": { "count": 0, "note": "メールなし" },
     "isaca_tokyo": { "count": 0, "note": "メールなし" }
   },
-  "updated": "2026-03-22 07:00",
+  "updated": "2026-03-23 07:00",
   "source": "Gmail MCP"
 }
