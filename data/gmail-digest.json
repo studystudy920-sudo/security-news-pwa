@@ -1,53 +1,68 @@
 {
   "notifications": [
     {
-      "type": "google",
-      "from": "Google",
-      "subject": "セキュリティ通知",
-      "snippet": "Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。ログインに心当たりがない場合は、アカウントを保護していただけるようサポートします。",
-      "date": "2026-03-24 12:10",
-      "messageId": "19d1fc0cb77d1bcf"
-    },
-    {
-      "type": "newsletter",
-      "from": "ScanNetSecurity",
-      "subject": "Scan 特別号 [2026-03-24] 【無料セキュリティセミナー】日経、TBS、第一三共、ビットバンク、京都府警など16企業・組織が登壇",
-      "snippet": "PwC Japan主催 Digital Trust Forum 2026開催中（オンデマンド・無料）。日経・TBSのサイバー担当記者と議論するインシデント対応時の経営判断ほか、NEC・日立・第一三共・ビットバンク・京都府警など16組織が登壇する12セッション。",
-      "date": "2026-03-24 11:16",
-      "messageId": "19d1da0ce7d922f9"
-    },
-    {
       "type": "newsletter",
       "from": "ISACA Tokyo Chapter",
-      "subject": "【ISACA東京支部】 Control Community Vol.02, 2026",
-      "snippet": "電子メール版コントロール コミュニティ (eCC) Vol.02を掲載。目次：巻頭言、総会・国内支部会議報告、月例会案内・報告、CISA・CISM・CGEIT・CRISC関連ご案内、支部活動・研究会予定・報告、国際本部からのお知らせ等。",
-      "date": "2026-03-24 11:37",
-      "messageId": "19d1db3fe883fcee"
+      "subject": "【ISACA東京支部】ISACA ニュースダイジェスト（日本語版）Vol.129をISACA Japanese Chaptersサイトに掲載いたしました",
+      "snippet": "ISACAニュースダイジェストvol.129掲載。今号: ITAF 5 Webinar（デジタル企業監査）、GRCエンジニアリング、パスワードレス認証のリスク・メリット、CISAとCGEITが2026年資格市場を凌駕、AI対応脅威時代のSBOM解読",
+      "date": "2026-03-25 15:09",
+      "messageId": "19d239cdda37a9d6"
     },
     {
       "type": "newsletter",
       "from": "IT注目記事 by 日経クロステック",
-      "subject": "生成AIが「下手な鉄砲」型サイバー攻撃を増やす／Sakana AIの新技術、文書の内容を学習なしでLLMに反映",
-      "snippet": "生成AIによりサイバー脅威が増していることは確実。専門家の最近の報告では、想像していたシナリオとは全く違う方向で脅威を拡大しそうなことが判明。足元固めを急ぐべきと指摘。",
-      "date": "2026-03-24 16:39",
-      "messageId": "19d1ec90dc0d8fe7"
+      "subject": "解約率が低い格安SIM、イオンモバイルの強みと意外な弱点／大手IT企業マネジャー44歳、ソフトハウスへの転職を悔やむ",
+      "snippet": "解約率が低い格安SIM、イオンモバイルの強みと意外な弱点。大手IT企業マネジャー44歳、ソフトハウスへの転職を悔やむ。IT業界の最新動向。",
+      "date": "2026-03-25 16:35",
+      "messageId": "19d23ebbf1a7fb87"
     },
     {
       "type": "newsletter",
-      "from": "日経BPメール",
-      "subject": "AIが「クリックしたくなるメール」を生成、継続的訓練でセキュリティ意識を向上【日経BP Topics】",
-      "snippet": "スピアフィッシングが急増中。SNS・ニュースリリース・ダークWeb上の漏洩情報等を基に攻撃対象を調査した標的型メールに対し、AI駆動型セキュリティ訓練サービスによる「ヒューマンファイアウォール」強化が有効。",
-      "date": "2026-03-24 08:43",
-      "messageId": "19d1d154bf424963"
+      "from": "IT最新ニュース by 日経クロステック",
+      "subject": "日立がフィジカルAIの体験スタジオ開設／婦人靴のダイアナ、ECサイトの2回目購買率10％向上へ",
+      "snippet": "日立がフィジカルAIの体験スタジオを開設。婦人靴のダイアナ、ECサイトの2回目購買率10％向上へ。AI・デジタル化の最新動向。",
+      "date": "2026-03-25 13:01",
+      "messageId": "19d2327b3fb67fd0"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス Editor's EYE",
+      "subject": "三菱ケミカル、石化再編に号砲／火力発電一体型データセンター - 日経ビジネス（3/26）",
+      "snippet": "三菱ケミカル、石化再編に号砲。火力発電一体型データセンターの動向。日本の産業・エネルギー政策の最前線。",
+      "date": "2026-03-26 05:32",
+      "messageId": "19d26b291fa96cf8"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス Update 夕刊",
+      "subject": "あおぞら銀行のパワハラ判決／Google発カーボンフリー電力 - 日経ビジネス（3/25）",
+      "snippet": "あおぞら銀行のパワハラ判決。GoogleのカーボンフリーElectricity取り組み。金融・環境経営の最新情報。",
+      "date": "2026-03-25 17:28",
+      "messageId": "19d241c219f7826d"
     }
   ],
   "sources": {
-    "google_security": { "count": 1, "note": "Windowsへの新規ログイン通知1件" },
-    "scan_netsecurity": { "count": 1, "note": "Digital Trust Forum 2026案内（特別号）" },
-    "nikkei_bp": { "count": 2, "note": "セキュリティ関連2件を収録（生成AIサイバー攻撃、AIフィッシング訓練）" },
-    "isaca_tokyo": { "count": 1, "note": "Control Community Vol.02, 2026" },
-    "isc2": { "count": 0, "note": "メールなし（0件）" }
+    "google_security": {
+      "count": 0,
+      "note": "Googleセキュリティ通知: メールなし（past 24h）"
+    },
+    "scan_netsecurity": {
+      "count": 0,
+      "note": "ScanNetSecurity: メールなし（past 24h）"
+    },
+    "isaca_tokyo": {
+      "count": 1,
+      "note": "ISACAニュースダイジェストvol.129（パスワードレス認証・SBOM・CISA/CGEIT市場動向）"
+    },
+    "isc2": {
+      "count": 0,
+      "note": "ISC2 Japan: メールなし（past 24h）"
+    },
+    "nikkei_bp": {
+      "count": 4,
+      "note": "日経クロステック2件、日経ビジネス2件"
+    }
   },
-  "updated": "2026-03-25 08:00",
+  "updated": "2026-03-26 09:00",
   "source": "Gmail MCP"
 }
