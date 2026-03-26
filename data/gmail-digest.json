@@ -1,68 +1,13 @@
 {
-  "notifications": [
-    {
-      "type": "newsletter",
-      "from": "ISACA Tokyo Chapter",
-      "subject": "【ISACA東京支部】ISACA ニュースダイジェスト（日本語版）Vol.129をISACA Japanese Chaptersサイトに掲載いたしました",
-      "snippet": "ISACAニュースダイジェストvol.129掲載。今号: ITAF 5 Webinar（デジタル企業監査）、GRCエンジニアリング、パスワードレス認証のリスク・メリット、CISAとCGEITが2026年資格市場を凌駕、AI対応脅威時代のSBOM解読",
-      "date": "2026-03-25 15:09",
-      "messageId": "19d239cdda37a9d6"
-    },
-    {
-      "type": "newsletter",
-      "from": "IT注目記事 by 日経クロステック",
-      "subject": "解約率が低い格安SIM、イオンモバイルの強みと意外な弱点／大手IT企業マネジャー44歳、ソフトハウスへの転職を悔やむ",
-      "snippet": "解約率が低い格安SIM、イオンモバイルの強みと意外な弱点。大手IT企業マネジャー44歳、ソフトハウスへの転職を悔やむ。IT業界の最新動向。",
-      "date": "2026-03-25 16:35",
-      "messageId": "19d23ebbf1a7fb87"
-    },
-    {
-      "type": "newsletter",
-      "from": "IT最新ニュース by 日経クロステック",
-      "subject": "日立がフィジカルAIの体験スタジオ開設／婦人靴のダイアナ、ECサイトの2回目購買率10％向上へ",
-      "snippet": "日立がフィジカルAIの体験スタジオを開設。婦人靴のダイアナ、ECサイトの2回目購買率10％向上へ。AI・デジタル化の最新動向。",
-      "date": "2026-03-25 13:01",
-      "messageId": "19d2327b3fb67fd0"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス Editor's EYE",
-      "subject": "三菱ケミカル、石化再編に号砲／火力発電一体型データセンター - 日経ビジネス（3/26）",
-      "snippet": "三菱ケミカル、石化再編に号砲。火力発電一体型データセンターの動向。日本の産業・エネルギー政策の最前線。",
-      "date": "2026-03-26 05:32",
-      "messageId": "19d26b291fa96cf8"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス Update 夕刊",
-      "subject": "あおぞら銀行のパワハラ判決／Google発カーボンフリー電力 - 日経ビジネス（3/25）",
-      "snippet": "あおぞら銀行のパワハラ判決。GoogleのカーボンフリーElectricity取り組み。金融・環境経営の最新情報。",
-      "date": "2026-03-25 17:28",
-      "messageId": "19d241c219f7826d"
-    }
-  ],
+  "notifications": [],
   "sources": {
-    "google_security": {
-      "count": 0,
-      "note": "Googleセキュリティ通知: メールなし（past 24h）"
-    },
-    "scan_netsecurity": {
-      "count": 0,
-      "note": "ScanNetSecurity: メールなし（past 24h）"
-    },
-    "isaca_tokyo": {
-      "count": 1,
-      "note": "ISACAニュースダイジェストvol.129（パスワードレス認証・SBOM・CISA/CGEIT市場動向）"
-    },
-    "isc2": {
-      "count": 0,
-      "note": "ISC2 Japan: メールなし（past 24h）"
-    },
-    "nikkei_bp": {
-      "count": 4,
-      "note": "日経クロステック2件、日経ビジネス2件"
-    }
+    "google_security": "取得失敗 (invalid_grant) - OAuth token要再認証",
+    "scan_netsecurity": "取得失敗 (invalid_grant) - OAuth token要再認証",
+    "isaca_tokyo": "取得失敗 (invalid_grant) - OAuth token要再認証",
+    "isc2_japan": "取得失敗 (invalid_grant) - OAuth token要再認証",
+    "nikkei_bp": "取得失敗 (invalid_grant) - OAuth token要再認証"
   },
-  "updated": "2026-03-26 09:00",
-  "source": "Gmail MCP"
+  "updated": "2026-03-27 08:00",
+  "error": "Gmail MCP invalid_grant: Claude CodeでGmailの再認証が必要です",
+  "previous_run": "2026-03-26 09:00"
 }
