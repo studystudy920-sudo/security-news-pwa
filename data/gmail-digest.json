@@ -1,13 +1,68 @@
 {
-  "notifications": [],
+  "notifications": [
+    {
+      "type": "google",
+      "from": "Google",
+      "subject": "セキュリティ通知",
+      "snippet": "Microsoft 365 import に Google アカウントのデータの一部へのアクセスを許可しました。studystudy920@gmail.com。許可していない場合は第三者がアクセスしようとしている可能性があります。",
+      "date": "2026-03-30 07:50",
+      "messageId": "19d3bcac2eba590a"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス Editor's EYE",
+      "subject": "SBG「AI全賭け」リスクを検証／材料運搬船の重油枯渇 - 日経ビジネス（3/31）",
+      "snippet": "サイバーエージェントのABEMA事業は参入から黒字化まで約10年かかりました。SBG「AI全賭け」リスクを検証。",
+      "date": "2026-03-31 05:32",
+      "messageId": "19d4072c3f93b38d"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT注目記事 by 日経クロステック",
+      "subject": "技術者を管理職に出世させる愚かな日本企業／AIはツールから「同僚」へ：日経クロステック IT注目記事メール",
+      "snippet": "Google Cloud、法人ビジネス拡大へ「3＋1」戦略／しずおかFGと名古屋銀行が統合、両行の勘定系「これから議論」／複数のブレークスルーを経たLLMの変遷など",
+      "date": "2026-03-30 16:47",
+      "messageId": "19d3db5f12d8fed9"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "楽天グループが語る「システム監視」戦略、鍵は最先端AIをどう活用するか【日経BP Topics】",
+      "snippet": "4月16日（木）開催セミナー。楽天グループが語るシステム監視戦略、最先端AI活用について。PagerDuty on Tour Tokyo 2026。",
+      "date": "2026-03-30 14:38",
+      "messageId": "19d3d40abe7291fb"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "AIがどうサイバーセキュリティを再定義するのか、戦略と実装の両面から探る【日経BP Topics】",
+      "snippet": "6月17日（水）開催セミナー。OP/X Tokyo：AIが再定義するサイバーセキュリティ ─ 未来志向の防御モデルへ。",
+      "date": "2026-03-30 14:35",
+      "messageId": "19d3d3d95ea1c244"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT最新ニュース by 日経クロステック",
+      "subject": "AIはツールから「同僚」へ／ガバメントクラウドに「さくらのクラウド」：日経クロステック IT最新ニュースメール",
+      "snippet": "しずおかFGと名古屋銀行が統合、日立・NTTデータの勘定系「これから議論」／三菱電機の武田氏「現場データの背景理解が重要」など",
+      "date": "2026-03-30 12:53",
+      "messageId": "19d3cdfbc925a615"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "「仕事がはかどる」ネットワーク図の描き方入門 / NTT東日本がプログラムミス ほか【日経NETWORK】",
+      "snippet": "「日経NETWORK」2026年3月号。特集1：「仕事がはかどる」ネットワーク図の描き方入門。NTT東日本がプログラムミス。",
+      "date": "2026-03-30 12:02",
+      "messageId": "19d3cb1d82b9d468"
+    }
+  ],
   "sources": {
-    "google_security": "取得失敗 (invalid_grant) - OAuth token要再認証",
-    "scan_netsecurity": "取得失敗 (invalid_grant) - OAuth token要再認証",
-    "isaca_tokyo": "取得失敗 (invalid_grant) - OAuth token要再認証",
-    "isc2_japan": "取得失敗 (invalid_grant) - OAuth token要再認証",
-    "nikkei_bp": "取得失敗 (invalid_grant) - OAuth token要再認証"
+    "google_security": "1件（Microsoft 365 importへのアクセス許可通知）",
+    "scan_netsecurity": "0件（メールなし）",
+    "nikkei_bp": "6件",
+    "isaca_tokyo": "0件（メールなし）",
+    "isc2_japan": "0件（メールなし）"
   },
-  "updated": "2026-03-30 09:00",
-  "error": "Gmail MCP invalid_grant: Claude CodeでGmailの再認証が必要です",
-  "previous_run": "2026-03-29 09:00"
+  "updated": "2026-03-31 09:00"
 }
