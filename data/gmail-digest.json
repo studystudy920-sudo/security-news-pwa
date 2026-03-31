@@ -58,11 +58,12 @@
     }
   ],
   "sources": {
-    "google_security": "1件（Microsoft 365 importへのアクセス許可通知）",
-    "scan_netsecurity": "0件（メールなし）",
-    "nikkei_bp": "6件",
-    "isaca_tokyo": "0件（メールなし）",
-    "isc2_japan": "0件（メールなし）"
+    "google_security": "未取得（Gmail MCP認証エラー）",
+    "scan_netsecurity": "未取得（Gmail MCP認証エラー）",
+    "nikkei_bp": "未取得（Gmail MCP認証エラー）",
+    "isaca_tokyo": "未取得（Gmail MCP認証エラー）",
+    "isc2_japan": "未取得（Gmail MCP認証エラー）"
   },
-  "updated": "2026-03-31 09:00"
+  "error": "Gmail MCP: invalid_grant（OAuthトークン期限切れ）。前回（2026-03-31）のデータを保持。",
+  "updated": "2026-04-01 09:00"
 }
