@@ -58,12 +58,12 @@
     }
   ],
   "sources": {
-    "google_security": "未取得（Gmail MCP認証エラー）",
-    "scan_netsecurity": "未取得（Gmail MCP認証エラー）",
-    "nikkei_bp": "未取得（Gmail MCP認証エラー）",
-    "isaca_tokyo": "未取得（Gmail MCP認証エラー）",
-    "isc2_japan": "未取得（Gmail MCP認証エラー）"
+    "google_security": "未取得（Gmail MCP認証エラー: invalid_grant）",
+    "scan_netsecurity": "未取得（Gmail MCP認証エラー: invalid_grant）",
+    "nikkei_bp": "未取得（Gmail MCP認証エラー: invalid_grant）",
+    "isaca_tokyo": "未取得（Gmail MCP認証エラー: invalid_grant）",
+    "isc2_japan": "未取得（Gmail MCP認証エラー: invalid_grant）"
   },
-  "error": "Gmail MCP: invalid_grant（OAuthトークン期限切れ）。前回（2026-03-31）のデータを保持。",
-  "updated": "2026-04-01 09:00"
+  "error": "Gmail MCP: invalid_grant（OAuthトークン期限切れ）。2026-03-30以前のキャッシュデータを保持中。再認証が必要です。",
+  "updated": "2026-04-02 07:00"
 }
