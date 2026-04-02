@@ -1,12 +1,108 @@
 {
-  "notifications": [],
+  "notifications": [
+    {
+      "type": "google",
+      "from": "Google",
+      "subject": "セキュリティ通知",
+      "snippet": "Gmail MCP Server に Google アカウントのデータの一部へのアクセスを許可しました (studystudy920@gmail.com)",
+      "date": "2026-04-03 06:49",
+      "messageId": "19d502c315fe8e20"
+    },
+    {
+      "type": "google",
+      "from": "Google",
+      "subject": "セキュリティ通知",
+      "snippet": "Superhuman に Google アカウントのデータの一部へのアクセスを許可しました (studystudy920@gmail.com)",
+      "date": "2026-04-03 06:09",
+      "messageId": "19d5007df7dd8d2f"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "負担の大きいインフラ運用を効率化、仮想化基盤とストレージが連携する威力とは【日経BP Topics】",
+      "snippet": "インフラ運用の効率化に向けた仮想化基盤とストレージ連携に関するトピックス。",
+      "date": "2026-04-03 06:47",
+      "messageId": "19d502a4b6f24f5e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "ネットワーク運用にAIを活用、新プラットフォームで監視・障害対応を一元管理【日経BP Topics】",
+      "snippet": "ネットワーク運用へのAI活用と、監視・障害対応を一元管理する新プラットフォームの紹介。",
+      "date": "2026-04-03 06:41",
+      "messageId": "19d502552197c875"
+    },
+    {
+      "type": "newsletter",
+      "from": "デジタル＆スキルアップ by 日経クロステック",
+      "subject": "Pythonプログラムを駆使してDeepSeek-R1と対話しよう",
+      "snippet": "PythonプログラムでDeepSeek-R1と対話する実践的な技術解説。",
+      "date": "2026-04-03 06:01",
+      "messageId": "19d500026024d457"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス Editor's EYE",
+      "subject": "アクティビスト圧力　サッポロ、不動産事業売却／UAE、ミサイル被弾で軍事関与検討 - 日経ビジネス（4/3）",
+      "snippet": "サッポロホールディングスへのアクティビスト圧力と不動産事業売却、UAE軍事関与検討の動向。",
+      "date": "2026-04-03 05:32",
+      "messageId": "19d4fe5af988c334"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2",
+      "subject": "Strengthen AI Security with the Building AI Strategy Certificate",
+      "snippet": "ISC2 Building AI Strategy Certificate: AIセキュリティ強化のための6コース構成資格。16 CPEクレジット取得可能。",
+      "date": "2026-04-02 23:03",
+      "messageId": "19d4eb8f80bb3b5f"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2",
+      "subject": "Top ISC2 Insights Articles from the Last Month",
+      "snippet": "AIエージェントのセキュリティ(Securing AI Agents 101)、AI駆動型防御と自律攻撃、女性のサイバーセキュリティキャリア等の特集。",
+      "date": "2026-04-02 22:46",
+      "messageId": "19d4ea98073634e3"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス Update 夕刊",
+      "subject": "SHIFT社長「AIで君の仕事はなくなる」／日本のエネルギー安全保障「蓄える力」で - 日経ビジネス（4/2）",
+      "snippet": "SHIFTの社長がAIによる仕事消失を警告。日本のエネルギー安全保障と蓄電力についての特集。",
+      "date": "2026-04-02 17:20",
+      "messageId": "19d4d477667b6ae9"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT注目記事 by 日経クロステック",
+      "subject": "コンテキストエンジニアリング、日本企業が後れを取る根深い理由／AIエージェント取り込み、管理・運用が競争軸に",
+      "snippet": "コンテキストエンジニアリングで日本企業が遅れる理由と、AIエージェント管理・運用の競争軸化を解説。",
+      "date": "2026-04-02 16:37",
+      "messageId": "19d4d20868c89765"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "企業向けSaaSアプリに不可欠なもの、強固な認証・アクセス管理を確保する！【日経BP Topics】",
+      "snippet": "企業向けSaaSアプリにおける認証・アクセス管理強化のポイントを解説。",
+      "date": "2026-04-02 12:37",
+      "messageId": "19d4c4498fdfa780"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT最新ニュース by 日経クロステック",
+      "subject": "政府が18万人で生成AI活用を実証／三井住友FGが新中計、IT投資3年で1兆円規模",
+      "snippet": "政府が18万人規模で生成AI活用を実証。三井住友FGが3年間で1兆円規模のIT投資を計画。",
+      "date": "2026-04-02 12:13",
+      "messageId": "19d4c2ed341a0cc0"
+    }
+  ],
   "sources": {
-    "google_security": "未取得（Gmail MCP認証エラー: invalid_grant）",
-    "scan_netsecurity": "未取得（Gmail MCP認証エラー: invalid_grant）",
-    "nikkei_bp": "未取得（Gmail MCP認証エラー: invalid_grant）",
-    "isaca_tokyo": "未取得（Gmail MCP認証エラー: invalid_grant）",
-    "isc2_japan": "未取得（Gmail MCP認証エラー: invalid_grant）"
+    "google_security": "2件（Gmail MCP Server へのアクセス許可、Superhuman へのアクセス許可）",
+    "scan_netsecurity": "メールなし（過去24時間）",
+    "nikkei_bp": "6件（日経BPメール3件、日経クロステック2件、日経ビジネス2件）",
+    "isaca_tokyo": "メールなし（過去24時間）",
+    "isc2_japan": "2件（Building AI Strategy Certificate、Top Insights）"
   },
-  "error": "Gmail MCP: invalid_grant（OAuthトークン期限切れ）。再認証が必要です。Claude Codeの設定 > Gmail MCP > 再認証を実施してください。",
-  "updated": "2026-04-03 07:00"
+  "updated": "2026-04-03 08:00"
 }
