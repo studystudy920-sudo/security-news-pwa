@@ -1,20 +1,36 @@
 {
   "notifications": [
     {
+      "type": "google",
+      "from": "Google",
+      "subject": "セキュリティ通知",
+      "snippet": "Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。",
+      "date": "2026-04-05 03:38",
+      "messageId": "19d5bb86bae983c5"
+    },
+    {
       "type": "newsletter",
-      "from": "日経クロステック Special",
-      "subject": "【週刊日経クロステック Special】加工食品業界が挑む「つながる物流」 ほか",
-      "snippet": "「全員参加型セキュリティー」実現のカギ／デバイス側で制御するＳＡＳＥの新常識とは／厳しい環境下に置かれた日本企業、打ち手は（日経クロステック Special 2026.4.4）",
-      "date": "2026-04-04 09:08",
-      "messageId": "19d55d19358268da"
+      "from": "PC/モバイルメール by 日経クロステック",
+      "subject": "Windows 11で「メモ帳」が進化／感染経路はVPNが過半、復元失敗は7割超え　変わらぬランサム被害の実態：日経クロステック PC/モバイルメール",
+      "snippet": "感染経路はVPNが過半、復元失敗は7割超え　変わらぬランサム被害の実態。不可視文字でマルウエア混入　GitHubなどで汚染拡大、開発基盤の信頼揺らぐ。",
+      "date": "2026-04-06 06:08",
+      "messageId": "19d5f795abe2bca8"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス Editor's EYE",
+      "subject": "ファンドに翻弄された元社長の告白／ジム「カーブス」強さの秘密 - 日経ビジネス（4/6）",
+      "snippet": "ファンドに翻弄された元社長の告白／ジム「カーブス」強さの秘密 - 日経ビジネス Editor's EYE 2026-04-06配信。",
+      "date": "2026-04-06 05:32",
+      "messageId": "19d5f58722bb810b"
     }
   ],
   "sources": {
-    "google_security": "メールなし（過去24時間のGoogleセキュリティ通知なし）",
+    "google_security": "1件（新規ログイン検知）",
     "scan_netsecurity": "メールなし",
-    "nikkei_bp": "1件（日経クロステック Special 週刊号）",
+    "nikkei_bp": "2件",
     "isaca_tokyo": "メールなし",
     "isc2_japan": "メールなし"
   },
-  "updated": "2026-04-05 07:00"
+  "updated": "2026-04-06 07:00"
 }
