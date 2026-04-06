@@ -1,36 +1,44 @@
 {
   "notifications": [
     {
-      "type": "google",
-      "from": "Google",
-      "subject": "セキュリティ通知",
-      "snippet": "Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。",
-      "date": "2026-04-05 03:38",
-      "messageId": "19d5bb86bae983c5"
+      "type": "newsletter",
+      "from": "ISC2",
+      "subject": "Final Week: Submit Your Award Nominations",
+      "snippet": "2026 ISC2 Global Achievement Awardsのノミネーション締切は4月12日。サイバーセキュリティ分野の優秀な同僚・メンターを推薦できる。Rising Star、Senior Professional、Lifetime Achievement等のカテゴリあり。",
+      "date": "2026-04-06 22:04",
+      "messageId": "19d62e600ebca77d"
     },
     {
       "type": "newsletter",
-      "from": "PC/モバイルメール by 日経クロステック",
-      "subject": "Windows 11で「メモ帳」が進化／感染経路はVPNが過半、復元失敗は7割超え　変わらぬランサム被害の実態：日経クロステック PC/モバイルメール",
-      "snippet": "感染経路はVPNが過半、復元失敗は7割超え　変わらぬランサム被害の実態。不可視文字でマルウエア混入　GitHubなどで汚染拡大、開発基盤の信頼揺らぐ。",
-      "date": "2026-04-06 06:08",
-      "messageId": "19d5f795abe2bca8"
+      "from": "IT注目記事 by 日経クロステック",
+      "subject": "日本企業の経営者はAIオタク／メモリー業界揺るがすGoogleの新技術：日経クロステック IT注目記事メール",
+      "snippet": "【セキュリティ関連】11万人も足りないセキュリティー人材、IPAは「キャンプ」で発掘・育成 / 自治体ネットワーク「三層分離」とは何か、10年の歴史とともにおさらいする",
+      "date": "2026-04-06 16:37",
+      "messageId": "19d61b9781032563"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT最新ニュース by 日経クロステック",
+      "subject": "SUBARU、10年かかるDXを1年で実現／Microsoftが日本で100万人のAI人材育成：日経クロステック IT最新ニュースメール",
+      "snippet": "SUBARUが生成AI活用でDXを1年で実現。MicrosoftはAI人材育成を日本で100万人規模で展開予定。",
+      "date": "2026-04-06 12:18",
+      "messageId": "19d60ccfa756e783"
     },
     {
       "type": "newsletter",
       "from": "日経ビジネス Editor's EYE",
-      "subject": "ファンドに翻弄された元社長の告白／ジム「カーブス」強さの秘密 - 日経ビジネス（4/6）",
-      "snippet": "ファンドに翻弄された元社長の告白／ジム「カーブス」強さの秘密 - 日経ビジネス Editor's EYE 2026-04-06配信。",
-      "date": "2026-04-06 05:32",
-      "messageId": "19d5f58722bb810b"
+      "subject": "企業不動産を爆買い、米KKRの深謀／進む原油･ナフサの代替調達 - 日経ビジネス（4/7）",
+      "snippet": "企業不動産・原油ナフサ代替調達に関するビジネスニュース。セキュリティ直接関連なし。",
+      "date": "2026-04-07 05:32",
+      "messageId": "19d647ede1c245ad"
     }
   ],
   "sources": {
-    "google_security": "1件（新規ログイン検知）",
-    "scan_netsecurity": "メールなし",
-    "nikkei_bp": "2件",
-    "isaca_tokyo": "メールなし",
-    "isc2_japan": "メールなし"
+    "google_security": "メールなし（過去24時間）",
+    "scan_netsecurity": "メールなし（過去24時間）",
+    "isaca_tokyo": "メールなし（過去24時間）",
+    "isc2": "1件（Global Achievement Awards締切リマインダー）",
+    "nikkei_bp": "3件（うちセキュリティ関連1件）"
   },
-  "updated": "2026-04-06 07:00"
+  "updated": "2026-04-07 09:00"
 }
