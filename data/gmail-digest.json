@@ -2,43 +2,59 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "ISC2",
-      "subject": "Final Week: Submit Your Award Nominations",
-      "snippet": "2026 ISC2 Global Achievement Awardsのノミネーション締切は4月12日。サイバーセキュリティ分野の優秀な同僚・メンターを推薦できる。Rising Star、Senior Professional、Lifetime Achievement等のカテゴリあり。",
-      "date": "2026-04-06 22:04",
-      "messageId": "19d62e600ebca77d"
-    },
-    {
-      "type": "newsletter",
       "from": "IT注目記事 by 日経クロステック",
-      "subject": "日本企業の経営者はAIオタク／メモリー業界揺るがすGoogleの新技術：日経クロステック IT注目記事メール",
-      "snippet": "【セキュリティ関連】11万人も足りないセキュリティー人材、IPAは「キャンプ」で発掘・育成 / 自治体ネットワーク「三層分離」とは何か、10年の歴史とともにおさらいする",
-      "date": "2026-04-06 16:37",
-      "messageId": "19d61b9781032563"
+      "subject": "人間より頭がいいAIエージェント、「息苦しさ」の正体／AIに方程式を学ばせる「新しい数学」：日経クロステック IT注目記事メール",
+      "snippet": "LINEヤフーのランサム攻撃対応訓練に密着／自治体ネットワークのガイドライン変遷／マルコメが社内規定をクラウドで一元管理／長崎県にある日本初「情報セキュリティ学科」現場取材",
+      "date": "2026-04-07 16:42",
+      "messageId": "19d66e452c07b6d1"
     },
     {
       "type": "newsletter",
       "from": "IT最新ニュース by 日経クロステック",
-      "subject": "SUBARU、10年かかるDXを1年で実現／Microsoftが日本で100万人のAI人材育成：日経クロステック IT最新ニュースメール",
-      "snippet": "SUBARUが生成AI活用でDXを1年で実現。MicrosoftはAI人材育成を日本で100万人規模で展開予定。",
-      "date": "2026-04-06 12:18",
-      "messageId": "19d60ccfa756e783"
+      "subject": "LINEヤフーのランサム攻撃対応訓練に密着／メモリー業界揺るがすGoogleの新技術「TurboQuant」：日経クロステック IT最新ニュースメール",
+      "snippet": "LINEヤフーのランサム攻撃対応訓練に密着、実環境を模擬し対応力向上を図る。長崎県にある日本初の「情報セキュリティ学科」取材。量子技術に特化した2億ユーロ超のファンド組成。",
+      "date": "2026-04-07 12:42",
+      "messageId": "19d6609361190a15"
     },
     {
       "type": "newsletter",
-      "from": "日経ビジネス Editor's EYE",
-      "subject": "企業不動産を爆買い、米KKRの深謀／進む原油･ナフサの代替調達 - 日経ビジネス（4/7）",
-      "snippet": "企業不動産・原油ナフサ代替調達に関するビジネスニュース。セキュリティ直接関連なし。",
-      "date": "2026-04-07 05:32",
-      "messageId": "19d647ede1c245ad"
+      "from": "日経BPメール",
+      "subject": "ランサム攻撃の被害を最小化、横展開を阻止するマイクロセグメンテーション【日経BP Topics】",
+      "snippet": "ランサム攻撃の被害を最小化するマイクロセグメンテーション技術。デバイス単位で必要な通信のみ許可し横展開を阻止する手法を解説。",
+      "date": "2026-04-07 09:40",
+      "messageId": "19d6562bfc729688"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック Activeメール",
+      "subject": "事業撤退で進路を絶たれた研究者、新事業創出という難題にどう挑んだか：日経クロステック Active",
+      "snippet": "富士フイルムの化粧品参入はなぜ成功？／DX推進部門が提供すべき価値や人材の育成方法／「AIの文章を信用」は危険！",
+      "date": "2026-04-07 09:42",
+      "messageId": "19d65641a45a50e3"
+    },
+    {
+      "type": "newsletter",
+      "from": "AIエフェクト by 日経クロステック",
+      "subject": "JPモルガン、6万人以上の社内技術者にClaude Code導入",
+      "snippet": "米JPMorgan Chaseが2026年4月、社内技術者6万人以上を対象にAnthropicのClaude Codeを導入。AI駆動型開発の大規模展開事例。",
+      "date": "2026-04-08 06:01",
+      "messageId": "19d69c06751db6d1"
+    },
+    {
+      "type": "newsletter",
+      "from": "PC/モバイルメール by 日経クロステック",
+      "subject": "NTTドコモが新サブスク「dバリューパス」を開始／便利機能が増えてきたEdge：日経クロステック PC/モバイルメール",
+      "snippet": "通話やメッセージを「ライブ翻訳」する機能、LINEヤフーのランサム攻撃対応訓練、11万人も足りないセキュリティー人材について取り上げ。",
+      "date": "2026-04-08 06:09",
+      "messageId": "19d69c746e9ba9b4"
     }
   ],
   "sources": {
     "google_security": "メールなし（過去24時間）",
     "scan_netsecurity": "メールなし（過去24時間）",
     "isaca_tokyo": "メールなし（過去24時間）",
-    "isc2": "1件（Global Achievement Awards締切リマインダー）",
-    "nikkei_bp": "3件（うちセキュリティ関連1件）"
+    "isc2_japan": "メールなし（過去24時間）",
+    "nikkei_bp": "6件取得（セキュリティ関連: LINEヤフーランサム対応訓練、マイクロセグメンテーション、セキュリティ人材不足）"
   },
-  "updated": "2026-04-07 09:00"
+  "updated": "2026-04-08 07:00"
 }
