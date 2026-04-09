@@ -1,60 +1,92 @@
 {
   "notifications": [
     {
-      "type": "newsletter",
-      "from": "ISC2",
-      "subject": "Last Chance for Early Bird Savings | ISC2 Securing AI Workshop",
-      "snippet": "Earn up to 10 CPE credits! Last chance for early bird pricing for ISC2's Securing AI Workshop, taking place May 12-13.",
-      "date": "2026-04-09 00:41",
-      "messageId": "19d6dc163e24c347"
+      "type": "google",
+      "from": "Google セキュリティ通知",
+      "subject": "（メールなし）",
+      "snippet": "過去24時間以内のGoogleセキュリティ通知はありませんでした。",
+      "date": "2026-04-10 00:00",
+      "messageId": ""
     },
     {
       "type": "newsletter",
-      "from": "IT最新ニュース by 日経クロステック",
-      "subject": "フォーティネットがSSL-VPNの廃止期限を1年延長／NTTやアサヒなどサイバー脅威情報を10社で共有",
-      "snippet": "フォーティネットがSSL-VPNの「廃止」期限を1年延長。NTTやアサヒなど「流通ISAC」設立、サイバー脅威情報を10社で共有。",
-      "date": "2026-04-08 13:05",
-      "messageId": "19d6b4478382cd70"
+      "from": "ISC2",
+      "subject": "Final Call to Join April Cyber Leadership Programs",
+      "snippet": "Cohorts start April 13 — secure your spot! Don't miss your last chance to register for two high-impact 8-week virtual cohorts,",
+      "date": "2026-04-09 23:16",
+      "messageId": "19d733f33f95a122"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISACA Tokyo Chapter",
+      "subject": "【ISACA東京支部：総務省からのご案内】特定任期付職員公募のご案内",
+      "snippet": "総務省サイバーセキュリティ統括官室では、高度化・巧妙化するサイバー攻撃等の脅威に対処し、安全・安心なサイバー空間を実現するため、サイバーセキュリティの確保に係る各種方策について検討を進めています。",
+      "date": "2026-04-09 17:47",
+      "messageId": "19d716d24c8b2a46"
     },
     {
       "type": "newsletter",
       "from": "IT注目記事 by 日経クロステック",
-      "subject": "「スライシング」利用が本格化／セキュリティー「も」分かる人材を育てる",
-      "snippet": "フォーティネットがSSL-VPNの「廃止」期限を1年延長。稼働端末がWindowsよりも多い「Linux」。セキュリティも分かる人材育成の特集。",
-      "date": "2026-04-08 16:42",
-      "messageId": "19d6c0ae122e1faa"
+      "subject": "AIが「善良な開発者」装う時代、LLM製マルウエアがOSS文化を悪用 — 日経クロステック IT注目記事メール",
+      "snippet": "AIが「善良な開発者」装う時代、LLM製マルウエアがOSS文化を悪用。三井住友カードが「AIオペレーター」電話で円滑に対話。情報処理技術者試験、新応用・高度合格者向け論述試験も。",
+      "date": "2026-04-09 16:35",
+      "messageId": "19d712ab30d14c76"
     },
     {
       "type": "newsletter",
       "from": "日経BPメール",
-      "subject": "情報漏洩を防ぐ！シャドーAI問題と企業ガバナンスの最適解【日経BP Mail】",
-      "snippet": "【4/17開催】シャドーAIを封じる「守り」と「攻め」〜生成AI活用と課題克服を両立する企業ガバナンスの在り方とは〜",
-      "date": "2026-04-08 10:46",
-      "messageId": "19d6ac4ac4fe2e76"
+      "subject": "エンドポイントのログ分析がなぜ効果的なのか？ サイバー脅威を検知する極意【日経BP Topics】",
+      "snippet": "次世代セキュリティの基礎となる手法、「エンドポイントとSIEM統合」を解説。セキュリティに関するおすすめ情報。",
+      "date": "2026-04-09 14:37",
+      "messageId": "19d70bf093ba57b6"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "ランサムウエア攻撃対策となる「横展開の遮断」、被害を極小化する最新手法【日経BP Topics】",
+      "snippet": "ランサムウェア攻撃対策として「横展開の遮断」が注目。Zero Networks Cloudを活用した最新手法を紹介。",
+      "date": "2026-04-09 14:34",
+      "messageId": "19d70bc61424ea72"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "大企業の3割超が実施の「サイバー衛生」、脆弱性対処の時間を短縮するワケ【日経BP Topics】",
+      "snippet": "大企業は3割超が全社規模で「サイバーハイジーン」実施、調査で判明した実態。脆弱性対処の時間を短縮する方法を解説。",
+      "date": "2026-04-09 13:37",
+      "messageId": "19d70878bc2d5dc6"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT最新ニュース by 日経クロステック",
+      "subject": "三井住友カードが「AIオペレーター」／人型ロボット、中国が圧倒的に先行：日経クロステック IT最新ニュースメール",
+      "snippet": "三井住友カードが「AIオペレーター」 電話で円滑に対話、回答内容は顧客別に対応。情報処理技術者試験の最新動向も掲載。",
+      "date": "2026-04-09 12:28",
+      "messageId": "19d7048891529d41"
     },
     {
       "type": "newsletter",
       "from": "日経クロステック Activeメール",
-      "subject": "さかなクンや原監督の登壇も、楽天やJALが挑むシステム運用改革：日経クロステック Active",
-      "snippet": "Zoomユーザー必見！ユーザーもベンダーも不満が残る「追加作業」。責任の所在が曖昧になりやすいITプロジェクトの問題を取り上げ。",
-      "date": "2026-04-08 09:32",
-      "messageId": "19d6a819f6833ef8"
+      "subject": "人気記事ランキング1位：ドコモ・楽天中心にスマホ値引き競争再燃か 26年注目「27条の3」見直し",
+      "snippet": "直近1カ月間によく読まれた記事ランキング。Wi-Fiルーターの速度改善、AIが先読みする同時通訳アプリ、2026年の携帯料金競争特集。",
+      "date": "2026-04-09 10:02",
+      "messageId": "19d6fc2ea47c1542"
     },
     {
       "type": "newsletter",
       "from": "日経ビジネス Editor's EYE",
-      "subject": "イラン攻撃後の戦争保険料「異常値」／JR九州、鉄道外収入5割超 - 日経ビジネス（4/9）",
-      "snippet": "米国とイランが2週間の停戦で合意。ホルムズ海峡の事実上の封鎖が好転の可能性。マラッカ海峡とマレーシア沖の航行状況をデータで分析。",
-      "date": "2026-04-09 05:32",
-      "messageId": "19d6ecbbf970ef26"
+      "subject": "脱・大量採用、新卒厳選・中途拡大の大潮流 — 日経ビジネス（4/10）",
+      "snippet": "AI時代、人事戦略の新たな課題。生成AIやAIエージェントの登場は新卒・若手の採用の在り方を変えようとしています。米国では既に新卒採用の縮小が進む。",
+      "date": "2026-04-10 05:32",
+      "messageId": "19d73f2088c50998"
     }
   ],
   "sources": {
     "google_security": "メールなし（過去24時間）",
     "scan_netsecurity": "メールなし（過去24時間）",
-    "isaca_tokyo": "メールなし（過去24時間）",
-    "isc2_japan": "1件（Securing AI Workshop早期割引最終案内）",
-    "nikkei_bp": "5件（セキュリティ関連: SSL-VPN廃止延長・流通ISAC設立・シャドーAIガバナンス）"
+    "isaca_tokyo": "1件（総務省サイバーセキュリティ特定任期付職員公募）",
+    "isc2": "1件（4月Cyber Leadership Programs最終案内・4/13開始）",
+    "nikkei_bp": "8件（セキュリティ関連: LLMマルウェア・SIEM統合・ランサムウェア対策・サイバーハイジーン等）"
   },
-  "updated": "2026-04-09 08:00"
+  "updated": "2026-04-10 07:00"
 }
