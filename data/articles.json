@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
+      "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+      "summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not&nbsp;phishing. Not&nbsp;weak passwords. Unmanaged non-human identities that nobody was&nbsp;watching",
+      "date": "2026-04-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
+      "url": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
+      "summary": "Grinex, a Kyrgyzstan-incorporated cryptocurrency exchange sanctioned by the U.K. and the U.S. last year, said it's suspending operations after it blamed Western intelligence agencies for a $13.74 mill",
+      "date": "2026-04-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+      "url": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+      "summary": "Threat actors are exploiting security flaws in TBK DVR and end‑of‑life (EoL) TP-Link Wi-Fi routers to deploy Mirai-botnet variants on compromised devices, according to findings from Fortinet FortiGuar",
+      "date": "2026-04-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical flaw in Protobuf library enables JavaScript code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-flaw-in-protobuf-library-enables-javascript-code-execution/",
+      "summary": "Proof-of-concept exploit code has been published for a critical remote code execution flaw in protobuf.js, a widely used JavaScript implementation of Google's Protocol Buffers. [...]",
+      "date": "2026-04-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft Teams right-click paste broken by Edge update bug",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-right-click-paste-broken-by-edge-update-bug/",
+      "summary": "Microsoft is warning that a recent Microsoft Edge browser update introduced a bug that breaks right-click paste in chats in the Microsoft Teams desktop client. [...]",
+      "date": "2026-04-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "NAKIVO v11.2: Ransomware Defense, Faster Replication, vSphere 9, and Proxmox VE 9.0 Support",
+      "url": "https://www.bleepingcomputer.com/news/security/nakivo-v112-ransomware-defense-faster-replication-vsphere-9-and-proxmox-ve-90-support/",
+      "summary": "NAKIVO Inc. announced the general availability of NAKIVO Backup & Replication v11.2, focused on fast, reliable, and proactive data protection. [...]",
+      "date": "2026-04-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
       "title": "CubeCartにおける複数の脆弱性",
       "url": "https://jvn.jp/jp/JVN78422311/",
       "summary": "CubeCart Limitedが提供するCubeCartには、複数の脆弱性が存在します。",
@@ -136,15 +190,6 @@
       "category": "news"
     },
     {
-      "title": "Recently leaked Windows zero-days now exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/recently-leaked-windows-zero-days-now-exploited-in-attacks/",
-      "summary": "Threat actors are exploiting three recently disclosed Windows security vulnerabilities in attacks aimed at gaining SYSTEM or elevated administrator permissions. [...]",
-      "date": "2026-04-17",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, April 17th, 2026 https://isc.sans.edu/podcastdetail/9896, (Fri, Apr 17th)",
       "url": "https://isc.sans.edu/diary/rss/32906",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -163,24 +208,6 @@
       "category": "analysis"
     },
     {
-      "title": "NEC、地域金融機関のサイバーセキュリティ対策を体系化、12行がユーザー会に参加 - IT Leaders",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ieV9Da2xTMEp0RUVnbUhYaVprc0VTNE1sZU43YkpzLUdJa1NvSmxfSWREZHF3SFFlQnFvVkRnWVktUHJYTGRRUjJjbGpUTnpaMWlv?oc=5",
-      "summary": "NEC、地域金融機関のサイバーセキュリティ対策を体系化、12行がユーザー会に参加&nbsp;&nbsp;IT Leaders",
-      "date": "2026-04-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ＮＥＣ、地域金融機関向けサイバーセキュリティ対策モデル開始 速報 - kabushiki.jp",
-      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9qMjJHRHFsZTVSUXNiLWNNem04UFN1OG40dFJabHpCLWlQLVp4ZkRsSEpfdEZwQUFVc3JISjdqczRkWXZtMGpJ?oc=5",
-      "summary": "ＮＥＣ、地域金融機関向けサイバーセキュリティ対策モデル開始 速報&nbsp;&nbsp;kabushiki.jp",
-      "date": "2026-04-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "NEC、地域金融機関向けに「サイバーセキュリティ共同センター」--知見も共有 - ZDNET Japan",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBHbGhidDNzNmltM0l3WnlxYnk0cm9IOUJxWkF1bnNKZHkwLVdTYWgwTVhTcWtNTXcwd09UWkxVX3RhQ1Y4NW5BS1ctS2R4R2poSkc4?oc=5",
       "summary": "NEC、地域金融機関向けに「サイバーセキュリティ共同センター」--知見も共有&nbsp;&nbsp;ZDNET Japan",
@@ -190,9 +217,9 @@
       "category": "news"
     },
     {
-      "title": "NEC、地域金融機関向け「サイバーセキュリティ共同センター」を提供開始 12行がユーザー会に参加 - EnterpriseZine",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9tSGE1eS1ZX3ZJQ3o2Qzh4U2tqa3E2Tmtxd0NkblVuaXY1R2diRXJjaTdEWVk1T0xDV0c2OGVObjNURnRpRExIdGEydldEV3hycG52Y2NR?oc=5",
-      "summary": "NEC、地域金融機関向け「サイバーセキュリティ共同センター」を提供開始 12行がユーザー会に参加&nbsp;&nbsp;EnterpriseZine",
+      "title": "智を超えた「Claude Mythos」限定公開開始、サイバーセキュリティの歴史的転換点での「AIレッドチーム」とは - 生成AIストリーム - 窓の杜",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBLbkwzclVpOXVlZFdwSmNwQ2FmOGVyN2psUXJrU3RuN3BTbVFLd0M1T0t1d0ZHTFFHWXFyQ3REdE5lWDFnN0RnUDNjeUNUTDNvdDBXQS1vaGFQWHdkcEtwVlVtOFN0YlNGcFBSODh3NHhzRGNLdThN?oc=5",
+      "summary": "智を超えた「Claude Mythos」限定公開開始、サイバーセキュリティの歴史的転換点での「AIレッドチーム」とは - 生成AIストリーム&nbsp;&nbsp;窓の杜",
       "date": "2026-04-17",
       "source": "Google News JP",
       "language": "日本語",
@@ -240,51 +267,6 @@
       "summary": "You&nbsp;know that feeling when you open your feed on a Thursday morning and it's just... a&nbsp;lot? Yeah. This&nbsp;week delivered. We've got hackers getting creative in ways that are almost impress",
       "date": "2026-04-16",
       "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
-      "url": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
-      "summary": "In 2024, compromised service accounts and forgotten API keys were behind 68% of cloud breaches. Not&nbsp;phishing. Not&nbsp;weak passwords. Unmanaged non-human identities that nobody was&nbsp;watching",
-      "date": "2026-04-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
-      "url": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-      "summary": "Cisco has announced patches to address four critical security flaws impacting Identity Services and Webex Services that could result in arbitrary code execution and allow an attacker to impersonate an",
-      "date": "2026-04-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks",
-      "url": "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
-      "summary": "A \"novel\" social engineering campaign has been observed abusing Obsidian, a cross-platform note-taking application, as an initial access vector to distribute a previously undocumented Windows remote a",
-      "date": "2026-04-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Operation PowerOFF identifies 75k DDoS users, takes down 53 domains",
-      "url": "https://www.bleepingcomputer.com/news/security/operation-poweroff-identifies-75k-ddos-users-takes-down-53-domains/",
-      "summary": "The latest wave of \"Operation PowerOFF,\" on April 13, 2026, targeted the distributed denial-of-service (DDoS) ecosystem and its users across 21 countries. [...]",
-      "date": "2026-04-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ZionSiphon malware designed to sabotage water treatment systems",
-      "url": "https://www.bleepingcomputer.com/news/security/zionsiphon-malware-designed-to-sabotage-water-treatment-systems/",
-      "summary": "A new malware called ZionSiphon, specifically designed for operational technology, is targeting water treatment and desalination environments to sabotage their operations. [...]",
-      "date": "2026-04-16",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -352,54 +334,54 @@
       "category": "alert"
     },
     {
+      "title": "自治体IT機器 政府認定品に限定へ - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10cmw0UVdBdm92UjBDa18xblExLVRseW5hYnFvUXg0SHowS29LV0QxN1VPYUtfZ2VhQ2Npc2xENzVXM2ozTDh4LUdPbWR0MXk4?oc=5",
+      "summary": "自治体IT機器 政府認定品に限定へ&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-04-16",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "NISTガイドラインでも推奨、DNSにセキュリティを組み込む「プロテクティブDNS」。専門ベンダーInfobloxが解説 - INTERNET Watch",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XbEFNWG9fVlVUamZ6ZWdWeFpwd09rcVJxVnJMOU5qSFFVZkM4MEdsVVN4RlRvTUN6dzhLMnJRQlY1bmtnUnAtRUdFNGV2d25ZLWk5Z2h3N1ZxZzNxSUx1SUV6VlMzMjJDZ1I4?oc=5",
+      "summary": "NISTガイドラインでも推奨、DNSにセキュリティを組み込む「プロテクティブDNS」。専門ベンダーInfobloxが解説&nbsp;&nbsp;INTERNET Watch",
+      "date": "2026-04-16",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "ステランティスとマイクロソフトのAI提携で自動車業界の技術変革加速 - тарантас ньюс",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeHo4Q1FPbzgtOTBCemZINDRDbmlpQWx6ZWdxN29iaE1IamNIbXNkMk1zc1VsbUNtNjQxNnBvTldsclFJM1dyOEl4di1fODNfYk1uUzZYN3BPcGRxNktBbGNLM0tXay1Kbi1SVWFzdzN2SUIzY2U0aWVWVlNUTjFTSXN5STB2ZTlxaWc0dDVoaVgtZE83T196M2VYTUlRdEtnSmNTU3lnQmJZblR3QnZudVdvNWYtb1Z1M1Y4etIBwAFBVV95cUxOWWYyTDg5LVNvemVBWGlIWVVWVTNDdVR2UlVTWVA0ck00ZWUwMHBucXlfXzJnZXlPU1dlelUwdDJwYWltel9kTUQ0U2JSNURaOHFFUWE5WUJMRzd2OWIwTFI3X0plYlNDTTc4NU90NEZ5MWlIWXplblVtTHB4VHp0X0loNUYxMDgtY2ZOS3dUZHoydWd0Y1pYQkE1Y2VZOUZDNXhxWDlUMHR6RHl3ZVFIa1BwYUExV29QdlBDQVBOS0o?oc=5",
+      "summary": "ステランティスとマイクロソフトのAI提携で自動車業界の技術変革加速&nbsp;&nbsp;тарантас ньюс",
+      "date": "2026-04-16",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "ＡＩが世界最高のハッカーになるかも…「ミトスショック」が情報保護体制を揺るがす（ハンギョレ新聞） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4ySTNlN1JwZ1ZxQ0hkSkRVeHpCTjcyYkk0d0xRV0tQSHlOYXJxWDVOYTI1bDMtX3hCNDhsREhWaS0zT1VvbU1Jc2RtcFd0OWZQNk5oM29sUHZmUTJweXNIVTdOT1U1NThwV3YtelFneVRpdXFROHdHcUJLQllBZFE?oc=5",
-      "summary": "ＡＩが世界最高のハッカーになるかも…「ミトスショック」が情報保護体制を揺るがす（ハンギョレ新聞）&nbsp;&nbsp;Yahoo!ニュースOpenAI、防御用途で制限を緩和した「GPT-5.4-Cyber」発表 サイバーセキュリティ関係者限定で提供&nbsp;&nbsp;Ledge.aiAnthropicの「Mythos」はサイバーセキュリティの転機となるか&nbsp;&nbsp;WIRED.j",
+      "summary": "ＡＩが世界最高のハッカーになるかも…「ミトスショック」が情報保護体制を揺るがす（ハンギョレ新聞）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-04-16",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "自治体のＩＴ機器調達、政府の認定品に限定へ…中国製品による個人情報窃取やサイバー攻撃に対処 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE10cmw0UVdBdm92UjBDa18xblExLVRseW5hYnFvUXg0SHowS29LV0QxN1VPYUtfZ2VhQ2Npc2xENzVXM2ozTDh4LUdPbWR0MXk4?oc=5",
-      "summary": "自治体のＩＴ機器調達、政府の認定品に限定へ…中国製品による個人情報窃取やサイバー攻撃に対処&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "OpenAIがサイバー防御特化型AIモデル「GPT-5.4-Cyber」限定公開（ビジネス＋IT） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55LW12cFUweVh1eTNZbzFnajhaT2hJaEdhUFc0Wm4zcHlrYWIycXpNd1ZuWjJwNnFjdmZDTnRDT3ptVzNOdFlGQkctcTN4dkVhTS1lVDlhOHJ4R0xWTklScW9aR3dUa2dNdmVFZEtta2VmbnktaXVTTDhOS1dRalU?oc=5",
+      "summary": "OpenAIがサイバー防御特化型AIモデル「GPT-5.4-Cyber」限定公開（ビジネス＋IT）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-04-16",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "チェック・ポイント、「製造業界サイバーセキュリティレポート」2025年版を発表 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5YUE5ekpDdGdITndqdFpTeFI0RnhnRFRpTnBfUlc1bV9qQ1QwUEZsNTFMeDBzR3U0aHdyN3A4LXlESlVDX05DWnpwdTRYY3FZZUR2T3gzdnZ1YnZfZ19yUWdDU0lmcjBNaDQxLV9pdTdPbXA3M2ZaVC1rTQ?oc=5",
-      "summary": "チェック・ポイント、「製造業界サイバーセキュリティレポート」2025年版を発表&nbsp;&nbsp;ニコニコニュース",
-      "date": "2026-04-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "金融庁「金融機関のサードパーティ・サイバーセキュリティリスク管理強化に関する調査」報告書公表 - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE13WC15YlFldTBDOTdRWmJmOGZEbjJpWUs1cFpMMWZXbzVtbThJMG1TbjRnU1IzRTU0c0xlR0ZrRmkxQXRKUHE5U3YxcFNPNDZXUmFFdEZpX0JZTk1DQktlSGxieXliYVVQMlFxXw?oc=5",
-      "summary": "金融庁「金融機関のサードパーティ・サイバーセキュリティリスク管理強化に関する調査」報告書公表&nbsp;&nbsp;Excite エキサイト",
-      "date": "2026-04-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ステランティスとマイクロソフトのAI提携で自動車業界の技術変革加速 - Тарантас Ньюс",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeHo4Q1FPbzgtOTBCemZINDRDbmlpQWx6ZWdxN29iaE1IamNIbXNkMk1zc1VsbUNtNjQxNnBvTldsclFJM1dyOEl4di1fODNfYk1uUzZYN3BPcGRxNktBbGNLM0tXay1Kbi1SVWFzdzN2SUIzY2U0aWVWVlNUTjFTSXN5STB2ZTlxaWc0dDVoaVgtZE83T196M2VYTUlRdEtnSmNTU3lnQmJZblR3QnZudVdvNWYtb1Z1M1Y4etIBwAFBVV95cUxOWWYyTDg5LVNvemVBWGlIWVVWVTNDdVR2UlVTWVA0ck00ZWUwMHBucXlfXzJnZXlPU1dlelUwdDJwYWltel9kTUQ0U2JSNURaOHFFUWE5WUJMRzd2OWIwTFI3X0plYlNDTTc4NU90NEZ5MWlIWXplblVtTHB4VHp0X0loNUYxMDgtY2ZOS3dUZHoydWd0Y1pYQkE1Y2VZOUZDNXhxWDlUMHR6RHl3ZVFIa1BwYUExV29QdlBDQVBOS0o?oc=5",
-      "summary": "ステランティスとマイクロソフトのAI提携で自動車業界の技術変革加速&nbsp;&nbsp;Тарантас Ньюс",
-      "date": "2026-04-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "地域金融機関向けサイバーセキュリティ対策モデル「サイバーセキュリティ共同センター」を提供開始 - NEC Global",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuRFVucW9IT05TX05DMXV1RWhHZzhGSWhNWnRkaVZwQnAyU2dWNXdlaXFDUDBsTWc1MjFUTENDbVlVdkotNUdVQkV3a28wS00tbFB4RHM4Y19BcTVpZVE?oc=5",
-      "summary": "地域金融機関向けサイバーセキュリティ対策モデル「サイバーセキュリティ共同センター」を提供開始&nbsp;&nbsp;NEC Global",
+      "title": "サイバーセキュリティの基本が74分でまるごとわかるオンデマンド入門講座が配信開始、窓の杜読者限定で10％OFF - 窓の杜",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1EM0NHV1ZVU1RQM3FTcTBvcEFPc2RjVXBxQmR2b0wta0dHR0N5Q0ZhaW9ZaUdiRU9Mel9NVjVsNTdBVDZWdnBjeEcyQ3hKUy13TVBBVWF6dTFVYWdUcE41Mm51cjk3SzNtZ242OHVtajBlYS1zS2h0Sw?oc=5",
+      "summary": "サイバーセキュリティの基本が74分でまるごとわかるオンデマンド入門講座が配信開始、窓の杜読者限定で10％OFF&nbsp;&nbsp;窓の杜",
       "date": "2026-04-16",
       "source": "Google News JP",
       "language": "日本語",
@@ -460,6 +442,15 @@
       "category": "analysis"
     },
     {
+      "title": "東アジア最大規模のサイバーと物理セキュリティの総合展 韓国 SECON ＆ eGISEC 2026 開催（ScanNetSecurity） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9XWE9OUkVxQklsdVR6X2llUER3bXBSR0FvV0VIQWgxeTdIdVFhUVlILXdjM3dUOHJaeklKSjFfNElnMk9JMTRSeEFtNXhqTmhOcm9USXhIOUxQaGtWajlvNHlRVkhRNGJGRjVsRFFyZUd2UzRGd2JQdTYyUXJLbTA?oc=5",
+      "summary": "東アジア最大規模のサイバーと物理セキュリティの総合展 韓国 SECON ＆ eGISEC 2026 開催（ScanNetSecurity）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-04-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Adobe Acrobat および Reader の脆弱性対策について(2026年4月)_2",
       "url": "https://www.ipa.go.jp/security/security-alert/2026/0415-adobereader.html",
       "summary": "",
@@ -512,6 +503,15 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
+    },
+    {
+      "title": "OpenAI、防御用途で制限を緩和した「GPT-5.4-Cyber」発表 サイバーセキュリティ関係者限定で提供 - Ledge.ai",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1TWDlxX2psRUY2WDZWbVZsMnBWWm43RW8tdzRGOHI3c3VCdmNGOW1maWhSRnpfbFBmZUl0c01CcXI1ZFJfZTM5MWIwQnF5dzZPS1FCWjJ0N01EVWtSa3hjRkNTU2V3ZWdJeWc?oc=5",
+      "summary": "OpenAI、防御用途で制限を緩和した「GPT-5.4-Cyber」発表 サイバーセキュリティ関係者限定で提供&nbsp;&nbsp;Ledge.ai",
+      "date": "2026-04-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-43）に関する注意喚起 (公開)",
@@ -1313,5 +1313,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/4/18 6:21:51"
+  "updated": "2026/4/19 6:16:30"
 }
