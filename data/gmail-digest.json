@@ -44,24 +44,25 @@
   "sources": {
     "google_security": {
       "count": 0,
-      "note": "Googleセキュリティ通知: メールなし（過去24時間）"
+      "note": "Googleセキュリティ通知: 取得エラー（Gmail認証失敗）"
     },
     "scan_netsecurity": {
       "count": 0,
-      "note": "ScanNetSecurity: メールなし（過去24時間）"
+      "note": "ScanNetSecurity: 取得エラー（Gmail認証失敗）"
     },
     "isaca_tokyo": {
       "count": 1,
-      "note": "ISACA東京支部: 1件（2026年5月期CISA試験レビューコース）"
+      "note": "ISACA東京支部: 前回データ（2026-04-18取得）"
     },
     "isc2": {
       "count": 1,
-      "note": "ISC2: 1件（ISC2 Security Congress Oct 24-28）"
+      "note": "ISC2: 前回データ（2026-04-18取得）"
     },
     "nikkei_xtech": {
       "count": 3,
-      "note": "日経クロステック: 3件（トレンドマイクロTrendLife、個人情報保護法改正案、Copilot Chat）"
+      "note": "日経クロステック: 前回データ（2026-04-18取得）"
     }
   },
-  "updated": "2026-04-18 08:00"
+  "fetchError": "Gmail認証エラー (invalid_grant): OAuthトークンが期限切れです。Claude Code設定でGmail MCPの再認証が必要です。",
+  "updated": "2026-04-19 08:00"
 }
