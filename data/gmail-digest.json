@@ -1,68 +1,27 @@
 {
-  "notifications": [
-    {
-      "type": "newsletter",
-      "from": "ISC2 (info@connect.isc2.org)",
-      "subject": "ISC2 Members Keep Coming Back – Here's Why",
-      "snippet": "Insights, connections and actionable takeaways at ISC2 Security Congress. October 24-28 | Colorado Rockies + Virtual. Top Ratings On Repeat – ISC2 Security Congress is where members like you return year after year.",
-      "date": "2026-04-17 12:02",
-      "messageId": "19d9b540418ce6a2"
-    },
-    {
-      "type": "newsletter",
-      "from": "ISACA東京支部 (tky-jimukyoku@isaca.gr.jp)",
-      "subject": "【ISACA東京支部】2026年5月期CISA試験レビューコース開催のご案内",
-      "snippet": "公認情報システム監査人(CISA)試験日本語受験予定者向け。ISACA国際本部制定のレビューコース教材(日本語)を基に、ドメインごとに解説を行います。2日間のコース。",
-      "date": "2026-04-17 03:19",
-      "messageId": "19d9972f00891220"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT最新ニュース (xtech-news@nikkeibp.co.jp)",
-      "subject": "トレンドマイクロ「TrendLife」、AIの正しい使い方に踏み込む／個人情報保護法改正案、類型追加で増す複雑さ",
-      "snippet": "トレンドマイクロ「TrendLife」でAIの正しい使い方に踏み込む。個人情報保護法改正案、類型追加で増す複雑さ。ソフトバンク、国産LLMを自社ソブリンクラウドで提供。",
-      "date": "2026-04-17 03:37",
-      "messageId": "19d9983daa32d479"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT注目記事 (xtech-pickup@nikkeibp.co.jp)",
-      "subject": "国内金融業界、Mythosに危機感／ソフトバンクがAI搭載スマホを独占販売：日経クロステック IT注目記事メール",
-      "snippet": "トレンドマイクロ個人向け「TrendLife」／個人情報保護法改正案、類型追加で増す複雑さ／ERPはAI活用の基盤に、SAPジャパンの堀川新社長／ソフトバンク、国産LLMを自社ソブリンクラウドで提供。",
-      "date": "2026-04-17 07:47",
-      "messageId": "19d9a68b9cf1ca3e"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Active (xtech-ac@nikkeibp.co.jp)",
-      "subject": "富士フイルムはなぜ異業種で成功？ 新規事業を生む「5つの原則」とは：日経クロステック Active",
-      "snippet": "新ビジネス開拓のミッションをどう実現？／「知らない」と言えない転職者を支援／Copilot Chatで会議予定を作成／Wi-Fi 8で追加が検討されている新技術。",
-      "date": "2026-04-17 00:32",
-      "messageId": "19d98da60598054b"
-    }
-  ],
+  "notifications": [],
   "sources": {
     "google_security": {
       "count": 0,
-      "note": "Googleセキュリティ通知: 取得エラー（Gmail認証失敗）"
+      "note": "Googleセキュリティ通知: 取得エラー（Gmail認証失敗 - invalid_grant）"
     },
     "scan_netsecurity": {
       "count": 0,
-      "note": "ScanNetSecurity: 取得エラー（Gmail認証失敗）"
+      "note": "ScanNetSecurity: 取得エラー（Gmail認証失敗 - invalid_grant）"
     },
     "isaca_tokyo": {
-      "count": 1,
-      "note": "ISACA東京支部: 前回データ（2026-04-18取得）"
+      "count": 0,
+      "note": "ISACA東京支部: 取得エラー（Gmail認証失敗 - invalid_grant）"
     },
     "isc2": {
-      "count": 1,
-      "note": "ISC2: 前回データ（2026-04-18取得）"
+      "count": 0,
+      "note": "ISC2: 取得エラー（Gmail認証失敗 - invalid_grant）"
     },
     "nikkei_xtech": {
-      "count": 3,
-      "note": "日経クロステック: 前回データ（2026-04-18取得）"
+      "count": 0,
+      "note": "日経クロステック: 取得エラー（Gmail認証失敗 - invalid_grant）"
     }
   },
   "fetchError": "Gmail認証エラー (invalid_grant): OAuthトークンが期限切れです。Claude Code設定でGmail MCPの再認証が必要です。",
-  "updated": "2026-04-19 08:00"
+  "updated": "2026-04-21 08:00"
 }
