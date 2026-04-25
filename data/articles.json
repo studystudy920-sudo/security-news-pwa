@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
+      "url": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
+      "summary": "Cybersecurity researchers have discovered a new Lua-based malware created years before the notorious Stuxnet worm that aimed to sabotage Iran's nuclear program by destroying uranium enrichment centrif",
+      "date": "2026-04-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
+      "url": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four vulnerabilities impacting SimpleHelp, Samsung MagicINFO 9 Server, and D-Link DIR-823X series routers to its Known ",
+      "date": "2026-04-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft rolls out revamped Windows Insider Program",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-rolls-out-revamped-windows-insider-program/",
+      "summary": "Microsoft says it's rolling out a revamped Windows Insider Program experience as part of the broader plans to address performance and reliability concerns affecting Windows 11. [...]",
+      "date": "2026-04-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Threat actor uses Microsoft Teams to deploy new “Snow” malware",
+      "url": "https://www.bleepingcomputer.com/news/security/threat-actor-uses-microsoft-teams-to-deploy-new-snow-malware/",
+      "summary": "A threat group tracked as UNC6692 uses social engineering to deploy a new, custom malware suite named 'Snow' which includes a browser extension, a tunneler, and a backdoor. [...]",
+      "date": "2026-04-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "複雑化するコンプライアンスに IT 部門は対応できているのか？ - Sophos",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcHdkRk85MUJtYTc3MXlLdDZZdXdQTC1Bc2ptQ2diWk5xTW44WFVpVnpMcDVpSE55RFFENi1TampDdHR4OGVGM0NsV2ZleGFMdmQybXJLOFNKTXJKZmE4SXpabGlLcWxEWFgycHhrWVNsUDUwdlNIUnFWYTRjNW4tc1M3dVZtYk0?oc=5",
+      "summary": "複雑化するコンプライアンスに IT 部門は対応できているのか？&nbsp;&nbsp;Sophos",
+      "date": "2026-04-25",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Apache ActiveMQシリーズにおけるMQTTパケット検証不備の脆弱性［AMQ-9810］",
       "url": "https://jvn.jp/jp/JVN20669184/",
       "summary": "The Apache Software Foundationが提供するApache ActiveMQシリーズでは、MQTTパケットの検証が適切に行われていません。",
@@ -73,6 +118,15 @@
       "category": "news"
     },
     {
+      "title": "ADT confirms data breach after ShinyHunters leak threat",
+      "url": "https://www.bleepingcomputer.com/news/security/adt-confirms-data-breach-after-shinyhunters-leak-threat/",
+      "summary": "Home security giant ADT has confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data unless a ransom is paid. [...]",
+      "date": "2026-04-24",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
       "title": "Firestarter malware survives Cisco firewall updates, security patches",
       "url": "https://www.bleepingcomputer.com/news/security/firestarter-malware-survives-cisco-firewall-updates-security-patches/",
       "summary": "Cybersecurity agencies in the U.S. and U.K. are warning about a custom malware called Firestarter persisting on Cisco Firepower and Secure Firewall devices running Adaptive Security Appliance (ASA) or",
@@ -136,15 +190,6 @@
       "category": "news"
     },
     {
-      "title": "Microsoft now lets admins uninstall Copilot on enterprise devices",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-uninstall-copilot-on-enterprise-devices/",
-      "summary": "Microsoft says IT administrators can now uninstall the AI-powered Copilot digital assistant from enterprise devices using a new policy setting, which has become broadly available after the April 2026 ",
-      "date": "2026-04-24",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, April 24th, 2026 https://isc.sans.edu/podcastdetail/9906, (Fri, Apr 24th)",
       "url": "https://isc.sans.edu/diary/rss/32924",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -163,45 +208,9 @@
       "category": "alert"
     },
     {
-      "title": "不安を理解に変える、全ビジネスパーソン必携の「デジタル護身術」『はじめての人のためのサイバーセキュリティ入門』書籍連動オンデマンド講座の配信を4月16日（木）に開始 - 朝日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wbTRRbnp6cjdGOXVBWGZMYkUySTl2OUs3Y1dEb1ZoMEFWMnlLa1RCcU1peDZPSWhMb0E5cHBwYm9Ua09uRTFVV1MwTVZ0OXpxdmtZTk45eERRMEU?oc=5",
-      "summary": "不安を理解に変える、全ビジネスパーソン必携の「デジタル護身術」『はじめての人のためのサイバーセキュリティ入門』書籍連動オンデマンド講座の配信を4月16日（木）に開始&nbsp;&nbsp;朝日新聞",
-      "date": "2026-04-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "トレンドマイクロCEOが説く「AI時代に必要とされるサイバーセキュリティ」 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DWDJYejBXUDNsOXRxZjhlR2ZpSFIxblZVV01ZNXI1Ry1VNWtVUFVjazM0bzBmMFR2bUhCWTF5cGwydzJwRmtKT0ZGZGZieUU0M0dKdFFiSWsxdjRINXhEcnVxTFphQVRxVWJUaFdNN0J6OUpSNHo2T3ZqMk9feXM?oc=5",
-      "summary": "トレンドマイクロCEOが説く「AI時代に必要とされるサイバーセキュリティ」&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-04-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティクラウドの『攻撃遮断くん』、売上シェアNo.1を3年連続獲得 - 北海道新聞デジタル",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SUXRtal9nQS1vN3NtTWFwQUp4WG5XYmFSWTVLRGRlRE1aZDcxdzl5LWN2VXI5dGhpNWwtOGhvTzU0aHRNRWVxLU0tMXZXYXBhNVhRekpCZG82dw?oc=5",
-      "summary": "サイバーセキュリティクラウドの『攻撃遮断くん』、売上シェアNo.1を3年連続獲得&nbsp;&nbsp;北海道新聞デジタル",
-      "date": "2026-04-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "中国系ハッカー、日常機器を悪用し攻撃隠ぺい 各国サイバー機関が警告 - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNEkzUTI2TTJaaGJ3UW1XMGt0aDRiTTN4MzlzQjM4TXdkSVVhcjFtSjZyWXpQRV9lSG1wRjFhM1lvT21HOEJha1Bqd2IzSnNMMFRRV3Eza0o2bW4tdVotc2xjcUZHX1o1dGlVajliV0NoR1M5NWcydi1POVU4MmFEX2YwV1k3MHQz?oc=5",
       "summary": "中国系ハッカー、日常機器を悪用し攻撃隠ぺい 各国サイバー機関が警告&nbsp;&nbsp;Reuters",
-      "date": "2026-04-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「サイバーセキュリティは“IT対策”ではなく“経営判断”へ ―AI参謀が変える次世代セキュリティ」AIエージェント×AXフォーラム May ～サイバーセキュリティ～ 5/21開催 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB5WWhzbWlWM0h4dHpKUWQwN1FyMTlNREpMMEFPYVpyc182SUZLYjNaSVRTenlxb0s2ZUhaLWNTMHhOTG9FZmJEMW9uaDFoZFlXQ3FHTDlDUDQ1Z0g3ME9ocnRhMk5mWDhoVEE?oc=5",
-      "summary": "「サイバーセキュリティは“IT対策”ではなく“経営判断”へ ―AI参謀が変える次世代セキュリティ」AIエージェント×AXフォーラム May ～サイバーセキュリティ～ 5/21開催&nbsp;&nbsp;PR TIMES",
       "date": "2026-04-24",
       "source": "Google News JP",
       "language": "日本語",
@@ -217,9 +226,27 @@
       "category": "news"
     },
     {
-      "title": "絶えず進化する脅威に対応するフォーティネットのサイバーセキュリティトレーニング - ASCII.jp",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKZVY2VV8yU2NEOTlJRkN2Wmo3dXBlMzdWUklPS0NBa1dRNDQ1eWlpOUM2VmRQbDBmb0UzZzJ4ajNITXR2SWJkVFZvM0NXUTZaanlJQw?oc=5",
-      "summary": "絶えず進化する脅威に対応するフォーティネットのサイバーセキュリティトレーニング&nbsp;&nbsp;ASCII.jp",
+      "title": "トレンドマイクロCEOが説く「AI時代に必要とされるサイバーセキュリティ」 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1DWDJYejBXUDNsOXRxZjhlR2ZpSFIxblZVV01ZNXI1Ry1VNWtVUFVjazM0bzBmMFR2bUhCWTF5cGwydzJwRmtKT0ZGZGZieUU0M0dKdFFiSWsxdjRINXhEcnVxTFphQVRxVWJUaFdNN0J6OUpSNHo2T3ZqMk9feXM?oc=5",
+      "summary": "トレンドマイクロCEOが説く「AI時代に必要とされるサイバーセキュリティ」&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-04-24",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "不安を理解に変える、全ビジネスパーソン必携の「デジタル護身術」『はじめての人のためのサイバーセキュリティ入門』書籍連動オンデマンド講座の配信を4月16日（木）に開始 - 朝日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wbTRRbnp6cjdGOXVBWGZMYkUySTl2OUs3Y1dEb1ZoMEFWMnlLa1RCcU1peDZPSWhMb0E5cHBwYm9Ua09uRTFVV1MwTVZ0OXpxdmtZTk45eERRMEU?oc=5",
+      "summary": "不安を理解に変える、全ビジネスパーソン必携の「デジタル護身術」『はじめての人のためのサイバーセキュリティ入門』書籍連動オンデマンド講座の配信を4月16日（木）に開始&nbsp;&nbsp;朝日新聞",
+      "date": "2026-04-24",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「サイバーセキュリティは“IT対策”ではなく“経営判断”へ ―AI参謀が変える次世代セキュリティ」AIエージェント×A - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HY2VyYzdQT0JBOXNaWjRpVFJ4emppV0gxYnd2ZFlKR0FaMVhXc01XTWxOVllxZDdDNjNOaTZVaUpUQnpOcWVTVThsS1NqR29pVTlFWUExZzdkdW4zZTRTeTRRR21BVVdVQTItRzlHMWhtWjd0LWR6dDVKZw?oc=5",
+      "summary": "「サイバーセキュリティは“IT対策”ではなく“経営判断”へ ―AI参謀が変える次世代セキュリティ」AIエージェント×A&nbsp;&nbsp;ニコニコニュース",
       "date": "2026-04-24",
       "source": "Google News JP",
       "language": "日本語",
@@ -294,42 +321,6 @@
       "summary": "Bitwarden CLI, the command-line interface for the password manager Bitwarden, has reportedly been compromised as part of a newly discovered and ongoing Checkmarx supply chain campaign, according to fi",
       "date": "2026-04-23",
       "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
-      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
-      "summary": "You scroll past one incident and see another that feels familiar, like it should have been fixed years ago, but it still works with small changes. Same bugs. Same mistakes. The supply chain is messy. ",
-      "date": "2026-04-23",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
-      "url": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-      "summary": "Imagine a world where hackers don't sleep, don't take breaks, and find weak spots in your systems instantly. Well, that world is already here. Thanks to AI, attackers are now launching automated, larg",
-      "date": "2026-04-23",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers exploit file upload bug in Breeze Cache WordPress plugin",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-file-upload-bug-in-breeze-cache-wordpress-plugin/",
-      "summary": "Hackers are actively exploiting a critical vulnerability in the Breeze Cache plugin for WordPress that allows uploading arbitrary files on the server without authentication. [...]",
-      "date": "2026-04-23",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Bitwarden CLI npm package compromised to steal developer credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/bitwarden-cli-npm-package-compromised-to-steal-developer-credentials/",
-      "summary": "The Bitwarden CLI was briefly compromised after attackers uploaded a malicious @bitwarden/cli package to npm containing a credential-stealing payload capable of spreading to other projects. [...]",
-      "date": "2026-04-23",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -460,9 +451,9 @@
       "category": "news"
     },
     {
-      "title": "AIで巧妙化するサイバー攻撃 情シスが向き合うべきAI時代の国家級リスク - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zRUIxSDVoSVJoaEpBYjJVejZRcDVLQmxlNlpieVl6NnZaV3ZYV0VLY1FVeG90cWl2bGt2bTZYa0dFWGhHeG1pY2Rfc0kyN1hZYnZua0MySGVfTEY3R3ZUWG1KeG00dWMzRW5taQ?oc=5",
-      "summary": "AIで巧妙化するサイバー攻撃 情シスが向き合うべきAI時代の国家級リスク&nbsp;&nbsp;ITmedia",
+      "title": "IPA が SCS評価制度の詳細を公表 - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZM19Udkt3a0NPRFlYTk1UeEQ5cnhVTGRzdEx4YnNIQ0Q4SUVGQkNuZDNwNWh6d3p4TWozd3h3QTBDNWJnUDlkWklKUzNoMF9nWVduVWNBUWhRWUlJcGRObUR0MG53eHNaZ0ZHdA?oc=5",
+      "summary": "IPA が SCS評価制度の詳細を公表&nbsp;&nbsp;ScanNetSecurity",
       "date": "2026-04-23",
       "source": "Google News JP",
       "language": "日本語",
@@ -512,6 +503,15 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
+    },
+    {
+      "title": "グーグル、AIエージェントによるサイバーセキュリティ基盤「Agentic Defense」を発表 - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBJVldiclFMZnpud2h5LUdZLVQzMV9XS1RvSWkwclI4c3ZVR0Z5SUpDdk96cDhGN1VPOU50X190WDBBbXU0YmNoellMNGExeHg2RXBr?oc=5",
+      "summary": "グーグル、AIエージェントによるサイバーセキュリティ基盤「Agentic Defense」を発表&nbsp;&nbsp;ZDNET Japan",
+      "date": "2026-04-22",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "Oracle Java の脆弱性対策について(2026年4月)",
@@ -1313,5 +1313,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/4/25 6:23:35"
+  "updated": "2026/4/26 6:17:44"
 }
