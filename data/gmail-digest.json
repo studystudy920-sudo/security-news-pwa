@@ -15,74 +15,11 @@
       "date": "Sat, 25 Apr 2026 00:52:22 GMT"
     },
     {
-      "source": "scan_netsecurity",
-      "source_name": "ScanNetSecurity",
-      "subject": "Scan 特別号 [2026-04-21] 【サイボウズ登壇】AIガバナンスの“形骸化”どう防ぐ？監査の「限界」と開発の「盲点」",
-      "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
-      "date": "Tue, 21 Apr 2026 11:13:20 +0900"
-    },
-    {
-      "source": "scan_netsecurity",
-      "source_name": "ScanNetSecurity",
-      "subject": "Scan BASIC [2026-04-20 Vol.1619-1/1] Tenable One が提案する “エクスポージャー管理” という大人な価値観",
-      "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
-      "date": "Mon, 20 Apr 2026 08:20:49 +0900"
-    },
-    {
-      "source": "isaca_tokyo",
-      "source_name": "ISACA東京支部",
-      "subject": "April Featured Training: 15% Off Four Cybersecurity Courses",
-      "from": "ISACA <isaca@em.isaca.org>",
-      "date": "Thu, 23 Apr 2026 13:04:52 -0600"
-    },
-    {
-      "source": "isaca_tokyo",
-      "source_name": "ISACA東京支部",
-      "subject": "Your weekly news and insights for 20 April 2026",
-      "from": "ISACA <isaca@em.isaca.org>",
-      "date": "Mon, 20 Apr 2026 14:04:47 -0600"
-    },
-    {
-      "source": "isaca_tokyo",
-      "source_name": "ISACA東京支部",
-      "subject": "AAIR Is Live! Start Your Journey Today.",
-      "from": "ISACA <isaca@em.isaca.org>",
-      "date": "Sat, 18 Apr 2026 12:17:21 -0600"
-    },
-    {
-      "source": "isc2",
-      "source_name": "ISC2",
-      "subject": "CCSPは2026年に試験が改訂されます",
-      "from": "\"ISC2 Japan\" <infoisc2-j@connect.isc2.org>",
-      "date": "Wed, 22 Apr 2026 05:34:52 -0600"
-    },
-    {
-      "source": "isc2",
-      "source_name": "ISC2",
-      "subject": "CCSPは2026年に試験が改訂されます",
-      "from": "\"ISC2 Japan\" <infoisc2-j@connect.isc2.org>",
-      "date": "Wed, 22 Apr 2026 05:21:49 -0600"
-    },
-    {
-      "source": "isc2",
-      "source_name": "ISC2",
-      "subject": "Your April Education News: AI Guidance Released",
-      "from": "ISC2 <info@connect.isc2.org>",
-      "date": "Tue, 21 Apr 2026 07:01:23 -0600"
-    },
-    {
-      "source": "isc2",
-      "source_name": "ISC2",
-      "subject": "ISC2メンバーニュースレター4月号",
-      "from": "ISC2 Japan <infoisc2-j@connect.isc2.org>",
-      "date": "Tue, 21 Apr 2026 05:13:53 -0600"
-    },
-    {
-      "source": "isc2",
-      "source_name": "ISC2",
-      "subject": "ISC2 Webinar【緊急開催】SECURE Japan 2026で講演しよう!! 昨年度講演者がプレゼン作成の秘訣を伝授!!",
-      "from": "ISC2 Japan <infoisc2-j@connect.isc2.org>",
-      "date": "Mon, 20 Apr 2026 03:05:52 -0600"
+      "source": "nikkei_xtech",
+      "source_name": "日経クロステック",
+      "subject": "【週刊日経クロステック Special】静岡赤十字病院　プリンター刷新で効果大 ほか",
+      "from": "日経クロステック Special <xtech-sp@nikkeibp.co.jp>",
+      "date": "Sat, 25 Apr 2026 09:08:19 +0900"
     }
   ],
   "sources": {
@@ -91,90 +28,44 @@
       "note": "Googleセキュリティ通知",
       "items": [
         {
-          "subject": "セキュリティ通知",
+          "subject": "セキュリティ通知（Gmail MCP Server へのアクセス許可）",
           "from": "Google <no-reply@accounts.google.com>",
           "date": "Sat, 25 Apr 2026 05:32:13 GMT"
         },
         {
-          "subject": "セキュリティ通知",
+          "subject": "セキュリティ通知（アカウントへの新しいログイン）",
           "from": "Google <no-reply@accounts.google.com>",
           "date": "Sat, 25 Apr 2026 00:52:22 GMT"
         }
       ]
     },
     "scan_netsecurity": {
-      "count": 2,
-      "note": "ScanNetSecurity",
-      "items": [
-        {
-          "subject": "Scan 特別号 [2026-04-21] 【サイボウズ登壇】AIガバナンスの“形骸化”どう防ぐ？監査の「限界」と開発の「盲点」",
-          "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
-          "date": "Tue, 21 Apr 2026 11:13:20 +0900"
-        },
-        {
-          "subject": "Scan BASIC [2026-04-20 Vol.1619-1/1] Tenable One が提案する “エクスポージャー管理” という大人な価値観",
-          "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
-          "date": "Mon, 20 Apr 2026 08:20:49 +0900"
-        }
-      ]
+      "count": 0,
+      "note": "ScanNetSecurity（過去24時間内のメールなし）",
+      "items": []
     },
     "isaca_tokyo": {
-      "count": 3,
-      "note": "ISACA東京支部",
-      "items": [
-        {
-          "subject": "April Featured Training: 15% Off Four Cybersecurity Courses",
-          "from": "ISACA <isaca@em.isaca.org>",
-          "date": "Thu, 23 Apr 2026 13:04:52 -0600"
-        },
-        {
-          "subject": "Your weekly news and insights for 20 April 2026",
-          "from": "ISACA <isaca@em.isaca.org>",
-          "date": "Mon, 20 Apr 2026 14:04:47 -0600"
-        },
-        {
-          "subject": "AAIR Is Live! Start Your Journey Today.",
-          "from": "ISACA <isaca@em.isaca.org>",
-          "date": "Sat, 18 Apr 2026 12:17:21 -0600"
-        }
-      ]
+      "count": 0,
+      "note": "ISACA東京支部（過去24時間内のメールなし）",
+      "items": []
     },
     "isc2": {
-      "count": 5,
-      "note": "ISC2",
-      "items": [
-        {
-          "subject": "CCSPは2026年に試験が改訂されます",
-          "from": "\"ISC2 Japan\" <infoisc2-j@connect.isc2.org>",
-          "date": "Wed, 22 Apr 2026 05:34:52 -0600"
-        },
-        {
-          "subject": "CCSPは2026年に試験が改訂されます",
-          "from": "\"ISC2 Japan\" <infoisc2-j@connect.isc2.org>",
-          "date": "Wed, 22 Apr 2026 05:21:49 -0600"
-        },
-        {
-          "subject": "Your April Education News: AI Guidance Released",
-          "from": "ISC2 <info@connect.isc2.org>",
-          "date": "Tue, 21 Apr 2026 07:01:23 -0600"
-        },
-        {
-          "subject": "ISC2メンバーニュースレター4月号",
-          "from": "ISC2 Japan <infoisc2-j@connect.isc2.org>",
-          "date": "Tue, 21 Apr 2026 05:13:53 -0600"
-        },
-        {
-          "subject": "ISC2 Webinar【緊急開催】SECURE Japan 2026で講演しよう!! 昨年度講演者がプレゼン作成の秘訣を伝授!!",
-          "from": "ISC2 Japan <infoisc2-j@connect.isc2.org>",
-          "date": "Mon, 20 Apr 2026 03:05:52 -0600"
-        }
-      ]
+      "count": 0,
+      "note": "ISC2（過去24時間内のメールなし）",
+      "items": []
     },
     "nikkei_xtech": {
-      "count": 0,
+      "count": 1,
       "note": "日経クロステック",
-      "items": []
+      "items": [
+        {
+          "subject": "【週刊日経クロステック Special】静岡赤十字病院　プリンター刷新で効果大 ほか",
+          "from": "日経クロステック Special <xtech-sp@nikkeibp.co.jp>",
+          "date": "Sat, 25 Apr 2026 09:08:19 +0900",
+          "snippet": "セキュリティ関連: デバイス側で制御するＳＡＳＥの新常識、厳しい環境下に置かれた日本企業の打ち手、クラウドに潜む見えない危険を丸ごと可視化。"
+        }
+      ]
     }
   },
-  "updated": "2026-04-25 14:36"
+  "updated": "2026-04-26 09:00"
 }
