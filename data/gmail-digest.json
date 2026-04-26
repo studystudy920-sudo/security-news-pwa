@@ -1,43 +1,31 @@
 {
   "notifications": [
     {
-      "source": "google_security",
-      "source_name": "Googleセキュリティ通知",
-      "subject": "セキュリティ通知",
-      "from": "Google <no-reply@accounts.google.com>",
-      "date": "Sat, 25 Apr 2026 05:32:13 GMT"
-    },
-    {
-      "source": "google_security",
-      "source_name": "Googleセキュリティ通知",
-      "subject": "セキュリティ通知",
-      "from": "Google <no-reply@accounts.google.com>",
-      "date": "Sat, 25 Apr 2026 00:52:22 GMT"
-    },
-    {
       "source": "nikkei_xtech",
-      "source_name": "日経クロステック",
-      "subject": "【週刊日経クロステック Special】静岡赤十字病院　プリンター刷新で効果大 ほか",
-      "from": "日経クロステック Special <xtech-sp@nikkeibp.co.jp>",
-      "date": "Sat, 25 Apr 2026 09:08:19 +0900"
+      "source_name": "日経クロステック PC/モバイルメール",
+      "type": "newsletter",
+      "subject": "ソフトバンクが値上げでKDDIに追随、ドコモと楽天モバイルはどうする／OPPOが限りなく折り目ゼロの折り畳みスマホ日本初投入：日経クロステック PC/モバイルメール",
+      "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
+      "snippet": "Wi-Fi 7はなぜ速い？／闇市場で買える9億件の認証情報／録音ファイルをAIで文字起こし／通信速度が低下しにくい「レイヤー2スイッチ」／Teamsの「ワークフロー」を使う　など",
+      "date": "Mon, 27 Apr 2026 06:08:57 +0900",
+      "messageId": "19dcb9fd691f4f3e"
+    },
+    {
+      "source": "nikkei_business",
+      "source_name": "日経ビジネス Editor's EYE",
+      "type": "newsletter",
+      "subject": "ファーウェイ、自動車産業を席巻／快進撃、半導体製造装置のSCREEN - 日経ビジネス（4/27）",
+      "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
+      "snippet": "日経ビジネス Editor's EYE 4/27配信。ファーウェイの自動車産業への進出、SCREENホールディングスの半導体製造装置事業の快進撃を中心とした注目記事を紹介。",
+      "date": "Mon, 27 Apr 2026 05:32:15 +0900",
+      "messageId": "19dcb7e36a15d06a"
     }
   ],
   "sources": {
     "google_security": {
-      "count": 2,
-      "note": "Googleセキュリティ通知",
-      "items": [
-        {
-          "subject": "セキュリティ通知（Gmail MCP Server へのアクセス許可）",
-          "from": "Google <no-reply@accounts.google.com>",
-          "date": "Sat, 25 Apr 2026 05:32:13 GMT"
-        },
-        {
-          "subject": "セキュリティ通知（アカウントへの新しいログイン）",
-          "from": "Google <no-reply@accounts.google.com>",
-          "date": "Sat, 25 Apr 2026 00:52:22 GMT"
-        }
-      ]
+      "count": 0,
+      "note": "Googleセキュリティ通知（過去24時間内のメールなし）",
+      "items": []
     },
     "scan_netsecurity": {
       "count": 0,
@@ -56,16 +44,28 @@
     },
     "nikkei_xtech": {
       "count": 1,
-      "note": "日経クロステック",
+      "note": "日経クロステック PC/モバイルメール",
       "items": [
         {
-          "subject": "【週刊日経クロステック Special】静岡赤十字病院　プリンター刷新で効果大 ほか",
-          "from": "日経クロステック Special <xtech-sp@nikkeibp.co.jp>",
-          "date": "Sat, 25 Apr 2026 09:08:19 +0900",
-          "snippet": "セキュリティ関連: デバイス側で制御するＳＡＳＥの新常識、厳しい環境下に置かれた日本企業の打ち手、クラウドに潜む見えない危険を丸ごと可視化。"
+          "subject": "ソフトバンクが値上げでKDDIに追随、ドコモと楽天モバイルはどうする／OPPOが限りなく折り目ゼロの折り畳みスマホ日本初投入：日経クロステック PC/モバイルメール",
+          "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
+          "date": "Mon, 27 Apr 2026 06:08:57 +0900",
+          "snippet": "セキュリティ関連トピック: 攻撃者は侵入ではなく『ログイン』する、闇市場で買える9億件の認証情報（勝村幸博コラム）。Wi-Fi 7解説、Teamsワークフロー活用など。"
+        }
+      ]
+    },
+    "nikkei_business": {
+      "count": 1,
+      "note": "日経ビジネス Editor's EYE",
+      "items": [
+        {
+          "subject": "ファーウェイ、自動車産業を席巻／快進撃、半導体製造装置のSCREEN - 日経ビジネス（4/27）",
+          "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
+          "date": "Mon, 27 Apr 2026 05:32:15 +0900",
+          "snippet": "ファーウェイの自動車産業席巻、SCREENホールディングスの快進撃などビジネス系トピック中心。直接的なセキュリティ案件はなし。"
         }
       ]
     }
   },
-  "updated": "2026-04-26 09:00"
+  "updated": "2026-04-27 07:00"
 }
