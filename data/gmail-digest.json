@@ -1,71 +1,154 @@
 {
   "notifications": [
     {
-      "source": "nikkei_xtech",
-      "source_name": "日経クロステック PC/モバイルメール",
+      "source": "scan_netsecurity",
+      "source_name": "ScanNetSecurity",
       "type": "newsletter",
-      "subject": "ソフトバンクが値上げでKDDIに追随、ドコモと楽天モバイルはどうする／OPPOが限りなく折り目ゼロの折り畳みスマホ日本初投入：日経クロステック PC/モバイルメール",
-      "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
-      "snippet": "Wi-Fi 7はなぜ速い？／闇市場で買える9億件の認証情報／録音ファイルをAIで文字起こし／通信速度が低下しにくい「レイヤー2スイッチ」／Teamsの「ワークフロー」を使う　など",
-      "date": "Mon, 27 Apr 2026 06:08:57 +0900",
-      "messageId": "19dcb9fd691f4f3e"
+      "subject": "Scan BASIC [2026-04-27 Vol.1620-1/1] 二度目の正直 韓国最大手AhnLabインタビュー",
+      "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
+      "snippet": "韓国セキュリティ最大手AhnLab単独インタビュー（脅威インテリジェンスは『北朝鮮・中国・ロシア対応No.1』と自負）。週間ニュース: IPAがSCS評価制度詳細公表、青山メイン企画/YCC情報システム/メディカ出版/穴吹ハウジングへランサムウェア攻撃、Yahoo!JAPAN IDがパスキーに一本化、CAMPFIRE GitHubアカウント不正アクセス。脆弱性: Oracle Java、DeepL Chrome拡張、SKYSEA Client View、Adobe Acrobat、GROWI、4月Microsoft更新（悪用確認済1件）。",
+      "date": "Mon, 27 Apr 2026 08:26:57 +0900",
+      "messageId": "19dcc1e1b5f05db4"
     },
     {
-      "source": "nikkei_business",
-      "source_name": "日経ビジネス Editor's EYE",
+      "source": "isaca_tokyo",
+      "source_name": "ISACA東京支部",
       "type": "newsletter",
-      "subject": "ファーウェイ、自動車産業を席巻／快進撃、半導体製造装置のSCREEN - 日経ビジネス（4/27）",
-      "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
-      "snippet": "日経ビジネス Editor's EYE 4/27配信。ファーウェイの自動車産業への進出、SCREENホールディングスの半導体製造装置事業の快進撃を中心とした注目記事を紹介。",
-      "date": "Mon, 27 Apr 2026 05:32:15 +0900",
-      "messageId": "19dcb7e36a15d06a"
+      "subject": "【ISACA東京支部】新版8版 CRISCレビューマニュアルを読み解く会のご案内",
+      "from": "ISACA Tokyo Chapter <tky-jimukyoku@isaca.gr.jp>",
+      "snippet": "CRISC（公認情報システムリスク管理者）日本語試験開始。第8版レビューマニュアルを読み解く会を5/15、5/29、6/12にZoom開催（全3回・各2CPE）。会員1000円/会員外1500円。CRISCは政府デジタル人材スキル認定でITSSレベル4認定済み。",
+      "date": "Mon, 27 Apr 2026 15:20:45 +0900",
+      "messageId": "19dcd98d1293f30e"
+    },
+    {
+      "source": "isc2",
+      "source_name": "ISC2",
+      "type": "newsletter",
+      "subject": "Super Early Bird Savings Now Live! Cyber Leadership Program",
+      "from": "ISC2 <info@connect.isc2.org>",
+      "snippet": "ISC2 Cyber Leadership Program（8週間バーチャルコホート、7/13開始）のSuper Early Bird価格が5/6まで適用。修了でISC2会員は40 CPEクレジット獲得。戦略的意思決定力強化、サイバーリスクへの対応力向上が目的。9月コホート（9/21開始）も同価格で受付中。",
+      "date": "Mon, 27 Apr 2026 03:01:06 -0600",
+      "messageId": "19dce2bfc3785016"
+    },
+    {
+      "source": "nikkei_bp",
+      "source_name": "日経BPメール",
+      "type": "newsletter",
+      "subject": "セキュリティ対策を停滞させるサイロ化、9つのユースケースで示す解消への道",
+      "from": "日経BPメール <tgml-10@nikkeibp.co.jp>",
+      "snippet": "セキュリティ対策製品を順次導入した結果、管理プロセスも体制も『サイロ化』し全社的セキュリティ対策の足かせに。Webアプリ・クラウド・IDなど全IT資産の脆弱性やリスクを可視化・分析・管理できる統合プラットフォームによる課題解決ユースケース9件を紹介。",
+      "date": "Mon, 27 Apr 2026 08:44:06 +0900",
+      "messageId": "19dcc2dd22e9c948"
+    },
+    {
+      "source": "nikkei_bp",
+      "source_name": "日経BPメール",
+      "type": "newsletter",
+      "subject": "いったん見送ったIT基盤製品を採用、ヨコオがセキュリティ対策で重視したこと",
+      "from": "日経BPメール <tgml-10@nikkeibp.co.jp>",
+      "snippet": "海外販売比率70%以上のグローバル企業ヨコオ（車載通信機器・半導体検査コネクター）が、世界中の拠点のIT資産把握の課題を解決するため、ERP・PLMに並ぶ第3の基幹システムとしてITプラットフォーム導入。脆弱性を持つハード/ソフトを10分程度で特定し対応指示が可能に。",
+      "date": "Mon, 27 Apr 2026 09:45:46 +0900",
+      "messageId": "19dcc66446ed76d2"
+    },
+    {
+      "source": "nikkei_xtech_active",
+      "source_name": "日経クロステック Active",
+      "type": "newsletter",
+      "subject": "大手IT企業が明かすAI活用の手順書、最適な目標設定・組織体制・企業文化とは",
+      "from": "日経クロステック Activeメール <xtech-ac@nikkeibp.co.jp>",
+      "snippet": "大手IT企業のAI活用の手順書を紹介。最適な目標設定、組織体制、企業文化のあり方を解説。",
+      "date": "Mon, 27 Apr 2026 09:40:44 +0900",
+      "messageId": "19dcc61b6dbbf2e3"
+    },
+    {
+      "source": "nikkei_xtech_active",
+      "source_name": "日経クロステック Active",
+      "type": "newsletter",
+      "subject": "ERPやPLMに並ぶ「第3の基幹システム」へ、製造業のヨコオが採用したIT基盤",
+      "from": "日経クロステック Activeメール <xtech-ac@nikkeibp.co.jp>",
+      "snippet": "製造業ヨコオがERP・PLMに並ぶ第3の基幹システムとして採用したIT基盤の選定経緯と効果を紹介。",
+      "date": "Mon, 27 Apr 2026 07:31:33 +0900",
+      "messageId": "19dcbeb6eb3562ac"
     }
   ],
   "sources": {
     "google_security": {
       "count": 0,
-      "note": "Googleセキュリティ通知（過去24時間内のメールなし）",
+      "note": "Googleセキュリティ通知（no-reply@accounts.google.com / security-noreply@google.com）: メールなし",
       "items": []
     },
     "scan_netsecurity": {
-      "count": 0,
-      "note": "ScanNetSecurity（過去24時間内のメールなし）",
-      "items": []
-    },
-    "isaca_tokyo": {
-      "count": 0,
-      "note": "ISACA東京支部（過去24時間内のメールなし）",
-      "items": []
-    },
-    "isc2": {
-      "count": 0,
-      "note": "ISC2（過去24時間内のメールなし）",
-      "items": []
-    },
-    "nikkei_xtech": {
       "count": 1,
-      "note": "日経クロステック PC/モバイルメール",
+      "note": "ScanNetSecurity 週刊メルマガ Scan BASIC（毎週月曜配信）",
       "items": [
         {
-          "subject": "ソフトバンクが値上げでKDDIに追随、ドコモと楽天モバイルはどうする／OPPOが限りなく折り目ゼロの折り畳みスマホ日本初投入：日経クロステック PC/モバイルメール",
-          "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
-          "date": "Mon, 27 Apr 2026 06:08:57 +0900",
-          "snippet": "セキュリティ関連トピック: 攻撃者は侵入ではなく『ログイン』する、闇市場で買える9億件の認証情報（勝村幸博コラム）。Wi-Fi 7解説、Teamsワークフロー活用など。"
+          "subject": "Scan BASIC [2026-04-27 Vol.1620-1/1] 二度目の正直 韓国最大手AhnLabインタビュー",
+          "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
+          "date": "Mon, 27 Apr 2026 08:26:57 +0900",
+          "snippet": "AhnLab独占取材記事と、4月Microsoftセキュリティ更新（悪用確認済1件）、Oracle Java/Adobe Acrobat/SKYSEA Client View等の脆弱性、青山メイン企画・YCC情報システム・メディカ出版・穴吹ハウジングのランサムウェア被害、阿波銀行テスト環境への不正アクセス（27,745件漏えい確認）など多数。"
         }
       ]
     },
-    "nikkei_business": {
+    "isaca_tokyo": {
       "count": 1,
-      "note": "日経ビジネス Editor's EYE",
+      "note": "ISACA東京支部",
       "items": [
         {
-          "subject": "ファーウェイ、自動車産業を席巻／快進撃、半導体製造装置のSCREEN - 日経ビジネス（4/27）",
-          "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
-          "date": "Mon, 27 Apr 2026 05:32:15 +0900",
-          "snippet": "ファーウェイの自動車産業席巻、SCREENホールディングスの快進撃などビジネス系トピック中心。直接的なセキュリティ案件はなし。"
+          "subject": "【ISACA東京支部】新版8版 CRISCレビューマニュアルを読み解く会のご案内",
+          "from": "ISACA Tokyo Chapter <tky-jimukyoku@isaca.gr.jp>",
+          "date": "Mon, 27 Apr 2026 15:20:45 +0900",
+          "snippet": "CRISC日本語試験開始。レビューマニュアル第8版を読み解く会を5/15・5/29・6/12にZoom開催（各回2CPE）。会員1000円/会員外1500円。"
+        }
+      ]
+    },
+    "isc2": {
+      "count": 1,
+      "note": "ISC2",
+      "items": [
+        {
+          "subject": "Super Early Bird Savings Now Live! Cyber Leadership Program",
+          "from": "ISC2 <info@connect.isc2.org>",
+          "date": "Mon, 27 Apr 2026 03:01:06 -0600",
+          "snippet": "Cyber Leadership Program（8週間バーチャル、7/13開始）のSuper Early Bird価格が5/6まで。修了で40 CPEクレジット。9月コホートも受付中。"
+        }
+      ]
+    },
+    "nikkei_bp": {
+      "count": 19,
+      "note": "日経BP / Nikkei BP（セキュリティ関連2件をピックアップ。他はAI・経営・業界トピック中心）",
+      "items": [
+        {
+          "subject": "セキュリティ対策を停滞させるサイロ化、9つのユースケースで示す解消への道",
+          "from": "日経BPメール <tgml-10@nikkeibp.co.jp>",
+          "date": "Mon, 27 Apr 2026 08:44:06 +0900",
+          "snippet": "セキュリティ製品の継続導入で管理プロセスがサイロ化する問題に対し、IT資産の脆弱性・リスクを統合管理するプラットフォームによる解決ユースケース9件を紹介。"
+        },
+        {
+          "subject": "いったん見送ったIT基盤製品を採用、ヨコオがセキュリティ対策で重視したこと",
+          "from": "日経BPメール <tgml-10@nikkeibp.co.jp>",
+          "date": "Mon, 27 Apr 2026 09:45:46 +0900",
+          "snippet": "ヨコオが第3の基幹システムとしてITプラットフォーム導入。脆弱性ハード/ソフトを10分で特定し対応指示できる体制に。"
+        }
+      ]
+    },
+    "nikkei_xtech_active": {
+      "count": 2,
+      "note": "日経クロステック Active（xtech-ac@nikkeibp.co.jp）",
+      "items": [
+        {
+          "subject": "大手IT企業が明かすAI活用の手順書、最適な目標設定・組織体制・企業文化とは",
+          "from": "日経クロステック Activeメール <xtech-ac@nikkeibp.co.jp>",
+          "date": "Mon, 27 Apr 2026 09:40:44 +0900",
+          "snippet": "大手IT企業のAI活用手順書、目標設定・組織体制・企業文化を解説。"
+        },
+        {
+          "subject": "ERPやPLMに並ぶ「第3の基幹システム」へ、製造業のヨコオが採用したIT基盤",
+          "from": "日経クロステック Activeメール <xtech-ac@nikkeibp.co.jp>",
+          "date": "Mon, 27 Apr 2026 07:31:33 +0900",
+          "snippet": "製造業ヨコオがERP・PLMに並ぶ第3の基幹系としてIT基盤を採用した経緯。"
         }
       ]
     }
   },
-  "updated": "2026-04-27 07:00"
+  "updated": "2026-04-28 09:00"
 }
