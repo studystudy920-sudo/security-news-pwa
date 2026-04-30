@@ -1,6 +1,303 @@
 {
   "feeds": [
     {
+      "title": "リコー製Web Image Monitorを実装している複数のレーザープリンタおよび複合機（MFP）におけるオープンリダイレクトの脆弱性",
+      "url": "https://jvn.jp/jp/JVN65118274/",
+      "summary": "リコー製Web Image Monitorを実装している複数のレーザープリンタおよび複合機（MFP）には、オープンリダイレクトの脆弱性が存在します。",
+      "date": "2026-04-30",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年04月28日）",
+      "url": "https://jvn.jp/vu/JVNVU98147762/",
+      "summary": "2026年04月28日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "date": "2026-04-30",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "IDrive Cloud Backup Client for Windowsにおける権限昇格の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU91813693/",
+      "summary": "IDrive Cloud Backup Client for Windowsには権限昇格の脆弱性が存在します。",
+      "date": "2026-04-30",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
+      "url": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+      "summary": "In yet another software supply chain attack, threat actors have managed to compromise the popular Python package Lightning to push two malicious versions to conduct credential theft. According to Aiki",
+      "date": "2026-04-30",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
+      "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+      "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into the",
+      "date": "2026-04-30",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
+      "url": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+      "summary": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of ",
+      "date": "2026-04-30",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
+      "url": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
+      "summary": "Intro A sophisticated, high-resilience malicious campaign was identified by Atos Threat Research Center (TRC) in March 2026. This operation specifically targets the high-privilege professional account",
+      "date": "2026-04-30",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+      "url": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
+      "summary": "Cybersecurity researchers have disclosed details of a Linux local privilege escalation (LPE) flaw that could allow an unprivileged local user to obtain root. The high-severity vulnerability tracked as",
+      "date": "2026-04-30",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
+      "url": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+      "summary": "Google has addressed a maximum severity security flaw in Gemini CLI -- the \"@google/gemini-cli\" npm package and the \"google-github-actions/run-gemini-cli\" GitHub Actions workflow -- that could have al",
+      "date": "2026-04-30",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+      "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+      "summary": "A Brazilian tech firm that specializes in protecting networks from distributed denial-of-service (DDoS) attacks has been enabling a botnet responsible for an extended campaign of massive DDoS attacks ",
+      "date": "2026-04-30",
+      "source": "Krebs on Security",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Bluekit phishing service includes an AI assistant, 40 templates",
+      "url": "https://www.bleepingcomputer.com/news/security/new-bluekit-phishing-service-includes-an-ai-assistant-40-templates/",
+      "summary": "A new phishing kit named Bluekit offers more than 40 templates targeting popular services and includes basic AI features for generating campaign drafts. [...]",
+      "date": "2026-04-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Romanian leader of online swatting ring gets 4 years in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/romanian-leader-of-online-swatting-ring-gets-4-years-in-prison/",
+      "summary": "A Romanian national who led an online swatting ring that targeted more than 75 public officials, multiple journalists, and four religious institutions was sentenced to 4 years in federal prison. [...]",
+      "date": "2026-04-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "FBI links cybercriminals to sharp surge in cargo theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-cybercriminals-to-sharp-surge-in-cargo-theft-attacks/",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) warned the transportation and logistics industry of a sharp rise in cyber-enabled cargo theft, with estimated losses in the United States and Canada reac",
+      "date": "2026-04-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "April KB5083769 Windows 11 update causes backup software failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/april-kb5083769-windows-11-update-causes-backup-software-failures/",
+      "summary": "The April 2026 KB5083769 security update breaks third-party backup applications from multiple vendors on systems running Windows 11 24H2 and 25H2. [...]",
+      "date": "2026-04-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "What Happens in the First 24 Hours After a New Asset Goes Live",
+      "url": "https://www.bleepingcomputer.com/news/security/what-happens-in-the-first-24-hours-after-a-new-asset-goes-live/",
+      "summary": "When a new asset goes live, attackers start scanning within minutes. Sprocket Security shows how automated attacks move from discovery to compromise in under 24 hours. [...]",
+      "date": "2026-04-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Linux ‘Copy Fail’ flaw gives hackers root on major distros",
+      "url": "https://www.bleepingcomputer.com/news/security/new-linux-copy-fail-flaw-gives-hackers-root-on-major-distros/",
+      "summary": "An exploit has been published for a local privilege escalation vulnerability dubbed \"Copy Fail\" that impacts Linux kernels released since 2017, allowing an unprivileged local attacker to gain root per",
+      "date": "2026-04-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical cPanel and WHM bug exploited as a zero-day, PoC now available",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/",
+      "summary": "The critical CVE-2026-41940 authentication bypass vulnerability in cPanel, WHM, and WP Squared is being actively exploited in the wild and has been leveraged in attempts since late February. [...]",
+      "date": "2026-04-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Police dismantles 9 crypto scam centers, arrests 276 suspects",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-9-crypto-investment-scam-centers-arrests-276-suspects/",
+      "summary": "A joint international operation involving U.S. and Chinese authorities arrested at least 276 suspects and shut down nine cryptocurrency investment fraud centers. [...]",
+      "date": "2026-04-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ISC Stormcast For Thursday, April 30th, 2026 https://isc.sans.edu/podcastdetail/9912, (Thu, Apr 30th)",
+      "url": "https://isc.sans.edu/diary/rss/32938",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-04-30",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "Danger of Libredtail &#x5b;Guest Diary&#x5d;, (Wed, Apr 29th)",
+      "url": "https://isc.sans.edu/diary/rss/32936",
+      "summary": "&#x5b;This is a Guest Diary by James Roberts, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
+      "date": "2026-04-30",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ABB AWIN Gateways",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-05",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to remotely reboot the device or complete an unauthenticated query to reveal system configuration, including ",
+      "date": "2026-04-30",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "ABB Ability OPTIMAX",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-04",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to bypass user authentication on OPTIMAX installations that make use of the Azure Active Directory Single-Sign O",
+      "date": "2026-04-30",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "ABB PCM600",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-02",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send specially crafted messages to the system node resulting in execution of arbitrary code. The following ve",
+      "date": "2026-04-30",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "ABB Edgenius Management Portal",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-03",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to send a specially crafted message to the system node allowing the attacker to install and run arbitrary code, ",
+      "date": "2026-04-30",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/04/30/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added&nbsp;one&nbsp;new&nbsp;vulnerability&nbsp;to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.&nbsp; CVE-2026-41940&nbsp;WebPros cPanel &",
+      "date": "2026-04-30",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "ABB Ability Symphony Plus Engineering",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-06",
+      "summary": "View CSAF Summary ABB became aware of vulnerability in the products versions listed as affected in the advisory. The ABB S+ Engineering product versions are affected by vulnerabilities in PostgreSQL v",
+      "date": "2026-04-30",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "ABB System 800xA, Symphony Plus IEC 61850",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-120-01",
+      "summary": "View CSAF Summary This vulnerability was privately reported relating to ABB’s implementation of the IEC 61850 communication stack for MMS client applications used in some Automation control system pro",
+      "date": "2026-04-30",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "KPMGコンサルティング、「サイバーセキュリティ主要課題2026」を発表 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pRWJic0VwRlNteF9DR0t1WFRHOU81bW9xMlI0MG1IVGx6MHpyVXpXb2ZndkpNSlJOVTEzZzdSVk1tSl9mVmduWWVobGFsUzJ5N01CZDM2aXhzSnY0eDNQMGVoaDNsb2hUSUpuQ1FfUHozb3RsU2JmMkJCemRjWlU?oc=5",
+      "summary": "KPMGコンサルティング、「サイバーセキュリティ主要課題2026」を発表&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-04-30",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ最前線 第79回 古いルータが狙われている 未更新機器は危険、Mirai感染も確認【先週の重大セキュリティまとめ】 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5CMF9YRUpGQVlCY2RyWlJxdkcwY2hBSW93TEhRcFpMX2VCZzJvYmNXOTUzRGxoTzdhNTctUUEtUTlVVXRJUXhmNkJCQ1c5V0tjNmlJaVFZRWltc0hSWlpfdXphak9FVUxoQUk5WmlmSjVNbGhvTDI00gF8QVVfeXFMTmYxZnllazQ5cWgtdlhVczRWQ2JqcGVQMkp2TVh6OTRxOHlyTXVOd2RwLVU3Q1RPd2RWeDF5aDZQRGkxUHQ2V1NTZXpsbFdnc2dNeUlqLXA4RFBxNFdib3RQYnUyU2ZJVWgzTllGNE5iYTUzcWRZdW1pTWE4TA?oc=5",
+      "summary": "サイバーセキュリティ最前線 第79回 古いルータが狙われている 未更新機器は危険、Mirai感染も確認【先週の重大セキュリティまとめ】&nbsp;&nbsp;ｄメニューニュース",
+      "date": "2026-04-30",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "カギスル、中小企業向け法人プランを提供開始 - PPAP代替＋αのサイバーセキュリティを推進 ～あらゆる経路に、もっと確実な対策を。～ - Excite エキサイト",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fXzk0blZrSXR6MEt1Ui1BRU5iaFhVWG45RDdZVi10U0s4amVOVVRMN0lsWU9pclVRdzlDMVU2TkN4cktxVF9tZ28xU1pyUFRVXzV4WDhnd0dOcWM4Qzh3eTI1WTloT21kN3Zqa3VkNm01bmFU?oc=5",
+      "summary": "カギスル、中小企業向け法人プランを提供開始 - PPAP代替＋αのサイバーセキュリティを推進 ～あらゆる経路に、もっと確実な対策を。～&nbsp;&nbsp;Excite エキサイト",
+      "date": "2026-04-30",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Landis+Gyr、サイバーセキュリティ部門Rheboをエバーフィールドに売却へ 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LUzZtNU1vYVYxaWNnYVZjeHhQb21mOGUwUm1jeFNrajZtUHBXbTlmT2dfa2N0aGw2VHZEdkRPTmhTZWVZQjZTM1V3OHFQNXN6YTFIb1NVbEYtSm96eEhwM0p1dldrUzkxZmpCd0NDTUY?oc=5",
+      "summary": "Landis+Gyr、サイバーセキュリティ部門Rheboをエバーフィールドに売却へ 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "date": "2026-04-30",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "古いルータが狙われている 未更新機器は危険、Mirai感染も確認【先週の重大セキュリティまとめ】 - マイナビニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jRl8wX3pWbUppNHRVYkt6eGpjVEpsZ3EzUnFDaGJNY1dYaHd2b3lrWFI5Q3pNdzktNTVPT1EydGJzRDB1WXdTeUEyWnpZRlIwclU2TTh2a1M5STRlTHMwaEtoa21vdHV5cE0xVDJ3WlBFTUt2MHc?oc=5",
+      "summary": "古いルータが狙われている 未更新機器は危険、Mirai感染も確認【先週の重大セキュリティまとめ】&nbsp;&nbsp;マイナビニュース",
+      "date": "2026-04-30",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Copy Fail（CVE-2026-31431）｜732バイトのPythonがrootを奪う、AIが発見したLinuxカーネルの論理バグ - innovaTopia",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LOXhRcFpoSExQaEVJQVlmb0NkMEp6M214OXdGYW1JWmQ2a2tzd2ZCNjlDNHgtUVZsRjJOYU9hbHM1Yk9FTjQ4WWpadURkdHRtU3FoN0lVMW1IeXNzaDVjbkxGVl9fSVJoN002blZxTVdaQQ?oc=5",
+      "summary": "Copy Fail（CVE-2026-31431）｜732バイトのPythonがrootを奪う、AIが発見したLinuxカーネルの論理バグ&nbsp;&nbsp;innovaTopia",
+      "date": "2026-04-30",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
       "url": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
       "summary": "Cybersecurity researchers are sounding the alarm about a new supply chain attack campaign targeting SAP-related npm Packages with credential-stealing malware. According to reports from Aikido Security",
@@ -37,99 +334,18 @@
       "category": "news"
     },
     {
-      "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
-      "url": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
-      "summary": "cPanel has released security updates to address a security issue impacting various authentication paths that could allow an attacker to obtain access to the control panel software. The problem affects",
-      "date": "2026-04-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
-      "url": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added two security flaws impacting ConnectWise ScreenConnect and Microsoft Windows to its Known Exploited Vulnerabilities (K",
-      "date": "2026-04-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
-      "url": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
-      "summary": "In yet another instance of threat actors quickly jumping on the exploitation bandwagon, a newly disclosed critical security flaw in BerriAI's LiteLLM Python package has come under active exploitation ",
-      "date": "2026-04-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers exploit RCE flaws in Qinglong task scheduler for cryptomining",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-rce-flaws-in-qinglong-task-scheduler-for-cryptomining/",
-      "summary": "Hackers are exploiting two authentication bypass vulnerabilities in the Qinglong open-source task scheduling tool to deploy cryptominers on developers' servers. [...]",
+      "title": "Official SAP npm packages compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/official-sap-npm-packages-compromised-to-steal-credentials/",
+      "summary": "Multiple official SAP npm packages were compromised in what is believed to be a TeamPCP supply-chain attack to steal credentials and authentication tokens from developers' systems. [...]",
       "date": "2026-04-29",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Hackers arrested for hijacking and selling 610,000 Roblox accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-for-hijacking-and-selling-610-000-roblox-accounts/",
-      "summary": "The Ukrainian police have arrested three individuals who hacked more than 610,000 Roblox gaming accounts and sold them for a profit of $225,000. [...]",
-      "date": "2026-04-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "cPanel, WHM emergency update fixes critical auth bypass bug",
-      "url": "https://www.bleepingcomputer.com/news/security/cpanel-whm-emergency-update-fixes-critical-auth-bypass-bug/",
-      "summary": "A critical vulnerability affecting all but the latest versions of cPanel and the WebHost Manager (WHM) dashboard could be exploited to obtain access to the control panel without authentication. [...]",
-      "date": "2026-04-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "European police dismantles €50 million crypto investment fraud ring",
-      "url": "https://www.bleepingcomputer.com/news/security/european-police-dismantles-50-million-crypto-investment-fraud-ring/",
-      "summary": "Austrian and Albanian authorities dismantled a criminal ring accused of running a large-scale cryptocurrency investment fraud operation that caused estimated losses of over €50 million ($58.5 million)",
-      "date": "2026-04-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Learning from the Vercel breach: Shadow AI & OAuth sprawl",
-      "url": "https://www.bleepingcomputer.com/news/security/learning-from-the-vercel-breach-shadow-ai-and-oauth-sprawl/",
-      "summary": "A single third-party OAuth integration can become a direct path into your environment. Push explains how the Vercel breach shows a compromised OAuth app can lead to widespread impact across downstream",
-      "date": "2026-04-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "GitHub fixes RCE flaw that gave access to millions of private repos",
-      "url": "https://www.bleepingcomputer.com/news/security/github-fixes-rce-flaw-that-gave-access-to-millions-of-private-repos/",
-      "summary": "In early March, GitHub patched a critical remote code execution vulnerability (CVE-2026-3854) that could have allowed attackers to access millions of private repositories. [...]",
-      "date": "2026-04-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA orders feds to patch Windows flaw exploited as zero-day",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-windows-flaw-exploited-in-zero-day-attacks/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has ordered federal agencies to secure their Windows systems against a vulnerability exploited in zero-day attacks. [...]",
-      "date": "2026-04-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft says backend change broke Teams Free chat and calls",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-says-backend-change-broke-teams-free-chat-and-calls/",
-      "summary": "Microsoft is working to resolve a known issue that prevents some Microsoft Teams Free users from chatting and calling others. [...]",
+      "title": "Popular WordPress redirect plugin hid dormant backdoor for years",
+      "url": "https://www.bleepingcomputer.com/news/security/popular-wordpress-redirect-plugin-hid-dormant-backdoor-for-years/",
+      "summary": "The Quick Page/Post Redirect plugin, installed on more than 70,000 WordPress sites, had a backdoor added five years ago that allows injecting arbitrary code into users' sites. [...]",
       "date": "2026-04-29",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -163,6 +379,15 @@
       "category": "alert"
     },
     {
+      "title": "サイバーセキュリティ専門家の約半分が転職を希望--その理由とは - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02dUJqRkJPNmVLMlMtUGJhSGdwMERfUHhWZGlLc3FYRHc4UlkyeE05M1F6akMtUk5QdXBiOVRwbmowTFZaa1FNbjJlVFpMOXdpSzUw?oc=5",
+      "summary": "サイバーセキュリティ専門家の約半分が転職を希望--その理由とは&nbsp;&nbsp;ZDNET Japan",
+      "date": "2026-04-29",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "国防の一環でノウハウ構築 イスラエル、サイバーセキュリティ分野で国際社会に存在感 - 産経ニュース",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kVnlhZ0FONklBSFh3Ykd4YU11czRYXzhKbmpWV1dGNjNoeXFhd1FiQ0xDQ0FNMGVMbGRFbFJHWGtWbzJNb0NVZzdUZDBydzVLdEktRXNwSGlBRE1VTWt0UFBqeF9wQ2R2dGRDQnVFanYtSF9ZZVE?oc=5",
       "summary": "国防の一環でノウハウ構築 イスラエル、サイバーセキュリティ分野で国際社会に存在感&nbsp;&nbsp;産経ニュース",
@@ -172,57 +397,12 @@
       "category": "news"
     },
     {
-      "title": "AI混乱がサイバーセキュリティ格下げを引き起こす、需要見通しは堅調にもかかわらず 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE92VldFaWdzSEVUSWtzN3l1Mm9qNkxaQ3ozYXdWaHRIQ1Y3a2thejU5UFBBbkh4ZDhyTjc3SWVxZ0pRTU8wMXRCZXFXOHVsaFREZDVjV3ZOSm9kMVQ3WFVmNm5fa0VIMkdTdlpnZWZB?oc=5",
-      "summary": "AI混乱がサイバーセキュリティ格下げを引き起こす、需要見通しは堅調にもかかわらず 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "title": "たった一人で 90 億ドルのランサムウェア被害を防いでいた CISA のセキュリティ専門家が職場を追われる - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16S1RaMjNSLTZfZDdYRFZZdHNPMlNsWk5KSXJhWjJqcDJIbDliYzdYR05ESGR2WmQtYjlLb2FKS2ZpckcxeVhtSkZHTmpWLS1kOUNXdWQwMVV6Unl4bXJfZVhtU2o1Z2dvSnJwcQ?oc=5",
+      "summary": "たった一人で 90 億ドルのランサムウェア被害を防いでいた CISA のセキュリティ専門家が職場を追われる&nbsp;&nbsp;ScanNetSecurity",
       "date": "2026-04-29",
       "source": "Google News JP",
       "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
-      "url": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
-      "summary": "Cybersecurity researchers have disclosed details of a critical security vulnerability impacting GitHub.com and GitHub Enterprise Server that could allow an authenticated user to obtain remote code exe",
-      "date": "2026-04-28",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
-      "url": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
-      "summary": "A cybercrime group of Brazilian origin has resurfaced after more than three years to orchestrate a campaign that targets Minecraft players with a new stealer called LofyStealer (aka GrabBot). \"The mal",
-      "date": "2026-04-28",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
-      "url": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-      "summary": "Threat hunters are warning that the cybercriminal operation known as VECT 2.0 acts more like a wiper than a ransomware due to a critical flaw in its encryption implementation across Windows, Linux, an",
-      "date": "2026-04-28",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Broken VECT 2.0 ransomware acts as a data wiper for large files",
-      "url": "https://www.bleepingcomputer.com/news/security/broken-vect-20-ransomware-acts-as-a-data-wiper-for-large-files/",
-      "summary": "Researchers are warning that the VECT 2.0 ransomware has a problem in the way it handles encryption nonces that leads to permanently destroying larger files rather than encrypt them. [...]",
-      "date": "2026-04-28",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
-      "summary": "Hackers are targeting sensitive information stored in the LiteLLM open-source large-language model (LLM) gateway by exploiting a critical vulnerability tracked as CVE-2026-42208. [...]",
-      "date": "2026-04-28",
-      "source": "Bleeping Computer",
-      "language": "英語",
       "category": "news"
     },
     {
@@ -271,51 +451,6 @@
       "category": "news"
     },
     {
-      "title": "GMOサイバーセキュリティ byイエラエ、実攻撃手法を用いてAIエージェントのリスクを可視化するサービス（クラウド Watch） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10RkFXejhPQlByN0JtVnA0S3NtNDZRUGVYeW94NVF6TVVIa3piczVEQUh5X1pMUzVOUk1QZ0VVUkhpZlpGZlZsa2VLZXpFM2VNYzk0aHpRdVBpaS1iVWg0SUJqQ0tfcDJSNDd0aExOczByY0NJX3JjRWFxeVRCcjA?oc=5",
-      "summary": "GMOサイバーセキュリティ byイエラエ、実攻撃手法を用いてAIエージェントのリスクを可視化するサービス（クラウド Watch）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-04-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "セキュリティハンドブック2カ月で2.6万件突破（発行・DL合計） - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9jVWNpVlVPdDhKZzdWZUVmX19CaE00dnR4bFphU1RRTWlTaFpYaFFZUld5OUZZU05pdWhBLXItUGQ4dkNqZkpVWlVXV2NhTXluVTNXZ2RNUHZ5MTZmVDduMmJTbExfV1FHYlg2QTJKdXRNRW95NDZ0MWd0cw?oc=5",
-      "summary": "セキュリティハンドブック2カ月で2.6万件突破（発行・DL合計）&nbsp;&nbsp;ニコニコニュース",
-      "date": "2026-04-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "KPMGコンサルティング、「サイバーセキュリティ主要課題2026」を発表：時事ドットコム - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBTM1ZFcVQ2YnJrd0IxMFVLNVNsSkNhQVNRVnJxM1Y2SGdGdVlpRGw1X093bjlsYU1lellUZXZEZWpxc2V1bVZEQkx2dWF3SU1qQUZUUDBUcEg3bUptcURuQ2ExWjJ6UTNrc04w?oc=5",
-      "summary": "KPMGコンサルティング、「サイバーセキュリティ主要課題2026」を発表：時事ドットコム&nbsp;&nbsp;時事ドットコム",
-      "date": "2026-04-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "パロアルト、“プラットフォーマイゼーション”でコスト削減とセキュリティの実効性向上を両立 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94alZyVDc3SjEzcmF6ejZid3dzZzFfcUZZd1hJRnNUSThWaWFDZ2ZOdVdBOEs4VHVPdkRIVHJkZnc0X0EwdU9JWk1vNjdOb29YQTA1ZHYzTlpLdmdYX1RwcExvaThDdF9nU2g1SjZXdDBOY0NIT3hiSW84a0xLRnM?oc=5",
-      "summary": "パロアルト、“プラットフォーマイゼーション”でコスト削減とセキュリティの実効性向上を両立&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-04-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Mythosで何が変わったのか──AI脆弱性診断の現実と内製化の判断基準を解説するホワイトペーパーを公開 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBWXFvX19Md1h2MU13amw1Skt5aXdTb2V5azlrSVhJV0k5S2owOHhPWlp6S0NwLVM4S0FWNjJpTFB2OW1MeFN4Qk9nU1FseHp5ckl6TzRBaGtCeGFLa3dvdzhnOXJ0Y1lYdFE?oc=5",
-      "summary": "Mythosで何が変わったのか──AI脆弱性診断の現実と内製化の判断基準を解説するホワイトペーパーを公開&nbsp;&nbsp;PR TIMES",
-      "date": "2026-04-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "注意喚起: Cisco ASAおよびFTDにおける複数の脆弱性（CVE-2025-20333、CVE-2025-20362）に関する注意喚起 (更新)",
       "url": "https://www.jpcert.or.jp/at/2025/at250021.html",
       "summary": "",
@@ -332,24 +467,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "ゼロトラストの誤解--実務者が陥りやすい10の思い込み - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oQU5tald3SzcwRFhnbzNrUUV0NW5mckU5RUQ5dkZFYU5PSmFMMV8wSG9QcWhhdkxYbERTaWh3OC1vODRIT1ZGMEN4Q2ZBVjFaZ2c0?oc=5",
-      "summary": "ゼロトラストの誤解--実務者が陥りやすい10の思い込み&nbsp;&nbsp;ZDNET Japan",
-      "date": "2026-04-27",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "GMOサイバーセキュリティ byイエラエ、 「AIエージェントペネトレーションテスト」を提供開始 - GMOインターネットグループ株式会社",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8wcmJuTVBJWFJRR3U3MkU0cnpudGlnZ3AwUU5hLVBqRFFCWTJJdXRoZ0JFSHNGaDZIUUhzS3NCSk5ZRFVHM2xjb0tpR3M4Zw?oc=5",
-      "summary": "GMOサイバーセキュリティ byイエラエ、 「AIエージェントペネトレーションテスト」を提供開始&nbsp;&nbsp;GMOインターネットグループ株式会社",
-      "date": "2026-04-27",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "更新：Cisco Secure Firewall ASAおよびCisco Secure FTDの脆弱性について (CVE-2025-20333等)",
@@ -386,15 +503,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/24/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-7399&nbsp;Samsung&nbsp;MagicINFO&nbsp;9 Server Path Tra",
-      "date": "2026-04-24",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
     },
     {
       "title": "お知らせ：LogonTracerにおける複数の脆弱性について",
@@ -469,60 +577,6 @@
       "category": "analysis"
     },
     {
-      "title": "Milesight Cameras",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-03",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the device being accessed or allow remote code execution. The following versions of Milesight Cameras are affected: MS-Cx",
-      "date": "2026-04-23",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "Defending Against China-Nexus Covert Networks of Compromised Devices",
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-113a",
-      "summary": "Defending against china-nexus covert networks of compromised devices executive summary Defending against China-nexus covert networks of compromised devices&nbsp; Explaining the widespread shift in tac",
-      "date": "2026-04-23",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "SpiceJet Online Booking System",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-04",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to disclose sensitive information. The following versions of SpiceJet Online Booking System are affected: Onl",
-      "date": "2026-04-23",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "Yadea T5 Electric Bicycle",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-113-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in an attacker being able to unlock and start the bicycle, leading to vehicle theft. The following versions of Yadea T5 Ele",
-      "date": "2026-04-23",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "FIRESTARTER Backdoor",
-      "url": "https://www.cisa.gov/news-events/analysis-reports/ar26-113a",
-      "summary": "Malware Analysis Report at a Glance Malware Name FIRESTARTER Original Publication April 23, 2026 Executive Summary The Cybersecurity and Infrastructure Security Agency (CISA) analyzed a sample of FIRE",
-      "date": "2026-04-23",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-39987 Marimo Remote Code Execution Vulnerability This type",
-      "date": "2026-04-23",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
       "title": "AI threats in the wild: The current state of prompt injections on the web",
       "url": "http://security.googleblog.com/feeds/820776653483778595/comments/default",
       "summary": "Posted by Thomas Brunner, Yu-Han Liu, Moni PandeAt Google, our Threat Intelligence teams are dedicated to staying ahead of real-world adversarial activity, proactively monitoring emerging threats befo",
@@ -530,51 +584,6 @@
       "source": "Google Security Blog",
       "language": "英語",
       "category": "news"
-    },
-    {
-      "title": "Ziostation2におけるパストラバーサルの脆弱性",
-      "url": "https://jvn.jp/jp/JVN00575116/",
-      "summary": "ザイオソフト株式会社が提供するZiostation2には、パストラバーサルの脆弱性が存在します。",
-      "date": "2026-04-22",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "LiveOn MeetのWindows PC用クライアントインストーラおよびプラグインインストーラにおける任意のDLL読み込みの脆弱性",
-      "url": "https://jvn.jp/jp/JVN45563482/",
-      "summary": "ジャパンメディアシステム株式会社が提供するLiveOn MeetのWindows PC用LiveOn Meetクライアントインストーラおよびキヤノンネットワークカメラ用プラグインインストーラには、DLL読み込みに関する脆弱性が存在します。",
-      "date": "2026-04-22",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "DeepL Chrome拡張機能におけるクロスサイトスクリプティングの脆弱性",
-      "url": "https://jvn.jp/jp/JVN37524771/",
-      "summary": "DeepL Chrome拡張機能にはクロスサイトスクリプティングの脆弱性が存在します。",
-      "date": "2026-04-22",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, April 22nd, 2026 https://isc.sans.edu/podcastdetail/9902, (Wed, Apr 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/32918",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-04-22",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "&#x5b;Guest Diary&#x5d; Beyond Cryptojacking: Telegram tdata as a Credential Harvesting Vector, Lessons from a Honeypot Incident, (Wed, Apr 22nd)",
-      "url": "https://isc.sans.edu/diary/rss/32888",
-      "summary": "&#x26;#x5b;This is a Guest Diary by L. Carty, an ISC intern as part of the SANS.edu Bachelor&#x26;&#x26;#x23&#x26;#x3b;39&#x26;#x3b;s Degree in Applied Cybersecurity (BACS) program &#x26;#x5b;1&#x5d;.",
-      "date": "2026-04-22",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
     },
     {
       "title": "Oracle Java の脆弱性対策について(2026年4月)",
@@ -842,15 +851,6 @@
       "url": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
       "summary": "AI-based assistants or \"agents\" -- autonomous programs that have access to the user's computer, files, online services and can automate virtually any task -- are growing in popularity with developers ",
       "date": "2026-03-08",
-      "source": "Krebs on Security",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Who is the Kimwolf Botmaster &#8220;Dort&#8221;?",
-      "url": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
-      "summary": "In early January 2026, KrebsOnSecurity revealed how a security researcher disclosed a vulnerability that was used to assemble Kimwolf, the world's largest and most disruptive botnet. Since then, the p",
-      "date": "2026-02-28",
       "source": "Krebs on Security",
       "language": "英語",
       "category": "news"
@@ -1238,5 +1238,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/4/30 6:30:59"
+  "updated": "2026/5/1 6:27:59"
 }
