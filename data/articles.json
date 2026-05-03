@@ -1,11 +1,74 @@
 {
   "articles": [
     {
+      "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+      "url": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a recently disclosed security flaw impacting various Linux distributions to its Known Exploited Vulnerabilities (KEV) c",
+      "date": "2026-05-03",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft Defender wrongly flags DigiCert certs as Trojan:Win32/Cerdigent.A!dha",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-defender-wrongly-flags-digicert-certs-as-trojan-win32-cerdigentadha/",
+      "summary": "Microsoft Defender is detecting legitimate DigiCert root certificates as Trojan:Win32/Cerdigent.A!dha, resulting in widespread false-positive alerts, and in some cases, removing certificates from Wind",
+      "date": "2026-05-03",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Telegram Mini Apps abused for crypto scams, Android malware delivery",
+      "url": "https://www.bleepingcomputer.com/news/security/telegram-mini-apps-abused-for-crypto-scams-android-malware-delivery/",
+      "summary": "Cybersecurity researchers have uncovered a large-scale fraud operation that uses Telegram's Mini App feature to run crypto scams, impersonate well-known brands, and distribute Android malware. [...]",
+      "date": "2026-05-03",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Wireshark 4.6.5 Released, (Sun, May 3rd)",
+      "url": "https://isc.sans.edu/diary/rss/32944",
+      "summary": "Wireshark release 4.6.5 fixes 43 vulnerabilities (38 CVEs) and 35 bugs.&#xd;",
+      "date": "2026-05-03",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "サイバーセキュリティ株式オープン(為替ヘッジなし)予想分配金提示型【03319211】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5QOTBpb2ZrQ2pQOFhwRWVBTmRaNXJYQkt0dWt2LVozRG8yLUNiS0lVdlkyWEQ4OUt1VTQtUU11NHE2VTRnOUJYMF85eWhnVGFSaXIwTg?oc=5",
+      "summary": "サイバーセキュリティ株式オープン(為替ヘッジなし)予想分配金提示型【03319211】：基準価格・投資信託情報&nbsp;&nbsp;Yahoo!ファイナンス",
+      "date": "2026-05-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "“最強のハッキングAI”は特殊例ではなかった！GPT-5.5が到達したサイバー攻撃能力の現在地 - JBpress",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBrZWNGS2U2VXRvbFFrRDZuRFdhcGhqRzRmSlJ6QnJ1TUhlR1FPN0NRMkhRM0x1XzBkcjZwVG9KaThmYTFJV1hTa3dWRHhaM1RTQU15OG9B?oc=5",
+      "summary": "“最強のハッキングAI”は特殊例ではなかった！GPT-5.5が到達したサイバー攻撃能力の現在地&nbsp;&nbsp;JBpress",
+      "date": "2026-05-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
       "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
       "summary": "Cybersecurity company Trellix has announced that it suffered a breach that enabled unauthorized access to a \"portion\" of its source code. It said it \"recently identified\" the compromise of its source ",
       "date": "2026-05-02",
       "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critrical cPanel flaw mass-exploited in \"Sorry\" ransomware attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/critrical-cpanel-flaw-mass-exploited-in-sorry-ransomware-attacks/",
+      "summary": "A new disclosed cPanel flaw tracked as CVE-2026-41940 is being mass-exploited to breach websites and encrypt data in \"Sorry\" ransomware attacks. [...]",
+      "date": "2026-05-02",
+      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -136,33 +199,6 @@
       "category": "news"
     },
     {
-      "title": "Microsoft now lets admins choose pre-installed Store apps to uninstall",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-lets-admins-choose-pre-installed-store-apps-to-uninstall/",
-      "summary": "Microsoft has updated a Windows 11 in-box app removal policy introduced in October to include a dynamic list that lets IT admins choose which preinstalled Store apps to uninstall. [...]",
-      "date": "2026-05-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Windows 11 KB5083631 update released with 34 changes and fixes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5083631-update-released-with-34-changes-and-fixes/",
-      "summary": "Microsoft has released the KB5083631 optional cumulative update for Windows 11, which includes 34 changes, such as a new Xbox mode for Windows PCs, enhanced security and performance for batch files, a",
-      "date": "2026-05-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "US ransomware negotiators get 4 years in prison over BlackCat attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiators-get-4-years-in-prison-over-blackcat-attacks/",
-      "summary": "Two former employees of cybersecurity incident response companies Sygnia and DigitalMint were sentenced to four years in prison each for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks",
-      "date": "2026-05-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Malicious Ad for Homebrew Leads to MacSync Stealer, (Fri, May 1st)",
       "url": "https://isc.sans.edu/diary/rss/32942",
       "summary": "Introduction&#xd;",
@@ -199,36 +235,9 @@
       "category": "alert"
     },
     {
-      "title": "Anthropic、「Claude Security」を発表--脆弱性スキャンからパッチ生成までを自動化 - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCOFJ2N1VCVkpaTnh0eDVaRGtNc0ZYYmozUUx0VUlwZjl3OFlLTFdDQjJtUHdTbi1QSEZvNVRORXRNekdVYlNCeURhb0drU2dJMzM0?oc=5",
-      "summary": "Anthropic、「Claude Security」を発表--脆弱性スキャンからパッチ生成までを自動化&nbsp;&nbsp;ZDNET Japan",
-      "date": "2026-05-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "OpenAIの新モデル「GPT-5.4-Cyber」、サイバーセキュリティの未来を切り拓く - Forbes JAPAN",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BdmtQd2ViOXNEUHZ0NUE3X3VPWFZSakRUaVJJOVJZTGZjZkI0dU9iMU9fcFhhNVd4OVgtQjBUM2ZUMmdsaTBiUkd1bTVsRE9RMzVKNG43bnQ?oc=5",
       "summary": "OpenAIの新モデル「GPT-5.4-Cyber」、サイバーセキュリティの未来を切り拓く&nbsp;&nbsp;Forbes JAPAN",
-      "date": "2026-05-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「Claude Mythos」でセキュリティはどう変わる？ 競合「GPT-5.4-Cyber」と比較 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9BNGlfa1ZZT0xubDgtaTU4YXkxd2pyVlN4YmlybC1DYUZWbE8xOGpmcTBxX0xqZkw1SXhXSk5tQ3phWDJXTEYtd01wVWdRcFp3TnYwbFdfRXlEUFRYYnlPWVVTX3I0UDhlUkRhTzJ0cw?oc=5",
-      "summary": "「Claude Mythos」でセキュリティはどう変わる？ 競合「GPT-5.4-Cyber」と比較&nbsp;&nbsp;ITmedia",
-      "date": "2026-05-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Aladdin Securityの「複合ジェイルブレイク」研究論文が国際学会「国際人工知能・サイバーセキュリティ会議（AISEC 2026）」および人工知能学会全国大会（JSAI 2026）に採択 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE85OUJUZXFmblN5bmtXLXZuVnhxYjhpeWNxRk9DMVpPTTBJMFJHY1pTVE5rZEU1QmFaN2QtWWpOUEhXT284UjJqTjBQaU04S2diTG5tSzlQcjREY1R2cFdMSmZvcGJlVFVJYWNr?oc=5",
-      "summary": "Aladdin Securityの「複合ジェイルブレイク」研究論文が国際学会「国際人工知能・サイバーセキュリティ会議（AISEC 2026）」および人工知能学会全国大会（JSAI 2026）に採択&nbsp;&nbsp;時事ドットコム",
       "date": "2026-05-01",
       "source": "Google News JP",
       "language": "日本語",
@@ -283,15 +292,6 @@
       "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
       "url": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
       "summary": "The internet is noisy this week. We are seeing some wild new tactics, like people using fake cell towers to send scam texts, while some developers are accidentally downloading tools that peek into the",
-      "date": "2026-04-30",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
-      "url": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
-      "summary": "Cybersecurity researchers have disclosed details of a stealthy Python-based backdoor framework called DEEP#DOOR that comes with capabilities to establish persistent access and harvest a wide range of ",
       "date": "2026-04-30",
       "source": "The Hacker News",
       "language": "英語",
@@ -388,18 +388,18 @@
       "category": "alert"
     },
     {
-      "title": "KPMGコンサルティング、「サイバーセキュリティ主要課題2026」を発表 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9pRWJic0VwRlNteF9DR0t1WFRHOU81bW9xMlI0MG1IVGx6MHpyVXpXb2ZndkpNSlJOVTEzZzdSVk1tSl9mVmduWWVobGFsUzJ5N01CZDM2aXhzSnY0eDNQMGVoaDNsb2hUSUpuQ1FfUHozb3RsU2JmMkJCemRjWlU?oc=5",
-      "summary": "KPMGコンサルティング、「サイバーセキュリティ主要課題2026」を発表&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "KPMGコンサルティング、「サイバーセキュリティ主要課題2026」を発表 - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10ZXB5RWE2YTBpbmpVTHY2bDAzM3pnRk1GRW9pX3pVcVZxenRrbWFiRTltcUdFY3lveTRUUHQzQ2tkRXpaRklOM0FiYTIwNnNiODBF?oc=5",
+      "summary": "KPMGコンサルティング、「サイバーセキュリティ主要課題2026」を発表&nbsp;&nbsp;ZDNET Japan",
       "date": "2026-04-30",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "Linux主要ディストリビューションに影響する732バイト脆弱性「Copy Fail」、各ベンダーの対応状況 - innovaTopia",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TSTRrVlFHRUFBVE5nNGt3NlFqMFg5OGJ1dmJCQVE3cHRWRTlfY2I2MGg2Tkw5WHA2SG8zZVhZaExQZC1QLW83RXJmTzhZQmZqa1ZSLW41QllZelNvS3JqbzREUmU4SkNQWHNybF9iY1hiUQ?oc=5",
-      "summary": "Linux主要ディストリビューションに影響する732バイト脆弱性「Copy Fail」、各ベンダーの対応状況&nbsp;&nbsp;innovaTopia",
+      "title": "クラウド利用のサイバーセキュリティ Microsoft 365とGoogle Workspace に違いはあるか？ - リスク対策.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55bTZGdFNxQVE4ZndvOXFLWUNpOXRfTEFFaDFmdFlwSUFpeFNud2cwcTJITm9tOGJwWGZUSnFPbDJCRjZ1VDlYcmt2bmhITTdjWGpWSHVsSlM?oc=5",
+      "summary": "クラウド利用のサイバーセキュリティ Microsoft 365とGoogle Workspace に違いはあるか？&nbsp;&nbsp;リスク対策.com",
       "date": "2026-04-30",
       "source": "Google News JP",
       "language": "日本語",
@@ -433,36 +433,9 @@
       "category": "alert"
     },
     {
-      "title": "たった一人で 90 億ドルのランサムウェア被害を防いでいた CISA のセキュリティ専門家が職場を追われる - ScanNetSecurity",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE16S1RaMjNSLTZfZDdYRFZZdHNPMlNsWk5KSXJhWjJqcDJIbDliYzdYR05ESGR2WmQtYjlLb2FKS2ZpckcxeVhtSkZHTmpWLS1kOUNXdWQwMVV6Unl4bXJfZVhtU2o1Z2dvSnJwcQ?oc=5",
-      "summary": "たった一人で 90 億ドルのランサムウェア被害を防いでいた CISA のセキュリティ専門家が職場を追われる&nbsp;&nbsp;ScanNetSecurity",
-      "date": "2026-04-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ専門家の約半分が転職を希望--その理由とは - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE02dUJqRkJPNmVLMlMtUGJhSGdwMERfUHhWZGlLc3FYRHc4UlkyeE05M1F6akMtUk5QdXBiOVRwbmowTFZaa1FNbjJlVFpMOXdpSzUw?oc=5",
-      "summary": "サイバーセキュリティ専門家の約半分が転職を希望--その理由とは&nbsp;&nbsp;ZDNET Japan",
-      "date": "2026-04-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "セキュリティインシデント「再発防止特化型」の研修提供（ScanNetSecurity） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1oUF9PYVZza2tZU3p4dzY4QURiRUR6bkYtRVF0T2ZSbXA0SEtVWTY5YW5PWlFqdnhhZW55YU5uYVJyUThzUWV0QkNFM2ZYZDRXTmNaNDhtMldxcTd2NzBKRG5qd1JFSUhuWjFvek1CNHoydUpTc0tqSTdBTHY2ZXc?oc=5",
-      "summary": "セキュリティインシデント「再発防止特化型」の研修提供（ScanNetSecurity）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-04-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AI革命は知的労働の雇用を奪うだけなのか、それとも日本の起死回生の最後のチャンスなのか（ニューズウィーク日本版） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE55MW9SbUtTRkZwUTY0VE9zbmRIMHhTYk5TTVRqc3EwdEt6d1RhUXZmS0xsZ1NzZHZNeDZKcUZzeVlaYXBybHdTWENMTURHd0w2TXJ5ajVjTHlJb2diaW9NR0l4cFFvLWh5elZGWklYSmw0bWhaa25neWNOWGpwLXc?oc=5",
-      "summary": "AI革命は知的労働の雇用を奪うだけなのか、それとも日本の起死回生の最後のチャンスなのか（ニューズウィーク日本版）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "国防の一環でノウハウ構築 イスラエル、サイバーセキュリティ分野で国際社会に存在感 - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kVnlhZ0FONklBSFh3Ykd4YU11czRYXzhKbmpWV1dGNjNoeXFhd1FiQ0xDQ0FNMGVMbGRFbFJHWGtWbzJNb0NVZzdUZDBydzVLdEktRXNwSGlBRE1VTWt0UFBqeF9wQ2R2dGRDQnVFanYtSF9ZZVE?oc=5",
+      "summary": "国防の一環でノウハウ構築 イスラエル、サイバーセキュリティ分野で国際社会に存在感&nbsp;&nbsp;産経ニュース",
       "date": "2026-04-29",
       "source": "Google News JP",
       "language": "日本語",
@@ -485,6 +458,33 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
+    },
+    {
+      "title": "GMOサイバーセキュリティ byイエラエ、「GMOナショナルセキュリティ株式会社」を設立 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE42dU1YcHB1UUk0S0RqbVBERVJ6NzQ5RXlIcG9qUDRTNWVzb0I2bG9ZaDlJV2ZHTXFpSXI5OGxTTjZ1SndLdFhnUFEtOGVqaEZKVGMtdXllRllXUDM1TlpOU2E1V2dWd2piMUE?oc=5",
+      "summary": "GMOサイバーセキュリティ byイエラエ、「GMOナショナルセキュリティ株式会社」を設立&nbsp;&nbsp;PR TIMES",
+      "date": "2026-04-28",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "プラクティス9-1 サイバーセキュリティリスクのある委託先の特定と対策状況の確認 - ipa.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE03LUctWmYzTjZuV0gtWFdSLXBGUlUwRDlXTjg1UEpIRXhZWllHZmF4dlkxdHF4NUxIckNac1JTc1F1X1lTZXR4TU9aWG9iNzM4elJCeVdOQXlneVRWUUl5S3RXSXkwMXpxX1E2SFNKdmc1QnFrRWJES3BFaVc?oc=5",
+      "summary": "プラクティス9-1 サイバーセキュリティリスクのある委託先の特定と対策状況の確認&nbsp;&nbsp;ipa.go.jp",
+      "date": "2026-04-28",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "明和町議会のサイバーセキュリティを確保するための方針／明和町ホームページ - 多気郡 - town.meiwa.mie.jp",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5ObTJ4REJtUy0zRjdVTnR1Um52XzZ2Rm03TE9sZkh5Z21CUjRQeTBDT0ZpZUVCdm43a1hQcUFMNVRWLXJ2eTlmV25FOUh1S1k2QUxJa25FWkJOTmpyWlBtMjJON0c5S0VUU1ZxN0EtcDFQQms?oc=5",
+      "summary": "明和町議会のサイバーセキュリティを確保するための方針／明和町ホームページ - 多気郡&nbsp;&nbsp;town.meiwa.mie.jp",
+      "date": "2026-04-28",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "注意喚起: Cisco ASAおよびFTDにおける複数の脆弱性（CVE-2025-20333、CVE-2025-20362）に関する注意喚起 (更新)",
@@ -530,15 +530,6 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
-    },
-    {
-      "title": "ISC Stormcast For Friday, April 24th, 2026 https://isc.sans.edu/podcastdetail/9906, (Fri, Apr 24th)",
-      "url": "https://isc.sans.edu/diary/rss/32924",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-04-24",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
     },
     {
       "title": "お知らせ：LogonTracerにおける複数の脆弱性について",
@@ -610,6 +601,15 @@
       "date": "2026-04-21",
       "source": "Krebs on Security",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "NEC、地域金融機関向けサイバーセキュリティ対策モデル「サイバーセキュリティ共同センター」を提供開始 - NEC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuRFVucW9IT05TX05DMXV1RWhHZzhGSWhNWnRkaVZwQnAyU2dWNXdlaXFDUDBsTWc1MjFUTENDbVlVdkotNUdVQkV3a28wS00tbFB4RHM4Y19BcTVpZVE?oc=5",
+      "summary": "NEC、地域金融機関向けサイバーセキュリティ対策モデル「サイバーセキュリティ共同センター」を提供開始&nbsp;&nbsp;NEC",
+      "date": "2026-04-17",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -1322,5 +1322,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/5/3 6:20:29"
+  "updated": "2026/5/4 6:21:43"
 }
