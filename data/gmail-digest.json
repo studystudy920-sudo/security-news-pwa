@@ -3,33 +3,41 @@
     {
       "type": "google",
       "from": "Google <no-reply@accounts.google.com>",
-      "subject": "セキュリティ通知（Mac での新しいログイン）",
-      "snippet": "Mac デバイスで Google アカウントへの新しいログインを検出。ご自身によるものなら対応不要、心当たりがなければアカウント保護を。",
-      "date": "2026-05-03 13:31",
-      "messageId": "19dec1b0c24ffc6b"
+      "subject": "セキュリティ通知（Windows での新しいログイン）",
+      "snippet": "Windows デバイスで Google アカウントへの新しいログインを検出。ご自身によるものなら対応不要、心当たりがなければアカウント保護を。",
+      "date": "2026-05-04 10:22",
+      "messageId": "19df0947ee70444c"
     },
     {
       "type": "google",
       "from": "Google <no-reply@accounts.google.com>",
-      "subject": "セキュリティ通知（macOS にデータアクセスを許可）",
-      "snippet": "macOS に Google アカウントのデータの一部へのアクセスを許可。心当たりがない場合は第三者がアクセスを試みている可能性あり。",
-      "date": "2026-05-03 13:31",
-      "messageId": "19dec1b3abc8bfc9"
+      "subject": "セキュリティ通知（Claude for Google Drive にアクセス許可）",
+      "snippet": "Claude for Google Drive に Google アカウントのデータの一部へのアクセスを許可。心当たりがない場合は第三者がアクセスを試みている可能性あり。",
+      "date": "2026-05-04 09:26",
+      "messageId": "19df0615e1de69a9"
+    },
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "セキュリティ通知（Windows での新しいログイン）",
+      "snippet": "Windows デバイスで Google アカウントへの新しいログインを検出。ご自身によるものなら対応不要、心当たりがなければアカウント保護を。",
+      "date": "2026-05-04 08:49",
+      "messageId": "19df03f784070a7c"
     },
     {
       "type": "newsletter",
       "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
-      "subject": "GMO熊谷社長の休養学、「仕事より運動を優先」で組織力アップ - 日経ビジネス（5/4）",
-      "snippet": "GMOインターネットグループ熊谷正寿社長の休養学。仕事より運動を優先する経営哲学で組織力をアップ。日経ビジネス Editor's EYE 5/4配信。",
-      "date": "2026-05-04 05:32",
-      "messageId": "19def8aceb8839ed"
+      "subject": "旅先で出合う店舗・商品・サービスにもビジネスのヒント - 日経ビジネス（5/5）",
+      "snippet": "日経ビジネス編集者が旅先での発見からビジネスのヒントを紹介する週次ニュースレター。5/5配信。",
+      "date": "2026-05-05 05:33",
+      "messageId": "19df4b253ea28411"
     }
   ],
   "sources": {
     "google_security": {
       "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d",
-      "count": 2,
-      "note": "Googleセキュリティ通知: 2件（Mac新規ログイン / macOSアクセス許可）"
+      "count": 3,
+      "note": "Googleセキュリティ通知: 3件（Windows新規ログイン2件 / Claude for Google Driveアクセス許可1件）"
     },
     "scan_netsecurity": {
       "from": "scan@netsecurity.ne.jp",
@@ -49,8 +57,8 @@
     "nikkeibp": {
       "from": "nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp",
       "count": 1,
-      "note": "日経BP/日経クロステック/日経ビジネス: 1件（日経ビジネス Editor's EYE 5/4）"
+      "note": "日経BP/日経クロステック/日経ビジネス: 1件（日経ビジネス Editor's EYE 5/5）"
     }
   },
-  "updated": "2026-05-04 06:00"
+  "updated": "2026-05-05 06:00"
 }
