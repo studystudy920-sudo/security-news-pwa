@@ -1,43 +1,19 @@
 {
   "notifications": [
     {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "セキュリティ通知（Windows での新しいログイン）",
-      "snippet": "Windows デバイスで Google アカウントへの新しいログインを検出。ご自身によるものなら対応不要、心当たりがなければアカウント保護を。",
-      "date": "2026-05-04 10:22",
-      "messageId": "19df0947ee70444c"
-    },
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "セキュリティ通知（Claude for Google Drive にアクセス許可）",
-      "snippet": "Claude for Google Drive に Google アカウントのデータの一部へのアクセスを許可。心当たりがない場合は第三者がアクセスを試みている可能性あり。",
-      "date": "2026-05-04 09:26",
-      "messageId": "19df0615e1de69a9"
-    },
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "セキュリティ通知（Windows での新しいログイン）",
-      "snippet": "Windows デバイスで Google アカウントへの新しいログインを検出。ご自身によるものなら対応不要、心当たりがなければアカウント保護を。",
-      "date": "2026-05-04 08:49",
-      "messageId": "19df03f784070a7c"
-    },
-    {
       "type": "newsletter",
       "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
-      "subject": "旅先で出合う店舗・商品・サービスにもビジネスのヒント - 日経ビジネス（5/5）",
-      "snippet": "日経ビジネス編集者が旅先での発見からビジネスのヒントを紹介する週次ニュースレター。5/5配信。",
-      "date": "2026-05-05 05:33",
-      "messageId": "19df4b253ea28411"
+      "subject": "リベラルアーツがリーダーを鍛える　休日こそ学びを - 日経ビジネス（5/6）",
+      "snippet": "日経ビジネス Editor's EYE 5/6号。連休中の学びテーマとしてリベラルアーツがリーダーシップを鍛えるという観点を特集。本号にセキュリティ系の直接記事は含まれず。",
+      "date": "2026-05-06 05:31",
+      "messageId": "19df9d6d756a5801"
     }
   ],
   "sources": {
     "google_security": {
       "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d",
-      "count": 3,
-      "note": "Googleセキュリティ通知: 3件（Windows新規ログイン2件 / Claude for Google Driveアクセス許可1件）"
+      "count": 0,
+      "note": "Googleセキュリティ通知: メールなし（過去24時間）"
     },
     "scan_netsecurity": {
       "from": "scan@netsecurity.ne.jp",
@@ -57,8 +33,8 @@
     "nikkeibp": {
       "from": "nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp",
       "count": 1,
-      "note": "日経BP/日経クロステック/日経ビジネス: 1件（日経ビジネス Editor's EYE 5/5）"
+      "note": "日経BP/日経クロステック/日経ビジネス: 1件（日経ビジネス Editor's EYE 5/6）"
     }
   },
-  "updated": "2026-05-05 06:00"
+  "updated": "2026-05-06 06:00"
 }
