@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+      "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+      "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked",
+      "date": "2026-05-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
+      "url": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
+      "summary": "Grafana has disclosed that an \"unauthorized party\" obtained a token that granted them the ability to access the company's GitHub environment and download its codebase. \"Our investigation has determine",
+      "date": "2026-05-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
+      "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
+      "summary": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]",
+      "date": "2026-05-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "企業におけるアプリケーションセキュリティの再定義 - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jQ1gxV04ydkFrRi1DUW1mM3c2TjQ2dFFkUmFfcTdRTXdhdWdrNGJsM012c09GMGM4bDVkR1h5eXFEOFU2anN5TFZpR3FaY3R4b0t3?oc=5",
+      "summary": "企業におけるアプリケーションセキュリティの再定義&nbsp;&nbsp;ZDNET Japan",
+      "date": "2026-05-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
       "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
       "summary": "A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages w",
@@ -25,6 +61,15 @@
       "date": "2026-05-16",
       "source": "Bleeping Computer",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ株式オープン(為替ヘッジなし)【03315177】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tWDBWclpKNXZRYzhSUElJM1lRbEZKLVFTblNSZ2ZacDZZQW01eFk5VDVBbWVBajZURkxfazJXMWp6ZE5sOTVIMkVMT1ZpV21tNEpXUA?oc=5",
+      "summary": "サイバーセキュリティ株式オープン(為替ヘッジなし)【03315177】：基準価格・投資信託情報&nbsp;&nbsp;Yahoo!ファイナンス",
+      "date": "2026-05-16",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -172,15 +217,6 @@
       "category": "news"
     },
     {
-      "title": "Microsoft warns of Exchange zero-day flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-exchange-zero-day-flaw-exploited-in-attacks/",
-      "summary": "On Thursday, Microsoft shared mitigations for a high-severity Exchange Server vulnerability exploited in attacks that allow threat actors to execute arbitrary code via cross-site scripting (XSS) while",
-      "date": "2026-05-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "&#x5b;Guest Diary&#x5d; New Malware Libraries means New Signatures, (Fri, May 15th)",
       "url": "https://isc.sans.edu/diary/rss/32986",
       "summary": "&&#x23&#x3b;xd&#x3b; &&#x23&#x3b;xd&#x3b; :root &&#x23&#x3b;x7b&#x3b;&&#x23&#x3b;xd&#x3b; --isc-maroon: &#x23&#x3b;7a1f1f&#x3b;&&#x23&#x3b;xd&#x3b; --isc-maroon-dark: &#x23&#x3b;5e1717&#x3b;&&#x23&#x3",
@@ -208,36 +244,18 @@
       "category": "alert"
     },
     {
-      "title": "サイバー攻撃対策の在り方検討会を設立 総務省、巧妙化・複雑化するサイバー攻撃への対策に向け（電波タイムズ） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBXV3lwajJYeDcyOXdnNXc1VXVwd19LMzdFYjJMWFlNU0M2ODAxSHVuQUI3Wjh6ZzdsLVgzRmpZWXBsMzNZRlZ0dk92S3EtZHNOeHRHVFEyX0llbVdBVjdIMGZDSWJmcWRRV2Q3bGowSC1tNmIxRy1RbTlyVzJHUDg?oc=5",
-      "summary": "サイバー攻撃対策の在り方検討会を設立 総務省、巧妙化・複雑化するサイバー攻撃への対策に向け（電波タイムズ）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "「平時・有事の区別に意味はない」サイバー対処能力向上へ高市総理に提言 | 政策 | ニュース - jimin.jp",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8xS3lsSEVibW5LRzJ3RGRMNktmMTNmcmVoZGgyYkpHQkNUSnU0Q3daeW1GTWg3YnRudVUtUW1Bb2JGVkFEcDg2RlJIOE82dkZrMUp3OUFuYw?oc=5",
+      "summary": "「平時・有事の区別に意味はない」サイバー対処能力向上へ高市総理に提言 | 政策 | ニュース&nbsp;&nbsp;jimin.jp",
       "date": "2026-05-15",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "【経産省・NTTデータ登壇】セキュリティエージェントのイベント「第12回セキュリティ交流会」開催のお知らせ - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE50eGtVUFRldHBkNTdYbE5fdnMxOHMta1lIcVF2QkpaZDdPOHFRQzdxSHk0eW1icW5Hc0RyWHpzcWFxTnFSUW5UcG9fVDRBQk92NVpJelVQYi1zRmlFblAtamlLTnZtR1Y0eVNWRWhOOUVVWGYtYnJpVzJ6QQ?oc=5",
-      "summary": "【経産省・NTTデータ登壇】セキュリティエージェントのイベント「第12回セキュリティ交流会」開催のお知らせ&nbsp;&nbsp;ニコニコニュース",
-      "date": "2026-05-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【通期決算発表】 FFRIセキュリティ：サイバー・セキュリティ事業が主力。マルウ…(フィスコ) - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWTVsSV85MTR3VU5tQWh5M3FCcTRtcndMSE44TmdYYTBXT01lazVGTzNCdlBzbk9fLUhYMUhYT0xFaGVibjl6MFVjMDdKbGpoQkhMSmxLYmJCaXJlemIyc05FNnJiZVJveXFTZDNQcG5SSTBjV1RtcDRkY19KQmZOaXRqYUs1YzQ?oc=5",
-      "summary": "【通期決算発表】 FFRIセキュリティ：サイバー・セキュリティ事業が主力。マルウ…(フィスコ)&nbsp;&nbsp;Yahoo!ファイナンス",
-      "date": "2026-05-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【通期決算発表】 フーバーブレイン：サイバーセキュリティ製品やセキュリティ＆…(フィスコ) - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQWjlWNExGVmdvZV9vZ04xSERHLU9pUGlTbEtMVUlUbVhlWUhUYnJ1dk9LdXp1ejJ4bEQ5NFNSc090NUVhSmJWcHlkZ3Nfak9uTkcxdHJ4SVdxbEF6Q3paN0dKWkhRTVlhR000VDctZmkwWWNqalFReFRzVjA1dm53OS1NVjRLSTQ?oc=5",
-      "summary": "【通期決算発表】 フーバーブレイン：サイバーセキュリティ製品やセキュリティ＆…(フィスコ)&nbsp;&nbsp;Yahoo!ファイナンス",
+      "title": "台湾・米国・ベリーズがGCTFワークショップ開催、AI時代のサイバーセキュリティをテーマに - ROC-Taiwan.org",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42Q3NSVG80Mm9odUhub0hQZFg0YnBpQmg0YVJJZ3IzempIT0NSN3FVQnVRdmh2TmtOVVhjSjVCOWYwODc1dHd0dWI2SkstN0FLcFl5NF9rMXBaYXpmdFE?oc=5",
+      "summary": "台湾・米国・ベリーズがGCTFワークショップ開催、AI時代のサイバーセキュリティをテーマに&nbsp;&nbsp;ROC-Taiwan.org",
       "date": "2026-05-15",
       "source": "Google News JP",
       "language": "日本語",
@@ -256,24 +274,6 @@
       "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
       "url": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
       "summary": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-",
-      "date": "2026-05-14",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
-      "url": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
-      "summary": "Cybersecurity researchers are sounding the alarm about what has been described as \"malicious activity\" in newly published versions of node-ipc. According to Socket and StepSecurity, three different ve",
-      "date": "2026-05-14",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
-      "summary": "Everything is still on fire. This week feels dumb in the worst way — bad links, weak checks, fake help desks, shady forum posts, and people turning supply chain attacks into some cursed little game fo",
       "date": "2026-05-14",
       "source": "The Hacker News",
       "language": "英語",
@@ -379,27 +379,36 @@
       "category": "alert"
     },
     {
+      "title": "ゼロから学ぶサイバーセキュリティ基礎講座～安心・安全への第一歩～（全3回） - kyusan-u.ac.jp",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zdHRxaXNUTkNESUhqT25iMW5vTnk0Vk04QXg1T01LcGdVVlRudjZGYWlZMldFNjNrZHR5MmFJR2lXWjVUU3VFTGg4NklTNll5MWFxcDQzVWRMWmJVOU51MmlET0g?oc=5",
+      "summary": "ゼロから学ぶサイバーセキュリティ基礎講座～安心・安全への第一歩～（全3回）&nbsp;&nbsp;kyusan-u.ac.jp",
+      "date": "2026-05-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "自由民主党・国家サイバーセキュリティ戦略本部による提言申入れ - 首相官邸",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XSW5Ia0FHX20xRGZoZFNONzB2Qk5TdzVtQVVQZU9nMEpnUEE5NWhEUk1UcHVDOU5wak1uR0IzMGQtMlppeUc3UGx5Y1pTUEJzeXVhTFRRNWxLZ20yUkliaGxDaGpnNENoWjNUc3A4a2ZkeTg?oc=5",
+      "summary": "自由民主党・国家サイバーセキュリティ戦略本部による提言申入れ&nbsp;&nbsp;首相官邸",
+      "date": "2026-05-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "2026年5月18日発売「Software Design 2026年6月号」にて当社エンジニアの熊坂駿吾が執筆した記事が掲載されます～連載企画「押し上げろ！サイバーセキュリティ！」第2回目～ - GMO Cybersecurity by Ierae, Inc.",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYTTlwSFgxS2ZmQlhSdWRmWnVVZWVZdmpLZ1NBVFpZRVRiSVUzTGZJdnBaZGROTVFsNnJLSEMzXzNzU2J2SnNTMDFVTE5mNGNXOHdYaTdMZw?oc=5",
+      "summary": "2026年5月18日発売「Software Design 2026年6月号」にて当社エンジニアの熊坂駿吾が執筆した記事が掲載されます～連載企画「押し上げろ！サイバーセキュリティ！」第2回目～&nbsp;&nbsp;GMO Cybersecurity by Ierae, Inc.",
+      "date": "2026-05-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Claude Mythosが示すサイバー攻撃の構造変化とラックの見解 | LAC WATCH - 株式会社ラック",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FS0dIWm00NzRuaFljUjVrNWxzeHM4WEFaR0o1czRXMDdhSUZjQXhOTG92ZUJsUHlpX0NDR1V1Uk5rdl9ndFoxQU9KQnFRa0pvOFZKWWFQaklUUG5FQlNla3lUNlFkQlF1?oc=5",
       "summary": "Claude Mythosが示すサイバー攻撃の構造変化とラックの見解 | LAC WATCH&nbsp;&nbsp;株式会社ラック",
-      "date": "2026-05-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "生成AI利用者の約3割がヒヤリハットを経験--サイバーセキュリティクラウド調査 - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QZ3ZxWHlCcjFrQy1oSVlBYl9XR2JhdjJrazZKZjVWMHduLW80TENUOV9URnR2Zng1QnJ2Q2Y1STV2STBRc2xrTUdKcjhZWDhWYlR3?oc=5",
-      "summary": "生成AI利用者の約3割がヒヤリハットを経験--サイバーセキュリティクラウド調査&nbsp;&nbsp;ZDNET Japan",
-      "date": "2026-05-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "日本政府とメガバンクがAnthropicの「Claude Mythos」導入へ、サイバー防御網構築（ビジネス＋IT） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyTnRoclFzb1dhM0N1MjdXbUF2bWNvWERqNDNLU0lpWVZNWUdmMU16eklweFVReEQwWXFXTVg1VTh3bFhSemFneHN1SWhNb0xDWnVLWE9ueDVleHRGOVlfNXdsYVhTSmlZWm1PanN1bDlJbXVJZDQ0UjlXc1lURzQ?oc=5",
-      "summary": "日本政府とメガバンクがAnthropicの「Claude Mythos」導入へ、サイバー防御網構築（ビジネス＋IT）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-05-14",
       "source": "Google News JP",
       "language": "日本語",
@@ -514,18 +523,9 @@
       "category": "analysis"
     },
     {
-      "title": "OpenAI、サイバー防御向け構想「Daybreak」公開 GPT-5.5とCodex Securityで脆弱性の発見・修正を支援 - Ledge.ai",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95UFhERmhkQ3BPN3pqX2hTYXBZMm9iWlNsa2Y1S0RnSUwxS2ZYMktpUUxmMTU5N2RfcDRfc2RRTE5wbXE4NWRoOWFnUTMtaFJQM2FpM05BR3phMEhCRlhIWlowV08yQQ?oc=5",
-      "summary": "OpenAI、サイバー防御向け構想「Daybreak」公開 GPT-5.5とCodex Securityで脆弱性の発見・修正を支援&nbsp;&nbsp;Ledge.ai",
-      "date": "2026-05-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Claude Mythosがもたらすセキュリティビジネス激変の可能性 二極化していく“業界のこれから”（ITmedia NEWS） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmaXI2OWl2bmdaa1NfTVI5S1B2UjJQS1VBR3VTWkpQTXpqcEpLbHRpWER2bHlUQzN5WTB2Vm5XU0pjWDBNVy1uaFpRZk1FeHZRM1dVaDhfT3l3Vzd5eGFYOEI5MHJlQ1NLeDVWSW80clM3YVNYbFZPX2h6MU91VFk?oc=5",
-      "summary": "Claude Mythosがもたらすセキュリティビジネス激変の可能性 二極化していく“業界のこれから”（ITmedia NEWS）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "日本最大級のサイバーセキュリティ国際会議 「CODE BLUE 2026」トレーニング全8コースの概要を発表 ～参加登録は6月初旬より - Newscast.jp",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42TXlUZU4yMXJsOTNYOUtQc2tNVFdiZHY1MERneTBrUnhLTTNVWU5kUzRjc19qWGFFN1N3RnlVSzE3X0otYmx6Y0MtSmpsaEU?oc=5",
+      "summary": "日本最大級のサイバーセキュリティ国際会議 「CODE BLUE 2026」トレーニング全8コースの概要を発表 ～参加登録は6月初旬より&nbsp;&nbsp;Newscast.jp",
       "date": "2026-05-13",
       "source": "Google News JP",
       "language": "日本語",
@@ -620,6 +620,15 @@
       "source": "IPA",
       "language": "日本語",
       "category": "alert"
+    },
+    {
+      "title": "再エネ発電設備・系統用蓄電設備におけるサイバーセキュリティリスクと、社会的要請を踏まえた実効的対策の方向性 - PwC",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbkRZTlRnZ2VGMnBnSzc1eEhlaUE4b0c0NXkzcFZlTmhjM3pMRHNYNGNsSFNtNUtTVGl4dGdycXlBSmhTTGttMERQaUNkMkVTUDJYLUFHREhxc2JUckxRejd5VDRoeDVRS3Q0elgxU1NWZlVHWUhlenRmcGZqYWw1c1QwUkdrN3pndS1QN0RobG9ZbDF6OVRPZTBLN2RMTVpnY3NycmpCNGZDNm8x?oc=5",
+      "summary": "再エネ発電設備・系統用蓄電設備におけるサイバーセキュリティリスクと、社会的要請を踏まえた実効的対策の方向性&nbsp;&nbsp;PwC",
+      "date": "2026-05-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -817,15 +826,6 @@
       "date": "2026-03-30",
       "source": "Google Security Blog",
       "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "「サプライチェーン強化に向けたセキュリティ対策評価制度に関する制度構築方針」（SCS評価制度の構築方針）を公表しました - meti.go.jp",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9hOWdxTWp5b3Nqc3hvMWFiU2lKRmk2UG5DX0o0YWVCTmJsUE1tNUt1cXBKeVRnR1ZBRVBCTjhYbkFsMzA0U2w5TUxOamYyUVF5YlE0ZkVTTkhiNW1lOWpVRURpQ0J4UlhLa3ZpOHQ2czJqbzg?oc=5",
-      "summary": "「サプライチェーン強化に向けたセキュリティ対策評価制度に関する制度構築方針」（SCS評価制度の構築方針）を公表しました&nbsp;&nbsp;meti.go.jp",
-      "date": "2026-03-27",
-      "source": "Google News JP",
-      "language": "日本語",
       "category": "news"
     },
     {
@@ -1223,5 +1223,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/5/17 6:22:59"
+  "updated": "2026/5/18 6:24:49"
 }
