@@ -1,6 +1,222 @@
 {
   "articles": [
     {
+      "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
+      "url": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+      "summary": "INTERPOL has coordinated a first-of-its-kind cybercrime crackdown across the Middle East and North Africa (MENA) that led to 201 arrests and the identification of an additional 382 suspects. The initi",
+      "date": "2026-05-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
+      "url": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+      "summary": "Monday opens with a trust problem. A mail server flaw is under active use. A network control system was targeted. Trusted packages were poisoned. A fake model page pushed a stealer. Then came the fami",
+      "date": "2026-05-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+      "url": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+      "summary": "What happens when a phishing email looks clean enough to pass through security, but dangerous enough to expose the business after one click? That is the gap many SOCs still struggle with: the attacks ",
+      "date": "2026-05-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+      "url": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+      "summary": "Supply chain attackers are not only trying to slip malicious code into trusted software. They are trying to steal the access that makes trusted software possible. Recently, three separate campaigns hi",
+      "date": "2026-05-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
+      "url": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+      "summary": "Ivanti, Fortinet, n8n, SAP, and VMware have released security fixes for various vulnerabilities that could be exploited by bad actors to bypass authentication and execute arbitrary code. Topping the l",
+      "date": "2026-05-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+      "url": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+      "summary": "Chaotic Eclipse, the security researcher behind the recently disclosed Windows flaws, YellowKey and GreenPlasma, has released a proof-of-concept (PoC) for a Windows privilege escalation zero-day flaw ",
+      "date": "2026-05-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
+      "url": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+      "summary": "Cybersecurity researchers have discovered four new npm packages containing information-stealing malware, one of which is a clone of the Shai-Hulud worm open-sourced by TeamPCP. The list of identified ",
+      "date": "2026-05-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
+      "url": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
+      "summary": "A new analysis of the Lua-based fast16 malware has confirmed that it was a cyber sabotage tool designed to tamper with nuclear weapons testing simulations. According to Broadcom-owned Symantec and Car",
+      "date": "2026-05-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
+      "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
+      "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS",
+      "date": "2026-05-18",
+      "source": "Krebs on Security",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+      "url": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+      "summary": "Many employees already use shadow AI tools at work without security review. Adaptive Security breaks down how teams can build practical AI governance without adding friction for employees. [...]",
+      "date": "2026-05-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Leaked Shai-Hulud malware fuels new npm infostealer campaign",
+      "url": "https://www.bleepingcomputer.com/news/security/leaked-shai-hulud-malware-fuels-new-npm-infostealer-campaign/",
+      "summary": "The Shai-Hulud malware leaked last week is now used in new attacks on the Node Package Manager (npm) index, as infected packages emerged over the weekend. [...]",
+      "date": "2026-05-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Grafana says stolen GitHub token let hackers steal codebase",
+      "url": "https://www.bleepingcomputer.com/news/security/grafana-says-stolen-github-token-let-hackers-steal-codebase/",
+      "summary": "Grafana Labs disclosed that hackers have downloaded its source code after breaching its GitHub environment using a stolen access token. [...]",
+      "date": "2026-05-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft testing adjustable taskbar, Start menu in Windows 11",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-finally-gets-a-resizable-taskbar-and-start-menu/",
+      "summary": "Microsoft has finally brought back the resizable taskbar and Start menu to Windows 11 in the latest preview version rolling out to Insiders in the Experimental channel. [...]",
+      "date": "2026-05-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft confirms Windows 11 security update install issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-kb5089549-windows-11-security-update-install-issues/",
+      "summary": "Microsoft has confirmed that the May 2026 Windows 11 security update (KB5089549) fails to install on some systems and triggers 0x800f0922 errors. [...]",
+      "date": "2026-05-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Exploit available for new DirtyDecrypt Linux root escalation flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/exploit-available-for-new-dirtydecrypt-linux-root-escalation-flaw/",
+      "summary": "A recently patched local privilege escalation vulnerability in the Linux kernel's rxgk module now has a proof-of-concept exploit that allows attackers to gain root access on some Linux systems. [...]",
+      "date": "2026-05-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers earn $1,298,250 for 47 zero-days at Pwn2Own Berlin 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1-298-250-for-47-zero-days-at-pwn2own-berlin-2026/",
+      "summary": "The Pwn2Own Berlin 2026 hacking contest has concluded, with security researchers collecting $1,298,250 in rewards after exploiting 47 zero-day flaws. [...]",
+      "date": "2026-05-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-05-17, (Mon, May 18th)",
+      "url": "https://isc.sans.edu/diary/rss/32994",
+      "summary": "Since the last update, the TeamPCP supply chain campaign produced its loudest stretch since the March Trivy disclosure: an officially confirmed Checkmarx Jenkins plugin compromise and a new self-sprea",
+      "date": "2026-05-18",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "「Claude Mythos」などの高度化したAIを踏まえたセキュリティ対策パッケージ「Project YATA-Shield」、政府が発表 - INTERNET Watch",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15SExuMk9FcnE1dDhlZDJhYmhHZEItZ1ZIc21fNUgwY0JyZTRVUV9QemRDYWcyYUpwakdKLWdKM3k4blZZV05KVlVYdW9vei1Vc2ZoYWxuX2lxTm54SUZMUmIxSVV2R0QyVjA4?oc=5",
+      "summary": "「Claude Mythos」などの高度化したAIを踏まえたセキュリティ対策パッケージ「Project YATA-Shield」、政府が発表&nbsp;&nbsp;INTERNET Watch",
+      "date": "2026-05-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "トレンドマイクロ､組織再編と後継者育成で見据える再成長 - 会社四季報オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBXeGdfTTg3cERWV0NlcERmMm9YQS1ZQVNPQXFxVnJNRlYtUzBET29pZGk2NlE2bVFrZzRSNEoyQTdYcW1BYzlmNmFxYXpYTFRxSW10blFRbw?oc=5",
+      "summary": "トレンドマイクロ､組織再編と後継者育成で見据える再成長&nbsp;&nbsp;会社四季報オンライン",
+      "date": "2026-05-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "坊主めくりでサイバーセキュリティー学ぶ 未来専門学校生制作、県警積極活用 - 中日新聞Web",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCY1VyU2ZfSmRJTFYwYVkwcjdSNWJGZVlUb2NqUHVRQVlwQlJFcTl0TGY1cE9IMzFkcU9OZ0l2dEpWbTV5Y014amhDZWpBSmxzTUp4V004YU5rNE9VbmlGOVNJR0dnTEFSUDBN?oc=5",
+      "summary": "坊主めくりでサイバーセキュリティー学ぶ 未来専門学校生制作、県警積極活用&nbsp;&nbsp;中日新聞Web",
+      "date": "2026-05-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "SEA/J、学生向けサイバーセキュリティコンテスト「SEA/J CTF for Students」第四回大会を8月開催 | チバテレ＋プラス - 千葉テレビ放送株式会社",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6aG5ZWXFFQlRaSFRmVnd2bGMtcF9QR3F2OWxSOHB6WTkxOVFHdjZ2Ym95bDZkWG5fN2dHVGpMUDNlaWt0bm1HeUdBTzAxY3I2TG1NRW52aVJYMnUtbEZB0gFkQVVfeXFMT2V2djE2S1BzRjNJOVJWYnQ3bWJsbGIyTGhzY3lWQUZ2bnhPRkNQR1JzakpIX2gzdjR4LXNQMzFUdGxqeEpjNlBJMS04NTFVOGpGTUdITkJXRHl6c1ctRWFEWm81Tw?oc=5",
+      "summary": "SEA/J、学生向けサイバーセキュリティコンテスト「SEA/J CTF for Students」第四回大会を8月開催 | チバテレ＋プラス&nbsp;&nbsp;千葉テレビ放送株式会社",
+      "date": "2026-05-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Armorisの社員2名、茨城県警察より感謝状を受領 - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SMGNKQmV2bHJVS3hfRzdRLTVJQ0NXZWVkWXRmc1hPSkNsR01MNXYtUDA4MFJIWHhwX1I5MFF2NjZJV0hSNnpET1JhWWE0QXNVY1YxcDVvRlM2WUlUdUhJTDd2MjZjTEdPaVRuTEZ6c0h4QUZyWF9BRjQyWQ?oc=5",
+      "summary": "Armorisの社員2名、茨城県警察より感謝状を受領&nbsp;&nbsp;ニコニコニュース",
+      "date": "2026-05-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "SEA/J、学生向けサイバーセキュリティコンテスト「SEA/J CTF for Students」第四回大会を8月開催 - J-CAST ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjajZNLTNMRWJ6REV0OGUtcTBuTG93ZHlidVVhOUk3WTVVSXRxdWNjTnhOTnJGN0ZyMHdHYlhaNF9zSXdzRUR5YnkzWkJkVlZkVFl3QlFxSTlkRTQ1VU5tUlAwVjUyS2c?oc=5",
+      "summary": "SEA/J、学生向けサイバーセキュリティコンテスト「SEA/J CTF for Students」第四回大会を8月開催&nbsp;&nbsp;J-CAST ニュース",
+      "date": "2026-05-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「セキュリティ水準」がビジネス取引の条件に - ps.nikkei.com",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9UY3k2VnJlSkJCdDhqWHU5ZTNRYjRSWldDN1EtZjBjWmtBSzhIZHdqa3JKS29YeWYwSGlLeHVBQ1hZcTZzeDFjQkRPWlZOWE5vM2lXUGlBZi1USU0?oc=5",
+      "summary": "「セキュリティ水準」がビジネス取引の条件に&nbsp;&nbsp;ps.nikkei.com",
+      "date": "2026-05-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
       "url": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
       "summary": "A newly disclosed security flaw impacting NGINX Plus and NGINX Open has come under active exploitation in the wild, days after its public disclosure, according to VulnCheck. The vulnerability, tracked",
@@ -19,6 +235,15 @@
       "category": "news"
     },
     {
+      "title": "New Windows 'MiniPlasma' zero-day exploit gives SYSTEM access, PoC released",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-miniplasma-zero-day-exploit-gives-system-access-poc-released/",
+      "summary": "A cybersecurity researcher has released a proof-of-concept exploit for a Windows privilege escalation zero-day dubbed \"MiniPlasma\" that lets attackers gain SYSTEM privileges on fully patched Windows s",
+      "date": "2026-05-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
       "title": "Tycoon2FA hijacks Microsoft 365 accounts via device-code phishing",
       "url": "https://www.bleepingcomputer.com/news/security/tycoon2fa-hijacks-microsoft-365-accounts-via-device-code-phishing/",
       "summary": "The Tycoon2FA phishing kit now supports device-code phishing attacks and abuses Trustifi click-tracking URLs to hijack Microsoft 365 accounts. [...]",
@@ -28,21 +253,12 @@
       "category": "news"
     },
     {
-      "title": "企業におけるアプリケーションセキュリティの再定義 - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jQ1gxV04ydkFrRi1DUW1mM3c2TjQ2dFFkUmFfcTdRTXdhdWdrNGJsM012c09GMGM4bDVkR1h5eXFEOFU2anN5TFZpR3FaY3R4b0t3?oc=5",
-      "summary": "企業におけるアプリケーションセキュリティの再定義&nbsp;&nbsp;ZDNET Japan",
+      "title": "“ミュトスの衝撃”を冷静に見るべき理由、騒動の影で進むサイバー攻撃の「大衆化」《4つの変化と基本対策の価値》 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xeGFJdFloeEZWU1RnUXA2ZnZMZ3J4WkhYR19Da2Vlbk5YRWY3VVpJdkVodUxKY3RGLUlZUkg5Z0FPRjRHRC11RktUMkE4Tk5YWkNDb09Qek9UMEtYSVhOUlBBNVNvNF9SZjVBVXpOcGpuUk90T2lDcFplLTNXbVU?oc=5",
+      "summary": "“ミュトスの衝撃”を冷静に見るべき理由、騒動の影で進むサイバー攻撃の「大衆化」《4つの変化と基本対策の価値》&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-05-17",
       "source": "Google News JP",
       "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
-      "url": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
-      "summary": "A critical security vulnerability impacting the Funnel Builder plugin for WordPress has come under active exploitation in the wild to inject malicious JavaScript code into WooCommerce checkout pages w",
-      "date": "2026-05-16",
-      "source": "The Hacker News",
-      "language": "英語",
       "category": "news"
     },
     {
@@ -52,24 +268,6 @@
       "date": "2026-05-16",
       "source": "Bleeping Computer",
       "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Russian hackers turn Kazuar backdoor into modular P2P botnet",
-      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-turn-kazuar-backdoor-into-modular-p2p-botnet/",
-      "summary": "The Russian hacker group Secret Blizzard has developed its long-running Kazuar backdoor into a modular peer-to-peer (P2P) botnet designed for long-term persistence, stealth, and data collection. [...]",
-      "date": "2026-05-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ株式オープン(為替ヘッジなし)【03315177】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tWDBWclpKNXZRYzhSUElJM1lRbEZKLVFTblNSZ2ZacDZZQW01eFk5VDVBbWVBajZURkxfazJXMWp6ZE5sOTVIMkVMT1ZpV21tNEpXUA?oc=5",
-      "summary": "サイバーセキュリティ株式オープン(為替ヘッジなし)【03315177】：基準価格・投資信託情報&nbsp;&nbsp;Yahoo!ファイナンス",
-      "date": "2026-05-16",
-      "source": "Google News JP",
-      "language": "日本語",
       "category": "news"
     },
     {
@@ -98,123 +296,6 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
-    },
-    {
-      "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
-      "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-      "summary": "The Russian state-sponsored hacking group known as Turla has transformed its custom backdoor Kazuar into a modular peer-to-peer (P2P) botnet that's engineered for stealth and persistent access to comp",
-      "date": "2026-05-15",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
-      "url": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
-      "summary": "Cybersecurity researchers have disclosed a set of four security flaws in OpenClaw that could be chained to achieve data theft, privilege escalation, and persistence. The vulnerabilities, collectively ",
-      "date": "2026-05-15",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
-      "url": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
-      "summary": "In Your Biggest Security Risk Isn't Malware — It's What You Already Trust, we made a simple argument: the most dangerous activity inside most organizations no longer looks like an attack. It looks lik",
-      "date": "2026-05-15",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
-      "url": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
-      "summary": "OpenAI has disclosed that two of its employee devices in its corporate environment were impacted via the Mini Shai-Hulud supply chain attack on TanStack, but noted that no user data, production system",
-      "date": "2026-05-15",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
-      "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
-      "summary": "Microsoft has disclosed a new security vulnerability impacting on-premise versions of Exchange Server that it said has come under active exploitation in the wild. The vulnerability, tracked as CVE-202",
-      "date": "2026-05-15",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
-      "url": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
-      "summary": "The U.S.Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added a newly disclosed vulnerability impacting Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities (KEV",
-      "date": "2026-05-15",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Funnel Builder WordPress plugin bug exploited to steal credit cards",
-      "url": "https://www.bleepingcomputer.com/news/security/funnel-builder-wordpress-plugin-bug-exploited-to-steal-credit-cards/",
-      "summary": "A critical vulnerability in the Funnel Builder plugin for WordPress is being actively exploited to inject malicious JavaScript snippets into WooCommerce checkout pages. [...]",
-      "date": "2026-05-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft Exchange, Windows 11 hacked on second day of Pwn2Own",
-      "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/",
-      "summary": "​During the second day of Pwn2Own Berlin 2026, competitors collected $385,750 in cash awards after exploiting 15 unique zero-day vulnerabilities in multiple products, including Windows 11, Microsoft E",
-      "date": "2026-05-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Popular node-ipc npm package compromised to steal credentials",
-      "url": "https://www.bleepingcomputer.com/news/security/popular-node-ipc-npm-package-compromised-to-steal-credentials/",
-      "summary": "Hackers have injected credential-stealing malware into newly published versions of node-ipc, a popular inter-process communication package, in a new supply chain attack targeting npm. [...]",
-      "date": "2026-05-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Avada Builder WordPress plugin flaws allow site credential theft",
-      "url": "https://www.bleepingcomputer.com/news/security/avada-builder-wordpress-plugin-flaws-allow-site-credential-theft/",
-      "summary": "Two vulnerabilities in the Avada Builder plugin for WordPress, with an estimated one million active installations, allow hackers to read arbitrary files and extract sensitive information from the data",
-      "date": "2026-05-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft backpedals: Edge to stop loading passwords into memory",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-edge-to-stop-loading-cleartext-passwords-in-memory-on-startup/",
-      "summary": "Microsoft is updating the Edge web browser to ensure it no longer loads saved passwords into process memory in clear text at startup after previously stating it was \"by design.\" [...]",
-      "date": "2026-05-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Inside the REMUS Infostealer: Session Theft, MaaS, and Rapid Evolution",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-the-remus-infostealer-session-theft-maas-and-rapid-evolution/",
-      "summary": "Stolen browser sessions and authentication tokens are becoming more valuable than stolen passwords. Flare explains how the REMUS infostealer evolved around session theft and operational scalability. [",
-      "date": "2026-05-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft to automatically roll back faulty Windows drivers",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-automatically-roll-back-faulty-windows-drivers/",
-      "summary": "Microsoft is introducing a new capability that will allow it to remotely roll back problematic Windows drivers delivered through Windows Update. [...]",
-      "date": "2026-05-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "&#x5b;Guest Diary&#x5d; New Malware Libraries means New Signatures, (Fri, May 15th)",
@@ -253,9 +334,9 @@
       "category": "news"
     },
     {
-      "title": "台湾・米国・ベリーズがGCTFワークショップ開催、AI時代のサイバーセキュリティをテーマに - ROC-Taiwan.org",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42Q3NSVG80Mm9odUhub0hQZFg0YnBpQmg0YVJJZ3IzempIT0NSN3FVQnVRdmh2TmtOVVhjSjVCOWYwODc1dHd0dWI2SkstN0FLcFl5NF9rMXBaYXpmdFE?oc=5",
-      "summary": "台湾・米国・ベリーズがGCTFワークショップ開催、AI時代のサイバーセキュリティをテーマに&nbsp;&nbsp;ROC-Taiwan.org",
+      "title": "サイバーセキュリティお助け隊サービス（新類型） - meti.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZjJmOTQzZ2NVMkVMdTBJX3g2SkstSkY0X29BLXFKMVk0bmhQZkotQWtGajh0R2lxVWt1bVZPczFfN2ZJMFc5V1Y1OXlITEVRbm9kelpqUU9EWTR4N01ERHhQaE1JUlpSNFBNVVNOS2MwZw?oc=5",
+      "summary": "サイバーセキュリティお助け隊サービス（新類型）&nbsp;&nbsp;meti.go.jp",
       "date": "2026-05-15",
       "source": "Google News JP",
       "language": "日本語",
@@ -269,15 +350,6 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
-      "url": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
-      "summary": "Cisco has released updates to address a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that it said has been exploited in limited attacks. The vulnerability, tracked as CVE-",
-      "date": "2026-05-14",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "Simple bypass of the link preview function in Outlook Junk folder, (Thu, May 14th)",
@@ -377,42 +449,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "ゼロから学ぶサイバーセキュリティ基礎講座～安心・安全への第一歩～（全3回） - kyusan-u.ac.jp",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5zdHRxaXNUTkNESUhqT25iMW5vTnk0Vk04QXg1T01LcGdVVlRudjZGYWlZMldFNjNrZHR5MmFJR2lXWjVUU3VFTGg4NklTNll5MWFxcDQzVWRMWmJVOU51MmlET0g?oc=5",
-      "summary": "ゼロから学ぶサイバーセキュリティ基礎講座～安心・安全への第一歩～（全3回）&nbsp;&nbsp;kyusan-u.ac.jp",
-      "date": "2026-05-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "自由民主党・国家サイバーセキュリティ戦略本部による提言申入れ - 首相官邸",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XSW5Ia0FHX20xRGZoZFNONzB2Qk5TdzVtQVVQZU9nMEpnUEE5NWhEUk1UcHVDOU5wak1uR0IzMGQtMlppeUc3UGx5Y1pTUEJzeXVhTFRRNWxLZ20yUkliaGxDaGpnNENoWjNUc3A4a2ZkeTg?oc=5",
-      "summary": "自由民主党・国家サイバーセキュリティ戦略本部による提言申入れ&nbsp;&nbsp;首相官邸",
-      "date": "2026-05-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "2026年5月18日発売「Software Design 2026年6月号」にて当社エンジニアの熊坂駿吾が執筆した記事が掲載されます～連載企画「押し上げろ！サイバーセキュリティ！」第2回目～ - GMO Cybersecurity by Ierae, Inc.",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBYTTlwSFgxS2ZmQlhSdWRmWnVVZWVZdmpLZ1NBVFpZRVRiSVUzTGZJdnBaZGROTVFsNnJLSEMzXzNzU2J2SnNTMDFVTE5mNGNXOHdYaTdMZw?oc=5",
-      "summary": "2026年5月18日発売「Software Design 2026年6月号」にて当社エンジニアの熊坂駿吾が執筆した記事が掲載されます～連載企画「押し上げろ！サイバーセキュリティ！」第2回目～&nbsp;&nbsp;GMO Cybersecurity by Ierae, Inc.",
-      "date": "2026-05-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Claude Mythosが示すサイバー攻撃の構造変化とラックの見解 | LAC WATCH - 株式会社ラック",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FS0dIWm00NzRuaFljUjVrNWxzeHM4WEFaR0o1czRXMDdhSUZjQXhOTG92ZUJsUHlpX0NDR1V1Uk5rdl9ndFoxQU9KQnFRa0pvOFZKWWFQaklUUG5FQlNla3lUNlFkQlF1?oc=5",
-      "summary": "Claude Mythosが示すサイバー攻撃の構造変化とラックの見解 | LAC WATCH&nbsp;&nbsp;株式会社ラック",
-      "date": "2026-05-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "お知らせ：JPCERT/CC Eyes「TSUBAMEレポート Overflow（2025年10～12月）」",
@@ -523,15 +559,6 @@
       "category": "analysis"
     },
     {
-      "title": "日本最大級のサイバーセキュリティ国際会議 「CODE BLUE 2026」トレーニング全8コースの概要を発表 ～参加登録は6月初旬より - Newscast.jp",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42TXlUZU4yMXJsOTNYOUtQc2tNVFdiZHY1MERneTBrUnhLTTNVWU5kUzRjc19qWGFFN1N3RnlVSzE3X0otYmx6Y0MtSmpsaEU?oc=5",
-      "summary": "日本最大級のサイバーセキュリティ国際会議 「CODE BLUE 2026」トレーニング全8コースの概要を発表 ～参加登録は6月初旬より&nbsp;&nbsp;Newscast.jp",
-      "date": "2026-05-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "「GUARDIANWALL MailSuite」におけるスタックベースのバッファオーバーフローの脆弱性について（JVN#35567473）",
       "url": "https://www.ipa.go.jp/security/security-alert/2026/20260513-jvn.html",
       "summary": "",
@@ -586,15 +613,6 @@
       "category": "analysis"
     },
     {
-      "title": "Apple Patches Everything, (Mon, May 11th)",
-      "url": "https://isc.sans.edu/diary/rss/32976",
-      "summary": "Apple today released its typical feature update across it&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s operating systems (iOS, iPadOS, macOS, tvOS, watchOS, vision OS). With this update, Apple patched 84 ",
-      "date": "2026-05-11",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
       "title": "Canvas Breach Disrupts Schools &#038; Colleges Nationwide",
       "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
       "summary": "An ongoing data extortion attack targeting the widely-used education technology platform Canvas disrupted classes and coursework at school districts and universities across the United States today, af",
@@ -620,15 +638,6 @@
       "source": "IPA",
       "language": "日本語",
       "category": "alert"
-    },
-    {
-      "title": "再エネ発電設備・系統用蓄電設備におけるサイバーセキュリティリスクと、社会的要請を踏まえた実効的対策の方向性 - PwC",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbkRZTlRnZ2VGMnBnSzc1eEhlaUE4b0c0NXkzcFZlTmhjM3pMRHNYNGNsSFNtNUtTVGl4dGdycXlBSmhTTGttMERQaUNkMkVTUDJYLUFHREhxc2JUckxRejd5VDRoeDVRS3Q0elgxU1NWZlVHWUhlenRmcGZqYWw1c1QwUkdrN3pndS1QN0RobG9ZbDF6OVRPZTBLN2RMTVpnY3NycmpCNGZDNm8x?oc=5",
-      "summary": "再エネ発電設備・系統用蓄電設備におけるサイバーセキュリティリスクと、社会的要請を踏まえた実効的対策の方向性&nbsp;&nbsp;PwC",
-      "date": "2026-05-06",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
@@ -852,15 +861,6 @@
       "summary": "Posted by Lyubov Farafonova, Product Manager, Phone by Google; Alberto Pastor Nieto, Sr. Product Manager Google Messages and RCS Spam and Abuse We’ve shared how Android’s proactive, multi-layered scam",
       "date": "2026-03-18",
       "source": "Google Security Blog",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
-      "url": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
-      "summary": "A hacktivist group with links to Iran's intelligence agencies is claiming responsibility for a data-wiping attack against Stryker, a global medical technology company based in Michigan. News reports o",
-      "date": "2026-03-11",
-      "source": "Krebs on Security",
       "language": "英語",
       "category": "news"
     },
@@ -1223,5 +1223,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/5/18 6:24:49"
+  "updated": "2026/5/19 6:33:52"
 }
