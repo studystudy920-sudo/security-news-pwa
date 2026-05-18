@@ -2,27 +2,78 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
-      "subject": "「AirTag」代わりに使えるダイソーの紛失防止タグ／ExcelのIF関数、活躍の場面は3つある：日経クロステック PC/モバイルメール",
-      "snippet": "セキュリティ関連トピック: Mythosが引き起こす「脆弱性の嵐」に備えよ（専門家250人提言）／公開サーバーを置く「DMZ」で社内NWを守る／MicrosoftがAI活用のセキュリティーシステムでWindows脆弱性16件を発見／EDRの欠点をAIがカバー、ランサム攻撃対策の新スタンダード。",
-      "date": "2026-05-18 06:05",
-      "messageId": "19e37c22335a9559"
+      "from": "ScanNetSecurity",
+      "subject": "Scan BASIC [2026-05-18 Vol.1622-1/1] 水インフラを標的にした未完成のマルウェア",
+      "snippet": "Darktrace社がイスラエル水処理・淡水化施設を狙うOTマルウェア「ZionSiphon」を報告。塩素制御、逆浸透膜、圧力制御を意識した処理を含む未完成サンプル。今週の主要ニュース: CAMPFIRE不正アクセス(22.5万件漏洩)、いえらぶCLOUD不正アクセス(イオンモール他)、東京精密米国子会社ランサムウェア、コープいしかわ委託先ランサムウェア。脆弱性: Palo Alto PAN-OSバッファオーバーフロー、Apache HTTP Server 2.4、エレコム無線LANルータ。CVE-2026-33825 (BlueHammer: Microsoft Defender権限昇格)実攻撃確認。",
+      "date": "2026-05-18 08:24",
+      "messageId": "19e38413493203af"
     },
     {
       "type": "newsletter",
-      "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
-      "subject": "監査法人無力化した永守経営／日清食品VSジャパネット、社長対談 - 日経ビジネス（5/18）",
-      "snippet": "監査法人を無力化したとされる永守経営の検証、日清食品VSジャパネット社長対談など。ガバナンス・経営トピック中心（セキュリティ関連は限定的）。",
-      "date": "2026-05-18 05:32",
-      "messageId": "19e37a3e38544eca"
+      "from": "ISACA Tokyo Chapter",
+      "subject": "【ISACA東京支部：他団体ご案内】システム監査学会　第40回研究大会の参加受付を開始しました",
+      "snippet": "2026年6月12日(金) 10:00-17:15、オンライン開催(Zoom)。統一論題「AXに向けた人材育成とシステム監査」。ISACA東京支部会員割引4,000円(コード:ISACATKO-C40)。基調講演: 経産省サイバーセキュリティ課長 武尾伸隆氏、SBIホールディングス佐藤市雄氏「金融業界におけるAI活用と人材育成～エージェンティックAI時代のアジャイル・ガバナンスとシステム統制～」。専門監査人業績ポイント5pt。申込期限6/9。",
+      "date": "2026-05-18 12:26",
+      "messageId": "19e391e7401ab745"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2",
+      "subject": "See the Topics Shaping the Agenda",
+      "snippet": "ISC2 Security Congress 2026 アジェンダ先行公開。10/24-28、Gaylord Rockies Resort & Convention Center(コロラド州)またはバーチャル開催。第16回となるフラッグシップ・サイバーセキュリティカンファレンス。早期割引と会員割引のスタックでさらにお得。今年のテーマを示すブログ記事公開。",
+      "date": "2026-05-19 01:41 (JST)",
+      "messageId": "19e3bf79b0e34066"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "リスク検知やインシデント対応を迅速に、セキュリティ対策をブラウザーに集約する【日経BP Topics】",
+      "snippet": "業務の入り口となるブラウザーにセキュリティ機能を一元化し、複数の対策をまとめて管理する「統合型」アプローチを解説。エンドポイント保護をブラウザー側に集約、AIによる脅威検知・対応の自動化で担当者の負担軽減と対応スピード向上が期待。資料DL案内。",
+      "date": "2026-05-18 08:39",
+      "messageId": "19e384f584cdeac8"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック Activeメール",
+      "subject": "Amazonギフトカードが当たる！ 日本ハッカー協会・杉浦氏が警告する新たな脅威：日経クロステック Active",
+      "snippet": "5月27日(水)15:00-18:30 青山OM-SQUARE開催「狙われるクライアント環境をどう守る？ 注目の防御策『ソブリンDaaS』最前線」。基調講演: 日本ハッカー協会代表理事 杉浦隆幸氏がクライアント環境を狙うランサムウェア・VPN攻撃など最新動向を徹底解説。特別講演: 戸田覚氏。参加無料、抽選で20名にAmazonギフトカード1000円分。",
+      "date": "2026-05-18 08:32",
+      "messageId": "19e3848c8fca4aa0"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール",
+      "subject": "ID管理不全のリスクを端的に示し、統制強化の考え方と実践方法を整理【日経BP Topics】",
+      "snippet": "ID管理不全による損害は平均7.5億円(約480万ドル)、発見まで平均292日。業務委託先の特権ID侵害から大手通販事業者がランサムウェアで業務停止した事件を背景に、部署単位クラウドサービスのID管理が手薄になりがちな課題を指摘。自動化＋「例外」を放置しない統制の重要性と実践方法、5項目セルフ診断チェックリスト付き資料を案内。",
+      "date": "2026-05-18 07:44",
+      "messageId": "19e381c8a94f1b01"
     }
   ],
-  "sourceStatus": {
-    "google_security": "メールなし（過去24時間）",
-    "scan_netsecurity": "メールなし（過去24時間）",
-    "isc2_japan": "メールなし（過去24時間）",
-    "isaca_tokyo": "メールなし（過去24時間）",
-    "nikkei_bp_xtech": "2件（PC/モバイルメール、日経ビジネス）"
+  "sources_checked": {
+    "google_security": {
+      "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d",
+      "result": "メールなし"
+    },
+    "scan_netsecurity": {
+      "query": "from:scan@netsecurity.ne.jp newer_than:1d",
+      "result": "1件"
+    },
+    "nikkeibp": {
+      "query": "from:nikkeibp.co.jp newer_than:1d",
+      "result": "20件（うちセキュリティ関連3件を抽出）"
+    },
+    "xtech_ac": {
+      "query": "from:xtech-ac@nikkeibp.co.jp newer_than:1d",
+      "result": "3件（nikkeibp.co.jpと重複）"
+    },
+    "isaca_tokyo": {
+      "query": "from:tky-jimukyoku@isaca.gr.jp newer_than:1d",
+      "result": "1件"
+    },
+    "isc2": {
+      "query": "from:connect.isc2.org newer_than:1d",
+      "result": "1件"
+    }
   },
-  "updated": "2026-05-18 06:30"
+  "updated": "2026-05-19 朝"
 }
