@@ -2,98 +2,26 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "IT最新ニュース by 日経クロステック <xtech-news@nikkeibp.co.jp>",
-      "subject": "IT大手、地銀にセキュリティー総合サービス相次ぎ提供／AIエージェントが10分で脅威特定、NTTドコモビジネス",
-      "snippet": "IT大手が地銀向けにセキュリティー総合サービスを相次ぎ提供（Mythosで高まる需要）。NTTドコモビジネスはAIエージェントが10分で脅威を特定する新サービスを開始。生成AI料金変更／IVRyが45億円調達なども。",
-      "date": "2026-05-22 12:24",
-      "messageId": "19e4db663255be78"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Activeメール <xtech-ac@nikkeibp.co.jp>",
-      "subject": "Amazonギフトカードが当たる！ 日本ハッカー協会・杉浦氏が警告する新たな脅威",
-      "snippet": "5/27開催「ソブリンDaaS」セミナー案内。日本ハッカー協会代表理事・杉浦隆幸氏がクライアント環境を狙うランサムウェアやVPN攻撃の最新動向を徹底解説。重要データを国内統制下に置く新アプローチ。",
-      "date": "2026-05-22 08:32",
-      "messageId": "19e4ce2079a28818"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Activeメール <xtech-ac@nikkeibp.co.jp>",
-      "subject": "生成AIのビジネスリスクを低減する、個人情報と機密情報の適正な扱い方とは",
-      "snippet": "生成AI活用時の2大リスク：知財系（著作権侵害）と情報系（個人情報・機密情報）。NDA締結機密情報の慎重な扱いと、弁護士見解に基づく社内ガイドラインの整備手順を解説。",
-      "date": "2026-05-22 07:33",
-      "messageId": "19e4cac36705d5f3"
-    },
-    {
-      "type": "newsletter",
-      "from": "IT最前線 by 日経クロステック <xtech-it@nikkeibp.co.jp>",
-      "subject": "生成AIの相次ぐ料金体系変更は実質値上げか、エージェント利用企業に負担増",
-      "snippet": "生成AIサービスの料金体系変更が相次ぎ、エージェント利用企業の負担が増加。実質値上げとの指摘。",
-      "date": "2026-05-22 07:12",
-      "messageId": "19e4c988edc80041"
-    },
-    {
-      "type": "newsletter",
-      "from": "IT注目記事 by 日経クロステック <xtech-pickup@nikkeibp.co.jp>",
-      "subject": "生成AIの相次ぐ料金体系変更は実質値上げか／マイナカード取得義務化に「法的必要性の議論必要」",
-      "snippet": "生成AI料金の実質値上げ問題、マイナカード取得義務化に対する法的必要性議論の必要性指摘など、IT分野の注目記事ピックアップ。",
-      "date": "2026-05-22 16:42",
-      "messageId": "19e4ea2e54e2591a"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Activeメール <xtech-ac@nikkeibp.co.jp>",
-      "subject": "PC700台を1人で運用管理、オーディオテクニカが実践した効率化策",
-      "snippet": "オーディオテクニカが実践するPC700台を1人で運用する効率化策。エンドポイント管理ベストプラクティス。",
-      "date": "2026-05-22 09:34",
-      "messageId": "19e4d1b17f4faf8f"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス Update 夕刊 <business@nikkeibp.co.jp>",
-      "subject": "ニデック岸田社長「上場は必ず維持」／高専卒コロプラ会長の提言",
-      "snippet": "ニデックの岸田社長が上場維持の方針を表明。高専卒コロプラ会長の経営提言も掲載。",
-      "date": "2026-05-22 17:05",
-      "messageId": "19e4eb7b62ebb265"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック カバーストーリー <xtech-d@nikkeibp.co.jp>",
-      "subject": "「目の前に木がある環境は恵まれている」、石油危機は近場調達の契機",
-      "snippet": "石油危機を契機とした近場調達への転換。サプライチェーンの地理的リスク管理について。",
-      "date": "2026-05-22 12:15",
-      "messageId": "19e4dae3e72e004a"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス 最新号案内 <business@nikkeibp.co.jp>",
-      "subject": "特集　水が足りない　半導体の急所を商機に／しまむら完全復活",
-      "snippet": "日経ビジネス5/23号特集。半導体製造に不可欠な水資源の課題と商機、しまむらの復活劇。",
-      "date": "2026-05-23 05:32",
-      "messageId": "19e51640e3dfa200"
-    },
-    {
-      "type": "newsletter",
-      "from": "ISC2 Asia-Pacific <isc2asia@connect.isc2.org>",
-      "subject": "CISSPを広めて、50米ドルのギフト券をゲットしよう",
-      "snippet": "ISC2のCISSPリファラルプログラム案内。新規受験者を紹介すると50米ドルのギフト券を獲得可能。",
-      "date": "2026-05-22 02:43",
-      "messageId": "19e4edb3a984f40d"
+      "from": "日経クロステック Special <xtech-sp@nikkeibp.co.jp>",
+      "subject": "【週刊日経クロステック Special】製造業、次のデジタル経営へ　全19講演 ほか",
+      "snippet": "週刊日経クロステック Special 2026.5.23。今週のピックアップ：静岡赤十字病院プリンター刷新、加工食品業界つながる物流、PoC止まりを乗り越える学び。セキュリティ関連：生成AI時代のサイバーリスク対策の勘所、経営者が知るべきドメイン戦略。サーバー／ストレージ関連で「現場から考える、サイバーレジリエンス実装」「バックアップはあるが、戻せないを防ぐ」も掲載。",
+      "date": "2026-05-23 09:08",
+      "messageId": "19e5229902c3b222"
     }
   ],
   "sources": {
     "google_security": 0,
     "scannetsecurity": 0,
     "isaca_tokyo": 0,
-    "isc2_japan": 1,
-    "nikkeibp": 9
+    "isc2_japan": 0,
+    "nikkeibp": 1
   },
   "sourceSummary": {
     "google_security": "メールなし（過去24時間）",
     "scannetsecurity": "メールなし（過去24時間）",
     "isaca_tokyo": "メールなし（過去24時間）",
-    "isc2_japan": "1件取得（CISSPリファラルプログラム案内）",
-    "nikkeibp": "9件取得（セキュリティ関連: 地銀向けセキュリティ総合サービス、AIエージェント脅威特定、ソブリンDaaS、生成AIガバナンス、エンドポイント運用）"
+    "isc2_japan": "メールなし（過去24時間）",
+    "nikkeibp": "1件取得（週刊日経クロステック Special：セキュリティ関連は生成AIサイバーリスク対策、ドメイン戦略、サイバーレジリエンス実装、バックアップ復旧）"
   },
-  "updated": "2026-05-23 06:30"
+  "updated": "2026-05-24 06:30"
 }
