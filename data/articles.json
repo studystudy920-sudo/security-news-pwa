@@ -1,6 +1,123 @@
 {
   "articles": [
     {
+      "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
+      "url": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
+      "summary": "GitHub has rolled out new controls for npm to improve the security of the software supply chain, giving maintainers the ability to explicitly approve a release prior to the packages becoming publicly ",
+      "date": "2026-05-23",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
+      "url": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
+      "summary": "A new \"coordinated\" supply chain attack campaign has impacted eight packages on Packagist including malicious code designed to run a Linux binary retrieved from a GitHub Releases URL. \"Although the af",
+      "date": "2026-05-23",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
+      "url": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
+      "summary": "Anthropic on Friday disclosed that Project Glasswing has helped uncover more than 10,000 high- or critical-severity vulnerabilities across some of the most \"systemically\" important software across the",
+      "date": "2026-05-23",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
+      "url": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
+      "summary": "Cybersecurity researchers have flagged a fresh software supply chain attack campaign that has targeted multiple PHP packages belonging to Laravel-Lang to deliver a comprehensive credential-stealing fr",
+      "date": "2026-05-23",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+      "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+      "summary": "A maximum-severity security vulnerability impacting LiteSpeed User-End cPanel Plugin has come under active exploitation in the wild. The flaw, tracked as CVE-2026-48172 (CVSS score: 10.0), relates to ",
+      "date": "2026-05-23",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+      "url": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a recently patched critical security flaw impacting Drupal Core to its Known Exploited Vulnerabilities (KEV) catalog, based o",
+      "date": "2026-05-23",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Laravel Lang packages hijacked to deploy credential-stealing malware",
+      "url": "https://www.bleepingcomputer.com/news/security/laravel-lang-packages-hijacked-to-deploy-credential-stealing-malware/",
+      "summary": "A supply chain attack targeting the Laravel Lang localization packages has exposed developers to a sophisticated credential-stealing malware campaign after attackers abused GitHub version tags to dist",
+      "date": "2026-05-23",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Italy disrupts CINEMAGOAL piracy app that stole streaming auth codes",
+      "url": "https://www.bleepingcomputer.com/news/legal/italy-disrupts-cinemagoal-piracy-app-that-stole-streaming-auth-codes/",
+      "summary": "Italian authorities have dismantled a piracy ecosystem centered around the CINEMAGOAL app that provided access to various streaming platforms, including Netflix, Disney+, and Spotify. [...]",
+      "date": "2026-05-23",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "An Example of Stack String in High Level Language, (Sat, May 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33008",
+      "summary": "This week, I&#x27m attending the SEC670&#x5b;1&#x5d; training (&#xe2;&#x80;&#x9c;Red Teaming Tools - Developing Windows Implants, Shellcode, Command and Control&#xe2;&#x80;&#x9d;). From my point of vi",
+      "date": "2026-05-23",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ミトス級モデルの公開は「強力な安全対策後」 アンソロピックが成果説明（Impress Watch） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kX2FvZkgzM1ZDQkU5RTg4S2VEOEhpRk1MU0ZfeWxRWlpucFUtelUtaEcxemFvMmtYaVV5OVJyaUdoYjJwOUE0dzBMMTBDaDVLbEw4ang5elYtb3FVN3BJd1lPa1BIQXlKaDdsN0RkMG9NbjNRQnZ5Q2x3c2dhb0U?oc=5",
+      "summary": "ミトス級モデルの公開は「強力な安全対策後」 アンソロピックが成果説明（Impress Watch）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-05-23",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "新型AI「ミュトス」登場受け サイバー攻撃の危険性協議 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YRHRVMTI2VHBuNEdkMHA2RGxRZ0d3Tk5TYjRKN1BSMlNYUUNDS0ROc0kwb092QmFOcXRRQ0g0VGYzRGdZcm5LcUJfVTBEbnpxN2NHVFlsdWt6Sk1Ob3kxalc2S3NUNWFEeHZNR2Y1Tkw4dmxRRXVoelgwUQ?oc=5",
+      "summary": "新型AI「ミュトス」登場受け サイバー攻撃の危険性協議&nbsp;&nbsp;au Webポータル",
+      "date": "2026-05-23",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "新型AI「ミュトス」登場受け サイバー攻撃の危険性協議 - ABEMA TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1vVjB6SzFycXF3QnZ2WWlPaVU0dE5qdVZCc2lrVFlxQmJFTElDMEQta1J5d1hZTndrUmVyQVpsdHFOSjhXYmo5NS1tYXY5blpqUkx3Rw?oc=5",
+      "summary": "新型AI「ミュトス」登場受け サイバー攻撃の危険性協議&nbsp;&nbsp;ABEMA TIMES",
+      "date": "2026-05-23",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "新型AI「ミュトス」登場受け サイバー攻撃の危険性協議 - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9idThXWW1LNUNnZmNwRlNUNGtrWEEwUWhPRWlldndMWHRsTU14RVloSHhjLVZIY3NwdHdDZ0g3am1jdGRsZkNGTGdkWF92ZzZ2bnZoUVdlekhOdjJicks4?oc=5",
+      "summary": "新型AI「ミュトス」登場受け サイバー攻撃の危険性協議&nbsp;&nbsp;ライブドアニュース",
+      "date": "2026-05-23",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "注意喚起: Palo Alto Networks製PAN-OSにおける認証回避の脆弱性（CVE-2026-0265）に関する注意喚起 (公開)",
       "url": "https://www.jpcert.or.jp/at/2026/at260015.html",
       "summary": "",
@@ -30,7 +147,7 @@
     {
       "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
       "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-      "summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151Ukraine's National Security and Defense Council) has been observed using lures related to Prometheus, a Ukrainian online ",
+      "summary": "The Belarus-aligned threat actor known as Ghostwriter (aka UAC-0057 and UNC1151) has been observed using lures related to Prometheus, a Ukrainian online learning platform, to target government organiz",
       "date": "2026-05-22",
       "source": "The Hacker News",
       "language": "英語",
@@ -49,33 +166,6 @@
       "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
       "url": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
       "summary": "1 Introduction This article provides a technical analysis of how many Windows kernel mode drivers can be interacted with from user mode without the hardware they were developed for. This work was moti",
-      "date": "2026-05-22",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
-      "url": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
-      "summary": "The U.S. Department of Justice (DoJ) on Thursday announced the arrest of a Canadian man in connection with allegedly operating a distributed denial-of-service (DDoS) botnet known as Kimwolf. In tandem",
-      "date": "2026-05-22",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
-      "url": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday added two security flaws impacting Langflow and Trend Micro Apex One to its Known Exploited Vulnerabilities (KEV) catalog, ",
-      "date": "2026-05-22",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
-      "url": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-      "summary": "Cisco has rolled out updates for a maximum-severity security flaw impacting Secure Workload that could allow an unauthenticated, remote attacker to access sensitive data. Tracked as CVE-2026-20223 (CV",
       "date": "2026-05-22",
       "source": "The Hacker News",
       "language": "英語",
@@ -181,36 +271,27 @@
       "category": "alert"
     },
     {
-      "title": "CycurionがSecuvantを290万ドルで買収、サイバーセキュリティ事業を拡大 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NbEpRV2pqWlFScnBqdHB0Q1FBUUNLcU96M0FBSU1Zc0xqSTVqRHJsX2RlMTlUY0xQUldPdXY5ZHhVSVVsZXF2eXpHMGp2NHl3Ylh2YjlneVN4c3dGUm1DbWpRWWdGWkxQaE5BckdwRE0?oc=5",
-      "summary": "CycurionがSecuvantを290万ドルで買収、サイバーセキュリティ事業を拡大 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "title": "「銀行をかたる」はもう古い クレカ13社共同のフィッシングサイト閉鎖、その成果は：金融機関以外の銘柄9割超をカバーへ - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mWDNXaF9IRS0wZXRuaXl4Mkdfd0dTTkdqckpTVDBqdzdjRVNVLTFTcE81OGlVeE1IQUp2dHlHVzlCdnl2LUZ5UTVIUGdWMVQyVldZT2t0RFdOZFAtQWxyb0RfRVpxekk0Q2Fha0hRNDk2Zw?oc=5",
+      "summary": "「銀行をかたる」はもう古い クレカ13社共同のフィッシングサイト閉鎖、その成果は：金融機関以外の銘柄9割超をカバーへ&nbsp;&nbsp;ITmedia",
       "date": "2026-05-22",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "PRE Security、サイバーセキュリティデータを予測インテリジェンスに変換する画期的なAI技術で米国特許を取得 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBjZlBRajU0TU01dEZqangtSVR0MHdkclVvZmNvaWlRUGxxY1p1eFdlUnBvS0lrYmUwV1FvWkxGS2JubVkyd25NMVZ1NzZWdk1TZ2UyakItR2pUa213SFhuMFMyWTBtdUp6dFE?oc=5",
-      "summary": "PRE Security、サイバーセキュリティデータを予測インテリジェンスに変換する画期的なAI技術で米国特許を取得&nbsp;&nbsp;PR TIMES",
+      "title": "高性能AI「ミュトス」 厚労省が医療機関とサイバーセキュリティ対策で意見交換 - FNNプライムオンライン",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE03UndCN1ZadVJxSDlxU3lCRThXMzF0XzBkTExsMmpQNjdBZVRwU0J4bVlfNDRIWkJKUUpUTnQwWlhPajc4RVdNYnZJQ2RiUQ?oc=5",
+      "summary": "高性能AI「ミュトス」 厚労省が医療機関とサイバーセキュリティ対策で意見交換&nbsp;&nbsp;FNNプライムオンライン",
       "date": "2026-05-22",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "サイバーセキュリティリスク管理サービス市場の最新予測、2026年に10620百万米ドル規模へ - アットプレス",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBVRW91bXBCOUx0MC04OXVhSG5zbzBaWGRuZFZCQmxyTV9mMUpGbVhqWUlsTkQ4ZGQzcHI1NXNQMFlld3NoMkhYMFZ5bHJCSkU?oc=5",
-      "summary": "サイバーセキュリティリスク管理サービス市場の最新予測、2026年に10620百万米ドル規模へ&nbsp;&nbsp;アットプレス",
-      "date": "2026-05-22",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "KnowBe4、生成AIでオリジナルセキュリティ研修コンテンツを作成できる新機能など発表 - EnterpriseZine",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9zczQ2RnQ5NkJFbGg5Z3BxbWRNWlhVWUcyS2pmVWZQY3N0dXI5MkRPc0J1LWNtNHJrWmhWNUJSTW1NMlEzM3VuRHBhUjRoWDAtVmFpUVlUSXRWUQ?oc=5",
-      "summary": "KnowBe4、生成AIでオリジナルセキュリティ研修コンテンツを作成できる新機能など発表&nbsp;&nbsp;EnterpriseZine",
+      "title": "「人間のトップハッカーより3〜5倍速い」自民党の平将明・国家サイバーセキュリティ戦略本部長が語る「最強AI」の脅威と日本の対応策【国会トークフロントライン】 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mLXUzYmE3MEFQRHpxYUh0ak9qZE04MWFGbmhteU5JeTZFRGs0MTEzX3JicGlleV8xVDBWSlBWazVHdm4tTnp1NXJOSVNBM2syRWNCcjVDMTJmckdEUHdHNjVaN1g?oc=5",
+      "summary": "「人間のトップハッカーより3〜5倍速い」自民党の平将明・国家サイバーセキュリティ戦略本部長が語る「最強AI」の脅威と日本の対応策【国会トークフロントライン】&nbsp;&nbsp;TBS NEWS DIG",
       "date": "2026-05-22",
       "source": "Google News JP",
       "language": "日本語",
@@ -253,33 +334,6 @@
       "category": "vuln"
     },
     {
-      "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor",
-      "url": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
-      "summary": "Cybersecurity researchers have disclosed details of a new Linux malware dubbed Showboat that has been put to use in a campaign targeting a telecommunications provider in the Middle East since at least",
-      "date": "2026-05-21",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
-      "summary": "This week starts small. A token leaks. A bad package slips in. A login trick works. An old tool shows up again. At first, it feels like the usual mess. Then you see the pattern: attackers are not alwa",
-      "date": "2026-05-21",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft Warns of Two Actively Exploited Defender Vulnerabilities",
-      "url": "https://thehackernews.com/2026/05/microsoft-warns-of-two-actively.html",
-      "summary": "Microsoft has disclosed that a privilege escalation and a denial-of-service flaw in Defender has come under active exploitation in the wild. The former, tracked as CVE-2026-41091, is rated 7.8 on the ",
-      "date": "2026-05-21",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Alleged Kimwolf Botmaster &#8216;Dort&#8217; Arrested, Charged in U.S. and Canada",
       "url": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
       "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use",
@@ -292,24 +346,6 @@
       "title": "Google accidentally exposed details of unfixed Chromium flaw",
       "url": "https://www.bleepingcomputer.com/news/security/google-accidentally-exposed-details-of-unfixed-chromium-flaw/",
       "summary": "Google has accidentally leaked details about an unfixed issue in Chromium that keeps JavaScript running in the background even when the browser is closed, allowing remote code execution on the device.",
-      "date": "2026-05-21",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Apple blocked over $11 billion in App Store fraud in 6 years",
-      "url": "https://www.bleepingcomputer.com/news/apple/apple-blocked-22-billion-in-fraudulent-app-store-transactions-in-2025/",
-      "summary": "Apple revealed that it blocked over $11 billion in fraudulent App Store transactions over the last six years, more than $2.2 billion in potentially fraudulent App Store transactions in 2025 alone. [..",
-      "date": "2026-05-21",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Inside a Crypto Drainer: How to Spot it Before it Empties Your Wallet",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-a-crypto-drainer-how-to-spot-it-before-it-empties-your-wallet/",
-      "summary": "Modern crypto drainers don't hack wallets. They trick users into approving malicious transactions. Flare explores how the Lucifer DaaS platform scales wallet theft through phishing and automation. [..",
       "date": "2026-05-21",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -399,25 +435,7 @@
     {
       "title": "「サイバーセキュリティ」が２１位にランク、政府はＡＩ高度化を踏まえた対策パッケージを公表＜注目テーマ＞ | 特集 - 株探ニュース - 株探",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDNmxTUmMzQk1ENGhDRmpWMVp5SDEzczJra044cm1GMGV6MFpJazVnYlpsNE9QQjdZcnpGeVUtZlU5V2pFVmN6NWNNZVlnaDRGcnNGOU1xajd6dmRxcDhWNA?oc=5",
-      "summary": "「サイバーセキュリティ」が２１位にランク、政府はＡＩ高度化を踏まえた対策パッケージを公表＜注目テーマ＞ | 特集 - 株探ニュース&nbsp;&nbsp;株探高性能AI「ミュトス」 厚労省が医療機関とサイバーセキュリティ対策で意見交換&nbsp;&nbsp;au Webポータル「人間のトップハッカーより3〜5倍速い」自民党の平将明・国家サイバーセキュリティ戦略本部長が語る「最強AI」の脅威と日本の",
-      "date": "2026-05-21",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "アクセンチュア、自律型サイバーセキュリティテストプラットフォームを提供するXBOWへ戦略的投資を実施 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42OV9Oc291c0FxRjBNNG5DY0VHQjZwMUJqZE8yWTIzSUI5Y0xEVmZJSUE4Mk1KNkVDNnJXUDlZNnFQQ3Y1eXVMbzlaYUE0RGVRandvSGhKeFV0MU03OWh5akhoaklJOEdWSU9ucw?oc=5",
-      "summary": "アクセンチュア、自律型サイバーセキュリティテストプラットフォームを提供するXBOWへ戦略的投資を実施&nbsp;&nbsp;日本経済新聞",
-      "date": "2026-05-21",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「ITを守っても工場は止まる」──IPA専門家が教える米国の最新防衛策「CCE」とは ｜Seizo Trend - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55TGNpWkhucVFja0x2bm5CelhlR25pRVFqdXRZZnNIV2ZqXzZnak5vSEV4Ukh4ZFJLczRjVG5XV1JYR05WYzhYMjJxMU10eThjZV84?oc=5",
-      "summary": "「ITを守っても工場は止まる」──IPA専門家が教える米国の最新防衛策「CCE」とは ｜Seizo Trend&nbsp;&nbsp;ビジネス+IT",
+      "summary": "「サイバーセキュリティ」が２１位にランク、政府はＡＩ高度化を踏まえた対策パッケージを公表＜注目テーマ＞ | 特集 - 株探ニュース&nbsp;&nbsp;株探",
       "date": "2026-05-21",
       "source": "Google News JP",
       "language": "日本語",
@@ -467,15 +485,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "サイバーセキュリティ、政府が「要」となる能動的防御 セッションＤ【ＥＣＯＮＯＳＥＣ ＪＡＰＡＮ】 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE00Q0U3dkdqTGsyN2ZWLVpBLVR6Ynd5dFFsLVJwTjMtUWt2d2wxSThteGVCZEpaU1NvNkF1QmRBOGQ0UmdaRXVBTlFNcmRZX1ZKZXlQRUxWbw?oc=5",
-      "summary": "サイバーセキュリティ、政府が「要」となる能動的防御 セッションＤ【ＥＣＯＮＯＳＥＣ ＪＡＰＡＮ】&nbsp;&nbsp;時事ドットコム",
-      "date": "2026-05-20",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "エレコム製無線LANルーターおよび無線アクセスポイントにおける複数の脆弱性（2026年5月）",
@@ -584,15 +593,6 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
-    },
-    {
-      "title": "Simple bypass of the link preview function in Outlook Junk folder, (Thu, May 14th)",
-      "url": "https://isc.sans.edu/diary/rss/32990",
-      "summary": "Besides serving as a place where Microsoft Outlook places suspected spam, the Outlook Junk folder has one additional function that can be quite helpful when it comes to identifying malicious messages.",
-      "date": "2026-05-14",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
     },
     {
       "title": "お知らせ：JPCERT/CC Eyes「TSUBAMEレポート Overflow（2025年10～12月）」",
@@ -1223,5 +1223,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/5/23 6:32:03"
+  "updated": "2026/5/24 6:24:17"
 }
