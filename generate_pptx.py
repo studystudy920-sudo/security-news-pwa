@@ -1381,6 +1381,130 @@ add_textbox(slide11, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — ホワイトリスト型アプリ制御",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 12: 「顧客の問題」にしている限り、攻撃は止まらない
+# ══════════════════════════════════════════════════════
+slide12 = prs.slides.add_slide(prs.slide_layouts[6])
+slide12.background.fill.solid()
+slide12.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide12, 0, 0.2, 16.54, 0.6,
+            "「顧客の問題」にしている限り、この攻撃は止まらない",
+            font_size=22, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+add_textbox(slide12, 0, 0.70, 16.54, 0.4,
+            "全ての対策が「顧客にやってね」で丸投げされている。DMARCも AppLockerも同じ構図。",
+            font_size=11, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+s12_left = 0.8
+s12_top = 1.15
+
+# Responsibility split
+add_rect(slide12, s12_left, s12_top, 14.9, 0.45,
+         C_DARK, "対策の責任はどこにあるか？", 13, C_WHITE)
+
+resp_rows = [
+    ["DMARC p=reject",  "銀行のメールサーバ", "銀行のIT部門", "100%銀行側の問題。顧客は何もできない。", C_BLUE],
+    ["AppLocker/WDAC",  "顧客企業のPC",      "顧客企業のIT部門", "顧客企業の問題…に見えるが →", C_ORANGE],
+]
+resp_cols = [3.0, 3.0, 3.0, 5.9]
+resp_hdrs = ["対策", "設定する場所", "設定する人", "責任"]
+
+x = s12_left
+for ci, h in enumerate(resp_hdrs):
+    add_rect(slide12, x, s12_top + 0.45, resp_cols[ci], 0.40,
+             C_TAG_BG, h, 9, C_WHITE)
+    x += resp_cols[ci]
+
+for ri, row in enumerate(resp_rows):
+    y = s12_top + 0.85 + ri * 0.45
+    bg = RGBColor(0xFF, 0xFF, 0xFF)
+    x = s12_left
+    add_bordered_box(slide12, x, y, resp_cols[0], 0.45,
+                     bg, row[4], row[0], 10, C_DARK, bold=True)
+    x += resp_cols[0]
+    add_bordered_box(slide12, x, y, resp_cols[1], 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+    x += resp_cols[1]
+    add_bordered_box(slide12, x, y, resp_cols[2], 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[2], 9, C_DARK)
+    x += resp_cols[2]
+    add_bordered_box(slide12, x, y, resp_cols[3], 0.45,
+                     bg, row[4], row[3], 9, C_DARK, bold=True)
+
+# BizSTATION user reality
+biz_y = s12_top + 2.0
+add_rect(slide12, s12_left, biz_y, 14.9, 0.45,
+         C_ORANGE, "BizSTATION利用企業のIT体制 — AppLockerを設定できるか？", 12, C_WHITE)
+
+biz_rows = [
+    ["大企業",       "情シス部門あり",     "可能",    C_GREEN],
+    ["中堅企業",     "IT担当が1〜2人",    "厳しい",   C_ORANGE],
+    ["中小企業",     "IT専任者なし",       "無理",    C_RED],
+    ["小規模事業者",  "社長がPC管理",      "論外",    C_RED],
+]
+biz_cols = [3.0, 4.0, 4.5, 3.4]
+
+for ri, row in enumerate(biz_rows):
+    y = biz_y + 0.45 + ri * 0.42
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s12_left
+    add_bordered_box(slide12, x, y, biz_cols[0], 0.42,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 10, C_DARK, bold=True)
+    x += biz_cols[0]
+    add_bordered_box(slide12, x, y, biz_cols[1], 0.42,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 10, C_DARK)
+    x += biz_cols[1]
+    add_rect(slide12, x, y, biz_cols[2], 0.42,
+             row[3], row[2], 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+
+# Pattern of dumping on customers
+dump_y = biz_y + 2.25
+add_rect(slide12, s12_left, dump_y, 14.9, 0.45,
+         C_RED, "すべて同じ構図：「顧客にやってね」で丸投げ → 機能しない", 12, C_WHITE)
+
+dump_rows = [
+    ["「メールのリンクをクリックしないで」", "顧客任せ → 機能しない"],
+    ["「ブックマークからアクセスして」",    "顧客任せ → 機能しない"],
+    ["「不明な発行元に注意して」",         "顧客任せ → 機能しない"],
+    ["「AppLockerを設定してください」",   "顧客任せ → 機能しない"],
+]
+for ri, row in enumerate(dump_rows):
+    y = dump_y + 0.45 + ri * 0.38
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    add_bordered_box(slide12, s12_left, y, 7.5, 0.38,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 9, C_DARK)
+    add_rect(slide12, s12_left + 7.5, y, 7.4, 0.38,
+             C_DANGER_BG, row[1], 9, C_RED, bold=True, align=PP_ALIGN.CENTER)
+
+# What bank should do
+bank_y = dump_y + 2.10
+add_rect(slide12, s12_left, bank_y, 14.9, 0.40,
+         C_GREEN, "銀行がやるべきこと", 12, C_WHITE)
+
+bank_rows = [
+    ["DMARC p=reject",          "銀行が自分で設定する",              "顧客に求めること：なし"],
+    ["AppLocker/WDAC設定支援",   "BizSTATION契約時に設定を支援する",    "顧客に求めること：なし"],
+    ["初期設定ツール提供",        "ワンクリックで設定完了するツール",     "実行するだけ"],
+    ["BizSTATION利用条件に含める", "アプリ制御を契約要件にする",         "IT業者に設定を依頼"],
+]
+bank_cols = [3.5, 5.5, 5.9]
+for ri, row in enumerate(bank_rows):
+    y = bank_y + 0.40 + ri * 0.40
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s12_left
+    add_bordered_box(slide12, x, y, bank_cols[0], 0.40,
+                     bg, C_GREEN, row[0], 9, C_DARK, bold=True)
+    x += bank_cols[0]
+    add_bordered_box(slide12, x, y, bank_cols[1], 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+    x += bank_cols[1]
+    add_bordered_box(slide12, x, y, bank_cols[2], 0.40,
+                     bg, C_GREEN, row[2], 9, C_GREEN, bold=True)
+
+add_textbox(slide12, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 責任の所在",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
