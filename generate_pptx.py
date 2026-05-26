@@ -345,6 +345,70 @@ add_textbox(slide, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 不審な電話手口 ｜ A3横印刷対応",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 2: 銀行の正規フローとの類似性
+# ══════════════════════════════════════════════════════
+slide2 = prs.slides.add_slide(prs.slide_layouts[6])
+slide2.background.fill.solid()
+slide2.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide2, 0, 0.3, 16.54, 0.6,
+            "なぜ見破れないのか — 銀行の正規フローとの類似性",
+            font_size=22, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+add_textbox(slide2, 0, 0.85, 16.54, 0.4,
+            "銀行自身が顧客を「自動音声の指示に従う」行動パターンに教育してきた結果、この攻撃が成立している。",
+            font_size=12, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+# Comparison table
+from pptx.util import Inches, Pt, Emu
+tbl_left = 1.5
+tbl_top = 1.6
+tbl_w = 13.5
+col_w = tbl_w / 3
+row_h_tbl = 0.55
+headers = ["銀行の正規フロー", "この攻撃の手口", "顧客の体験"]
+rows = [
+    ["自動音声で用件を振り分け", "自動音声で権限者を選別", "同じ"],
+    ["番号を押して選択", "「1」を押す", "同じ"],
+    ["担当者と話す", "犯人（AI音声/有人）と話す", "同じ"],
+    ["指示に従って手続き", "指示に従ってインストール", "同じ"],
+    ["本人確認で情報を伝える", "認証情報をすべて入力", "同じ"],
+]
+
+# Header row
+for ci, h in enumerate(headers):
+    add_rect(slide2, tbl_left + ci * col_w, tbl_top, col_w, row_h_tbl,
+             C_DARK, h, 12, C_WHITE)
+
+# Data rows
+for ri, row in enumerate(rows):
+    y = tbl_top + (ri + 1) * row_h_tbl
+    bg_even = RGBColor(0xFF, 0xFF, 0xFF)
+    bg_odd = RGBColor(0xF9, 0xF9, 0xF9)
+    bg = bg_odd if ri % 2 else bg_even
+    for ci, cell in enumerate(row):
+        if ci == 2:
+            add_rect(slide2, tbl_left + ci * col_w, y, col_w, row_h_tbl,
+                     bg, cell, 14, C_RED, bold=True)
+        else:
+            add_bordered_box(slide2, tbl_left + ci * col_w, y, col_w, row_h_tbl,
+                             bg, RGBColor(0xCC, 0xCC, 0xCC), cell, 11, C_DARK)
+
+# Conclusion
+add_rect(slide2, 1.5, tbl_top + 6 * row_h_tbl + 0.3, 13.5, 0.50,
+         C_RED, "構造的問題：正規と詐欺の区別が顧客側ではほぼ不可能", 16, C_WHITE)
+
+add_textbox(slide2, 1.5, tbl_top + 6 * row_h_tbl + 1.1, 13.5, 1.8,
+            "銀行側が取るべき対策：\n"
+            "① 架電を原則廃止し「銀行からは電話しません」と宣言する\n"
+            "② やむを得ない架電は事前にIB画面やアプリで通知してから行う\n"
+            "③「電話でソフトインストールを指示することはない」を明示する（現状周知不足）",
+            font_size=13, color=C_DARK)
+
+add_textbox(slide2, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 銀行の正規フローとの類似性",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
