@@ -138,7 +138,7 @@ phase_x = LEFT_MARGIN
 HEADER_H = 0.35
 LANE_HDR_H = 0.30
 row_y_start = 1.50
-ROW_H = [0.95, 1.05, 2.35, 2.45, 2.50, 0.55]
+ROW_H = [0.95, 1.05, 2.85, 2.45, 2.50, 0.55]
 row_y = []
 y = row_y_start
 for h in ROW_H:
@@ -236,31 +236,37 @@ add_textbox(slide, lane_x[1] + 0.1, cy + 0.78, LANE_W - 0.2, 0.2,
             "※複数の誘導方法あり", 6, color=C_GREY_TXT)
 add_textbox(slide, lane_x[1] + 0.1, cy + 0.90, LANE_W - 0.2, 0.2,
             "※AI音声または有人対応（法人高額案件のため両方の可能性あり）", 6, bold=True, color=C_RED)
+add_bordered_box(slide, lane_x[1] + 0.1, cy + 1.02, LANE_W - 0.2, 0.22,
+                 C_DARK, C_DARK,
+                 "🔑 攻撃の鍵：「口座制限」で恐怖→以降の判断力を奪う", 6, C_WHITE, bold=True)
 
-add_diamond(slide, lane_x[1] + 0.7, cy + 0.98, 1.4, 0.50,
+add_diamond(slide, lane_x[1] + 0.7, cy + 1.28, 1.4, 0.50,
             "メアド\n入手済／未済？")
 
-add_bordered_box(slide, lane_x[1] + 0.1, cy + 1.52, LANE_W - 0.2, 0.40,
+add_bordered_box(slide, lane_x[1] + 0.1, cy + 1.82, LANE_W - 0.2, 0.40,
                  C_HUMAN_BG, C_ORANGE,
                  "【未済の場合】\n「手続きをメールで案内するので、メールアドレスを教えてください」",
                  7)
+add_bordered_box(slide, lane_x[1] + 0.1, cy + 2.24, LANE_W - 0.2, 0.30,
+                 C_DANGER_BG, C_RED,
+                 "⚠ 破綻ポイント：BizSTATION契約時にメアド登録済み。銀行が聞く必要はない→手順②の恐怖で気づけない", 6)
 
-add_bordered_box(slide, lane_x[1] + 0.1, cy + 1.96, LANE_W - 0.2, 0.22,
+add_bordered_box(slide, lane_x[1] + 0.1, cy + 2.56, LANE_W - 0.2, 0.22,
                  C_HUMAN_BG, C_ORANGE,
                  "→ メール送付", 8, bold=True)
 
-add_bordered_box(slide, lane_x[1] + 0.1, cy + 2.20, LANE_W - 0.2, 0.15,
+add_bordered_box(slide, lane_x[1] + 0.1, cy + 2.80, LANE_W - 0.2, 0.15,
                  C_LIGHT, C_GREY_TXT,
                  '件名①「【重要】BizSTATIONお客さま情報更新のお知らせ」', 6)
-add_bordered_box(slide, lane_x[1] + 0.1, cy + 2.37, LANE_W - 0.2, 0.15,
+add_bordered_box(slide, lane_x[1] + 0.1, cy + 2.97, LANE_W - 0.2, 0.15,
                  C_LIGHT, C_GREY_TXT,
                  '件名②「【Mバンく】IB安全利用案内（Rapport推奨）」', 6)
 
 # Victim side phase 3
-add_bordered_box(slide, lane_x[2] + 0.1, cy + 1.52, LANE_W - 0.2, 0.30,
+add_bordered_box(slide, lane_x[2] + 0.1, cy + 1.82, LANE_W - 0.2, 0.30,
                  C_ACTION_BG, C_GREEN,
                  "メールアドレスを伝える", 8)
-add_bordered_box(slide, lane_x[3] + 0.1, cy + 2.05, LANE_W - 0.2, 0.35,
+add_bordered_box(slide, lane_x[3] + 0.1, cy + 2.56, LANE_W - 0.2, 0.35,
                  C_ACTION_BG, C_GREEN,
                  "メール受信\n（Bizデザインのメール）", 8)
 
