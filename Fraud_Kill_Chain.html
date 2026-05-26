@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fraud Kill Chain — 不正送金キルチェーン（不審な電話手口）</title>
+<style>
+  @page { size: A3 landscape; margin: 10mm; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: "Hiragino Sans", "Meiryo", "Noto Sans JP", sans-serif; font-size: 11px; background: #f5f5f5; padding: 16px; color: #222; }
+  h1 { text-align: center; font-size: 18px; margin-bottom: 4px; }
+  .subtitle { text-align: center; font-size: 12px; color: #666; margin-bottom: 12px; }
+
+  /* Grid */
+  .grid { display: grid; grid-template-columns: 140px 1fr 1fr 1fr 1fr 1fr; border: 2px solid #333; background: #fff; }
+
+  /* Header rows */
+  .header-group { display: contents; }
+  .h-actor { text-align: center; font-weight: bold; padding: 6px 4px; font-size: 12px; border: 1px solid #999; }
+  .h-actor.criminal { background: #222; color: #fff; }
+  .h-actor.victim  { background: #e67e22; color: #fff; }
+  .h-lane { text-align: center; font-weight: bold; padding: 5px 4px; font-size: 11px; border: 1px solid #999; background: #eee; }
+
+  /* Phase label */
+  .phase { background: #c0392b; color: #fff; font-weight: bold; font-size: 12px; writing-mode: horizontal-tb; display: flex; align-items: center; justify-content: center; text-align: center; padding: 8px 4px; border: 1px solid #999; line-height: 1.4; }
+
+  /* Cells */
+  .cell { border: 1px solid #ccc; padding: 8px 6px; vertical-align: top; min-height: 60px; position: relative; line-height: 1.6; }
+  .cell.empty { background: #fafafa; }
+
+  /* Arrows / flow markers */
+  .arrow { color: #c0392b; font-weight: bold; font-size: 13px; }
+  .auto-voice { background: #eaf2ff; border-left: 3px solid #2980b9; padding: 6px; margin: 4px 0; border-radius: 3px; }
+  .human-voice { background: #fdf2e9; border-left: 3px solid #e67e22; padding: 6px; margin: 4px 0; border-radius: 3px; }
+  .action { background: #eafaf1; border-left: 3px solid #27ae60; padding: 6px; margin: 4px 0; border-radius: 3px; }
+  .danger { background: #fdedec; border-left: 3px solid #e74c3c; padding: 6px; margin: 4px 0; border-radius: 3px; }
+  .sms { background: #f4ecf7; border-left: 3px solid #8e44ad; padding: 6px; margin: 4px 0; border-radius: 3px; }
+  .decision { background: #fff3cd; border: 2px solid #f0ad4e; padding: 6px; margin: 6px auto; text-align: center; transform: rotate(0deg); clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); width: 130px; height: 70px; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; line-height: 1.3; }
+  .red-screen { background: #c0392b; color: #fff; padding: 8px; margin: 4px 0; border-radius: 4px; font-size: 10px; line-height: 1.5; }
+  .tag { display: inline-block; background: #34495e; color: #fff; border-radius: 3px; padding: 1px 6px; font-size: 9px; margin: 2px 2px 2px 0; }
+  .note { font-size: 10px; color: #888; font-style: italic; margin-top: 4px; }
+  .mail-subject { font-family: monospace; font-size: 10px; background: #f9f9f9; border: 1px dashed #bbb; padding: 3px 5px; margin: 3px 0; }
+  b { color: #c0392b; }
+</style>
+</head>
+<body>
+
+<h1>Fraud Kill Chain（不正送金キルチェーン）</h1>
+<p class="subtitle">シート名「不審な電話手口」 ― 犯人サイド × 被害企業サイド スイムレーン図</p>
+
+<div class="grid">
+
+  <!-- ===== Row 1: Actor group headers ===== -->
+  <div class="h-actor" style="background:#fff; border:none;"></div>
+  <div class="h-actor criminal" style="grid-column: span 2;">犯人サイド</div>
+  <div class="h-actor victim"  style="grid-column: span 3;">被害企業サイド</div>
+
+  <!-- ===== Row 2: Lane headers ===== -->
+  <div class="h-lane">フェーズ</div>
+  <div class="h-lane">情報・インフラ</div>
+  <div class="h-lane">架電</div>
+  <div class="h-lane">受電</div>
+  <div class="h-lane">会社のPC</div>
+  <div class="h-lane">個人スマホ</div>
+
+  <!-- ===== Phase 1: 犯行準備 ===== -->
+  <div class="phase">① 犯行準備<br>（偵察など）</div>
+  <div class="cell">
+    <div class="action">電話番号・メールアドレスを<b>取得</b></div>
+  </div>
+  <div class="cell">
+    <div class="human-voice">事前調査</div>
+    <div class="note">※幅広に架電している印象</div>
+  </div>
+  <div class="cell empty"></div>
+  <div class="cell empty"></div>
+  <div class="cell empty"></div>
+
+  <!-- ===== Phase 2: 被害者への接触 ===== -->
+  <div class="phase">② 被害者への<br>接触</div>
+  <div class="cell empty"></div>
+  <div class="cell">
+    <div class="auto-voice"><span class="tag">自動音声</span><br>
+      「こちらは<b>Mバンく</b> BizSTATION法人窓口です。BizSTATIONを利用している方は<b>1</b>を押してください。承認実行権限を持っている方は<b>1</b>を押してください」
+    </div>
+  </div>
+  <div class="cell">
+    <div class="action"><b>「1」押下</b></div>
+    <div class="note">※「1」以外を押下した人は、法人ダイレクトオフィス（コールセンター）の電話番号を案内される</div>
+  </div>
+  <div class="cell empty"></div>
+  <div class="cell empty"></div>
+
+  <!-- ===== Phase 3: 心理的操作 ===== -->
+  <div class="phase">③ 心理的操作</div>
+  <div class="cell empty"></div>
+  <div class="cell">
+    <div class="human-voice"><span class="tag">有人対応</span><br>
+      「パソコン環境の更新が必要。現在口座の利用制限をしています。手続きを郵送していますが、届いてますか。更新されていないので電話しました」
+    </div>
+    <div class="note">※複数の誘導方法あり</div>
+
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+
+    <div style="text-align:center; margin:6px 0;">
+      <div class="decision">メアド<br>入手済／未済？</div>
+    </div>
+
+    <div class="human-voice">
+      <span class="tag">未済の場合</span><br>
+      「手続きをメールで案内するので、メールアドレスを教えてください」
+    </div>
+
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+
+    <div class="human-voice">
+      <span class="arrow">→</span> メール送付
+    </div>
+    <div class="mail-subject">件名①「【重要】BizSTATIONお客さま情報更新のお知らせ」</div>
+    <div class="mail-subject">件名②「【Mバンく】インターネットバンキングを安全にご利用いただくための案内（Rapportのご利用推奨）」</div>
+  </div>
+  <div class="cell">
+    <div class="action" style="margin-top:80px;">メールアドレスを伝える</div>
+  </div>
+  <div class="cell">
+    <div class="action" style="margin-top:170px;">メール受信<br><span class="note">（Bizデザインのメール）</span></div>
+  </div>
+  <div class="cell empty"></div>
+
+  <!-- ===== Phase 4: システムや機能の侵害 ===== -->
+  <div class="phase">④ システムや<br>機能の侵害</div>
+  <div class="cell empty"></div>
+  <div class="cell">
+    <div class="human-voice"><span class="tag">有人対応</span><br>
+      「セキュリティ強化のためソフトインストールが必要です。メールのボタンをクリックしてください」
+    </div>
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+    <div class="human-voice">
+      「セットアップをクリックしてください」
+    </div>
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+    <div class="human-voice">
+      「実行するをクリックしてください」
+    </div>
+  </div>
+  <div class="cell empty"></div>
+  <div class="cell">
+    <div class="action">クリック <span class="arrow">→</span> ブラウザ表示<br><span class="note">（Bizデザイン重要なお知らせ画面）</span></div>
+    <div class="danger"><span class="tag">DL</span> リモートツールのセットアップファイル <b>setup.msi</b> がダウンロードされる</div>
+    <div class="danger"><span class="tag">実行</span> msiファイル実行 → ポップアップ「実行する/実行しない」<br><span class="note">※「不明な発行元」と表示</span></div>
+    <div class="danger"><span class="tag">インストール</span> <b>ScreenConnect</b>（リモートツール）がインストールされる</div>
+    <div class="red-screen">
+      『Mバンく　現在セキュリティ保護強化に伴うシステム更新ならびに、お客さま情報の確認、更新処理を実施しております。処理完了までの間一時的に画面が遅延または停止する場合がありますが、正常な処理となりますのでそのままお待ちくださいますようお願い申し上げます。』
+    </div>
+  </div>
+  <div class="cell empty"></div>
+
+  <!-- ===== Phase 5: 侵害に使用する認証情報 ===== -->
+  <div class="phase">⑤ 侵害に使用<br>する認証情報</div>
+  <div class="cell empty"></div>
+  <div class="cell">
+    <div class="human-voice">
+      「手続きを進めるにはSMS認証が必要なため、お客さまの携帯電話の番号を教えてください」
+    </div>
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+    <div class="sms"><span class="tag">SMS送付</span></div>
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+    <div class="human-voice">
+      「認証画面を表示するためリンクをクリックしてください」
+    </div>
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+    <div class="human-voice">
+      「認証のため<b>契約者番号</b>、<b>利用者ID</b>、<b>ログインPW</b>、<b>取引実行PW</b>、<b>OTP</b>を入力してください」
+    </div>
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+    <div class="danger"><span class="tag">犯人ブラウザ</span> 赤い画面の裏でBizにアクセス、窃取したOTPを入力</div>
+  </div>
+  <div class="cell">
+    <div class="action">電話番号を伝える</div>
+  </div>
+  <div class="cell empty"></div>
+  <div class="cell">
+    <div class="sms">SMS受信 <span class="arrow">→</span> リンクをクリック</div>
+    <hr style="margin:8px 0; border:none; border-top:1px dashed #ccc;">
+    <div class="danger">開いた画面に認証情報を入力<br>
+      <span class="tag">契約者番号</span>
+      <span class="tag">利用者ID</span>
+      <span class="tag">ログインPW</span>
+      <span class="tag">取引実行PW</span>
+      <span class="tag">OTP</span>
+    </div>
+  </div>
+
+  <!-- ===== Phase 6: 収益化・マネロン ===== -->
+  <div class="phase">⑥ 収益化<br>／マネロン</div>
+  <div class="cell empty"></div>
+  <div class="cell">
+    <div class="danger" style="font-size:14px; text-align:center; padding:12px;"><b>不正送金</b></div>
+  </div>
+  <div class="cell empty"></div>
+  <div class="cell empty"></div>
+  <div class="cell empty"></div>
+
+</div>
+
+<p style="text-align:right; margin-top:8px; font-size:10px; color:#999;">Fraud Kill Chain — 不審な電話手口 ｜ A3横印刷対応</p>
+
+</body>
+</html>
