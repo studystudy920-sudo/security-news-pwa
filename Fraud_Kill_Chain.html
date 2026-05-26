@@ -235,6 +235,47 @@
   </div>
 </details>
 
+<details style="margin-bottom:12px; background:#fff; border:2px solid #27ae60; border-radius:6px; padding:0;">
+  <summary style="background:#27ae60; color:#fff; font-weight:bold; font-size:12px; padding:8px 12px; cursor:pointer;">✅ 技術的対策：DMARC＋DNSで手順④を確実に遮断できる</summary>
+  <div style="padding:10px 14px;">
+    <p style="font-size:11px; color:#666; margin-bottom:8px;">顧客の注意力に一切依存せず、銀行側の設定だけでKill Chainを切れる。</p>
+    <table style="width:100%; border-collapse:collapse; font-size:11px; margin-bottom:10px;">
+      <thead>
+        <tr style="background:#f5f5f5;">
+          <th style="border:1px solid #ccc; padding:5px 8px; width:25%;">DMARCポリシー</th>
+          <th style="border:1px solid #ccc; padding:5px 8px; width:35%;">偽メールの扱い</th>
+          <th style="border:1px solid #ccc; padding:5px 8px; width:20%;">結果</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="border:1px solid #ccc; padding:5px 8px;">p=none（監視のみ）</td><td style="border:1px solid #ccc; padding:5px 8px;">普通に届く</td><td style="border:1px solid #ccc; padding:5px 8px; background:#c0392b; color:#fff; font-weight:bold;">攻撃成立</td></tr>
+        <tr style="background:#f9f9f9;"><td style="border:1px solid #ccc; padding:5px 8px;">p=quarantine（隔離）</td><td style="border:1px solid #ccc; padding:5px 8px;">迷惑フォルダに入る</td><td style="border:1px solid #ccc; padding:5px 8px; background:#e67e22; color:#fff; font-weight:bold;">電話で突破される</td></tr>
+        <tr><td style="border:1px solid #ccc; padding:5px 8px;">p=reject（拒否）★</td><td style="border:1px solid #ccc; padding:5px 8px;">メールサーバが受信拒否。配信されない。</td><td style="border:1px solid #ccc; padding:5px 8px; background:#27ae60; color:#fff; font-weight:bold;">攻撃が止まる</td></tr>
+      </tbody>
+    </table>
+    <p style="font-size:11px; font-weight:bold; margin-bottom:6px;">類似ドメインも含めた包括的DNS対策：</p>
+    <table style="width:100%; border-collapse:collapse; font-size:10px; margin-bottom:10px;">
+      <thead>
+        <tr style="background:#34495e; color:#fff;">
+          <th style="border:1px solid #999; padding:4px 6px; width:25%;">対策</th>
+          <th style="border:1px solid #999; padding:4px 6px; width:40%;">内容</th>
+          <th style="border:1px solid #999; padding:4px 6px; width:35%;">効果</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td style="border:1px solid #ccc; padding:4px 6px; font-weight:bold;">① 類似ドメイン防御的登録</td><td style="border:1px solid #ccc; padding:4px 6px;">mufg-security.com 等を銀行が先に取得</td><td style="border:1px solid #ccc; padding:4px 6px; color:#27ae60; font-weight:bold;">犯人が使えるドメインを潰す</td></tr>
+        <tr style="background:#f9f9f9;"><td style="border:1px solid #ccc; padding:4px 6px; font-weight:bold;">② NRDブロック</td><td style="border:1px solid #ccc; padding:4px 6px;">登録から日が浅いドメインを高リスク判定・ブロック</td><td style="border:1px solid #ccc; padding:4px 6px; color:#27ae60; font-weight:bold;">犯人の新規ドメインを即座に遮断</td></tr>
+        <tr><td style="border:1px solid #ccc; padding:4px 6px; font-weight:bold;">③ 正規ドメイン公開＋GW制御</td><td style="border:1px solid #ccc; padding:4px 6px;">「当行メールは @mufg.jp のみ」と宣言、GWで制御</td><td style="border:1px solid #ccc; padding:4px 6px; color:#27ae60; font-weight:bold;">ホワイトリスト以外を自動ブロック</td></tr>
+        <tr style="background:#f9f9f9;"><td style="border:1px solid #ccc; padding:4px 6px; font-weight:bold;">④ SPF/DKIM必須化</td><td style="border:1px solid #ccc; padding:4px 6px;">認証未設定ドメインからのメールを拒否</td><td style="border:1px solid #ccc; padding:4px 6px; color:#27ae60; font-weight:bold;">犯人の急造ドメインは認証が通らない</td></tr>
+      </tbody>
+    </table>
+    <div style="display:flex; gap:8px; margin-bottom:8px;">
+      <div style="flex:1; background:#27ae60; color:#fff; padding:10px; border-radius:4px; font-size:11px; font-weight:bold; text-align:center;">全部やれば手順④のメールは顧客に届かない<br>Kill Chainはここで切れる</div>
+      <div style="flex:1; background:#222; color:#fff; padding:10px; border-radius:4px; font-size:11px; font-weight:bold; text-align:center;">技術的にはもう解決できる話<br>やるかやらないかだけ</div>
+    </div>
+  </div>
+</details>
+
 <div class="grid">
 
   <!-- ===== Row 1: Actor group headers ===== -->

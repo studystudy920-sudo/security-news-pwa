@@ -787,6 +787,137 @@ add_textbox(slide6, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 手順④ フィッシングメールと迷惑メールフィルタ回避",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 7: DNS/DMARCで手順④を技術的に遮断する
+# ══════════════════════════════════════════════════════
+slide7 = prs.slides.add_slide(prs.slide_layouts[6])
+slide7.background.fill.solid()
+slide7.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide7, 0, 0.2, 16.54, 0.6,
+            "技術的対策：DMARC＋DNSで手順④を確実に遮断できる",
+            font_size=22, bold=True, align=PP_ALIGN.CENTER, color=C_GREEN)
+add_textbox(slide7, 0, 0.75, 16.54, 0.4,
+            "顧客の注意力に一切依存せず、銀行側の設定だけでKill Chainを切れる。技術的にはもう解決できる話。",
+            font_size=12, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+# DMARC policy comparison
+s7_left = 0.8
+s7_top = 1.3
+
+add_rect(slide7, s7_left, s7_top, 14.9, 0.45,
+         C_DARK, "DMARCポリシーの違い — p=reject で正規ドメイン詐称を完全遮断", 13, C_WHITE)
+
+dmarc_rows = [
+    ["p=none（監視のみ）",     "偽メールが普通に届く",           "攻撃成立",   C_RED],
+    ["p=quarantine（隔離）",   "迷惑フォルダに入る",             "電話で突破される", C_ORANGE],
+    ["p=reject（拒否）★",      "メールサーバが受信拒否。配信されない。", "攻撃が止まる",  C_GREEN],
+]
+dmarc_cols = [3.5, 5.5, 3.5, 2.4]
+
+for ri, row in enumerate(dmarc_rows):
+    y = s7_top + 0.45 + ri * 0.50
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s7_left
+    add_bordered_box(slide7, x, y, dmarc_cols[0], 0.50,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 10, C_DARK, bold=True)
+    x += dmarc_cols[0]
+    add_bordered_box(slide7, x, y, dmarc_cols[1], 0.50,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 10, C_DARK)
+    x += dmarc_cols[1]
+    add_rect(slide7, x, y, dmarc_cols[2], 0.50,
+             row[3], row[2], 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+
+# Lookalike domain section
+lk_y = s7_top + 2.1
+add_rect(slide7, s7_left, lk_y, 14.9, 0.45,
+         C_DARK, "類似ドメインも含めた包括的DNS対策", 13, C_WHITE)
+
+dns_measures = [
+    ["① 類似ドメインの防御的登録",
+     "mufg-security.com, bizstation-update.jp 等を銀行が先に取得",
+     "犯人が使えるドメインを潰す"],
+    ["② 新規登録ドメイン（NRD）ブロック",
+     "登録から日が浅いドメインを受信側で高リスク判定・ブロック",
+     "犯人が新ドメインを取得しても即座に使えない"],
+    ["③ 正規送信ドメインの公開＋GW制御",
+     "銀行が「当行のメールは @mufg.jp, @bk.mufg.co.jp のみ」と宣言",
+     "企業のメールGWで上記以外を自動ブロック"],
+    ["④ SPF/DKIM未設定ドメインの拒否",
+     "受信側で認証未設定のドメインからのメールを拒否",
+     "犯人の急造ドメインは認証が通らない"],
+]
+
+dns_cols = [4.0, 6.5, 4.4]
+# Header
+add_rect(slide7, s7_left, lk_y + 0.50, dns_cols[0], 0.40,
+         C_TAG_BG, "対策", 10, C_WHITE)
+add_rect(slide7, s7_left + dns_cols[0], lk_y + 0.50, dns_cols[1], 0.40,
+         C_TAG_BG, "内容", 10, C_WHITE)
+add_rect(slide7, s7_left + dns_cols[0] + dns_cols[1], lk_y + 0.50, dns_cols[2], 0.40,
+         C_TAG_BG, "効果", 10, C_WHITE)
+
+for ri, row in enumerate(dns_measures):
+    y = lk_y + 0.90 + ri * 0.50
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s7_left
+    add_bordered_box(slide7, x, y, dns_cols[0], 0.50,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 9, C_DARK, bold=True)
+    x += dns_cols[0]
+    add_bordered_box(slide7, x, y, dns_cols[1], 0.50,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+    x += dns_cols[1]
+    add_bordered_box(slide7, x, y, dns_cols[2], 0.50,
+                     bg, C_GREEN, row[2], 9, C_DARK, bold=True)
+
+# Coverage matrix
+mx_y = lk_y + 3.1
+add_rect(slide7, s7_left, mx_y, 14.9, 0.40,
+         C_DARK, "対策カバレッジ", 12, C_WHITE)
+
+mx_headers = ["対策", "正規ドメイン詐称", "類似ドメイン", "新規ドメイン"]
+mx_data = [
+    ["DMARC p=reject のみ",              "✅ 防げる", "❌ 防げない", "❌ 防げない"],
+    ["＋ 類似ドメイン防御的登録",          "✅ 防げる", "✅ 防げる",   "❌ 防げない"],
+    ["＋ NRDブロック＋SPF/DKIM必須化",     "✅ 防げる", "✅ 防げる",   "✅ 防げる"],
+    ["＋ 正規ドメイン公開＋GW制御（全部）", "✅ 防げる", "✅ 防げる",   "✅ 防げる"],
+]
+mx_cols = [5.0, 3.3, 3.3, 3.3]
+
+x = s7_left
+for ci, h in enumerate(mx_headers):
+    add_rect(slide7, x, mx_y + 0.40, mx_cols[ci], 0.40,
+             C_TAG_BG, h, 9, C_WHITE)
+    x += mx_cols[ci]
+
+for ri, row in enumerate(mx_data):
+    y = mx_y + 0.80 + ri * 0.40
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s7_left
+    add_bordered_box(slide7, x, y, mx_cols[0], 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 8, C_DARK, bold=True)
+    for ci in range(1, 4):
+        x += mx_cols[ci - 1]
+        is_ok = "✅" in row[ci]
+        cell_bg = RGBColor(0xEA, 0xFA, 0xF1) if is_ok else RGBColor(0xFD, 0xED, 0xEC)
+        cell_color = C_GREEN if is_ok else C_RED
+        add_rect(slide7, x, y, mx_cols[ci], 0.40,
+                 cell_bg, row[ci], 9, cell_color, bold=True, align=PP_ALIGN.CENTER)
+
+# Conclusion
+add_rect(slide7, s7_left, mx_y + 2.5, 14.9, 0.55,
+         C_GREEN,
+         "全部やれば手順④のメールは顧客に届かない。Kill Chainはここで切れる。顧客の注意力に一切依存しない。",
+         13, C_WHITE)
+add_rect(slide7, s7_left, mx_y + 3.1, 14.9, 0.45,
+         C_DARK,
+         "技術的にはもう解決できる話。やるかやらないかだけ。",
+         14, C_WHITE)
+
+add_textbox(slide7, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — DMARC＋DNSによる技術的遮断",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
