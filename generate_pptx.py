@@ -747,7 +747,7 @@ add_rect(slide6, s6_left + 7.5, s6_top + 2.40, 7.0, 0.45,
 # Spam filter bypass section
 sf_y = s6_top + 3.2
 add_rect(slide6, s6_left, sf_y, 14.5, 0.50,
-         C_DARK, "迷惑メールフィルタに入った場合も、電話1本で無力化される", 14, C_WHITE)
+         C_DARK, "偽メールは正規フォルダに入らない（SPF/DKIM/DMARC不通過）→ ほぼ確実に迷惑フォルダ行き", 12, C_WHITE)
 
 # Flow: spam scenario
 add_bordered_box(slide6, s6_left, sf_y + 0.60, 3.3, 0.55,
@@ -766,18 +766,22 @@ add_bordered_box(slide6, s6_left + 11.6, sf_y + 0.60, 2.9, 0.55,
                  C_DANGER_BG, C_RED,
                  "被害者が自ら発見\n→ 攻撃続行", 10, C_DARK, bold=True, align=PP_ALIGN.CENTER)
 
+# Flaw point
+add_rect(slide6, s6_left, sf_y + 1.30, 14.5, 0.50,
+         C_RED, "⚠ 破綻ポイント：「迷惑フォルダを確認して」＝ 銀行が絶対に言わないセリフ ＝ 100%詐欺", 13, C_WHITE)
+
 # Worse: reinforces narrative
-add_rect(slide6, s6_left, sf_y + 1.35, 14.5, 0.70,
+add_rect(slide6, s6_left, sf_y + 1.90, 14.5, 0.70,
          C_DECISION, "", 1, C_DARK)
-add_textbox(slide6, s6_left + 0.2, sf_y + 1.38, 14.0, 0.65,
-            "さらに悪いことに：迷惑フォルダに入っていたことが、手順②の話を補強してしまう\n"
+add_textbox(slide6, s6_left + 0.2, sf_y + 1.93, 14.0, 0.65,
+            "しかし気づけない。さらに悪いことに、迷惑フォルダに入っていたことが手順②の話を補強してしまう\n"
             "「重要なメールがフィルタに引っかかっていた → だから口座更新の案内に気づけなかったんだ」\n"
             "→ 被害者はますます犯人の話を信じる",
             font_size=11, color=C_DARK)
 
 # Bottom conclusion
-add_rect(slide6, s6_left, sf_y + 2.25, 14.5, 0.50,
-         C_RED, "メールセキュリティの最後の砦である迷惑メールフィルタも、電話1本で無力化される", 14, C_WHITE)
+add_rect(slide6, s6_left, sf_y + 2.80, 14.5, 0.50,
+         C_DARK, "手順②の恐怖が全ての破綻ポイント（③メアド、④迷惑フォルダ）を無効化している", 14, C_WHITE)
 
 add_textbox(slide6, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 手順④ フィッシングメールと迷惑メールフィルタ回避",
