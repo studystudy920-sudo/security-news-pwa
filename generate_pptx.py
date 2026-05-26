@@ -487,6 +487,100 @@ add_textbox(slide3, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 手順②の心理操作テクニック",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 4: 顧客は見破れるか — 結論
+# ══════════════════════════════════════════════════════
+slide4 = prs.slides.add_slide(prs.slide_layouts[6])
+slide4.background.fill.solid()
+slide4.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide4, 0, 0.2, 16.54, 0.6,
+            "顧客はこの攻撃を見破れるか？",
+            font_size=24, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+
+# Detection table
+s4_left = 0.8
+s4_top = 1.0
+s4_cols = [1.0, 3.8, 1.8, 6.5]
+s4_row_h = 0.50
+s4_headers = ["手順", "内容", "見破れるか", "理由"]
+
+# Header
+x = s4_left
+for ci, h in enumerate(s4_headers):
+    add_rect(slide4, x, s4_top, s4_cols[ci], s4_row_h,
+             C_DARK, h, 10, C_WHITE)
+    x += s4_cols[ci]
+
+C_IMPOSSIBLE = RGBColor(0xC0, 0x39, 0x2B)
+C_DIFFICULT  = RGBColor(0xE6, 0x7E, 0x22)
+C_CHANCE     = RGBColor(0x27, 0xAE, 0x60)
+
+s4_rows = [
+    ["①", "自動音声「1を押してください」",       "不可能",       "銀行も同じことをする",                C_IMPOSSIBLE],
+    ["②", "「口座制限中、郵送したが届いてますか」", "不可能",       "銀行も同じことを言う",                C_IMPOSSIBLE],
+    ["③", "「メールで案内します」メアド聞き出し",   "ほぼ不可能",   "銀行も確認することがある",              C_IMPOSSIBLE],
+    ["④", "Bizデザインの偽メール送付",            "困難",         "精巧に模倣されている",                 C_DIFFICULT],
+    ["⑤", "「ソフトをインストールしてください」",   "唯一のチャンス", "ただし既に心理的に従う状態",           C_CHANCE],
+    ["⑥", "msi実行「不明な発行元」の警告",        "技術的には可能", "電話で「実行して」と言われ突破される",    C_DIFFICULT],
+    ["⑦", "赤い画面「お待ちください」",           "困難",         "もう完全に信用している",               C_DIFFICULT],
+    ["⑧", "認証情報5要素を一画面で入力",          "本来は異常",    "焦りと電話指示で気づく余裕がない",      C_DIFFICULT],
+]
+
+for ri, row in enumerate(s4_rows):
+    y = s4_top + (ri + 1) * s4_row_h
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s4_left
+    # 手順
+    add_rect(slide4, x, y, s4_cols[0], s4_row_h,
+             bg, row[0], 11, C_DARK, bold=True, align=PP_ALIGN.CENTER)
+    x += s4_cols[0]
+    # 内容
+    add_bordered_box(slide4, x, y, s4_cols[1], s4_row_h,
+                     bg, RGBColor(0xDD, 0xDD, 0xDD), row[1], 9, C_DARK)
+    x += s4_cols[1]
+    # 見破れるか
+    add_rect(slide4, x, y, s4_cols[2], s4_row_h,
+             row[4], row[2], 9, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+    x += s4_cols[2]
+    # 理由
+    add_bordered_box(slide4, x, y, s4_cols[3], s4_row_h,
+                     bg, RGBColor(0xDD, 0xDD, 0xDD), row[3], 9, C_DARK)
+
+# Arrow pointing to the key insight
+key_y = s4_top + 9 * s4_row_h + 0.25
+add_rect(slide4, s4_left, key_y, 13.1, 0.55,
+         C_RED, "唯一の見破りポイント（手順⑤⑥）に到達した時点で、冷静に判断できる心理状態ではない", 14, C_WHITE)
+
+# Two-column conclusion
+conc_y = key_y + 0.75
+# Left: Customer (powerless)
+add_rect(slide4, s4_left, conc_y, 6.4, 0.40,
+         C_GREY_BG, "顧客側（ほぼ無力）", 12, C_DARK, bold=True, align=PP_ALIGN.CENTER)
+add_bordered_box(slide4, s4_left, conc_y + 0.40, 6.4, 0.50,
+                 RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xDD, 0xDD, 0xDD),
+                 "「気をつける」「注意喚起」では構造的に防げない", 10, C_GREY_TXT)
+
+# Right: Bank/Enterprise (only defense)
+add_rect(slide4, s4_left + 6.7, conc_y, 6.4, 0.40,
+         C_RED, "銀行/企業側（ここでしか止められない）", 12, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+add_bordered_box(slide4, s4_left + 6.7, conc_y + 0.40, 6.4, 1.60,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_RED,
+                 "① ScreenConnectの通信をNWで検知\n"
+                 "② 送金時の振る舞い検知（時間帯、金額、送金先）\n"
+                 "③ 架電を廃止し「電話では手続きしない」と宣言\n"
+                 "④ リモートツール実行をEDRでブロック\n"
+                 "⑤ SMS認証のリンク先ドメインをホワイトリスト化",
+                 10, C_DARK)
+
+# Final verdict
+add_rect(slide4, s4_left, conc_y + 2.2, 13.1, 0.50,
+         C_DARK, "結論：「顧客が気をつければ防げる」は幻想 — 銀行側のシステム対策でしか止められない", 14, C_WHITE)
+
+add_textbox(slide4, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 顧客は見破れるか",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
