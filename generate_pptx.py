@@ -1121,6 +1121,142 @@ add_textbox(slide9, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — ブックマーク対策の限界",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 10: 手順⑥「不明な発行元」— 極めつけの証拠、しかし突破される
+# ══════════════════════════════════════════════════════
+slide10 = prs.slides.add_slide(prs.slide_layouts[6])
+slide10.background.fill.solid()
+slide10.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide10, 0, 0.2, 16.54, 0.6,
+            "手順⑥「不明な発行元」— 極めつけの証拠だが、本質的な防壁ではない",
+            font_size=20, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+add_textbox(slide10, 0, 0.70, 16.54, 0.4,
+            "OSが画面に大きく警告。知識不要、誰でも読める。それでも突破され、犯人のレベルアップで消滅する。",
+            font_size=11, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+s10_left = 0.8
+s10_top = 1.15
+
+# Legitimate vs attack comparison
+add_rect(slide10, s10_left, s10_top, 14.9, 0.40,
+         C_DARK, "正規ソフト vs この攻撃の署名状態", 12, C_WHITE)
+
+sig_rows = [
+    ["Rapport（IBM推奨）",      "IBM Corporation ✅",           "信頼されたCAで署名済み",   C_GREEN],
+    ["PhishWall（SecureBrain）", "SecureBrain Corporation ✅",   "信頼されたCAで署名済み",   C_GREEN],
+    ["この攻撃のsetup.msi",     "不明 ❌",                      "署名なし＝誰が作ったか不明", C_RED],
+]
+sig_cols = [3.5, 4.0, 5.0, 2.4]
+
+for ri, row in enumerate(sig_rows):
+    y = s10_top + 0.40 + ri * 0.45
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s10_left
+    add_bordered_box(slide10, x, y, sig_cols[0], 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 10, C_DARK, bold=True)
+    x += sig_cols[0]
+    add_bordered_box(slide10, x, y, sig_cols[1], 0.45,
+                     bg, row[3], row[1], 10, row[3], bold=True)
+    x += sig_cols[1]
+    add_bordered_box(slide10, x, y, sig_cols[2], 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[2], 9, C_DARK)
+
+# Why it's the strongest flaw
+strong_y = s10_top + 1.85
+add_rect(slide10, s10_left, strong_y, 14.9, 0.40,
+         C_RED, "なぜ「極めつけ」か — 他の破綻ポイントとの比較", 12, C_WHITE)
+
+cmp2_rows = [
+    ["③ メアドを聞く",         "BizSTATIONの契約プロセスを知っている必要",  "知識が必要"],
+    ["④ 迷惑フォルダを見て",    "メール認証の仕組みを知っている必要",       "知識が必要"],
+    ["⑤ メールにURLリンク",    "金融庁の方針を知っている必要",            "知識が必要"],
+    ["⑥ 「不明な発行元」",     "画面に書いてある。知識不要。誰でも読める。", "知識不要 ★"],
+]
+
+for ri, row in enumerate(cmp2_rows):
+    y = strong_y + 0.40 + ri * 0.42
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    is_last = ri == 3
+    x = s10_left
+    add_bordered_box(slide10, x, y, 3.0, 0.42,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 9, C_DARK, bold=True)
+    x += 3.0
+    add_bordered_box(slide10, x, y, 8.5, 0.42,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+    x += 8.5
+    cell_bg = C_RED if is_last else bg
+    cell_fc = C_WHITE if is_last else C_DARK
+    add_rect(slide10, x, y, 3.4, 0.42,
+             cell_bg, row[2], 9, cell_fc, bold=is_last, align=PP_ALIGN.CENTER)
+
+# Attacker level-up section
+lvl_y = strong_y + 2.20
+add_rect(slide10, s10_left, lvl_y, 14.9, 0.40,
+         C_ORANGE, "しかし犯人がレベルアップすれば「不明な発行元」は消せる", 12, C_WHITE)
+
+lvl_rows = [
+    ["証明書なし（現状）",      "「不明な発行元」",              "簡単",     C_RED],
+    ["自己署名証明書",          "「不明な発行元」のまま",        "簡単",     C_RED],
+    ["偽会社名でCA購入",       "「MUFGセキュリティ(株)」等が表示", "中程度",   C_ORANGE],
+    ["正規企業の証明書窃取",    "実在企業名が表示",              "高難度",   C_ORANGE],
+    ["EV証明書を偽造取得",     "SmartScreen警告も消える",       "高難度",   C_DANGER_BG],
+]
+
+for ri, row in enumerate(lvl_rows):
+    y = lvl_y + 0.40 + ri * 0.40
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s10_left
+    add_bordered_box(slide10, x, y, 3.5, 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 9, C_DARK, bold=True)
+    x += 3.5
+    add_bordered_box(slide10, x, y, 5.5, 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+    x += 5.5
+    add_rect(slide10, x, y, 2.0, 0.40,
+             row[3], row[2], 9, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+
+# Defense comparison
+def_y = lvl_y + 2.50
+add_rect(slide10, s10_left, def_y, 14.9, 0.40,
+         C_DARK, "確実な対策：ホワイトリスト型アプリ制御", 12, C_WHITE)
+
+def_cols = [4.5, 3.3, 3.3, 3.8]
+def_headers = ["対策", "未署名", "偽証明書", "窃取証明書"]
+x = s10_left
+for ci, h in enumerate(def_headers):
+    add_rect(slide10, x, def_y + 0.40, def_cols[ci], 0.40,
+             C_TAG_BG, h, 9, C_WHITE)
+    x += def_cols[ci]
+
+def_data = [
+    ["「不明な発行元」に注意",  "気づける",  "突破される", "突破される"],
+    ["AppLocker / WDAC ★",    "止まる",    "止まる",    "止まる"],
+]
+for ri, row in enumerate(def_data):
+    y = def_y + 0.80 + ri * 0.40
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s10_left
+    add_bordered_box(slide10, x, y, def_cols[0], 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 9, C_DARK, bold=True)
+    for ci in range(1, 4):
+        x += def_cols[ci - 1]
+        is_ok = "止まる" in row[ci]
+        cell_bg = RGBColor(0xEA, 0xFA, 0xF1) if is_ok else RGBColor(0xFD, 0xED, 0xEC)
+        cell_color = C_GREEN if is_ok else C_RED
+        add_rect(slide10, x, y, def_cols[ci], 0.40,
+                 cell_bg, row[ci], 9, cell_color, bold=True, align=PP_ALIGN.CENTER)
+
+# Conclusion
+add_rect(slide10, s10_left, def_y + 1.75, 14.9, 0.50,
+         C_DARK,
+         "証明書ベースの防御は犯人のレベル次第で突破される。ホワイトリスト型アプリ制御（AppLocker/WDAC）が唯一の確実な対策。",
+         12, C_WHITE)
+
+add_textbox(slide10, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 手順⑥「不明な発行元」とアプリ制御",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
