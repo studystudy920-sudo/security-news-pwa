@@ -137,8 +137,8 @@ phase_x = LEFT_MARGIN
 # Row heights and Y positions
 HEADER_H = 0.35
 LANE_HDR_H = 0.30
-row_y_start = 1.15
-ROW_H = [1.05, 1.15, 2.55, 2.60, 2.65, 0.65]
+row_y_start = 1.50
+ROW_H = [0.95, 1.05, 2.35, 2.45, 2.50, 0.55]
 row_y = []
 y = row_y_start
 for h in ROW_H:
@@ -158,8 +158,16 @@ add_textbox(slide, 0, 0.55, 16.54, 0.3,
             'シート名「不審な電話手口」 ― 犯人サイド × 被害企業サイド スイムレーン図',
             font_size=10, color=C_GREY_TXT, align=PP_ALIGN.CENTER)
 
+# ── Key info banners ──
+add_rect(slide, 0.5, 0.88, 3.2, 0.30,
+         C_RED, "対象：法人向けIB（BizSTATION）", 10, C_WHITE)
+add_rect(slide, 3.85, 0.88, 6.8, 0.30,
+         C_DARK, "犯人はBizSTATIONの認証フロー（契約者番号→利用者ID→ログインPW→取引実行PW→OTP）を完全に把握", 8, C_WHITE, bold=False)
+add_rect(slide, 10.80, 0.88, 5.2, 0.30,
+         C_ORANGE, "法人IBは送金限度額が高く、1件で数千万〜数億円の被害リスク", 8, C_WHITE, bold=False)
+
 # ── Actor group headers ──
-actor_y = 0.90
+actor_y = 1.25
 add_rect(slide, lane_x[0], actor_y, LANE_W * 2 + GAP, HEADER_H,
          C_DARK, "犯人サイド", 11)
 add_rect(slide, lane_x[2], actor_y, LANE_W * 3 + GAP * 2, HEADER_H,
