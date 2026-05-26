@@ -221,18 +221,20 @@ r = 2
 cy = row_y[r]
 add_bordered_box(slide, lane_x[1] + 0.1, cy + 0.05, LANE_W - 0.2, 0.70,
                  C_HUMAN_BG, C_ORANGE,
-                 "【AI音声】\n「パソコン環境の更新が必要。現在口座の利用制限をしています。"
+                 "【有人対応】\n「パソコン環境の更新が必要。現在口座の利用制限をしています。"
                  "手続きを郵送していますが、届いてますか。更新されていないので電話しました」",
                  7)
 add_textbox(slide, lane_x[1] + 0.1, cy + 0.78, LANE_W - 0.2, 0.2,
             "※複数の誘導方法あり", 6, color=C_GREY_TXT)
+add_textbox(slide, lane_x[1] + 0.1, cy + 0.90, LANE_W - 0.2, 0.2,
+            "※AI音声の可能性あり", 6, bold=True, color=C_RED)
 
 add_diamond(slide, lane_x[1] + 0.7, cy + 0.98, 1.4, 0.50,
             "メアド\n入手済／未済？")
 
 add_bordered_box(slide, lane_x[1] + 0.1, cy + 1.52, LANE_W - 0.2, 0.40,
                  C_HUMAN_BG, C_ORANGE,
-                 "【AI音声・未済の場合】\n「手続きをメールで案内するので、メールアドレスを教えてください」",
+                 "【未済の場合】\n「手続きをメールで案内するので、メールアドレスを教えてください」",
                  7)
 
 add_bordered_box(slide, lane_x[1] + 0.1, cy + 1.96, LANE_W - 0.2, 0.22,
@@ -260,7 +262,7 @@ cy = row_y[r]
 # Attacker calls
 add_bordered_box(slide, lane_x[1] + 0.1, cy + 0.05, LANE_W - 0.2, 0.50,
                  C_HUMAN_BG, C_ORANGE,
-                 "【AI音声】\n「セキュリティ強化のためソフトインストールが必要です。"
+                 "【有人対応】\n「セキュリティ強化のためソフトインストールが必要です。"
                  "メールのボタンをクリックしてください」", 7)
 add_bordered_box(slide, lane_x[1] + 0.1, cy + 0.60, LANE_W - 0.2, 0.30,
                  C_HUMAN_BG, C_ORANGE,
