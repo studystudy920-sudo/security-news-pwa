@@ -694,6 +694,95 @@ add_textbox(slide5, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 1本の電話の構造",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 6: 手順④ フィッシングメール — 迷惑メールフィルタも無力化
+# ══════════════════════════════════════════════════════
+slide6 = prs.slides.add_slide(prs.slide_layouts[6])
+slide6.background.fill.solid()
+slide6.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide6, 0, 0.2, 16.54, 0.6,
+            "手順④ フィッシングメール — セキュリティ対策も電話1本で無力化",
+            font_size=22, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+add_textbox(slide6, 0, 0.75, 16.54, 0.4,
+            "電話で予告してからメールを送る。通常のフィッシングとは根本的に異なる構造。",
+            font_size=12, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+# Two-pattern comparison
+s6_left = 1.0
+s6_top = 1.3
+
+# Left: normal phishing
+add_rect(slide6, s6_left, s6_top, 7.0, 0.45,
+         C_GREY_BG, "通常のフィッシング", 14, C_DARK, bold=True, align=PP_ALIGN.CENTER)
+add_bordered_box(slide6, s6_left, s6_top + 0.50, 7.0, 0.45,
+                 RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xCC, 0xCC, 0xCC),
+                 "メールが突然届く", 12, C_DARK)
+add_rect(slide6, s6_left + 1.5, s6_top + 1.00, 4.0, 0.40,
+         C_GREY_BG, "↓", 14, C_DARK, align=PP_ALIGN.CENTER)
+add_bordered_box(slide6, s6_left, s6_top + 1.45, 7.0, 0.45,
+                 RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xCC, 0xCC, 0xCC),
+                 "「怪しいかも？」と思う余地あり", 12, C_DARK)
+add_rect(slide6, s6_left + 1.5, s6_top + 1.95, 4.0, 0.40,
+         C_GREY_BG, "↓", 14, C_DARK, align=PP_ALIGN.CENTER)
+add_rect(slide6, s6_left, s6_top + 2.40, 7.0, 0.45,
+         C_GREEN, "迷惑メールフィルタが防いでくれる可能性あり", 11, C_WHITE)
+
+# Right: this attack
+add_rect(slide6, s6_left + 7.5, s6_top, 7.0, 0.45,
+         C_RED, "この攻撃", 14, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+add_bordered_box(slide6, s6_left + 7.5, s6_top + 0.50, 7.0, 0.45,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_RED,
+                 "電話で「今からメール送ります」と予告", 12, C_DARK, bold=True)
+add_rect(slide6, s6_left + 9.0, s6_top + 1.00, 4.0, 0.40,
+         RGBColor(0xFD, 0xED, 0xEC), "↓", 14, C_RED, align=PP_ALIGN.CENTER)
+add_bordered_box(slide6, s6_left + 7.5, s6_top + 1.45, 7.0, 0.45,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_RED,
+                 "メール到着 →「本物だ」と確信（予告通り来たから）", 12, C_DARK, bold=True)
+add_rect(slide6, s6_left + 9.0, s6_top + 1.95, 4.0, 0.40,
+         RGBColor(0xFD, 0xED, 0xEC), "↓", 14, C_RED, align=PP_ALIGN.CENTER)
+add_rect(slide6, s6_left + 7.5, s6_top + 2.40, 7.0, 0.45,
+         C_RED, "電話 × メールの二重チャネルが相互に信頼性を補強", 11, C_WHITE)
+
+# Spam filter bypass section
+sf_y = s6_top + 3.2
+add_rect(slide6, s6_left, sf_y, 14.5, 0.50,
+         C_DARK, "迷惑メールフィルタに入った場合も、電話1本で無力化される", 14, C_WHITE)
+
+# Flow: spam scenario
+add_bordered_box(slide6, s6_left, sf_y + 0.60, 3.3, 0.55,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_ORANGE,
+                 "メールが迷惑フォルダへ", 10, C_DARK, bold=True, align=PP_ALIGN.CENTER)
+add_textbox(slide6, s6_left + 3.35, sf_y + 0.68, 0.4, 0.4, "→", 16, bold=True, color=C_RED, align=PP_ALIGN.CENTER)
+add_bordered_box(slide6, s6_left + 3.8, sf_y + 0.60, 3.3, 0.55,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_ORANGE,
+                 "被害者「メール来てません」", 10, C_DARK, align=PP_ALIGN.CENTER)
+add_textbox(slide6, s6_left + 7.15, sf_y + 0.68, 0.4, 0.4, "→", 16, bold=True, color=C_RED, align=PP_ALIGN.CENTER)
+add_bordered_box(slide6, s6_left + 7.6, sf_y + 0.60, 3.5, 0.55,
+                 C_HUMAN_BG, C_ORANGE,
+                 "犯人「迷惑メールフォルダを\n確認してください」", 10, C_DARK, align=PP_ALIGN.CENTER)
+add_textbox(slide6, s6_left + 11.15, sf_y + 0.68, 0.4, 0.4, "→", 16, bold=True, color=C_RED, align=PP_ALIGN.CENTER)
+add_bordered_box(slide6, s6_left + 11.6, sf_y + 0.60, 2.9, 0.55,
+                 C_DANGER_BG, C_RED,
+                 "被害者が自ら発見\n→ 攻撃続行", 10, C_DARK, bold=True, align=PP_ALIGN.CENTER)
+
+# Worse: reinforces narrative
+add_rect(slide6, s6_left, sf_y + 1.35, 14.5, 0.70,
+         C_DECISION, "", 1, C_DARK)
+add_textbox(slide6, s6_left + 0.2, sf_y + 1.38, 14.0, 0.65,
+            "さらに悪いことに：迷惑フォルダに入っていたことが、手順②の話を補強してしまう\n"
+            "「重要なメールがフィルタに引っかかっていた → だから口座更新の案内に気づけなかったんだ」\n"
+            "→ 被害者はますます犯人の話を信じる",
+            font_size=11, color=C_DARK)
+
+# Bottom conclusion
+add_rect(slide6, s6_left, sf_y + 2.25, 14.5, 0.50,
+         C_RED, "メールセキュリティの最後の砦である迷惑メールフィルタも、電話1本で無力化される", 14, C_WHITE)
+
+add_textbox(slide6, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 手順④ フィッシングメールと迷惑メールフィルタ回避",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
