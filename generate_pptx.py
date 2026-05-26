@@ -1505,6 +1505,177 @@ add_textbox(slide12, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 責任の所在",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 13: 手順⑦ 赤い画面 — PCを封印し犯人の操作を隠す
+# ══════════════════════════════════════════════════════
+slide13 = prs.slides.add_slide(prs.slide_layouts[6])
+slide13.background.fill.solid()
+slide13.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide13, 0, 0.2, 16.54, 0.6,
+            "手順⑦ 赤い画面 — PCを封印し、犯人の操作を隠す",
+            font_size=22, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+
+s13_left = 0.8
+s13_top = 0.85
+
+# Red screen reproduction
+add_rect(slide13, s13_left, s13_top, 14.9, 1.10,
+         C_RED, "", 1, C_WHITE)
+add_textbox(slide13, s13_left + 0.5, s13_top + 0.10, 13.9, 0.95,
+            "『Mバンく　現在セキュリティ保護強化に伴うシステム更新ならびに、"
+            "お客さま情報の確認、更新処理を実施しております。"
+            "処理完了までの間一時的に画面が遅延または停止する場合がありますが、"
+            "正常な処理となりますのでそのままお待ちくださいますようお願い申し上げます。』",
+            font_size=11, color=C_WHITE, bold=True)
+
+# Three roles
+role_y = s13_top + 1.25
+add_rect(slide13, s13_left, role_y, 14.9, 0.40,
+         C_DARK, "赤い画面の3つの役割", 12, C_WHITE)
+
+roles = [
+    ["① PCを「封印」する",     "被害者はPCを操作できない。BizSTATIONで自分で確認することも不可能。", C_RED],
+    ["② 犯人の操作を隠す",     "赤い画面の裏でScreenConnect経由のPC操作が進行。被害者には見えない。", C_DARK],
+    ["③ 被害者を「待機」させる", "「処理完了までお待ちください」→ 異常を見ても「正常」と信じて待つ。", C_ORANGE],
+]
+for ri, row in enumerate(roles):
+    y = role_y + 0.40 + ri * 0.55
+    add_rect(slide13, s13_left, y, 4.0, 0.55,
+             row[2], row[0], 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+    add_bordered_box(slide13, s13_left + 4.0, y, 10.9, 0.55,
+                     RGBColor(0xFF, 0xFF, 0xFF), row[2], row[1], 10, C_DARK)
+
+# Flaw point
+fl_y = role_y + 2.15
+add_rect(slide13, s13_left, fl_y, 14.9, 0.45,
+         C_RED, "⚠ 破綻ポイント：銀行のシステム更新で顧客PCの画面が赤くなることはありえない", 12, C_WHITE)
+add_textbox(slide13, s13_left, fl_y + 0.48, 14.9, 0.3,
+            "IBのシステム更新はサーバー側の処理。顧客PCの画面が止まるわけがない。→ 手順②からの信頼の蓄積で気づけない。",
+            9, color=C_GREY_TXT)
+
+# Detection opportunity
+det_y = fl_y + 0.90
+add_rect(slide13, s13_left, det_y, 14.9, 0.40,
+         C_GREEN, "企業側で検知できるポイント", 12, C_WHITE)
+
+det_rows = [
+    ["ScreenConnectのプロセス検知",    "EDRで検知可能"],
+    ["C2サーバへの不審な通信",         "NW監視/プロキシで検知可能"],
+    ["リモートデスクトップ系の異常セッション", "SIEMで検知可能"],
+]
+for ri, row in enumerate(det_rows):
+    y = det_y + 0.40 + ri * 0.38
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    add_bordered_box(slide13, s13_left, y, 7.5, 0.38,
+                     bg, C_GREEN, row[0], 9, C_DARK, bold=True)
+    add_bordered_box(slide13, s13_left + 7.5, y, 7.4, 0.38,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+
+# Same pattern
+add_rect(slide13, s13_left, det_y + 1.60, 14.9, 0.50,
+         C_DARK,
+         "同じ構図：EDR/NW監視があれば検知可能 → しかし中小企業にはない → また「顧客の問題」になる",
+         12, C_WHITE)
+
+add_textbox(slide13, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 手順⑦ 赤い画面",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
+# ══════════════════════════════════════════════════════
+# Slide 14: 手順⑧ デュアルデバイス攻撃 — 認証情報の窃取
+# ══════════════════════════════════════════════════════
+slide14 = prs.slides.add_slide(prs.slide_layouts[6])
+slide14.background.fill.solid()
+slide14.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide14, 0, 0.2, 16.54, 0.6,
+            "手順⑧ デュアルデバイス攻撃 — 会社PCを封じ、個人スマホで認証を奪う",
+            font_size=20, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+
+s14_left = 0.8
+s14_top = 0.85
+
+# Dual device diagram
+add_rect(slide14, s14_left, s14_top, 7.2, 0.40,
+         C_DARK, "会社PC（封印済み）", 11, C_WHITE, align=PP_ALIGN.CENTER)
+add_bordered_box(slide14, s14_left, s14_top + 0.40, 7.2, 0.70,
+                 C_DANGER_BG, C_RED,
+                 "赤い画面で封印 → 確認手段なし\n犯人がScreenConnect経由で操作中\n→ BizSTATIONにアクセスし送金準備",
+                 9, C_DARK)
+
+add_rect(slide14, s14_left + 7.7, s14_top, 7.0, 0.40,
+         C_PURPLE, "個人スマホ（標的）", 11, C_WHITE, align=PP_ALIGN.CENTER)
+add_bordered_box(slide14, s14_left + 7.7, s14_top + 0.40, 7.0, 0.70,
+                 C_SMS_BG, C_PURPLE,
+                 "SMS受信 → リンクをクリック\n偽の認証画面が表示される\n→ 認証情報5要素を入力させられる",
+                 9, C_DARK)
+
+# Why switch to smartphone
+why_y = s14_top + 1.30
+add_rect(slide14, s14_left, why_y, 14.9, 0.40,
+         C_DARK, "なぜ個人スマホに切り替えるのか", 12, C_WHITE)
+
+why_rows = [
+    ["会社PCが使えない",        "赤い画面で封印済み。犯人が操作中。",                C_RED],
+    ["企業セキュリティの回避",    "会社PCのEDR/プロキシを回避。個人スマホにはない。",  C_ORANGE],
+    ["SMS認証は個人端末が前提",  "「携帯にSMSが届く」は自然な流れ。",              C_BLUE],
+    ["2デバイス同時制御",        "PCは遠隔操作、スマホは電話で指示。両方が犯人の支配下。", C_PURPLE],
+]
+for ri, row in enumerate(why_rows):
+    y = why_y + 0.40 + ri * 0.45
+    bg = RGBColor(0xFF, 0xFF, 0xFF)
+    add_rect(slide14, s14_left, y, 3.5, 0.45,
+             row[2], row[0], 9, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+    add_bordered_box(slide14, s14_left + 3.5, y, 11.4, 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+
+# Auth flaw
+auth_y = why_y + 2.30
+add_rect(slide14, s14_left, auth_y, 14.9, 0.40,
+         C_RED, "⚠ 破綻ポイント：5つの認証情報を一画面で入力させること自体がありえない", 11, C_WHITE)
+
+# Normal vs attack
+add_rect(slide14, s14_left, auth_y + 0.45, 7.2, 0.35,
+         C_GREEN, "正規のBizSTATION", 10, C_WHITE, align=PP_ALIGN.CENTER)
+add_bordered_box(slide14, s14_left, auth_y + 0.80, 7.2, 0.70,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_GREEN,
+                 "ステップ1：契約者番号 + 利用者ID → 入力\n"
+                 "ステップ2：ログインPW → 入力\n"
+                 "ステップ3：取引時にOTP → 入力（段階的）",
+                 9, C_DARK)
+
+add_rect(slide14, s14_left + 7.7, auth_y + 0.45, 7.0, 0.35,
+         C_RED, "この攻撃", 10, C_WHITE, align=PP_ALIGN.CENTER)
+add_bordered_box(slide14, s14_left + 7.7, auth_y + 0.80, 7.0, 0.70,
+                 C_DANGER_BG, C_RED,
+                 "1画面で全部入力：\n"
+                 "契約者番号 / 利用者ID / ログインPW / 取引実行PW / OTP\n"
+                 "→ 5要素を一括。正規ではありえない。",
+                 9, C_RED, bold=True)
+
+# OTP timing
+otp_y = auth_y + 1.65
+add_rect(slide14, s14_left, otp_y, 14.9, 0.40,
+         C_DARK, "OTPの時間制限が犯人に有利に働く — リアルタイムだから成立する", 11, C_WHITE)
+add_bordered_box(slide14, s14_left, otp_y + 0.40, 14.9, 0.70,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_DARK,
+                 "① 犯人：裏でBizSTATIONにアクセス → OTP入力画面まで進む\n"
+                 "② 犯人：電話で「OTPを入力してください」→ 被害者がスマホに入力\n"
+                 "③ 犯人：入力されたOTP（有効期限30〜60秒）を即座に使用 → 送金実行\n"
+                 "→ 電話をつないだままだからリアルタイムにできる",
+                 9, C_DARK)
+
+# Conclusion
+add_rect(slide14, s14_left, otp_y + 1.25, 14.9, 0.50,
+         C_DARK,
+         "同じ構図：個人スマホは企業セキュリティの管轄外 → 「顧客の問題」→ 対策されない",
+         12, C_WHITE)
+
+add_textbox(slide14, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 手順⑧ デュアルデバイス攻撃",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
