@@ -235,7 +235,7 @@ add_bordered_box(slide, lane_x[1] + 0.1, cy + 0.05, LANE_W - 0.2, 0.70,
 add_textbox(slide, lane_x[1] + 0.1, cy + 0.78, LANE_W - 0.2, 0.2,
             "※複数の誘導方法あり", 6, color=C_GREY_TXT)
 add_textbox(slide, lane_x[1] + 0.1, cy + 0.90, LANE_W - 0.2, 0.2,
-            "※AI音声の可能性あり", 6, bold=True, color=C_RED)
+            "※AI音声または有人対応（法人高額案件のため両方の可能性あり）", 6, bold=True, color=C_RED)
 
 add_diamond(slide, lane_x[1] + 0.7, cy + 0.98, 1.4, 0.50,
             "メアド\n入手済／未済？")
