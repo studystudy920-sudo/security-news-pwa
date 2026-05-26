@@ -1257,6 +1257,130 @@ add_textbox(slide10, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 手順⑥「不明な発行元」とアプリ制御",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 11: ホワイトリスト型アプリ制御の詳細
+# ══════════════════════════════════════════════════════
+slide11 = prs.slides.add_slide(prs.slide_layouts[6])
+slide11.background.fill.solid()
+slide11.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide11, 0, 0.2, 16.54, 0.6,
+            "ホワイトリスト型アプリ制御 — Windowsに標準搭載、追加コストゼロ",
+            font_size=20, bold=True, align=PP_ALIGN.CENTER, color=C_GREEN)
+add_textbox(slide11, 0, 0.70, 16.54, 0.4,
+            "DMARCと同じ構図：使えるのに使っていない。設定するだけで手順⑥を確実に止められる。",
+            font_size=11, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+s11_left = 0.8
+s11_top = 1.15
+
+# Blacklist vs Whitelist
+add_rect(slide11, s11_left, s11_top, 7.2, 0.45,
+         C_RED, "ブラックリスト型（従来のアンチウイルス）", 11, C_WHITE)
+add_bordered_box(slide11, s11_left, s11_top + 0.45, 7.2, 0.80,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_RED,
+                 "「既知の悪いもの」をブロック\n→ 未知の攻撃は素通り\n→ ScreenConnectは正規ツール → ブロックされない",
+                 10, C_DARK)
+
+add_rect(slide11, s11_left + 7.7, s11_top, 7.0, 0.45,
+         C_GREEN, "ホワイトリスト型（AppLocker / WDAC）", 11, C_WHITE)
+add_bordered_box(slide11, s11_left + 7.7, s11_top + 0.45, 7.0, 0.80,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_GREEN,
+                 "「許可されたものだけ」実行可能\n→ 許可リストにないものは全部止まる\n→ ScreenConnectが許可リストにない → 実行できない",
+                 10, C_DARK)
+
+# Tools detail
+td_y = s11_top + 1.50
+add_rect(slide11, s11_left, td_y, 14.9, 0.40,
+         C_DARK, "Windowsに標準搭載されているツール", 12, C_WHITE)
+
+tools = [
+    ["AppLocker",  "Microsoft", "Windows 10/11 Enterprise / Education",  "exe, msi, スクリプト, DLL",  "グループポリシーで設定"],
+    ["WDAC",       "Microsoft", "Windows 10/11 全エディション",           "カーネルレベルで制御（より強力）", "PowerShell / Intune等"],
+    ["MDM連携",    "Intune等",  "全エディション（Intune契約時）",         "アプリ配布・制御を一元管理",     "クラウドから配信"],
+]
+td_cols = [2.0, 1.8, 3.8, 4.0, 3.3]
+td_headers = ["ツール", "提供元", "対象OS", "制御範囲", "設定方法"]
+
+x = s11_left
+for ci, h in enumerate(td_headers):
+    add_rect(slide11, x, td_y + 0.40, td_cols[ci], 0.40,
+             C_TAG_BG, h, 9, C_WHITE)
+    x += td_cols[ci]
+
+for ri, row in enumerate(tools):
+    y = td_y + 0.80 + ri * 0.45
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s11_left
+    for ci, cell in enumerate(row):
+        add_bordered_box(slide11, x, y, td_cols[ci], 0.45,
+                         bg, RGBColor(0xCC, 0xCC, 0xCC), cell, 9, C_DARK, bold=(ci == 0))
+        x += td_cols[ci]
+
+# How it stops this attack
+atk_y = td_y + 2.25
+add_rect(slide11, s11_left, atk_y, 14.9, 0.45,
+         C_RED, "この攻撃に対する効果", 12, C_WHITE)
+
+# AppLocker example
+add_rect(slide11, s11_left, atk_y + 0.50, 7.2, 0.35,
+         C_GREEN, "AppLocker許可リスト（設定例）", 10, C_WHITE)
+allowed = ["✅ Microsoft Office", "✅ 業務アプリA, B, C", "✅ Rapport（IBM署名）", "❌ それ以外すべて → 実行拒否"]
+for ri, item in enumerate(allowed):
+    y = atk_y + 0.85 + ri * 0.30
+    is_deny = "❌" in item
+    bg = RGBColor(0xFD, 0xED, 0xEC) if is_deny else RGBColor(0xEA, 0xFA, 0xF1)
+    fc = C_RED if is_deny else C_GREEN
+    add_bordered_box(slide11, s11_left, y, 7.2, 0.30,
+                     bg, fc, item, 9, fc, bold=is_deny)
+
+# Attack flow
+add_rect(slide11, s11_left + 7.7, atk_y + 0.50, 7.0, 0.35,
+         C_RED, "攻撃時の流れ", 10, C_WHITE)
+
+flow_items = [
+    ("犯人「実行するをクリックしてください」", C_HUMAN_BG, C_ORANGE),
+    ("被害者がクリック", C_ACTION_BG, C_GREEN),
+    ("OS「このアプリは組織のポリシーにより実行できません」", C_GREEN, C_GREEN),
+    ("犯人が何を言っても突破不可能 ★", C_DARK, C_DARK),
+]
+for ri, (text, bg_c, border_c) in enumerate(flow_items):
+    y = atk_y + 0.85 + ri * 0.38
+    fc = C_WHITE if bg_c in [C_GREEN, C_DARK] else C_DARK
+    add_bordered_box(slide11, s11_left + 7.7, y, 7.0, 0.35,
+                     bg_c, border_c, text, 9, fc, bold=(ri >= 2))
+
+# Cost and summary
+cost_y = atk_y + 2.50
+add_rect(slide11, s11_left, cost_y, 4.9, 0.85,
+         C_GREEN, "", 1, C_WHITE)
+add_textbox(slide11, s11_left + 0.2, cost_y + 0.05, 4.5, 0.75,
+            "追加コスト：ゼロ\n追加ソフト：不要\n必要な作業：ポリシー設定のみ",
+            font_size=12, bold=True, color=C_WHITE)
+
+add_rect(slide11, s11_left + 5.2, cost_y, 5.0, 0.85,
+         C_RED, "", 1, C_WHITE)
+add_textbox(slide11, s11_left + 5.4, cost_y + 0.05, 4.6, 0.75,
+            "電話で回避できない\n管理者権限がないと\nポリシー変更できない",
+            font_size=12, bold=True, color=C_WHITE)
+
+add_rect(slide11, s11_left + 10.5, cost_y, 4.4, 0.85,
+         C_DARK, "", 1, C_WHITE)
+add_textbox(slide11, s11_left + 10.7, cost_y + 0.05, 4.0, 0.75,
+            "DMARCと並ぶ\n2つ目の確実な\n技術的対策",
+            font_size=12, bold=True, color=C_WHITE)
+
+# Kill chain cut points summary
+kc_y = cost_y + 1.10
+add_rect(slide11, s11_left, kc_y, 14.9, 0.55,
+         C_DARK,
+         "Kill Chainを技術的に切れるポイント：④ DMARC p=reject（メール遮断）＋ ⑥ AppLocker/WDAC（実行阻止）— どちらも標準搭載・追加コストゼロ",
+         11, C_WHITE)
+
+add_textbox(slide11, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — ホワイトリスト型アプリ制御",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
