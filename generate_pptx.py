@@ -409,6 +409,84 @@ add_textbox(slide2, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 銀行の正規フローとの類似性",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 3: 手順②の心理操作テクニック
+# ══════════════════════════════════════════════════════
+slide3 = prs.slides.add_slide(prs.slide_layouts[6])
+slide3.background.fill.solid()
+slide3.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide3, 0, 0.3, 16.54, 0.6,
+            "手順②の心理操作 — どう答えても犯人のシナリオに乗る設計",
+            font_size=22, bold=True, align=PP_ALIGN.CENTER, color=C_ORANGE)
+add_textbox(slide3, 0, 0.85, 16.54, 0.4,
+            "4つのセリフそれぞれに明確な狙いがあり、被害者の心理的退路を塞いでいる。",
+            font_size=12, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+# Technique table
+s3_top = 1.5
+s3_cols = [4.5, 2.0, 7.0]
+s3_left = 1.5
+s3_row_h = 0.65
+s3_headers = ["セリフ", "狙い", "効果"]
+s3_rows = [
+    ["「パソコン環境の更新が必要」", "伏線", "後のソフトインストール（手順⑤⑥）を自然に受け入れさせる"],
+    ["「口座の利用制限をしています」", "恐怖", "「今すぐ対応しなきゃ」と焦らせ、冷静な判断を奪う"],
+    ["「手続きを郵送しましたが、届いてますか」", "負い目", "被害者に「自分が見落とした」と思わせ、指示に従いやすくする"],
+    ["「更新されていないので電話しました」", "正当化", "架電がフォローアップに見え、銀行の丁寧な対応と錯覚させる"],
+]
+s3_tag_colors = [C_BLUE, C_RED, C_ORANGE, C_PURPLE]
+
+# Header
+x_offset = s3_left
+for ci, h in enumerate(s3_headers):
+    add_rect(slide3, x_offset, s3_top, s3_cols[ci], s3_row_h,
+             C_DARK, h, 12, C_WHITE)
+    x_offset += s3_cols[ci]
+
+# Data
+for ri, row in enumerate(s3_rows):
+    y = s3_top + (ri + 1) * s3_row_h
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x_offset = s3_left
+    for ci, cell in enumerate(row):
+        if ci == 1:
+            add_rect(slide3, x_offset, y, s3_cols[ci], s3_row_h,
+                     s3_tag_colors[ri], cell, 12, C_WHITE, bold=True)
+        else:
+            add_bordered_box(slide3, x_offset, y, s3_cols[ci], s3_row_h,
+                             bg, RGBColor(0xCC, 0xCC, 0xCC), cell, 10, C_DARK)
+        x_offset += s3_cols[ci]
+
+# Response pattern section
+rp_y = s3_top + 5 * s3_row_h + 0.3
+add_rect(slide3, s3_left, rp_y, 13.5, 0.45,
+         C_DECISION, "「届いてますか？」への回答パターン", 13, C_DARK, bold=True, align=PP_ALIGN.LEFT)
+
+add_bordered_box(slide3, s3_left, rp_y + 0.50, 6.5, 0.50,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_ORANGE,
+                 "「届いてない」（大多数）\n→「届いていないなら仕方ない、電話で手続きしましょう」", 10)
+add_rect(slide3, s3_left + 6.6, rp_y + 0.50, 1.5, 0.50,
+         C_RED, "→ シナリオ続行", 10, C_WHITE)
+
+add_bordered_box(slide3, s3_left + 8.3, rp_y + 0.50, 3.8, 0.50,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_ORANGE,
+                 "「届いてる」（稀）\n→「では確認しながら進めましょう」", 10)
+add_rect(slide3, s3_left + 12.2, rp_y + 0.50, 1.3, 0.50,
+         C_RED, "→ シナリオ続行", 10, C_WHITE)
+
+# Conclusion
+add_rect(slide3, s3_left, rp_y + 1.2, 13.5, 0.50,
+         C_RED, "どう答えても犯人のシナリオから逸脱できない — 顧客には見破れない", 15, C_WHITE)
+
+add_textbox(slide3, s3_left, rp_y + 1.9, 13.5, 0.6,
+            "これも銀行が日常的に行う「書類を郵送しました → 届きましたか → 未対応なのでお電話」と同一パターンであり、顧客には見破れない",
+            font_size=12, color=C_DARK)
+
+add_textbox(slide3, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 手順②の心理操作テクニック",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
