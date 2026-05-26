@@ -918,6 +918,109 @@ add_textbox(slide7, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — DMARC＋DNSによる技術的遮断",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 8: 手順⑤ メールURL — 銀行方針＋金融庁要請に反する
+# ══════════════════════════════════════════════════════
+slide8 = prs.slides.add_slide(prs.slide_layouts[6])
+slide8.background.fill.solid()
+slide8.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+C_VIOLET = RGBColor(0x8E, 0x44, 0xAD)
+
+add_textbox(slide8, 0, 0.2, 16.54, 0.6,
+            "手順⑤「メールのボタンをクリックして」— 最大の破綻ポイント",
+            font_size=22, bold=True, align=PP_ALIGN.CENTER, color=C_VIOLET)
+add_textbox(slide8, 0, 0.75, 16.54, 0.4,
+            "銀行の方針・金融庁の要請・顧客への周知、すべてに反する行為。それでも突破される。",
+            font_size=12, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+# FSA notice
+s8_left = 0.8
+s8_top = 1.2
+add_rect(slide8, s8_left, s8_top, 14.9, 0.55,
+         C_RED,
+         "金融庁の要請：金融機関が顧客に送信するメールにURLリンクを記載しないこと",
+         13, C_WHITE)
+add_textbox(slide8, s8_left, s8_top + 0.58, 14.9, 0.3,
+            "→ 多くの銀行が「メール内のリンクはクリックしないでください」と顧客に周知済み",
+            9, color=C_GREY_TXT)
+
+# Comparison table
+cmp_y = s8_top + 1.0
+cmp_cols = [2.5, 6.0, 6.4]
+cmp_headers = ["", "銀行の正規誘導", "この攻撃"]
+cmp_rows = [
+    ["方法",       "ブックマーク・URL直接入力・公式アプリ",   "メールのボタンをクリック"],
+    ["URLの出所",  "顧客が自分で持っている",                 "犯人が送りつけた"],
+    ["顧客の行動", "能動的（自分でアクセス）",               "受動的（指示されてクリック）"],
+    ["利便性",     "面倒（ブックマーク探す、URL入力）",       "楽（ボタン1つ押すだけ）"],
+]
+
+x = s8_left
+for ci, h in enumerate(cmp_headers):
+    add_rect(slide8, x, cmp_y, cmp_cols[ci], 0.45,
+             C_DARK, h, 10, C_WHITE)
+    x += cmp_cols[ci]
+
+for ri, row in enumerate(cmp_rows):
+    y = cmp_y + 0.45 + ri * 0.50
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s8_left
+    add_bordered_box(slide8, x, y, cmp_cols[0], 0.50,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 10, C_DARK, bold=True)
+    x += cmp_cols[0]
+    add_bordered_box(slide8, x, y, cmp_cols[1], 0.50,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 10, C_DARK)
+    x += cmp_cols[1]
+    add_bordered_box(slide8, x, y, cmp_cols[2], 0.50,
+                     bg, C_RED, row[2], 10, C_RED, bold=True)
+
+# Irony section
+irn_y = cmp_y + 2.55
+add_rect(slide8, s8_left, irn_y, 14.9, 0.90,
+         C_VIOLET, "", 1, C_WHITE)
+add_textbox(slide8, s8_left + 0.3, irn_y + 0.05, 14.3, 0.85,
+            "皮肉：犯人のほうが「ユーザー体験が良い」\n"
+            "正規の銀行：「ブックマークからアクセスしてください」（面倒）\n"
+            "犯人：「ボタンをクリックするだけです」（簡単）\n"
+            "→ 焦っている被害者がどちらに従いたくなるかは明白",
+            font_size=11, color=C_WHITE, bold=True)
+
+# Flaw summary
+fw_y = irn_y + 1.10
+add_rect(slide8, s8_left, fw_y, 14.9, 0.40,
+         C_DARK, "手順⑤の破綻ポイントまとめ", 12, C_WHITE)
+
+fw_rows = [
+    ["銀行の方針",      "メールにURLリンクを載せない"],
+    ["金融庁の要請",    "金融機関のメールにURL記載禁止"],
+    ["顧客への周知",    "「メールのリンクをクリックしないで」と案内済み"],
+]
+for ri, row in enumerate(fw_rows):
+    y = fw_y + 0.40 + ri * 0.40
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    add_bordered_box(slide8, s8_left, y, 4.0, 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 10, C_DARK, bold=True)
+    add_bordered_box(slide8, s8_left + 4.0, y, 10.9, 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 10, C_DARK)
+
+# "Still breaks through" row
+y = fw_y + 0.40 + 3 * 0.40
+add_rect(slide8, s8_left, y, 4.0, 0.40,
+         C_RED, "それでも突破される理由", 10, C_WHITE, bold=True)
+add_rect(slide8, s8_left + 4.0, y, 10.9, 0.40,
+         C_RED, "手順②の恐怖 ＋ 電話でのリアルタイム指示 ＋ 犯人のほうがUXが良い", 10, C_WHITE)
+
+# Bottom conclusion
+add_rect(slide8, s8_left, fw_y + 2.05, 14.9, 0.55,
+         C_DARK,
+         "注意喚起・ガイドライン・金融庁の要請 — すべてが「冷静な時の判断力」を前提にしている。この攻撃は、その前提自体を手順②で破壊している。",
+         12, C_WHITE)
+
+add_textbox(slide8, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 手順⑤ メールURLと金融庁要請",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
