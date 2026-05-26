@@ -581,6 +581,113 @@ add_textbox(slide4, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 顧客は見破れるか",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 5: 1本の電話 — つないだまま全手順を完了させる
+# ══════════════════════════════════════════════════════
+slide5 = prs.slides.add_slide(prs.slide_layouts[6])
+slide5.background.fill.solid()
+slide5.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide5, 0, 0.2, 16.54, 0.6,
+            "1本の電話 — つないだまま全手順を完了させる",
+            font_size=24, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+add_textbox(slide5, 0, 0.75, 16.54, 0.4,
+            "この攻撃は「9つの手順」ではなく、1本の電話の中で起きる1つの連続した攻撃である。",
+            font_size=12, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+# Timeline - vertical flow
+tl_left = 1.0
+tl_step_w = 5.5
+tl_bar_x = tl_left + tl_step_w + 0.2
+tl_bar_w = 0.5
+tl_top = 1.3
+tl_step_h = 0.42
+tl_gap = 0.03
+
+steps = [
+    ("①", "自動音声で架電",              "電話接続"),
+    ("②", "心理操作（口座制限中）",       ""),
+    ("③", "メアド聞き出し＋メール送付",    ""),
+    ("④", "「メールを開いてください」",     ""),
+    ("⑤", "「インストールしてください」",   "ずっと"),
+    ("⑥", "「実行してください」",          "電話が"),
+    ("⑦", "赤い画面表示",                "つながっている"),
+    ("⑧", "「携帯番号を教えて」",          ""),
+    ("⑨", "「認証情報を入力して」",        ""),
+    ("",   "不正送金",                    "電話終了？"),
+]
+
+for i, (num, desc, bar_text) in enumerate(steps):
+    y = tl_top + i * (tl_step_h + tl_gap)
+    if num == "":
+        add_rect(slide5, tl_left, y, tl_step_w, tl_step_h,
+                 C_RED, f"  {desc}", 11, C_WHITE, bold=True, align=PP_ALIGN.LEFT)
+    else:
+        bg = RGBColor(0xFF, 0xFF, 0xFF)
+        add_bordered_box(slide5, tl_left, y, tl_step_w, tl_step_h,
+                         bg, RGBColor(0xCC, 0xCC, 0xCC),
+                         f"{num}  {desc}", 10, C_DARK)
+
+# Continuous phone bar
+bar_total_h = 10 * (tl_step_h + tl_gap) - tl_gap
+add_rect(slide5, tl_bar_x, tl_top, tl_bar_w, bar_total_h,
+         C_RED, "", 1, C_WHITE)
+# Bar labels
+add_textbox(slide5, tl_bar_x - 0.1, tl_top + 0.1, tl_bar_w + 0.2, 0.3,
+            "電話接続", 8, bold=True, color=C_WHITE, align=PP_ALIGN.CENTER)
+add_textbox(slide5, tl_bar_x - 0.3, tl_top + bar_total_h * 0.4, tl_bar_w + 0.6, 0.5,
+            "ずっと\n電話が\nつながっている", 9, bold=True, color=C_WHITE, align=PP_ALIGN.CENTER)
+
+# Right side: effects table
+eff_left = 8.0
+eff_top = 1.3
+eff_w = 7.5
+eff_row_h = 0.55
+
+add_rect(slide5, eff_left, eff_top, eff_w, eff_row_h,
+         C_DARK, "電話をつないだままにする5つの効果", 13, C_WHITE)
+
+effects = [
+    ("考える隙を与えない",     "電話を切ったら冷静になる。切らせない", C_RED),
+    ("リアルタイム制御",        "被害者の画面状況に合わせて次の指示を出せる", C_ORANGE),
+    ("離脱防止",              "「このままお待ちください」で引き留められる", C_BLUE),
+    ("第三者への相談を防ぐ",    "電話中なので同僚や家族に相談できない", C_PURPLE),
+    ("信頼の維持",             "銀行員が丁寧に付き添ってくれている感覚", C_GREEN),
+]
+
+for i, (title, desc, color) in enumerate(effects):
+    y = eff_top + (i + 1) * eff_row_h
+    add_rect(slide5, eff_left, y, 2.5, eff_row_h,
+             color, title, 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if i % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    add_bordered_box(slide5, eff_left + 2.5, y, eff_w - 2.5, eff_row_h,
+                     bg, RGBColor(0xDD, 0xDD, 0xDD), desc, 10, C_DARK)
+
+# "If the call was disconnected" section
+disc_y = eff_top + 6 * eff_row_h + 0.25
+add_rect(slide5, eff_left, disc_y, eff_w, 0.40,
+         C_GREEN, "もし電話が切れたら（攻撃失敗）", 11, C_WHITE)
+disc_items = [
+    "「本当に銀行からの電話だったのか？」と疑問に思う",
+    "銀行の公式番号にかけ直す",
+    "同僚や上司に相談する",
+    "ネットで調べる",
+]
+add_bordered_box(slide5, eff_left, disc_y + 0.40, eff_w, 0.90,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_GREEN,
+                 "\n".join(f"→ {item}" for item in disc_items),
+                 10, C_DARK)
+
+# Bottom conclusion
+add_rect(slide5, 1.0, disc_y + 1.5, 14.5, 0.50,
+         C_DARK,
+         "被害者の体験：「銀行の担当者に電話で付き添ってもらいながら手続きをした」— それが攻撃だったとは気づかない",
+         13, C_WHITE)
+
+add_textbox(slide5, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 1本の電話の構造",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
