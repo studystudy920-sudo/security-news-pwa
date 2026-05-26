@@ -1676,6 +1676,189 @@ add_textbox(slide14, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 手順⑧ デュアルデバイス攻撃",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 15: 手順⑨ 不正送金 — 被害者のPCから送金する理由
+# ══════════════════════════════════════════════════════
+slide15 = prs.slides.add_slide(prs.slide_layouts[6])
+slide15.background.fill.solid()
+slide15.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide15, 0, 0.2, 16.54, 0.6,
+            "手順⑨ 不正送金 — 被害者のPCを経由しIPアドレスを偽装する",
+            font_size=20, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+
+s15_left = 0.8
+s15_top = 0.85
+
+# Why use victim's PC
+add_rect(slide15, s15_left, s15_top, 7.2, 0.40,
+         C_RED, "犯人のPCからアクセスした場合", 10, C_WHITE, align=PP_ALIGN.CENTER)
+add_bordered_box(slide15, s15_left, s15_top + 0.40, 7.2, 0.55,
+                 C_DANGER_BG, C_RED,
+                 "IPアドレスが被害者企業と異なる\n→ 銀行側で「いつもと違う場所」と検知される可能性",
+                 9, C_DARK)
+
+add_rect(slide15, s15_left + 7.7, s15_top, 7.0, 0.40,
+         C_DARK, "被害者のPC経由でアクセスした場合", 10, C_WHITE, align=PP_ALIGN.CENTER)
+add_bordered_box(slide15, s15_left + 7.7, s15_top + 0.40, 7.0, 0.55,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_DARK,
+                 "IPアドレスは被害者企業のもの\n→ 銀行から見ると「いつもの場所からのアクセス」",
+                 9, C_DARK)
+
+# Detection matrix
+det2_y = s15_top + 1.20
+add_rect(slide15, s15_left, det2_y, 14.9, 0.40,
+         C_DARK, "銀行側の振る舞い検知 — すり抜ける項目と検知できる項目", 12, C_WHITE)
+
+det2_rows = [
+    ["IPアドレス",   "いつもの場所",   "いつもの場所（PC経由）", "すり抜ける",          C_RED],
+    ["時間帯",       "業務時間内",     "業務時間内（電話中）",   "すり抜ける",          C_RED],
+    ["送金先口座",   "取引先",         "初めての口座",          "検知できる ★",        C_GREEN],
+    ["送金金額",     "通常範囲",       "通常より大きい可能性",   "検知できる ★",        C_GREEN],
+    ["操作速度",     "人間の速度",     "異常に速い可能性",       "検知できる ★",        C_GREEN],
+]
+det2_cols = [2.5, 3.0, 3.5, 3.0, 2.9]
+det2_headers = ["検知項目", "正常", "この攻撃", "結果", ""]
+
+x = s15_left
+for ci, h in enumerate(det2_headers):
+    add_rect(slide15, x, det2_y + 0.40, det2_cols[ci], 0.38,
+             C_TAG_BG, h, 9, C_WHITE)
+    x += det2_cols[ci]
+
+for ri, row in enumerate(det2_rows):
+    y = det2_y + 0.78 + ri * 0.40
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s15_left
+    add_bordered_box(slide15, x, y, det2_cols[0], 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 9, C_DARK, bold=True)
+    x += det2_cols[0]
+    add_bordered_box(slide15, x, y, det2_cols[1], 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+    x += det2_cols[1]
+    add_bordered_box(slide15, x, y, det2_cols[2], 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[2], 9, C_DARK)
+    x += det2_cols[2]
+    cell_bg = RGBColor(0xEA, 0xFA, 0xF1) if row[4] == C_GREEN else RGBColor(0xFD, 0xED, 0xEC)
+    add_rect(slide15, x, y, det2_cols[3] + det2_cols[4], 0.40,
+             cell_bg, row[3], 9, row[4], bold=True, align=PP_ALIGN.CENTER)
+
+# Confirmation call problem
+cc_y = det2_y + 2.90
+add_rect(slide15, s15_left, cc_y, 14.9, 0.40,
+         C_ORANGE, "銀行の追加認証（電話確認）すら機能しない", 12, C_WHITE)
+add_bordered_box(slide15, s15_left, cc_y + 0.40, 14.9, 0.70,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_ORANGE,
+                 "銀行「送金確認のためお電話しました」→ 被害者は犯人との電話がつながったまま → 出られない\n"
+                 "仮に出たとしても → 「はい、自分で送金しました」と答える（自分が攻撃されていることに気づいていない）",
+                 9, C_DARK)
+
+add_textbox(slide15, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 手順⑨ 不正送金",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
+# ══════════════════════════════════════════════════════
+# Slide 16: 総括 — 正規の体験を99%再現した攻撃
+# ══════════════════════════════════════════════════════
+slide16 = prs.slides.add_slide(prs.slide_layouts[6])
+slide16.background.fill.solid()
+slide16.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide16, 0, 0.15, 16.54, 0.5,
+            "総括：正規の銀行体験を99%再現した攻撃",
+            font_size=24, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+
+s16_left = 0.8
+s16_top = 0.70
+
+# What's the same as legitimate
+add_rect(slide16, s16_left, s16_top, 7.2, 0.40,
+         C_GREEN, "正規と同じもの（10個）", 12, C_WHITE)
+
+same_items = [
+    "自動音声の振り分け",
+    "担当者との電話対応",
+    "「郵送した」「口座制限」のセリフ",
+    "メールのデザイン（Bizデザイン）",
+    "メールの件名（実在する案内と同じ）",
+    "Webページのデザイン",
+    "赤い画面の色（ブランドカラー）",
+    "赤い画面の文言（銀行の丁寧語）",
+    "SMS認証の流れ",
+    "セキュリティソフト推奨（Rapportは実在）",
+]
+for ri, item in enumerate(same_items):
+    y = s16_top + 0.40 + ri * 0.30
+    bg = RGBColor(0xEA, 0xFA, 0xF1)
+    add_bordered_box(slide16, s16_left, y, 7.2, 0.30,
+                     bg, C_GREEN, f"✅ {item}", 8, C_GREEN)
+
+# What's different
+add_rect(slide16, s16_left + 7.7, s16_top, 7.0, 0.40,
+         C_RED, "正規と違うもの（6個）", 12, C_WHITE)
+
+diff_items = [
+    ("メアドを聞く",              "登録済みなので聞かない"),
+    ("迷惑フォルダを見て",         "正規メールは入らない"),
+    ("メールにURL",              "金融庁が禁止"),
+    ("不明な発行元でも実行して",    "正規ソフトは署名済み"),
+    ("携帯番号を聞く",            "登録済みなので聞かない"),
+    ("5要素一括入力",             "段階的に認証する"),
+]
+for ri, (item, reason) in enumerate(diff_items):
+    y = s16_top + 0.40 + ri * 0.50
+    add_bordered_box(slide16, s16_left + 7.7, y, 3.2, 0.50,
+                     C_DANGER_BG, C_RED, f"❌ {item}", 8, C_RED, bold=True)
+    add_bordered_box(slide16, s16_left + 10.9, y, 3.8, 0.50,
+                     RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xCC, 0xCC, 0xCC),
+                     reason, 8, C_GREY_TXT)
+
+# Key insight
+add_textbox(slide16, s16_left + 7.7, s16_top + 3.50, 7.0, 0.50,
+            "6個全て専門知識がないと気づけない。\n唯一「不明な発行元」だけがOSの警告で\n気づけるが、犯人のレベルアップで消える。",
+            font_size=9, color=C_GREY_TXT)
+
+# Bottom conclusions
+conc_y = s16_top + 4.20
+
+# Five "things bank never says"
+add_rect(slide16, s16_left, conc_y, 14.9, 0.40,
+         C_RED, "犯人が言う「銀行が絶対に言わないセリフ」5つ → 全て手順②の恐怖で無効化される", 11, C_WHITE)
+
+# Three technical cut points
+add_rect(slide16, s16_left, conc_y + 0.50, 14.9, 0.40,
+         C_GREEN, "技術的にKill Chainを切れるポイント3つ → 全て既存ツール・追加コストゼロ・顧客に依存しない", 11, C_WHITE)
+
+cut_points = [
+    ["④ DMARC p=reject", "メール遮断（銀行側で完結）"],
+    ["⑥ AppLocker/WDAC", "msi実行阻止（Windows標準搭載）"],
+    ["⑦⑨ EDR/振る舞い検知", "ScreenConnect通信＋異常送金検知"],
+]
+for ri, row in enumerate(cut_points):
+    y = conc_y + 0.90 + ri * 0.35
+    bg = RGBColor(0xEA, 0xFA, 0xF1)
+    add_bordered_box(slide16, s16_left, y, 4.0, 0.35,
+                     bg, C_GREEN, row[0], 9, C_DARK, bold=True)
+    add_bordered_box(slide16, s16_left + 4.0, y, 10.9, 0.35,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+
+# Root cause
+add_rect(slide16, s16_left, conc_y + 2.05, 14.9, 0.40,
+         C_ORANGE, "全ての対策が「顧客にやってね」で丸投げされ、機能していない", 12, C_WHITE)
+
+# Final verdict
+add_rect(slide16, s16_left, conc_y + 2.55, 14.9, 0.60,
+         C_DARK, "", 1, C_WHITE)
+add_textbox(slide16, s16_left + 0.3, conc_y + 2.58, 14.3, 0.55,
+            "最終結論：この攻撃が成立している根本原因は、犯人の巧みさではなく\n"
+            "「既にある対策を設定していない」「全てを顧客の問題にしている」こと。\n"
+            "銀行側が技術的対策を実装すれば、この攻撃は成立しなくなる。",
+            font_size=13, bold=True, color=C_WHITE, align=PP_ALIGN.CENTER)
+
+add_textbox(slide16, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 総括",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
