@@ -1021,6 +1021,106 @@ add_textbox(slide8, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 手順⑤ メールURLと金融庁要請",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 9: 「ブックマークからアクセスして」は機能しない
+# ══════════════════════════════════════════════════════
+slide9 = prs.slides.add_slide(prs.slide_layouts[6])
+slide9.background.fill.solid()
+slide9.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide9, 0, 0.2, 16.54, 0.6,
+            "「ブックマークからアクセスして」は機能しない",
+            font_size=24, bold=True, align=PP_ALIGN.CENTER, color=C_ORANGE)
+add_textbox(slide9, 0, 0.75, 16.54, 0.4,
+            "ブックマーク登録を顧客に任せている時点で、対策として成立していない。",
+            font_size=12, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+s9_left = 0.8
+s9_top = 1.3
+
+# How bank conveys URL
+add_rect(slide9, s9_left, s9_top, 7.2, 0.45,
+         C_DARK, "銀行のURL伝達方法（法人IB）", 12, C_WHITE)
+url_methods = [
+    ["① 契約時の書面", "紙にURLが記載されている"],
+    ["② 銀行の窓口", "担当者から口頭で案内"],
+    ["③ 銀行の公式HP", "検索 → HP → IBログインページ"],
+]
+for ri, row in enumerate(url_methods):
+    y = s9_top + 0.45 + ri * 0.45
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    add_bordered_box(slide9, s9_left, y, 2.5, 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 10, C_DARK, bold=True)
+    add_bordered_box(slide9, s9_left + 2.5, y, 4.7, 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 10, C_DARK)
+
+add_textbox(slide9, s9_left, s9_top + 1.85, 7.2, 0.3,
+            "→ 顧客が自分でブックマーク登録する必要がある", 10, bold=True, color=C_RED)
+
+# Reality vs assumption
+add_rect(slide9, s9_left + 7.7, s9_top, 7.0, 0.45,
+         C_DARK, "銀行の想定 vs 現実", 12, C_WHITE)
+reality_rows = [
+    ["契約時の書面を保管", "どこにしまったかわからない"],
+    ["ブックマークに登録済み", "登録していない人が多い"],
+    ["毎回ブックマークからアクセス", "毎回「BizSTATION」で検索している"],
+]
+for ri, row in enumerate(reality_rows):
+    y = s9_top + 0.45 + ri * 0.45
+    add_bordered_box(slide9, s9_left + 7.7, y, 3.2, 0.45,
+                     RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xCC, 0xCC, 0xCC),
+                     row[0], 9, C_DARK)
+    add_rect(slide9, s9_left + 10.9, y, 3.8, 0.45,
+             C_DANGER_BG, row[1], 9, C_RED, bold=True, align=PP_ALIGN.LEFT)
+
+# Impact on attack
+imp_y = s9_top + 2.4
+add_rect(slide9, s9_left, imp_y, 14.9, 0.45,
+         C_DARK, "ブックマーク登録の有無が攻撃成功率を左右する", 12, C_WHITE)
+
+# Two columns
+add_rect(slide9, s9_left, imp_y + 0.50, 7.2, 0.40,
+         C_GREEN, "ブックマーク登録済みの人（少数）", 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+add_bordered_box(slide9, s9_left, imp_y + 0.90, 7.2, 0.70,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_GREEN,
+                 "→ 「自分のブックマークと違うURLだ」と気づける可能性がある\n→ でも電話中なので確認しない",
+                 10, C_DARK)
+
+add_rect(slide9, s9_left + 7.7, imp_y + 0.50, 7.0, 0.40,
+         C_RED, "ブックマーク未登録の人（多数）", 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+add_bordered_box(slide9, s9_left + 7.7, imp_y + 0.90, 7.0, 0.70,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_RED,
+                 "→ 普段から検索やメールリンクでアクセスしている\n→ メールのボタンをクリックすることに抵抗がない\n→ 攻撃にそのまま乗ってしまう",
+                 10, C_DARK)
+
+# What bank should have done
+shd_y = imp_y + 1.85
+add_rect(slide9, s9_left, shd_y, 14.9, 0.45,
+         C_GREEN, "銀行がやるべきだったこと", 12, C_WHITE)
+
+should_rows = [
+    ["① 契約時にブックマークを設定してあげる", "窓口対応 or 初期設定ツールで銀行側が登録"],
+    ["② 公式アプリでしかアクセスできない仕組み", "ブラウザ経由のアクセスを廃止"],
+    ["③ 専用クライアントに統一", "ブラウザを使わせないことでフィッシング自体を不可能にする"],
+]
+for ri, row in enumerate(should_rows):
+    y = shd_y + 0.45 + ri * 0.45
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    add_bordered_box(slide9, s9_left, y, 5.5, 0.45,
+                     bg, C_GREEN, row[0], 9, C_DARK, bold=True)
+    add_bordered_box(slide9, s9_left + 5.5, y, 9.4, 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+
+# Conclusion
+add_rect(slide9, s9_left, shd_y + 1.85, 14.9, 0.50,
+         C_DARK,
+         "「自分でブックマーク登録してね」では対策にならない — 銀行側がアクセス経路を制御すべき",
+         13, C_WHITE)
+
+add_textbox(slide9, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — ブックマーク対策の限界",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
