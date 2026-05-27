@@ -1859,6 +1859,209 @@ add_textbox(slide16, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 総括",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 17: 真のターゲット — ワンオペの零細企業
+# ══════════════════════════════════════════════════════
+slide17 = prs.slides.add_slide(prs.slide_layouts[6])
+slide17.background.fill.solid()
+slide17.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide17, 0, 0.2, 16.54, 0.6,
+            "真のターゲット：ワンオペの零細企業",
+            font_size=24, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+add_textbox(slide17, 0, 0.70, 16.54, 0.4,
+            "「承認実行権限を持っている方は1を」— 犯人は最初からワンオペの社長を狙い撃ちしている。",
+            font_size=11, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+s17_left = 0.8
+s17_top = 1.15
+
+# Approval flow comparison
+add_rect(slide17, s17_left, s17_top, 14.9, 0.40,
+         C_DARK, "企業規模別の送金フロー — チェック機能の有無", 12, C_WHITE)
+
+flow_rows = [
+    ["大企業",     "担当者が作成 → 上長が承認 → 別の承認者が実行",  "3人が関与",   "1人が騙されても止まる",      C_GREEN],
+    ["中小企業",   "担当者が作成 → 上長が承認",                    "2人が関与",   "まだチェック機能がある",      C_ORANGE],
+    ["零細企業",   "社長が作成 → 社長が承認 → 社長が実行",         "1人（ワンオペ）", "チェック機能ゼロ",       C_RED],
+]
+flow_cols = [2.0, 5.5, 2.5, 4.9]
+
+for ri, row in enumerate(flow_rows):
+    y = s17_top + 0.40 + ri * 0.50
+    bg = RGBColor(0xFF, 0xFF, 0xFF)
+    x = s17_left
+    add_bordered_box(slide17, x, y, flow_cols[0], 0.50,
+                     bg, row[4], row[0], 10, C_DARK, bold=True)
+    x += flow_cols[0]
+    add_bordered_box(slide17, x, y, flow_cols[1], 0.50,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+    x += flow_cols[1]
+    add_bordered_box(slide17, x, y, flow_cols[2], 0.50,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[2], 9, C_DARK, bold=True)
+    x += flow_cols[2]
+    add_rect(slide17, x, y, flow_cols[3], 0.50,
+             row[4], row[3], 9, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+
+# What happens with one-person operation
+op_y = s17_top + 2.0
+add_rect(slide17, s17_left, op_y, 14.9, 0.40,
+         C_RED, "ワンオペだと全ての防御ポイントが消滅する", 12, C_WHITE)
+
+op_rows = [
+    ["「メアド教えて」に違和感",  "同僚に相談できる",           "相談相手がいない"],
+    ["不明な発行元の警告",       "IT担当に確認できる",          "IT担当がいない"],
+    ["送金の承認",              "別の承認者が止める",           "自分で承認してしまう"],
+    ["電話中に確認",            "他の人が銀行に電話できる",      "自分しかいない"],
+    ["事後の発覚",              "経理が不審な送金に気づく",      "自分が経理"],
+]
+op_cols = [3.5, 5.2, 6.2]
+op_headers = ["防御ポイント", "複数人体制", "ワンオペ"]
+
+x = s17_left
+for ci, h in enumerate(op_headers):
+    add_rect(slide17, x, op_y + 0.40, op_cols[ci], 0.38,
+             C_TAG_BG, h, 9, C_WHITE)
+    x += op_cols[ci]
+
+for ri, row in enumerate(op_rows):
+    y = op_y + 0.78 + ri * 0.40
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s17_left
+    add_bordered_box(slide17, x, y, op_cols[0], 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 9, C_DARK, bold=True)
+    x += op_cols[0]
+    add_bordered_box(slide17, x, y, op_cols[1], 0.40,
+                     bg, C_GREEN, row[1], 9, C_DARK)
+    x += op_cols[1]
+    add_rect(slide17, x, y, op_cols[2], 0.40,
+             C_DANGER_BG, row[2], 9, C_RED, bold=True, align=PP_ALIGN.LEFT)
+
+# Why target SMBs
+tgt_y = op_y + 2.90
+add_rect(slide17, s17_left, tgt_y, 14.9, 0.40,
+         C_DARK, "犯人の攻撃設計は最初からワンオペ零細企業を想定している", 12, C_WHITE)
+
+tgt_rows = [
+    ["「承認実行権限を持っている方」",  "ワンオペの社長を自動選別"],
+    ["電話をつないだまま",             "相談相手がいない状況を利用"],
+    ["幅広に架電",                    "零細企業の数は圧倒的に多い"],
+    ["1件数百万〜数千万円",            "零細でも十分なリターン"],
+]
+for ri, row in enumerate(tgt_rows):
+    y = tgt_y + 0.40 + ri * 0.38
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    add_bordered_box(slide17, s17_left, y, 5.0, 0.38,
+                     bg, C_RED, row[0], 9, C_DARK, bold=True)
+    add_bordered_box(slide17, s17_left + 5.0, y, 9.9, 0.38,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+
+# Conclusion
+add_rect(slide17, s17_left, tgt_y + 1.95, 14.9, 0.55,
+         C_DARK,
+         "零細企業は「セキュリティ体制なし＋ワンオペ＋相談相手なし＋承認チェックなし」\n"
+         "— 犯人にとって最も効率の良いターゲット。銀行側の技術的対策なしでは守れない。",
+         11, C_WHITE)
+
+add_textbox(slide17, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 零細企業ワンオペの脆弱性",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
+# ══════════════════════════════════════════════════════
+# Slide 18: 週次でシナリオ更新 — 注意喚起は構造的に追いつけない
+# ══════════════════════════════════════════════════════
+slide18 = prs.slides.add_slide(prs.slide_layouts[6])
+slide18.background.fill.solid()
+slide18.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide18, 0, 0.2, 16.54, 0.6,
+            "週次でシナリオ更新 — 注意喚起は構造的に追いつけない",
+            font_size=22, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+
+s18_left = 0.8
+s18_top = 0.85
+
+# PDCA
+add_rect(slide18, s18_left, s18_top, 14.9, 0.40,
+         C_DARK, "犯人は組織的にPDCAを回している", 13, C_WHITE)
+
+pdca_rows = [
+    ["Plan",  "新しいシナリオを設計",               "先週の失敗を改善", C_BLUE],
+    ["Do",    "大量架電で実行",                    "零細企業を含め幅広に", C_GREEN],
+    ["Check", "成功率・失敗ポイントを分析",          "どの手順で止まったか", C_ORANGE],
+    ["Act",   "翌週シナリオを改善",                "破綻ポイントを潰す", C_RED],
+]
+
+for ri, row in enumerate(pdca_rows):
+    y = s18_top + 0.40 + ri * 0.50
+    add_rect(slide18, s18_left, y, 2.0, 0.50,
+             row[3], row[0], 12, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+    add_bordered_box(slide18, s18_left + 2.0, y, 6.0, 0.50,
+                     RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xCC, 0xCC, 0xCC),
+                     row[1], 10, C_DARK)
+    add_bordered_box(slide18, s18_left + 8.0, y, 6.9, 0.50,
+                     RGBColor(0xF9, 0xF9, 0xF9), RGBColor(0xCC, 0xCC, 0xCC),
+                     row[2], 10, C_GREY_TXT)
+
+# Improvement examples
+imp2_y = s18_top + 2.50
+add_rect(slide18, s18_left, imp2_y, 14.9, 0.40,
+         C_ORANGE, "シナリオ改善の例 — 破綻ポイントを毎週潰していく", 12, C_WHITE)
+
+imp_rows = [
+    ["「メアドを聞いたら怪しまれた」",     "翌週は別の聞き方にする / 入手済みルートを優先"],
+    ["「不明な発行元で止まった」",        "翌週は証明書を用意する"],
+    ["「迷惑フォルダで止まった」",        "翌週はトーク改善する"],
+    ["「赤い画面で不審がられた」",        "翌週は画面デザインを変える"],
+]
+for ri, row in enumerate(imp_rows):
+    y = imp2_y + 0.40 + ri * 0.40
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    add_bordered_box(slide18, s18_left, y, 5.5, 0.40,
+                     bg, C_ORANGE, row[0], 9, C_DARK, bold=True)
+    add_bordered_box(slide18, s18_left + 5.5, y, 9.4, 0.40,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+
+# Speed asymmetry
+spd_y = imp2_y + 2.15
+add_rect(slide18, s18_left, spd_y, 14.9, 0.40,
+         C_DARK, "注意喚起 vs シナリオ更新のスピード — 非対称性", 12, C_WHITE)
+
+add_rect(slide18, s18_left, spd_y + 0.45, 7.2, 0.35,
+         C_GREY_BG, "銀行側の注意喚起", 10, C_DARK, bold=True, align=PP_ALIGN.CENTER)
+add_bordered_box(slide18, s18_left, spd_y + 0.80, 7.2, 0.60,
+                 RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xCC, 0xCC, 0xCC),
+                 "作成 → 社内審査 → 顧客に配信\n→ 数週間〜数ヶ月", 10, C_DARK)
+
+add_rect(slide18, s18_left + 7.7, spd_y + 0.45, 7.0, 0.35,
+         C_RED, "犯人のシナリオ更新", 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+add_bordered_box(slide18, s18_left + 7.7, spd_y + 0.80, 7.0, 0.60,
+                 C_DANGER_BG, C_RED,
+                 "先週の結果を分析 → シナリオ修正 → 翌週実行\n→ 1週間", 10, C_RED, bold=True)
+
+add_rect(slide18, s18_left, spd_y + 1.50, 14.9, 0.40,
+         C_RED, "銀行が1つのパターンに対応する間に、犯人は4〜8回シナリオを更新している", 12, C_WHITE)
+
+# Final conclusion
+add_rect(slide18, s18_left, spd_y + 2.10, 7.2, 0.35,
+         C_RED, "シナリオに依存する防御 = 追いつけない", 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+add_rect(slide18, s18_left + 7.7, spd_y + 2.10, 7.0, 0.35,
+         C_GREEN, "シナリオに依存しない防御 = 常に有効", 10, C_WHITE, bold=True, align=PP_ALIGN.CENTER)
+
+add_bordered_box(slide18, s18_left, spd_y + 2.45, 7.2, 0.65,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_RED,
+                 "❌ 注意喚起\n❌ パターンマッチ\n❌ セキュリティ教育", 9, C_RED)
+
+add_bordered_box(slide18, s18_left + 7.7, spd_y + 2.45, 7.0, 0.65,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_GREEN,
+                 "✅ DMARC p=reject → シナリオが何であれ偽メールは届かない\n"
+                 "✅ AppLocker → シナリオが何であれ未許可アプリは実行できない\n"
+                 "✅ 技術的対策だけが「シナリオに依存しない防御」", 9, C_GREEN)
+
+add_textbox(slide18, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 週次シナリオ更新と防御の非対称性",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)

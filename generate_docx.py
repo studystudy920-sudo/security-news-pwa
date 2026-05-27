@@ -272,6 +272,63 @@ run.bold = True
 run.font.color.rgb = RGBColor(0xC0, 0x39, 0x2B)
 
 # ═══════════════════════════════════════
+# 真のターゲット：ワンオペの零細企業
+# ═══════════════════════════════════════
+heading("6. 真のターゲット：ワンオペの零細企業", level=2)
+para("手順①の自動音声「承認実行権限を持っている方は1を」は、作成・承認・実行が全部できるワンオペの社長を狙い撃ちしている。", size=10, bold=True)
+
+heading("企業規模別の送金フロー", level=3)
+t_flow = doc.add_table(rows=1, cols=4)
+t_flow.style = 'Table Grid'
+for i, h in enumerate(["企業規模", "送金フロー", "関与人数", "チェック機能"]):
+    t_flow.rows[0].cells[i].text = h
+    set_cell_shading(t_flow.rows[0].cells[i], "222222")
+    for p in t_flow.rows[0].cells[i].paragraphs:
+        for r in p.runs:
+            r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            r.font.size = Pt(8)
+            r.font.name = "Meiryo"
+            r.bold = True
+add_table_row(t_flow, ["大企業", "担当者作成→上長承認→別の承認者実行", "3人", "1人が騙されても止まる"])
+add_table_row(t_flow, ["中小企業", "担当者作成→上長承認", "2人", "まだチェック機能がある"])
+add_table_row(t_flow, ["零細企業", "社長が作成→社長が承認→社長が実行", "1人（ワンオペ）", "チェック機能ゼロ"], bg="FDEDEC", font_color=RGBColor(0xC0, 0x39, 0x2B))
+
+heading("ワンオペで消滅する防御ポイント", level=3)
+t_op = doc.add_table(rows=1, cols=3)
+t_op.style = 'Table Grid'
+for i, h in enumerate(["防御ポイント", "複数人体制", "ワンオペ"]):
+    t_op.rows[0].cells[i].text = h
+    set_cell_shading(t_op.rows[0].cells[i], "222222")
+    for p in t_op.rows[0].cells[i].paragraphs:
+        for r in p.runs:
+            r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            r.font.size = Pt(8)
+            r.font.name = "Meiryo"
+            r.bold = True
+add_table_row(t_op, ["「メアド教えて」に違和感", "同僚に相談できる", "相談相手がいない"])
+add_table_row(t_op, ["不明な発行元の警告", "IT担当に確認できる", "IT担当がいない"])
+add_table_row(t_op, ["送金の承認", "別の承認者が止める", "自分で承認してしまう"])
+add_table_row(t_op, ["電話中に確認", "他の人が銀行に電話できる", "自分しかいない"])
+add_table_row(t_op, ["事後の発覚", "経理が不審な送金に気づく", "自分が経理"])
+
+red_box("零細企業は「セキュリティ体制なし＋ワンオペ＋相談相手なし＋承認チェックなし」— 犯人にとって最も効率の良いターゲット。")
+
+# ═══════════════════════════════════════
+# 週次シナリオ更新
+# ═══════════════════════════════════════
+heading("7. 週次でシナリオ更新 — 注意喚起は構造的に追いつけない", level=2)
+para("犯人は組織的にPDCAを回しており、週次でシナリオを改善している。", size=10, bold=True)
+para("• Plan：新しいシナリオを設計（先週の失敗を改善）\n• Do：大量架電で実行\n• Check：成功率・失敗ポイントを分析\n• Act：翌週シナリオを改善（破綻ポイントを潰す）", size=9)
+para("改善例：「メアドを聞いたら怪しまれた」→翌週は別の聞き方に / 「不明な発行元で止まった」→翌週は証明書を用意 / 「迷惑フォルダで止まった」→翌週はトーク改善", size=9)
+
+heading("注意喚起 vs シナリオ更新のスピード", level=3)
+para("銀行側：注意喚起を作成→社内審査→顧客に配信 → 数週間〜数ヶ月\n犯人側：先週の結果を分析→シナリオ修正→翌週実行 → 1週間\n→ 銀行が1つのパターンに対応する間に、犯人は4〜8回シナリオを更新している", size=9)
+
+red_box("注意喚起で防ぐ：❌ 不可能（シナリオが週次で変わる）")
+red_box("パターンマッチで防ぐ：❌ 不可能（毎週新パターン）")
+para("✅ DMARC p=reject → シナリオが何であれ、偽メールは届かない\n✅ AppLocker → シナリオが何であれ、未許可アプリは実行できない\n→ 技術的対策だけが「シナリオに依存しない防御」", size=10, bold=True, color=RGBColor(0x27, 0xAE, 0x60))
+
+# ═══════════════════════════════════════
 # 銀行の正規フローとの類似性
 # ═══════════════════════════════════════
 doc.add_page_break()
