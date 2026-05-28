@@ -472,6 +472,64 @@ add_table_row(t_det, ["操作速度", "人間の速度", "異常に速い可能�
 
 para("■ 銀行の追加認証（電話確認）すら機能しない：被害者は犯人との電話がつながったままで銀行からの電話に出られない。出たとしても「はい、自分で送金しました」と答える（攻撃されていることに気づいていない）。", size=9)
 
+# ═══════════════════════════════════════
+# 付録5：振込を即時に止められない理由
+# ═══════════════════════════════════════
+doc.add_page_break()
+heading("付録：振込を即時に止められない理由")
+para("異常検知の信号があっても、振込そのものをリアルタイムで止めることは極めて困難。理由は複数の要因が重なっているため。", size=10)
+
+para("理由1：振込時点では「正規の取引」と判別不能", size=10, bold=True)
+para("正しい認証情報（窃取済みだが有効）、正しいOTP（有効期限内）、本人のアカウント・いつものIP（PC経由）→「本人による正規の振込」としか見えず、止める根拠がない。", size=9)
+
+para("理由2：振込限度額の範囲内なら自動で通る", size=10, bold=True)
+para("法人IBの振込限度額は高額に設定されている。限度額の範囲内ならシステムが自動承認し、人間のチェックが入らず数秒で送金完了。", size=9)
+
+para("理由3：全銀システムは「即時送金」が前提", size=10, bold=True)
+para("モアタイムシステムで24時間即時着金。便利だが「ちょっと待った」ができず、着金した瞬間に引き出し可能。", size=9)
+
+para("理由4：着金後すぐ資金が分散される（マネロン）", size=10, bold=True)
+para("出し子の口座に着金 → 即座にATM出金 / 別口座へ転送 / 暗号資産へ変換 → 数分で資金が消え、組戻し（取り消し）が間に合わない。", size=9)
+
+para("理由5：被害者が攻撃に気づくのが遅い", size=10, bold=True)
+para("被害者は「銀行の手続きをした」と思っており、攻撃を受けたと認識していない。通報が数時間〜数日遅れ、その間に資金は完全に消える。", size=9)
+
+red_box("「速い・高額・自動・即着金」という法人IBの利便性が、そのまま攻撃の通り道になっている。")
+para("→ 事後に止めるのは不可能。振込の手前（手順④⑥）で止めるか、「初回送金先は着金保留」のような仕組みが必要。", size=10, bold=True, color=RGBColor(0x27, 0xAE, 0x60))
+
+# ═══════════════════════════════════════
+# 付録6：BECとの違い・攻撃の分類
+# ═══════════════════════════════════════
+doc.add_page_break()
+heading("付録：BEC（ビジネスメール詐欺）との違い")
+para("BEC = Business Email Compromise。経営者や取引先になりすまし、メールで偽の送金指示を出す詐欺。今回のKill Chainは典型的なBECではなく、別系統の攻撃である。", size=10)
+
+t_bec = doc.add_table(rows=1, cols=3)
+t_bec.style = 'Table Grid'
+for i, h in enumerate(["判定軸", "BEC（従来）", "今回のKill Chain"]):
+    t_bec.rows[0].cells[i].text = h
+    set_cell_shading(t_bec.rows[0].cells[i], "222222")
+    for p in t_bec.rows[0].cells[i].paragraphs:
+        for r in p.runs:
+            r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            r.font.size = Pt(8)
+            r.font.name = "Meiryo"
+            r.bold = True
+add_table_row(t_bec, ["起点", "メールの侵害・なりすまし（必須）", "電話（自動音声の架電）"])
+add_table_row(t_bec, ["主な手段", "偽の送金指示メール", "偽サイト＋リモート操作（ScreenConnect）"])
+add_table_row(t_bec, ["誰が送金するか", "被害者自身が騙されて送金", "犯人が遠隔操作で送金"])
+add_table_row(t_bec, ["認証情報", "盗まない（送金を指示するだけ）", "全認証情報を窃取"])
+add_table_row(t_bec, ["なりすまし対象", "経営者・取引先", "銀行"])
+
+heading("今回の攻撃の正しい分類", level=2)
+para("この攻撃は「Vishing（ボイスフィッシング）」＋「RAT（リモートアクセスツール）悪用」＋「リアルタイムフィッシング（認証情報窃取）」の複合攻撃。", size=10)
+para("近い概念：Tech Support Scam（テクサポ詐欺）の手口を流用、Bank Helpdesk Fraud（銀行ヘルプデスク詐欺）、ATO（Account Takeover／口座乗っ取り）", size=9)
+red_box("最も正確な分類：「Vishing起点のATO（口座乗っ取り）型不正送金」")
+para("BECは「メールで人を騙して送金させる」。今回は「電話で人を操り、リモートで侵入し、犯人が送金する」。目的（法人の不正送金）は同じだが、手口の系統が違う。", size=10, bold=True)
+
+heading("今回の攻撃がBECより厄介な点", level=2)
+para("• BECは「送金指示を疑う」教育で一定防げる（「口座変更は電話で確認」等）\n• 今回は被害者が銀行の手続きだと信じているので、疑うきっかけがない\n• BECは人が送金するが、今回は犯人が直接送金するので止められない", size=9)
+
 # Save
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.docx"
 doc.save(out)

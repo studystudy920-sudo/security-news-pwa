@@ -2062,6 +2062,133 @@ add_textbox(slide18, 10, 11.35, 6.5, 0.25,
             "Fraud Kill Chain — 週次シナリオ更新と防御の非対称性",
             7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
 
+# ══════════════════════════════════════════════════════
+# Slide 19: 振込を即時に止められない理由
+# ══════════════════════════════════════════════════════
+slide19 = prs.slides.add_slide(prs.slide_layouts[6])
+slide19.background.fill.solid()
+slide19.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide19, 0, 0.2, 16.54, 0.6,
+            "振込を即時に止められない理由",
+            font_size=24, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+add_textbox(slide19, 0, 0.70, 16.54, 0.4,
+            "「速い・高額・自動・即着金」という法人IBの利便性が、そのまま攻撃の通り道になっている。",
+            font_size=11, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+s19_left = 0.8
+s19_top = 1.20
+
+reasons = [
+    ["理由1：振込時点では「正規の取引」と判別不能",
+     "正しい認証情報・OTP・本人のアカウント・いつものIP（PC経由）→「本人による正規の振込」としか見えず、止める根拠がない"],
+    ["理由2：振込限度額の範囲内なら自動で通る",
+     "法人IBの限度額は高額。範囲内ならシステムが自動承認し、人間のチェックが入らず数秒で送金完了"],
+    ["理由3：全銀システムは「即時送金」が前提",
+     "モアタイムシステムで24時間即時着金。「ちょっと待った」ができず、着金した瞬間に引き出し可能"],
+    ["理由4：着金後すぐ資金が分散される（マネロン）",
+     "出し子の口座へ着金 → 即ATM出金/別口座/暗号資産へ → 数分で資金が消え、組戻しが間に合わない"],
+    ["理由5：被害者が攻撃に気づくのが遅い",
+     "「銀行の手続きをした」と思っており、通報が数時間〜数日遅れる。その間に資金は完全に消える"],
+]
+for ri, row in enumerate(reasons):
+    y = s19_top + ri * 0.85
+    add_rect(slide19, s19_left, y, 14.9, 0.40,
+             C_DARK, row[0], 11, C_WHITE)
+    add_bordered_box(slide19, s19_left, y + 0.40, 14.9, 0.42,
+                     RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xCC, 0xCC, 0xCC),
+                     row[1], 9, C_DARK)
+
+# Conclusion
+conc19_y = s19_top + 5 * 0.85 + 0.1
+add_rect(slide19, s19_left, conc19_y, 14.9, 0.45,
+         C_RED, "送金の瞬間：正規と区別できない → 送金直後：資金が即分散 → 被害認識：本人が気づかない", 12, C_WHITE)
+add_rect(slide19, s19_left, conc19_y + 0.50, 14.9, 0.50,
+         C_GREEN,
+         "事後に止めるのは不可能。振込の手前（手順④⑥）で止めるか、「初回送金先は着金保留」の仕組みが必要。",
+         12, C_WHITE)
+
+add_textbox(slide19, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — 振込を即時に止められない理由",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
+# ══════════════════════════════════════════════════════
+# Slide 20: BECとの違い・攻撃の正しい分類
+# ══════════════════════════════════════════════════════
+slide20 = prs.slides.add_slide(prs.slide_layouts[6])
+slide20.background.fill.solid()
+slide20.background.fill.fore_color.rgb = RGBColor(0xF5, 0xF5, 0xF5)
+
+add_textbox(slide20, 0, 0.2, 16.54, 0.6,
+            "BEC（ビジネスメール詐欺）との違い",
+            font_size=24, bold=True, align=PP_ALIGN.CENTER, color=C_RED)
+add_textbox(slide20, 0, 0.70, 16.54, 0.4,
+            "今回のKill Chainは典型的なBECではなく、別系統の攻撃。BEC＝メール侵害が起点。",
+            font_size=11, align=PP_ALIGN.CENTER, color=C_GREY_TXT)
+
+s20_left = 0.8
+s20_top = 1.20
+
+# Comparison table
+add_rect(slide20, s20_left, s20_top, 14.9, 0.40,
+         C_DARK, "BEC vs 今回のKill Chain", 12, C_WHITE)
+
+bec_rows = [
+    ["起点",            "メールの侵害・なりすまし（必須）", "電話（自動音声の架電）"],
+    ["主な手段",        "偽の送金指示メール",            "偽サイト＋リモート操作（ScreenConnect）"],
+    ["誰が送金するか",   "被害者自身が騙されて送金",        "犯人が遠隔操作で送金"],
+    ["認証情報",        "盗まない（送金を指示するだけ）",   "全認証情報を窃取"],
+    ["なりすまし対象",   "経営者・取引先",                "銀行"],
+]
+bec_cols = [3.5, 5.7, 5.7]
+bec_headers = ["判定軸", "BEC（従来）", "今回のKill Chain"]
+
+x = s20_left
+for ci, h in enumerate(bec_headers):
+    add_rect(slide20, x, s20_top + 0.40, bec_cols[ci], 0.40,
+             C_TAG_BG, h, 10, C_WHITE)
+    x += bec_cols[ci]
+
+for ri, row in enumerate(bec_rows):
+    y = s20_top + 0.80 + ri * 0.45
+    bg = RGBColor(0xF9, 0xF9, 0xF9) if ri % 2 else RGBColor(0xFF, 0xFF, 0xFF)
+    x = s20_left
+    add_bordered_box(slide20, x, y, bec_cols[0], 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[0], 9, C_DARK, bold=True)
+    x += bec_cols[0]
+    add_bordered_box(slide20, x, y, bec_cols[1], 0.45,
+                     bg, RGBColor(0xCC, 0xCC, 0xCC), row[1], 9, C_DARK)
+    x += bec_cols[1]
+    add_bordered_box(slide20, x, y, bec_cols[2], 0.45,
+                     bg, C_RED, row[2], 9, C_RED, bold=True)
+
+# Classification
+cls_y = s20_top + 3.20
+add_rect(slide20, s20_left, cls_y, 14.9, 0.40,
+         C_DARK, "今回の攻撃の正しい分類", 12, C_WHITE)
+add_bordered_box(slide20, s20_left, cls_y + 0.45, 14.9, 0.60,
+                 RGBColor(0xFF, 0xFF, 0xFF), RGBColor(0xCC, 0xCC, 0xCC),
+                 "「Vishing（ボイスフィッシング）」＋「RAT（リモートアクセスツール）悪用」＋「リアルタイムフィッシング（認証情報窃取）」の複合攻撃\n"
+                 "近い概念：Tech Support Scam（テクサポ詐欺）/ Bank Helpdesk Fraud / ATO（口座乗っ取り）",
+                 10, C_DARK)
+add_rect(slide20, s20_left, cls_y + 1.15, 14.9, 0.50,
+         C_RED, "最も正確な分類：「Vishing起点のATO（口座乗っ取り）型不正送金」", 14, C_WHITE)
+
+# Why worse than BEC
+worse_y = cls_y + 1.85
+add_rect(slide20, s20_left, worse_y, 14.9, 0.40,
+         C_ORANGE, "今回の攻撃がBECより厄介な点", 12, C_WHITE)
+add_bordered_box(slide20, s20_left, worse_y + 0.45, 14.9, 0.85,
+                 RGBColor(0xFF, 0xFF, 0xFF), C_ORANGE,
+                 "• BECは「送金指示を疑う」教育で一定防げる（「口座変更は電話で確認」等）\n"
+                 "• 今回は被害者が銀行の手続きだと信じているので、疑うきっかけがない\n"
+                 "• BECは人が送金するが、今回は犯人が直接送金するので止められない",
+                 10, C_DARK)
+
+add_textbox(slide20, 10, 11.35, 6.5, 0.25,
+            "Fraud Kill Chain — BECとの違いと攻撃分類",
+            7, color=C_GREY_TXT, align=PP_ALIGN.RIGHT)
+
 # ── Save ──
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.pptx"
 prs.save(out)
