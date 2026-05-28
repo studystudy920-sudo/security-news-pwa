@@ -357,6 +357,121 @@ red_box("構造的問題：正規と詐欺の区別が顧客側ではほぼ不�
 
 para("\n注意喚起・ガイドライン・金融庁の要請 — すべてが「冷静な時の判断力」を前提にしている。この攻撃は、その前提自体を手順②で破壊している。", size=10, bold=True)
 
+# ═══════════════════════════════════════
+# 付録2：正規の体験を99%再現した攻撃
+# ═══════════════════════════════════════
+doc.add_page_break()
+heading("付録：正規の銀行体験を99%再現した攻撃")
+para("この攻撃は「偽物」ではなく「正規の体験を99%再現した攻撃」である。赤い画面の色までブランドカラーに合わせている。", size=10)
+
+heading("正規と同じもの（10個）", level=2)
+same2 = [
+    ("自動音声の振り分け", "銀行のコールセンターと同じ体験"),
+    ("担当者との電話対応", "銀行員と話している感覚と同じ"),
+    ("「郵送した」「口座制限」のセリフ", "銀行が日常的に言うセリフと同じ"),
+    ("メールのデザイン", "BizSTATIONの正規デザインを完全模倣"),
+    ("メールの件名", "実在する案内と同じ文言を使用"),
+    ("Webページのデザイン", "BizSTATIONのデザインを完全模倣"),
+    ("赤い画面の色", "Mバンくのブランドカラー（コーポレートカラー）に合わせている"),
+    ("赤い画面の文言", "銀行の丁寧語・敬語と同じトーン"),
+    ("SMS認証の流れ", "正規の認証フローと同じ体験"),
+    ("セキュリティソフト推奨", "Rapportは実在するソフト（IBM提供、銀行が推奨）"),
+]
+for item, detail in same2:
+    para(f"✅ {item} — {detail}", size=9, color=RGBColor(0x27, 0xAE, 0x60))
+
+heading("正規と違うもの（6個）— 全て専門知識がないと気づけない", level=2)
+diff2 = [
+    ("❌ メアドを聞く", "BizSTATION契約時にメアド登録済み。銀行は聞かない。"),
+    ("❌ 迷惑フォルダを見て", "正規メールはSPF/DKIM/DMARC通過し正規フォルダに届く。迷惑フォルダに入らない。"),
+    ("❌ メールにURLリンク", "金融庁の要請により金融機関のメールにURL記載は禁止。"),
+    ("❌ 不明な発行元でも実行して", "正規ソフト（Rapport等）は署名済み。「不明な発行元」はありえない。ただし犯人が証明書を取得すれば消せる。"),
+    ("❌ 携帯番号を聞く", "SMS認証設定時に携帯番号は登録済み。銀行は聞かない。"),
+    ("❌ 5要素を一画面で一括入力", "正規のBizSTATIONは段階的に認証する。一括入力はありえない。"),
+]
+for item, detail in diff2:
+    para(f"{item}", size=9, bold=True, color=RGBColor(0xC0, 0x39, 0x2B))
+    para(f"　{detail}", size=9, color=RGBColor(0x88, 0x88, 0x88))
+
+para("正規と同じ：10個。正規と違う：6個。しかも「正規と違う」6個は全て専門知識がないと気づけない。唯一「不明な発行元」だけがOSの警告で気づけるが、犯人のレベルアップで消える。", size=10, bold=True)
+
+heading("「銀行が絶対に言わないセリフ」5つ — 全て手順②の恐怖で無効化", level=2)
+
+t_never = doc.add_table(rows=1, cols=3)
+t_never.style = 'Table Grid'
+for i, h in enumerate(["手順", "銀行が絶対に言わないセリフ", "理由"]):
+    t_never.rows[0].cells[i].text = h
+    set_cell_shading(t_never.rows[0].cells[i], "C0392B")
+    for p in t_never.rows[0].cells[i].paragraphs:
+        for r in p.runs:
+            r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            r.font.size = Pt(8)
+            r.font.name = "Meiryo"
+            r.bold = True
+add_table_row(t_never, ["③", "「メアドを教えてください」", "契約時に登録済み"])
+add_table_row(t_never, ["④", "「迷惑メールフォルダを確認してください」", "正規メールは迷惑フォルダに入らない"])
+add_table_row(t_never, ["⑤", "「メールのボタンをクリックしてください」", "金融庁が禁止。銀行の方針でも禁止。"])
+add_table_row(t_never, ["⑥", "「不明な発行元でも実行してください」", "正規ソフトは署名済み"])
+add_table_row(t_never, ["⑧", "「携帯電話の番号を教えてください」", "SMS認証設定時に登録済み"])
+
+red_box("破綻ポイントが5つもあるのに全部突破される。たった1つの理由：手順②「口座の利用制限をしています」")
+
+# ═══════════════════════════════════════
+# 付録3：1本の電話の構造
+# ═══════════════════════════════════════
+doc.add_page_break()
+heading("付録：1本の電話 — つないだまま全手順を完了させる")
+para("手順①から手順⑨まで、1本の電話が切れていない。被害者にとっては「銀行の担当者に電話で付き添ってもらいながら手続きをした」という体験でしかない。", size=10)
+
+heading("電話をつないだままにする5つの効果", level=2)
+
+t_phone = doc.add_table(rows=1, cols=2)
+t_phone.style = 'Table Grid'
+for i, h in enumerate(["効果", "理由"]):
+    t_phone.rows[0].cells[i].text = h
+    set_cell_shading(t_phone.rows[0].cells[i], "222222")
+    for p in t_phone.rows[0].cells[i].paragraphs:
+        for r in p.runs:
+            r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            r.font.size = Pt(8)
+            r.font.name = "Meiryo"
+            r.bold = True
+add_table_row(t_phone, ["考える隙を与えない", "電話を切ったら冷静になる。切らせない。"])
+add_table_row(t_phone, ["リアルタイム制御", "被害者の画面状況に合わせて次の指示を出せる。"])
+add_table_row(t_phone, ["離脱防止", "「このままお待ちください」で引き留められる。"])
+add_table_row(t_phone, ["第三者への相談を防ぐ", "電話中なので同僚や家族に相談できない。特にワンオペの零細企業では致命的。"])
+add_table_row(t_phone, ["信頼の維持", "銀行員が丁寧に付き添ってくれている感覚。"])
+
+heading("もし電話が切れたら（攻撃失敗）", level=2)
+para("• 「本当に銀行からの電話だったのか？」と疑問に思う\n• 銀行の公式番号にかけ直す\n• 同僚や上司に相談する\n• ネットで調べる", size=9)
+red_box("これらの行動をすべて封じるために、電話をつないだまま全手順を一気に完了させている。")
+
+# ═══════════════════════════════════════
+# 付録4：手順⑨ 不正送金
+# ═══════════════════════════════════════
+heading("付録：手順⑨ 不正送金 — 被害者のPCを経由しIPアドレスを偽装", level=1)
+para("犯人は赤い画面の裏で被害者のPC（ScreenConnect経由）からBizSTATIONにアクセスし、窃取した認証情報で送金を実行する。犯人のPCからではなく被害者のPCを経由する理由は、IPアドレスを「いつもの場所」に見せるため。", size=10)
+
+heading("銀行側の振る舞い検知", level=2)
+t_det = doc.add_table(rows=1, cols=4)
+t_det.style = 'Table Grid'
+for i, h in enumerate(["検知項目", "正常", "この攻撃", "結果"]):
+    t_det.rows[0].cells[i].text = h
+    set_cell_shading(t_det.rows[0].cells[i], "222222")
+    for p in t_det.rows[0].cells[i].paragraphs:
+        for r in p.runs:
+            r.font.color.rgb = RGBColor(0xFF, 0xFF, 0xFF)
+            r.font.size = Pt(8)
+            r.font.name = "Meiryo"
+            r.bold = True
+add_table_row(t_det, ["IPアドレス", "いつもの場所", "いつもの場所（PC経由）", "すり抜ける"], bg="FDEDEC")
+add_table_row(t_det, ["時間帯", "業務時間内", "業務時間内（電話中）", "すり抜ける"], bg="FDEDEC")
+add_table_row(t_det, ["送金先口座", "取引先", "初めての口座", "検知できる ★"], bg="EAFAF1")
+add_table_row(t_det, ["送金金額", "通常範囲", "通常より大きい可能性", "検知できる ★"], bg="EAFAF1")
+add_table_row(t_det, ["操作速度", "人間の速度", "異常に速い可能性", "検知できる ★"], bg="EAFAF1")
+
+para("■ 銀行の追加認証（電話確認）すら機能しない：被害者は犯人との電話がつながったままで銀行からの電話に出られない。出たとしても「はい、自分で送金しました」と答える（攻撃されていることに気づいていない）。", size=9)
+
 # Save
 out = "/home/user/security-news-pwa/Fraud_Kill_Chain.docx"
 doc.save(out)
