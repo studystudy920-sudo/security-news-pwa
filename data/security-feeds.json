@@ -1,6 +1,51 @@
 {
   "feeds": [
     {
+      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+      "summary": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as C",
+      "date": "2026-05-30",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
+      "summary": "Palo Alto Networks is warning that hackers are now exploiting a PAN-OS GlobalProtect authentication bypass flaw, tracked as CVE-2026-0257, in attacks attempting to breach corporate networks. [...]",
+      "date": "2026-05-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
+      "url": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
+      "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request m",
+      "date": "2026-05-30",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "「さぬきマルシェinサンポート」に警察ブースを設置 サイバーセキュリティー啓発など 香川県警 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSzFKWnllaXUyOGhkZjF3Z1o5OHNMc2p4ZW1WOU5PUDA5NHRoNnowQV9LSGJIbmNraU5OUEZ3YlZvWlgycmhPUXF0M05ZWHFsd1ktLXoydzlkSW9sOFpzMEl1eFlpSEN3UXIxZnNoeVkwM1FZTlMtc0J1cFVUZWgzZ2o5ZFpfdDZRLWhDNkRaRTFuQnpuZGNNR19oRUJGSEpaZGFwN2lCREZ5QnpzcUpCSFoxTVhXemNvakg1QnJha2d1c3V4T0HSAXZBVV95cUxNSU90a2FfdHpieGoyVXVFdUpma1kxckthTndrUGctd3EwYjZlMVBNVHJCTUtSVWQ1eVd2RG9YMWw2cksyaHh0OG9SUWtFc09wd1NoVTRyaFR0aUttUnJvS3hsTjdtYU5WaE1hQ1pWWXZHSnpYNGh3?oc=5",
+      "summary": "「さぬきマルシェinサンポート」に警察ブースを設置 サイバーセキュリティー啓発など 香川県警&nbsp;&nbsp;ｄメニューニュース",
+      "date": "2026-05-30",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "ミュトス、7週間で2万件の脆弱性を発見も修正は1%未満…サイバー防衛の構造的限界 - ビジネスジャーナル",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Gb20xUlozSWc4QTN2VTdGODZDcWtIQ2Q5aVd3TEZpbFpQN3h5X3YwMzl6VjhycGR1MEpGclZITDRXRkkwRURyblNYX2dfcVlpUDRvbQ?oc=5",
+      "summary": "ミュトス、7週間で2万件の脆弱性を発見も修正は1%未満…サイバー防衛の構造的限界&nbsp;&nbsp;ビジネスジャーナル",
+      "date": "2026-05-30",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "キヤノン製My Image Garden for macOSおよびCUPS Printer Driver for macOSにおけるファイルアクセス時のリンク解釈が不適切な脆弱性",
       "url": "https://jvn.jp/vu/JVNVU93879027/",
       "summary": "キヤノン株式会社が提供するMy Image Garden for macOSおよびCUPS Printer Driver for macOSには、ファイルにアクセスする時のリンク解釈が不適切なため、意図しないファイルまたはディレクトリにアクセスしてしまう脆弱性が存在します。",
@@ -37,7 +82,7 @@
       "category": "news"
     },
     {
-      "title": "New Russian-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+      "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
       "url": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
       "summary": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025. GREYVIBE, per Wi",
       "date": "2026-05-29",
@@ -145,15 +190,6 @@
       "category": "news"
     },
     {
-      "title": "Anthropic confirms Claude Mythos-class models will roll out to the public",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-mythos-class-models-will-roll-out-to-the-public/",
-      "summary": "Anthropic has confirmed that it plans to bring Mythos-class models to the general public after delaying the rollout due to security risks to public and private software. [...]",
-      "date": "2026-05-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, May 29th, 2026 https://isc.sans.edu/podcastdetail/9950, (Fri, May 29th)",
       "url": "https://isc.sans.edu/diary/rss/33030",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -172,27 +208,18 @@
       "category": "alert"
     },
     {
-      "title": "OpenAI、金融機関に「GPT-5.5-Cyber」提供 「日本サイバーアクションプラン」（Impress Watch） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5CUlBSNzZ4WGpRRkg5ZEJCZVg5Nnk1bUJlTDN3SFprbFFNM3lodGRkaG11YzI1Z0NLdUJETlBOdmp3Nmg5QndiS1Q2S0t0YkZRU2p3aGlSeTRqcUVSWno2LU8yelVUQ01JeldnbDdDMWszZ0d2UWQyb0J2WEh4cUU?oc=5",
-      "summary": "OpenAI、金融機関に「GPT-5.5-Cyber」提供 「日本サイバーアクションプラン」（Impress Watch）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "OpenAI、日本政府とサイバーセキュリティで協力 最新AI「GPT-5.5-Cyber」を金融機関に提供 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KZXQ3STVEb2ZLT2hPUXptcHc1YWc2cFpBc0JOc2c1am1SLW1IQlJhOTZIYUpWWFpBTzBSS0pkQk1SWmtnUEJxaFp1YmRTSjlGRGFjRnN6YzdYTVBsNjdNb3dScG4wTmdHSnZTdw?oc=5",
+      "summary": "OpenAI、日本政府とサイバーセキュリティで協力 最新AI「GPT-5.5-Cyber」を金融機関に提供&nbsp;&nbsp;ITmedia",
       "date": "2026-05-29",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "サイバーセキュリティにおけるAIによるスキル喪失：ソフトウェア業界の未来への警告 - Forbes JAPAN",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hSllfN1lERloycklSU29hM0FiUGxOaUlheFJuMzFFdlRxTGRIdVNyZWdxV01NYUV6V05MbUtITjU3RGw4cjBIa3RfOEh2bjFfaktPa2dHbWk?oc=5",
-      "summary": "サイバーセキュリティにおけるAIによるスキル喪失：ソフトウェア業界の未来への警告&nbsp;&nbsp;Forbes JAPAN",
-      "date": "2026-05-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "パナソニック、車載サイバーセキュリティ脅威分析ソリューション試用版を無償提供開始 - レスポンス（Response.jp）",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Uc05VR2VFejhuanNYamlPSHpJalpFckIzX0hGclB5NGxWR01TejBUdGRWV2FVa09RX2VTeU90MmJERzQxTS1UR25fZEVqZTVJQWVweXpJUndER3hMXzhR?oc=5",
-      "summary": "パナソニック、車載サイバーセキュリティ脅威分析ソリューション試用版を無償提供開始&nbsp;&nbsp;レスポンス（Response.jp）",
+      "title": "Claude Mythosで激変するセキュリティの新ルール 勝敗を決めるのは「修復のスピード」（TechTargetジャパン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TY09zczJiam5CTDBqRm5oRzFtM1pCNllyc1dkbGkzemV3VHBhU0g0cVgyanpnZ3ZjdGVCLWdReTNpeTJEWGNjbU9hbjExUHNWUFlJU2tiVFhhZ1NMcHdwc3I4WDU2NjNxM0xJRVA0QlcwdG9FRmI5MklhYnpaRlU?oc=5",
+      "summary": "Claude Mythosで激変するセキュリティの新ルール 勝敗を決めるのは「修復のスピード」（TechTargetジャパン）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-05-29",
       "source": "Google News JP",
       "language": "日本語",
@@ -208,9 +235,18 @@
       "category": "news"
     },
     {
-      "title": "LLMを「危ないプロンプト」から守る“総務省お墨付き”の具体策とは？ - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9PVHoyUzBocGY3dm5XOFdJMklucUQ5U3dLT1VNVDNpRjhXbmxXSks4NUdlZXJYcnFBSUZUeXZoYWM5X29iSU5NektGcFd2bllfRXNIeHA1ZDVjakdpdXR2VVdyaE5LRWV5S2NTVDJmTkJyQQ?oc=5",
-      "summary": "LLMを「危ないプロンプト」から守る“総務省お墨付き”の具体策とは？&nbsp;&nbsp;ITmedia",
+      "title": "パナソニック、車載サイバーセキュリティ脅威分析ソリューション試用版を無償提供開始 - レスポンス（Response.jp）",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Uc05VR2VFejhuanNYamlPSHpJalpFckIzX0hGclB5NGxWR01TejBUdGRWV2FVa09RX2VTeU90MmJERzQxTS1UR25fZEVqZTVJQWVweXpJUndER3hMXzhR?oc=5",
+      "summary": "パナソニック、車載サイバーセキュリティ脅威分析ソリューション試用版を無償提供開始&nbsp;&nbsp;レスポンス（Response.jp）",
+      "date": "2026-05-29",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "なぜ経営者はサイバーセキュリティと不正防止を事業の大前提とすべきか――AI時代の新常識 - Forbes JAPAN",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TSU9VbjRDMTl3UXFhNHVEU25fUlZSUVRjX1k1MzhqcF9iUDFhb2ZwSlBFampRMGVFVWNwcFduQWVsOGd1eWtTbmFuR01vX0o3Z0FKc0ttd2Q?oc=5",
+      "summary": "なぜ経営者はサイバーセキュリティと不正防止を事業の大前提とすべきか――AI時代の新常識&nbsp;&nbsp;Forbes JAPAN",
       "date": "2026-05-29",
       "source": "Google News JP",
       "language": "日本語",
@@ -267,24 +303,6 @@
       "summary": "Microsoft has come out strongly in favor of Coordinated Vulnerability Disclosure (CVD), urging the research community to share their findings and give affected vendors an opportunity to better underst",
       "date": "2026-05-28",
       "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-      "summary": "Every time you think the industry has finally stopped doing some reckless, low-effort crap, somebody spins up a fresh box full of sketchy loaders, fake installers, recycled social-engineering bait, an",
-      "date": "2026-05-28",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
-      "url": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
-      "summary": "A likely Russian threat cluster tracked as GreyVibe has been targeting Ukrainian entities with AI-generated lures and a rich set of custom malware tools. [...]",
-      "date": "2026-05-28",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -388,27 +406,18 @@
       "category": "alert"
     },
     {
+      "title": "Mythos発見の脆弱性も慌てず対処可能に、マクニカがリスク管理支援SaaS（2ページ目） - 日経クロステック",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQmd5MmhtUkpjVUdKNjhJa2U3dW5FcG9ZWWJQbXFaUmNxX0xfX2Yyd25ZZktVTGRyQlRiSTBNLU5ZdV9ObVZ4REIwY2t0U2NIWUFreWN6Z0h2MjloTHM3YXhudHYyaHUxUko4dU5WZi1IX1ZFcUxuZ19DN0t3cF9WVkNYeDVsR3hQaFlOVFhXVllQbjYy?oc=5",
+      "summary": "Mythos発見の脆弱性も慌てず対処可能に、マクニカがリスク管理支援SaaS（2ページ目）&nbsp;&nbsp;日経クロステック",
+      "date": "2026-05-28",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "能動的サイバー防御に向け、基幹インフラ事業者にサイバー攻撃の報告義務などの命令 - INTERNET Watch",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FVW41b0p6LW1waG5jZXl6WldyUFA0a3NmUC1weVc1blIzV1c1MkQyaG92VnlUMmNjOWhtSjhMcUVtQ2otRU9hOTBwbkExVXRoWkhkdFFSX3dzWlNMWnFJQ2t5Y01OXzBmQTRZ?oc=5",
       "summary": "能動的サイバー防御に向け、基幹インフラ事業者にサイバー攻撃の報告義務などの命令&nbsp;&nbsp;INTERNET Watch",
-      "date": "2026-05-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "NEC、サイバー犯罪捜査官の実践的なサイバーセキュリティ対応能力向上を支援 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBfS2luS1ZjLUNzaUtRbDFTRmFsR1VFZmZkRG50cS1BVTc2cWR0c1NUQU9lOVZ4UDExSElHQmdPUzJOVUxCRlU3cW9MWnlucHFSUTFPT1ZwTXhNOGJsSlJVUWdxOGgzY3FHb2ZQN1JJLWNsTHlHWVpiWThzVQ?oc=5",
-      "summary": "NEC、サイバー犯罪捜査官の実践的なサイバーセキュリティ対応能力向上を支援&nbsp;&nbsp;ニコニコニュース",
-      "date": "2026-05-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "マクニカ、ASMを生かした新たなリスク管理サービス「ANTERAS」を提供 - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FWHA3dHBfN3pYNXE4a2F4NW9Hb2RfYmNBcm55eWVMYi1HV25EaU1BOUNuZklmWjBZWWpSLXpYYW0yN25wa2tkTURvaWF1WkZfbFZ3?oc=5",
-      "summary": "マクニカ、ASMを生かした新たなリスク管理サービス「ANTERAS」を提供&nbsp;&nbsp;ZDNET Japan",
       "date": "2026-05-28",
       "source": "Google News JP",
       "language": "日本語",
@@ -449,15 +458,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "総務省が自治体にサイバー対策「義務化」 - 日経クロステック",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5fa2FqTmlHclFsWHQ4UjVkNEJmREdpSWl2NEoyaHZOWjFuZmQwUWlCZzI2c2lvaTBMZ00zQnBUM2FLV3VQclNWX1lzS0huMVRxZ1cxSlA0SGZ3WGQzYWtFVXlxZE9kOGZfeUdHb1Z3Rlg2aWM?oc=5",
-      "summary": "総務省が自治体にサイバー対策「義務化」&nbsp;&nbsp;日経クロステック",
-      "date": "2026-05-27",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "dnsmasqにおける複数の脆弱性",
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/5/30 6:40:47"
+  "updated": "2026/5/31 6:27:35"
 }
