@@ -1,20 +1,236 @@
 {
   "feeds": [
     {
-      "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
-      "url": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-      "summary": "Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks. The bo",
-      "date": "2026-05-31",
+      "title": "ServerView Agents for Windowsにおける複数の脆弱性",
+      "url": "https://jvn.jp/jp/JVN67883085/",
+      "summary": "エフサステクノロジーズ製のServerView Agents for Windowsには、複数の脆弱性が存在します。",
+      "date": "2026-06-01",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "Casdoorにおける複数の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU95478525/",
+      "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "date": "2026-06-01",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+      "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+      "summary": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propag",
+      "date": "2026-06-01",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "WP Maps Pro bug exploited to create admin accounts on WordPress sites",
-      "url": "https://www.bleepingcomputer.com/news/security/wp-maps-pro-bug-exploited-to-create-admin-accounts-on-wordpress-sites/",
-      "summary": "Hackers are targeting WordPress websites running a vulnerable version of the WP Maps Pro plugin, which allows creating rogue administrator accounts without authentication. [...]",
-      "date": "2026-05-31",
+      "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+      "summary": "Monday hit like a cron job with anger issues. A busted auth path here, a repo-side faceplant there, some \"patched-ish\" thing already getting chewed on in the wild, and then the usual bonus round: pois",
+      "date": "2026-06-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
+      "url": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+      "summary": "A new cyber espionage campaign codenamed Operation Dragon Weave has been observed targeting officials and citizens in the Czech Republic and Taiwan to deliver an AdaptixC2 agent. According to Seqrite ",
+      "date": "2026-06-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
+      "url": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
+      "summary": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, rep",
+      "date": "2026-06-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI. The tool, named cod",
+      "date": "2026-06-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
+      "url": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
+      "summary": "Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious administrat",
+      "date": "2026-06-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers Used Meta&#8217;s AI Support Bot to Seize Instagram Accounts",
+      "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
+      "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions be",
+      "date": "2026-06-01",
+      "source": "Krebs on Security",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Red Hat npm packages compromised to steal developer credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/red-hat-npm-packages-compromised-to-steal-developer-credentials/",
+      "summary": "More than 30 npm packages under Red Hat's '@redhat-cloud-services' namespace were compromised in a supply-chain attack that distributed a new variant of the Shai-Hulud credential-stealing malware, dub",
+      "date": "2026-06-01",
       "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Spain arrests doxer leaking sensitive data of govt employees",
+      "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-doxer-leaking-sensitive-data-of-govt-employees/",
+      "summary": "The Spanish National Police has arrested an individual for leaking sensitive information related to members of various key state organizations, including the National Cybersecurity Institute (INCIBE).",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Dashlane password manager users locked out by brute force attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
+      "summary": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "WordPress malware campaign hides payloads in Steam profiles",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
+      "summary": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft investigates Office Apps, Teams file access issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
+      "summary": "Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and Office for the web cloud-based productivity suite from opening files. [...]",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Race Against Time: Why Faster Vulnerability Alerts Matter",
+      "url": "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
+      "summary": "Attackers are exploiting vulnerabilities faster than many organizations can identify and patch them. SecAlerts explains why faster vulnerability alerts can help reduce exposure and improve response ti",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/",
+      "summary": "The Centre for Cybersecurity Belgium (CCB), the country's national authority for cybersecurity, warned on Friday that threat actors are now exploiting a recently patched critical Windows Netlogon vuln",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Webinar tomorrow: From alert to resolution in network incident response",
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
+      "summary": "Network incidents are often detected quickly, but investigations and coordination can delay resolution. Join our webinar tomorrow to learn how automation and AI-assisted workflows can help IT teams ac",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
+      "summary": "Microsoft is working to address an ongoing incident preventing customers from setting up multi-factor authentication (MFA) or accessing the My Sign-Ins platform. [...]",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft fixes KB5089549 Windows security update install issues",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-kb5089549-windows-security-update-install-issues/",
+      "summary": "Microsoft has resolved a known issue causing installation failures and 0x800f0922 errors when deploying the May 2026 Windows 11 security update (KB5089549). [...]",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ISC Stormcast For Monday, June 1st, 2026 https://isc.sans.edu/podcastdetail/9952, (Mon, Jun 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33036",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-06-01",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "Unidentified RAT pushes NetSupport RAT, (Mon, Jun 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33034",
+      "summary": "Introduction&#xd;",
+      "date": "2026-06-01",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-21182 Oracle WebLogic Server Unspecified Vulnerabilit",
+      "date": "2026-06-01",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "富士通、Claudeを全社員10万人に展開へ Anthropicと提携し重要インフラのサイバー防御にも活用 - Ledge.ai",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iYWNoTjRRTlB2ODRXZElmMlVsTnh6bkhZVmZ6bTVLZ2JXcVpUS3JTdGFQT2tDdWtkWS1pOW1ud1R5VnNjZ1NkaGJ4TlpzRjdFQTN3SEU0ekwwS2pkbHp3WkhDR2JxY1JCV0RoWG5WdnpUUQ?oc=5",
+      "summary": "富士通、Claudeを全社員10万人に展開へ Anthropicと提携し重要インフラのサイバー防御にも活用&nbsp;&nbsp;Ledge.ai",
+      "date": "2026-06-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "株式会社ハートビーツ、セキュリティ運用支援「SecureOps＋」を拡充。トレンドマイクロの「TrendAI Vision One(TM)」に対応にした新プランを提供開始 - RBB TODAY",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jSngzUXVjcGJYQURGWVdxd1JjcTd6ZnFZdm02bDFqUkNveUE2el9obmhrMk9GZkg0S3Z4QmVwUXBtdTcwSEtpQXdDazZiWFZfNm56RzlZSFRKLUVYeHdGTnFBbTdmU1BieWFyc2g1RmtzQ2VGNEltOA?oc=5",
+      "summary": "株式会社ハートビーツ、セキュリティ運用支援「SecureOps＋」を拡充。トレンドマイクロの「TrendAI Vision One(TM)」に対応にした新プランを提供開始&nbsp;&nbsp;RBB TODAY",
+      "date": "2026-06-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「ゼロトラストの前に既定パスワード変更を」 IPA、重要インフラを守る「最低限のセキュリティ」を刷新 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBKRGhGVk1YTjU5U1FXVnRyYWdaVDJFSGtreUpJcjZhSlFfRENzYlM4UkRGV3V1T3JyZjNjVWppQjlBVVFOQVJBUVpmNHdFRnJzU2dZYkZkZ3hyOEEyc0ZQeDFPSWR4eTQ5dWh0bVowaWpVZw?oc=5",
+      "summary": "「ゼロトラストの前に既定パスワード変更を」 IPA、重要インフラを守る「最低限のセキュリティ」を刷新&nbsp;&nbsp;ITmedia",
+      "date": "2026-06-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
+      "url": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
+      "summary": "Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks. The bo",
+      "date": "2026-05-31",
+      "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
@@ -29,7 +245,7 @@
     },
     {
       "title": "密着、未来のセキュリティー人材育成現場 - 日経クロステック Active",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUEhqQXJHMFJwZGVtUGFBTmVCWUVsbkUwMnVTZnFYdVIzZUtxV0d0Y2N0TTNpWUdUY3J6VVMyWTQ0TjVfSTdWdzRlUnZHSy0yUnVSdTB2Ul9tcUpvZDJ0dFRzQ1pjVGpfdzBRTzNBUHIzR2hSVjZEaTZKY3NLWmdjZFRrYw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TNHF2TkJ0WHhQa0tRRXV1WUE5NlEwR013Y05iTnV1MFlQZUFNYVRMYy1LYTdXSHVIaC1qQUlzZml3Z1BBclcwc283RGZnUVFyNGNzLWdyQkZnN29y?oc=5",
       "summary": "密着、未来のセキュリティー人材育成現場&nbsp;&nbsp;日経クロステック Active",
       "date": "2026-05-31",
       "source": "Google News JP",
@@ -37,9 +253,18 @@
       "category": "news"
     },
     {
-      "title": "【7月3日】AI導入にはどんなリスクが潜んでいるのか、その実態と課題解決に向けたセキュリティ対策を徹底解説 - 日経クロステック Active",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01VkJlU1VsQno4eTExb2xhZFdYNjBjQXZiRWlJeEt6b21FdzhzenQ3b29lUVBwN1h4bjQ2cVRQcHYyTHVMb2RKcENIR3J3ZTBicFpCc0FMT0puWWlVeVo3eWJtRHdDN0lMVkZRa3BR?oc=5",
-      "summary": "【7月3日】AI導入にはどんなリスクが潜んでいるのか、その実態と課題解決に向けたセキュリティ対策を徹底解説&nbsp;&nbsp;日経クロステック Active",
+      "title": "東京都「中小企業向けサイバーセキュリティ対策の極意」ポータルサイトの旧ドメインを第三者が取得 - Excite エキサイト",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MV2FNMVd6QVFnNURIOV9GQXpYRmhfLVJFMkJGSjRiNTNmRnVWVDd5cllCOVF5N3A0RHdTZGlNV2xMcGctMngtc0xKanhyWll2ZG5pN1RxRDNqTmN2djlIRUYyS3FYRGc3SzZjXw?oc=5",
+      "summary": "東京都「中小企業向けサイバーセキュリティ対策の極意」ポータルサイトの旧ドメインを第三者が取得&nbsp;&nbsp;Excite エキサイト",
+      "date": "2026-05-31",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "セキュリティ投資の拒絶と有事の責任転嫁 経営層が自戒すべき「人為的ジレンマ」の正体 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YRER1b2g0eEtXY19fdVZvZkgzY25rTWZsaXdRZHU0Z25mQzdRNHFDYlptWUdqaFdkdHVkUDZ5aUdCMS1rMDR5Zy1wSXZ4bElXU0ZvVTJack1yREJvem1tdjFSQUxmLV81STFmUE4zRkdIMnBh?oc=5",
+      "summary": "セキュリティ投資の拒絶と有事の責任転嫁 経営層が自戒すべき「人為的ジレンマ」の正体&nbsp;&nbsp;ITmedia",
       "date": "2026-05-31",
       "source": "Google News JP",
       "language": "日本語",
@@ -51,24 +276,6 @@
       "summary": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as C",
       "date": "2026-05-30",
       "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Palo Alto GlobalProtect VPN auth bypass flaw now exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-globalprotect-vpn-auth-bypass-flaw-now-exploited-in-attacks/",
-      "summary": "Palo Alto Networks is warning that hackers are now exploiting a PAN-OS GlobalProtect authentication bypass flaw, tracked as CVE-2026-0257, in attacks attempting to breach corporate networks. [...]",
-      "date": "2026-05-30",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New CIFSwitch Linux flaw gives root on multiple distributions",
-      "url": "https://www.bleepingcomputer.com/news/security/new-cifswitch-linux-flaw-gives-root-on-multiple-distributions/",
-      "summary": "A newly discovered local privilege escalation vulnerability dubbed 'CIFSwitch' in the Linux kernel could allow attackers to forge CIFS authentication key descriptions, abuse the kernel's key request m",
-      "date": "2026-05-30",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -85,15 +292,6 @@
       "title": "ミュトス、7週間で2万件の脆弱性を発見も修正は1%未満…サイバー防衛の構造的限界 - ビジネスジャーナル",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9Gb20xUlozSWc4QTN2VTdGODZDcWtIQ2Q5aVd3TEZpbFpQN3h5X3YwMzl6VjhycGR1MEpGclZITDRXRkkwRURyblNYX2dfcVlpUDRvbQ?oc=5",
       "summary": "ミュトス、7週間で2万件の脆弱性を発見も修正は1%未満…サイバー防衛の構造的限界&nbsp;&nbsp;ビジネスジャーナル",
-      "date": "2026-05-30",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「さぬきマルシェinサンポート」に警察ブースを設置 サイバーセキュリティー啓発など 香川県警（KSB瀬戸内海放送） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00Z3NlbFRQYWk2c0drX2tzZGtLMXlXdmlmNU45QmNEMnUteTY3Znd4VjV6TThhR3dxc1hlcFplMnloOG9ZcTFkNmtoRkk5N2Z5aGQtcDhmMl9FN3FGRWlveVdQdDF4MDRxMXoyN2R1VGZsNV95X09TYXk3X3FRbms?oc=5",
-      "summary": "「さぬきマルシェinサンポート」に警察ブースを設置 サイバーセキュリティー啓発など 香川県警（KSB瀬戸内海放送）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-05-30",
       "source": "Google News JP",
       "language": "日本語",
@@ -136,105 +334,6 @@
       "category": "news"
     },
     {
-      "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
-      "url": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
-      "summary": "A previously undocumented threat actor dubbed GREYVIBE has been attributed to ongoing and persistent attacks targeting Ukraine and Ukraine-related entities since at least August 2025. GREYVIBE, per Wi",
-      "date": "2026-05-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
-      "url": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
-      "summary": "Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into production systems, and publi",
-      "date": "2026-05-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-      "url": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-      "summary": "Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon clien",
-      "date": "2026-05-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-      "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-      "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through ",
-      "date": "2026-05-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ChatGPT share links abused to host fake outage pages to deliver malware",
-      "url": "https://www.bleepingcomputer.com/news/security/chatgpt-share-links-abused-to-host-fake-outage-pages-to-deliver-malware/",
-      "summary": "Threat actors are abusing ChatGPT's content-sharing feature to display fake OpenAI outage pages that direct users to download malware disguised as the ChatGPT desktop application. [...]",
-      "date": "2026-05-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "California AG sues 23andMe over 2023 breach exposing health data",
-      "url": "https://www.bleepingcomputer.com/news/security/california-ag-sues-23andme-over-2023-breach-exposing-health-data/",
-      "summary": "California Attorney General Rob Bonta filed a lawsuit against 23andMe, now Chrome Holding Co., over the company's failure to protect sensitive customer genetic and personal information. [...]",
-      "date": "2026-05-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "From $5 Attacks to Botnet-Powered Platforms: Inside the DDoS-as-a- Service Market",
-      "url": "https://www.bleepingcomputer.com/news/security/from-5-attacks-to-botnet-powered-platforms-inside-the-ddos-as-a-service-market/",
-      "summary": "DDoS attacks are increasingly being sold like subscription services, complete with pricing tiers, support, and reseller programs. Flare explores how the DDoS-as-a-Service market has evolved from scatt",
-      "date": "2026-05-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Dutch govt disrupts malware botnet with 17 million infected devices",
-      "url": "https://www.bleepingcomputer.com/news/security/dutch-govt-disrupts-malware-botnet-with-17-million-infected-devices/",
-      "summary": "Dutch authorities have taken offline a massive botnet of 17 million devices and seized more than 200 servers at a local provider that supported the operation. [...]",
-      "date": "2026-05-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Google Chrome adds session cookie theft protection for all users",
-      "url": "https://www.bleepingcomputer.com/news/security/google-chrome-adds-session-cookie-theft-protection-for-all-users/",
-      "summary": "Google says the Chrome Device Bound Session Credentials (DBSC) security feature is now generally available and is rolling out to all users to prevent account takeovers. [...]",
-      "date": "2026-05-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Man sent to prison for selling data of 7 millions elderly Americans",
-      "url": "https://www.bleepingcomputer.com/news/security/man-sent-to-prison-for-selling-data-of-7-millions-elderly-americans/",
-      "summary": "A North Carolina man was sentenced to more than 10 years in prison for selling the personal information of over 7 million elderly Americans to Jamaican scammers. [...]",
-      "date": "2026-05-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "US charges Google security engineer with Polymarket insider trading",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-google-security-engineer-with-polymarket-insider-trading/",
-      "summary": "A Google security engineer was charged with insider trading after winning $1.2 million using confidential company data to place bets on the cryptocurrency-based Polymarket decentralized prediction mar",
-      "date": "2026-05-29",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, May 29th, 2026 https://isc.sans.edu/podcastdetail/9950, (Fri, May 29th)",
       "url": "https://isc.sans.edu/diary/rss/33030",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -271,15 +370,6 @@
       "category": "news"
     },
     {
-      "title": "Claude Mythosで激変するセキュリティの新ルール 勝敗を決めるのは「修復のスピード」（TechTargetジャパン） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TY09zczJiam5CTDBqRm5oRzFtM1pCNllyc1dkbGkzemV3VHBhU0g0cVgyanpnZ3ZjdGVCLWdReTNpeTJEWGNjbU9hbjExUHNWUFlJU2tiVFhhZ1NMcHdwc3I4WDU2NjNxM0xJRVA0QlcwdG9FRmI5MklhYnpaRlU?oc=5",
-      "summary": "Claude Mythosで激変するセキュリティの新ルール 勝敗を決めるのは「修復のスピード」（TechTargetジャパン）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-05-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "複数の三菱電機製 FA 製品における複数の脆弱性",
       "url": "https://jvn.jp/vu/JVNVU90224831/",
       "summary": "複数の三菱電機製 FA 製品には、複数の脆弱性が存在します。",
@@ -298,24 +388,6 @@
       "category": "vuln"
     },
     {
-      "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
-      "url": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-      "summary": "A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions. The s",
-      "date": "2026-05-28",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-      "url": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-      "summary": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver a credential-stealing malware family dubbed ",
-      "date": "2026-05-28",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Analysis of a Year of Files Uploaded to DShield Sensors, (Wed, May 27th)",
       "url": "https://isc.sans.edu/diary/rss/33026",
       "summary": "Using the data collected over the past year and using Kibana these two ES&#x7c;QL query to summarize the data, this shows the list of the most uploaded threat to two DShield sensors (local and cloud) ",
@@ -332,6 +404,15 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
+    },
+    {
+      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (VDR",
+      "date": "2026-05-28",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
     },
     {
       "title": "ABB EIBPORT",
@@ -370,36 +451,9 @@
       "category": "alert"
     },
     {
-      "title": "Schnieider Electric EcoStruxure Machine Expert HVAC",
+      "title": "Schneider Electric EcoStruxure Machine Expert HVAC",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-07",
       "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcostruxureTM Machine Expert HVAC product. The [EcostruxureTM Machine Expert HVAC](https://www.se.com/ww/en/download/document/Ec",
-      "date": "2026-05-28",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CP Plus 8 Ch. Network Video Recorder",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected int",
-      "date": "2026-05-28",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "Supply Chain Compromises Impact Nx Console and GitHub Repositories",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/05/28/supply-chain-compromises-impact-nx-console-and-github-repositories",
-      "summary": "CISA is prioritizing the response to multiple emerging software supply chain intrusion campaigns targeting developer ecosystems Continuous Integration/Continuous Development (CI/CD) pipelines. These r",
-      "date": "2026-05-28",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "XCharge C6",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-08",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain administrator rights or execute code on the affected device. The following versions of XCharge C6 are",
       "date": "2026-05-28",
       "source": "CISA",
       "language": "英語",
@@ -415,22 +469,13 @@
       "category": "alert"
     },
     {
-      "title": "Mythos発見の脆弱性も慌てず対処可能に、マクニカがリスク管理支援SaaS（2ページ目） - 日経クロステック",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQmd5MmhtUkpjVUdKNjhJa2U3dW5FcG9ZWWJQbXFaUmNxX0xfX2Yyd25ZZktVTGRyQlRiSTBNLU5ZdV9ObVZ4REIwY2t0U2NIWUFreWN6Z0h2MjloTHM3YXhudHYyaHUxUko4dU5WZi1IX1ZFcUxuZ19DN0t3cF9WVkNYeDVsR3hQaFlOVFhXVllQbjYy?oc=5",
-      "summary": "Mythos発見の脆弱性も慌てず対処可能に、マクニカがリスク管理支援SaaS（2ページ目）&nbsp;&nbsp;日経クロステック",
+      "title": "CP Plus 8 Ch. Network Video Recorder",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected int",
       "date": "2026-05-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "米アンソロピック「Mythos級」新モデルを数週間以内に一般公開へ - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HOWZhRmk5dHU1MFF0MDhUd0JZQ09sN0cxaWhHOEN4Mk9qRHJ6TTVmUVhuS0RiTnNNWGZMMUJUVER2dVBYb0Judlg2SjJEcFM2Rm5n?oc=5",
-      "summary": "米アンソロピック「Mythos級」新モデルを数週間以内に一般公開へ&nbsp;&nbsp;ビジネス+IT",
-      "date": "2026-05-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
     },
     {
       "title": "CISA ICS Advisory / ICS Medical Advisory（2026年05月26日）",
@@ -505,24 +550,6 @@
       "category": "analysis"
     },
     {
-      "title": "NEC AtermシリーズにおけるOSコマンドインジェクションの脆弱性（NV26-003）",
-      "url": "https://jvn.jp/jp/JVN80890147/",
-      "summary": "日本電気株式会社が提供するAtermシリーズには、OSコマンドインジェクションの脆弱性が存在します。",
-      "date": "2026-05-25",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "NEC Atermシリーズにおけるクロスサイトスクリプティングの脆弱性（NV26-002）",
-      "url": "https://jvn.jp/jp/JVN69049186/",
-      "summary": "日本電気株式会社が提供するAtermシリーズには、クロスサイトスクリプティングの脆弱性が存在します。",
-      "date": "2026-05-25",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
       "url": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
       "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and ",
@@ -530,24 +557,6 @@
       "source": "Krebs on Security",
       "language": "英語",
       "category": "news"
-    },
-    {
-      "title": "Microsoft Access VBA, (Mon, May 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33012",
-      "summary": "Microsoft Access files (Microsoft Office&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s Database) can contain VBA code.&#xd;",
-      "date": "2026-05-25",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-05-24, (Mon, May 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33016",
-      "summary": "TeamPCP now operates across three package ecosystems in parallel, it reached GitHub&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s own internal codebase, it trojanized an officially Microsoft-published Pyth",
-      "date": "2026-05-25",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
     },
     {
       "title": "注意喚起: Palo Alto Networks製PAN-OSにおける認証回避の脆弱性（CVE-2026-0265）に関する注意喚起 (公開)",
@@ -816,15 +825,6 @@
       "summary": "Posted by Ben Ackerman, Chrome team, Daniel Rubery, Chrome team and Guillaume Ehinger, Google Account Security team Following our April 2024 announcement, Device Bound Session Credentials (DBSC) is no",
       "date": "2026-04-09",
       "source": "Google Security Blog",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
-      "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
-      "summary": "Hackers linked to Russia's military intelligence units are using known flaws in older Internet routers to mass harvest authentication tokens from Microsoft Office users, security experts warned today.",
-      "date": "2026-04-07",
-      "source": "Krebs on Security",
       "language": "英語",
       "category": "news"
     },
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/6/1 6:27:30"
+  "updated": "2026/6/2 7:09:07"
 }
