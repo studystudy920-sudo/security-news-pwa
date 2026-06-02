@@ -1,6 +1,240 @@
 {
   "feeds": [
     {
+      "title": "お知らせ：JPCERT/CC Eyes「TSUBAMEレポート Overflow（2026年1～3月）」",
+      "url": "https://blogs.jpcert.or.jp/ja/2026/06/tsubame-overflow20260103.html",
+      "summary": "",
+      "date": "2026-06-02",
+      "source": "JPCERT/CC",
+      "language": "日本語",
+      "category": "alert"
+    },
+    {
+      "title": "Windowsカーネルドライバ「PCTCore64.sys」における不適切なアクセス制御",
+      "url": "https://jvn.jp/vu/JVNVU90461576/",
+      "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "date": "2026-06-02",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "TP-Link製ルーターArcher BE450およびBE7200におけるOSコマンドインジェクションの脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU95687008/",
+      "summary": "TP-Linkが提供するArcher BE450およびBE7200には、OSコマンドインジェクションの脆弱性が存在します。",
+      "date": "2026-06-02",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
+      "url": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
+      "summary": "Google on Monday released patches for 124 security vulnerabilities impacting its Android operating system for the month of June 2026, including one high-severity flaw in the Framework component that h",
+      "date": "2026-06-02",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+      "url": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+      "summary": "The Russian hacking group known as Gamaredon has been attributed to the continued exploitation of a WinRAR vulnerability to deliver multiple malware families aimed at data theft and propagation. Per S",
+      "date": "2026-06-02",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
+      "url": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity security flaw impacting Oracle WebLogic Server to its Known Exploited Vulnerabilities (KEV) Catalog, ba",
+      "date": "2026-06-02",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
+      "url": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+      "summary": "AI-driven exploitation timelines are rapidly shrinking, and they are not going to stop shrinking. Vulnerabilities are being discovered, reproduced, and weaponized faster than ever in the history of en",
+      "date": "2026-06-02",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
+      "url": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
+      "summary": "Most organizations now recognize that endpoint protection alone is no longer sufficient. That's why adoption of endpoint detection and response (EDR) has accelerated rapidly in recent years. Organizat",
+      "date": "2026-06-02",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
+      "url": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
+      "summary": "Cybersecurity researchers have disclosed details of a spear-phishing campaign likely undertaken by the Pakistan-aligned SideCopy group targeting Afghanistan's Ministry of Finance with an open-source r",
+      "date": "2026-06-02",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+      "url": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+      "summary": "Password manager Dashlane has disclosed that \"fewer than\" 20 users on the personal subscription plan had their encrypted vaults downloaded following a brute-force attack launched by an unknown party. ",
+      "date": "2026-06-02",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Over 116,000 Mincraft systems infected in WeedHack malware campaign",
+      "url": "https://www.bleepingcomputer.com/news/security/over-116-000-mincraft-systems-infected-in-weedhack-malware-campaign/",
+      "summary": "A large-scale malware campaign dubbed WeedHack is targeting Minecraft players and has infected more than 116,000 systems since January. [...]",
+      "date": "2026-06-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "AI-built ransomware toolkit automates EDR evasion, AD discovery",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
+      "summary": "A threat actor is using an AI-built ransomware attack toolkit that automates Active Directory discovery and helps evade endpoint detection and response (EDR) solutions. [...]",
+      "date": "2026-06-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft Exchange Online outage causes email delays, failures",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-causes-email-delays-failures/",
+      "summary": "Microsoft is working to address a widespread service issue affecting the mail flow pipeline for Exchange Online customers across North America and Germany. [...]",
+      "date": "2026-06-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Instagram users locked out after Meta AI abused to steal accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
+      "summary": "Multiple Instagram users had their accounts hijacked after attackers convinced Meta's AI-powered support tools that they were the legitimate owners. [...]",
+      "date": "2026-06-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Why the browser is now the front line for AI security",
+      "url": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
+      "summary": "AI-powered attacks and shadow AI adoption are creating new security risks inside the browser. Push Security explains why browser visibility is becoming critical for both threat detection and AI govern",
+      "date": "2026-06-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "CISA flags two-year-old Oracle flaw as actively exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-weblogic-flaw/",
+      "summary": "CISA has ordered government agencies to secure their systems against a high-severity Oracle WebLogic Server vulnerability that was patched two years ago and is now actively exploited in attacks. [...]",
+      "date": "2026-06-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Google fixes one actively exploited Android zero-day, 124 flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/google-fixes-one-actively-exploited-android-zero-day-124-flaws/",
+      "summary": "Google has released the June 2026 Android security patches to address 124 vulnerabilities, including one zero-day flaw exploited in targeted attacks. [...]",
+      "date": "2026-06-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "CISA and Partners Urge Hardening Automatic Tank Gauge Systems",
+      "url": "https://www.cisa.gov/resources-tools/resources/cisa-and-partners-urge-hardening-automatic-tank-gauge-systems",
+      "summary": "CISA and Partners Urge Hardening Automatic Tank Gauge Systems Overview The Cybersecurity and Infrastructure Security Agency (CISA), the Federal Bureau of Investigation (FBI), the National Security Age",
+      "date": "2026-06-02",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/06/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added two new vulnerabilities to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2022-0492 Linux Kernel Improper Authentication Vulnerabi",
+      "date": "2026-06-02",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "外部委託の「餅は餅屋」はもう危険、企業がサイバーセキュリティ対策に自ら乗り出すべき理由 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VaElTQXk1aHZPbXc1QjVFUnJZZzdwbUxWWDBWMWdFWEJpaVpIa2ZOLU5pd3Y0d0JkdUlJZmRIck1EbmNzS0pZQV90b09xQ1A5YlB0a08tQ1pvS0J0QVQwRkhJejQya1VmLUJqMk5LWU55UllQMjlZTV9mMDZvbVk?oc=5",
+      "summary": "外部委託の「餅は餅屋」はもう危険、企業がサイバーセキュリティ対策に自ら乗り出すべき理由&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-06-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Dragos、Phosphorusを買収し、OTネイティブのサイバーセキュリティをxOT環境全体へ提供 - 下野新聞社",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JSmwzVnlKZG12UGRYOTlZWWlpSk90M2lfQ1dmUmpaMjlLX1FpZG0xMzBKSHYyR19RWHNYQjZoS0UtaFBYNWNTbUYyc3kxT2VNc1VVRXZlRmdXQkE?oc=5",
+      "summary": "Dragos、Phosphorusを買収し、OTネイティブのサイバーセキュリティをxOT環境全体へ提供&nbsp;&nbsp;下野新聞社",
+      "date": "2026-06-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「Interop Tokyo 2026」に出展 ～サイバーセキュリティ研究所～ - NICT",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MUG9kZ3lhQTZWMWFQUGxsZExYNGZTcElPOHRtbnhKNnBDbnc3bUhUa3FtRE5fanR0di0wREotTUMtY1FEMkh5Z0lUOXBRXzdSMzZxdjhNM3VhcHhWcW9FOUNaNzVKS2M?oc=5",
+      "summary": "「Interop Tokyo 2026」に出展 ～サイバーセキュリティ研究所～&nbsp;&nbsp;NICT",
+      "date": "2026-06-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Takumi 「Mythosクラスモデル」一般公開後の搭載計画および新機能「AIペネトレーションテスト機能」を発表 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1MRXhUcXZ3Z3ZIMUJiUnMxWjFQdmEtT0Z4T2NsczdSLWU0WEZxYnRTUHZsbUczRkV6dGQ4azJBYjZ5cW10Ti1oVnBKdHdsV0ZYNW1GcW9BTjVTb3Y5b29rR3Vxd3hjMHByNkE?oc=5",
+      "summary": "Takumi 「Mythosクラスモデル」一般公開後の搭載計画および新機能「AIペネトレーションテスト機能」を発表&nbsp;&nbsp;PR TIMES",
+      "date": "2026-06-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイファーマ、サイバー脅威とリスクを可視化するサイバーセキュリティプラットフォーム「DeCYFIR(デサイファー)」を関西電力に提供 - Excite エキサイト",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ja0ktcFJ1MG9qTE5MWFBnTllIYjNLeGlWRTdHZHdOVVpRS2ZvR3AyNmNZTEYyNUdjQlZLb1oxaDcwUnlQcnIzZTVONzlFZEhRRDVNaks3bXVsYVN1cmdTbk9tRQ?oc=5",
+      "summary": "サイファーマ、サイバー脅威とリスクを可視化するサイバーセキュリティプラットフォーム「DeCYFIR(デサイファー)」を関西電力に提供&nbsp;&nbsp;Excite エキサイト",
+      "date": "2026-06-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイファーマ、サイバー脅威とリスクを可視化するサイバーセキュリティプラットフォーム「DeCYFIR(デサイファー)」を関西電力に提供 | チバテレ＋プラス - 千葉テレビ放送",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Nb3laZVFPZ18yd0FXVVJ3MDZGYmFOWml2dkhiQkFkSU4xS21RbFR5ZEV4SHUtRTlFVkpTNndlWkhzMHJZVjVIZjFnSEVOZTh2WFVsV3dRaEw0VW5hLTRR0gFkQVVfeXFMTmQtYUM0TlFGRTh0WmtRU1dnTW0xNGlRZ1d3S1NCczU4bDBHNUVVdUZiUUJmVFZPajVxSGU4RWREellVdGZVclhackFFMDduV3Z1S29veUlMUE5BdEdNZHhPUFBOSA?oc=5",
+      "summary": "サイファーマ、サイバー脅威とリスクを可視化するサイバーセキュリティプラットフォーム「DeCYFIR(デサイファー)」を関西電力に提供 | チバテレ＋プラス&nbsp;&nbsp;千葉テレビ放送",
+      "date": "2026-06-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AIモデル「ミュトス」のアクセス権拡大 新たに150組織が利用へ Anthropic - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CVDgzRDMtSV9PN0VSNzlCb3Q2bEFyeTBuTlBKV255bkhrbFdCdUo2eEVIUW14Q2RqYWJsbnl5dHF6dHlNOEVaYzVtT2piRVVlMVg5bjlLb2pCZ2UwZDFTRS12MlN5LUJuNzg3NA?oc=5",
+      "summary": "AIモデル「ミュトス」のアクセス権拡大 新たに150組織が利用へ Anthropic&nbsp;&nbsp;ITmedia",
+      "date": "2026-06-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "ServerView Agents for Windowsにおける複数の脆弱性",
       "url": "https://jvn.jp/jp/JVN67883085/",
       "summary": "エフサステクノロジーズ製のServerView Agents for Windowsには、複数の脆弱性が存在します。",
@@ -46,38 +280,20 @@
       "category": "news"
     },
     {
-      "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
-      "url": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
-      "summary": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, rep",
-      "date": "2026-06-01",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
-      "url": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-      "summary": "Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI. The tool, named cod",
-      "date": "2026-06-01",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
-      "url": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-      "summary": "Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious administrat",
-      "date": "2026-06-01",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Hackers Used Meta&#8217;s AI Support Bot to Seize Instagram Accounts",
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions be",
       "date": "2026-06-01",
       "source": "Krebs on Security",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers hijack thousands of sites for ClickFix and FakeUpdate attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-thousands-of-sites-for-clickfix-and-fakeupdate-attacks/",
+      "summary": "A threat actor tracked as DriveSurge has been operating large-scale malware distribution campaigns using ClickFix and FakeUpdates techniques on compromised sites. [...]",
+      "date": "2026-06-01",
+      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -100,96 +316,6 @@
       "category": "news"
     },
     {
-      "title": "Dashlane password manager users locked out by brute force attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/dashlane-password-manager-users-locked-out-by-brute-force-attacks/",
-      "summary": "Multiple Dashlane users have been locked out of their accounts following brute-force attacks that attempted logins from distant locations and unknown devices. [...]",
-      "date": "2026-06-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "WordPress malware campaign hides payloads in Steam profiles",
-      "url": "https://www.bleepingcomputer.com/news/security/wordpress-malware-campaign-hides-payloads-in-steam-profiles/",
-      "summary": "Nearly 2,000 WordPress websites were infected with malware that relies on Steam Community profile comments to hide command-and-control (C2) data. [...]",
-      "date": "2026-06-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft investigates Office Apps, Teams file access issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-office-apps-teams-file-access-issues/",
-      "summary": "Microsoft says an ongoing incident is preventing users of its Teams collaboration platform and Office for the web cloud-based productivity suite from opening files. [...]",
-      "date": "2026-06-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Race Against Time: Why Faster Vulnerability Alerts Matter",
-      "url": "https://www.bleepingcomputer.com/news/security/race-against-time-why-faster-vulnerability-alerts-matter/",
-      "summary": "Attackers are exploiting vulnerabilities faster than many organizations can identify and patch them. SecAlerts explains why faster vulnerability alerts can help reduce exposure and improve response ti",
-      "date": "2026-06-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Critical Windows Netlogon RCE flaw now exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/critical-windows-netlogon-remote-code-execution-flaw-now-exploited-in-attacks/",
-      "summary": "The Centre for Cybersecurity Belgium (CCB), the country's national authority for cybersecurity, warned on Friday that threat actors are now exploiting a recently patched critical Windows Netlogon vuln",
-      "date": "2026-06-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Webinar tomorrow: From alert to resolution in network incident response",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-from-alert-to-resolution-in-network-incident-response/",
-      "summary": "Network incidents are often detected quickly, but investigations and coordination can delay resolution. Join our webinar tomorrow to learn how automation and AI-assisted workflows can help IT teams ac",
-      "date": "2026-06-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft fixes outage affecting MFA setup, MySignIn service",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-outage-affecting-mfa-setup-mysignin-service/",
-      "summary": "Microsoft is working to address an ongoing incident preventing customers from setting up multi-factor authentication (MFA) or accessing the My Sign-Ins platform. [...]",
-      "date": "2026-06-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft fixes KB5089549 Windows security update install issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-kb5089549-windows-security-update-install-issues/",
-      "summary": "Microsoft has resolved a known issue causing installation failures and 0x800f0922 errors when deploying the May 2026 Windows 11 security update (KB5089549). [...]",
-      "date": "2026-06-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ISC Stormcast For Monday, June 1st, 2026 https://isc.sans.edu/podcastdetail/9952, (Mon, Jun 1st)",
-      "url": "https://isc.sans.edu/diary/rss/33036",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-06-01",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "Unidentified RAT pushes NetSupport RAT, (Mon, Jun 1st)",
-      "url": "https://isc.sans.edu/diary/rss/33034",
-      "summary": "Introduction&#xd;",
-      "date": "2026-06-01",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary": "CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-21182 Oracle WebLogic Server Unspecified Vulnerabilit",
@@ -197,24 +323,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "富士通、Claudeを全社員10万人に展開へ Anthropicと提携し重要インフラのサイバー防御にも活用 - Ledge.ai",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iYWNoTjRRTlB2ODRXZElmMlVsTnh6bkhZVmZ6bTVLZ2JXcVpUS3JTdGFQT2tDdWtkWS1pOW1ud1R5VnNjZ1NkaGJ4TlpzRjdFQTN3SEU0ekwwS2pkbHp3WkhDR2JxY1JCV0RoWG5WdnpUUQ?oc=5",
-      "summary": "富士通、Claudeを全社員10万人に展開へ Anthropicと提携し重要インフラのサイバー防御にも活用&nbsp;&nbsp;Ledge.ai",
-      "date": "2026-06-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "株式会社ハートビーツ、セキュリティ運用支援「SecureOps＋」を拡充。トレンドマイクロの「TrendAI Vision One(TM)」に対応にした新プランを提供開始 - RBB TODAY",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jSngzUXVjcGJYQURGWVdxd1JjcTd6ZnFZdm02bDFqUkNveUE2el9obmhrMk9GZkg0S3Z4QmVwUXBtdTcwSEtpQXdDazZiWFZfNm56RzlZSFRKLUVYeHdGTnFBbTdmU1BieWFyc2g1RmtzQ2VGNEltOA?oc=5",
-      "summary": "株式会社ハートビーツ、セキュリティ運用支援「SecureOps＋」を拡充。トレンドマイクロの「TrendAI Vision One(TM)」に対応にした新プランを提供開始&nbsp;&nbsp;RBB TODAY",
-      "date": "2026-06-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "「ゼロトラストの前に既定パスワード変更を」 IPA、重要インフラを守る「最低限のセキュリティ」を刷新 - ITmedia",
@@ -226,64 +334,10 @@
       "category": "news"
     },
     {
-      "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
-      "url": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-      "summary": "Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks. The bo",
-      "date": "2026-05-31",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "YARA-X 1.17.0 Release, (Sun, May 31st)",
-      "url": "https://isc.sans.edu/diary/rss/33032",
-      "summary": "YARA-X&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s 1.17.0 release brings 5 improvements (several performance improvements) and 1 bugfix.&#xd;",
-      "date": "2026-05-31",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "密着、未来のセキュリティー人材育成現場 - 日経クロステック Active",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TNHF2TkJ0WHhQa0tRRXV1WUE5NlEwR013Y05iTnV1MFlQZUFNYVRMYy1LYTdXSHVIaC1qQUlzZml3Z1BBclcwc283RGZnUVFyNGNzLWdyQkZnN29y?oc=5",
-      "summary": "密着、未来のセキュリティー人材育成現場&nbsp;&nbsp;日経クロステック Active",
-      "date": "2026-05-31",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "東京都「中小企業向けサイバーセキュリティ対策の極意」ポータルサイトの旧ドメインを第三者が取得 - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1MV2FNMVd6QVFnNURIOV9GQXpYRmhfLVJFMkJGSjRiNTNmRnVWVDd5cllCOVF5N3A0RHdTZGlNV2xMcGctMngtc0xKanhyWll2ZG5pN1RxRDNqTmN2djlIRUYyS3FYRGc3SzZjXw?oc=5",
-      "summary": "東京都「中小企業向けサイバーセキュリティ対策の極意」ポータルサイトの旧ドメインを第三者が取得&nbsp;&nbsp;Excite エキサイト",
-      "date": "2026-05-31",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "セキュリティ投資の拒絶と有事の責任転嫁 経営層が自戒すべき「人為的ジレンマ」の正体 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1YRER1b2g0eEtXY19fdVZvZkgzY25rTWZsaXdRZHU0Z25mQzdRNHFDYlptWUdqaFdkdHVkUDZ5aUdCMS1rMDR5Zy1wSXZ4bElXU0ZvVTJack1yREJvem1tdjFSQUxmLV81STFmUE4zRkdIMnBh?oc=5",
-      "summary": "セキュリティ投資の拒絶と有事の責任転嫁 経営層が自戒すべき「人為的ジレンマ」の正体&nbsp;&nbsp;ITmedia",
-      "date": "2026-05-31",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-      "summary": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as C",
-      "date": "2026-05-30",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "アンソロピック、秘蔵AI「Claude Mythos」の広範な提供へ──サイバー防御の勢力図は変わるか - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvVTZNRExyREpRTUhmb2Q1SEM3bkhZbzMxRU1VdXZtS2dRWGpOR0FyT2NoZ1hXZlN2Nm5FZVJGZWtPTkZsZWh1N3hnR2EyM2xId1RWaTBBaEtjcVoxRTBncDlPUnlLcTBLMTdzb1JyR2lMeUtlX0FZUnpTU3k4Yjg?oc=5",
-      "summary": "アンソロピック、秘蔵AI「Claude Mythos」の広範な提供へ──サイバー防御の勢力図は変わるか&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-05-30",
+      "title": "富士通、Claudeを全社員10万人に展開へ Anthropicと提携し重要インフラのサイバー防御にも活用 - Ledge.ai",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1iYWNoTjRRTlB2ODRXZElmMlVsTnh6bkhZVmZ6bTVLZ2JXcVpUS3JTdGFQT2tDdWtkWS1pOW1ud1R5VnNjZ1NkaGJ4TlpzRjdFQTN3SEU0ekwwS2pkbHp3WkhDR2JxY1JCV0RoWG5WdnpUUQ?oc=5",
+      "summary": "富士通、Claudeを全社員10万人に展開へ Anthropicと提携し重要インフラのサイバー防御にも活用&nbsp;&nbsp;Ledge.ai",
+      "date": "2026-06-01",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
@@ -316,33 +370,6 @@
       "category": "vuln"
     },
     {
-      "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-      "url": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-      "summary": "Cybersecurity researchers have disclosed details of a vulnerability in OpenAI ChatGPT that leverages the artificial intelligence (AI) assistant's implicit trust in Markdown links and images to trigger",
-      "date": "2026-05-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
-      "url": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-      "summary": "An unknown threat actor has been observed using a large language model (LLM) agent to conduct post-compromise actions after obtaining initial access following the exploitation of a publicly-accessible",
-      "date": "2026-05-29",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ISC Stormcast For Friday, May 29th, 2026 https://isc.sans.edu/podcastdetail/9950, (Fri, May 29th)",
-      "url": "https://isc.sans.edu/diary/rss/33030",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-05-29",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/05/29/cisa-adds-one-known-exploited-vulnerability-catalog",
       "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-0257 Palo Alto Networks PAN-OS Authentication Bypass Vulne",
@@ -350,24 +377,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "OpenAI、日本政府とサイバーセキュリティで協力 最新AI「GPT-5.5-Cyber」を金融機関に提供 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KZXQ3STVEb2ZLT2hPUXptcHc1YWc2cFpBc0JOc2c1am1SLW1IQlJhOTZIYUpWWFpBTzBSS0pkQk1SWmtnUEJxaFp1YmRTSjlGRGFjRnN6YzdYTVBsNjdNb3dScG4wTmdHSnZTdw?oc=5",
-      "summary": "OpenAI、日本政府とサイバーセキュリティで協力 最新AI「GPT-5.5-Cyber」を金融機関に提供&nbsp;&nbsp;ITmedia",
-      "date": "2026-05-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "オープンAI経営幹部「日本は長期的パートナー」 “日本のサイバーセキュリティー支援”発表 最先端AIをメガバンクに提供 - 日テレNEWS NNN",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5mMzlLX3kxN2E4OUlKM0hkd0JmbFVfSkppVF9ZNzFVVnpPQUVOY0w3TGR2aExTbEZhZ09yckd4dTF4QWh0NG1XNFdJd1JJRzBTMV9XQmZ1X0p5YnlFUGVtdThmQk53MU9qVV9IUG1Tb09mT3pFYkI4Sm9YUFI?oc=5",
-      "summary": "オープンAI経営幹部「日本は長期的パートナー」 “日本のサイバーセキュリティー支援”発表 最先端AIをメガバンクに提供&nbsp;&nbsp;日テレNEWS NNN",
-      "date": "2026-05-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "複数の三菱電機製 FA 製品における複数の脆弱性",
@@ -388,27 +397,9 @@
       "category": "vuln"
     },
     {
-      "title": "Analysis of a Year of Files Uploaded to DShield Sensors, (Wed, May 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33026",
-      "summary": "Using the data collected over the past year and using Kibana these two ES&#x7c;QL query to summarize the data, this shows the list of the most uploaded threat to two DShield sensors (local and cloud) ",
-      "date": "2026-05-28",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "ISC Stormcast For Thursday, May 28th, 2026 https://isc.sans.edu/podcastdetail/9948, (Thu, May 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33028",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-05-28",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "MacGregor Voyage Data Recorder (VDR) G4e",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-01",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could result in an attacker gaining administrator access to the device. The following versions of MacGregor Voyage Data Recorder (VDR",
+      "title": "KMW CCTV Security Cameras",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected: KM-IP",
       "date": "2026-05-28",
       "source": "CISA",
       "language": "英語",
@@ -460,24 +451,6 @@
       "category": "alert"
     },
     {
-      "title": "KMW CCTV Security Cameras",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-06",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability may grant full unauthorized access to camera feeds and settings. The following versions of KMW CCTV Security Cameras are affected: KM-IP",
-      "date": "2026-05-28",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CP Plus 8 Ch. Network Video Recorder",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-148-05",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability allows an attacker's malicious script to execute in the browser of any authenticated user or administrator who accesses the affected int",
-      "date": "2026-05-28",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
       "title": "CISA ICS Advisory / ICS Medical Advisory（2026年05月26日）",
       "url": "https://jvn.jp/vu/JVNVU94216548/",
       "summary": "2026年05月26日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
@@ -494,60 +467,6 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
-    },
-    {
-      "title": "Reconstructing an Akira Ransomware Kill Chain from Perimeter and Endpoint Logs, (Wed, May 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33024",
-      "summary": "Most Akira write-ups focus on the ransom note or the encryption routine. By the time those show up the interesting forensic work is over. The questions that matter to defenders sit earlier. How did th",
-      "date": "2026-05-27",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, May 27th, 2026 https://isc.sans.edu/podcastdetail/9946, (Wed, May 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33022",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-05-27",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "dnsmasqにおける複数の脆弱性",
-      "url": "https://jvn.jp/vu/JVNVU90845089/",
-      "summary": "dnsmasqには複数の脆弱性が存在します。",
-      "date": "2026-05-26",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "SGLangにおける複数の脆弱性",
-      "url": "https://jvn.jp/vu/JVNVU96879318/",
-      "summary": "SGLangには複数の脆弱性が存在します。",
-      "date": "2026-05-26",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "ISC Stormcast For Tuesday, May 26th, 2026 https://isc.sans.edu/podcastdetail/9944, (Tue, May 26th)",
-      "url": "https://isc.sans.edu/diary/rss/33020",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-05-26",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "Possible ACR Stealer From Page Impersonating Claude, (Tue, May 26th)",
-      "url": "https://isc.sans.edu/diary/rss/33018",
-      "summary": "Introduction&#xd;",
-      "date": "2026-05-26",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
     },
     {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
@@ -759,15 +678,6 @@
     {
       "title": "お知らせ：ソフトウェア等の脆弱性関連情報に関する届出状況［2026年第1四半期（1月～3月）］",
       "url": "https://www.jpcert.or.jp/report/press.html",
-      "summary": "",
-      "date": "2026-04-16",
-      "source": "JPCERT/CC",
-      "language": "日本語",
-      "category": "alert"
-    },
-    {
-      "title": "お知らせ：JPCERT/CC 四半期レポート［2026年1月1日～2026年3月31日］",
-      "url": "https://www.jpcert.or.jp/qr/index.html",
       "summary": "",
       "date": "2026-04-16",
       "source": "JPCERT/CC",
@@ -1139,5 +1049,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/6/2 7:09:07"
+  "updated": "2026/6/3 7:00:59"
 }
