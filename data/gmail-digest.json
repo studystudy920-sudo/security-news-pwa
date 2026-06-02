@@ -2,27 +2,60 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
-      "subject": "ウイルスだけではない個人向け脅威／信頼を損なったNTTドコモのネットワーク品質：日経クロステック PC/モバイルメール",
-      "snippet": "IPAが「情報セキュリティ10大脅威」2026年版を発表、個人向けは「だまし」による操作・不正ログインによるアカウント乗っ取りが中心。侵入後の脅威を封じ込める「EDR」解説、26年4月のランサム被害は880件で「Coinbase Cartel」が活発化。TLS証明書の有効期間が段階的に47日へ短縮し更新漏れが障害リスクに、登録セキスペの「8万円講習」一部免除の話題も。",
-      "date": "2026-06-01 06:09",
-      "messageId": "19e7fdee28300793"
+      "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
+      "subject": "Scan 特別号 [2026-06-02] 【無料セキュリティセミナー】日立、NEC、日経、TBS、メルペイなど16企業・組織が登壇",
+      "snippet": "PwC Japanグループ主催「Digital Trust Forum 2026」開催中（〜6/30オンデマンド・無料）。日立・NEC・メルペイ・日経・TBS等16組織が登壇し、AI時代のサイバーセキュリティ対応・ガバナンス・インシデント対応時の経営判断を議論する。",
+      "date": "2026-06-02 11:12",
+      "messageId": "19e861aadac3daf9"
     },
     {
       "type": "newsletter",
-      "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
-      "subject": "大和ハウス会長「シニアは戦力」／ミズノ復活を支えた「開発拠点」 - 日経ビジネス（6/1）",
-      "snippet": "日経ビジネスの一般ビジネスダイジェスト（セキュリティ関連トピックなし）。大和ハウス会長のシニア活用論、ミズノ復活を支えた開発拠点などのトピックを掲載。",
-      "date": "2026-06-01 05:32",
-      "messageId": "19e7fbcd3b4207e2"
+      "from": "ISACA Tokyo Chapter <tky-jimukyoku@isaca.gr.jp>",
+      "subject": "【ISACA 東京支部】2025-2026年度年次総会開催のお知らせ",
+      "snippet": "2026/6/16(火)18:30〜 日本教育会館にて年次総会（実開催・1CPE）。基調講演はTMI総合法律事務所 柴野相雄弁護士「AI利活用におけるセキュリティ対策と法的責任」（AI事業者ガイドライン1.2版等を踏まえて）。申込締切6/11、Peatix（PW: isaca2026、会員ID必要）。",
+      "date": "2026-06-02 13:04",
+      "messageId": "19e8681169132e58"
+    },
+    {
+      "type": "newsletter",
+      "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
+      "subject": "メール・SMS・SNSが詐欺の入り口に／「Dell Pro Essential 14」、実用性は高いがキーボードに弱点：日経クロステック PC/モバイルメール",
+      "snippet": "最新セキュリティ特集：サイバー攻撃の入り口として最多のフィッシング（メール・SMS・SNS）から投資詐欺までを解説。piyokango週刊システムトラブル＝ユニバーサルミュージック顧客情報310万件流出（調査完了も原因示さず）も掲載。",
+      "date": "2026-06-03 06:08",
+      "messageId": "19e8a2ad3bcc6f34"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT注目記事 by 日経クロステック <xtech-pickup@nikkeibp.co.jp>",
+      "subject": "AIエージェント13体を操るSansan幹部／千葉興業銀行、対面の本人確認にJPKI利用：日経クロステック IT注目記事メール",
+      "snippet": "千葉興業銀行が対面の本人確認にマイナンバーカードの公的個人認証（JPKI）を活用。AIエージェント活用の最新事例などIT注目記事のまとめ。",
+      "date": "2026-06-02 17:10",
+      "messageId": "19e8762aa26642f7"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT最新ニュース by 日経クロステック <xtech-news@nikkeibp.co.jp>",
+      "subject": "GMOあおぞらネット銀行が「AI銀行」宣言／「米軍パイロット救助で量子センサー使用」の真偽：日経クロステック IT最新ニュースメール",
+      "snippet": "GMOあおぞらネット銀行がレガシー業務一掃に向け「AI銀行」を宣言。量子センサー報道の真偽検証など最新ITニュースのダイジェスト。",
+      "date": "2026-06-02 12:14",
+      "messageId": "19e865302ea3828c"
+    },
+    {
+      "type": "newsletter",
+      "from": "AIエフェクト by 日経クロステック <xtech-aie@nikkeibp.co.jp>",
+      "subject": "トークン消費爆発に悩む米IT企業、Mythosで状況は悪化へ",
+      "snippet": "生成AIのトークン消費が急増しコスト管理に悩む米IT企業の動向。新たな潮流「Mythos」で状況がさらに悪化する可能性を解説。",
+      "date": "2026-06-03 06:01",
+      "messageId": "19e8a24ba9fcdd74"
     }
   ],
+  "googleSecurityAlerts": [],
   "sourceStatus": {
     "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）",
-    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
-    "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
+    "ScanNetSecurity": "1件（Digital Trust Forum 2026 案内）",
+    "ISACA_Tokyo": "1件（年次総会・基調講演案内）",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
-    "Nikkei_BP_group": "2件取得（日経クロステック PC/モバイルメール=セキュリティ関連、日経ビジネス Editor's EYE=一般ビジネス）"
+    "Nikkei_BP_group": "セキュリティ・IT関連を中心に取得（PC/モバイル＝フィッシング詐欺特集ほか、IT注目記事＝JPKI本人確認、IT最新ニュース、AIエフェクト等）"
   },
-  "updated": "2026-06-01 07:00"
+  "updated": "2026-06-03 07:00"
 }
