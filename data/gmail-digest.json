@@ -2,60 +2,68 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
-      "subject": "Scan 特別号 [2026-06-02] 【無料セキュリティセミナー】日立、NEC、日経、TBS、メルペイなど16企業・組織が登壇",
-      "snippet": "PwC Japanグループ主催「Digital Trust Forum 2026」開催中（〜6/30オンデマンド・無料）。日立・NEC・メルペイ・日経・TBS等16組織が登壇し、AI時代のサイバーセキュリティ対応・ガバナンス・インシデント対応時の経営判断を議論する。",
-      "date": "2026-06-02 11:12",
-      "messageId": "19e861aadac3daf9"
-    },
-    {
-      "type": "newsletter",
       "from": "ISACA Tokyo Chapter <tky-jimukyoku@isaca.gr.jp>",
-      "subject": "【ISACA 東京支部】2025-2026年度年次総会開催のお知らせ",
-      "snippet": "2026/6/16(火)18:30〜 日本教育会館にて年次総会（実開催・1CPE）。基調講演はTMI総合法律事務所 柴野相雄弁護士「AI利活用におけるセキュリティ対策と法的責任」（AI事業者ガイドライン1.2版等を踏まえて）。申込締切6/11、Peatix（PW: isaca2026、会員ID必要）。",
-      "date": "2026-06-02 13:04",
-      "messageId": "19e8681169132e58"
+      "subject": "【ISACA東京支部】2026年6月期 CISM試験レビューコースの開催",
+      "snippet": "6/6（土）・7（日）の2日間、ZOOMで国際本部制定のレビュー教材を基にドメイン別解説。最大12.25CPE。申込締切6/4（木）、先着70名（会員5,000円／非会員9,000円）。",
+      "date": "2026-06-03 15:01",
+      "messageId": "19e8c12873dfdb25"
     },
     {
       "type": "newsletter",
-      "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
-      "subject": "メール・SMS・SNSが詐欺の入り口に／「Dell Pro Essential 14」、実用性は高いがキーボードに弱点：日経クロステック PC/モバイルメール",
-      "snippet": "最新セキュリティ特集：サイバー攻撃の入り口として最多のフィッシング（メール・SMS・SNS）から投資詐欺までを解説。piyokango週刊システムトラブル＝ユニバーサルミュージック顧客情報310万件流出（調査完了も原因示さず）も掲載。",
-      "date": "2026-06-03 06:08",
-      "messageId": "19e8a2ad3bcc6f34"
+      "from": "ISC2 <info@connect.isc2.org>",
+      "subject": "Keynote Reveal! Freakyclown + Dr. Jessica Barker",
+      "snippet": "ISC2 Security Congress（10/26開催）の基調講演を発表。ディープフェイクとAI駆動型サイバー攻撃、人間心理を突くソーシャルエンジニアリング戦術を技術・人間両面から解説する。",
+      "date": "2026-06-03 09:31",
+      "messageId": "19e8e1ef56cfd7f1"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2 <official@connect.isc2.org>",
+      "subject": "[1 CPE Credit] Meet the 2026 ISC2 Bylaws Committee",
+      "snippet": "6/11 1pm ET開催のウェビナー。2026年ISC2細則委員会による細則レビュープロセスを解説。参加で1 CPE取得可能。",
+      "date": "2026-06-03 08:07",
+      "messageId": "19e8dcf6c3613648"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール <tgml-10@nikkeibp.co.jp>",
+      "subject": "未知のマルウェア検知や自動化された脅威対応、今注目の最新セキュリティ技術は？【日経BP Topics】",
+      "snippet": "OPSWAT主催「OP/X Tokyo：AIが再定義するサイバーセキュリティ」セミナー案内（6/17 神田スクエアホール）。ゼロデイ前提のPredictive AI Defense Architecture、無害化・一方向通信による多層防御を紹介。",
+      "date": "2026-06-03 13:38",
+      "messageId": "19e8bc67e75596c4"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール <tgml-10@nikkeibp.co.jp>",
+      "subject": "近年、強力なサイバー攻撃対策として本命視されているゼロトラストのアプローチ導入法【日経BP Topics】",
+      "snippet": "セキュリティインシデント経験企業が45.2％に達する中、人材・知識・予算不足に悩む企業向けにゼロトラスト移行の下地を作るソリューションを紹介する資料案内。CIO・セキュリティ担当者向け。",
+      "date": "2026-06-03 06:41",
+      "messageId": "19e8a48790a5071f"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール <tgml-10@nikkeibp.co.jp>",
+      "subject": "金融デジタル戦略会議　金融庁が語る金融ビジネスの変革　7/17開催【BPセミナー】",
+      "snippet": "金融庁が金融ビジネスの変革を語る「金融デジタル戦略会議」（7/17開催）の案内。金融規制・デジタル動向に関連。",
+      "date": "2026-06-03 09:33",
+      "messageId": "19e8ae6b166439b0"
     },
     {
       "type": "newsletter",
       "from": "IT注目記事 by 日経クロステック <xtech-pickup@nikkeibp.co.jp>",
-      "subject": "AIエージェント13体を操るSansan幹部／千葉興業銀行、対面の本人確認にJPKI利用：日経クロステック IT注目記事メール",
-      "snippet": "千葉興業銀行が対面の本人確認にマイナンバーカードの公的個人認証（JPKI）を活用。AIエージェント活用の最新事例などIT注目記事のまとめ。",
-      "date": "2026-06-02 17:10",
-      "messageId": "19e8762aa26642f7"
-    },
-    {
-      "type": "newsletter",
-      "from": "IT最新ニュース by 日経クロステック <xtech-news@nikkeibp.co.jp>",
-      "subject": "GMOあおぞらネット銀行が「AI銀行」宣言／「米軍パイロット救助で量子センサー使用」の真偽：日経クロステック IT最新ニュースメール",
-      "snippet": "GMOあおぞらネット銀行がレガシー業務一掃に向け「AI銀行」を宣言。量子センサー報道の真偽検証など最新ITニュースのダイジェスト。",
-      "date": "2026-06-02 12:14",
-      "messageId": "19e865302ea3828c"
-    },
-    {
-      "type": "newsletter",
-      "from": "AIエフェクト by 日経クロステック <xtech-aie@nikkeibp.co.jp>",
-      "subject": "トークン消費爆発に悩む米IT企業、Mythosで状況は悪化へ",
-      "snippet": "生成AIのトークン消費が急増しコスト管理に悩む米IT企業の動向。新たな潮流「Mythos」で状況がさらに悪化する可能性を解説。",
-      "date": "2026-06-03 06:01",
-      "messageId": "19e8a24ba9fcdd74"
+      "subject": "AIに猛進するソフトバンクG／Microsoftが自律型AIエージェントを投入：日経クロステック IT注目記事メール",
+      "snippet": "Microsoftが自律型AIエージェントを投入。ソフトバンクGのAI戦略と時価総額動向など、IT注目記事のまとめ。",
+      "date": "2026-06-03 16:32",
+      "messageId": "19e8c664afc216f4"
     }
   ],
   "googleSecurityAlerts": [],
   "sourceStatus": {
     "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）",
-    "ScanNetSecurity": "1件（Digital Trust Forum 2026 案内）",
-    "ISACA_Tokyo": "1件（年次総会・基調講演案内）",
-    "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
-    "Nikkei_BP_group": "セキュリティ・IT関連を中心に取得（PC/モバイル＝フィッシング詐欺特集ほか、IT注目記事＝JPKI本人確認、IT最新ニュース、AIエフェクト等）"
+    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
+    "ISACA_Tokyo": "1件（CISM試験レビューコース案内）",
+    "ISC2_Japan": "2件（Security Congress基調講演、細則委員会ウェビナー／connect.isc2.org）",
+    "Nikkei_BP_group": "多数受信。セキュリティ・コンプライアンス関連を抽出（OPSWATセミナー、ゼロトラスト、金融庁デジタル戦略会議、Microsoft自律型AIエージェント等）"
   },
-  "updated": "2026-06-03 07:00"
+  "updated": "2026-06-04 06:10"
 }
