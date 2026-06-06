@@ -1,6 +1,69 @@
 {
   "feeds": [
     {
+      "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+      "url": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+      "summary": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks. The feature is primarily desig",
+      "date": "2026-06-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+      "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+      "summary": "A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that relay web-scraping tra",
+      "date": "2026-06-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+      "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerab",
+      "date": "2026-06-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
+      "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+      "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all o",
+      "date": "2026-06-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+      "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft repositories across four o",
+      "date": "2026-06-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
+      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+      "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out ",
+      "date": "2026-06-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
+      "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
+      "date": "2026-06-06",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
       "title": "複数のTP-LINK製品における重要情報の平文送信の脆弱性",
       "url": "https://jvn.jp/jp/JVN70631953/",
       "summary": "TP-Link Systems Inc.が提供する複数の製品には、重要情報の平文送信の脆弱性が存在します。",
@@ -55,29 +118,11 @@
       "category": "news"
     },
     {
-      "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
-      "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
-      "summary": "Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site com",
+      "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
+      "url": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
+      "summary": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]",
       "date": "2026-06-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
-      "url": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
-      "summary": "Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff. Recent reports describe thousands of lookalike FI",
-      "date": "2026-06-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
-      "url": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
-      "summary": "The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay network. \"Compromised busi",
-      "date": "2026-06-05",
-      "source": "The Hacker News",
+      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -163,9 +208,18 @@
       "category": "alert"
     },
     {
-      "title": "プレスリリース：GMOサイバーセキュリティ byイエラエ、陸上自衛隊高等工科学校で「ITリテラシー・サイバーセキュリティ講話」を実施（PR TIMES） - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ZaXhMN2pvQUFXNzlnRm1VZ20xdTk2SHF6cVBwZlRreVk2TXI1ODdtdkhVUldMbFRsNHgxdlFlRjdXSzBvRmRYM0tZaGxlMU9xZUZQcmFwSHpFWUxzVTRVY2t4YkRtc3pS?oc=5",
-      "summary": "プレスリリース：GMOサイバーセキュリティ byイエラエ、陸上自衛隊高等工科学校で「ITリテラシー・サイバーセキュリティ講話」を実施（PR TIMES）&nbsp;&nbsp;毎日新聞",
+      "title": "日立に「クロード・ミュトス」アクセス権付与する契約を締結 アメリカ・アンソロピック社の最新AI サイバーセキュリティ強化に活用 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHLWNxR1NBUFFHYmdSTEl2bEY5MmNrOXRRa3FDTG1veC01UTV0UXRoY1ZMcnpFZG9JU1JadUJoR1k5d085b2xCYmllV0YySjRqMDlzQUlBbGZtSHRob2VxUTh6T1FPZlpMd245S3F1YV9BZVpyVWRqSTJGUndjVW8?oc=5",
+      "summary": "日立に「クロード・ミュトス」アクセス権付与する契約を締結 アメリカ・アンソロピック社の最新AI サイバーセキュリティ強化に活用&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-06-05",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "GMOサイバーセキュリティ byイエラエ、陸上自衛隊高等工科学校で「ITリテラシー・サイバーセキュリティ講話」を実施 - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43UGVZRmVFbHNwWURQd29rWVYwQ3FPVm1IMlNnX2p1Mmd5Ulp1aUQxZGdiR08tYXp6WHA0emlyczNKQXc5by04WTFoQWpKVUZJa3V6c2xmTUZobldHemc5Z0dJQXdncDZEaU1MM2hSNFJGaXo2VU5XdkhOTQ?oc=5",
+      "summary": "GMOサイバーセキュリティ byイエラエ、陸上自衛隊高等工科学校で「ITリテラシー・サイバーセキュリティ講話」を実施&nbsp;&nbsp;ニコニコニュース",
       "date": "2026-06-05",
       "source": "Google News JP",
       "language": "日本語",
@@ -190,15 +244,6 @@
       "category": "news"
     },
     {
-      "title": "サイバーセキュリティにおける人工知能（AI）市場、CAGR 18.93%で急成長｜2035年に1,677億7,000万米ドルへ到達するAI主導の防御革新 - アットプレス",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hR0hud1FGWWhiaGtzUFBJOXoydlVIMTJqLXh4UUQySXh3aUJLNVBBYUl6RGpZNmVfUEFuMkF4aUpQbkNPTWlIdUgwUjBNdUk?oc=5",
-      "summary": "サイバーセキュリティにおける人工知能（AI）市場、CAGR 18.93%で急成長｜2035年に1,677億7,000万米ドルへ到達するAI主導の防御革新&nbsp;&nbsp;アットプレス",
-      "date": "2026-06-05",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "Securly Chrome Extensionにおける複数の脆弱性",
       "url": "https://jvn.jp/vu/JVNVU97035938/",
       "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
@@ -217,33 +262,6 @@
       "category": "vuln"
     },
     {
-      "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
-      "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-      "summary": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, a",
-      "date": "2026-06-04",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
-      "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
-      "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issu",
-      "date": "2026-06-04",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
-      "url": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
-      "summary": "Over the past several weeks, the cybersecurity community has been reminded how quickly frontier and agentic AI in defense networks can challenge our assumptions. When Anthropic's Claude Mythos model w",
-      "date": "2026-06-04",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Brave Software releases Origin for a paid, bloat-free browsing experience",
       "url": "https://www.bleepingcomputer.com/news/software/brave-software-releases-origin-for-a-paid-bloat-free-browsing-experience/",
       "summary": "Brave has announced the public release of Brave Origin, a paid minimalist version of its browser that strips out cryptocurrency, AI, rewards, and other monetization-focused features. [...]",
@@ -256,24 +274,6 @@
       "title": "Hola Browser for Windows compromised to deliver cryptominer",
       "url": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
       "summary": "The Windows version of the Hola Browser has been compromised in a supply chain attack that delivered an undeclared executable identified by researchers as a cryptocurrency miner. [...]",
-      "date": "2026-06-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Credit card theft campaign abuses Stripe to host stolen payment info",
-      "url": "https://www.bleepingcomputer.com/news/security/credit-card-theft-campaign-abuses-stripe-to-host-stolen-payment-info/",
-      "summary": "A new Magecart campaign is using Stripe's API infrastructure to host the credit card-stealing payload and the data exfiltrated from checkout pages. [...]",
-      "date": "2026-06-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "DentaQuest data breach exposed info of 2.6 million accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
-      "summary": "A data breach at the dental benefits administrator DentaQuest has reportedly exposed the sensitive data of 2.6 million accounts. [...]",
       "date": "2026-06-04",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -343,18 +343,45 @@
       "category": "alert"
     },
     {
-      "title": "韓国政府が「クロード・ミュトス」アクセス権獲得…サイバーセキュリティ強化へ - AFPBB News",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00Ty12Nk51VmRNYVlhRmFySllkUFExWmFkaHdZTDhVMF9GakFtZTdrYS1oeUUtbjI4LTJRUjZIbklmTXF0YnZWNi1zLU5DcGRqaFHSAVRBVV95cUxNUm00ODd0ekdXN0lXRXFEV2lTN3Bua0loNmpVTXZBcHN3dGIwZ1EtUXZLZjFOOUhGd2NzVmNCWWUyaWVaMEZ1bDFXOXZBanFmZW92RFA?oc=5",
-      "summary": "韓国政府が「クロード・ミュトス」アクセス権獲得…サイバーセキュリティ強化へ&nbsp;&nbsp;AFPBB News",
+      "title": "AIに仕事は奪われない？ 過熱するサイバーセキュリティ人材の争奪戦 | 崩れる需要と供給のバランス - クーリエ・ジャポン",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NTTU2UnRKU25xRkdGYlBMS0VkR2ZyQmdqcVhCSWZ2Mldza3A1QklqMUFOZl95a3EzMFpBUVNkQzBJZUw1RlVfMVpSQmFVUnJMYzRn?oc=5",
+      "summary": "AIに仕事は奪われない？ 過熱するサイバーセキュリティ人材の争奪戦 | 崩れる需要と供給のバランス&nbsp;&nbsp;クーリエ・ジャポン",
       "date": "2026-06-04",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "AIに仕事は奪われない？ 過熱するサイバーセキュリティ人材の争奪戦 | 崩れる需要と供給のバランス - クーリエ・ジャポン",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NTTU2UnRKU25xRkdGYlBMS0VkR2ZyQmdqcVhCSWZ2Mldza3A1QklqMUFOZl95a3EzMFpBUVNkQzBJZUw1RlVfMVpSQmFVUnJMYzRn?oc=5",
-      "summary": "AIに仕事は奪われない？ 過熱するサイバーセキュリティ人材の争奪戦 | 崩れる需要と供給のバランス&nbsp;&nbsp;クーリエ・ジャポン",
+      "title": "株式会社SHIFT SECURITY、新会社設立を中止し株式会社SHIFTに吸収合併へ - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aRjI1YlhEcE9kUGZKeUFSczBvVXB6dmdjaC1QZFZkdVRfNmtqYXA1ZDJqRzN4V05ZdGxtUXdIZjdvRU5aVzJNVFNvejFiQ3E0TkF4b083b2RYdWNlZjZubzl2NWIySktxLXRpeQ?oc=5",
+      "summary": "株式会社SHIFT SECURITY、新会社設立を中止し株式会社SHIFTに吸収合併へ&nbsp;&nbsp;ScanNetSecurity",
+      "date": "2026-06-04",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "韓国政府が「クロード・ミュトス」アクセス権獲得…サイバーセキュリティ強化へ（KOREA WAVE） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mZENkMkJlN2trdmRIVXU5a2c0OVBiOEVZcEdFMlg2MnJ6U2hVU2RlaTZYamZLSmFMUUhsSkVpQkxnTnY4UE93VTVwenpaSzRhejdSZ3VPckxabGNWWDBwMVJtRDQxck5nTjB2WlRjXzROM2FEV0tNMDhfTnp4b2c?oc=5",
+      "summary": "韓国政府が「クロード・ミュトス」アクセス権獲得…サイバーセキュリティ強化へ（KOREA WAVE）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-06-04",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "パナソニック デジタル、Trellixプロフェッショナルサービスと連携した工場サイバーセキュリティ対策支援コンサルティングを提供 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBDOHJpQTZHNUI3WWdoNWlkbkkyVkNTdktvTHlEa2FCNWVBa2xFazVtRlNzNnJKcEdzcVVudXJ3R08yUXktQncwY2Q4V0F4T085eTRORU01LVZkd1NVaWlYT0xpSGYxX1BqTVotUjRPeEx6VjdlWUkwSWJleGRzTjQ?oc=5",
+      "summary": "パナソニック デジタル、Trellixプロフェッショナルサービスと連携した工場サイバーセキュリティ対策支援コンサルティングを提供&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-06-04",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「サイバー攻撃は車にも？」パナソニックが示す、PCだけじゃない意外な脅威（スマホライフPLUS） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaWmRTTDJVcXJ6YmV2OGRoeTRfNVFBQ2lJQU00ZlNTUmphN3gtVnVLTGNNb2VTZnBjcnlVUWlzdTZZNExmd280VXpkZDlDV1VPeGRtTU1mQ2l2U1JtUnV4UkpOVXJmQVEzV2JoRURGTExSYkdqNWNmczFyTS1iMkU?oc=5",
+      "summary": "「サイバー攻撃は車にも？」パナソニックが示す、PCだけじゃない意外な脅威（スマホライフPLUS）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-06-04",
       "source": "Google News JP",
       "language": "日本語",
@@ -424,36 +451,9 @@
       "category": "alert"
     },
     {
-      "title": "サイバー攻撃は激化、医療機関等は「チェックリスト」用いて自院のセキュリティ対策の再確認を―医療等情報利活用ワーキング（2） - GemMed",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBBVEMzZmx1NGhjWmxNMG1OWjRCWVItOFphWWN0OFdLVzVyTGVhQ3A5aFA5cDlYbHQ4ZkdScXZ6UF9jdVlRRnZBSg?oc=5",
-      "summary": "サイバー攻撃は激化、医療機関等は「チェックリスト」用いて自院のセキュリティ対策の再確認を―医療等情報利活用ワーキング（2）&nbsp;&nbsp;GemMed",
-      "date": "2026-06-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "LAC Security Insight 第16号 2026 春 プラットフォーム診断員から見る脅威の動向 - 株式会社ラック",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15dURvWG1hMEdwMDFoX1ZoVUJGdS03WmdDQ0VmblZzVE95QVNtWnpGSXdJT2lpSks1Sk1tX25WMGVBQ2lYZHY0T1hYSmpOQ21EU240S3h3Y2ROdW8yWGJYTnR0amp2R01KWWc?oc=5",
-      "summary": "LAC Security Insight 第16号 2026 春 プラットフォーム診断員から見る脅威の動向&nbsp;&nbsp;株式会社ラック",
-      "date": "2026-06-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "アンソロピック、AIセキュリティモデル「ミトス」のアクセス拡大…サムスン・SK・KISA参加の見通し（中央日報日本語版） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5iTUZNbnpMXzZHWVF6aXJkQ0xLRUhQUF80VXlaVUZOblJCNTdfZ1BWa2hMaTExNVBISk5vRnZabGg1YlZXbEFvRkQ3SFhGR2xSUV8wTWVNOGNoTmZlaUNaajBrYU5TQllBQThHRTV6bHlBNmI0UVpmZkRZcm1zNWs?oc=5",
-      "summary": "アンソロピック、AIセキュリティモデル「ミトス」のアクセス拡大…サムスン・SK・KISA参加の見通し（中央日報日本語版）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-06-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "インターコンチネンタル取引所、アンソロピックのサイバーセキュリティプロジェクトに参加 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ybDlzY1piSC1ScEVSVHdOMU8yY2o0M1pGSTJnSzNXOFVqLUZoMXl2WW5iTVNtU2FWX3ZSbENadmxJaFJ4dDZJX1E3WHpoTWw2TkwxS0NUeXRoZGFGX1ZkZTZTSXh3Tk1UV2U5WER3aDA?oc=5",
-      "summary": "インターコンチネンタル取引所、アンソロピックのサイバーセキュリティプロジェクトに参加 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "title": "高性能AI「ミュトス」でサイバー攻撃が異次元のレベルに…最短“22秒”の爆速攻撃に「止めないIT」を優先する日本企業の盲点 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5lN0tUbDN0ekpFN0laZC1WeDd0Q0NDekw3bFVKVjVya2J1ZzZMeERWRzRZT0V0aUdWcGV0SFJGSWtzQUJoTExYNlNxU3JLZWFVNURjNlhRUFI4dW80YXFEeUxjUEJJOGFjYXhNSUF1SzNrRDN4N210RWVaQlFqVms?oc=5",
+      "summary": "高性能AI「ミュトス」でサイバー攻撃が異次元のレベルに…最短“22秒”の爆速攻撃に「止めないIT」を優先する日本企業の盲点&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-06-03",
       "source": "Google News JP",
       "language": "日本語",
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/6/6 6:36:50"
+  "updated": "2026/6/7 6:29:24"
 }
