@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CAMS 1-4 シェル/シェルフ・無記名株式</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+  html,body{ margin:0; background:#0a0e1f; }
+</style>
+</head>
+<body>
+<deck-stage width="1280" height="960">
+
+  <!-- ============================================================
+       SLIDE 1 — TITLE
+       ============================================================ -->
+  <section data-label="Title">
+    <div class="slide" style="padding:0;">
+      <div style="position:absolute; inset:0; background:#FFFFFF;"></div>
+      <div style="position:absolute; inset:0; opacity:1; background:
+            radial-gradient(60% 50% at 90% 8%, rgba(58,63,158,.06), transparent 70%);"></div>
+      <!-- decorative faint actor flow -->
+      <div style="position:absolute; left:0; right:0; bottom:118px; height:1px; background:var(--line);"></div>
+
+      <div style="position:relative; padding:78px 72px; display:flex; flex-direction:column; height:100%; color:var(--ink);">
+        <div style="font-family:var(--mono); font-size:15px; letter-spacing:.26em; color:var(--indigo); text-transform:uppercase; font-weight:600;">
+          CAMS Exam Prep &nbsp;·&nbsp; Module 1-4
+        </div>
+
+        <div style="margin-top:auto;">
+          <div style="font-size:17px; letter-spacing:.05em; color:var(--indigo-2); font-weight:700;">
+            DNFBP（指定非金融業者・職業専門家）
+          </div>
+          <h1 style="font-size:74px; line-height:1.08; font-weight:900; margin:14px 0 0; letter-spacing:.01em; color:var(--navy);">
+            シェル / シェルフ<br><span style="color:var(--indigo);">無記名株式</span>
+          </h1>
+          <div style="font-size:21px; color:var(--ink-2); margin-top:20px; font-weight:500; max-width:760px; line-height:1.6;">
+            実体なき法人とノミニー・無記名株式が、<b style="color:var(--navy);">受益所有者（BO）</b>をどう隠すのか。
+            登場人物と資金の流れを「→」で追って理解する。
+          </div>
+        </div>
+
+        <!-- question index -->
+        <div style="margin-top:38px; display:grid; grid-template-columns:repeat(4,1fr); gap:14px;">
+          <div class="t1q"><span>Q1</span><p>シェルカンパニー悪用目的</p></div>
+          <div class="t1q"><span>Q2</span><p>無記名株式の高リスク性</p></div>
+          <div class="t1q"><span>Q3</span><p>シェルによる代替資産化</p></div>
+          <div class="t1q"><span>Q4</span><p>シェル/シェルフ設立目的</p></div>
+        </div>
+
+        <div style="position:absolute; left:72px; right:72px; bottom:46px; display:flex; justify-content:space-between; align-items:center; font-family:var(--mono); font-size:13px; letter-spacing:.14em; color:var(--ink-3);">
+          <span>AML / CFT &nbsp;|&nbsp; DNFBP</span>
+          <span>概念6枚 ＋ 各問3枚 ＝ 全20枚</span>
+        </div>
+      </div>
+    </div>
+    <style>
+      .t1q{ background:var(--bg-soft); border:1px solid var(--line); border-radius:11px; padding:13px 15px; }
+      .t1q span{ font-family:var(--mono); font-size:14px; font-weight:600; color:var(--indigo); letter-spacing:.08em; }
+      .t1q p{ margin:6px 0 0; font-size:15px; font-weight:700; color:var(--navy); line-height:1.35; }
+    </style>
+  </section>
+
+  <!-- ============================================================
+       SLIDE 2 — 登場人物の全体マップ  (rebuilt for Shell/Bearer theme)
+       ============================================================ -->
+  <section data-label="Actor Map">
+    <div class="slide">
+      <div class="head">
+        <div class="chip">🗺️</div>
+        <div class="head-txt">
+          <div class="eyebrow">Map · 学習マップ</div>
+          <h1>登場人物の全体マップ — 誰が、誰を使って、何を隠すか</h1>
+          <div class="sub">シェル／シェルフ・無記名株式をめぐる関係者と資金・支配の流れ</div>
+        </div>
+        <div class="badge">MAP</div>
+      </div>
+
+      <!-- intro line -->
+      <div style="font-size:15px; line-height:1.6; color:var(--ink-2); margin-bottom:18px;">
+        中心にいるのは<b style="color:var(--red);">真の受益所有者（犯罪者）</b>。
+        <b style="color:var(--amber);">ゲートキーパー／TCSP</b>が秘匿の器をつくり、<b style="color:var(--navy);">ノミニー・無記名株式</b>で支配を切り離し、
+        <b style="color:var(--green);">資産</b>へ変換する。これを<b style="color:var(--teal);">規制当局</b>が透明性で追う。
+      </div>
+
+      <!-- main flow -->
+      <div class="card" style="padding:26px 24px; flex:1; display:flex; flex-direction:column; justify-content:center; gap:0;">
+        <div class="flow center">
+          <div class="node crook">
+            <div class="ico">🕵️</div>
+            <div class="nm">犯罪者（真のBO）</div>
+            <div class="en">Beneficial Owner</div>
+            <div class="role">支配を隠したい主体</div>
+          </div>
+          <div class="arrow"><div class="lbl">設立を依頼</div><div class="ln"></div></div>
+          <div class="node tool">
+            <div class="ico">⚖️</div>
+            <div class="nm">ゲートキーパー / TCSP</div>
+            <div class="en">Gatekeeper / TCSP</div>
+            <div class="role">弁護士・会計士・設立業者</div>
+          </div>
+          <div class="arrow"><div class="lbl">器を組成・名義提供</div><div class="ln"></div></div>
+          <div class="node">
+            <div class="ico">🏚️</div>
+            <div class="nm">シェル / シェルフ法人<br>＋ノミニー・無記名株式</div>
+            <div class="en">Shell + Nominee</div>
+            <div class="role">実体なき秘匿の器</div>
+          </div>
+          <div class="arrow danger"><div class="lbl">資産へ変換</div><div class="ln"></div></div>
+          <div class="node asset">
+            <div class="ico">🏢</div>
+            <div class="nm">資産・資金</div>
+            <div class="en">Real estate / DPMS</div>
+            <div class="role">不動産・貴金属・高額品</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- regulator watching -->
+      <div style="display:flex; align-items:center; gap:14px; margin-top:14px;">
+        <div class="node reg" style="flex:0 0 230px; flex-direction:row; text-align:left; gap:12px; padding:12px 16px;">
+          <div class="ico" style="flex:none;">🏛️</div>
+          <div><div class="nm" style="font-size:15px;">規制当局</div><div class="en">FATF / FinCEN / 金融庁</div></div>
+        </div>
+        <div class="arrow" style="flex:0 0 80px;"><div class="lbl" style="color:var(--teal);">BO透明性で追跡</div><div class="ln" style="background:var(--teal);"></div></div>
+        <div class="dnote info" style="margin:0; flex:1;">
+          <span>🎯</span><span><b>共通の核心：</b>受益所有者（BO）の不透明化と、現金→資産への変換。各経路に固有のレッド・フラッグがあり、4問すべてがこの軸でつながっている。</span>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>02 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 3 — 関係構造図: 透明な所有 vs 秘匿構造
+       ============================================================ -->
+  <section data-label="Structure">
+    <div class="slide">
+      <div class="head">
+        <div class="chip">①</div>
+        <div class="head-txt">
+          <div class="eyebrow">Concept · 関係構造図</div>
+          <h1>所有の「見える化」と「秘匿」— BO はどこにいるか</h1>
+          <div class="sub">透明な所有構造（低リスク） vs シェル＋ノミニー＋無記名株式の秘匿構造（高リスク）</div>
+        </div>
+        <div class="badge">CONCEPT</div>
+      </div>
+
+      <div style="flex:1; display:flex; flex-direction:column; justify-content:center; gap:18px;">
+      <!-- ① transparent -->
+      <div class="card" style="padding:18px 22px;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+          <span style="font-family:var(--mono); font-size:13px; font-weight:600; color:var(--green); background:var(--green-bg); border:1px solid #BFD9C7; padding:4px 11px; border-radius:7px;">① 透明な所有（低リスク）</span>
+          <span style="font-size:14px; color:var(--ink-2);">受益所有者が登記・把握でき、支配と名義が一致する</span>
+        </div>
+        <div class="flow center">
+          <div class="node asset" style="flex:0 0 215px;">
+            <div class="ico">🧑‍💼</div>
+            <div class="nm">受益所有者（BO）</div>
+            <div class="en">Beneficial Owner</div>
+          </div>
+          <div class="arrow"><div class="lbl" style="color:var(--green);">登記で直結</div><div class="ln" style="background:var(--green);"></div></div>
+          <div class="node" style="flex:0 0 215px; border-color:#BFD9C7;">
+            <div class="ico" style="background:var(--green-bg); border-color:#BFD9C7;">🏢</div>
+            <div class="nm">事業会社</div>
+            <div class="en">Operating Co.</div>
+            <div class="role">実体ある事業</div>
+          </div>
+          <div class="arrow"><div class="lbl" style="color:var(--green);">把握可能</div><div class="ln" style="background:var(--green);"></div></div>
+          <div class="node reg" style="flex:0 0 215px;">
+            <div class="ico">🏛️</div>
+            <div class="nm">当局・金融機関</div>
+            <div class="en">Regulator / FI</div>
+            <div class="role">BO を確認できる</div>
+          </div>
+          <div style="flex:1; padding-left:22px; font-size:14px; color:var(--ink-2); line-height:1.55;">
+            › 真の所有者と資産が<b style="color:var(--green);">記録で直結</b>。誰が支配しているか辿れる。
+          </div>
+        </div>
+      </div>
+
+      <!-- ② concealment -->
+      <div class="card" style="padding:18px 22px; border-color:#E6C9C5;">
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:14px;">
+          <span style="font-family:var(--mono); font-size:13px; font-weight:600; color:var(--red); background:var(--red-bg); border:1px solid #E6C9C5; padding:4px 11px; border-radius:7px;">② 秘匿構造（高リスク）</span>
+          <span style="font-size:14px; color:var(--ink-2);">ノミニー・無記名株式・多層法人で BO を切り離す</span>
+        </div>
+        <div class="flow center">
+          <div class="node crook">
+            <div class="ico">🕵️</div>
+            <div class="nm">真の支配者</div>
+            <div class="en">Hidden owner</div>
+          </div>
+          <div class="arrow danger"><div class="lbl">名義を委ねる</div><div class="ln"></div></div>
+          <div class="node tool">
+            <div class="ico">🪪</div>
+            <div class="nm">ノミニー</div>
+            <div class="en">Nominee</div>
+            <div class="role">名義役員・株主</div>
+          </div>
+          <div class="arrow danger"><div class="lbl">記録なく支配移転<br>(無記名株式)</div><div class="ln"></div></div>
+          <div class="node">
+            <div class="ico">🏚️</div>
+            <div class="nm">多層シェル法人</div>
+            <div class="en">Layered shells</div>
+            <div class="role">多法域・多段</div>
+          </div>
+          <div class="arrow danger"><div class="lbl">見えない</div><div class="ln"></div></div>
+          <div class="node reg" style="opacity:.6;">
+            <div class="ico">🏛️</div>
+            <div class="nm">当局・金融機関</div>
+            <div class="en">BO 特定不能</div>
+          </div>
+        </div>
+        <div class="dnote"><span>⚠</span><span><b>秘匿の核心：</b>ノミニーと無記名株式が「名義」と「真の支配」を切り離し、多層構造が経路を覆い隠す。当局・金融機関から<b>BO が見えなくなる</b>──これが 4 問すべての共通テーマ。</span></div>
+      </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>03 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 4 — 比較表  正常 vs 疑わしい
+       ============================================================ -->
+  <section data-label="Compare">
+    <div class="slide">
+      <div class="head">
+        <div class="chip">②</div>
+        <div class="head-txt">
+          <div class="eyebrow">Concept · 混同概念 比較表</div>
+          <h1>正常・低リスク vs 疑わしい・高リスク</h1>
+          <div class="sub">DNFBP 5 経路の「見分け方」── 同じ取引でも何が赤信号か</div>
+        </div>
+        <div class="badge">CONCEPT</div>
+      </div>
+
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th style="width:18%;">対象経路</th>
+            <th class="ok">🟢 正常・低リスク</th>
+            <th class="ng">🔴 疑わしい・高リスク（検知の核心）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="rc">不動産取引<span>資金源・決済</span></td>
+            <td>融資・自己資金で価格に見合う購入、買主＝受益者が一致、市場価格で取引</td>
+            <td>現金のストラクチャリング入金、名義が真の受益者と不一致、融資なしの急速開発、過大/過少評価による価値の人為操作</td>
+          </tr>
+          <tr>
+            <td class="rc">カジノ／<span>オンライン賭博</span></td>
+            <td>入金額に応じた相応のプレイ、勝敗を伴う通常の遊技、記録要求に応じる</td>
+            <td>ほぼプレイせず直近入金額に一致する高額を引出す（チップを資金通過に利用）、異常に頻繁な入金、暗号通貨での少額返金要求、ジャンケット経由の不透明な清算</td>
+          </tr>
+          <tr>
+            <td class="rc">法人・信託<span>ストラクチャー</span></td>
+            <td>実体ある事業活動、受益所有者が登記・把握可能、正当な資産承継目的の信託</td>
+            <td>実体のないシェル/シェルフ会社、ノミニー・無記名株式で支配者を秘匿、多層・多法域の複雑構造、取消可能信託の濫用で支配を維持しつつ秘匿</td>
+          </tr>
+          <tr>
+            <td class="rc">貴金属・<span>高額商品（DPMS）</span></td>
+            <td>所有権・資金源が明確、相応の決済手段、本人＝支払人が一致</td>
+            <td>未精錬金の持込みと第三者への支払指示、現金多用、所有権の裏付け欠如、商品引渡しと支払いの当事者・場所が不一致</td>
+          </tr>
+          <tr>
+            <td class="rc">貿易取引<span>（TBML）</span></td>
+            <td>市場価格・数量に整合するインボイス、商品説明と運賃が一致、単一取引で単一請求</td>
+            <td>過大/過少請求、商品説明と不一致な異常な輸送費、同一貨物への多重請求、実体のないファントム・シッピング、高リスク法域経由</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>04 / 20</span></div>
+    </div>
+    <style>
+      .cmp{ width:100%; border-collapse:separate; border-spacing:0; flex:1; font-size:14px; }
+      .cmp th,.cmp td{ text-align:left; vertical-align:top; padding:13px 16px; line-height:1.5; }
+      .cmp thead th{ font-size:15px; font-weight:800; color:#fff; background:var(--navy); position:sticky; }
+      .cmp thead th:first-child{ border-radius:10px 0 0 0; }
+      .cmp thead th:last-child{ border-radius:0 10px 0 0; }
+      .cmp thead th.ok{ background:var(--green); }
+      .cmp thead th.ng{ background:var(--red); }
+      .cmp tbody tr:nth-child(odd) td{ background:#fff; }
+      .cmp tbody tr:nth-child(even) td{ background:var(--bg-soft); }
+      .cmp tbody td{ border-bottom:1px solid var(--line); }
+      .cmp tbody tr:last-child td:first-child{ border-radius:0 0 0 10px; }
+      .cmp tbody tr:last-child td:last-child{ border-radius:0 0 10px 0; }
+      .cmp td.rc{ font-weight:800; color:var(--navy); font-size:14.5px; }
+      .cmp td.rc span{ display:block; font-weight:500; font-size:12px; color:var(--ink-3); margin-top:3px; }
+      .cmp tbody td:last-child{ color:var(--ink); }
+    </style>
+  </section>
+  <!-- ============================================================
+       SLIDE 5 — 必須用語集 (8 terms)
+       ============================================================ -->
+  <section data-label="Glossary">
+    <div class="slide">
+      <div class="head">
+        <div class="chip">③</div>
+        <div class="head-txt">
+          <div class="eyebrow">Concept · 必須用語集</div>
+          <h1>シェル／無記名株式を解く 8 用語</h1>
+          <div class="sub">登場人物と道具の正体を押さえる</div>
+        </div>
+        <div class="badge">CONCEPT</div>
+      </div>
+
+      <div class="glos">
+        <div class="gterm"><div class="gn">1</div><div class="gb"><h3>DNFBP<span>Designated Non-Financial Businesses &amp; Professions</span></h3><p>金融機関以外でMLリスクに晒される業種・専門職。カジノ・不動産業者・貴金属宝石商・士業・TCSP等。CDD・記録保存・STR届出義務を負う。</p><div class="gref">FATF R.22・23</div></div></div>
+        <div class="gterm"><div class="gn">2</div><div class="gb"><h3>ゲートキーパー<span>Gatekeeper</span></h3><p>弁護士・会計士・公証人など、法人設立・資産移転へのアクセスを仲介する専門職。守秘特権や信頼性を悪用され、洗浄の入口役・正当性付与役となり得る。</p><div class="gref">FATF R.22・23／犯収法</div></div></div>
+        <div class="gterm"><div class="gn">3</div><div class="gb"><h3>TCSP（信託・企業向けサービス）<span>Trust &amp; Company Service Provider</span></h3><p>法人・信託の設立、ノミニー役員・株主の提供、登記住所の提供等を行う事業者。受益所有者の隠蔽に悪用されやすくAML規制下に置かれる。</p><div class="gref">FATF R.22・25</div></div></div>
+        <div class="gterm"><div class="gn">4</div><div class="gb"><h3>シェル／シェルフ会社<span>Shell / Shelf Company</span></h3><p>実体的事業を持たないペーパーカンパニー。シェルフは設立済みで休眠後に販売される会社。BO秘匿・レイヤリング・資産変換に利用される。</p><div class="gref">FATF R.24・25／米CTA</div></div></div>
+        <div class="gterm"><div class="gn">5</div><div class="gb"><h3>無記名株式／ノミニー<span>Bearer Shares / Nominee</span></h3><p>無記名株式は所持人が株主とみなされ追跡困難。ノミニーは名義上の役員・株主を装い真の支配者を隠蔽。いずれもBO不透明化要因。</p><div class="gref">FATF R.24</div></div></div>
+        <div class="gterm"><div class="gn">6</div><div class="gb"><h3>TBML（貿易ベースML）<span>Trade-Based Money Laundering</span></h3><p>貿易取引を悪用し、過大・過少・多重請求や実体のない取引（ファントム・シッピング）で価値を国境を越えて移転・偽装する手法。</p><div class="gref">FATF/エグモント／外為法</div></div></div>
+        <div class="gterm"><div class="gn">7</div><div class="gb"><h3>ジャンケット<span>Junket</span></h3><p>カジノに富裕客を送客し、VIPルームでの賭博・信用供与・資金清算を仲介する業者。カジノが客のCDD・資金源把握を直接行えず高リスク。</p><div class="gref">FATF R.22（カジノ）</div></div></div>
+        <div class="gterm"><div class="gn">8</div><div class="gb"><h3>貴金属・宝石商（DPMS）<span>Dealers in Precious Metals &amp; Stones</span></h3><p>金・ダイヤ等の高価値・高換金・持運び容易な資産を扱う事業者。現金取引が多く、未精錬金の持込みや第三者支払いがレッド・フラッグ。</p><div class="gref">FATF R.22／米BSA</div></div></div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>05 / 20</span></div>
+    </div>
+    <style>
+      .glos{ flex:1; display:grid; grid-template-columns:1fr 1fr; gap:13px 18px; align-content:center; }
+      .gterm{ display:flex; gap:13px; background:#fff; border:1px solid var(--line); border-radius:11px; padding:13px 15px; box-shadow:0 4px 12px rgba(22,31,74,.04); }
+      .gn{ flex:none; width:30px; height:30px; border-radius:8px; background:var(--navy); color:#fff; font-family:var(--mono); font-weight:600; display:grid; place-items:center; font-size:14px; }
+      .gb h3{ margin:0; font-size:15.5px; font-weight:800; color:var(--navy); line-height:1.25; }
+      .gb h3 span{ display:block; font-family:var(--mono); font-size:10.5px; font-weight:500; color:var(--ink-3); letter-spacing:.02em; margin-top:2px; }
+      .gb p{ margin:7px 0 0; font-size:12.8px; line-height:1.5; color:var(--ink-2); }
+      .gref{ margin-top:7px; font-family:var(--mono); font-size:11px; color:var(--teal); }
+    </style>
+  </section>
+  <!-- ============================================================
+       SLIDE 6 — 規制マトリクス
+       ============================================================ -->
+  <section data-label="Regulation">
+    <div class="slide">
+      <div class="head">
+        <div class="chip teal">④</div>
+        <div class="head-txt">
+          <div class="eyebrow">Concept · 規制マトリクス</div>
+          <h1>シェル／無記名株式に関わる主要規制</h1>
+          <div class="sub">どの枠組みが、BO 透明性のどこを締めるか</div>
+        </div>
+        <div class="badge">CONCEPT</div>
+      </div>
+
+      <table class="reg">
+        <thead>
+          <tr><th style="width:23%;">規制 / Framework</th><th style="width:26%;">適用範囲</th><th>要点（シェル／無記名株式の論点）</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="rn">FATF 勧告 22・23</td><td>DNFBP 全般（カジノ・不動産・貴金属商・士業・TCSP）</td><td>金融機関と同等の CDD・記録保存・STR 報告義務を DNFBP に拡張。シェルを組成する TCSP・ゲートキーパーを規制対象に指定。</td></tr>
+          <tr><td class="rn">FATF 勧告 24・25</td><td>法人・法的取極（信託）の受益所有者透明性</td><td>無記名株式・ノミニーの悪用防止、BO 情報のタイムリーな入手を各国に要求。シェル／シェルフ規制の中核根拠。</td></tr>
+          <tr><td class="rn">米国 BSA</td><td>カジノ・一定の貴金属／宝石商・ディーラー等</td><td>カジノは AML プログラム・CTR/SAR 義務。貴金属商等にも AML プログラム策定義務。不動産 GTO で現金不動産購入の BO 報告。</td></tr>
+          <tr><td class="rn">米国 CTA<span>コーポレート・トランスペアレンシー法</span></td><td>米国で設立・登録される法人</td><td>受益所有者情報（BOI）の FinCEN への報告義務。シェルカンパニーによる秘匿への直接の対抗策。</td></tr>
+          <tr><td class="rn">犯収法・監督指針<span>邦銀実務</span></td><td>特定事業者（士業・宝石貴金属商・不動産業等）</td><td>取引時確認で実質的支配者（BO）を確認・記録。実体の乏しい法人・名義人構造は EDD・継続的顧客管理の対象。</td></tr>
+        </tbody>
+      </table>
+
+      <div class="dnote info"><span>💡</span><span><b>各規制は独立せず連動する。</b>　例）米国設立のシェルは <b>CTA</b> が BOI 報告を課し、無記名株式は <b>FATF R.24</b> がリスク低減を要求、邦銀での口座開設は <b>犯収法・監督指針</b> が同時に BO 確認を発動する。</span></div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>06 / 20</span></div>
+    </div>
+    <style>
+      .reg{ width:100%; border-collapse:separate; border-spacing:0; font-size:14px; margin-bottom:4px; }
+      .reg th,.reg td{ text-align:left; vertical-align:top; padding:13px 16px; line-height:1.5; }
+      .reg thead th{ font-size:14.5px; font-weight:800; color:#fff; background:var(--teal); }
+      .reg thead th:first-child{ border-radius:10px 0 0 0; } .reg thead th:last-child{ border-radius:0 10px 0 0; }
+      .reg tbody tr:nth-child(odd) td{ background:#fff; } .reg tbody tr:nth-child(even) td{ background:var(--teal-bg); }
+      .reg tbody td{ border-bottom:1px solid var(--line); color:var(--ink); }
+      .reg tbody tr:last-child td:first-child{ border-radius:0 0 0 10px; } .reg tbody tr:last-child td:last-child{ border-radius:0 0 10px 0; }
+      .reg td.rn{ font-weight:800; color:var(--teal); font-size:14.5px; }
+      .reg td.rn span{ display:block; font-weight:500; font-size:11.5px; color:var(--ink-3); margin-top:3px; }
+    </style>
+  </section>
+  <!-- ============================================================
+       SLIDE 7 — 試験のコツ & 頻出ひっかけ
+       ============================================================ -->
+  <section data-label="Tips">
+    <div class="slide">
+      <div class="head">
+        <div class="chip amber">🎯</div>
+        <div class="head-txt">
+          <div class="eyebrow">Strategy · 試験のコツ &amp; 頻出ひっかけ</div>
+          <h1>Exam Strategy &amp; Common Pitfalls</h1>
+          <div class="sub">正答の型と、引っかけの型</div>
+        </div>
+        <div class="badge">TIPS</div>
+      </div>
+
+      <div style="flex:1; display:grid; grid-template-columns:1fr 1fr; gap:20px; align-content:center;">
+        <!-- tips -->
+        <div class="card" style="padding:22px 24px; border-top:4px solid var(--green);">
+          <h2 class="ttl" style="color:var(--green);">✅ 解くコツ（Exam Tips）</h2>
+          <ol class="tlist">
+            <li><b>DNFBP の典型例</b>（カジノ・不動産・貴金属宝石商・士業・TCSP）と、それぞれの代表的レッド・フラッグをセットで暗記する。</li>
+            <li><b>シェルの不正目的＝</b>受益所有者の隠蔽・ノミニーによる切離し・レイヤリング促進。「高リスク投資で利益を生む」等の正当目的は誤答肢。</li>
+            <li><b>TBML は 4 類型</b>（過大・過少・多重請求・ファントム取引）と、各類型が価値を移転する方向を整理する。</li>
+            <li><b>無記名株式の高リスク理由＝</b>所持＝所有で<b>所有者追跡が困難</b>な点。ジャンケットは客の CDD・資金源把握をカジノが直接行えない点。</li>
+          </ol>
+        </div>
+        <!-- pitfalls -->
+        <div class="card" style="padding:22px 24px; border-top:4px solid var(--red);">
+          <h2 class="ttl" style="color:var(--red);">⚠️ よくあるひっかけ（Pitfalls）</h2>
+          <ul class="plist">
+            <li><b>「正常な行動」を赤信号と誤認しない。</b>納税目的の記録要求、相応のゲームプレイ、市場価格での取引など。</li>
+            <li><b>取消可能信託</b>（委託者が支配を維持＝秘匿濫用されやすい）と<b>取消不能信託</b>（資産が委託者から分離）の性質を取り違えない。</li>
+            <li><b>「実体ある活動」はシェルの定義に反する。</b>合法取引で隠す・工場を実際に稼働させる等は誤答。</li>
+            <li>個別肢の不自然さに引きずられず、設問が問う<b>「最も中核的な手口／最も強い赤信号」</b>を選ぶ（選択数の指定にも注意）。</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>07 / 20</span></div>
+    </div>
+    <style>
+      .ttl{ font-size:19px; font-weight:800; margin:0 0 14px; }
+      .tlist,.plist{ margin:0; padding-left:0; list-style:none; display:flex; flex-direction:column; gap:13px; }
+      .tlist li{ counter-increment:t; position:relative; padding-left:38px; font-size:14.5px; line-height:1.55; color:var(--ink-2); }
+      .tlist li::before{ content:counter(t); position:absolute; left:0; top:0; width:25px; height:25px; border-radius:7px; background:var(--green-bg); color:var(--green); font-family:var(--mono); font-weight:600; font-size:13px; display:grid; place-items:center; }
+      .tlist{ counter-reset:t; }
+      .tlist b{ color:var(--navy); }
+      .plist li{ position:relative; padding-left:32px; font-size:14.5px; line-height:1.55; color:var(--ink-2); }
+      .plist li::before{ content:"✗"; position:absolute; left:0; top:-1px; color:var(--red); font-weight:800; font-size:16px; }
+      .plist b{ color:var(--navy); }
+    </style>
+  </section>
+  <!-- ============================================================
+       SLIDE 8 — Q1 問題  シェルカンパニー悪用目的
+       ============================================================ -->
+  <section data-label="Q1">
+    <div class="slide">
+      <div class="head">
+        <div class="chip">Q1</div>
+        <div class="head-txt">
+          <div class="eyebrow">Question 1 / 4 · DNFBP</div>
+          <h1>シェルカンパニー悪用目的</h1>
+          <div class="sub">実体なき法人の本質＝所有秘匿・名義分離・レイヤリングに着目</div>
+        </div>
+        <div class="badge freq">頻出 ★★★</div>
+      </div>
+
+      <div class="focus"><span class="fl">📌 着眼点</span><span>シェルの<b>本質は実体がないこと</b>。だから「利益を生む」「事業を営む」系の肢は本質に反する。選ぶのは<b>秘匿・名義分離・経路化</b>の3点。</span></div>
+
+      <div class="qgrid">
+        <!-- LEFT: question + options -->
+        <div class="qleft">
+          <div class="ask">
+            <span class="pick">⚑ 解答を 3 つ選択</span>
+            次のうち、不正な目的のためにシェルカンパニーを設立する目的としてあり得るものはどれですか。
+            <span class="en">Which could be purposes for establishing a shell company for illicit purposes? (Select three.)</span>
+          </div>
+          <ul class="opts">
+            <li data-k="A"><div><b>外国為替管理を迂回すること</b><span>To circumvent foreign exchange controls</span></div></li>
+            <li data-k="B"><div><b>資産の真の所有権を隠すこと</b><span>To conceal the true ownership of assets</span></div></li>
+            <li data-k="C"><div><b>高リスク投資を通じて多額の利益を生み出すこと</b><span>To generate large profits through high-risk investments</span></div></li>
+            <li data-k="D"><div><b>代理管理により犯罪者である所有者を業務から切り離すこと</b><span>To separate the criminal owner from operations via nominee management</span></div></li>
+            <li data-k="E"><div><b>マネロンにおけるレイヤリングを促進すること</b><span>To facilitate the layering process in a money laundering scheme</span></div></li>
+          </ul>
+        </div>
+
+        <!-- RIGHT: mnemonic + relationship diagram -->
+        <div class="qright">
+          <div class="oneliner"><span class="k">1行</span>シェル＝隠す・切る・層をつくる（Hide–Cut–Layer）</div>
+
+          <div class="card" style="padding:18px 18px 16px; margin-top:14px;">
+            <div class="dgttl">🔎 シェルによる所有権秘匿構造</div>
+            <div class="flow center" style="margin-top:8px;">
+              <div class="node crook" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🕵️</div>
+                <div class="nm" style="font-size:14px;">犯罪者<br>（真のBO）</div>
+                <div class="en">True owner</div>
+              </div>
+              <div class="arrow danger" style="flex:0 0 70px;"><div class="step">STEP 1</div><div class="lbl" style="font-size:11px;">名義を委ねる</div><div class="ln"></div></div>
+              <div class="node tool" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🪪</div>
+                <div class="nm" style="font-size:14px;">ノミニー</div>
+                <div class="en">Nominee</div>
+              </div>
+              <div class="arrow danger" style="flex:0 0 70px;"><div class="step">STEP 2</div><div class="lbl" style="font-size:11px;">代理で支配</div><div class="ln"></div></div>
+              <div class="node" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🏚️</div>
+                <div class="nm" style="font-size:14px;">シェル<br>カンパニー</div>
+                <div class="en">Shell Co.</div>
+              </div>
+              <div class="arrow danger" style="flex:0 0 70px;"><div class="step">STEP 3</div><div class="lbl" style="font-size:11px;">保有・<br>レイヤリング</div><div class="ln"></div></div>
+              <div class="node asset" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">💰</div>
+                <div class="nm" style="font-size:14px;">資産・資金</div>
+                <div class="en">Assets</div>
+              </div>
+            </div>
+            <div class="dnote" style="margin-top:12px; font-size:13px; padding:10px 14px;"><span>⚠</span><span>犯罪者はノミニーとシェルを介し、<b>真の所有を隠したまま</b>資産を支配しレイヤリングを行う。</span></div>
+          </div>
+          <div class="tagrow">
+            <span class="tag">FATF 勧告24</span><span class="tag">犯収法（実質的支配者）</span><span class="tag">金融庁マネロンGL</span><span class="tag">FATF 勧告22・23（TCSP）</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>08 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 9 — Q1 解答・解説  (空-雨-傘)
+       ============================================================ -->
+  <section data-label="Q1 Answer">
+    <div class="slide">
+      <div class="head">
+        <div class="chip green">✓</div>
+        <div class="head-txt">
+          <div class="eyebrow">Answer &amp; Explanation · 空–雨–傘</div>
+          <h1>解答・解説 Q1</h1>
+          <div class="sub">シェル＝隠す・切る・層をつくる。正当目的の肢を切り分ける</div>
+        </div>
+        <div class="badge">Q1 / 4</div>
+      </div>
+
+      <div class="ansbar">
+        <span class="cor">正解</span>
+        <span class="keys">B · D · E</span>
+        <span class="atxt">資産の真の所有権を隠す ／ 代理管理で犯罪者を業務から切り離す ／ レイヤリングを促進する</span>
+      </div>
+
+      <div class="anbody">
+        <div class="sru">
+          <div class="sc sky"><div class="sh">☁ 空（事実）</div><ul><li>シェルは実体のない名目法人</li><li>ノミニーが名義を担える</li><li>複数法人を介在させ資金移転できる</li><li>BO（実質的支配者）が不透明化</li></ul></div>
+          <div class="sc rain"><div class="sh">☂ 雨（解釈）</div><ul><li>真の所有者と資産の結びつきが切断</li><li>犯罪者が前面に出ず支配を維持</li><li>資金が多層的に流れ追跡困難に</li></ul></div>
+          <div class="sc umb"><div class="sh">⚑ 傘（行動）</div><ul><li>秘匿・名義分離・レイヤリングを中核目的として選ぶ</li><li>FX迂回・高リスク投資利益は誤答と切る</li><li>BO登録・透明性確保で対抗</li></ul></div>
+        </div>
+
+        <div class="verds">
+          <div class="vttl">選択肢別の正誤と根拠</div>
+          <ul class="vl">
+            <li class="no"><b>A</b> 外国為替の迂回は限定的・付随的な目的にとどまり、3つの主目的に含まれない。</li>
+            <li class="ok"><b>B</b> 資産の真の所有権（BO）の隠蔽はシェル悪用の中核目的。</li>
+            <li class="no"><b>C</b> 高リスク投資で利益を生むのは実体ある投資目的で、実体なきシェルの定義に反する。</li>
+            <li class="ok"><b>D</b> ノミニー管理で真の所有者を業務から切り離すのは典型的な悪用目的。</li>
+            <li class="ok"><b>E</b> 複数法人を介在させレイヤリングを促進するのは代表的悪用目的。</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>09 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 10 — Q1 実務・規制
+       ============================================================ -->
+  <section data-label="Q1 Practice">
+    <div class="slide">
+      <div class="head">
+        <div class="chip teal">📋</div>
+        <div class="head-txt">
+          <div class="eyebrow">Practice · 邦銀視点メモ</div>
+          <h1>実務・規制 Q1 — シェルの所有秘匿構造を現場で見抜く</h1>
+          <div class="sub">チェックポイント・規制論点・実例・ひっかけ</div>
+        </div>
+        <div class="badge">Q1 / 4</div>
+      </div>
+
+      <div class="prgrid">
+        <div class="prmain">
+          <div class="prh">📝 邦銀視点 実務チェックポイント</div>
+          <ol class="cklist">
+            <li>法人口座開設では犯収法に基づき<b>実質的支配者（BO）</b>を確認。ノミニー役員・株主が疑われればEDD。</li>
+            <li>事業実態の乏しい法人（拠点・従業員・取引なし）は<b>シェルの兆候</b>。継続的顧客管理を強化。</li>
+            <li>複数法域にまたがる連鎖的な法人間送金は<b>レイヤリング指標</b>としてモニタリング。</li>
+            <li>在米拠点は <b>CTA（FinCEN BO最終規則）</b>の動向を踏まえ BO 情報を管理。</li>
+            <li>英国 FCA 拠点では <b>PSC（重要支配者）登録</b>制度を踏まえ確認。</li>
+            <li>香港・シンガポール拠点でもオフショア法人・名義人構造は<b>高リスク区分</b>で管理。</li>
+            <li>口座目的と実態の乖離（<b>資金通過のみの口座</b>）を疑わしい取引として検討。</li>
+            <li>真の所有者と申告名義の不一致が判明したら<b>取引謝絶・解約・STR</b>を検討。</li>
+          </ol>
+        </div>
+
+        <div class="prside">
+          <div class="pbox reg">
+            <div class="pbt">📚 規制根拠の論点</div>
+            <ul>
+              <li><b>FATF 勧告24：</b>法人のBO情報を当局が適時入手、ノミニー・無記名株式のリスク低減。</li>
+              <li><b>犯収法（実質的支配者）：</b>法人顧客の取引時確認でBOを確認・記録。複雑構造はEDD。</li>
+              <li><b>金融庁マネロンGL：</b>実体の乏しい法人・名義人構造に継続的顧客管理。</li>
+              <li><b>FATF 勧告22・23：</b>シェルを組成するTCSPをDNFBPとして規制対象に。</li>
+            </ul>
+          </div>
+          <div class="pbox warn">
+            <div class="pbt">⚠️ ひっかけ注意</div>
+            <p>「外国為替迂回」「高リスク投資で利益」を中核目的と誤認しない。実体的活動はシェルの定義に反する。</p>
+          </div>
+          <div class="pbox ex">
+            <div class="pbt">📰 実例・教訓</div>
+            <p>オフショアのシェル群とノミニー役員を多層に重ね、汚職収益の真の所有者を隠した事例。</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>10 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 11 — Q2 問題  無記名株式の高リスク性
+       ============================================================ -->
+  <section data-label="Q2">
+    <div class="slide">
+      <div class="head">
+        <div class="chip">Q2</div>
+        <div class="head-txt">
+          <div class="eyebrow">Question 2 / 4 · DNFBP</div>
+          <h1>無記名株式の高リスク性</h1>
+          <div class="sub">所有権の匿名化と透明性の欠如に着目する</div>
+        </div>
+        <div class="badge freq">頻出 ★★★</div>
+      </div>
+
+      <div class="focus"><span class="fl">📌 着眼点</span><span><b>「所持＝所有」</b>だから記録なく移転できる──これが高リスクの核心。「貿易法」「後見人」「納税」は<b>無記名株式の性質と無関係</b>な誤答。</span></div>
+
+      <div class="qgrid">
+        <div class="qleft">
+          <div class="ask">
+            <span class="pick" style="background:var(--indigo);">⚑ 解答を 1 つ選択</span>
+            法人設立において、無記名株式がしばしば高リスクとみなされるのはなぜですか。
+            <span class="en">Why are bearer shares often considered high-risk in company formation?</span>
+          </div>
+          <ul class="opts">
+            <li data-k="A"><div><b>国際貿易法の頻繁な変更で不安定になり、国境を越えた管理が困難なため</b><span>Affected by frequent changes in international trade law</span></div></li>
+            <li data-k="B"><div><b>法的後見人なしには譲渡・売却できず、裁判所の承認と複雑な手続きを要するため</b><span>Cannot be transferred without a legal guardian / court approval</span></div></li>
+            <li data-k="C"><div><b>透明性を損ない、所有権の匿名化を可能にし、マネロン等の不正を助長しうるため</b><span>Undermine transparency, enable anonymity, facilitate ML</span></div></li>
+            <li data-k="D"><div><b>厳格な税制の法域で、保有企業に過大な納税義務が生じるため</b><span>Impose excessive tax obligations on holding companies</span></div></li>
+          </ul>
+        </div>
+
+        <div class="qright">
+          <div class="oneliner"><span class="k">1行</span>無記名＝持つ人が主（記録なし＝追えない）</div>
+
+          <div class="card" style="padding:18px 18px 16px; margin-top:14px;">
+            <div class="dgttl">🔎 無記名株式による所有権の匿名化</div>
+            <div class="flow center" style="margin-top:8px;">
+              <div class="node tool" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">📜</div>
+                <div class="nm" style="font-size:14px;">無記名株券</div>
+                <div class="en">Bearer cert.</div>
+              </div>
+              <div class="arrow" style="flex:0 0 64px;"><div class="lbl" style="font-size:11px; color:var(--indigo-2);">所持＝所有</div><div class="ln" style="background:var(--indigo);"></div></div>
+              <div class="node" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🧑</div>
+                <div class="nm" style="font-size:14px;">所持者 A<br>（匿名）</div>
+                <div class="en">Holder A</div>
+              </div>
+              <div class="arrow danger" style="flex:0 0 80px;"><div class="step">STEP 1</div><div class="lbl" style="font-size:11px;">記録なき移転<br>(株券引渡し)</div><div class="ln"></div></div>
+              <div class="node" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🧑‍🦰</div>
+                <div class="nm" style="font-size:14px;">所持者 B<br>（匿名）</div>
+                <div class="en">Holder B</div>
+              </div>
+              <div class="arrow danger" style="flex:0 0 70px;"><div class="step">RESULT</div><div class="lbl" style="font-size:11px;">透明性欠如</div><div class="ln"></div></div>
+              <div class="node result" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🚫</div>
+                <div class="nm" style="font-size:14px;">BO特定不能<br>ML助長</div>
+                <div class="en">High risk</div>
+              </div>
+            </div>
+            <div class="dnote" style="margin-top:12px; font-size:13px; padding:10px 14px;"><span>⚠</span><span>株券の<b>物理的引渡しだけ</b>で所有権が記録なく移転し、BO特定を不能にして ML を助長する。</span></div>
+          </div>
+          <div class="tagrow">
+            <span class="tag">FATF 勧告24（無記名株式）</span><span class="tag">犯収法（実質的支配者）</span><span class="tag">金融庁マネロンGL</span><span class="tag">FATF 相互評価</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>11 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 12 — Q2 解答・解説
+       ============================================================ -->
+  <section data-label="Q2 Answer">
+    <div class="slide">
+      <div class="head">
+        <div class="chip green">✓</div>
+        <div class="head-txt">
+          <div class="eyebrow">Answer &amp; Explanation · 空–雨–傘</div>
+          <h1>解答・解説 Q2</h1>
+          <div class="sub">所持＝所有・記録不要だから匿名化する</div>
+        </div>
+        <div class="badge">Q2 / 4</div>
+      </div>
+
+      <div class="ansbar">
+        <span class="cor">正解</span>
+        <span class="keys">C</span>
+        <span class="atxt">透明性を損ない、所有権の匿名化を可能にし、マネロン等の不正行為を助長しうるため</span>
+      </div>
+
+      <div class="anbody">
+        <div class="sru">
+          <div class="sc sky"><div class="sh">☁ 空（事実）</div><ul><li>無記名株式は所持者＝所有者で登録不要</li><li>所有権の移転を記録なしに行える</li><li>実質的支配者の特定が妨げられる</li><li>FATFはリスク低減措置を要求</li></ul></div>
+          <div class="sc rain"><div class="sh">☂ 雨（解釈）</div><ul><li>透明性が欠如しBO追跡が不能に</li><li>匿名の所有・移転がML・脱税を助長</li><li>多くの法域が廃止・記名化・保管を義務化</li></ul></div>
+          <div class="sc umb"><div class="sh">⚑ 傘（行動）</div><ul><li>「透明性を損ない匿名化する」を本質的理由として選ぶ</li><li>貿易法不安定・後見人・過大納税は的外れと切る</li><li>廃止・転換・保管（イモビライゼーション）で対抗</li></ul></div>
+        </div>
+
+        <div class="verds">
+          <div class="vttl">選択肢別の正誤と根拠</div>
+          <ul class="vl">
+            <li class="no"><b>A</b> 国際貿易法の変更による不安定性は無記名株式の性質を説明しておらず、高リスク視の理由ではない。</li>
+            <li class="no"><b>B</b> 後見人・裁判所承認が必要というのは誤り。むしろ<strong>記録なく簡単に移転できる</strong>点が問題。</li>
+            <li class="ok"><b>C</b> 所有権の匿名化と透明性の欠如がBO特定を妨げMLを助長するのが高リスク視の本質的理由。</li>
+            <li class="no"><b>D</b> 過大な納税義務は無記名株式の性質と無関係で、高リスク視の理由ではない。</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>12 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 13 — Q2 実務・規制
+       ============================================================ -->
+  <section data-label="Q2 Practice">
+    <div class="slide">
+      <div class="head">
+        <div class="chip teal">📋</div>
+        <div class="head-txt">
+          <div class="eyebrow">Practice · 邦銀視点メモ</div>
+          <h1>実務・規制 Q2 — 無記名株式の匿名移転を警戒する</h1>
+          <div class="sub">チェックポイント・規制論点・実例・ひっかけ</div>
+        </div>
+        <div class="badge">Q2 / 4</div>
+      </div>
+
+      <div class="prgrid">
+        <div class="prmain">
+          <div class="prh">📝 邦銀視点 実務チェックポイント</div>
+          <ol class="cklist">
+            <li>無記名株式の発行が可能な法域の法人は<b>高リスク</b>。BO確認が困難なため犯収法上EDD。</li>
+            <li>無記名株式の<b>廃止・記名化・保管（イモビライゼーション）</b>状況を確認。未対応なら口座開設に慎重対応。</li>
+            <li>BO特定が困難な顧客に<b>継続的顧客管理の強化</b>（金融庁マネロンGL）。</li>
+            <li>在米拠点は無記名株式を許容する法域の顧客を厳格審査（<b>米国は実質排除</b>）。</li>
+            <li>英国 FCA は無記名株式（warrants）を<b>廃止済み</b>。海外発行分は要警戒。</li>
+            <li>香港・シンガポール管轄でも無記名株式法人は高リスク区分で<b>BO確認を徹底</b>。</li>
+            <li>株主が物理的株券所持者である構造は<b>BO申告の信頼性</b>を慎重に検証。</li>
+            <li>無記名株式の保有・移転の形跡があれば<b>所有権移転の不透明性</b>をSTR検討材料に。</li>
+          </ol>
+        </div>
+
+        <div class="prside">
+          <div class="pbox reg">
+            <div class="pbt">📚 規制根拠の論点</div>
+            <ul>
+              <li><b>FATF 勧告24：</b>無記名株式・株式新株予約権のリスク低減（廃止・転換・保管・登録）。</li>
+              <li><b>犯収法（実質的支配者）：</b>BO特定が困難な法人にEDDと厳格確認。</li>
+              <li><b>金融庁マネロンGL：</b>BO特定困難な顧客に継続的顧客管理の強化。</li>
+              <li><b>FATF 相互評価：</b>各法域の無記名株式対応状況を技術的遵守として評価。</li>
+            </ul>
+          </div>
+          <div class="pbox warn">
+            <div class="pbt">⚠️ ひっかけ注意</div>
+            <p>「貿易法で不安定」「後見人が必要」「過大な納税」は全て無記名株式の性質と無関係な誤答。</p>
+          </div>
+          <div class="pbox ex">
+            <div class="pbt">📰 実例・教訓</div>
+            <p>オフショアIBCの無記名株式を用い、株券引渡しのみで真の所有者を転々と隠した事例。</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>13 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 14 — Q3 問題  シェルによる代替資産化
+       ============================================================ -->
+  <section data-label="Q3">
+    <div class="slide">
+      <div class="head">
+        <div class="chip">Q3</div>
+        <div class="head-txt">
+          <div class="eyebrow">Question 3 / 4 · DNFBP</div>
+          <h1>シェルによる代替資産化</h1>
+          <div class="sub">偽装取引と高額資産購入の 2 手口に着目する</div>
+        </div>
+        <div class="badge freq">頻出 ★★★</div>
+      </div>
+
+      <div class="focus"><span class="fl">📌 着眼点</span><span>問われているのは<b>「現金→代替資産」への変換手段</b>。シェルは実体がないから、<b>実体ある事業</b>（合法取引・工場稼働）の肢は定義に反し誤答。</span></div>
+
+      <div class="qgrid">
+        <div class="qleft">
+          <div class="ask">
+            <span class="pick">⚑ 解答を 2 つ選択</span>
+            次のうち、シェルカンパニーを使用して犯罪の現金収益を代替資産に変換する方法の例はどれですか。
+            <span class="en">Which are examples of using a shell company to convert criminal cash proceeds into alternative assets? (Select two.)</span>
+          </div>
+          <ul class="opts">
+            <li data-k="A"><div><b>架空の請求書を作成し、偽装取引を通じて資金を移動させる</b><span>Creating fictitious invoices to move funds through sham transactions</span></div></li>
+            <li data-k="B"><div><b>不正資金の受領を正当化するために納税する</b><span>Paying taxes to justify the receipt of illicit funds</span></div></li>
+            <li data-k="C"><div><b>会社を利用して不動産や高価値商品を購入する</b><span>Using the company to purchase real estate or high-value goods</span></div></li>
+            <li data-k="D"><div><b>合法的な事業取引を行って違法資金を隠す</b><span>Conducting legitimate business transactions to hide illicit funds</span></div></li>
+            <li data-k="E"><div><b>合法的な商品を生産する工場を設置して実際に稼働させる</b><span>Setting up and actually operating a factory</span></div></li>
+          </ul>
+        </div>
+
+        <div class="qright">
+          <div class="oneliner"><span class="k">1行</span>シェル変換＝偽請求＋資産購入（実体活動は×）</div>
+
+          <div class="card" style="padding:18px 18px 16px; margin-top:14px;">
+            <div class="dgttl">🔎 シェルによる現金収益の代替資産化</div>
+            <div class="flow center" style="margin-top:8px;">
+              <div class="node crook" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">💵</div>
+                <div class="nm" style="font-size:14px;">犯罪の<br>現金収益</div>
+                <div class="en">Dirty cash</div>
+              </div>
+              <div class="arrow danger" style="flex:0 0 60px;"><div class="step">STEP 1</div><div class="lbl" style="font-size:11px;">投入</div><div class="ln"></div></div>
+              <div class="node" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🏚️</div>
+                <div class="nm" style="font-size:14px;">シェル<br>カンパニー</div>
+                <div class="en">Shell Co.</div>
+              </div>
+              <div class="arrow danger" style="flex:0 0 78px;"><div class="step">STEP 2</div><div class="lbl" style="font-size:11px;">架空請求で<br>移動 (A)</div><div class="ln"></div></div>
+              <div class="node tool" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🧾</div>
+                <div class="nm" style="font-size:14px;">架空請求・<br>偽装取引</div>
+                <div class="en">Sham trade</div>
+              </div>
+              <div class="arrow danger" style="flex:0 0 78px;"><div class="step">STEP 3</div><div class="lbl" style="font-size:11px;">会社名義で<br>購入 (C)</div><div class="ln"></div></div>
+              <div class="node asset" style="padding:12px 8px;">
+                <div class="ico" style="width:40px;height:40px;font-size:21px;">🏢</div>
+                <div class="nm" style="font-size:14px;">不動産・<br>高価値商品</div>
+                <div class="en">Alt. assets</div>
+              </div>
+            </div>
+            <div class="dnote" style="margin-top:12px; font-size:13px; padding:10px 14px;"><span>⚠</span><span>シェルを介し<b>架空請求で資金を動かし</b>、不動産・高額品の購入で現金収益を<b>代替資産に変換</b>する（統合段階）。</span></div>
+          </div>
+          <div class="tagrow">
+            <span class="tag">FATF 勧告24</span><span class="tag">犯収法（特定事業者）</span><span class="tag">FATF典型例（TBML/統合）</span><span class="tag">米国BSA</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>14 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 15 — Q3 解答・解説
+       ============================================================ -->
+  <section data-label="Q3 Answer">
+    <div class="slide">
+      <div class="head">
+        <div class="chip green">✓</div>
+        <div class="head-txt">
+          <div class="eyebrow">Answer &amp; Explanation · 空–雨–傘</div>
+          <h1>解答・解説 Q3</h1>
+          <div class="sub">偽請求で動かし、高額資産で固める。実体活動は定義に反する</div>
+        </div>
+        <div class="badge">Q3 / 4</div>
+      </div>
+
+      <div class="ansbar">
+        <span class="cor">正解</span>
+        <span class="keys">A · C</span>
+        <span class="atxt">架空請求書による偽装取引で資金移動 ／ 会社名義で不動産・高価値商品を購入</span>
+      </div>
+
+      <div class="anbody">
+        <div class="sru">
+          <div class="sc sky"><div class="sh">☁ 空（事実）</div><ul><li>シェルカンパニーは実体のない法人</li><li>架空・水増し請求は偽装取引の典型</li><li>会社名義で高額資産を購入できる</li><li>代替資産化はインテグレーションの一形態</li></ul></div>
+          <div class="sc rain"><div class="sh">☂ 雨（解釈）</div><ul><li>偽装取引で資金経路を秘匿できる</li><li>高価値商品・不動産で現金を資産に変換</li><li>実体的事業の選択肢はシェル定義に反する</li></ul></div>
+          <div class="sc umb"><div class="sh">⚑ 傘（行動）</div><ul><li>架空請求の偽装取引(A)と高額資産購入(C)を選ぶ</li><li>納税で正当化(B)・実体事業(D)(E)を切り分ける</li><li>高額資産購入・架空請求をモニタリングで検知</li></ul></div>
+        </div>
+
+        <div class="verds">
+          <div class="vttl">選択肢別の正誤と根拠</div>
+          <ul class="vl">
+            <li class="ok"><b>A</b> 架空請求書による偽装取引は、実体なきシェルが資金を移動・経路秘匿する典型手口。</li>
+            <li class="no"><b>B</b> 納税による正当化は補助的手段で、現金収益を代替資産へ変換する行為そのものではない。</li>
+            <li class="ok"><b>C</b> 会社名義での不動産・高価値商品購入は現金を代替資産へ変換する典型（インテグレーション）。</li>
+            <li class="no"><b>D</b> 合法的な事業取引で隠すには実体ある事業が必要で、実体なきシェルの手口とは異なる。</li>
+            <li class="no"><b>E</b> 工場を実際に稼働させるのは実体を持つ事業であり、実体なきシェルの定義に反する。</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>15 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 16 — Q3 実務・規制
+       ============================================================ -->
+  <section data-label="Q3 Practice">
+    <div class="slide">
+      <div class="head">
+        <div class="chip teal">📋</div>
+        <div class="head-txt">
+          <div class="eyebrow">Practice · 邦銀視点メモ</div>
+          <h1>実務・規制 Q3 — 偽請求と高額資産購入を結ぶ</h1>
+          <div class="sub">チェックポイント・規制論点・実例・ひっかけ</div>
+        </div>
+        <div class="badge">Q3 / 4</div>
+      </div>
+
+      <div class="prgrid">
+        <div class="prmain">
+          <div class="prh">📝 邦銀視点 実務チェックポイント</div>
+          <ol class="cklist">
+            <li>対価の伴わない<b>架空請求書ベースの送受金</b>（TBML的取引）は犯収法上の疑わしい取引として検討。</li>
+            <li>実体不明の法人による不動産・高額品の大口購入は<b>インテグレーション指標</b>として監視。</li>
+            <li>設立直後で取引実態のない法人（シェル/シェルフ）の高額決済は<b>資金源泉を確認</b>。</li>
+            <li>在米拠点では不動産<b>GTO（地理的対象命令）</b>など現金不動産購入規制の動向を踏まえ監視。</li>
+            <li>英国 FCA 拠点では<b>UWO（無説明資産命令）</b>対象となりうる出所不明の高額資産取得に警戒。</li>
+            <li>香港・シンガポール拠点でも貴金属・高額品決済を介した<b>資産変換</b>を高リスクとして管理。</li>
+            <li>請求書金額と<b>財・サービスの実在・市場価格</b>の整合性を検証。</li>
+            <li>シェル名義口座から関連法人・不動産業者への<b>連鎖送金</b>はレイヤリング/統合としてSTRを検討。</li>
+          </ol>
+        </div>
+
+        <div class="prside">
+          <div class="pbox reg">
+            <div class="pbt">📚 規制根拠の論点</div>
+            <ul>
+              <li><b>FATF 勧告24：</b>シェルカンパニーのBO透明性を求め悪用を抑止。</li>
+              <li><b>犯収法（特定事業者）：</b>実体不明の取引・高額決済を疑わしい取引の届出対象に。</li>
+              <li><b>金融庁マネロンGL：</b>実体の乏しい法人の高額資産取得に継続的顧客管理。</li>
+              <li><b>米国BSA：</b>不動産GTO等で現金不動産購入のBO報告を求める。</li>
+            </ul>
+          </div>
+          <div class="pbox warn">
+            <div class="pbt">⚠️ ひっかけ注意</div>
+            <p>実体ある活動（合法取引・工場稼働）はシェル定義に反し誤答。「納税で正当化」も代替資産化とは別物。</p>
+          </div>
+          <div class="pbox ex">
+            <div class="pbt">📰 実例・教訓</div>
+            <p>シェル名義で架空コンサル請求を装い送金し、その資金で高級不動産を購入して統合した事例。</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>16 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 17 — Q4 問題  シェル/シェルフ設立目的
+       ============================================================ -->
+  <section data-label="Q4">
+    <div class="slide">
+      <div class="head">
+        <div class="chip">Q4</div>
+        <div class="head-txt">
+          <div class="eyebrow">Question 4 / 4 · DNFBP</div>
+          <h1>シェル / シェルフ設立目的</h1>
+          <div class="sub">所有秘匿・持株機能・多法域税務という現実的用途に着目</div>
+        </div>
+        <div class="badge freq">頻出 ★★★</div>
+      </div>
+
+      <div class="focus"><span class="fl">📌 着眼点</span><span>シェル/シェルフには<b>合法・違法の両面</b>がある。一般的な設立目的は<b>秘匿・持株・税務管理</b>の3つ。「資本市場改革」「公共事業の運営」は実体ある事業体の役割で誤答。</span></div>
+
+      <div class="qgrid">
+        <div class="qleft">
+          <div class="ask">
+            <span class="pick">⚑ 解答を 3 つ選択</span>
+            シェルカンパニーやシェルフカンパニーを設立する一般的な目的は次のどれですか。
+            <span class="en">What are common purposes for establishing shell or shelf companies? (Select three.)</span>
+          </div>
+          <ul class="opts">
+            <li data-k="A"><div><b>資本市場の改革を促進するため</b><span>To promote capital market reform</span></div></li>
+            <li data-k="B"><div><b>匿名性を目的に資産の所有権を隠すため</b><span>To conceal asset ownership for anonymity</span></div></li>
+            <li data-k="C"><div><b>資産の持株会社として機能させるため</b><span>To function as a holding company for assets</span></div></li>
+            <li data-k="D"><div><b>複数の法域にわたる納税義務を管理するため</b><span>To manage tax obligations across multiple jurisdictions</span></div></li>
+            <li data-k="E"><div><b>公共サービスプロジェクトの運営主体として機能させるため</b><span>To act as the operating entity for public service projects</span></div></li>
+          </ul>
+        </div>
+
+        <div class="qright">
+          <div class="oneliner"><span class="k">1行</span>シェル目的＝隠す・持つ・税を捌く</div>
+
+          <div class="card" style="padding:18px 18px 16px; margin-top:14px;">
+            <div class="dgttl">🔎 シェル/シェルフの一般的設立目的</div>
+            <div class="fan" style="margin-top:10px;">
+              <div class="fan-src">
+                <div class="node" style="padding:13px 10px; box-shadow:none;">
+                  <div class="ico" style="width:42px;height:42px;font-size:22px;">🏚️</div>
+                  <div class="nm" style="font-size:14px;">シェル/<br>シェルフ法人</div>
+                  <div class="en">Shell / Shelf</div>
+                </div>
+              </div>
+              <div class="fan-arrows">
+                <div class="fa"><span>匿名で隠す</span></div>
+                <div class="fa"><span>資産を保有</span></div>
+                <div class="fa"><span>税務を管理</span></div>
+              </div>
+              <div class="fan-dst">
+                <div class="pgoal g1"><b>目的 1</b> 所有権秘匿（匿名）</div>
+                <div class="pgoal g2"><b>目的 2</b> 持株・資産保有</div>
+                <div class="pgoal g3"><b>目的 3</b> 多法域の税務管理</div>
+              </div>
+            </div>
+            <div class="dnote info" style="margin-top:12px; font-size:13px; padding:10px 14px;"><span>⚠</span><span>3 目的で設立されるが、<b>匿名による所有権秘匿</b>は ML 悪用と重なる──合法・違法の両面がある。</span></div>
+          </div>
+          <div class="tagrow">
+            <span class="tag">FATF 勧告24</span><span class="tag">犯収法（実質的支配者）</span><span class="tag">OECD/タックス情報交換</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>17 / 20</span></div>
+    </div>
+    <style>
+      .fan{ display:flex; align-items:center; gap:0; }
+      .fan-src{ flex:0 0 140px; }
+      .fan-arrows{ flex:0 0 92px; display:flex; flex-direction:column; gap:18px; align-items:center; justify-content:center; }
+      .fa{ position:relative; width:100%; display:flex; justify-content:center; }
+      .fa span{ font-size:11px; font-weight:700; color:var(--indigo-2); background:#fff; padding:0 4px; z-index:1; }
+      .fa::after{ content:""; position:absolute; left:0; right:8px; top:50%; height:2px; background:var(--indigo); }
+      .fa::before{ content:""; position:absolute; right:-1px; top:50%; transform:translateY(-50%); border-left:8px solid var(--indigo); border-top:5px solid transparent; border-bottom:5px solid transparent; z-index:2; }
+      .fan-dst{ flex:1; display:flex; flex-direction:column; gap:11px; }
+      .pgoal{ border-radius:10px; padding:12px 16px; font-size:14.5px; font-weight:700; color:var(--navy); border:1.5px solid var(--line-2); }
+      .pgoal b{ display:inline-block; font-family:var(--mono); font-size:11px; font-weight:600; padding:2px 8px; border-radius:6px; margin-right:9px; }
+      .pgoal.g1{ background:#FDF3F1; border-color:#E6B3AD; } .pgoal.g1 b{ background:var(--red); color:#fff; }
+      .pgoal.g2{ background:#EFF6F1; border-color:#BFD9C7; } .pgoal.g2 b{ background:var(--green); color:#fff; }
+      .pgoal.g3{ background:var(--teal-bg); border-color:#A9D2DB; } .pgoal.g3 b{ background:var(--teal); color:#fff; }
+    </style>
+  </section>
+  <!-- ============================================================
+       SLIDE 18 — Q4 解答・解説
+       ============================================================ -->
+  <section data-label="Q4 Answer">
+    <div class="slide">
+      <div class="head">
+        <div class="chip green">✓</div>
+        <div class="head-txt">
+          <div class="eyebrow">Answer &amp; Explanation · 空–雨–傘</div>
+          <h1>解答・解説 Q4</h1>
+          <div class="sub">隠す・持つ・税を捌く。実体ある事業の役割は誤答</div>
+        </div>
+        <div class="badge">Q4 / 4</div>
+      </div>
+
+      <div class="ansbar">
+        <span class="cor">正解</span>
+        <span class="keys">B · C · D</span>
+        <span class="atxt">匿名目的の所有権秘匿 ／ 資産の持株会社 ／ 複数法域の納税義務管理</span>
+      </div>
+
+      <div class="anbody">
+        <div class="sru">
+          <div class="sc sky"><div class="sh">☁ 空（事実）</div><ul><li>シェルは実体がなく所有権秘匿に使われやすい</li><li>持株・資産保有目的での利用がある</li><li>多法域の税務管理目的も一般的</li><li>シェルフは設立済み・休眠の即時利用法人</li></ul></div>
+          <div class="sc rain"><div class="sh">☂ 雨（解釈）</div><ul><li>匿名性利用の秘匿はML悪用の典型でもある</li><li>持株・税務管理は合法・違法双方に存在する</li><li>実質的支配者の不透明化がリスクを高める</li></ul></div>
+          <div class="sc umb"><div class="sh">⚑ 傘（行動）</div><ul><li>所有権秘匿(B)・持株機能(C)・多法域税務(D)を選ぶ</li><li>資本市場改革(A)・公共事業運営(E)は不適合と切る</li><li>正当用途と悪用の両面を理解する</li></ul></div>
+        </div>
+
+        <div class="verds">
+          <div class="vttl">選択肢別の正誤と根拠</div>
+          <ul class="vl">
+            <li class="no"><b>A</b> 資本市場の改革促進は、実体なきシェル・シェルフ法人の一般的設立目的とは合致しない。</li>
+            <li class="ok"><b>B</b> 匿名性を目的とした資産所有権の秘匿は典型的な設立目的（ML悪用とも重なる）。</li>
+            <li class="ok"><b>C</b> 資産を保有する持株会社として機能させるのは一般的な設立目的。</li>
+            <li class="ok"><b>D</b> 複数法域にわたる税務（タックスプランニング）の管理も一般的な設立目的。</li>
+            <li class="no"><b>E</b> 公共サービスプロジェクトの運営主体は実体ある事業体の役割であり、シェル/シェルフの目的に合致しない。</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>18 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 19 — Q4 実務・規制
+       ============================================================ -->
+  <section data-label="Q4 Practice">
+    <div class="slide">
+      <div class="head">
+        <div class="chip teal">📋</div>
+        <div class="head-txt">
+          <div class="eyebrow">Practice · 邦銀視点メモ</div>
+          <h1>実務・規制 Q4 — 持株・税務の名目の裏を確認する</h1>
+          <div class="sub">チェックポイント・規制論点・実例・ひっかけ</div>
+        </div>
+        <div class="badge">Q4 / 4</div>
+      </div>
+
+      <div class="prgrid">
+        <div class="prmain">
+          <div class="prh">📝 邦銀視点 実務チェックポイント</div>
+          <ol class="cklist">
+            <li>持株会社・SPC を名乗る顧客は<b>BOを遡って確認</b>し、実体・目的の妥当性を検証（犯収法）。</li>
+            <li>シェルフカンパニー（古い休眠法人の即時取得）は<b>信用偽装</b>に悪用されうるため設立経緯を確認。</li>
+            <li>多法域税務管理を名目とする構造は<b>高リスク要素</b>として継続的顧客管理。</li>
+            <li>在米拠点は <b>CTA</b> に基づく BO 情報を取得し持株構造を精査。</li>
+            <li>英国 FCA 拠点では <b>PSC 登録</b>と持株構造を突合し真の支配者を確認。</li>
+            <li>香港・シンガポールでも持株SPC・オフショア法人を<b>高リスク区分</b>で管理。</li>
+            <li>設立目的（持株・税務）と<b>実際の資金フロー</b>の整合性を検証。</li>
+            <li>匿名性・所有秘匿を主目的とする兆候があれば<b>EDD強化・STR</b>を検討。</li>
+          </ol>
+        </div>
+
+        <div class="prside">
+          <div class="pbox reg">
+            <div class="pbt">📚 規制根拠の論点</div>
+            <ul>
+              <li><b>FATF 勧告24：</b>法人のBO透明性を求めシェル・シェルフの匿名秘匿リスクに対処。</li>
+              <li><b>犯収法（実質的支配者）：</b>持株会社・SPC等のBO確認を義務付け。</li>
+              <li><b>金融庁マネロンGL：</b>多法域税務名目の不透明構造に継続的顧客管理。</li>
+              <li><b>OECD/タックス情報交換：</b>多法域税務管理の透明化（CRS等）で秘匿を抑止。</li>
+            </ul>
+          </div>
+          <div class="pbox warn">
+            <div class="pbt">⚠️ ひっかけ注意</div>
+            <p>「資本市場改革」「公共事業運営」は実体ある活動で誤答。設立目的は秘匿・持株・税務管理。</p>
+          </div>
+          <div class="pbox ex">
+            <div class="pbt">📰 実例・教訓</div>
+            <p>古いシェルフ法人を取得して長い操業歴を装い、持株構造の背後で所有権を隠した事例。</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer"><span>CAMS Exam Prep — DNFBP</span><span class="rule"></span><span>19 / 20</span></div>
+    </div>
+  </section>
+  <!-- ============================================================
+       SLIDE 20 — まとめ  (rebuilt for Shell/Bearer theme)
+       ============================================================ -->
+  <section data-label="Summary">
+    <div class="slide" style="padding:0;">
+      <div style="position:absolute; inset:0; background:#FFFFFF;"></div>
+      <div style="position:absolute; inset:0; background:radial-gradient(55% 50% at 92% 6%, rgba(58,63,158,.05), transparent 70%);"></div>
+
+      <div style="position:relative; padding:48px 64px 56px; height:100%; display:flex; flex-direction:column; color:var(--ink);">
+        <div class="head" style="margin-bottom:18px;">
+          <div class="chip">🎓</div>
+          <div class="head-txt">
+            <div class="eyebrow">Summary · まとめ</div>
+            <h1>シェル/シェルフ・無記名株式 — 4 問を貫く 1 本の線</h1>
+          </div>
+        </div>
+
+        <!-- recap flow -->
+        <div class="sumflow">
+          <span class="sn crook">犯罪者（真のBO）</span><span class="sar">→</span>
+          <span class="sn tool">ゲートキーパー/TCSP</span><span class="sar">→</span>
+          <span class="sn">シェル＋ノミニー＋無記名株式</span><span class="sar">→</span>
+          <span class="sn asset">資産・資金</span>
+          <span class="sreg">⟲ 規制当局が BO 透明性で追跡</span>
+        </div>
+
+        <div class="sumgrid">
+          <div class="sline"><span class="q">Q1</span><p><b>シェル悪用の中核＝隠す・切る・層をつくる。</b>所有権秘匿・ノミニー分離・レイヤリング（B・D・E）。「FX迂回」「高リスク投資で利益」は誤答。</p></div>
+          <div class="sline"><span class="q">Q2</span><p><b>無記名株式＝所持＝所有・記録不要。</b>所有権を匿名化し透明性を欠くため BO 特定を妨げ ML を助長する（C）。</p></div>
+          <div class="sline"><span class="q">Q3</span><p><b>現金→代替資産の変換は偽請求＋高額資産購入。</b>架空請求の偽装取引(A)と会社名義の不動産・高価値品購入(C)。実体活動は定義に反する。</p></div>
+          <div class="sline"><span class="q">Q4</span><p><b>設立目的＝隠す・持つ・税を捌く。</b>匿名の所有秘匿・持株機能・多法域税務管理（B・C・D）。資本市場改革・公共事業運営は誤答。</p></div>
+          <div class="sline reg"><span class="q">規制</span><p><b>連動して発動。</b>FATF R.24・25（BO透明性／無記名株式）／米CTA（BOI報告）／犯収法・金融庁マネロンGL（実質的支配者の確認・EDD）。</p></div>
+        </div>
+
+        <div style="position:absolute; left:64px; right:64px; bottom:20px; display:flex; justify-content:space-between; font-family:var(--mono); font-size:13px; letter-spacing:.14em; color:var(--ink-3);">
+          <span>CAMS Exam Prep — DNFBP</span><span>20 / 20</span>
+        </div>
+      </div>
+    </div>
+    <style>
+      .sumflow{ display:flex; align-items:center; flex-wrap:wrap; gap:9px; background:var(--bg-soft); border:1px solid var(--line); border-radius:12px; padding:14px 18px; margin-bottom:18px; }
+      .sumflow .sn{ font-size:14px; font-weight:700; color:var(--navy); background:#fff; border:1px solid var(--line-2); padding:7px 13px; border-radius:8px; }
+      .sumflow .sn.crook{ background:var(--red-bg); border-color:#E6B3AD; color:var(--red); }
+      .sumflow .sn.tool{ background:var(--amber-bg); border-color:#EAD4A6; color:var(--amber); }
+      .sumflow .sn.asset{ background:var(--green-bg); border-color:#BFD9C7; color:var(--green); }
+      .sumflow .sar{ font-size:18px; color:var(--indigo); font-weight:700; }
+      .sumflow .sreg{ margin-left:auto; font-size:13px; font-weight:600; color:var(--teal); background:var(--teal-bg); border:1px solid #BFE0E6; padding:6px 12px; border-radius:8px; }
+      .sumgrid{ flex:1; display:flex; flex-direction:column; gap:11px; justify-content:center; }
+      .sline{ display:flex; gap:15px; align-items:flex-start; }
+      .sline .q{ flex:none; width:54px; text-align:center; font-family:var(--mono); font-size:14px; font-weight:600; color:#fff; background:var(--navy); border:1px solid var(--navy); padding:6px 0; border-radius:8px; }
+      .sline.reg .q{ background:var(--teal); border-color:var(--teal); width:54px; font-size:12px; display:grid; place-items:center; }
+      .sline p{ margin:0; font-size:15px; line-height:1.5; color:var(--ink-2); }
+      .sline p b{ color:var(--navy); }
+    </style>
+  </section>
+
+</deck-stage>
+<script src="deck-stage.js"></script>
+</body>
+</html>
