@@ -1,21 +1,291 @@
 {
   "feeds": [
     {
-      "title": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
-      "url": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/",
-      "summary": "A new variant of the Gafgyt botnet called C0XMO is targeting DD-WRT router firmware and can move to other device types with various CPU architectures. [...]",
+      "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+      "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+      "summary": "Security researchers have published a detailed, working exploit for a Linux kernel use-after-free that lets an unprivileged local user escalate to root and break out of a container. The flaw, CVE-2026",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
+      "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
+      "summary": "Meta on Monday said it detected and blocked spear-phishing attempts linked to Israeli spyware vendor NSO Group. In addition, the tech giant said it's filing a federal court contempt order against the ",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
+      "url": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+      "summary": "Check Point has warned of active exploitation of a critical vulnerability impacting Remote Access VPN and Mobile Access deployments that are configured to use the deprecated IKEv1 key exchange protoco",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+      "url": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+      "summary": "Phishing has always been a numbers game. AI has turned it into a volume machine. Attackers can now create convincing emails, fake login pages, and tailored lures in minutes. Every polished message add",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+      "summary": "Monday again. The weekend was meant to be quiet. It wasn't. Last week had poisoned packages, a broken AI helper, and a worm tearing through repos. The ugly part: basic tricks still worked. A chatbot g",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "The Hardest Fork",
+      "url": "https://thehackernews.com/2026/06/the-hardest-fork.html",
+      "summary": "Mythos is real. I know a big chunk of the industry thinks it's a marketing stunt, and I get why. I get it. But I've seen the findings, and they're bad. These aren't \"whoops, this line right here is wr",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
+      "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
+      "summary": "A China-nexus cyber espionage group has been observed deploying a BSD variant of a known backdoor called BRICKSTORM, as well as two other malware families codenamed PLENET (aka GRIMBOLT) and AGENTPSD ",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
+      "url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
+      "summary": "Cybersecurity researchers have disclosed details of a financially motivated data theft extortion campaign that has targeted dozens of organizations across professional, legal, and financial services i",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
+      "url": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
+      "summary": "Microsoft has announced that Visual Studio Code (VS Code) will apply a two-hour delay before extensions for the integrated development environment (IDE) are updated automatically to a newer version in",
+      "date": "2026-06-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Apple feature automatically changes your compromised passwords",
+      "url": "https://www.bleepingcomputer.com/news/apple/new-apple-feature-automatically-changes-your-compromised-passwords/",
+      "summary": "At WWDC 26, Apple announced an Apple Intelligence-powered feature that can automatically fix weak and compromised passwords. This works in Safari, and it's rolling out with iOS 27. [...]",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Shai-Hulud attack trojanizes 19 science-focused PyPI packages",
+      "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/",
+      "summary": "Hackers compromised 19 packages on the PyPI, collectively downloaded hundreds of thousands of times, in a new Shai-Hulud supply-chain attack that delivered malware designed to steal developer secrets.",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "WhatsApp says it disrupted new NSO spyware phishing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/",
+      "summary": "WhatsApp has detected and stopped spear-phishing campaigns allegedly conducted by the NSO Group after investigating user reports of social engineering attacks. [...]",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Gogs patches critical zero-day enabling remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/",
+      "summary": "Gogs has patched a critical security zero-day flaw that can allow attackers to compromise Internet-facing instances and access any repositories (including private ones). [...]",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical UniFi OS bug lets hackers gain root without authentication",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/",
+      "summary": "Attackers can chain three already fixed vulnerabilities in the Ubiquiti UniFi OS server to execute remote code with root privileges and without authentication. [...]",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Reducing security operations complexity with Wazuh Cloud",
+      "url": "https://www.bleepingcomputer.com/news/security/reducing-security-operations-complexity-with-wazuh-cloud/",
+      "summary": "Security teams are increasingly overwhelmed by alert fatigue, infrastructure maintenance, and complex hybrid environments. This article explores how Wazuh Cloud helps simplify SIEM/XDR operations thro",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-links-vpn-zero-day-attacks-to-qilin-ransomware-gang/",
+      "summary": "Israeli cybersecurity company Check Point has released security updates to patch a critical flaw affecting Remote Access VPN and Mobile Access deployments, which was exploited in zero-day attacks. [..",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Oxford University discloses data breach after careers platform hack",
+      "url": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/",
+      "summary": "The University of Oxford disclosed a new data breach last week after being informed by its third-party provider, Group GTI, that its CareerConnect career services platform had been compromised. [...]",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
+      "url": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/",
+      "summary": "Meta has revealed that 20,225 Instagram users had their accounts hijacked in a recent incident where attackers used Meta's AI-powered support system to reset passwords. [...]",
+      "date": "2026-06-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33060",
+      "summary": "This diary continues the Internet Storm Center&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s tracking of the TeamPCP supply chain campaign, first documented in the SANS white paper When the Security Scanne",
+      "date": "2026-06-08",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Monday, June 8th, 2026 https://isc.sans.edu/podcastdetail/9962, (Mon, Jun 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33058",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-06-08",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-42271 BerriAI LiteLLM Command Injection Vulnerability CV",
+      "date": "2026-06-08",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "【やさしく解説】生成AI「Mythos（ミュトス）」は世界の何を変えたのか？サイバー攻撃の脅威だけではないインパクト - JBpress",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1pRnBGMmpOZUgtUmZjUTI5Y3gwdlkyMjctMjlSdTgxQlFlLThsWmZsWlpZU3ZOWlplNUZVRFhhLS1PenVkSkd5MDlaaE1vVERYdzVnWmhB?oc=5",
+      "summary": "【やさしく解説】生成AI「Mythos（ミュトス）」は世界の何を変えたのか？サイバー攻撃の脅威だけではないインパクト&nbsp;&nbsp;JBpress",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "ANAが実践するサイバーセキュリティ、ゼロトラストとウイルス侵入が前提の対策とは - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pVGVjRGF3SmJ0MG1CNDJFbXRJc2hRSEpXVlBuemNlSndnZ3VLUnk2NTNTMEdJLTRqVFhfS0RtdnlkZjQxbV9fTG5zbFhJNlV0Q3ZLX054WnRqM1M4RmNWMXNrQlZGc0tDeWs2azRuQXI2aERSNVdUN2txeVAzblU?oc=5",
+      "summary": "ANAが実践するサイバーセキュリティ、ゼロトラストとウイルス侵入が前提の対策とは&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AI本人認証eラーニング「ONLINE FACE®」が世界的サイバーセキュリティアワード『Cybersecurity Excellence Awards 2026』で金賞（Gold Award）を受賞 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBIZ3VScHdONzlkWjB5R2NzNzlLM2kzREUybGxtTUFIX3ZIRlN1UUVpMFIzbmRKOWdab0NFZlR5UC1KeWF5M2l1U1JTTVJxWHBYRU5pN1BFOVZwQkNVSUtSZ2d1aVZYekhUN1E?oc=5",
+      "summary": "AI本人認証eラーニング「ONLINE FACE®」が世界的サイバーセキュリティアワード『Cybersecurity Excellence Awards 2026』で金賞（Gold Award）を受賞&nbsp;&nbsp;PR TIMES",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバー攻撃に対抗できるセキュリティ強化版SD-WAN、導入事例に見るその効果 - 日経クロステック Active",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZHBFZUdZWXgwMlZoWjR3djZjekdUN3BsbzhjT2ZDSjFLaVZQZDF6WG50bVZ6NmFNc3Z0dEpTZGNjWURETmY5QVR1akROV2tzclYySFA4U2dwTUdCZXBlXzl0Q3dPcHYxTjVwc3hVaDlmY3VLYklIZ2F4ejhoMjhfZldTWXVDc1kwQU50VFBraw?oc=5",
+      "summary": "サイバー攻撃に対抗できるセキュリティ強化版SD-WAN、導入事例に見るその効果&nbsp;&nbsp;日経クロステック Active",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Anthropic「Mythos」の衝撃、AIはサイバー防御を変えるか - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SLTBWbDhYM0gwTlhDYnotOW9oMzFlZEg5TkhLTWZKaEx4QkRVTXJ2U2UwRUduYVVqWUp4clFSUlFYN1dCMWppbVJGNG1LOHB4S0dB?oc=5",
+      "summary": "Anthropic「Mythos」の衝撃、AIはサイバー防御を変えるか&nbsp;&nbsp;ZDNET Japan",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Saviynt（セイヴィエント）、アシストとの合弁事業を通じて、日本におけるAI時代のアイデンティティ・セキュリティ事業を拡大 - ASCII.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBETWpyX3BZM3ZYczVsZlRIS3VLNU5vSlhuVUZXYjZ4c3BkeEtjQ0VobHgyUVRCMkd0U3hiVERvR1VzTzBiT1A1UVZvV09PNmdocmlRdg?oc=5",
+      "summary": "Saviynt（セイヴィエント）、アシストとの合弁事業を通じて、日本におけるAI時代のアイデンティティ・セキュリティ事業を拡大&nbsp;&nbsp;ASCII.jp",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "【 金融庁 】『ミュトスショック』が迫る 異次元のサイバー防衛策 - マイナビニュース",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11RExZRTlwZS1HWUZDQndpTjFBWUpiYUVCX3RKTDV1X202TGtpQ1ByQVE3WlI1UW51M2dXV3pEbXpMQ2NjYmxmNWZVR1o3NUhNWXp6V2thN3dHZzBFU3JNazJaUUtnNkst?oc=5",
+      "summary": "【 金融庁 】『ミュトスショック』が迫る 異次元のサイバー防衛策&nbsp;&nbsp;マイナビニュース",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "【EU】欧州金融監督機構、初のICTインシデント状況報告書。サイバーセキュリティ強調 | Sustainable Japan | 世界のサステナビリティ・ESG投資・SDGs - Sustainable Japan",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VZnhNbnJqX3kzallwRzFiOEV1MnpRWWVQdHFVRm1WUm1aV3R1NUxrbVczZEs3YS1tQTcwVFdRNGEtcVpTNzI3T3psWlpOeHp4X0lXeG1FdlpucTFXSFhCSmktRdIBaEFVX3lxTFAwSXp3RG9WODg3R3ptZ19BOUl2Rk5KUHhHSzdGMWQwQi1YZmgzc2JxNi1kdWtlb0pKNjFMMkp3VFJXWTc5Y29pM2pWemRxa2Nxeklob3dUcDYwczRiSzZEaEFSTWtLVTZU?oc=5",
+      "summary": "【EU】欧州金融監督機構、初のICTインシデント状況報告書。サイバーセキュリティ強調 | Sustainable Japan | 世界のサステナビリティ・ESG投資・SDGs&nbsp;&nbsp;Sustainable Japan",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "セキュアベース、サイバーリスクガバナンスSaaS「CISOaaS®」で経済産業省「SCS評価制度」への準拠支援を開始 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzUE1GcUZqbXVPQlAyUWxGN1duQkhUMU5UWWV2WGdpWXBBN0V6aGNZV1JuRzlCdk1sLWU4SVBJRGplN2Jmd0pFRF9HbFVwLWw4Q2kxcnpUQVpaVjJiakkwVmtDRXlMXzlzWVE?oc=5",
+      "summary": "セキュアベース、サイバーリスクガバナンスSaaS「CISOaaS®」で経済産業省「SCS評価制度」への準拠支援を開始&nbsp;&nbsp;PR TIMES",
+      "date": "2026-06-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Hands on with Intelligent Terminal, an AI-powered Windows Terminal",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/hands-on-with-intelligent-terminal-an-ai-powered-windows-terminal/",
+      "summary": "Microsoft has created an open-source fork of Windows Terminal called \"Intelligent Terminal,\" and it allows you to use AI directly inside Terminal without interfering with the regular session. [...]",
       "date": "2026-06-07",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Silent Ransom Group targets law firms with fake IT support calls",
-      "url": "https://www.bleepingcomputer.com/news/security/silent-ransom-group-targets-law-firms-with-fake-it-support-calls/",
-      "summary": "The Silent Ransom Group extortion gang is actively targeting U.S. law firms and professional services organizations in social engineering attacks that often lead to data theft within hours of initial ",
+      "title": "OpenAIがサイバー攻撃からの防御を強化する「日本サイバー・アクションプラン」を発表 - @DIME アットダイム",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1fVGU3N0NpYWNHN0cyNWxBUmFqRU9UeV9RUXJyQXlBVDNCTVJJcndianRRcXR3NWpGaXd4LXRsbWQ3b2w2?oc=5",
+      "summary": "OpenAIがサイバー攻撃からの防御を強化する「日本サイバー・アクションプラン」を発表&nbsp;&nbsp;@DIME アットダイム",
       "date": "2026-06-07",
-      "source": "Bleeping Computer",
-      "language": "英語",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -24,60 +294,6 @@
       "summary": "OpenAI has begun rolling out a new Lockdown Mode to ChatGPT for eligible personal accounts to reduce the risk of data exfiltration arising from prompt injection attacks. The feature is primarily desig",
       "date": "2026-06-06",
       "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
-      "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
-      "summary": "A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that relay web-scraping tra",
-      "date": "2026-06-06",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
-      "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerab",
-      "date": "2026-06-06",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
-      "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
-      "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all o",
-      "date": "2026-06-06",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
-      "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
-      "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft repositories across four o",
-      "date": "2026-06-06",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
-      "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
-      "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out ",
-      "date": "2026-06-06",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/",
-      "summary": "Hackers are actively exploiting a critical vulnerability (CVE-2026-3300) in the Everest Forms Pro plugin, which lets them take complete control of a WordPress website. [...]",
-      "date": "2026-06-06",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -98,105 +314,6 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
-    },
-    {
-      "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
-      "url": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
-      "summary": "Multiple software supply chain attacks have hit the npm ecosystem, with threat actors using both malicious and poisoned versions of over 50 legitimate packages to distribute a Rust-based information s",
-      "date": "2026-06-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
-      "url": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
-      "summary": "Arabic-speaking users have emerged as the target of a new Android spyware codenamed Asin, according to findings from ESET. The Slovakian cybersecurity company said it first detected the malware spread",
-      "date": "2026-06-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework",
-      "url": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
-      "summary": "Cybersecurity researchers have discovered a previously unreported threat cluster dubbed OP-512 (where \"OP\" stands for \"opponent\") that has been observed&nbsp;targeting Microsoft Internet Information S",
-      "date": "2026-06-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Only 10% of SOCs Say They’re Getting Excellent Value From AI. Here’s What the Second Wave Has to Deliver",
-      "url": "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
-      "summary": "Eighteen months ago, the AI SOC was a marketing line. Today it's a budget item. The category has crossed over from interesting to inevitable, with billions of dollars now flowing into AI-powered secur",
-      "date": "2026-06-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Suspicious Polyfill login prompts pop up on Toshiba, Muji websites",
-      "url": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/",
-      "summary": "Tech giant Toshiba and mega-retailer Muji warned visitors that suspicious sign-in screens popping up on their websites could collect credentials. [...]",
-      "date": "2026-06-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA: Hackers now exploit SolarWinds Serv-U flaw to crash servers",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/",
-      "summary": "CISA warned today that hackers are now actively exploiting a recently patched high-severity SolarWinds Serv-U flaw to crash servers. [...]",
-      "date": "2026-06-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Chinese APT deploys new malware to keep access to hacked networks",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-apt-deploys-new-malware-to-keep-access-to-hacked-networks/",
-      "summary": "A Chinese espionage group tracked as UNC5221 has been accessing Microsoft 365 environments using the Brickstorm backdoor and previously undocumented malware named Plenet and AgentPSD. [...]",
-      "date": "2026-06-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Dark web Nemesis Market vendor gets 26 years for selling drugs",
-      "url": "https://www.bleepingcomputer.com/news/security/dark-web-nemesis-market-vendor-gets-26-years-for-selling-drugs/",
-      "summary": "A California man was sentenced to more than 26 years in federal prison for trafficking fentanyl and methamphetamine through Nemesis Market, one of the world's largest dark web marketplaces. [...]",
-      "date": "2026-06-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Over 900 US gas station tank gauge systems exposed to attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/",
-      "summary": "Over 900 automatic tank gauge (ATG) systems across the United States, used to monitor fuel and chemical storage tanks across various critical infrastructure sectors, have been found exposed online and",
-      "date": "2026-06-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "What 2026 DBIR Confirms: Attacks Are Living in the Browser",
-      "url": "https://www.bleepingcomputer.com/news/security/what-2026-dbir-confirms-attacks-are-living-in-the-browser/",
-      "summary": "Phishing, shadow AI, malicious extensions, and credential theft increasingly happen inside the browser. Keep Aware explains what the 2026 Verizon DBIR reveals about browser-layer security gaps and mod",
-      "date": "2026-06-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Cisco warns of unpatched SD-WAN zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/",
-      "summary": "On Thursday, Cisco warned of a high-severity, unpatched zero-day in the Cisco Catalyst SD-WAN Manager (tracked as CVE-2026-20245) actively exploited in attacks enabling root privilege escalation. [...",
-      "date": "2026-06-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "The Evil MSI Background is Back&#x21;, (Fri, Jun 5th)",
@@ -224,24 +341,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "Claude MythosとProject Glasswingとは何か？～サイバーセキュリティ業界への影響と意義を専門家が解説 - trendmicro.com",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNGs1R3Q2SWJZVHR4NkFkY3VkYTRQZzVEWkxfeFZpYnMwMjBQbmtjd1JKNEJpWDhlQkN0dVdYTEs5RnJpV3VFR1pnMGxUM3NlLUZJWEtrRXpTTjZ2cVBJRm14U2ZWV2dRREsxd1lwTzhiMnhBRGdObWpvUlE2SFZFamNuQQ?oc=5",
-      "summary": "Claude MythosとProject Glasswingとは何か？～サイバーセキュリティ業界への影響と意義を専門家が解説&nbsp;&nbsp;trendmicro.com",
-      "date": "2026-06-05",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【単独取材】安野貴博氏に聞く Mythosをめぐる近未来予測、企業のセキュリティリスクと対策 - unitis.jp",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5Tcnp6ZlliZGNJdS00bXVnODY5Ty1EcW9ITWhETVdZRmFJUl84d3ZNV2tVZFptRnBzS1c1R1BTLWs2SDd5RW9XNQ?oc=5",
-      "summary": "【単独取材】安野貴博氏に聞く Mythosをめぐる近未来予測、企業のセキュリティリスクと対策&nbsp;&nbsp;unitis.jp",
-      "date": "2026-06-05",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "Securly Chrome Extensionにおける複数の脆弱性",
@@ -325,33 +424,6 @@
       "category": "alert"
     },
     {
-      "title": "フォトレポート（AI によるサイバー攻撃とサイバーセキュリティ対策に関する意見交換） - mhlw.go.jp",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBaX1BwZzVYZGlnLUdwT2o2eXdsLTdsLTZhaThHLS0xQlI4V2dhWUF6cGRqTWxPWkVCcDZqN0hXdk14VE5vckp2Vlpjbl82cHZSc3V6NXNFWGk5M0sxQkhjZ05jQ3hfUElJM1dB?oc=5",
-      "summary": "フォトレポート（AI によるサイバー攻撃とサイバーセキュリティ対策に関する意見交換）&nbsp;&nbsp;mhlw.go.jp",
-      "date": "2026-06-04",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIミュトス時代におけるITスタートアップのサイバーセキュリティ戦略：グローバル要求水準と認証・体制・技術の統合フレームワーク - note",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1GQjNkYmM3TGxGTXE1ZHF6aUJlcWNjNGViQ2xUaDhnWXRHQlZQSU5KVHZCX2dYa2N4OXJBdmtKTW5lUHUxajJvc2dsVF9UMDNOWmZB?oc=5",
-      "summary": "AIミュトス時代におけるITスタートアップのサイバーセキュリティ戦略：グローバル要求水準と認証・体制・技術の統合フレームワーク&nbsp;&nbsp;note",
-      "date": "2026-06-04",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIに仕事は奪われない？ 過熱するサイバーセキュリティ人材の争奪戦 | 崩れる需要と供給のバランス - クーリエ・ジャポン",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1NTTU2UnRKU25xRkdGYlBMS0VkR2ZyQmdqcVhCSWZ2Mldza3A1QklqMUFOZl95a3EzMFpBUVNkQzBJZUw1RlVfMVpSQmFVUnJMYzRn?oc=5",
-      "summary": "AIに仕事は奪われない？ 過熱するサイバーセキュリティ人材の争奪戦 | 崩れる需要と供給のバランス&nbsp;&nbsp;クーリエ・ジャポン",
-      "date": "2026-06-04",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "Appsmithにおけるクロスサイトスクリプティングの脆弱性",
       "url": "https://jvn.jp/vu/JVNVU98968214/",
       "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
@@ -413,24 +485,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "実務担当者が語る産業サイバーセキュリティ人材のキャリアプランと組織の課題 - デジタルクロス",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5RY3pHMjd6SFFPdERxNmhtd3pKVE9UQVFncnZPekttbml4a1BRWER1SHZaXzJkdXBJMjBBVmxkeWhVRDNLeFNWdFY5eDBNUFJ0Tzd4LWpYQXdLV2xkbTJCRThUYjZrcnJRd0otdnhmTUE4VmNLNHc?oc=5",
-      "summary": "実務担当者が語る産業サイバーセキュリティ人材のキャリアプランと組織の課題&nbsp;&nbsp;デジタルクロス",
-      "date": "2026-06-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバー攻撃は激化、医療機関等は「チェックリスト」用いて自院のセキュリティ対策の再確認を―医療等情報利活用ワーキング（2） - GemMed",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBBVEMzZmx1NGhjWmxNMG1OWjRCWVItOFphWWN0OFdLVzVyTGVhQ3A5aFA5cDlYbHQ4ZkdScXZ6UF9jdVlRRnZBSg?oc=5",
-      "summary": "サイバー攻撃は激化、医療機関等は「チェックリスト」用いて自院のセキュリティ対策の再確認を―医療等情報利活用ワーキング（2）&nbsp;&nbsp;GemMed",
-      "date": "2026-06-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "お知らせ：JPCERT/CC Eyes「TSUBAMEレポート Overflow（2026年1～3月）」",
@@ -496,15 +550,6 @@
       "category": "alert"
     },
     {
-      "title": "「Interop Tokyo 2026」に出展 ～サイバーセキュリティ研究所～ - NICT",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MUG9kZ3lhQTZWMWFQUGxsZExYNGZTcElPOHRtbnhKNnBDbnc3bUhUa3FtRE5fanR0di0wREotTUMtY1FEMkh5Z0lUOXBRXzdSMzZxdjhNM3VhcHhWcW9FOUNaNzVKS2M?oc=5",
-      "summary": "「Interop Tokyo 2026」に出展 ～サイバーセキュリティ研究所～&nbsp;&nbsp;NICT",
-      "date": "2026-06-02",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "Hackers Used Meta&#8217;s AI Support Bot to Seize Instagram Accounts",
       "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
       "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions be",
@@ -512,33 +557,6 @@
       "source": "Krebs on Security",
       "language": "英語",
       "category": "news"
-    },
-    {
-      "title": "ISC Stormcast For Monday, June 1st, 2026 https://isc.sans.edu/podcastdetail/9952, (Mon, Jun 1st)",
-      "url": "https://isc.sans.edu/diary/rss/33036",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-06-01",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "Unidentified RAT pushes NetSupport RAT, (Mon, Jun 1st)",
-      "url": "https://isc.sans.edu/diary/rss/33034",
-      "summary": "Introduction&#xd;",
-      "date": "2026-06-01",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/06/01/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2024-21182 Oracle WebLogic Server Unspecified Vulnerabilit",
-      "date": "2026-06-01",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
     },
     {
       "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
@@ -586,15 +604,6 @@
       "category": "news"
     },
     {
-      "title": "「サイバーセキュリティ」が２１位にランク、政府はＡＩ高度化を踏まえた対策パッケージを公表＜注目テーマ＞ | 特集 - 株探ニュース - 株探",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDNmxTUmMzQk1ENGhDRmpWMVp5SDEzczJra044cm1GMGV6MFpJazVnYlpsNE9QQjdZcnpGeVUtZlU5V2pFVmN6NWNNZVlnaDRGcnNGOU1xajd6dmRxcDhWNA?oc=5",
-      "summary": "「サイバーセキュリティ」が２１位にランク、政府はＡＩ高度化を踏まえた対策パッケージを公表＜注目テーマ＞ | 特集 - 株探ニュース&nbsp;&nbsp;株探",
-      "date": "2026-05-21",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "CISA Admin Leaked AWS GovCloud Keys on Github",
       "url": "https://krebsonsecurity.com/2026/05/cisa-admin-leaked-aws-govcloud-keys-on-github/",
       "summary": "Until this past weekend, a contractor for the Cybersecurity &#038; Infrastructure Security Agency (CISA) maintained a public GitHub repository that exposed credentials to several highly privileged AWS",
@@ -611,15 +620,6 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
-    },
-    {
-      "title": "サイバーセキュリティお助け隊サービス（新類型） - meti.go.jp",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZjJmOTQzZ2NVMkVMdTBJX3g2SkstSkY0X29BLXFKMVk0bmhQZkotQWtGajh0R2lxVWt1bVZPczFfN2ZJMFc5V1Y1OXlITEVRbm9kelpqUU9EWTR4N01ERHhQaE1JUlpSNFBNVVNOS2MwZw?oc=5",
-      "summary": "サイバーセキュリティお助け隊サービス（新類型）&nbsp;&nbsp;meti.go.jp",
-      "date": "2026-05-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "お知らせ：JPCERT/CC Eyes「TSUBAMEレポート Overflow（2025年10～12月）」",
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/6/8 6:33:04"
+  "updated": "2026/6/9 6:38:21"
 }
