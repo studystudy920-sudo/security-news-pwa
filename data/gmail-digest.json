@@ -2,28 +2,52 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "PC/モバイルメール by 日経クロステック <xtech-pcmobile@nikkeibp.co.jp>",
-      "subject": "AIに猛進するソフトバンクG、時価総額国内1位も目標に程遠い／Excelで「五十音順」問題、SORT関数は万能ではない：日経クロステック PC/モバイルメール",
-      "snippet": "「最新セキュリティ事情と対策」特集: 甘い設定のルーターやNASにリスク（データ流出・踏み台攻撃）／フリーWi-Fi以外の外出時ネット利用の危険／Webサイトに潜むわな（サポート詐欺・正規サイト改ざん）／生成AIを使ったメール攻撃を防ぐには、ほか。",
-      "date": "2026-06-08 06:09",
-      "messageId": "19ea3eb21302096b"
+      "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
+      "subject": "Scan BASIC [2026-06-08 Vol.1625-1/1] セキュリティ研究者がカンファレンス講演枠を獲得する完璧な方法",
+      "snippet": "今週の脆弱性：TP-Link Archer BE450/BE7200にOSコマンドインジェクション、Windowsカーネルドライバ PCTCore64.sys、dnsmasq等。インシデント：CAMPFIRE不正アクセス（DeNAパレード支援者情報漏えい）、Booking.com経由フィッシング、穴吹ハウジング20万件。特集：pretalx製CFPシステムの蓄積型XSS（CVE-2026-41241）。",
+      "date": "2026-06-08 08:24",
+      "messageId": "19ea466aeda8f0c1"
     },
     {
       "type": "newsletter",
-      "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
-      "subject": "AIが生む圧倒的勝者と圧倒的敗者／三井物産、法務部長を経営層に - 日経ビジネス（6/8）",
-      "snippet": "AIが生む圧倒的勝者と圧倒的敗者を扱う特集。三井物産が法務部長を経営層に登用するなど、企業のガバナンス・法務体制に関する話題を収録（HTMLメール）。",
-      "date": "2026-06-08 05:32",
-      "messageId": "19ea3c94c45bba4e"
+      "from": "IT最新ニュース by 日経クロステック <xtech-news@nikkeibp.co.jp>",
+      "subject": "内閣官房のIPA指名停止は隠蔽誘発か／日立がMythosアクセス権、トレンドマイクロも：日経クロステック IT最新ニュースメール",
+      "snippet": "日立とトレンドマイクロがMythosアクセス権を保有と明言、他社は明言避ける。アスクルが社長交代へ、ランサム攻撃を踏まえ経営体制刷新。日立メインフレーム撤退でVOS3販売終了。AI社員誕生、火付け役はOpenClaw。",
+      "date": "2026-06-08 13:00",
+      "messageId": "19ea5637a417f2d8"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT注目記事 by 日経クロステック <xtech-pickup@nikkeibp.co.jp>",
+      "subject": "「私は逃げ切る」と言うIT部長とSIer経営者／内閣官房のIPA指名停止、公平性と柔軟性に難しさ：日経クロステック IT注目記事メール",
+      "snippet": "OpenClawとClaude Coworkが示すAI社員の未来、情シスが人事に・AI費用は人件費に。内閣官房のIPA指名停止は隠蔽誘発か。日立がMythosアクセス権。発火相次ぐモバイルバッテリーの電池採用論。",
+      "date": "2026-06-08 16:34",
+      "messageId": "19ea62732ddf3c61"
+    },
+    {
+      "type": "newsletter",
+      "from": "IT最前線 by 日経クロステック <xtech-it@nikkeibp.co.jp>",
+      "subject": "「情シスが人事に」「AI費用は人件費に」、AI社員誕生　火付け役はOpenClaw：日経クロステック IT最前線",
+      "snippet": "AIエージェントを「社員」として扱う潮流。OpenClawがAIエージェント自動化プラットフォームとして急速に普及し、情シス部門の役割やコスト計上区分が変化。AIへの権限付与に伴うセキュリティリスクも論点に。",
+      "date": "2026-06-08 07:05",
+      "messageId": "19ea41f1a1aa96ef"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPメール <tgml-10@nikkeibp.co.jp>",
+      "subject": "サイバー脅威に打ち勝つ多層防御モデルとは？ いま押さえたい最新技術を徹底解剖【日経BP Topics】",
+      "snippet": "巧妙化・高速化するサイバー攻撃に対し、限られたリソースで最大の防御効果を上げる多層防御（Defense in Depth）モデルと最新技術を解説。攻撃者視点での侵入経路の考え方を取り上げるBP Topics。",
+      "date": "2026-06-08 13:35",
+      "messageId": "19ea5836be35acf1"
     }
   ],
   "googleSecurityAlerts": [],
   "sourceStatus": {
-    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）",
-    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
+    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件。新規ログイン・パスワード変更・アプリアクセス許可の通知なし）",
+    "ScanNetSecurity": "1件（Scan BASIC Vol.1625、scan@netsecurity.ne.jp）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
-    "Nikkei_BP_group": "2件受信（日経クロステック PC/モバイルメールにセキュリティ特集あり、日経ビジネス Editor's EYE）"
+    "Nikkei_BP_group": "セキュリティ関連の主要記事メール4件を抽出（マーケティング/セミナー告知メールは除外）"
   },
-  "updated": "2026-06-08 07:00"
+  "updated": "2026-06-09 07:00"
 }
