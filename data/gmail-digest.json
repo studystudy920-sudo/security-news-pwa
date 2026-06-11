@@ -2,44 +2,44 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
-      "subject": "ランサムウエア感染経路の実に8割以上、狙われる「外部公開資産」はこう守る【日経BP Topics】",
-      "snippet": "日本企業へのランサムウエア攻撃で、VPN機器やリモートデスクトップといった「外部公開資産」が侵入経路の約8割を占める。攻撃者視点のASM（攻撃対象領域管理）で公開資産を減らし、認証バイパス等の深刻な脆弱性に重点対処する手法を解説。",
-      "date": "2026-06-10 09:47",
-      "messageId": "19eaeff75c028bcf"
+      "from": "デジタル＆スキルアップ by 日経クロステック <xtech-das@nikkeibp.co.jp>",
+      "subject": "LLMを手元のパソコンで動かす",
+      "snippet": "ローカルLLMをパソコンで動かす特集。必読記事にセキュリティー業界で話題の「Claude Mythos」をピックアップ。AIによる脆弱性発見が転換点に、Mythosが1万件超の深刻な脆弱性を発見し人力対応が限界に。新着でアソビュー不正ログイン（1万4000件超影響）も。",
+      "date": "2026-06-12 06:00",
+      "messageId": "19eb87ce9a10bcca"
     },
     {
       "type": "newsletter",
       "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
-      "subject": "生成AIで増加した「自然な日本語」のメール攻撃、これを見抜くための決定打【日経BP Topics】",
-      "snippet": "生成AIにより不自然さのない攻撃メールが量産され、2021→2025年でメール攻撃数は22倍以上、うち9割が日本標的。言語の壁が消失。ヘッダー情報の活用と従来型対策の組み合わせを提案。",
-      "date": "2026-06-10 07:36",
-      "messageId": "19eae882271170a2"
+      "subject": "AI導入で拡大する想定外のセキュリティリスク、その驚くべき実態とは？【日経BP Topics】",
+      "snippet": "トレンドマイクロが法人向けカンファレンス「TrendAI Spark 2026」を7/3開催。AI導入が進む組織のリスクを、EDR回避型ランサムウェア、メール起点インシデント、SIEM/XDR/SOAR統合によるSOC運用、AWSの多層防御等の観点で解説。",
+      "date": "2026-06-11 13:36",
+      "messageId": "19eb4f8051f2af2b"
     },
     {
       "type": "newsletter",
-      "from": "日経クロステック Active <xtech-ac@nikkeibp.co.jp>",
-      "subject": "社用スマートフォンからの情報漏洩を許すな、柔軟な働き方とデータ保護を両立",
-      "snippet": "テレワーク・出張時の社用スマホからの情報漏洩リスクを解説。改正個人情報保護法を踏まえ、ウイルススキャン・一括アクセス制御・紛失盗難時の遠隔ロック/初期化など必須機能を紹介。生成AIで量産される詐欺メール対策セミナー（6/30）も告知。",
-      "date": "2026-06-10 07:37",
-      "messageId": "19eae884dec7c148"
+      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
+      "subject": "セキュリティ対策が手薄な中小企業、最優先は「ITの守衛所」常設【日経BP Topics】",
+      "snippet": "生成AIの普及で恩恵を受ける中小企業だが、攻撃にも生成AIが多用され詐欺メール・偽サイト・偽動画を量産する時代に。守りの薄い中小企業が標的。気づいて・判断して・止める「MDR」を核とした対策セミナー（6/30オンライン）の案内。",
+      "date": "2026-06-11 13:34",
+      "messageId": "19eb4f5cdf5317a6"
     },
     {
       "type": "newsletter",
-      "from": "ISC2 Asia-Pacific <isc2asia@connect.isc2.org>",
-      "subject": "Take Your Career Higher into the Cloud",
-      "snippet": "CCSP（Certified Cloud Security Professional）のオンライン講師主導トレーニング案内。APAC向け夜間セッション（9/7-10/28、月・水 18:00-20:30 GMT+8）。eテキスト・180日録画アクセス・不合格時の再受講保証付き。さかまささん関心のCCSP関連。",
-      "date": "2026-06-10 04:13",
-      "messageId": "19eb103c12384b48"
+      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
+      "subject": "AIがどうサイバーセキュリティを再定義するのか、戦略と実装の両面から探る【日経BP Topics】",
+      "snippet": "生成AIの悪用、ゼロデイ攻撃の高度化、サプライチェーン侵害など従来の境界防御では対応困難に。OPSWAT主催「OP/X Tokyo」（6/17）でAIを前提とした新セキュリティアーキテクチャ、未知マルウェア検知・自動化された脅威対応への転換を提示。",
+      "date": "2026-06-11 12:36",
+      "messageId": "19eb4c0ad3a3f101"
     }
   ],
   "googleSecurityAlerts": [],
   "sourceStatus": {
     "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件。新規ログイン・パスワード変更・アプリアクセス許可の通知なし）",
     "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
-    "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件。※年次総会は6/16開催、申込締切は本日6/11 17:00）",
-    "ISC2_Japan": "2件（connect.isc2.org、CCSPトレーニング案内。同件名の重複1件あり。1件を抽出）",
-    "Nikkei_BP_group": "セキュリティ関連の主要記事メール3件を抽出（多数のセミナー告知/マーケティングメールは除外）"
+    "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
+    "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
+    "Nikkei_BP_group": "セキュリティ関連の主要記事/特集メール4件を抽出（日経クロステックのMythos特集1件、日経BP Topicsのセキュリティセミナー告知3件）。日経ビジネス等の一般ビジネスメールは除外"
   },
-  "updated": "2026-06-11 07:00"
+  "updated": "2026-06-12 07:00"
 }
