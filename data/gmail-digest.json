@@ -2,52 +2,30 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
-      "subject": "ランサム攻撃者が狙う3つの「死角」、被害拡大を抑える現実的な対策とは？【日経BP Topics】",
-      "snippet": "IPA「情報セキュリティ10大脅威」2026年版でランサムウエア攻撃が6年連続首位。復旧費用1000万円超も珍しくなく売上減で億円規模の損失も。本社より防御が手薄な関連会社・海外子会社が狙われる一方、大手も被害に。実インシデントから見えた3つの死角と優先対策領域を動画解説。",
-      "date": "2026-06-12 09:49",
-      "messageId": "19eb94e968721c0f"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT最新ニュース <xtech-news@nikkeibp.co.jp>",
-      "subject": "本人確認だけで済まない犯収法改正、「反社チェック」を怠れば行政処分も／NECとAnthropicが金融8社と協業",
-      "snippet": "犯収法改正で本人確認に加え「反社チェック」が義務化、怠れば行政処分の対象に（AML/CFT実務に直結）。あわせてNECとAnthropicが三井住友FGなど金融8社と協業し、金融業界のAI実装拡大へ。IPAがロゴ変更（4800万円超で調達）の話題も。",
-      "date": "2026-06-12 12:14",
-      "messageId": "19eb9d328794c4ba"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Active <xtech-ac@nikkeibp.co.jp>",
-      "subject": "多要素認証やパスキーもすぐ実装？ CIAMで実現する認証基盤の全体像：日経クロステック Active",
-      "snippet": "SSO/MFA/パスキーなど高度な認証・アクセス制御をまとめて提供するCIAM（顧客アイデンティティー／アクセス管理）基盤を解説。OAuth・OpenID Connect等の標準プロトコルと、生成AIによる攻撃への防御法まで網羅。SC試験の認証分野の復習にも好適。",
-      "date": "2026-06-12 09:34",
-      "messageId": "19eb94043a4b406f"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
-      "subject": "AIエージェントをセキュリティ対策に活用、インシデントを解決するまとめ役に【日経BP Topics】",
-      "snippet": "役割特化型の複数の小型AIエージェントと、それらをまとめる「オーケストレーター」役のAIエージェントが連携し、自律的にインシデントを解決するまでのフローをデモ解説。SOC運用の工数削減と即応性向上が狙い。AIエージェントによるSOC自動化の最新像。",
-      "date": "2026-06-12 06:44",
-      "messageId": "19eb8a4f87e7b0dc"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP Mail <tgml-10@nikkeibp.co.jp>",
-      "subject": "【AIによる詐欺広告検知も】SNS型投資詐欺の被害額は1274億円！台湾に学ぶ対策のカギは市民参加？【日経BP Mail】",
-      "snippet": "SNS型投資詐欺の被害額が1274億円に。日本には明確に規制できる制度がない中、オードリー・タン氏主導のAI活用「ストップ詐欺広告」で被害をピーク時の約30分の1にした台湾の市民参加型対策を紹介。金融犯罪・詐欺対策の参考に。",
-      "date": "2026-06-12 07:51",
-      "messageId": "19eb8e257ba60d49"
+      "from": "日経クロステック Special <xtech-sp@nikkeibp.co.jp>",
+      "subject": "【週刊日経クロステック Special】低消費電力化を支えるレノボの水冷サーバー ほか",
+      "snippet": "週刊日経クロステック Special 2026.6.13。セキュリティ関連の注目記事：①サイバー脅威はITから「経営」の課題へ ②生成AI時代のサイバーリスク≫対策の勘所 ③今日からでも始めたいテレワークの安全性を高める8つのアクション。6/24-25にサイバーインテリジェンス セキュリティーマネジメントSummit 2026 Summer（オンライン）開催予定。",
+      "date": "2026-06-13 09:08",
+      "messageId": "19ebe4edcd247a61"
     }
   ],
-  "googleSecurityAlerts": [],
+  "googleSecurityAlerts": [
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "セキュリティ通知",
+      "snippet": "rclone に Google アカウントのデータの一部へのアクセスを許可しました。心当たりがない場合は第三者がアクセスを試みている可能性があるためアカウントアクティビティを確認してください。※rcloneはクラウドストレージ同期ツール。さかまささんがGenspark/OneDrive連携等で利用しているなら正当な許可の可能性が高い。",
+      "date": "2026-06-13 19:46",
+      "messageId": "19ec09763c6db998",
+      "severity": "確認推奨（OAuth許可通知）"
+    }
+  ],
   "sourceStatus": {
-    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件。新規ログイン・パスワード変更・アプリアクセス許可の通知なし）",
+    "google_security": "1件（rcloneへのOAuthアクセス許可通知。新規ログイン・パスワード変更の通知はなし。rcloneを自分で連携した記憶があれば対応不要、なければ myaccount.google.com/connections で確認・解除を推奨）",
     "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
-    "Nikkei_BP_group": "セキュリティ／コンプライアンス関連の主要記事メール5件を抽出（ランサムウェア、犯収法改正×AML、CIAM認証、AIエージェントによるSOC自動化、SNS投資詐欺）。日経ビジネス等の一般ビジネス・マーケティングメールは除外"
+    "Nikkei_BP_group": "1件（日経クロステック Special。セキュリティセクションあり：経営課題化するサイバー脅威、生成AIサイバーリスク、テレワーク安全対策）"
   },
-  "updated": "2026-06-13 07:00"
+  "updated": "2026-06-14 07:00"
 }
