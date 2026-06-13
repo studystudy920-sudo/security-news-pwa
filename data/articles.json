@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+      "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+      "summary": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vul",
+      "date": "2026-06-13",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
+      "url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
+      "summary": "Anthropic said on Friday it will \"abruptly disable\" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government ordered it to suspend ac",
+      "date": "2026-06-13",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Ex-school district employee jailed for hacks on former employer",
+      "url": "https://www.bleepingcomputer.com/news/security/ex-school-district-employee-jailed-for-hacks-on-former-employer/",
+      "summary": "A former IT employee at an Iowa school district was sentenced to 21 months in prison after conducting a prolonged cyberattack against the former employer that disrupted classroom operations, deleted a",
+      "date": "2026-06-13",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Chinese hackers hijack auth flow, spy on isolated network for a decade",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/",
+      "summary": "Chinese hackers took control of a target organization's authentication stack and maintained persistence for 10 years, with full visibility into the administrative activity. [...]",
+      "date": "2026-06-13",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos",
+      "url": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/",
+      "summary": "The US government has ordered Anthropic to block all foreign nationals from accessing Fable 5 and Mythos 5, forcing the company to suspend both models worldwide. Anthropic is complying but disputes th",
+      "date": "2026-06-13",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
       "title": "crypton-x509-validationにおける不適切な証明書検証の脆弱性",
       "url": "https://jvn.jp/vu/JVNVU96130756/",
       "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
@@ -154,22 +199,13 @@
       "category": "news"
     },
     {
-      "title": "CISA orders feds to patch actively exploited Ivanti flaw by Sunday",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch an actively exploited Ivanti Sentry flaw within three days, as mandated by the newly issued Bindin",
+      "title": "ISC Stormcast For Friday, June 12th, 2026 https://isc.sans.edu/podcastdetail/9970, (Fri, Jun 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33074",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "date": "2026-06-12",
-      "source": "Bleeping Computer",
+      "source": "SANS ISC",
       "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Over 73,000 French govt employees affected in Tchap messenger breach",
-      "url": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/",
-      "summary": "The French government revealed that a recent breach of its Tchap encrypted messaging platform affects the accounts of over 73,000 employees in the French public sector. [...]",
-      "date": "2026-06-12",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
+      "category": "analysis"
     },
     {
       "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
@@ -181,18 +217,36 @@
       "category": "alert"
     },
     {
-      "title": "オプティマ・ソリューションズ、SCS評価制度対応の「サイバーセキュリティコンサルティング」を本格開始～ツール導入で終わらない、PDCA型セキュリティ体制の構築を支援～ | オプティマ・ソリューションズ株式会社のプレスリリース - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPVzVaMXIyQnhLVXhlUjdQdTlnSFJjaE1ab2hmRnBSVVZGSmx4SjVBbmFpQXVsRHpiZ2JNUDliZUZvZ0dGcDNuYWdONV9FWVdUc0Q1STR0TlY2ZlpoXzMyaTNRTDNLaHNnZlE?oc=5",
-      "summary": "オプティマ・ソリューションズ、SCS評価制度対応の「サイバーセキュリティコンサルティング」を本格開始～ツール導入で終わらない、PDCA型セキュリティ体制の構築を支援～ | オプティマ・ソリューションズ株式会社のプレスリリース&nbsp;&nbsp;PR TIMES",
+      "title": "福井県警とサイバーサクラ、鯖江市で中高生向け「リアルサイバー捜査体験」を開催（ScanNetSecurity） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yaVR0SkVmVnZVSjh0YVY0Rng5UlZYT3I3TzEwUldORjlpTGZHUnZrYmJXNHR6TklvdkNRcWR6MTEwaFFMam45ZWZhYzN0Q2FtYXM1bExDSEFkSkNpaXByckV1WGEzblBaSmtVVkpyNFpqd1FTbXR6d3BrcmxSNHc?oc=5",
+      "summary": "福井県警とサイバーサクラ、鯖江市で中高生向け「リアルサイバー捜査体験」を開催（ScanNetSecurity）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-06-12",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "北陸で初開催！販売パートナーとメーカーをつなぐ「ネットワーク&セキュリティMeetUp! 北陸」開催レポート - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhaTV5SWJXTDUwRXhHdllmSVhqOWZPRGp2RlFEQmVId3dHWnpYMVRvalkyR2tDT0lNTGw0OVl1WUJMMXBoV3otaVJ5Ul9nZDBPdFZFRzdlbkp6U2pEdTFMUm5tNHJOd080ZGRiZVF5TF9QdTROb09pSnRqMA?oc=5",
-      "summary": "北陸で初開催！販売パートナーとメーカーをつなぐ「ネットワーク&セキュリティMeetUp! 北陸」開催レポート&nbsp;&nbsp;ニコニコニュース",
+      "title": "【ロマンス詐欺や恐喝もAIで】米Anthropicが「サイバー攻撃の自律化」を警告 - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA4TERienpxYnltZGZiblBLT1Q2bXVna3lyS1FzVUhNMHBWZVNzNkpNbmI3SzV2cjUwVDdGTG9oWEc0V0taenZyZDBKMjdwcG9ON040?oc=5",
+      "summary": "【ロマンス詐欺や恐喝もAIで】米Anthropicが「サイバー攻撃の自律化」を警告&nbsp;&nbsp;ビジネス+IT",
+      "date": "2026-06-12",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "中小企業の40％はルール未整備 調査で判明したAIセキュリティの死角 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0wMWlHbnpiUTlPQ2JycVRFSU1BMlRfVmhCMUhBYnNtMU1USGZDdl8wa0lveGtZcWxBREFHMmY1dEhmRDFGeWFBYm5aQkd4X19TdU1FbzRHRmRVX2oyRHNxSE5tRWo2dV9saFJyeHNENWJtcWM4?oc=5",
+      "summary": "中小企業の40％はルール未整備 調査で判明したAIセキュリティの死角&nbsp;&nbsp;ITmedia",
+      "date": "2026-06-12",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "漏洩IDの遮断からシャドーAI管理まで ジョーシス、ランサム対策のAI新機能 - Impress Watch",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HMnZ3Ny1rSlBncGxEOFljWHdwV3FzSTRtWU5RSjMtOW03WXpHMEF1UDRicmFHS08xN19xaVZEeUh3X1ZzT1BUYmZURG5xdU15Y0lySlhPZUZwMEdEeWhCZVhITlM?oc=5",
+      "summary": "漏洩IDの遮断からシャドーAI管理まで ジョーシス、ランサム対策のAI新機能&nbsp;&nbsp;Impress Watch",
       "date": "2026-06-12",
       "source": "Google News JP",
       "language": "日本語",
@@ -202,24 +256,6 @@
       "title": "日本サイバーディフェンス株式会社、陸上自衛隊システム通信・サイバー学校主催の多国間サイバー防護訓練(Cyber KONGO2026)を支援 - 産経ニュース",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB4RUdZWDlCa1MyY0ItRFdTMnM3ZzZ0M1hJWGxhSjc2RXNselBIdVYwOXh1SjdCRW1wdnRhYkZpOXdyZFdrMl9oLU9xUERWUi1fTGh0ZC01R09IQU9lS19PQy0ybVphWkJka295SGV4M0hpSHBSdFZtaWE5dw?oc=5",
       "summary": "日本サイバーディフェンス株式会社、陸上自衛隊システム通信・サイバー学校主催の多国間サイバー防護訓練(Cyber KONGO2026)を支援&nbsp;&nbsp;産経ニュース",
-      "date": "2026-06-12",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ダークトレースの調査によりプロスポーツ組織の80%以上が過去12か月間にサイバーインシデントを経験していることが判明、AIの普及によりサイバーセキュリティの重要性がさらに高まる - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PeXNDbzNXTFVkUm5TSjh5S3JxNG0yVGNXUFA0ZXlQXzZ0VUh3TjlteDNMTlJBSEhBUzhXZ0VqNnpnQWlYcUktYXZ1MngwYmwzN01ka2VCQjhYRmlzdHoxUVZfVmF1dDZ3aFdZ?oc=5",
-      "summary": "ダークトレースの調査によりプロスポーツ組織の80%以上が過去12か月間にサイバーインシデントを経験していることが判明、AIの普及によりサイバーセキュリティの重要性がさらに高まる&nbsp;&nbsp;時事ドットコム",
-      "date": "2026-06-12",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "第16回：キャッシュレス決済アプリを悪用した詐欺に注意！ - リスク対策.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1fQzlrbXRoWHF4eGlkc04tcVJOWkpTRjkyRDI2S1VoR2trMTc3QzhLU1AybkY3MDl5cm9hUU5VUEJhYkxKemJFQ0FxWHZUZFF5TlVOMjh6MzI?oc=5",
-      "summary": "第16回：キャッシュレス決済アプリを悪用した詐欺に注意！&nbsp;&nbsp;リスク対策.com",
       "date": "2026-06-12",
       "source": "Google News JP",
       "language": "日本語",
@@ -244,31 +280,13 @@
       "category": "vuln"
     },
     {
-      "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
-      "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
-      "summary": "The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities hard",
+      "title": "ISC Stormcast For Thursday, June 11th, 2026 https://isc.sans.edu/podcastdetail/9968, (Thu, Jun 11th)",
+      "url": "https://isc.sans.edu/diary/rss/33070",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "date": "2026-06-11",
-      "source": "The Hacker News",
+      "source": "SANS ISC",
       "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
-      "url": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
-      "summary": "Two security teams have shown, in separate research published this week, that OpenClaw, the popular self-hosted AI agent, can be driven to run attacker-controlled code or hand over sensitive data thro",
-      "date": "2026-06-11",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Japanese energy firm loses drive with data of 10.9 million clients",
-      "url": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/",
-      "summary": "Kyushu Electric Power Co., Inc. has disclosed a physical security incident that affects private data of more than 10 million customers. [...]",
-      "date": "2026-06-11",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
+      "category": "analysis"
     },
     {
       "title": "Yarbo Android/iOS Mobile Application and Cloud Infrastructure",
@@ -307,36 +325,45 @@
       "category": "alert"
     },
     {
-      "title": "G7サイバーセキュリティWG宣言、耐量子計算機暗号への移行要求など4点を提言（INTERNET Watch） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LNTlrWGJ3eGpESW4zNTFaT0k1QUI4VlVWdXB3WklxZDlCMEpXcmt6ZmpEUXNHUXI1ZmtLSlFlaHFVSm02Q2VKV216emU5MV91RW5CcVlVWDFTak5fdUZIbVJaM0p2Z0pNSFc3R2RIVGRwZnhwOVk2WGFjLWpKR2M?oc=5",
-      "summary": "G7サイバーセキュリティWG宣言、耐量子計算機暗号への移行要求など4点を提言（INTERNET Watch）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "「VPNの限界」を悟った日本企業がゼロトラストへ急傾斜 Zscalerが示すAI時代のセキュリティ戦略と国内の急成長 - クラウド Watch",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNb2JnXzFGQlkzeWZDSlRRNmxuOHNQbjFrNVVrNWFXNEpkMHViUDRLMzNrNFhFdzlnTTQ5RE1uYjBHenJ3WW1pY21kZUs0T0pxMkdMMXBFREVHR3NUMGg3TWRaTVE4YmlJ?oc=5",
+      "summary": "「VPNの限界」を悟った日本企業がゼロトラストへ急傾斜 Zscalerが示すAI時代のセキュリティ戦略と国内の急成長&nbsp;&nbsp;クラウド Watch",
       "date": "2026-06-11",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "アメリカ政府がAIの脅威に対処するため最も深刻な脆弱性の対応期限を「3日」に設定 - GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBqcWRMOHh0UHdhc2dpNjh1WHJEeTBlRlA5MDVzZk9oQllxU2hnWjFxazdDYmkxdEU3amMtLXdGZTlnMUlvMlFHUW9uRXdCdGNseDY3TFNDb2VaZHJZWnNNSlBESDJSVjAzMFJfS0RwRQ?oc=5",
-      "summary": "アメリカ政府がAIの脅威に対処するため最も深刻な脆弱性の対応期限を「3日」に設定&nbsp;&nbsp;GIGAZINE",
+      "title": "｢フォント｣の管理を怠る企業が陥りかねないセキュリティの盲点……｢サイバー攻撃｣と｢権利侵害｣の重大リスク - 東洋経済オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBma1k3cllYenZFQWRzaGotMUdQUk80QXh1RDI4UUg0bEdWVU5ld1J3dEJmcW9NRGZ2em1NMzZmaGRqaFRWS0lMUkFZNXU4ZnQzaWc?oc=5",
+      "summary": "｢フォント｣の管理を怠る企業が陥りかねないセキュリティの盲点……｢サイバー攻撃｣と｢権利侵害｣の重大リスク&nbsp;&nbsp;東洋経済オンライン",
       "date": "2026-06-11",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "G7サイバーセキュリティWG宣言、耐量子計算機暗号への移行要求など4点を提言 「レジリエンスにおける根本的な柱」と中小企業のサイバーセキュリティも重視 - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBKemVQZFgzSXNlVTdhaW9aRUsyaklvZTVReVpGSW5nMDB1cmctMTY5Wk14U20wV3k0eEV1b2p2SzR5eGRUU1BieGY2LWJHQ0ZZdDJ3Zk8zZHNHX1lEX3BRaGpLbDItaXg5SEgwNGZhT0xHY25EMGs1UmRpbFM?oc=5",
-      "summary": "G7サイバーセキュリティWG宣言、耐量子計算機暗号への移行要求など4点を提言 「レジリエンスにおける根本的な柱」と中小企業のサイバーセキュリティも重視&nbsp;&nbsp;Excite エキサイト",
+      "title": "AnthropicとOpenAIの“AIサイバー防御サービス戦争”が開けたパンドラの箱、システムセキュリティに降って湧いた「4つの大問題」とは？ - ダイヤモンド・オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1ucm1BSEt0NHpvTm1GcmdLZ0Y4NW9SZjFtM3FLR0JMODloV2JfaElyVm9HSjZnTl9rYU9JWkRmYnVrUDVUTVR0TGRBeDE?oc=5",
+      "summary": "AnthropicとOpenAIの“AIサイバー防御サービス戦争”が開けたパンドラの箱、システムセキュリティに降って湧いた「4つの大問題」とは？&nbsp;&nbsp;ダイヤモンド・オンライン",
       "date": "2026-06-11",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "侵入から25分でデータ流出、フロンティアAIのサイバー脅威に対して「必要な変化」と「不要な変化」 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50Mm8ySlRKMEtjdzNEb1FqeHc0RWVWVTA3Tk42LUtValMwUTQtOWx0T1NsMWt5VUQ0c0Vnd1lWNGpKSXRuSjVSM01fY0txUFRZaG5KYnJXRENJRDdxbHRNQkg1Zi1UV1dFemdYQVZRRUo2ZDJpMTFUY29NUWd2TVk?oc=5",
-      "summary": "侵入から25分でデータ流出、フロンティアAIのサイバー脅威に対して「必要な変化」と「不要な変化」&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "ランサムウェアの標的はバックアップデータ、時代遅れのバックアップを進化させる4つのポイント - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1aQ3ZqTXNKaDZZOUtBbHY4d2J6eDVjdXNUOE9PbERpanhISnlyZFNvZ0RMVGdaYmtEUWJwbFdXVGZ1MDcyWm5Pa2xJNWJOVTdJOEl0eDVlM21abHNHX0x6c0VEbGdnckNlSXpPZWpHRkw0aV80?oc=5",
+      "summary": "ランサムウェアの標的はバックアップデータ、時代遅れのバックアップを進化させる4つのポイント&nbsp;&nbsp;ITmedia",
+      "date": "2026-06-11",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "VRChatは、報告されたデータ漏洩は実際には発生しなかったとしている - Malwarebytes",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzVCZVZzLVB2OG82bkt3T0lzcGlBMGlGT3ZZZ2hKV2tNOXlwanpZdkdQOHZaZzM0Q0ZHdGlhS3llMG1rYnJPZ1FycTdGczhrcVVYQ1pkV0dfM0VrNzhPODZUcm1rc1I0UkJFelJtTE8yRjBXR29QNmc0RzR0NnUtdTV3QlJDZXdMbEl5NzR2cllhVHMyaENaWEJxNUpPR0k?oc=5",
+      "summary": "VRChatは、報告されたデータ漏洩は実際には発生しなかったとしている&nbsp;&nbsp;Malwarebytes",
       "date": "2026-06-11",
       "source": "Google News JP",
       "language": "日本語",
@@ -397,6 +424,24 @@
       "category": "news"
     },
     {
+      "title": "How has use of framing protection security headers changed in the past 3 years&#x3f;, (Wed, Jun 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33068",
+      "summary": "Back in 2023, I wrote a diary&#x5b;1&#x5d; discussing how commonly X-Frame-Options and CSP headers containing the frame-ancestors directive were used on 1 million most popular domains on the internet ",
+      "date": "2026-06-10",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, June 10th, 2026 https://isc.sans.edu/podcastdetail/9966, (Wed, Jun 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33066",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-06-10",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
       "title": "Check Point Software Technologies製品の脆弱性対策について(CVE-2026-50751)",
       "url": "https://www.ipa.go.jp/security/security-alert/2026/alert20260610.html",
       "summary": "",
@@ -451,6 +496,24 @@
       "category": "news"
     },
     {
+      "title": "Microsoft June 2026 Patch Tuesday, (Tue, Jun 9th)",
+      "url": "https://isc.sans.edu/diary/rss/33064",
+      "summary": "Microsoft today released patches for 204 vulnerabilities. 38 of these vulnerabilities are considered critical, and three have been disclosed before today. Six of the vulnerabilities affect Microsoft c",
+      "date": "2026-06-09",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, June 9th, 2026 https://isc.sans.edu/podcastdetail/9964, (Tue, Jun 9th)",
+      "url": "https://isc.sans.edu/diary/rss/33062",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-06-09",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
       "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/09/cisa-adds-three-known-exploited-vulnerabilities-catalog",
       "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-7473 Arista Extensible Operating System Incomplete Com",
@@ -487,13 +550,22 @@
       "category": "alert"
     },
     {
-      "title": "事故率100％時代、セキュリティ担当に必要なのは「防御力」より「ビジネス感覚」：変わるCISOの役割 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aM0dhUW4wMDlKWjJNdTh0eFhrTmc4dzlENTRZXzNXYnh5RFNPTERfRmlNLUp2MXFFbm9SWUo1VGEwQWwxMURvbWs0bTRuaWJQN2FiQXNMRkpwS3Vjc0E4N1JqeDAzdlpXMDRXYg?oc=5",
-      "summary": "事故率100％時代、セキュリティ担当に必要なのは「防御力」より「ビジネス感覚」：変わるCISOの役割&nbsp;&nbsp;ITmedia",
-      "date": "2026-06-09",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
+      "title": "TeamPCP Supply Chain Campaign: Activity Through 2026-06-07, (Mon, Jun 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33060",
+      "summary": "This diary continues the Internet Storm Center&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s tracking of the TeamPCP supply chain campaign, first documented in the SANS white paper When the Security Scanne",
+      "date": "2026-06-08",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Monday, June 8th, 2026 https://isc.sans.edu/podcastdetail/9962, (Mon, Jun 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33058",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-06-08",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
     },
     {
       "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
@@ -521,6 +593,24 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
+    },
+    {
+      "title": "The Evil MSI Background is Back&#x21;, (Fri, Jun 5th)",
+      "url": "https://isc.sans.edu/diary/rss/33054",
+      "summary": "A few months ago, I wrote a diary about a payload that was embedded into a JPEG picture. It was a MSI-branded background&#x5b;1&#x5d;. Yesterday, I spotted another one&#x21; It seems that the technic ",
+      "date": "2026-06-05",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Friday, June 5th, 2026 https://isc.sans.edu/podcastdetail/9960, (Fri, Jun 5th)",
+      "url": "https://isc.sans.edu/diary/rss/33050",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-06-05",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
     },
     {
       "title": "Securly Chrome Extensionにおける複数の脆弱性",
@@ -1133,5 +1223,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/6/13 6:40:05"
+  "updated": "2026/6/14 6:34:27"
 }
