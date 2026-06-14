@@ -2,30 +2,56 @@
   "notifications": [
     {
       "type": "newsletter",
-      "from": "日経クロステック Special <xtech-sp@nikkeibp.co.jp>",
-      "subject": "【週刊日経クロステック Special】低消費電力化を支えるレノボの水冷サーバー ほか",
-      "snippet": "週刊日経クロステック Special 2026.6.13。セキュリティ関連の注目記事：①サイバー脅威はITから「経営」の課題へ ②生成AI時代のサイバーリスク≫対策の勘所 ③今日からでも始めたいテレワークの安全性を高める8つのアクション。6/24-25にサイバーインテリジェンス セキュリティーマネジメントSummit 2026 Summer（オンライン）開催予定。",
-      "date": "2026-06-13 09:08",
-      "messageId": "19ebe4edcd247a61"
+      "from": "日経ビジネス Editor's EYE <business@nikkeibp.co.jp>",
+      "subject": "エヌビディアの供給網を徹底分析／「適所適材」人事をAIが最適化 - 日経ビジネス（6/15）",
+      "snippet": "エヌビディアの供給網（サプライチェーン）を徹底分析。AIによる「適所適材」人事最適化の動向など、本日の日経ビジネス注目記事。直接的なセキュリティ記事ではないが、サプライチェーン／AIガバナンスの観点で参考。",
+      "date": "2026-06-15 05:32",
+      "messageId": "19ec7d5d0a5ad8a9"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2 <info@connect.isc2.org>",
+      "subject": "ISC2 Certificates: Your Path to Cybersecurity Expertise",
+      "snippet": "ISC2の各種サティフィケート紹介。Building AI Strategy、Essentials of Cloud、Risk Management、Threat Handling Foundations、Zero Trust Strategy など高需要トピックの短期認定プログラム。CCSP学習中のさかまささんのCPE/関心領域に関連。",
+      "date": "2026-06-14 22:01",
+      "messageId": "19ec6394a5a168eb"
     }
   ],
   "googleSecurityAlerts": [
     {
       "type": "google",
       "from": "Google <no-reply@accounts.google.com>",
-      "subject": "セキュリティ通知",
-      "snippet": "rclone に Google アカウントのデータの一部へのアクセスを許可しました。心当たりがない場合は第三者がアクセスを試みている可能性があるためアカウントアクティビティを確認してください。※rcloneはクラウドストレージ同期ツール。さかまささんがGenspark/OneDrive連携等で利用しているなら正当な許可の可能性が高い。",
-      "date": "2026-06-13 19:46",
-      "messageId": "19ec09763c6db998",
-      "severity": "確認推奨（OAuth許可通知）"
+      "subject": "セキュリティ通知（アカウントへの新しいログイン）",
+      "snippet": "あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば対応不要。心当たりがない場合はアカウントを保護してください。",
+      "date": "2026-06-14 21:06",
+      "messageId": "19ec6065e3753060",
+      "severity": "確認推奨（新規ログイン通知）"
+    },
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Google アカウントが復元されました",
+      "snippet": "アカウントのご利用を再開した旨の通知。誰かが変更を行ったためにロックされたと考えられる場合は、アカウントを確認・保護してください。短時間にログイン通知と復元通知が連続しており確認推奨。",
+      "date": "2026-06-14 21:06",
+      "messageId": "19ec60656330d698",
+      "severity": "要確認（アカウント復元通知）"
+    },
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "セキュリティ通知（Windows での新しいログイン）",
+      "snippet": "Windows デバイスで Google アカウントへの新しいログインを検出。ご自身（Windows 11 環境）の操作であれば対応不要。",
+      "date": "2026-06-14 12:05",
+      "messageId": "19ec417d4b0f4b6d",
+      "severity": "確認推奨（新規ログイン通知）"
     }
   ],
   "sourceStatus": {
-    "google_security": "1件（rcloneへのOAuthアクセス許可通知。新規ログイン・パスワード変更の通知はなし。rcloneを自分で連携した記憶があれば対応不要、なければ myaccount.google.com/connections で確認・解除を推奨）",
+    "google_security": "3件（6/14にWindows新規ログイン→アカウントへの新しいログイン→アカウント復元、の通知が発生。自分の操作であれば対応不要だが、ログイン→復元の流れが短時間で連続しているため myaccount.google.com/notifications で念のため確認を推奨）",
     "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
-    "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
-    "Nikkei_BP_group": "1件（日経クロステック Special。セキュリティセクションあり：経営課題化するサイバー脅威、生成AIサイバーリスク、テレワーク安全対策）"
+    "ISC2_Japan": "1件（connect.isc2.org からサティフィケート案内。AI Strategy / Cloud / Risk Management / Threat Handling / Zero Trust）",
+    "Nikkei_BP_group": "1件（日経ビジネス。エヌビディア供給網分析・AI人事最適化。直接的なセキュリティ記事はなし）"
   },
-  "updated": "2026-06-14 07:00"
+  "updated": "2026-06-15 07:00"
 }
