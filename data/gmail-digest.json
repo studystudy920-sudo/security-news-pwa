@@ -1,53 +1,40 @@
 {
   "notifications": [
     {
-      "type": "newsletter",
-      "from": "ScanNetSecurity (Scan BASIC)",
-      "subject": "Scan BASIC [2026-06-15 Vol.1626-1/1] Interop Best of Show Award セキュリティ部門受賞製品一覧",
-      "snippet": "Interop Tokyo 2026 Best of Show Award セキュリティ部門グランプリは Keysight SBOM Manager と Cisco DefenseClaw。脆弱性：Apache HTTP Server 2.4 複数、TP-LINK製品の平文送信。インシデント：阿波銀行不正アクセス（テスト環境の管理不備）、CAMPFIRE GitHub認証情報流出、女の転職type リスト型攻撃3.8万件など。",
-      "date": "2026-06-15 08:14",
-      "messageId": "19ec86a626b8eab3"
+      "type": "google",
+      "from": "Google (no-reply@accounts.google.com)",
+      "subject": "セキュリティ通知（Gmail MCP Server へのアクセス許可）",
+      "snippet": "あなたは Gmail MCP Server に Google アカウントのデータの一部へのアクセスを許可しました。許可していない場合は第三者がアクセスしようとしている可能性があります。アカウントアクティビティを確認してください。",
+      "date": "2026-06-16 14:22",
+      "messageId": "19ed0d0341079366"
     },
     {
-      "type": "newsletter",
-      "from": "日経クロステック IT注目記事",
-      "subject": "Mythosが示すNデイ攻撃の高度化／サッカーW杯、3Dアバターと審判カメラで進化",
-      "snippet": "脆弱性対策の猶予は「日」から「時間」へ、Mythosが示すNデイ攻撃の高度化。AnthropicがFable 5とMythos 5の提供停止（米政府指示、「脱獄」を懸念か）。「侵入を前提とする時代に求められるプロアクティブ防御」など。",
-      "date": "2026-06-15 16:33",
-      "messageId": "19eca32de57af3cf"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT最新ニュース",
-      "subject": "AnthropicがFable 5とMythos 5の提供停止／JR東日本とJR西日本がDX加速",
-      "snippet": "AnthropicがFable 5とMythos 5の提供を停止。米政府指示によるもので「脱獄（ジェイルブレイク）」を懸念か。AIモデルのセキュリティ・ガバナンスに関わる動向。",
-      "date": "2026-06-15 12:16",
-      "messageId": "19ec947d9fa95eea"
-    },
-    {
-      "type": "newsletter",
-      "from": "ISC2",
-      "subject": "ISC2 Bylaws Review Member Survey",
-      "snippet": "ISC2細則委員会が細則（理事選挙・任期制限、会員請願権、改正手続き、会員定義、委員会構成）の見直しに向け会員アンケートを実施。回答期限は2026年6月30日 12:00 ET。CISSP/CCSP等保有者向けの会員通知。",
-      "date": "2026-06-15 09:47",
-      "messageId": "19ecbfc8a601bf06"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BPメール (Topics)",
-      "subject": "見えないリスク資産が侵入ルートに！ 高精度な監視を実現するASMサービスとは",
-      "snippet": "ASM（アタックサーフェスマネジメント）による未把握リスク資産の可視化。深刻化するサイバー攻撃の金銭被害・ダウンタイム最小化の統合監視、SaaS利用拡大に伴う認証・アクセス管理強化策など、セキュリティ関連トピックを複数配信。",
-      "date": "2026-06-15 09:40",
-      "messageId": "19ec8b98abcc5ed5"
+      "type": "google",
+      "from": "Google (no-reply@accounts.google.com)",
+      "subject": "セキュリティ通知（Windows での新しいログイン）",
+      "snippet": "Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば何もする必要はありません。心当たりがない場合はアカウントを保護してください。",
+      "date": "2026-06-16 14:18",
+      "messageId": "19ed0cc242fa12c1"
     }
   ],
-  "googleSecurityAlerts": [],
+  "googleSecurityAlerts": [
+    {
+      "subject": "Gmail MCP Server へのアクセス許可",
+      "date": "2026-06-16 14:22",
+      "assessment": "想定内。本タスクで使用している Gmail MCP 連携の認可に伴う通知。新規の不審アクセスではない。"
+    },
+    {
+      "subject": "Windows での新しいログイン",
+      "date": "2026-06-16 14:18",
+      "assessment": "想定内。Windows 端末（さかまさ様の環境）からのログイン。MCP連携セットアップに伴うものと推定。"
+    }
+  ],
   "sourceStatus": {
-    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件。新規ログイン・パスワード変更・アプリアクセス許可等の通知なし）",
-    "ScanNetSecurity": "1件（週刊 Scan BASIC メルマガ Vol.1626。Interop受賞製品＋脆弱性・インシデント多数）",
+    "google_security": "2件（no-reply@accounts.google.com。①Gmail MCP Server へのアクセス許可通知 ②Windows での新しいログイン。いずれも本タスクのGmail MCP連携に起因する想定内の通知で、不審アクセスではないと判断）",
+    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
-    "ISC2_Japan": "1件（connect.isc2.org から細則見直し会員アンケート、回答期限6/30）",
-    "Nikkei_BP_group": "複数件（日経クロステック IT注目記事・IT最新ニュース、日経BP Topics 等。うちセキュリティ関連を抜粋。MythosのNデイ攻撃高度化、Anthropicモデル提供停止、ASM等）"
+    "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
+    "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）"
   },
-  "updated": "2026-06-16 07:00"
+  "updated": "2026-06-17 07:00"
 }
