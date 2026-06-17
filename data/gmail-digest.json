@@ -1,40 +1,12 @@
 {
-  "notifications": [
-    {
-      "type": "google",
-      "from": "Google (no-reply@accounts.google.com)",
-      "subject": "セキュリティ通知（Gmail MCP Server へのアクセス許可）",
-      "snippet": "あなたは Gmail MCP Server に Google アカウントのデータの一部へのアクセスを許可しました。許可していない場合は第三者がアクセスしようとしている可能性があります。アカウントアクティビティを確認してください。",
-      "date": "2026-06-16 14:22",
-      "messageId": "19ed0d0341079366"
-    },
-    {
-      "type": "google",
-      "from": "Google (no-reply@accounts.google.com)",
-      "subject": "セキュリティ通知（Windows での新しいログイン）",
-      "snippet": "Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば何もする必要はありません。心当たりがない場合はアカウントを保護してください。",
-      "date": "2026-06-16 14:18",
-      "messageId": "19ed0cc242fa12c1"
-    }
-  ],
-  "googleSecurityAlerts": [
-    {
-      "subject": "Gmail MCP Server へのアクセス許可",
-      "date": "2026-06-16 14:22",
-      "assessment": "想定内。本タスクで使用している Gmail MCP 連携の認可に伴う通知。新規の不審アクセスではない。"
-    },
-    {
-      "subject": "Windows での新しいログイン",
-      "date": "2026-06-16 14:18",
-      "assessment": "想定内。Windows 端末（さかまさ様の環境）からのログイン。MCP連携セットアップに伴うものと推定。"
-    }
-  ],
+  "notifications": [],
+  "googleSecurityAlerts": [],
   "sourceStatus": {
-    "google_security": "2件（no-reply@accounts.google.com。①Gmail MCP Server へのアクセス許可通知 ②Windows での新しいログイン。いずれも本タスクのGmail MCP連携に起因する想定内の通知で、不審アクセスではないと判断）",
+    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）",
     "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
     "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）"
   },
-  "updated": "2026-06-17 07:00"
+  "updated": "2026-06-18 06:00"
 }
