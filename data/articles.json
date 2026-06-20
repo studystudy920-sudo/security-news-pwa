@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+      "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+      "summary": "Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS scor",
+      "date": "2026-06-20",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Prinz Eugen ransomware prioritizes recent files for encryption",
+      "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/",
+      "summary": "A new ransomware operation named 'Prinz Eugen' prioritizes recently modified files for encryption and leaves no ransom note on the system. [...]",
+      "date": "2026-06-20",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+      "summary": "Microsoft has attributed a recent Mastra AI supply chain attack that compromised more than 140 npm packages to the North Korean hacking group Sapphire Sleet, also known as BlueNoroff. [...]",
+      "date": "2026-06-20",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ソフトバンクG×OpenAI連合、PaaS始動の裏側…米「ミュトス禁止令」が示す地政学リスク - ビジネスジャーナル",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02dXFZV19MSGI2N3dsSGpqcmRjS2NmQTFkQXZPX2xBUnBrOTZ3enpGWTlCdEJERnowWWE5QVlEdlVyRldKbDJ0M0Q3SUQtSk1LVEJISnZsNlpkOU0?oc=5",
+      "summary": "ソフトバンクG×OpenAI連合、PaaS始動の裏側…米「ミュトス禁止令」が示す地政学リスク&nbsp;&nbsp;ビジネスジャーナル",
+      "date": "2026-06-20",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AIとサイバーセキュリティの融合分野で、サウジアラビアの女性たちが先頭に立つ - arabnews.jp",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxUkJIbFlBLV9xRDNYeVdnRGptSHZ2ZXM4RGgxZElxLWVZMDNzUks1ZmRoYk9jRzEwa0dZRVRKQ0F2SHVDQ1hXWTJEeWJpYUl0VWF3MklxcWZYd0VpaDFzRFAwMWZBaDQ?oc=5",
+      "summary": "AIとサイバーセキュリティの融合分野で、サウジアラビアの女性たちが先頭に立つ&nbsp;&nbsp;arabnews.jp",
+      "date": "2026-06-20",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "三菱電機製MELSEC iQ-FシリーズのFX5-EIPおよびFX5-ENET/IPにおける脆弱性",
       "url": "https://jvn.jp/vu/JVNVU97140216/",
       "summary": "三菱電機製MELSEC iQ-FシリーズのFX5-EIPおよびFX5-ENET/IPには、サービス運用妨害（DoS）状態が発生する可能性のある脆弱性が存在します。",
@@ -109,6 +154,15 @@
       "category": "news"
     },
     {
+      "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
+      "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
+      "summary": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \"",
+      "date": "2026-06-19",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
       "title": "Hackers exploit info disclosure bug in Gravity SMTP WordPress plugin",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/",
       "summary": "Threat actors are exploiting an unauthenticated information disclosure vulnerability in the WordPress plugin Gravity SMTP, active on 100,000 sites. [...]",
@@ -172,15 +226,6 @@
       "category": "news"
     },
     {
-      "title": "CISA warns Fortinet users to secure devices after FortiBleed leak",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged Fortinet customers to secure their devices after nearly 74,000 firewall and VPN credentials were exposed in a data leak dubbed \"F",
-      "date": "2026-06-19",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)",
       "url": "https://isc.sans.edu/diary/rss/33090",
       "summary": "I detected an interesting phishing email this morning. It targets a major Belgian bank:&#xd;",
@@ -190,18 +235,18 @@
       "category": "analysis"
     },
     {
-      "title": "サイバーセキュリティクラウド、見えないAIリスク可視化 既存システムとの「門番」に（日本ネット経済新聞） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUmMzbFo3cW1QQWxrMlRQQkM2OWMzb1dEZ1dDRVRZaGpjT2RZVTRtYkpNeEFyUFZJTHByQ3BUa21LYnA2X0o0TWZnaUZ1NExzZnhKMjRkUHU1QVJIOUMyS1M1empCaGM1NVdIajYtaFdJUnlvcVpwUTlqQm13S2huTzdPWS1Bc0dUT1NTOU53?oc=5",
-      "summary": "サイバーセキュリティクラウド、見えないAIリスク可視化 既存システムとの「門番」に（日本ネット経済新聞）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "【速報レポート】\"サイバーセキュリティ\"のイベントで、こども達が学ぶ「安全なデジタルライフの知識」 - 神戸新聞",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fNllxWXFqdnp6OXhlUmhhQ2JlMlBPOGx1dVZWNG9mMkpxOHFwM1RXdDQ3ZUNFNFNvbENEWWg0MUZrMFdZZ1pJMjBpNnV0NWdsY3Q2bjdPbWNSb0lNV2lUcmlaXzVWTUpzWlFFcmRiQlo?oc=5",
+      "summary": "【速報レポート】\"サイバーセキュリティ\"のイベントで、こども達が学ぶ「安全なデジタルライフの知識」&nbsp;&nbsp;神戸新聞",
       "date": "2026-06-19",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "プレスリリース：デジタルデータソリューション、関西エリアのサイバーセキュリティ支援体制を強化（PR TIMES） - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBzNTY2X1d3U1lqU3NDMTd6NDhNX0l0a041c3VrcWlKZHJucFZZUC1ra3U5bkc2Umk5TW8zU2syQVpBWFFUZjF1dVBHb0JjSTdheXJjZGVDSHR4cWZta3dlY3BiX0dhdFVt?oc=5",
-      "summary": "プレスリリース：デジタルデータソリューション、関西エリアのサイバーセキュリティ支援体制を強化（PR TIMES）&nbsp;&nbsp;毎日新聞",
+      "title": "サイバーセキュリティクラウド、見えないAIリスク可視化 既存システムとの「門番」に（日本ネット経済新聞） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03TG9IbldpNG9QZzU1czRMQ25HNXltbjJaNGJXb3JEbElSVHRxNzdETEw4X0VvWFVla0hZMUlJV1VfTUVmd2w1WWxOUExmUXlha0dxMkxVVUxIN0p2bzVOdm5rak82LUZZclpnUm1LYWNnbS1yb2xRUHZNVlBGSVk?oc=5",
+      "summary": "サイバーセキュリティクラウド、見えないAIリスク可視化 既存システムとの「門番」に（日本ネット経済新聞）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-06-19",
       "source": "Google News JP",
       "language": "日本語",
@@ -217,27 +262,9 @@
       "category": "news"
     },
     {
-      "title": "調査に基づくインサイトが、世界のサイバーセキュリティ市場における高成長機会の特定をクライアントにどのように支援したか - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EcUVtaVpkZE9wY3Q2eWZBR0VFN2x6bU1WMEtSdkZHcFpHdUctdGkzZlNrS3FyQlhiRHBqZWRJbDhTSWhiSE5rUVJ1ODRaMUMtVzdVelhFNjFkN3RmMGMyZC1QM0dTT3dzZ2c?oc=5",
-      "summary": "調査に基づくインサイトが、世界のサイバーセキュリティ市場における高成長機会の特定をクライアントにどのように支援したか&nbsp;&nbsp;Excite エキサイト",
-      "date": "2026-06-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ヘルスケアサイバーセキュリティ市場インテリジェンスレポート2035：売上予測、市場シェア、および戦略的動向 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5VWDFja1VfcVNKNDA3cjl4U1VublJkakpCemxXY29RSmdVME9IdVdTcGFrYlMzeThtRUZDSkRhMnNMRTJBQ0t4X2NRbDhrOGVZcmFYVVhLQlZlNHkzZ0VhNDdjUXF6bVhOUDJvSF9US2hCTVR5ZWRGbk5xaw?oc=5",
-      "summary": "ヘルスケアサイバーセキュリティ市場インテリジェンスレポート2035：売上予測、市場シェア、および戦略的動向&nbsp;&nbsp;ニコニコニュース",
-      "date": "2026-06-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーディフェンス研究所が社長交代、新社長に水口直人氏就任 - EnterpriseZine",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GZWZiTEMyZ1BZVEE5b1NZMDFORmlOQWFGRkY2MGI4ZEMzX0dmM09SeVRiZVFaa05SclVfblMwTWQ4d2Jtc3NIcGQ2QmgxLTMwb04xd2dn?oc=5",
-      "summary": "サイバーディフェンス研究所が社長交代、新社長に水口直人氏就任&nbsp;&nbsp;EnterpriseZine",
+      "title": "テモナ－小動き 3Qに特別利益計上へ サイバーセキュリティにかかる保険金受領(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaFNWSEktUWducERlVWNIeC1vaGRLU3dHQW5sWGVsTkFYNV9pN0NqQW9ROXRmTVJXbnlic1FQNnJnU19JaDdtenlOTlBmeV9VejNSak4wY0JvZjNZZkRqd3YwcjhLcExuY0F5T1ZmelgwSjM5MF9laUZIck9Gc0pxVDZrUUItQ0U?oc=5",
+      "summary": "テモナ－小動き 3Qに特別利益計上へ サイバーセキュリティにかかる保険金受領(トレーダーズ・ウェブ)&nbsp;&nbsp;Yahoo!ファイナンス",
       "date": "2026-06-19",
       "source": "Google News JP",
       "language": "日本語",
@@ -253,38 +280,11 @@
       "category": "vuln"
     },
     {
-      "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
-      "url": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
-      "summary": "F5 has released security updates to address two critical security flaws in NGINX Open Source that could be exploited to achieve code execution on affected systems. The vulnerabilities are listed below",
-      "date": "2026-06-18",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "&#8216;Popa&#8217; Botnet Linked to Publicly-Traded Israeli Firm",
       "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
       "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-s",
       "date": "2026-06-18",
       "source": "Krebs on Security",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
-      "url": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/",
-      "summary": "The Gentlemen ransomware-as-a-service (RaaS) is actively developing and maintaining a suite of endpoint detection and response (EDR) killers to help affiliates evade detection in attacks. [...]",
-      "date": "2026-06-18",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/",
-      "summary": "Nintendo of America has confirmed to BleepingComputer that threat actors stole survey data from the third-party TinyPulse service used internally, but its systems were not compromised. [...]",
-      "date": "2026-06-18",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -406,6 +406,15 @@
       "category": "news"
     },
     {
+      "title": "香川大学のサイバーセキュリティセンターに四国総合通信局長表彰 人材育成や啓発に貢献（KSB瀬戸内海放送） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VVW9NNWtXaGd2VHBlNlVOdWtNSW9LaFlYUElieUxqZ3A2dm0wZmdOODFLWEY2V1RNREVTeU1QZGctOGNwaHNtZ2VUQ2NiOGUyNC1rZjJWay1lLWxKdGVpVDdUVEhackhZa2NzcWhqc2lNUGVPRTkxVlg1bmtNa1U?oc=5",
+      "summary": "香川大学のサイバーセキュリティセンターに四国総合通信局長表彰 人材育成や啓発に貢献（KSB瀬戸内海放送）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-06-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "RadiX AX6600 WiFi 6 Tri-Band Gaming RouterにおけるOSコマンドインジェクションの脆弱性",
       "url": "https://jvn.jp/jp/JVN20769211/",
       "summary": "Micro-Star International Co., Ltd.が提供するRadiX AX6600 WiFi 6 Tri-Band Gaming Routerには、OSコマンドインジェクションの脆弱性が存在します。",
@@ -442,18 +451,18 @@
       "category": "analysis"
     },
     {
-      "title": "「黒船以来の危機」孫正義氏が警鐘 ソフトバンクが最先端AIによるサイバーセキュリティ対策を提供 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE02N3l2VkwzcWhnOE96T2R1emI4MmlsSHhrZDZ0VnU3b29aVzUtX2hFd05QRy1nTHVRMkJmejdxV1RFSjA0YVl4N2FUbjJuTXM4dy0zX2dPRkFYdFYyOHBCNnB2ZkhFRzQ4QnYwUnlzY3BQUzdSR3cw0gF8QVVfeXFMTUhMcmI2RVF5S2RjRFRQT2N3Yk1GTG5JbVFnY1h1OEhicVlhaDQwNG5waFVwN1Q3eWtQUXphTjZER2NKT1ZnR0ROU29SOHVwcnlyMzNsWTM5OV9pMHhnLWRIV0hZY1ZKLUNsaHpqaVpnM2U1QmlGWE1wN2x3Ng?oc=5",
-      "summary": "「黒船以来の危機」孫正義氏が警鐘 ソフトバンクが最先端AIによるサイバーセキュリティ対策を提供&nbsp;&nbsp;ｄメニューニュース",
+      "title": "NATOサイバー防衛協力センター主催のサイバー防衛演習「Locked Shields 2026」に参加 - NEC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YTENtYW5DaVNaWEFGUmxOMmlieEgxYVpnREstVndzYkFCRmZwMjh0MjlsUXM5Zl9wV0ZIYlM0ejBERlNBa214czN4dDlyZ1VDQmlNOU9BMVdfZ2ZzZVE?oc=5",
+      "summary": "NATOサイバー防衛協力センター主催のサイバー防衛演習「Locked Shields 2026」に参加&nbsp;&nbsp;NEC",
       "date": "2026-06-17",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "NATOサイバー防衛協力センター主催のサイバー防衛演習「Locked Shields 2026」に参加 - NEC",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9YTENtYW5DaVNaWEFGUmxOMmlieEgxYVpnREstVndzYkFCRmZwMjh0MjlsUXM5Zl9wV0ZIYlM0ejBERlNBa214czN4dDlyZ1VDQmlNOU9BMVdfZ2ZzZVE?oc=5",
-      "summary": "NATOサイバー防衛協力センター主催のサイバー防衛演習「Locked Shields 2026」に参加&nbsp;&nbsp;NEC",
+      "title": "日立、AIを活用したモダナイゼーションとサイバーセキュリティ強化に向けOpenAIとの連携を本格化（クラウド Watch） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05UjR2NEpoRXJTMG1fZUZHQ1J2MkdqT3lkRW9aUHRzZHpTZ0dXYWstemJtNTJRU1l1NFlUQ0V5dHBJNGlyYUhpRnc1Um5sam1GdjVPNnNSM0NHOU01eVgzZ2hlOURlRUZ3cXRaN1A2UFVZTHpyWHczSG9sUWhldjA?oc=5",
+      "summary": "日立、AIを活用したモダナイゼーションとサイバーセキュリティ強化に向けOpenAIとの連携を本格化（クラウド Watch）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-06-17",
       "source": "Google News JP",
       "language": "日本語",
@@ -503,15 +512,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "予防型セキュリティ「ROC」という新常識 - ps.nikkei.com",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB0UEMxcTdycmVFRTdUVHh1MXVpYk1zdExsY3lZQ3hyNUZDSmgtcm01elJmRUI5MjNmXzd2T0w5REE5ZFJkN096eVJ2V3ZRZDFpY2dGVEZlYw?oc=5",
-      "summary": "予防型セキュリティ「ROC」という新常識&nbsp;&nbsp;ps.nikkei.com",
-      "date": "2026-06-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "お知らせ：インシデント報告Webフォームメンテナンス（2026年6月26日）のお知らせ",
@@ -1223,5 +1223,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/6/20 6:32:20"
+  "updated": "2026/6/21 6:35:37"
 }
