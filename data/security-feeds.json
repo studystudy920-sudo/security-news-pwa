@@ -1,6 +1,231 @@
 {
   "feeds": [
     {
+      "title": "お知らせ：2026年度「JSAC2027運営業務」入札のご案内",
+      "url": "https://www.jpcert.or.jp/solicitation/",
+      "summary": "",
+      "date": "2026-06-22",
+      "source": "JPCERT/CC",
+      "language": "日本語",
+      "category": "alert"
+    },
+    {
+      "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
+      "url": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+      "summary": "Multiple WordPress plugins from ShapedPlugin were compromised in a supply chain attack after unknown threat actors managed to tamper with the official release channels and push backdoor code. \"Attacke",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+      "url": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+      "summary": "Cybersecurity researchers have disclosed details of four vulnerabilities in Dify, an open-source agentic workflow platform with more than 146,000 GitHub stars, that could allow attackers to stealthily",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+      "url": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+      "summary": "A heap over-read in the Squid web proxy can leak another user's cleartext HTTP request, including any credentials or session tokens it carries, to anyone already allowed to send traffic through the sa",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
+      "url": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign that delivers CastleStealer by means of a previously unreported malware loader dubbed OXLOADER. According to Elastic Security Labs, t",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
+      "url": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+      "summary": "Google has set September 30, 2026, as the day it begins enforcing&nbsp;Android developer verification&nbsp;in the first four countries, and the major device-maker app stores are in from the start. On ",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
+      "url": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+      "summary": "Earlier this month, I spoke at the Gartner Security & Risk Management Summit about a blind spot most security programs are still not accounting for - how attackers are circumventing AI security progra",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
+      "url": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+      "summary": "It’s Monday again. This week’s threat list looks painfully familiar: abused integrations, fake tools, poisoned websites, ransomware crews trying to shut down security tools, and mobile malware asking ",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
+      "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+      "summary": "Canada's spy service got a judge's permission to reach into infected servers, home routers, and IoT gear sitting on Canadian soil and neutralize two foreign-run botnets. The Federal Court&nbsp;release",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
+      "url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+      "summary": "A new malware family is turning forgotten home routers into a distributed reconnaissance and proxy network, not the DDoS botnet these devices usually end up in. QiAnXin's&nbsp;XLab&nbsp;calls it ArySt",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+      "url": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+      "summary": "A new report from INTERPOL has revealed a \"dramatic increase\" in cybercrime in Asia and the South Pacific, fueled by rapid digitalization, internet penetration, new technologies, organized criminal ne",
+      "date": "2026-06-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "FFmpeg fixes PixelSmash flaw in widely used video decoder",
+      "url": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "summary": "A newly disclosed FFmpeg flaw dubbed 'PixelSmash' could be exploited for remote code execution on Jellyfin servers under certain conditions, and can also trigger a denial-of-service condition in appli",
+      "date": "2026-06-22",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "FortiBleed campaign used custom FortiGate sniffer to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-campaign-used-custom-fortigate-sniffer-to-steal-credentials/",
+      "summary": "Security firm SOCRadar says the large-scale FortiBleed campaign targeting Fortinet FortiGate devices used custom sniffers to harvest authentication secrets from compromised firewalls and steal credent",
+      "date": "2026-06-22",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft says Windows 11 26H2 is coming soon, details upgrade process",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-windows-11-26h2-is-coming-soon-details-upgrade-process/",
+      "summary": "Microsoft has confirmed that Windows 11 version 26H2 will be the next feature update and that devices running Windows 11 24H2 and 25H2 will be able to upgrade using a small enablement package. [...]",
+      "date": "2026-06-22",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft fixes AutoGen Studio flaw that enabled code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
+      "summary": "A vulnerability chain dubbed AutoJack in Microsoft's AutoGen Studio interface for prototyping AI agents could let attackers manipulate an agent into executing arbitrary commands on its host system sim",
+      "date": "2026-06-22",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "A Glimpse into the “Search Your Target” Market for Stolen Credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/a-glimpse-into-the-search-your-target-market-for-stolen-credentials/",
+      "summary": "Attackers no longer need to sift through massive credential dumps. They can pay others to do it for them. Flare explores how an emerging underground market searches stolen credential databases for spe",
+      "date": "2026-06-22",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Webshells Remain Popular, (Mon, Jun 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33096",
+      "summary": "Webshells have been popular for a long time. We already covered this topic across multiple diaries&#x5b;1&#x5d;&#x5b;2&#x5d;. I spent some time to track them&#x5b;3&#x5d; and slighly paid less attenti",
+      "date": "2026-06-22",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Monday, June 22nd, 2026 https://isc.sans.edu/podcastdetail/9980, (Mon, Jun 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33092",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-06-22",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "サイバーインシデントに関する記者会見実施事例からみる国内企業の傾向 - PwC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTmV2cDlJZk4wLVc0WkpfSU1qNEVuYjYyNTYxN2F4aGNUSFhXNGZjUm13TjVMTmEyT1V2czAtVndBOHp0cFUwSzRGZ1RiRGNwMGVHMkNPMFJVTUc5Q21xbTVHcDQ4ZzFVUVU1cXkzaDg2Nk95NkVZcVlSVHdPSzZtdi1XNy1NZFFkUVdFeXh4ZWI?oc=5",
+      "summary": "サイバーインシデントに関する記者会見実施事例からみる国内企業の傾向&nbsp;&nbsp;PwC",
+      "date": "2026-06-22",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "プレスリリース：Podcast「日本IBM 誰かに話したくなる“○○”の話」にサイバーセキュリティの第一線で活躍する専門家がゲストとして登場。テーマは、生成AI起点で加速する“サイバーリスクの地殻変動”。（PR TIMES） - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ROFlXUWV0bjZ5c2FhMG5hNHV3NW1ldEZaTzNueVFMa0ZvUW1RWmpCdnl6YjlfZ3E5LWxBZ25WWnViTkFuZUZKVTBIUkVYY2NfcDRVWUktSnB4dEpHalZTX0Q0UUZKU3Fx?oc=5",
+      "summary": "プレスリリース：Podcast「日本IBM 誰かに話したくなる“○○”の話」にサイバーセキュリティの第一線で活躍する専門家がゲストとして登場。テーマは、生成AI起点で加速する“サイバーリスクの地殻変動”。（PR TIMES）&nbsp;&nbsp;毎日新聞",
+      "date": "2026-06-22",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "GMOサイバーセキュリティ byイエラエ、インターポールと欧州評議会主催のサイバー犯罪捜査訓練に2年連続で演習を提供 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NcjhtVklQR1R0cGVzSXZEQTJINnd6VG1Oa3lJYXEzc2VnSW5TNHk5TF83Q21COVBkNGtmQjBzUEFySWhGendhMmtTQVhLT09pUUwtT3FqU0hEVEh6OVVTMWMwdDVkYW1fWmc?oc=5",
+      "summary": "GMOサイバーセキュリティ byイエラエ、インターポールと欧州評議会主催のサイバー犯罪捜査訓練に2年連続で演習を提供&nbsp;&nbsp;PR TIMES",
+      "date": "2026-06-22",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ業界の第一線で活躍する 川口 洋氏が技術顧問に就任 - ASCII.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wOVYwOUFxTnNFRkticEFxTDRQWHkwN3o4SWF3SUphb09nYW0xMFc0dmZxY2RLWnpqRjRIV0MzbUxFTGgzSmxaY1RwSzllSU1SdGpWRQ?oc=5",
+      "summary": "サイバーセキュリティ業界の第一線で活躍する 川口 洋氏が技術顧問に就任&nbsp;&nbsp;ASCII.jp",
+      "date": "2026-06-22",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "【締切まで8日｜参加申込受付中】全10回のセミナー・ワークショップと専門家派遣で中小企業のサイバーセキュリティ対策を支 - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sRUpiazV2V2xPMDAwS3lWb2F6RVVqTWZ4Y29mM2YtR0gwZ1VNRjRTR1IzVV8yMDhnVlBQZThpWEdVTVNpXzliWEVtdEJLcFlTQUI0SjFPTDdHUjE1cEdJeGdiQ2V4TU5sZjhoYk40SUZSOHk5U2g4XzhSSQ?oc=5",
+      "summary": "【締切まで8日｜参加申込受付中】全10回のセミナー・ワークショップと専門家派遣で中小企業のサイバーセキュリティ対策を支&nbsp;&nbsp;ニコニコニュース",
+      "date": "2026-06-22",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "インシデント対応の現場で崩れ去る「おかしな前提」とは - 名和利男氏が語る、OTセキュリティの真の課題と「事業を止めない」ための構造設計 - マイナビニュース",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBMnQ3R09wd29pVUdUZ3RUOTlSdUtldWk4SlpRYlAyUlE2RjdRLUdYczdOMGMxdGdLd1ZHbXdzTkJZOHdiWDdxTUt2dUVjT1lyaFVmZXZ4YVBxbWtNNVNfdVA0Z1NaeUlx?oc=5",
+      "summary": "インシデント対応の現場で崩れ去る「おかしな前提」とは - 名和利男氏が語る、OTセキュリティの真の課題と「事業を止めない」ための構造設計&nbsp;&nbsp;マイナビニュース",
+      "date": "2026-06-22",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "PIPELINE、国内屈指の7社とサイバーセキュリティにおける戦略的パートナーシップ (2026年6月22日掲載) - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aR0xNeGpLVkxWaXFPZ2dKNHBGSkM2SmZqcXZNcFVlS20zWXV0QkR1UzhfWnBlLU52QXRlQlZ6VlpRc1FueFF2bkdyUWxObVRoeU9UNDh5Q2FlXzNER3FGaER3?oc=5",
+      "summary": "PIPELINE、国内屈指の7社とサイバーセキュリティにおける戦略的パートナーシップ (2026年6月22日掲載)&nbsp;&nbsp;ライブドアニュース",
+      "date": "2026-06-22",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "AryStinger botnet infected thousands of D-Link routers worldwide",
       "url": "https://www.bleepingcomputer.com/news/security/arystinger-botnet-infected-thousands-of-d-link-routers-worldwide/",
       "summary": "A previously undocumented malware botnet named AryStinger has compromised more than 4,000 outdated routers to turn them into proxies for malicious traffic. [...]",
@@ -10,21 +235,12 @@
       "category": "news"
     },
     {
-      "title": "病院への立入検査、新設のサイバーセキュリティ対策の充足率は項目中最低（2026年5月29日） - 社会保険研究所",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zMF9Ud0c2Y2JBR0E3UFFsS2RvR3Q4QWc4YlRCcjFWQWVNLWV5RTAtSUlPME9HRWhOeXdhRjVOWm5KMGwxMzBHYWM0cW4yejk5cGt3?oc=5",
-      "summary": "病院への立入検査、新設のサイバーセキュリティ対策の充足率は項目中最低（2026年5月29日）&nbsp;&nbsp;社会保険研究所",
+      "title": "サイバー対処能力強化法が突き付ける「取引停止リスク」 - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sZmkta3AtRnR6ZlFQUzk4Nm9aYV9FcmtjSXg4ZHBLaUN3UTAzd2lrUUIyaXJlbHY2eTNMTlAxUTBCSkNKd0pNdkNFSXdXRmVjMTdN?oc=5",
+      "summary": "サイバー対処能力強化法が突き付ける「取引停止リスク」&nbsp;&nbsp;ZDNET Japan",
       "date": "2026-06-21",
       "source": "Google News JP",
       "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
-      "url": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
-      "summary": "Threat actors are exploiting a recently patched security flaw impacting Gravity SMTP, a WordPress plugin that's installed on about 100,000 sites. The vulnerability, tracked as CVE-2026-4020 (CVSS scor",
-      "date": "2026-06-20",
-      "source": "The Hacker News",
-      "language": "英語",
       "category": "news"
     },
     {
@@ -43,6 +259,15 @@
       "date": "2026-06-20",
       "source": "Bleeping Computer",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ソフトバンクG×OpenAI連合、PaaS始動の裏側…米「ミュトス禁止令」が示す地政学リスク - ビジネスジャーナル",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE02dXFZV19MSGI2N3dsSGpqcmRjS2NmQTFkQXZPX2xBUnBrOTZ3enpGWTlCdEJERnowWWE5QVlEdlVyRldKbDJ0M0Q3SUQtSk1LVEJISnZsNlpkOU0?oc=5",
+      "summary": "ソフトバンクG×OpenAI連合、PaaS始動の裏側…米「ミュトス禁止令」が示す地政学リスク&nbsp;&nbsp;ビジネスジャーナル",
+      "date": "2026-06-20",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -73,87 +298,6 @@
       "category": "vuln"
     },
     {
-      "title": "Unpatchable 'usbliter8' Exploit Breaks Apple A12 and A13 SecureROM Boot Chain",
-      "url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html",
-      "summary": "Security researchers at&nbsp;Paradigm Shift&nbsp;have published a working exploit, dubbed&nbsp;usbliter8, that achieves arbitrary code execution inside the SecureROM of Apple's A12 and A13 chips. That",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "The Gentlemen RaaS Uses GentleKiller EDR Framework Targeting 400 Security Processes",
-      "url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html",
-      "summary": "The Gentlemen ransomware-as-a-service (RaaS) operation is actively developing and maintaining a suite of endpoint detection and response (EDR) killers that it hands out to affiliates for impairing sys",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
-      "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
-      "summary": "Microsoft researchers have detailed an exploit chain, named&nbsp;AutoJack, that turns an AI browsing agent into a delivery vehicle for remote code execution. Steer the agent to load an attacker's web ",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Operation Endgame Disrupts SocGholish Servers, Cleans 14,971 WordPress Sites",
-      "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html",
-      "summary": "Dutch law enforcement authorities, along with counterparts from Canada , Germany, and the U.S., have disrupted malicious infrastructure associated with SocGholish and cleaned up nearly 15,000 infected",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA Warns Fortinet Customers as FortiBleed Hits 86,644 FortiGate Devices",
-      "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Thursday urged Fortinet customers with FortiGate appliances to take steps to secure against ongoing malicious activity aimed at thou",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "From Assistive to Agentic: The AI Shift That's Redefining Threat Management",
-      "url": "https://thehackernews.com/2026/06/from-assistive-to-agentic-ai-shift.html",
-      "summary": "Introduction The average enterprise security team has 40 or more security tools, giving a lot of visibility into internal telemetry and asset data. But often, these tools are working in siloes, genera",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
-      "url": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
-      "summary": "The first wave of enterprise AI concern was straightforward. It was simply employees pasting sensitive data into public AI tools. Security teams responded with usage policies, domain blocks, and data ",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
-      "url": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
-      "summary": "Salesforce has revealed that it disabled the Klue Battlecards app integration within its platform in response to a security incident impacting the competitive intelligence company on June 11, 2026. To",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
-      "url": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
-      "summary": "Apple has updated its Beats Studio Buds wireless earbuds to patch a high-severity vulnerability that could be exploited by nearby hackers to eavesdrop on users. The vulnerability, tracked as CVE-2025-",
-      "date": "2026-06-19",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Klue OAuth breach victim list grows as Icarus hackers claim attack",
       "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/",
       "summary": "Market intelligence platform Klue has publicly confirmed a recent security incident that allowed threat actors to steal OAuth tokens used to connect to customers' Salesforce environments, as the new \"",
@@ -172,51 +316,6 @@
       "category": "news"
     },
     {
-      "title": "Texas govt data breach exposes over 3 million driver’s licenses",
-      "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/",
-      "summary": "The Texas Parks and Wildlife Department (TPWD) disclosed a data breach at its license system vendor that exposed personal information for more than three million individuals. [...]",
-      "date": "2026-06-19",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
-      "url": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
-      "summary": "AI agents can access data, trigger workflows, deploy code, and interact with critical business systems, often with little oversight. Token Security breaks down why AI agents are becoming a new identit",
-      "date": "2026-06-19",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Webinar: How attackers bypass MFA and how defenders can respond",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-attackers-bypass-mfa-and-how-defenders-can-respond/",
-      "summary": "Modern phishing attacks, including Device Code phishing, can undermine MFA protections and grant attackers access to corporate accounts without stealing passwords. This webinar explores how behavioral",
-      "date": "2026-06-19",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft: June 2026 Windows updates break Recycle Bin prompts",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-recycle-bin-bug-on-all-supported-windows-releases/",
-      "summary": "Microsoft has confirmed a confusing Windows bug that causes different filenames to appear in the confirmation dialog when deleting a file from the Recycle Bin. [...]",
-      "date": "2026-06-19",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA: Splunk Enterprise flaw actively exploited, patch by Sunday",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/",
-      "summary": "CISA has urged U.S. federal agencies to secure their systems by Sunday against a critical Splunk Enterprise vulnerability that is being exploited in attacks. [...]",
-      "date": "2026-06-19",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "eBanking Phishing Delivered Through IPv4-Mapped IPv6 Address, (Fri, Jun 19th)",
       "url": "https://isc.sans.edu/diary/rss/33090",
       "summary": "I detected an interesting phishing email this morning. It targets a major Belgian bank:&#xd;",
@@ -226,36 +325,9 @@
       "category": "analysis"
     },
     {
-      "title": "デジタルデータソリューション、関西エリアのサイバーセキュリティ支援体制を強化 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ERFVETzRrVWwzdER5WnhWQmwyMEhwazI3SXEtOC0zRDhpWlJ5UW9Fcm5EbmVaVkxOQ09PaXZHbS1wdU5LVExkV3EtckZYem5zVFJZV0sxYmtxVUlBSlZwTFl3VnBFMTktVGc?oc=5",
-      "summary": "デジタルデータソリューション、関西エリアのサイバーセキュリティ支援体制を強化&nbsp;&nbsp;PR TIMES",
-      "date": "2026-06-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "テモナ－小動き 3Qに特別利益計上へ サイバーセキュリティにかかる保険金受領(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaFNWSEktUWducERlVWNIeC1vaGRLU3dHQW5sWGVsTkFYNV9pN0NqQW9ROXRmTVJXbnlic1FQNnJnU19JaDdtenlOTlBmeV9VejNSak4wY0JvZjNZZkRqd3YwcjhLcExuY0F5T1ZmelgwSjM5MF9laUZIck9Gc0pxVDZrUUItQ0U?oc=5",
-      "summary": "テモナ－小動き 3Qに特別利益計上へ サイバーセキュリティにかかる保険金受領(トレーダーズ・ウェブ)&nbsp;&nbsp;Yahoo!ファイナンス",
-      "date": "2026-06-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティクラウド、見えないAIリスク可視化 既存システムとの「門番」に - 日本ネット経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4WGdjb3A1VlY1dXR2b3hTYmtRajRlUFJmRlMxY3NIUVBzbTRVWkdORzM1a2o4dUNvdFdoa0lic1h2R1Etek13QlJrRng4ejZEc2hSUXJn?oc=5",
-      "summary": "サイバーセキュリティクラウド、見えないAIリスク可視化 既存システムとの「門番」に&nbsp;&nbsp;日本ネット経済新聞",
-      "date": "2026-06-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "調査に基づくインサイトが、世界のサイバーセキュリティ市場における高成長機会の特定をクライアントにどのように支援したか - ドリームニュース",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZSXA4M1Y1Rkw2WmZGc3RsUkNlR05uSWR6ZTZQNTliMWpiVDJmdUtPSUJnSjczZnc0b0k1UGRQVGRQUGtEZ2l4SDVyY1lXU0JUTndr?oc=5",
-      "summary": "調査に基づくインサイトが、世界のサイバーセキュリティ市場における高成長機会の特定をクライアントにどのように支援したか&nbsp;&nbsp;ドリームニュース",
+      "title": "セキュリティチームを「ダメ出し部隊」から脱却させるには：Omdia調査 - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KWUZ3TWgwSkw4M2cycEh6X2FBdUNfRTExOXRkbzYySXJsMkRtbWc1b3B3U05mWnRhZEd1UHRja2NyNEdLTU93MlVFbmRxbmdZeXRzZXZxTlBlTDJFRWx5eUo0V2EtdDAzSzVDQg?oc=5",
+      "summary": "セキュリティチームを「ダメ出し部隊」から脱却させるには：Omdia調査&nbsp;&nbsp;ITmedia",
       "date": "2026-06-19",
       "source": "Google News JP",
       "language": "日本語",
@@ -300,7 +372,7 @@
     {
       "title": "CISA Urges Hardening Fortinet Devices After Reports of Credential Exposure",
       "url": "https://www.cisa.gov/news-events/alerts/2026/06/18/cisa-urges-hardening-fortinet-devices-after-reports-credential-exposure",
-      "summary": "CISA is aware of global reports that malicious cyber actors have targeted internet-accessible Fortinet devices across government and private sector organizations using compromised credentials. This ac",
+      "summary": "Update June 22, 2026:CISA has updated this Alert to incorporate the link to Fortinet’s recent guidance on this activity.&nbsp; CISA is aware of global reports that malicious cyber actors have targeted",
       "date": "2026-06-18",
       "source": "CISA",
       "language": "英語",
@@ -325,7 +397,7 @@
       "category": "alert"
     },
     {
-      "title": "Mitsubishi Electric Co.&#039;s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module",
+      "title": "Mitsubishi Electric Co.'s MELSEC iQ-F Series FX5-ENET/IP Ethernet Module",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-169-06",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial-of-service (DoS) condition in the affected product by continuously sending a large numbe",
       "date": "2026-06-18",
@@ -388,15 +460,6 @@
       "category": "alert"
     },
     {
-      "title": "「東芝グループ サイバーセキュリティ報告書2026」の発行について | ニュース - global.toshiba",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9ic0I5Qm90N21BdUlmdUQ4QlRoYjZJQTBkZEJTQ0w2Znh5YkczOXVIdW5pNF9XX2U2MEV0Vm90cE9CTHh3bHVrVXhOTERaSFpSVGhGU29JMXZEVlNGSXVCSk85OXhQNGtYNnREdnNNUzlZVHdubzQ3TGJ4aVRzTFE?oc=5",
-      "summary": "「東芝グループ サイバーセキュリティ報告書2026」の発行について | ニュース&nbsp;&nbsp;global.toshiba",
-      "date": "2026-06-18",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "RadiX AX6600 WiFi 6 Tri-Band Gaming RouterにおけるOSコマンドインジェクションの脆弱性",
       "url": "https://jvn.jp/jp/JVN20769211/",
       "summary": "Micro-Star International Co., Ltd.が提供するRadiX AX6600 WiFi 6 Tri-Band Gaming Routerには、OSコマンドインジェクションの脆弱性が存在します。",
@@ -431,15 +494,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "医療機関等におけるサイバーセキュリティ対策の課題等を共有 - 日本医師会",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB6NzVxekw0ZmpaT3JjSEhWc3J6OEU2V2ZHRXJiWGstaVRyd2hMenVQWVlocFBLa2RzenpQemVWdnNsVTdPN0w5UHAyTzlZXy1sbnVWR3VzUGpMa29LRUpLZlp3RzA?oc=5",
-      "summary": "医療機関等におけるサイバーセキュリティ対策の課題等を共有&nbsp;&nbsp;日本医師会",
-      "date": "2026-06-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "ThingsBoardにおけるプロトタイプ汚染の脆弱性",
@@ -487,15 +541,6 @@
       "category": "analysis"
     },
     {
-      "title": "生成AIでサイバー攻撃はどう変わる？「はじめてのサイバーセキュリティ演習」を8月23日に開催 - meisei-u.ac.jp",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DVjZpWUZsUk4tUV84OGFJbnhQRHNPRFFZbXU0bkd5LUtiSmFMcmRNcTdMelAzWU5XMmtvLVMyT1pLWG5EcTNITzFDS0pxVkFPN1kzXzQtZmRzTm8?oc=5",
-      "summary": "生成AIでサイバー攻撃はどう変わる？「はじめてのサイバーセキュリティ演習」を8月23日に開催&nbsp;&nbsp;meisei-u.ac.jp",
-      "date": "2026-06-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "お知らせ：インシデント報告Webフォームメンテナンス（2026年6月26日）のお知らせ",
       "url": "https://www.jpcert.or.jp/maintenance20260615.html",
       "summary": "",
@@ -518,33 +563,6 @@
       "url": "https://isc.sans.edu/diary/rss/33072",
       "summary": "I like it when a fellow handler posts a diary entry about images with malicious content. Last one is Xavier: \"The Evil MSI Background is Back&#x21;\".&#xd;",
       "date": "2026-06-15",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "ISC Stormcast For Monday, June 15th, 2026 https://isc.sans.edu/podcastdetail/9972, (Mon, Jun 15th)",
-      "url": "https://isc.sans.edu/diary/rss/33076",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-06-15",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "サイバーセキュリティお助け隊サービス（新類型） - meti.go.jp",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZjJmOTQzZ2NVMkVMdTBJX3g2SkstSkY0X29BLXFKMVk0bmhQZkotQWtGajh0R2lxVWt1bVZPczFfN2ZJMFc5V1Y1OXlITEVRbm9kelpqUU9EWTR4N01ERHhQaE1JUlpSNFBNVVNOS2MwZw?oc=5",
-      "summary": "サイバーセキュリティお助け隊サービス（新類型）&nbsp;&nbsp;meti.go.jp",
-      "date": "2026-06-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ISC Stormcast For Friday, June 12th, 2026 https://isc.sans.edu/podcastdetail/9970, (Fri, Jun 12th)",
-      "url": "https://isc.sans.edu/diary/rss/33074",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-06-12",
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
@@ -592,15 +610,6 @@
       "date": "2026-06-10",
       "source": "Krebs on Security",
       "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "「Interop Tokyo 2026」に出展 ～サイバーセキュリティ研究所～ - NICT",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9MUG9kZ3lhQTZWMWFQUGxsZExYNGZTcElPOHRtbnhKNnBDbnc3bUhUa3FtRE5fanR0di0wREotTUMtY1FEMkh5Z0lUOXBRXzdSMzZxdjhNM3VhcHhWcW9FOUNaNzVKS2M?oc=5",
-      "summary": "「Interop Tokyo 2026」に出展 ～サイバーセキュリティ研究所～&nbsp;&nbsp;NICT",
-      "date": "2026-06-10",
-      "source": "Google News JP",
-      "language": "日本語",
       "category": "news"
     },
     {
@@ -716,15 +725,6 @@
       "url": "https://www.jpcert.or.jp/tsubame/report/report202601-03.html",
       "summary": "",
       "date": "2026-05-15",
-      "source": "JPCERT/CC",
-      "language": "日本語",
-      "category": "alert"
-    },
-    {
-      "title": "お知らせ：JPCERT/CC Eyes「TSUBAMEレポート Overflow（2025年10～12月）」",
-      "url": "https://blogs.jpcert.or.jp/ja/2026/05/tsubame-overflow20251012.html",
-      "summary": "",
-      "date": "2026-05-13",
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/6/22 6:36:10"
+  "updated": "2026/6/23 6:46:17"
 }
