@@ -1,12 +1,30 @@
 {
-  "notifications": [],
-  "googleSecurityAlerts": [],
+  "notifications": [
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "セキュリティ通知",
+      "snippet": "Apple iPad での新しいログイン — massa.saka2010@gmail.com の Google アカウントへの新しいログインが Apple iPad デバイスで検出されました。ご自身によるものであれば対応不要。",
+      "date": "2026-06-25 22:45",
+      "messageId": "19f00f61b87b3d59"
+    }
+  ],
+  "googleSecurityAlerts": [
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "セキュリティ通知",
+      "snippet": "Apple iPad での新しいログイン — massa.saka2010@gmail.com の Google アカウントへの新しいログインが Apple iPad デバイスで検出されました。",
+      "date": "2026-06-25 22:45",
+      "messageId": "19f00f61b87b3d59"
+    }
+  ],
   "sourceStatus": {
-    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）",
+    "google_security": "1件（Apple iPad での新しいログイン通知、2026-06-25 22:45）",
     "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
     "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）"
   },
-  "updated": "2026-06-26 07:00"
+  "updated": "2026-06-27 07:00"
 }
