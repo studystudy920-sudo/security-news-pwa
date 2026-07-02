@@ -4,9 +4,17 @@
       "type": "google",
       "from": "Google <no-reply@accounts.google.com>",
       "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "リンクされている Google アカウントへのアクセスが rclone に許可されました。アクセスを許可した覚えがない場合は、このアクティビティをご確認のうえ、アカウントを保護してください。（studystudy920 の再設定用アドレス massa.saka2010 宛のコピー）",
-      "date": "2026-06-30 23:27",
-      "messageId": "19f1adc2a0be24e7"
+      "snippet": "Windows での新しいログイン。Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。心当たりがない場合はアカウントを保護してください。",
+      "date": "2026-07-02 08:15",
+      "messageId": "19f21e5cc1740051"
+    },
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "studystudy920@gmail.com のセキュリティ通知",
+      "snippet": "Windows での新しいログイン。Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。心当たりがない場合はアカウントを保護してください。",
+      "date": "2026-07-01 23:53",
+      "messageId": "19f201a248b7dcc6"
     }
   ],
   "googleSecurityAlerts": [
@@ -14,17 +22,25 @@
       "type": "google",
       "from": "Google <no-reply@accounts.google.com>",
       "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "リンクされている Google アカウントへのアクセスが rclone に許可されました。",
-      "date": "2026-06-30 23:27",
-      "messageId": "19f1adc2a0be24e7"
+      "snippet": "Windows での新しいログインが検出されました（2026-07-02 08:15）。",
+      "date": "2026-07-02 08:15",
+      "messageId": "19f21e5cc1740051"
+    },
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "studystudy920@gmail.com のセキュリティ通知",
+      "snippet": "Windows での新しいログインが検出されました（2026-07-01 23:53）。",
+      "date": "2026-07-01 23:53",
+      "messageId": "19f201a248b7dcc6"
     }
   ],
   "sourceStatus": {
-    "google_security": "1件（no-reply@accounts.google.com、rclone へのアクセス許可通知、2026-06-30 23:27）",
+    "google_security": "2件（no-reply@accounts.google.com、いずれも Windows での新しいログイン通知、2026-07-01 23:53 / 2026-07-02 08:15）",
     "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
     "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）"
   },
-  "updated": "2026-07-02 06:06"
+  "updated": "2026-07-03 07:00"
 }
