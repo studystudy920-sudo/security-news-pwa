@@ -1,46 +1,12 @@
 {
-  "notifications": [
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "Windows での新しいログイン。Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。心当たりがない場合はアカウントを保護してください。",
-      "date": "2026-07-02 08:15",
-      "messageId": "19f21e5cc1740051"
-    },
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "Windows での新しいログイン。Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。心当たりがない場合はアカウントを保護してください。",
-      "date": "2026-07-01 23:53",
-      "messageId": "19f201a248b7dcc6"
-    }
-  ],
-  "googleSecurityAlerts": [
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "Windows での新しいログインが検出されました（2026-07-02 08:15）。",
-      "date": "2026-07-02 08:15",
-      "messageId": "19f21e5cc1740051"
-    },
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "Windows での新しいログインが検出されました（2026-07-01 23:53）。",
-      "date": "2026-07-01 23:53",
-      "messageId": "19f201a248b7dcc6"
-    }
-  ],
+  "notifications": [],
+  "googleSecurityAlerts": [],
   "sourceStatus": {
-    "google_security": "2件（no-reply@accounts.google.com、いずれも Windows での新しいログイン通知、2026-07-01 23:53 / 2026-07-02 08:15）",
+    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）",
     "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
     "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）"
   },
-  "updated": "2026-07-03 07:00"
+  "updated": "2026-07-04 06:32"
 }
