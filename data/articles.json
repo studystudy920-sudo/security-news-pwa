@@ -1,6 +1,168 @@
 {
   "articles": [
     {
+      "title": "Little Orbit製GamersFirst Anti-Cheatにおける複数のローカル特権昇格の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU98406800/",
+      "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "date": "2026-07-03",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年07月02日）",
+      "url": "https://jvn.jp/vu/JVNVU97594085/",
+      "summary": "2026年07月02日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "date": "2026-07-03",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
+      "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
+      "summary": "Security firm runZero has&nbsp;disclosed seven vulnerabilities&nbsp;in&nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD card",
+      "date": "2026-07-03",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
+      "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
+      "summary": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Andro",
+      "date": "2026-07-03",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
+      "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
+      "summary": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditio",
+      "date": "2026-07-03",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
+      "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
+      "summary": "Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data theft. According to JFr",
+      "date": "2026-07-03",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
+      "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
+      "summary": "A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan. \"A",
+      "date": "2026-07-03",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
+      "url": "https://thehackernews.com/2026/07/european-parliament-member.html",
+      "summary": "A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving ",
+      "date": "2026-07-03",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
+      "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+      "summary": "Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The stealer, discovered by ",
+      "date": "2026-07-03",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
+      "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/",
+      "summary": "A joint operation involving Google has disrupted NetNut, a residential proxy network that gave access to millions of compromised Android devices, including smart TVs and streaming boxes. [...]",
+      "date": "2026-07-03",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+      "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/",
+      "summary": "A new phishing-as-a-service (PhaaS) platform dubbed \"ARToken\" appears to operate as an affiliate of the EvilTokens phishing platform, giving researchers a glimpse into an extensive toolkit designed to",
+      "date": "2026-07-03",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Claude Fable 5 isn’t permanently leaving subscriptions, Anthropic says",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-5-isnt-permanently-leaving-subscriptions-anthropic-says/",
+      "summary": "Anthropic says Claude Fable 5 won't be accessible via Claude subscriptions after July 7, but it's not a permanent change, and the company expects the model to return outside the usage-based plan soon.",
+      "date": "2026-07-03",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Claude Fable relaunch disappoints users with nerfed performance",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
+      "summary": "Claude Fable, the company's most powerful model, is now available to all users, but early impressions are disappointing, as it appears to be nowhere near the original release. [...]",
+      "date": "2026-07-03",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "データセンター全盛で需要が増大も日米格差に妙味、「サイバーセキュリティ銘柄」（大川智宏） - QUICK Money World",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YbktrSm0wRzlreWhnUG9sdTVOQ2UzUmRPNlRoaDNfZEU0VTljcnJvcExsNGZzek1lbVU0WVhaX0IwczhFZW1qVlY4Vkc0dUtTV3pEdFJB?oc=5",
+      "summary": "データセンター全盛で需要が増大も日米格差に妙味、「サイバーセキュリティ銘柄」（大川智宏）&nbsp;&nbsp;QUICK Money World",
+      "date": "2026-07-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "大企業が相次ぎ陥落、その裏で何が起きているのか─S2W幹部が語るサイバー脅威とダークウェブの深層 - IT Leaders",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRdXRNN1pFbGlsRkVTZXdLTWctT3dfbk4zNUJlaGdsQXFtandMQmtRQmJnaDJqa3F0NTBvT0hNTHNJekp0Q0Uxd2lOYjNkZENzSjhz?oc=5",
+      "summary": "大企業が相次ぎ陥落、その裏で何が起きているのか─S2W幹部が語るサイバー脅威とダークウェブの深層&nbsp;&nbsp;IT Leaders",
+      "date": "2026-07-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "理解度80%超！全国の中高生向け体験型サイバーセキュリティ教育プログラム「サイバーサクラ2026」始動。第一弾「ROUND1：守る」の参加者募集を7月3日より開始！ - 産経ニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDeGdINzlqSXV0cDZKdzlQVGhmRGhIM1pnZGZscG5iMWJFOEFaVHJyUTFIZEJEcXBNNGpFem1GVU5zbjIxX3NtLWdhWTB4UEpUd2h1SUN3S2o3b051cXR6aEt1MXktMXExMUtsSFhqc0RMTExWbGNEbWdROA?oc=5",
+      "summary": "理解度80%超！全国の中高生向け体験型サイバーセキュリティ教育プログラム「サイバーサクラ2026」始動。第一弾「ROUND1：守る」の参加者募集を7月3日より開始！&nbsp;&nbsp;産経ニュース",
+      "date": "2026-07-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ需要の拡大を背景に、世界の耐量子計算機暗号（PQC）市場は2035年までに192億8,000万米ドルへと急拡大する見通し。 - Excite エキサイト",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkWmxyWHBqOW1xNWJwblBES3l0bzVwdUF3cnRfU2tKQXJDTUE4VndlYjlaY19VSzZadmhlMTZ4aDhFOHQyYjVMcGppVmFIMW9mUmNodUpobS1YcGlwME1mYTMzUEZxY280LUE?oc=5",
+      "summary": "サイバーセキュリティ需要の拡大を背景に、世界の耐量子計算機暗号（PQC）市場は2035年までに192億8,000万米ドルへと急拡大する見通し。&nbsp;&nbsp;Excite エキサイト",
+      "date": "2026-07-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AIを活用した脅威検知への需要拡大を背景に、世界のサイバーセキュリティ向けエージェンティックAI市場は2035年までに - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE91Y0xuU2tWZ2hrdndOeEM2aWIwZTg4eV9PVnJRX0FTbjFBOU01TXE0SzdQb2o3OVg4VlZYLUJOYThXeWsyWUZRR1BRM3ByOXJQVG9ZSWo4MVJhQklFVHB3dWo2cFhTSFRpT0IxdzhiSzhkblhvLTBSNDN5OA?oc=5",
+      "summary": "AIを活用した脅威検知への需要拡大を背景に、世界のサイバーセキュリティ向けエージェンティックAI市場は2035年までに&nbsp;&nbsp;ニコニコニュース",
+      "date": "2026-07-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "三菱電機製数値制御装置における数値の入力に対する不適切な検証",
       "url": "https://jvn.jp/vu/JVNVU92054409/",
       "summary": "三菱電機製数値制御装置(CNC)には、数値の入力に対する不適切な検証に起因する脆弱性が存在します。",
@@ -31,60 +193,6 @@
       "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
       "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
       "summary": "This week’s security news is mostly about weak spots. Browsers, bots, sandboxes, AI systems, and email flows all show the same problem in different ways. Everything looks normal until someone tests a ",
-      "date": "2026-07-02",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
-      "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-      "summary": "The threat actor known as ToddyCat has been attributed to a new malware called Umbrij that's designed to gain surreptitious access to a victim's email correspondence via the Google API. \"In this campa",
-      "date": "2026-07-02",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
-      "url": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
-      "summary": "Identity lifecycle management was architected around a person with an employment record, a manager, and a departure date. AI agents have none of those. As autonomous principals proliferate across ente",
-      "date": "2026-07-02",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-      "url": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-      "summary": "Security firm&nbsp;Sysdig&nbsp;says it has found what it believes is the first ransomware attack run from start to finish by an AI agent. Its Threat Research Team calls the operator JADEPUFFER and say",
-      "date": "2026-07-02",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-      "url": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-      "summary": "The recently discovered financially-motivated FortiBleed campaign has been attributed to INC and Lynx ransomware operations, indicating that the verified, stolen credentials were intended for follow-o",
-      "date": "2026-07-02",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-      "url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-      "summary": "Attackers are hiding a data-stealing trojan inside fake exploit code aimed at the people who hunt bugs for a living. The malware, called ChocoPoC, travels in Python proof-of-concept (PoC) repositories",
-      "date": "2026-07-02",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
-      "url": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added a high-severity flaw impacting Microsoft SharePoint Server to its Known Exploited Vulnerabilities (KEV) catalog, cit",
       "date": "2026-07-02",
       "source": "The Hacker News",
       "language": "英語",
@@ -154,24 +262,6 @@
       "category": "news"
     },
     {
-      "title": "Alleged Scattered Spider hacker extradited to the United States",
-      "url": "https://www.bleepingcomputer.com/news/security/alleged-scattered-spider-hacker-extradited-to-the-united-states/",
-      "summary": "A dual United States and Estonian citizen has been extradited to the U.S. to face charges alleging he was a member of the Scattered Spider hacking collective. [...]",
-      "date": "2026-07-02",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Medtronic notifies customers impacted by ShinyHunters data breach",
-      "url": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/",
-      "summary": "Healthcare device firm Medtronic is notifying affected customers about a data breach that exposed their personal data to an unauthorized third party. [...]",
-      "date": "2026-07-02",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Thursday, July 2nd, 2026 https://isc.sans.edu/podcastdetail/9992, (Thu, Jul 2nd)",
       "url": "https://isc.sans.edu/diary/rss/33120",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -211,6 +301,15 @@
       "title": "ファイブ・アイズ緊急声明、爆需に舞う「サイバーセキュリティー」関連株 ＜株探トップ特集＞ - かぶたん",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxTmViQ3A1MmpTQzNfTnMzU3RrQXBUV0Utb2ZPZjdNdGFEckJGLTY5eUllbUZucWJhR2cxUUM0MFBPZmpzNnJ2UGZPeVBBQ2x3djduQ3FWOWhLMkctUHhKVQ?oc=5",
       "summary": "ファイブ・アイズ緊急声明、爆需に舞う「サイバーセキュリティー」関連株 ＜株探トップ特集＞&nbsp;&nbsp;かぶたん",
+      "date": "2026-07-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "セキュリティインシデント体験ツール「ZANSIN」の構築方法について解説 - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVQXBVRENsWEJsQVp4UVVnSU9NMzRsOG9adkxhNVc1Rzg1OTVmRzhBaDA5WTZxU0VsS0xiZmVBQV9HdmxqWENmY0JCSkRucEFESC1SSlNqVlRHUFZwT0dCcW55c1VGUDE1cDRxYQ?oc=5",
+      "summary": "セキュリティインシデント体験ツール「ZANSIN」の構築方法について解説&nbsp;&nbsp;ScanNetSecurity",
       "date": "2026-07-02",
       "source": "Google News JP",
       "language": "日本語",
@@ -271,33 +370,6 @@
       "category": "vuln"
     },
     {
-      "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
-      "url": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-      "summary": "Argo CD, a widely used tool for deploying software to Kubernetes, has an unpatched flaw in its repo-server component that lets an unauthenticated attacker run code, provided they can reach the compone",
-      "date": "2026-07-01",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "FortiBleed credential-theft campaign linked to Lynx ransomware",
-      "url": "https://www.bleepingcomputer.com/news/security/fortibleed-credential-theft-campaign-linked-to-lynx-ransomware/",
-      "summary": "The massive FortiBleed credential theft campaign has been linked to the INC and Lynx ransomware operations, suggesting the stolen Fortinet credentials were intended to fuel future network intrusions. ",
-      "date": "2026-07-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Kubota says hackers had month-long access to network systems",
-      "url": "https://www.bleepingcomputer.com/news/security/kubota-says-hackers-had-month-long-access-to-network-systems/",
-      "summary": "Kubota North America Corporation disclosed that hackers had access to some of its network systems for more than a month earlier this year. [...]",
-      "date": "2026-07-01",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Why Ask Credentials If There Are Secret Codes&#x3f;, (Wed, Jul 1st)",
       "url": "https://isc.sans.edu/diary/rss/33118",
       "summary": "This morning, an interesting phishing email hit my mailbox. It targets Metamask&#x5b;1&#x5d;, a cryptocurrency wallet, available as a browser extension and a mobile app, that lets users store, send, a",
@@ -325,45 +397,9 @@
       "category": "alert"
     },
     {
-      "title": "謎解きゲームでサイバーセキュリティを学ぶ「CYBER ADVENTURE 2026」、7月5日に天空橋で開催〜日本青年会議所 - INTERNET Watch",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1oWDYtMzI3TDZIOGU0VmFuMkt5c3RTUk9aeFgwcUsydEVPeE9CTk0xZ3dyUy1hSTNWaEZ4WU9mMWNTeTJBSm5kRVBpakh0NDhOT1JGSWhRY1FUeU8yYVZHMko4RVZmX1lvS1ln?oc=5",
-      "summary": "謎解きゲームでサイバーセキュリティを学ぶ「CYBER ADVENTURE 2026」、7月5日に天空橋で開催〜日本青年会議所&nbsp;&nbsp;INTERNET Watch",
-      "date": "2026-07-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "「いつか」ではなく「いつ起きるか」--サイバーインシデントが事業継続を揺るがす時代のリスク実態 - ZDNET Japan",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBQZHJhcDB6UVBXT2Y1SEgtemRmQ3BPYXpYLXNkam9ZV09tQXdoQ0k1YVh4a0ttdUFFUFFNbFNIRWJ6SDJkUkZsc1cxM2dqYjlHUWNV?oc=5",
       "summary": "「いつか」ではなく「いつ起きるか」--サイバーインシデントが事業継続を揺るがす時代のリスク実態&nbsp;&nbsp;ZDNET Japan",
-      "date": "2026-07-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "アクセンチュア、AI時代のサイバー脅威と地政学リスクに対応し、重要インフラの防御を支える統合サイバーセキュリティプラッ - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1MeXJUWDhIOFloY0lxelFhSHhKS2x1ME94MnRIZTJMWnlrQlJNUWFfZXZBb1pwWGQ5SGZTNXlyU2RxQkNSSEdaTDMxSmUzNVlkWE8wMm5VeEt1a1BoaUw3eklzYkFRTmVHcTV5ZERTTUJFUTN2cldmUXNIbw?oc=5",
-      "summary": "アクセンチュア、AI時代のサイバー脅威と地政学リスクに対応し、重要インフラの防御を支える統合サイバーセキュリティプラッ&nbsp;&nbsp;ニコニコニュース",
-      "date": "2026-07-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "謎解きゲームでサイバーセキュリティを学ぶ「CYBER ADVENTURE 2026」、7月5日に天空橋で開催〜日本青年会議所 - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE04ZmRURVk4eU5uOHpyZlVRU3VDb3RFWUhDZkZ4WGFab3F4VHpQR3FSRVo0Ui1uVWJOVGtYc09naWRWLUEybW9Bd2swUjY2d0Y1cFhqSmRpdTJfTUxiN0RxMkdjemhKbjYwQThaY0dXSHJ0UVp4YTJhUFBTZE8?oc=5",
-      "summary": "謎解きゲームでサイバーセキュリティを学ぶ「CYBER ADVENTURE 2026」、7月5日に天空橋で開催〜日本青年会議所&nbsp;&nbsp;Excite エキサイト",
-      "date": "2026-07-01",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "謎解きゲームでサイバーセキュリティを学ぶ「CYBER ADVENTURE 2026」、7月5日に天空橋で開催〜日本青年会議所 - 千葉テレビ放送",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBnS0ZWQzBKelVBMXNEMXFuN0p3b0hiU2stMTRneEJ1cmhPb1FTcEZQbXFxZTRYVERSbHZxWXNxdXFfbWlKRzNkSG9tTDRCOEcxTTEwYS1pR1FvOHJ4MTZj?oc=5",
-      "summary": "謎解きゲームでサイバーセキュリティを学ぶ「CYBER ADVENTURE 2026」、7月5日に天空橋で開催〜日本青年会議所&nbsp;&nbsp;千葉テレビ放送",
       "date": "2026-07-01",
       "source": "Google News JP",
       "language": "日本語",
@@ -400,15 +436,6 @@
       "title": "RPGツクールMVおよびMZにおけるOSコマンドインジェクションの脆弱性",
       "url": "https://jvn.jp/jp/JVN69681784/",
       "summary": "株式会社Gotcha Gotcha Gamesが提供するRPGツクールMVおよびMZには、OSコマンドインジェクションの脆弱性が存在します。",
-      "date": "2026-06-30",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "DGM3103SCTにおけるOSコマンドインジェクションの脆弱性",
-      "url": "https://jvn.jp/jp/JVN28979424/",
-      "summary": "AVTECH Security Corporationが提供するDGM3103SCTには、OSコマンドインジェクションの脆弱性が存在します。",
       "date": "2026-06-30",
       "source": "JVN",
       "language": "日本語",
@@ -496,15 +523,6 @@
       "category": "news"
     },
     {
-      "title": "中国版「Mythos」発表、米中フロンティアAI競争が新たなステージへ（ビジネス＋IT） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBjOUkySFp2Qk5RU2ZISGZJcEctWkxFa0ZLRDBqcEtrSkY1NGFyRG9FaXVrRVBkbVlhbUF4VUhGQWlLY0JWS1ZHWjRyaGVacmRvVERqVDhrOE5wUUFQNFJ6Z0RxXzFmN0hWY191WHBYYWM4YnJOWlhGalRWbVZvRmc?oc=5",
-      "summary": "中国版「Mythos」発表、米中フロンティアAI競争が新たなステージへ（ビジネス＋IT）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-06-30",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "お知らせ：インシデント報告Webフォームメンテナンス（2026年6月26日）終了のお知らせ",
       "url": "https://www.jpcert.or.jp/maintenance20260629.html",
       "summary": "",
@@ -512,15 +530,6 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
-    },
-    {
-      "title": "Fluentdにおける複数の脆弱性",
-      "url": "https://jvn.jp/jp/JVN36011274/",
-      "summary": "Fluentd Projectが提供するFluentdには、複数の脆弱性が存在します。",
-      "date": "2026-06-29",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
     },
     {
       "title": "Adding some Automation to the favicon.ico method of Host Recon, (Mon, Jun 29th)",
@@ -539,15 +548,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "約40年のノウハウを社外へ、パナソニックがセキュリティ技術のサービス化を本格化 - クラウド Watch",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CZGJpZFBVVUhGcjhEbTNkMFU2ODhyZFprTWxHNGVBaElmaHE2a1JPSWlGWnQ0Uzg1eHlnSERpTUJsSXJ6RkxlRkxLTng0SUZVQnJHem9xbmR6UHgyWHVOcDJBS25VZmJkMTZj?oc=5",
-      "summary": "約40年のノウハウを社外へ、パナソニックがセキュリティ技術のサービス化を本格化&nbsp;&nbsp;クラウド Watch",
-      "date": "2026-06-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "YARA-X 1.18.0 and 1.19.0 Release, (Sun, Jun 28th)",
@@ -1223,5 +1223,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/7/3 6:30:34"
+  "updated": "2026/7/4 6:29:57"
 }
