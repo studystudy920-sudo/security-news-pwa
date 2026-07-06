@@ -1,6 +1,231 @@
 {
   "feeds": [
     {
+      "title": "不正アクセスによるバンダイチャンネル大量退会についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/07/012552",
+      "summary": "株式会社バンダイナムコフィルムワークスは、動画配信サービス「バンダイチャンネル」で不正アクセスにより会員が意図せず大量に退会処理される障害が発生し、大量の会員情報が漏えいした可能性があると公表しました。その後、2026年6月と7月の2段階にわたり、この不正アクセスの疑いとして埼玉県所沢市在住の少年が警視庁サイバー犯罪対策課に逮捕されています。ここでは関連する情報をまとめます。 不正アクセスにより、",
+      "date": "2026-07-06",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
+      "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
+      "summary": "An Iranian hacking group affiliated with Iran's Ministry of Intelligence and Security (MOIS) has been wielding a previously undocumented modular command-and-control (C2) framework dubbed Cavern (aka C",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
+      "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
+      "summary": "A use-after-free bug in Linux's KVM hypervisor can be triggered from a guest virtual machine to corrupt the shadow-page state of the host kernel that runs it. Dubbed 'Januscape' and tracked as&nbsp;CV",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+      "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+      "summary": "Threat actors have been observed attempting to exploit a recently patched critical security flaw in Gitea Docker images, according to Sysdig. The vulnerability in question is CVE-2026-20896 (CVSS scor",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
+      "url": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
+      "summary": "A streaming box should not need a threat model. Neither should a username field, a demo repo, a reset flow, or a browser permission prompt. That is the irritating part this week: the risky pieces were",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
+      "url": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
+      "summary": "Building a shortlist for an AI SOC evaluation can be tough. SIEM, SOAR, and pureplay AI SOC vendors are all saying the same thing. But behind the identical label sit very different products, from chat",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
+      "url": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
+      "summary": "A suspected China-nexus threat activity cluster has been observed targeting Indian taxpayers, tax professionals, and corporate finance teams to deliver a remote access trojan designed to steal sensiti",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
+      "url": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
+      "summary": "Researchers at&nbsp;Shandong University&nbsp;have shown a fast new way to pull data off computers that are cut off from every network. The technique, called&nbsp;TrojPix, tweaks on-screen pixels in wa",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
+      "url": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
+      "summary": "Cybersecurity researchers have flagged a novel Java-based remote access trojan (RAT) called QuimaRAT that's capable of targeting Windows, Linux, and macOS environments. According to LevelBlue, the cro",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
+      "url": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
+      "summary": "Researchers found a flaw in&nbsp;Opera GX, the gaming-focused version of the Opera browser, that let a malicious website silently install a browser add-on and use it to lift specific data from the pag",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
+      "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
+      "summary": "Scanners meant to catch malicious add-on \"skills\" for AI coding agents can be fooled by a few simple changes that leave the malware working, according to a&nbsp;new study&nbsp;from researchers at the ",
+      "date": "2026-07-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Phishing poses as big-brand job interview to steal Google accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/phishing-poses-as-big-brand-job-interview-to-steal-google-accounts/",
+      "summary": "A phishing campaign is impersonating more than 30 well-known brands, including Adobe, Netflix, Coca-Cola, and OpenAI, in fake job interviews to steal Google account credentials from marketing professi",
+      "date": "2026-07-06",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Fake IT support calls on Microsoft Teams push EtherRAT malware",
+      "url": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/",
+      "summary": "Threat actors are abusing Microsoft Teams voice calls by impersonating corporate IT support staff to trick employees into installing the EtherRAT malware, giving attackers initial access to corporate ",
+      "date": "2026-07-06",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Vietnam arrests suspects behind HiAnime anime piracy service",
+      "url": "https://www.bleepingcomputer.com/news/security/vietnam-arrests-suspects-behind-hianime-anime-piracy-service/",
+      "summary": "​Vietnamese authorities have arrested and are prosecuting seven suspects believed to have run HiAnime, the largest anime piracy streaming service before its shutdown in June. [...]",
+      "date": "2026-07-06",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
+      "url": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
+      "summary": "Every evolution in software development has reduced the friction between an idea and a deployable application. AI may remove the final barrier, but it also removes many of the moments where security d",
+      "date": "2026-07-06",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Max severity Adobe ColdFusion flaw now exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/",
+      "summary": "Attackers are now exploiting a maximum-severity Adobe ColdFusion vulnerability tracked as CVE-2026-48282, according to vulnerability intelligence company KEVIntel. [...]",
+      "date": "2026-07-06",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "RCS and DNS: The NAPTR Record, (Mon, Jul 6th)",
+      "url": "https://isc.sans.edu/diary/rss/33124",
+      "summary": "Over the last year, with recent updates to iOS and Android, RCS (Rich Communication Services) has become an increasingly used protocol &#x5b;1&#x5d;. RCS is supposed to eventually replace SMS, and in ",
+      "date": "2026-07-06",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Monday, July 6th, 2026 https://isc.sans.edu/podcastdetail/9994, (Mon, Jul 6th)",
+      "url": "https://isc.sans.edu/diary/rss/33122",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-07-06",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ＥＧ Research Memo（2）：SNS監視、カスタマーサポート、サイバーセキュリティなどをワンストップで提供(フィスコ) - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNal94eDg5bUEwbWYtRk15a00zMlIzV3RUNWd5blBnSENqdzR2Qk8yZGxMNVBrYXc4c290czd0T0hXRFI5SUY4LVZvcWw5NWNlUXA4VTRfaXNNNmdDcW9yUzF4NG1rZ2MtUTljcDNkZ1JBLU9MNzNBU0VCX3dyTmxUT2RfQnR0bjQ?oc=5",
+      "summary": "ＥＧ Research Memo（2）：SNS監視、カスタマーサポート、サイバーセキュリティなどをワンストップで提供(フィスコ)&nbsp;&nbsp;Yahoo!ファイナンス",
+      "date": "2026-07-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「サイバーセキュリティ」が８位にランク、ファイブ・アイズが数カ月以内の脅威を警告＜注目テーマ＞ - かぶたん",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fcEViVkNQU2tpWGl0Q0VuVUJwU0I3NV9ERkhZYmZVZ1R6VEtseHZrY0IyMjVZZm1vUlFxM3RJTGc4ejd1UVNBR3BxMGJpd3hpc0FHcGJmSG5QSUVaS3hGNg?oc=5",
+      "summary": "「サイバーセキュリティ」が８位にランク、ファイブ・アイズが数カ月以内の脅威を警告＜注目テーマ＞&nbsp;&nbsp;かぶたん",
+      "date": "2026-07-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "WarrenAIが最大46%の上昇余地を持つサイバーセキュリティ関連ソフトウェア銘柄3社を選出 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Hc0lCNHBxQ3NBTERmb29uLW1VbFpkZmliM282QnlWVFBWemM3eDY2TTBKOTZTWVpRQ1g1eTc1WlRVRE1icDZDeXhjSGNlNzJwYS1rRk5aT09iY1pwYzRtdDN0dDhIc01nakk3b3pLOA?oc=5",
+      "summary": "WarrenAIが最大46%の上昇余地を持つサイバーセキュリティ関連ソフトウェア銘柄3社を選出 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "date": "2026-07-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「サイバーセキュリティ」が８位にランク、ファイブ・アイズが数カ月以内の脅威を警告＜注目テーマ＞ - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDT3ZZcEpKLS1FMFIyRVM5WHNYT3BPOVZVSXJlTm5GUmlWRnk5cXZ0cHNLZWlMVkFSQ1BQQkJ0bm1wemJ5NG13YnN4S1pvZ1V5MVRXemc2QTc2d3NLajN3?oc=5",
+      "summary": "「サイバーセキュリティ」が８位にランク、ファイブ・アイズが数カ月以内の脅威を警告＜注目テーマ＞&nbsp;&nbsp;ライブドアニュース",
+      "date": "2026-07-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "CowenがAIをサイバーセキュリティの触媒と位置づけ、注目銘柄を選定 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UaDNXbXFBRjV2ZFRVd3RFamhZX3JuRkZkLVAwRF9qbVc4bjlmcmZfbWtIdzNTT0ZHTksxTW1weE5mNTg5WkNINjZZWG1xcHF1a1lvbEhjd1Q5eVdWYThZbHpMa3pFVDZXSnhCRDA3am43UjVW?oc=5",
+      "summary": "CowenがAIをサイバーセキュリティの触媒と位置づけ、注目銘柄を選定 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "date": "2026-07-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「金融サードパーティ セキュリティサミット2026」を7月22日に開催 - assured.jp",
+      "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8zX2RHWlc0V0p4N2YzUHZrcnhuWDFuYnUzU3JUcks4bndJbThmYzFyTUU0MjRxcDN5VVAtS3JSQmQ?oc=5",
+      "summary": "「金融サードパーティ セキュリティサミット2026」を7月22日に開催&nbsp;&nbsp;assured.jp",
+      "date": "2026-07-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「ゼロから挑むサーバー構築！実践で学ぶサイバーセキュリティへの第一歩」にてソリューション本部 関口が登壇します - さくらインターネット",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTnhkQVZXQV9xcmNwUVVMSW5LR3FqZkhiZWJSc2lwU1k4MlczVUtzd1E3bWJ6bG5ZY1NoNDBGZHJuMWtQMXZndWtWUUt0ZU0yZkluYkRNV0llRGNtRVRmcjBidzFDR2FUWmtuNEFhNnhDMlo3ZVpodzU0NTBGeTB1U3BB?oc=5",
+      "summary": "「ゼロから挑むサーバー構築！実践で学ぶサイバーセキュリティへの第一歩」にてソリューション本部 関口が登壇します&nbsp;&nbsp;さくらインターネット",
+      "date": "2026-07-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Flipper Zero firmware development continues with community help",
       "url": "https://www.bleepingcomputer.com/news/security/flipper-zero-firmware-development-continues-with-community-help/",
       "summary": "Flipper Devices says development of the Flipper Zero firmware will continue, albeit with a smaller internal team and greater reliance on community contributions. [...]",
@@ -10,21 +235,12 @@
       "category": "news"
     },
     {
-      "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
-      "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
-      "summary": "A U.S. government entity paid about $1 million to keep stolen files from being leaked, according to a new&nbsp;case study by Rakesh Krishnan for Ransom-ISAC, built on a leaked negotiation chat and the",
-      "date": "2026-07-04",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
-      "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
-      "summary": "The North Korean threat actors linked to the Contagious Interview campaign have been observed publishing 108 unique packages and web browser extensions spanning npm, Packagist, Go, and Google Chrome a",
-      "date": "2026-07-04",
-      "source": "The Hacker News",
-      "language": "英語",
+      "title": "トレンドマイクロ、デジタルツインを活用した脆弱性の検証など最新のソリューションを紹介～TrendAI Spark 2026 - INTERNET Watch",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lMDdPU3VkczdzcGw2bnZsa1M3SnNLd3plbHdPeUhHZWhPUTI5NlhqV1N1N1RrTkswcmJMeDMxdzRISm1FVW5KOTlOMi1rU1RBWDhtcmtqY0ZNa0t6QVVGZWdJY3VBdy1vVXFZ?oc=5",
+      "summary": "トレンドマイクロ、デジタルツインを活用した脆弱性の検証など最新のソリューションを紹介～TrendAI Spark 2026&nbsp;&nbsp;INTERNET Watch",
+      "date": "2026-07-05",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -34,6 +250,15 @@
       "date": "2026-07-04",
       "source": "Bleeping Computer",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ銘柄の重要性【モーサテわからん】 - テレ東BIZ",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5IMFVWZWpjdzBiV1BtMU1jYXRheEdzUVMzNDd0bkxnOVlnSU9tU2M0enJ4WlB5YjhZOVB0NGVKalRtZ1FZbV91UzU2V1NNZXQwY0hDRGw1Z1BEclVDWHB6RTlFOA?oc=5",
+      "summary": "サイバーセキュリティ銘柄の重要性【モーサテわからん】&nbsp;&nbsp;テレ東BIZ",
+      "date": "2026-07-04",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -53,69 +278,6 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
-    },
-    {
-      "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
-      "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-      "summary": "Security firm runZero has&nbsp;disclosed seven vulnerabilities&nbsp;in&nbsp;FatFs, a small filesystem library that lets a device read and write the FAT and exFAT formats used on USB drives and SD card",
-      "date": "2026-07-03",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
-      "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-      "summary": "A newly disclosed Linux kernel flaw called Bad Epoll (CVE-2026-46242) lets an ordinary user with no special access take full control of a machine as root. It affects Linux desktops, servers, and Andro",
-      "date": "2026-07-03",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
-      "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-      "summary": "Cybersecurity researchers have discovered a previously undocumented modular malware framework codenamed Avalon that's distributed by means of a multi-stage phishing chain capable of bypassing traditio",
-      "date": "2026-07-03",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
-      "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-      "summary": "Threat actors with ties to North Korea have been linked to a fresh set of malicious npm packages that masquerade as Rollup polyfill tooling to facilitate remote access and data theft. According to JFr",
-      "date": "2026-07-03",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
-      "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-      "summary": "A previously undocumented threat actor known as Armored Likho has been attributed to cyber attacks targeting government agencies and the electric power sector across Russia, Brazil, and Kazakhstan. \"A",
-      "date": "2026-07-03",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
-      "url": "https://thehackernews.com/2026/07/european-parliament-member.html",
-      "summary": "A new report from the Citizen Lab has revealed that former Member of the European Parliament Stelios Kouloglou had his mobile device repeatedly hacked with the notorious Pegasus spyware while serving ",
-      "date": "2026-07-03",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
-      "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-      "summary": "Cybersecurity researchers have flagged a new macOS information stealer called PamStealer that employs a series of clever tricks to infect systems and siphon sensitive data. The stealer, discovered by ",
-      "date": "2026-07-03",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "NetNut proxy network disrupted, 2 million infected devices cut off",
@@ -145,42 +307,6 @@
       "category": "news"
     },
     {
-      "title": "Claude Fable relaunch disappoints users with nerfed performance",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-fable-relaunch-disappoints-users-with-nerfed-performance/",
-      "summary": "Claude Fable, the company's most powerful model, is now available to all users, but early impressions are disappointing, as it appears to be nowhere near the original release. [...]",
-      "date": "2026-07-03",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "データセンター全盛で需要が増大も日米格差に妙味、「サイバーセキュリティ銘柄」（大川智宏） - QUICK Money World",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YbktrSm0wRzlreWhnUG9sdTVOQ2UzUmRPNlRoaDNfZEU0VTljcnJvcExsNGZzek1lbVU0WVhaX0IwczhFZW1qVlY4Vkc0dUtTV3pEdFJB?oc=5",
-      "summary": "データセンター全盛で需要が増大も日米格差に妙味、「サイバーセキュリティ銘柄」（大川智宏）&nbsp;&nbsp;QUICK Money World",
-      "date": "2026-07-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ銘柄の重要性【モーサテわからん】 - テレ東BIZ",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03ekNDMUszYTJjOVpyRmdIcS1WWlpnZDZLX01KM2g2UEpIWWM1cnJPYXhlRTZCbHdVUWRzcS1EYWdob1NkTnFrZFk4bldGYkpxU1BDazlScFV5VnlfRzdEU1hVaktEM3JfamRPSA?oc=5",
-      "summary": "サイバーセキュリティ銘柄の重要性【モーサテわからん】&nbsp;&nbsp;テレ東BIZ",
-      "date": "2026-07-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "秋田県立大学にて、サイバーセキュリティの現場から見えるサイバー攻撃の実態や対策技術など最新動向について講義を実施しました - NEC",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WanZ2ajVGUVVEUEdKVndBWF9XODI2QVU4dXZzZkFXWk9oN3hzQm1GZ0p6Y2RlTU9GVzJSMkFSSmVjMWVwTG5kOFctOEJqTW1JQkNIR2VVTERQdHBlemZxYzBJOURqemdKZ21oSnZR?oc=5",
-      "summary": "秋田県立大学にて、サイバーセキュリティの現場から見えるサイバー攻撃の実態や対策技術など最新動向について講義を実施しました&nbsp;&nbsp;NEC",
-      "date": "2026-07-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "三菱電機製数値制御装置における数値の入力に対する不適切な検証",
       "url": "https://jvn.jp/vu/JVNVU92054409/",
       "summary": "三菱電機製数値制御装置(CNC)には、数値の入力に対する不適切な検証に起因する脆弱性が存在します。",
@@ -190,56 +316,11 @@
       "category": "vuln"
     },
     {
-      "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
-      "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
-      "summary": "Google has significantly degraded NetNut, one of the biggest networks that turns home devices into rented relays for other people's traffic. Working with the FBI, Lumen, and others, Google's Threat In",
-      "date": "2026-07-02",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
       "url": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
       "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicl",
       "date": "2026-07-02",
       "source": "Krebs on Security",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Google loses final appeal to overturn €4.1 billion EU fine",
-      "url": "https://www.bleepingcomputer.com/news/legal/google-loses-final-appeal-to-overturn-41-billion-eu-fine/",
-      "summary": "Court of Justice of the European Union (CJEU) has dismissed Google's final appeal against a €4.1 billion ($4.7 billion) antitrust fine over the company's use of Android to promote its Chrome browser a",
-      "date": "2026-07-02",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ConsentFix and ClickFix: How Microsoft 365 Accounts are Hijacked in 3 Seconds",
-      "url": "https://www.bleepingcomputer.com/news/security/consentfix-and-clickfix-how-microsoft-365-accounts-are-hijacked-in-3-seconds/",
-      "summary": "ConsentFix and ClickFix attacks steal Microsoft 365 tokens in seconds using fake prompts and OAuth flows. Learn how these MFA bypass tactics work and how to defend against them. [...]",
-      "date": "2026-07-02",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft fixes bug that removed Copilot buttons in Outlook",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-that-removed-copilot-button-in-outlook/",
-      "summary": "Microsoft has fixed a known issue causing the Copilot Chat or Copilot buttons in Classic Outlook to disappear for Windows users with the Copilot Chat (Basic) license. [...]",
-      "date": "2026-07-02",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Cisco finally confirms attackers exploiting Unified CM flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/",
-      "summary": "Cisco confirmed that attackers are now exploiting a Unified Communications Manager (Unified CM) vulnerability patched in early June. [...]",
-      "date": "2026-07-02",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -278,51 +359,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "ファイブ・アイズ緊急声明、爆需に舞う「サイバーセキュリティー」関連株 ＜株探トップ特集＞ - 株探",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAxTmViQ3A1MmpTQzNfTnMzU3RrQXBUV0Utb2ZPZjdNdGFEckJGLTY5eUllbUZucWJhR2cxUUM0MFBPZmpzNnJ2UGZPeVBBQ2x3djduQ3FWOWhLMkctUHhKVQ?oc=5",
-      "summary": "ファイブ・アイズ緊急声明、爆需に舞う「サイバーセキュリティー」関連株 ＜株探トップ特集＞&nbsp;&nbsp;株探",
-      "date": "2026-07-02",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "セキュリティインシデント体験ツール「ZANSIN」の構築方法について解説 - ScanNetSecurity",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVQXBVRENsWEJsQVp4UVVnSU9NMzRsOG9adkxhNVc1Rzg1OTVmRzhBaDA5WTZxU0VsS0xiZmVBQV9HdmxqWENmY0JCSkRucEFESC1SSlNqVlRHUFZwT0dCcW55c1VGUDE1cDRxYQ?oc=5",
-      "summary": "セキュリティインシデント体験ツール「ZANSIN」の構築方法について解説&nbsp;&nbsp;ScanNetSecurity",
-      "date": "2026-07-02",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「Mythosがないと守れない」は本当か——AIセキュリティの勝負を分ける「ハーネス」とは - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBXYUJJbmZCVUNKOGphUFdSTFJDNjZYdUlCbmpScl9wdTFIejN0TmRrMlBXTldwWHJOMGk0N1RSYTNORDZVRzEwN3haOFhJWDExcjlnZ0ZUVEI2bm5QSUJBQ2xxYjhjdG12SDdSOQ?oc=5",
-      "summary": "「Mythosがないと守れない」は本当か——AIセキュリティの勝負を分ける「ハーネス」とは&nbsp;&nbsp;ITmedia",
-      "date": "2026-07-02",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIサイバー脅威は「数年ではなく数カ月の話」。主要情報機関が警告（ギズモード・ジャパン） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fdzh6ekk5Zk8xdG02ZXhrOGdEYXJ2OHFxMDZZaDF3djdJTzZONG1wSWUxd19KQmRtb1ZiX0JDRlRyYlROdUc4alE0d1V3ekZwakVCanlFLUplU3l1Q1NNa2E5Qi1BMkhJWEQteHBqN3FmTW9keXk1dFNITV9Bc0E?oc=5",
-      "summary": "AIサイバー脅威は「数年ではなく数カ月の話」。主要情報機関が警告（ギズモード・ジャパン）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-07-02",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "日経225構成企業の217社で情報漏えいを確認 - ScanNetSecurity",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zQWgtX0JIRnNNRDl1U05iaFctbUw4dmFLSGloRGVxYnpCb1gtb0l0UGlPeWxUOFJQMGlka1ZXaHFqek40ZFZzVE16cEZWUTBHd1pJZTVhM1VyWDJoWVRMQ2dac0h2d0lSWDR4WA?oc=5",
-      "summary": "日経225構成企業の217社で情報漏えいを確認&nbsp;&nbsp;ScanNetSecurity",
-      "date": "2026-07-02",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "サイバーセキュリティ人材育成プロジェクト | ODA見える化サイト - jica.go.jp",
@@ -550,15 +586,6 @@
       "category": "analysis"
     },
     {
-      "title": "セキュリティチームを「ダメ出し部隊」から脱却させるには（TechTargetジャパン） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01WWZ2dktqSWZxMzROQm5NTGRuSGhsS3NCQjl2MHJNbHRnVXg1QUk3YnNEaDd4aTZqVnVyaWJlNFEyNzhJNHJaTDZ6eFZDWUtkcGNmY2tURS1sTzZvOHhVVFpUMUJ2ZUFiRG8zMHZ4bW1nS2E1SEg4dkE2U01xTHc?oc=5",
-      "summary": "セキュリティチームを「ダメ出し部隊」から脱却させるには（TechTargetジャパン）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-06-27",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "更新：Windows 10のサポート終了に伴う注意喚起",
       "url": "https://www.ipa.go.jp/security/security-alert/2024/win10_eos.html",
       "summary": "",
@@ -568,15 +595,6 @@
       "category": "alert"
     },
     {
-      "title": "What do Ports Hear When Nobody's Listening&#x3f; An Assessment of Automated Cybercrime &#x5b;Guest Diary&#x5d;, (Wed, Jun 24th)",
-      "url": "https://isc.sans.edu/diary/rss/33104",
-      "summary": "&#x5b;This is a Guest Diary by Nicole Phillips, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
-      "date": "2026-06-25",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
       "title": "お知らせ：役員体制の一部変更について",
       "url": "https://www.jpcert.or.jp/profile.html",
       "summary": "",
@@ -584,15 +602,6 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
-    },
-    {
-      "title": "Linux Process Name Masquerading, (Wed, Jun 24th)",
-      "url": "https://isc.sans.edu/diary/rss/33102",
-      "summary": "In a previous diary, I talked about stack strings&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x5b&#x3b;1&&#x23&#x3b;x26&#x3b;&#x23&#x3b;x5d&#x3b; with a practical example of them. Since my SEC670 class, I&&#x23&#x",
-      "date": "2026-06-24",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
     },
     {
       "title": "注意喚起: Fortinet製品に関連する認証情報の漏えいに関する注意喚起 (公開)",
@@ -973,15 +982,6 @@
       "category": "analysis"
     },
     {
-      "title": "NEXCO中日本管内で発生したETCの広域システム障害についてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2025/04/12/164427",
-      "summary": "2025年4月6日、中日本高速道路（NEXCO中日本）は、同社管内の一部料金所のETCレーンがシステム障害によって通行できない状態となったと公表しました。ETCのシステム障害は38時間後の翌日4月7日午後に復旧しています。この障害の影響により、高速道路では料金所周辺で渋滞や関連するとみられる事故も複数発生しています。ここでは関連する情報をまとめます。 初めて起きたETCの広域システム障害 ETCの",
-      "date": "2025-04-12",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
       "title": "ISO-2022-JP自動判定を用いたHTMLコンテキスト破壊によるXSS",
       "url": "https://blog.tokumaru.org/2025/01/breaking-html-context-xss-by-iso-2022-jp.html",
       "summary": "code { background-color: rgba(0,0,0,.05); border-radius: 3px; padding: 2px 4px } pre>code { background-color: rgba(0,0,0,.05); display: block; padding: .5em; -webkit-text-size-adjust: none; overflow-x",
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/7/6 6:27:25"
+  "updated": "2026/7/7 6:36:52"
 }
