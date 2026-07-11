@@ -1,12 +1,56 @@
 {
-  "notifications": [],
-  "googleSecurityAlerts": [],
+  "notifications": [
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "studystudy920@gmail.com のセキュリティ通知",
+      "snippet": "リンクされている Google アカウントへのアクセスが Gmail MCP Server に許可されました。アクセスを許可した覚えがない場合はアクティビティを確認してください。",
+      "date": "2026-07-11 23:55",
+      "messageId": "19f51acf84bcc7ec"
+    },
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "セキュリティ通知（新しいパスキー追加）",
+      "snippet": "新しいパスキーがアカウント（massa.saka2010@gmail.com）に追加されました。パスキーを追加した覚えがない場合はアカウントを確認・保護してください。",
+      "date": "2026-07-11 15:53",
+      "messageId": "19f4ff39d175f6db"
+    },
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "studystudy920@gmail.com のセキュリティ通知",
+      "snippet": "リンクされている Google アカウントへのアクセスが Claude for Gmail に許可されました。アクセスを許可した覚えがない場合はアクティビティを確認してください。",
+      "date": "2026-07-11 14:51",
+      "messageId": "19f4fbb4f8d104af"
+    }
+  ],
+  "googleSecurityAlerts": [
+    {
+      "subject": "studystudy920@gmail.com のセキュリティ通知",
+      "detail": "Gmail MCP Server へのアクセス許可",
+      "date": "2026-07-11 23:55",
+      "messageId": "19f51acf84bcc7ec"
+    },
+    {
+      "subject": "セキュリティ通知",
+      "detail": "新しいパスキーが massa.saka2010@gmail.com に追加",
+      "date": "2026-07-11 15:53",
+      "messageId": "19f4ff39d175f6db"
+    },
+    {
+      "subject": "studystudy920@gmail.com のセキュリティ通知",
+      "detail": "Claude for Gmail へのアクセス許可",
+      "date": "2026-07-11 14:51",
+      "messageId": "19f4fbb4f8d104af"
+    }
+  ],
   "sourceStatus": {
-    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）",
+    "google_security": "3件（no-reply@accounts.google.com）。いずれもClaude/Gmail連携の設定に伴う通知（Gmail MCP Server許可、Claude for Gmail許可、パスキー追加）",
     "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）",
     "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）"
   },
-  "updated": "2026-07-11 06:08"
+  "updated": "2026-07-12 06:08"
 }
