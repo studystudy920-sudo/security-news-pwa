@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
+      "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
+      "summary": "The jscrambler npm package was compromised, and simply installing its&nbsp;8.14.0&nbsp;release runs an infostealer on your machine. Published on July 11, 2026, the malicious version carries a&nbsp;pre",
+      "date": "2026-07-11",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
+      "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
+      "summary": "Cybersecurity researchers have disclosed details of sustained cyber espionage activity against several Pakistani law enforcement organizations undertaken by suspected China- and India-aligned threat a",
+      "date": "2026-07-11",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+      "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+      "summary": "Zimbra is urging customers to apply updates to address a critical security vulnerability impacting the Classic Web Client that could result in arbitrary code execution. The vulnerability has been desc",
+      "date": "2026-07-11",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Australia warns of global campaign targeting vulnerable CMS platforms",
+      "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/",
+      "summary": "The Australian Cyber Security Centre (ACSC) issued an alert about a global exploitation campaign targeting vulnerable content management systems (CMS) and plugins. [...]",
+      "date": "2026-07-11",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+      "summary": "A PNG hiding a prompt injection could steal your repo's secrets, researchers demonstrate. The technique, dubbed 'Ghostcommit,' slipped past AI code reviewers CodeRabbit and Bugbot, which never open im",
+      "date": "2026-07-11",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Wireshark 4.6.7 Released, (Sat, Jul 11th)",
+      "url": "https://isc.sans.edu/diary/rss/33146",
+      "summary": "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.&#xd;",
+      "date": "2026-07-11",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "「RICOH サイバーセキュリティパック IT資産管理サービス LANSCOPE for RICOH」を提供開始 - Excite エキサイト",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmNmNpcUh4enVkdThmTTJiSXhxM2MyZTZpU3BkcThsVFdwb3Z6YTdfM0piejJYNU9uQVhwejRoakFBRWdDbUE2UTdLVkMtMUF6YWFsQzNfaWh6aEtaWXhZekZNWUFLZGxGUHA5cjZ5bFl0RlU?oc=5",
+      "summary": "「RICOH サイバーセキュリティパック IT資産管理サービス LANSCOPE for RICOH」を提供開始&nbsp;&nbsp;Excite エキサイト",
+      "date": "2026-07-11",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Siemens製品に対するアップデート（2026年7月）",
       "url": "https://jvn.jp/vu/JVNVU91295052/",
       "summary": "Siemensから各製品向けのアドバイザリが公表されました。",
@@ -82,29 +145,11 @@
       "category": "news"
     },
     {
-      "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
-      "url": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
-      "summary": "Most enterprises assume their asset inventory is close enough to accurate. The evidence suggests otherwise. According to a survey of over 600 security leaders in the 2026 Axonius Actionability Report,",
+      "title": "New U-Boot flaws could enable stealthy firmware attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/",
+      "summary": "Six vulnerabilities in the widely used U-Boot bootloader have been discovered that could allow attackers to execute malicious code during device boot, potentially enabling stealthy firmware attacks th",
       "date": "2026-07-10",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
-      "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
-      "summary": "A cybercrime crew left one of its own servers wide open on the internet for three weeks, and it exposed the operation's inner workings: the hacking tools, the activity logs, and target lists naming mo",
-      "date": "2026-07-10",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
-      "url": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
-      "summary": "Researchers ran 281 of the most popular free VPN apps on the Google Play Store through a new testing system and found that many fail at the basics people install a VPN for, i.e., keeping their traffic",
-      "date": "2026-07-10",
-      "source": "The Hacker News",
+      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -172,15 +217,6 @@
       "category": "news"
     },
     {
-      "title": "Former ransomware negotiator gets 4 years for BlackCat attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/us-ransomware-negotiator-gets-4-years-in-prison-for-blackcat-attacks/",
-      "summary": "A former employee of cybersecurity incident response company DigitalMint was sentenced to 70 months in prison for targeting U.S. companies in BlackCat (ALPHV) ransomware attacks. [...]",
-      "date": "2026-07-10",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "My Stack Simulator, (Wed, Jul 8th)",
       "url": "https://isc.sans.edu/diary/rss/33138",
       "summary": "The stack is a memory region where a program stores temporary data -&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b;like local variables and return addresses. Think o",
@@ -217,15 +253,6 @@
       "category": "alert"
     },
     {
-      "title": "OpenAI「攻撃側より早い防御体制の構築が鍵」 国家サイバーセキュリティ本部が「デイブレイク」についてヒアリング - jimin.jp",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5BbGJ4Q3BqVjFlSk1fX1ZVbGs0b1FUSjRueGxKdkxYMExFdGJZZTFRcFZWblY2T1BPcnpxVnZaYUU1cUY4ejVWVmdzakpWSEZYN2h1bl9kb3R4aWVtdHc?oc=5",
-      "summary": "OpenAI「攻撃側より早い防御体制の構築が鍵」 国家サイバーセキュリティ本部が「デイブレイク」についてヒアリング&nbsp;&nbsp;jimin.jp",
-      "date": "2026-07-10",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "楽天シンフォニーの船舶サイバーセキュリティ、韓国ハンファオーシャンが導入 - ケータイ Watch",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDS1hFcVlqbHlxYkxzS1B0VUVCUnZlcU95UUliWUxGZmhQQ0lJaTQwSllYWExaWEVCbnJrMzhycDBGOHh5WUlqNm5Ub0FFdDhfUW1uVlkybmNfalBnZnlXNGFLN0l3WDA?oc=5",
       "summary": "楽天シンフォニーの船舶サイバーセキュリティ、韓国ハンファオーシャンが導入&nbsp;&nbsp;ケータイ Watch",
@@ -244,27 +271,9 @@
       "category": "news"
     },
     {
-      "title": "「RICOH サイバーセキュリティパック IT資産管理サービス LANSCOPE for RICOH」を提供開始 - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DaDRkNnY1U3ZXcmJLcXRqVmFHZzBBLWxyR0Y2OHJ4d0ZxSG5sdUh6QVdyUDhuXzhDVDgyOVpRSHNXU1FPUVlPUTNLd3MydHEzRzhqazNTVUVLSC03a04xNmJqRVl5WTU1c0hzNGNzM2N1Z0E?oc=5",
-      "summary": "「RICOH サイバーセキュリティパック IT資産管理サービス LANSCOPE for RICOH」を提供開始&nbsp;&nbsp;Excite エキサイト",
-      "date": "2026-07-10",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "NECの次世代サイバーセキュリティサービス「CyIOC（サイオック）」（150秒）[NEC公式]: NEC Online TV - NEC",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSOUlGbFZ4WU1neXJ5MnJGZmhUWHlZMk51NjhUZmNTTFZkVWJyajh6QnlkWl9BUFh1OWxuYThqalMwck1uZ041RWFDWFFFR1lUcngxMDBRZzN4VDdOcTgyZEpKUExxdw?oc=5",
-      "summary": "NECの次世代サイバーセキュリティサービス「CyIOC（サイオック）」（150秒）[NEC公式]: NEC Online TV&nbsp;&nbsp;NEC",
-      "date": "2026-07-10",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "IT担当者がいない中小企業でも始められるサイバーセキュリティ対策ガイドを無料公開／日本防犯カメラセンター（株式会社トリニティー） - ドリームニュース",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52NE95cUJtNlRxZFllVXNOaVNURU5hZ2xDRl84QlRiMnVJUDgtMThBdk5jOFNqTUlSOTlWTGRsZTRCWDRSRFlxU2RILXFEVU9Wd0xN?oc=5",
-      "summary": "IT担当者がいない中小企業でも始められるサイバーセキュリティ対策ガイドを無料公開／日本防犯カメラセンター（株式会社トリニティー）&nbsp;&nbsp;ドリームニュース",
+      "title": "サイバーセキュリティ株式オープン(為替ヘッジなし)【03315177】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8tWDBWclpKNXZRYzhSUElJM1lRbEZKLVFTblNSZ2ZacDZZQW01eFk5VDVBbWVBajZURkxfazJXMWp6ZE5sOTVIMkVMT1ZpV21tNEpXUA?oc=5",
+      "summary": "サイバーセキュリティ株式オープン(為替ヘッジなし)【03315177】：基準価格・投資信託情報&nbsp;&nbsp;Yahoo!ファイナンス",
       "date": "2026-07-10",
       "source": "Google News JP",
       "language": "日本語",
@@ -305,24 +314,6 @@
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
-    },
-    {
-      "title": "OpenMandriva Linux says contributor tried to sabotage the project",
-      "url": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
-      "summary": "The OpenMandriva Linux project announced that it was the target of an attempted act of internal sabotage after a dispute among contributors. [...]",
-      "date": "2026-07-09",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Injective SDK on npm infected with cryptocurrency wallet stealer",
-      "url": "https://www.bleepingcomputer.com/news/security/injective-sdk-on-npm-infected-with-cryptocurrency-wallet-stealer/",
-      "summary": "Hackers compromised the Injective Labs SDK project's GitHub repository and used it to publish a malicious package on the Node Package Manager (npm) that stole cryptocurrency wallet private keys and mn",
-      "date": "2026-07-09",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "ISC Stormcast For Thursday, July 9th, 2026 https://isc.sans.edu/podcastdetail/10000, (Thu, Jul 9th)",
@@ -388,9 +379,9 @@
       "category": "news"
     },
     {
-      "title": "テュフズード、SMCに産業用制御システムのサイバーセキュリティ認証（IEC 62443-4-1:2018準拠）を発行 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SY25MSzZsTmdRemZfVGdnWFRtUDJhNk92UVhYbHZNd1h4cmVjNnd6MzdhdlgxQUxLcnlrSGpNRDA5VG5vOFgxV2tmVFhEeGNMZzA3Vm1xaTA2NmNySGpwbjcwZWpzQndDMmlzZWc0Mm9qZ1FKMmF3YmRVdw?oc=5",
-      "summary": "テュフズード、SMCに産業用制御システムのサイバーセキュリティ認証（IEC 62443-4-1:2018準拠）を発行&nbsp;&nbsp;ニコニコニュース",
+      "title": "楽天シンフォニー、サイバーセキュリティソリューション「Rakuten Maritime」を韓国ハンファオーシャンが導入 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0talVmVjV0VjdlMHBveV9fbXpFTm12V0Y5OHcxNVJjT2s1eDZoR1QtOGJwMDFuVGpEeDZvMFFGaldvTW9KdWRnSXYzYzFQSVdxUUlmbWh5bkFSS19tOE5BUVVtbE1YMHhZcTlyNg?oc=5",
+      "summary": "楽天シンフォニー、サイバーセキュリティソリューション「Rakuten Maritime」を韓国ハンファオーシャンが導入&nbsp;&nbsp;日本経済新聞",
       "date": "2026-07-09",
       "source": "Google News JP",
       "language": "日本語",
@@ -454,6 +445,15 @@
       "title": "AI時代のサイバーセキュリティーとは | 日本経済新聞 電子版特集（PR） - ps.nikkei.com",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CSE4wcEVPRnFsV3dpdTBsX0F1eHc2ZHdQY09vemp4dTJ4d2ZwNUV5V1ctVF8xdDVrY3I0RDI1MEw4Umk3ckZiLXU5MFNjOUJtWVE?oc=5",
       "summary": "AI時代のサイバーセキュリティーとは | 日本経済新聞 電子版特集（PR）&nbsp;&nbsp;ps.nikkei.com",
+      "date": "2026-07-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "ゲーム好きな子を「サイバーセキュリティ人材」に。ロートこどもみらい財団が描く、生きづらさと社会課題を解決する未来 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5OaFVPaWNSNnhzVm5SRTIzMkllS2VNRTdVb0FjMTZpaXhsNmlnMUpROVNwR3NXZ3ZrSGRZaW5tazZ2X1JaVGxtWHo2WFlpVmc2clgxUEZYRjFrRjJFTWZMNml0d1ZBYUVMNkRBRGZseEt6V3h1MHFEcERoREo4QUU?oc=5",
+      "summary": "ゲーム好きな子を「サイバーセキュリティ人材」に。ロートこどもみらい財団が描く、生きづらさと社会課題を解決する未来&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-07-08",
       "source": "Google News JP",
       "language": "日本語",
@@ -586,6 +586,15 @@
       "category": "alert"
     },
     {
+      "title": "サイバーセキュリティお助け隊サービス（新類型） - meti.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZjJmOTQzZ2NVMkVMdTBJX3g2SkstSkY0X29BLXFKMVk0bmhQZkotQWtGajh0R2lxVWt1bVZPczFfN2ZJMFc5V1Y1OXlITEVRbm9kelpqUU9EWTR4N01ERHhQaE1JUlpSNFBNVVNOS2MwZw?oc=5",
+      "summary": "サイバーセキュリティお助け隊サービス（新類型）&nbsp;&nbsp;meti.go.jp",
+      "date": "2026-07-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "不正アクセスによるバンダイチャンネル大量退会についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/07/07/012552",
       "summary": "株式会社バンダイナムコフィルムワークスは、動画配信サービス「バンダイチャンネル」で不正アクセスにより会員が意図せず大量に退会処理される障害が発生し、大量の会員情報が漏えいした可能性があると公表しました。その後、2026年6月と7月の2段階にわたり、この不正アクセスの疑いとして埼玉県所沢市在住の少年が警視庁サイバー犯罪対策課に逮捕されています。ここでは関連する情報をまとめます。 不正アクセスにより、",
@@ -598,15 +607,6 @@
       "title": "RCS and DNS: The NAPTR Record, (Mon, Jul 6th)",
       "url": "https://isc.sans.edu/diary/rss/33124",
       "summary": "Over the last year, with recent updates to iOS and Android, RCS (Rich Communication Services) has become an increasingly used protocol &#x5b;1&#x5d;. RCS is supposed to eventually replace SMS, and in ",
-      "date": "2026-07-06",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "ISC Stormcast For Monday, July 6th, 2026 https://isc.sans.edu/podcastdetail/9994, (Mon, Jul 6th)",
-      "url": "https://isc.sans.edu/diary/rss/33122",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "date": "2026-07-06",
       "source": "SANS ISC",
       "language": "英語",
@@ -1223,5 +1223,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/7/11 6:27:55"
+  "updated": "2026/7/12 6:21:07"
 }
