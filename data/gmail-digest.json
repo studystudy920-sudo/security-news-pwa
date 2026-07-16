@@ -2,11 +2,11 @@
   "notifications": [],
   "googleSecurityAlerts": [],
   "sourceStatus": {
-    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）。直近の通知は2026-07-11のClaude/Gmail連携に伴うもので、以降は新規なし。ソース自体は正常に届いている。",
-    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）。過去60日でも0件、全文検索でも該当なし → 配信停止・アドレス変更の可能性あり（要確認）",
-    "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）。過去60日でも0件 → 要確認",
-    "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）。過去60日でも0件 → 要確認",
-    "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）。過去30日でも0件 → 要確認"
+    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、過去24時間で0件）。ソース自体は正常（受信箱には他メールあり）。新規のログイン検知・パスワード変更・アプリ許可通知なし。",
+    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）。過去7日でも0件 → 配信停止・アドレス変更の可能性が継続。要確認。",
+    "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）。要確認。",
+    "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）。要確認。",
+    "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）。要確認。"
   },
-  "updated": "2026-07-16 06:00"
+  "updated": "2026-07-17 06:10"
 }
