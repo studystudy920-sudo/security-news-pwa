@@ -1,6 +1,276 @@
 {
   "feeds": [
     {
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年07月16日）",
+      "url": "https://jvn.jp/vu/JVNVU95874748/",
+      "summary": "2026年07月16日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "date": "2026-07-17",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "一部のHTTP/2サーバーにおけるフロー制御に起因したサービス拒否（DoS）の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU90338324/",
+      "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "date": "2026-07-17",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "SGLangにおけるPickleのデシリアライゼーションに関する脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU90968686/",
+      "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "date": "2026-07-17",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "Amazon CloudFrontの障害についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/17/142812",
+      "summary": "2026年7月16日夕方、Amazon Web Services(AWS)のコンテンツ配信サービス「Amazon CloudFront」で障害が発生しました。PayPayなど、自社基盤への影響を確認・公表した事業者が国内外に見られたほか、ニコニコなど同じ時間帯に不具合が生じたサービスもありました。AWSは障害の原因について、CloudFront内部でVPC Originsへの接続を処理するサーバー",
+      "date": "2026-07-17",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+      "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+      "summary": "Eleven bytes will make an unpatched OpenSSL server set aside up to 131 KB of memory for a message that never arrives. On the glibc systems Okta tested, that memory is gone until the process restarts. ",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+      "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+      "summary": "Cybersecurity researchers have discovered a cluster of seven malicious npm packages targeting the Vite frontend tooling ecosystem as part of a software supply chain attack. The malicious package campa",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+      "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+      "summary": "A Go botnet called NadMesh turned up in early July hunting exposed AI services, and the operator's own dashboard claims 3,811 unique AWS keys. A Shodan harvester keeps the scan queue stocked with Comf",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+      "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+      "summary": "Cybersecurity researchers have attributed the April 2026 DigiCert security incident to a threat activity cluster dubbed CylindricalCanine. Expel, which shared technical details of the event, described",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+      "url": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+      "summary": "North Korean threat actors linked to the Contagious Interview campaign have been observed employing steganography in SVG image files to conceal malicious payloads as part of a campaign using fake job ",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
+      "url": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+      "summary": "The European Commission on Thursday ordered Google to give rival AI assistants the same reach into Android that Gemini already has: the camera, the microphone, whatever is on screen, a wake word that ",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
+      "url": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
+      "summary": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acqu",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
+      "url": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
+      "summary": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria Yu",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
+      "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+      "summary": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced One",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+      "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
+      "summary": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Abbott Laboratories probes two cyber incidents amid extortion claims",
+      "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
+      "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also ",
+      "date": "2026-07-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "HollowByte DDoS flaw bloats OpenSSL server memory with 11-byte payload",
+      "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/",
+      "summary": "A vulnerability dubbed HollowByte allows unauthenticated attackers to trigger a denial-of-service (DoS) condition on OpenSSL servers with a malicious payload of just 11 bytes. [...]",
+      "date": "2026-07-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Ernst & Young discloses data breach after support system hack",
+      "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/",
+      "summary": "Ernst & Young is notifying customers of a data breach caused by the compromise of a third-party support ticket system used by its IT personnel. [...]",
+      "date": "2026-07-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Inside the Search for \"Clean\" Residential Proxies for Carding",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-the-search-for-clean-residential-proxies-for-carding/",
+      "summary": "Residential proxies are no longer the silver bullet they once were for carding. Flare explains why cybercriminals increasingly seek \"clean\" residential proxies and combine them with browser fingerprin",
+      "date": "2026-07-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New Windows LegacyHive zero-day gives hackers admin privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/",
+      "summary": "A security researcher using the \"Nightmare Eclipse\" handle has released a Windows zero-day exploit dubbed LegacyHive that allows attackers to escalate privileges on up-to-date Windows systems. [...]",
+      "date": "2026-07-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Windows Server 2022 reach end of mainstream support in 90 days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
+      "summary": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
+      "date": "2026-07-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "US charges two over laundering $43 million from investment fraud",
+      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
+      "summary": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]",
+      "date": "2026-07-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "CISA urges immediate action on actively exploited Fortinet flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
+      "summary": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
+      "date": "2026-07-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ISC Stormcast For Friday, July 17th, 2026 https://isc.sans.edu/podcastdetail/10012, (Fri, Jul 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33162",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-07-17",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "プレスリリース：プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催（PR TIMES） - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16VVBzRHNpNDZOay1HbGFKUm1ld05oM1NibTRyQTBPRDliVEVsNVdxbFp6U3VOZ0IzVWludmZqWHBXV2V0Z2dsc0tjR2pmakVVMFQyejNfVk95NHUxeWtFWmRoLUlJNlQz?oc=5",
+      "summary": "プレスリリース：プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催（PR TIMES）&nbsp;&nbsp;毎日新聞",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hYjBHOW5YeTVsZ0treUdNT1hEU0N3U3pCYndETjFpUk9NdmlxejVxVU96VzBDcjZRTC1zZ1BENVJ5MTI4WThxTzNQemhkQ2ZqVnNSSjZqZHVmbzFydDVMQldxWUNBWlZVVGc?oc=5",
+      "summary": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞&nbsp;&nbsp;PR TIMES",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "東北サイバーセキュリティシンポジウム2026 - ipa.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZYlZvcG5xWFVjOVFEeTNUQldEQ3UzTG5GMlNGUTJmN2ZvSVc1S3R4ZTdEWk5OcmNLZ3NXS3F4SW1nSHR0aTlsd3RNdzEwUVVTVEFRTGdNZ0lMenUtQ215RThma0FOMFFYaS1GVjNB?oc=5",
+      "summary": "東北サイバーセキュリティシンポジウム2026&nbsp;&nbsp;ipa.go.jp",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ需要の拡大を背景に、世界の耐量子計算機暗号（PQC）市場は2035年までに192億8,000万米ドルへと急拡大する見通し。 - アットプレス",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pREFpbmVfSWlrNnk1QkUtak5ESnlrc2cyYzBka0tmenFySlFQZFJFNGlHN0pfbGx1N0xEcEQ5eURPM19tTUhsM3ZtcE1MX0k?oc=5",
+      "summary": "サイバーセキュリティ需要の拡大を背景に、世界の耐量子計算機暗号（PQC）市場は2035年までに192億8,000万米ドルへと急拡大する見通し。&nbsp;&nbsp;アットプレス",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "フロンティアAIで攻撃が高度化／国家間のサイバー戦もAIで激化 企業が構築すべき「動的防御」の姿とは - EnterpriseZine",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16cVd3aDNHakJpalYzTEhUdzFQeXBEM1d6MFc5Q196cENFazlwM2V1LUwtRExlODlWY1JiTlJuYktxaHB0dE5CRmVNYnhSdVJYOTVIVnZNUVU3UQ?oc=5",
+      "summary": "フロンティアAIで攻撃が高度化／国家間のサイバー戦もAIで激化 企業が構築すべき「動的防御」の姿とは&nbsp;&nbsp;EnterpriseZine",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞 - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBta1BmVFN2VG1fbkRWRm1ISmIyS3pCZHRrdWpkanNXVmtld0hMaElDVmdmaG9MdXRWN2Q0ZHd4WFUxME1Wa2pJSFJiUDVONWZTanRjd1RTWHRqblNmSmtPOVZ5TXRlWHBka0c0?oc=5",
+      "summary": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞&nbsp;&nbsp;時事ドットコム",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催 (2026年7月17日掲載) - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TTDdPVGhsRS14QU81YXp2Nm14dzhuM1dMcXJlZGJ3cmZYbTI5QU92bndDVkNReEsxMWFxZDl5LWpUTVpoWGlDblFSYzBqVXAtTlNlLTJQRkUwLVlCUm8xcTZn?oc=5",
+      "summary": "プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催 (2026年7月17日掲載)&nbsp;&nbsp;ライブドアニュース",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "お知らせ：ソフトウェア等の脆弱性関連情報に関する届出状況［2026年第2四半期（4月～6月）］",
       "url": "https://www.jpcert.or.jp/report/press.html",
       "summary": "",
@@ -64,92 +334,20 @@
       "category": "vuln"
     },
     {
-      "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
-      "url": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
-      "summary": "Owen Flowers, 18, and Thalha Jubair, 20, were each sentenced to five and a half years at Woolwich Crown Court on Thursday, 16 July 2026, for the 2024 hack of Transport for London. The attack left 148 ",
+      "title": "2026年7月に起きたクレジットカード決済の全国的障害についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/17/065349",
+      "summary": "2026年7月16日午前、全国各地でクレジットカード決済ができない、または利用しづらい障害が発生し、コンビニエンスストアや鉄道の券売機、ECサイト、モバイル決済など幅広い場面に影響が及びました。決済基盤を運営する日本カードネットワーク(CARDNET)や関係するカード会社、国際ブランドの担当者がそれぞれ状況について説明していますが、発信元によって説明の対象・内容は異なり、これらが同一の原因を指して",
       "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
     },
     {
-      "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-      "url": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
-      "summary": "A lot of this week’s trouble starts with something that looks close enough. A familiar repo. A useful installer. A harmless sync setting. Then the handoff goes bad, the box starts talking to someone e",
+      "title": "New ClickLock macOS malware traps users into revealing login password",
+      "url": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
+      "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
       "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
-      "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
-      "summary": "n8n, the workflow automation platform, handed out the wrong accounts at login. On Enterprise instances configured to trust more than one external token issuer, it matched an incoming JWT to a local us",
-      "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-      "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
-      "summary": "Cybersecurity researchers have called attention to a new modular malware called TELEPUZ that's been spreading via websites infected with ClickFix lures since late April 2026. \"The malware is full-feat",
-      "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
-      "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
-      "summary": "ClickLock Stealer, a new macOS infostealer, answers a victim's refusal by killing their apps on a loop until they hand over the login password. It arrives as a command pasted into Terminal, asks for t",
-      "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "20+ Hijacked Government Websites Became an Attack Channel",
-      "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
-      "summary": "More than 20 Brazilian government websites were hijacked and turned into malware delivery channels in an active PhantomEnigma campaign uncovered by ANY.RUN, a leading provider of interactive malware a",
-      "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
-      "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-      "summary": "Ask an AI agent to summarize the reviews on a product page, and a single planted review can make it click \"Buy Now\" instead. Ask a coding assistant to apply a maintainer's fix from a GitHub thread, an",
-      "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-      "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-      "summary": "An advanced malware previously attributed to a China-linked threat actor has resurfaced after more than four years within a Taiwan manufacturing firm, along with a previously unreported backdoor dubbe",
-      "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
-      "url": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
-      "summary": "Artificial intelligence (AI) is changing offensive security, but it has not changed the standard that matters most: a finding has to be proven before it becomes useful. AI-assisted tools can read code",
-      "date": "2026-07-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Unpatched Shark Vacuum Flaw Could Let Attackers Control Other Vacuums Region-Wide",
-      "url": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html",
-      "summary": "Pull the certificate off the flash of a Shark RV2320EDUS robot vacuum, and you can run root commands on other people's Shark vacuums across the same AWS region: watch the camera, drive the robot, read",
-      "date": "2026-07-16",
-      "source": "The Hacker News",
+      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -157,87 +355,6 @@
       "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
       "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
       "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the Unite",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
-      "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
-      "summary": "A flaw in Anthropic's Claude for Chrome browser extension could allow a malicious extension to trigger predefined AI actions by simulating user clicks, potentially allowing it to abuse Claude's access",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New OkoBot framework deploys 20 payloads to steal data, crypto",
-      "url": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/",
-      "summary": "A new malicious framework called OkoBot is delivering more than 20 payloads in attacks focused on stealing cryptocurrency wallet seed phrases, credentials, and other sensitive data. [...]",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
-      "summary": "Traditional security workflows were built for environments that changed at human speed. Token Security explains why AI agents require a new approach: building on a live identity foundation while givin",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "23andMe to pay $18 million in new genetics data breach settlement",
-      "url": "https://www.bleepingcomputer.com/news/security/23andme-to-pay-18-million-in-new-genetics-data-breach-settlement/",
-      "summary": "Genetic testing company 23andMe has agreed to pay $18 million to settle claims from a coalition of 43 attorneys general that it failed to protect customers' genetic data. [...]",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Scattered Spider members behind TfL hack get five years in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/scattered-spider-members-behind-transport-for-london-hack-get-five-years-in-prison/",
-      "summary": "Two leading members of the Scattered Spider cybercrime collective were sentenced to five years and six months in prison each for hacking Transport for London (TfL) in 2024. [...]",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Windows 11 24H2 Home and Pro reach end of support in 90 days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-24h2-home-and-pro-reach-end-of-support-in-90-days/",
-      "summary": "Microsoft announced on Wednesday that systems running Windows 10 Enterprise LTSB 2016 and Home and Pro editions of Windows 11 24H2 will stop receiving updates in three months. [...]",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA orders feds to patch actively exploited Oracle flaw by Saturday",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/",
-      "summary": "CISA has ordered federal agencies to secure their systems by Saturday against ongoing attacks exploiting a critical vulnerability in the Oracle E-Business Suite financial application. [...]",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Russian hackers trojanize WebEx, Zoom apps to push Starland malware",
-      "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/",
-      "summary": "A financially motivated Russian threat actor tracked as UAT-11795 is using trojanized software to steal credentials and cryptocurrency by deploying a new backdoor called Starland RAT. [...]",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New Spirals ransomware encrypts victim network in under 24 hours",
-      "url": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/",
-      "summary": "A new ransomware actor called Spirals completed a corporate intrusion, from initial access to data theft and encryption, in less than 24 hours. [...]",
       "date": "2026-07-16",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -343,54 +460,9 @@
       "category": "alert"
     },
     {
-      "title": "ソフォス、包括的なAIネイティブのサイバーセキュリティ防御システムを提供 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40YTkxZGZ1SVVrallaVHB0SzNRMjVrak5CaVVYcTAxZ05OV3BFRlhOOXc5VWtTUEZpekIyRXVQdl9WbEdDbzdXZUxIVUpOcHYxXy1qRVBWdnJ3Q1BfeWQtRVdxc2FLckdETFBTUW81QlhScUVtVTg0Vmg0VGJ3VDg?oc=5",
-      "summary": "ソフォス、包括的なAIネイティブのサイバーセキュリティ防御システムを提供&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-07-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ソフォス、Sophos Fusionを発表、業界初の最も包括的なAIネイティブのサイバーセキュリティ防御システムを提供 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEemYzOHNiT3hNUTlNTkt4MjFOb3NVMTlfNE5KWHZodmdFeG9qMWJwMVRKLVVvWnlFT3VpeVMwS3NpN2kwcFgzRkFCZzY4Wl9SdHRPQmRVR3JfaVdUeVhDOVBuaGZ2R3BZQmhJX1UwZEk3UVRpMm9adkZ6QQ?oc=5",
-      "summary": "ソフォス、Sophos Fusionを発表、業界初の最も包括的なAIネイティブのサイバーセキュリティ防御システムを提供&nbsp;&nbsp;ニコニコニュース",
-      "date": "2026-07-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ソフォス、Sophos Fusionを発表、業界初の最も包括的なAIネイティブのサイバーセキュリティ防御システムを提供 - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBISUdyNFRXS2lHdFBFMUJFRWt4ak9xV2RqVUtGQlVpUlpKaHBGNkkzdnVwSDFaX3ZJRkU4d3J3NkVZbnIzbjRSVFJyU0V3NkI3MnVGMUlfVF9ITkktVy1LeFpB?oc=5",
-      "summary": "ソフォス、Sophos Fusionを発表、業界初の最も包括的なAIネイティブのサイバーセキュリティ防御システムを提供&nbsp;&nbsp;ライブドアニュース",
-      "date": "2026-07-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "木原官房長官「企業が適切なセキュリティ対策をおこなうことがまず重要」 ニチレイへのサイバー攻撃の影響拡大受け - TBS NEWS DIG",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PSXlFMXJmc2d0bGlrRWw2OHNkNFdsM0lnYlIwQ3JhZE1nZXBtUHM0cXhGMGdVdnd2RU1venFnNDVKVUxia093dFU2b0x6SFBrclFqQ2ZMMngtSWVfSWtKU3gwTU5mbFFqNWw2OEpNQ181c3JN?oc=5",
-      "summary": "木原官房長官「企業が適切なセキュリティ対策をおこなうことがまず重要」 ニチレイへのサイバー攻撃の影響拡大受け&nbsp;&nbsp;TBS NEWS DIG",
-      "date": "2026-07-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIでランサムウェアは「機械の速度」に - NECが説く新たなサイバー防衛 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd1ktQi05Qzlnd3ZFRHBReFdtNmQ2cWY5VklXSzFaeUpOaW5sdDZjWXZrUDRNNkxMR21IV1FDWWtoeWZ3dFctVFl0cFRCQkYtQlIzeTJUbmV6TGtUcW1TMFF4SGhhbXdIMlg2Mk1oS3dVbzdZR2NJWXpxam5mMW1qMUtIWW5hbDRNV3lMMHk1c1VaRTZ4dlF6THFSVVpNWnZPeHItS0xkMEhOV1FjNWlYVGdKa0FrWWZidGJvMHBCaVFGQU5WdGJHZ0lXeWzSAXxBVV95cUxPX3Zxc0t2b3VoTmRDcmlMc0tkSzYyVzdvSzVVSUhaTGZBendkNWR3dVV5WV81YUJhWHRsanR3NjFtM0pTQ1ZjdW8tck4xMUQ5RGNpNEdVTDVXYXFvQUZaT0VzeTlxOHVySUVycFlYYkxnQTRRWHBNR0Etd3JM?oc=5",
-      "summary": "AIでランサムウェアは「機械の速度」に - NECが説く新たなサイバー防衛&nbsp;&nbsp;ｄメニューニュース",
-      "date": "2026-07-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "CyCraft、Gartner® レポートのサンプルプロバイダーの １ 社と評価 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wbnJyamJfT3VWZGxablJBdUlFQUdGb2QwaUMteDF2SGVQUUd3Z3JBdzgwZDdrWkp6TGd3Z1ZpTUZWRUxlaXVoSHJFLXNSeEo2MlVEbWdTRG5yMkpfVVZrTjRwdFJURzV3VFE?oc=5",
-      "summary": "CyCraft、Gartner® レポートのサンプルプロバイダーの １ 社と評価&nbsp;&nbsp;PR TIMES",
+      "title": "パナソニックHD流「脱縦割りセキュリティ」、世界200超工場に展開「自社運営SOC」とは - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5abGdYR2hhZTZ3MUZJVlNhZmpnTzBkazhURHNlUDZzOXBHY1c3bGlsSmFhb3BTUVhaOXBjSE1uMEh6VnpiZnM2YnU2LUZueFE?oc=5",
+      "summary": "パナソニックHD流「脱縦割りセキュリティ」、世界200超工場に展開「自社運営SOC」とは&nbsp;&nbsp;ビジネス+IT",
       "date": "2026-07-16",
       "source": "Google News JP",
       "language": "日本語",
@@ -469,27 +541,18 @@
       "category": "analysis"
     },
     {
+      "title": "ランサムウェア攻撃の“お金事情” 侵入コストはたった6.6万円？ 米初代サイバー長官が実態明かす - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EcVlqak1XbW1PdWFhbVJPeURvY0VRRVc2bHBIRGp6OUtqb3hNYVF3NldUZWhpUmdZQ2RYdE95ajduRDViSEI4Y1NjUjBHR2lZOUZiTEwxYkVsTk40UUdYOXRvVjVDNGdjSDJKX3NnbXowazV4NjVtMnhzRzIwbXM?oc=5",
+      "summary": "ランサムウェア攻撃の“お金事情” 侵入コストはたった6.6万円？ 米初代サイバー長官が実態明かす&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-07-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "「国産だから安心」はもう通用しない？ セキュリティ新基準「日本度」の詳細を深掘り：58社・55製品が参加表明 - ITmedia",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEOFNWWEJ3a3FEWnNFcjdqQllHYnZNT0N6NXQ3Y0tUNG9Nbl8tV0tVNHdmNkFnOUFSbVJHX0doaXFpaWw0a19GcGI3Tno1U3EzblNvOUJDejBmaWhQUk5LWjVNYWIyOVdYTTRqdzUyWE1fZw?oc=5",
       "summary": "「国産だから安心」はもう通用しない？ セキュリティ新基準「日本度」の詳細を深掘り：58社・55製品が参加表明&nbsp;&nbsp;ITmedia",
-      "date": "2026-07-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIによるサイバー攻撃を防御する「Patching as a Service」の本格提供を開始 - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE05UzUwVkQ1RHU5YUkyR1h0ZHlfb2ZxWjRUaTMyS2ZwTTdBUEd3bFMxYi1FdHI2S3U4TXFzQ3hCSzFua2puNW5laXZleHkyYms0b1Zn?oc=5",
-      "summary": "AIによるサイバー攻撃を防御する「Patching as a Service」の本格提供を開始&nbsp;&nbsp;ビジネス+IT",
-      "date": "2026-07-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "レイヤーズ・コンサルティング、企業のサイバーセキュリティ対策成熟度を「日本の名城」で診断する「SHIRO SCORE(城スコア)」をリリース - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9lSHZMY0xuSlJ3Zy1rQS0wTGMydUdZN3RmcWlDaEQ4X2RlTEk3bGFBYnZlRVYwV0VZbEpPN1pRY0hsSEpYYnhLWXN6Slh1YTN5ZENWZGhFSlFJOENURE5DeFVBRkN5LVhvNDEw?oc=5",
-      "summary": "レイヤーズ・コンサルティング、企業のサイバーセキュリティ対策成熟度を「日本の名城」で診断する「SHIRO SCORE(城スコア)」をリリース&nbsp;&nbsp;時事ドットコム",
       "date": "2026-07-15",
       "source": "Google News JP",
       "language": "日本語",
@@ -541,15 +604,6 @@
       "category": "analysis"
     },
     {
-      "title": "日立システムズと三井物産セキュアディレクション、 サイバーセキュリティ領域で協業を開始 - hitachi-systems.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KN2l4Q3dGWWNRalBSYmtrYXVzVzdQdkg2bmpfTDVwVElUcTNKWDZNcDI3Y0hJOGthai1WdEwwQlRBc1NaVng3QWdqcExiSTkxaDlaRkF0Q1oxZFdjV2hSeDJKNjQ2UQ?oc=5",
-      "summary": "日立システムズと三井物産セキュアディレクション、 サイバーセキュリティ領域で協業を開始&nbsp;&nbsp;hitachi-systems.com",
-      "date": "2026-07-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "お知らせ：JPCERT/CC Eyes「APT-C-60による2026年の攻撃」",
       "url": "https://blogs.jpcert.or.jp/ja/2026/07/apt-c-60_2026.html",
       "summary": "",
@@ -557,24 +611,6 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
-    },
-    {
-      "title": "iOS版LINEにおけるサービス運用妨害（DoS）につながる脆弱性",
-      "url": "https://jvn.jp/vu/JVNVU94039788/",
-      "summary": "LINEヤフー株式会社が提供するiOS版LINEのアプリ内ブラウザには、任意のURLスキームを処理する際の保護が不十分なことに起因しサービス運用妨害（DoS）につながる脆弱性が存在します。",
-      "date": "2026-07-13",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "GNU Wgetにおけるサーバサイドリクエストフォージェリの脆弱性",
-      "url": "https://jvn.jp/vu/JVNVU94203999/",
-      "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "date": "2026-07-13",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
     },
     {
       "title": "個人用リポジトリで見つかった米国セキュリティ機関の認証情報についてまとめてみた",
@@ -622,27 +658,9 @@
       "category": "analysis"
     },
     {
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年07月09日）",
-      "url": "https://jvn.jp/vu/JVNVU94281476/",
-      "summary": "2026年07月09日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "date": "2026-07-10",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
       "title": "My Stack Simulator, (Wed, Jul 8th)",
       "url": "https://isc.sans.edu/diary/rss/33138",
       "summary": "The stack is a memory region where a program stores temporary data -&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b;like local variables and return addresses. Think o",
-      "date": "2026-07-10",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "\"Comment stuffing\" in an HTML phishing attachment as a mechanism for evading AI-based detection&#x3f;, (Fri, Jul 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33144",
-      "summary": "Anyone who deals with phishing messages caught by basic security filters knows that most phishing samples tend to blend into one another, since only a small set of techniques and approaches keeps reap",
       "date": "2026-07-10",
       "source": "SANS ISC",
       "language": "英語",
@@ -692,24 +710,6 @@
       "source": "Krebs on Security",
       "language": "英語",
       "category": "news"
-    },
-    {
-      "title": "陸上自衛隊が使用したマルウェア入りUSBメモリについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/08/002522",
-      "summary": "防衛省・陸上自衛隊は、中部方面総監部(兵庫県伊丹市)が使用していたUSBメモリについて、2025年2月にマルウェアが含まれていることを検知した事例があったと公表しました。確認されたマルウェアによる情報の窃取や外部への通信、システムへの拡散は確認されておらず、陸自システムへの影響や外部への情報流出もなかったとしています。ここでは関連する情報をまとめます。 問題のUSBメモリ、2024年4月から使って",
-      "date": "2026-07-07",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
-      "title": "KDDIのISP事業者向けメールシステムへの不正アクセスについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/07/182112",
-      "summary": "2026年6月23日、KDDI株式会社は、同社がISP事業者向けに提供するメールシステムが不正アクセスを受け、STNet・JCOMなど6社のメールサービスに関する情報の一部が外部に漏えいした可能性があると公表しました。その後、総務省による報告徴収や、関連が疑われるフィッシングメールに関する注意喚起も行われています。ここでは関連する情報をまとめます。 ISP6社提供のメールサービスに影響波及 KDD",
-      "date": "2026-07-07",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
     },
     {
       "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/7/17 6:26:16"
+  "updated": "2026/7/18 6:20:05"
 }
