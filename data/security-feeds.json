@@ -1,6 +1,60 @@
 {
   "feeds": [
     {
+      "title": "佐川急便「スマートクラブ」における会員情報の誤表示についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/18/191222",
+      "summary": "2026年7月18日、佐川急便株式会社は、会員制Webサービス「スマートクラブ」の配達予定通知メールで、利用者本人の画面に別の利用者の氏名・メールアドレス等が表示される事象が発生し、約7万人の個人情報に影響が及んだ可能性があると公表しました。ここでは関連する情報をまとめます。 配達予定通知メールに別人の情報が表示 佐川急便は2026年7月15日夕方頃、会員制Webサービス「スマートクラブ」の配達予",
+      "date": "2026-07-18",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
+      "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
+      "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
+      "date": "2026-07-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "WordPress Core \"wp2shell\" RCE flaws get public exploits, patch now",
+      "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/",
+      "summary": "Public exploits have been released for the critical \"wp2shell\" remote code execution vulnerabilities affecting WordPress Core, making it imperative that administrators patch their sites immediately. [",
+      "date": "2026-07-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft warns of surge in ACR Stealer attacks on customers",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/",
+      "summary": "Microsoft has observed a surge in attacks using the ACR Stealer malware to steal browser-stored passwords, authentication tokens, and sensitive documents from its enterprise customers. [...]",
+      "date": "2026-07-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "The Future of Age Verification: Your Face Never Leaves Your Device",
+      "url": "https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/",
+      "summary": "As age verification laws expand worldwide, organizations face growing pressure to protect users' privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies ag",
+      "date": "2026-07-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "パナソニックHD流「脱縦割りセキュリティ」、世界200超工場に展開「自社運営SOC」とは - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5abGdYR2hhZTZ3MUZJVlNhZmpnTzBkazhURHNlUDZzOXBHY1c3bGlsSmFhb3BTUVhaOXBjSE1uMEh6VnpiZnM2YnU2LUZueFE?oc=5",
+      "summary": "パナソニックHD流「脱縦割りセキュリティ」、世界200超工場に展開「自社運営SOC」とは&nbsp;&nbsp;ビジネス+IT",
+      "date": "2026-07-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "CISA ICS Advisory / ICS Medical Advisory（2026年07月16日）",
       "url": "https://jvn.jp/vu/JVNVU95874748/",
       "summary": "2026年07月16日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
@@ -35,6 +89,15 @@
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
+    },
+    {
+      "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+      "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+      "summary": "Updated July 18, 2026: the two flaws now carry CVE IDs, the full mechanism has been published, a persistent-object-cache condition has surfaced, and a working proof-of-concept is public. The story bel",
+      "date": "2026-07-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
     },
     {
       "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
@@ -118,16 +181,7 @@
       "category": "news"
     },
     {
-      "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
-      "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
-      "summary": "Cybersecurity researchers have discovered a previously undocumented malware called GoSerpent that has been put to use in cyber attacks targeting entities in Southeast Asia since late 2025 with a focus",
-      "date": "2026-07-17",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Abbott Laboratories probes two cyber incidents amid extortion claims",
+      "title": "Abbott probes two cyber incidents amid extortion claims",
       "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
       "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also ",
       "date": "2026-07-17",
@@ -181,24 +235,6 @@
       "category": "news"
     },
     {
-      "title": "US charges two over laundering $43 million from investment fraud",
-      "url": "https://www.bleepingcomputer.com/news/security/us-charges-two-over-laundering-43-million-from-investment-fraud/",
-      "summary": "U.S. prosecutors on Thursday charged a New York man and woman for their roles in a large-scale crime ring that laundered money stolen in cyber investment fraud scams. [...]",
-      "date": "2026-07-17",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA urges immediate action on actively exploited Fortinet flaws",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/",
-      "summary": "CISA on Thursday ordered government agencies to prioritize patching two actively exploited vulnerabilities in the Fortinet FortiSandbox threat detection platform. [...]",
-      "date": "2026-07-17",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, July 17th, 2026 https://isc.sans.edu/podcastdetail/10012, (Fri, Jul 17th)",
       "url": "https://isc.sans.edu/diary/rss/33162",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -208,18 +244,9 @@
       "category": "analysis"
     },
     {
-      "title": "プレスリリース：プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催（PR TIMES） - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16VVBzRHNpNDZOay1HbGFKUm1ld05oM1NibTRyQTBPRDliVEVsNVdxbFp6U3VOZ0IzVWludmZqWHBXV2V0Z2dsc0tjR2pmakVVMFQyejNfVk95NHUxeWtFWmRoLUlJNlQz?oc=5",
-      "summary": "プレスリリース：プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催（PR TIMES）&nbsp;&nbsp;毎日新聞",
-      "date": "2026-07-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hYjBHOW5YeTVsZ0treUdNT1hEU0N3U3pCYndETjFpUk9NdmlxejVxVU96VzBDcjZRTC1zZ1BENVJ5MTI4WThxTzNQemhkQ2ZqVnNSSjZqZHVmbzFydDVMQldxWUNBWlZVVGc?oc=5",
-      "summary": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞&nbsp;&nbsp;PR TIMES",
+      "title": "「東北サイバーセキュリティシンポジウム2026」を仙台で立ち上げます - meti.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zZDZDN2xSaTFadkNYRWhyMUoyVzRxYWtGcUtRaHRfcjA5bUZOOU1RMy03YkpjX0dPLXBhNmx4LWFoMnVhTnZCUXYtRkQtM0FpZ1NLUXFuaFg3SGRMNmt1Rzhnbw?oc=5",
+      "summary": "「東北サイバーセキュリティシンポジウム2026」を仙台で立ち上げます&nbsp;&nbsp;meti.go.jp",
       "date": "2026-07-17",
       "source": "Google News JP",
       "language": "日本語",
@@ -235,36 +262,18 @@
       "category": "news"
     },
     {
-      "title": "サイバーセキュリティ需要の拡大を背景に、世界の耐量子計算機暗号（PQC）市場は2035年までに192億8,000万米ドルへと急拡大する見通し。 - アットプレス",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5pREFpbmVfSWlrNnk1QkUtak5ESnlrc2cyYzBka0tmenFySlFQZFJFNGlHN0pfbGx1N0xEcEQ5eURPM19tTUhsM3ZtcE1MX0k?oc=5",
-      "summary": "サイバーセキュリティ需要の拡大を背景に、世界の耐量子計算機暗号（PQC）市場は2035年までに192億8,000万米ドルへと急拡大する見通し。&nbsp;&nbsp;アットプレス",
+      "title": "サイバーセキュリティ広報啓発イベント ～ねぇ待って！そのまま進めて大丈夫？～ - 東京都公式アプリ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxOW8xNG9ScUJ2SXlVSDNDaEY2MHE4TERteXB4d1V2anh3OTRMejI5dERiaXZSREcyTGlTRTZwUlF0OFlVR2xtdVNvU1dtT2E5emVMa0syckhvaU9Hd3FkMmp1OE9vQjFFRWc?oc=5",
+      "summary": "サイバーセキュリティ広報啓発イベント ～ねぇ待って！そのまま進めて大丈夫？～&nbsp;&nbsp;東京都公式アプリ",
       "date": "2026-07-17",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "フロンティアAIで攻撃が高度化／国家間のサイバー戦もAIで激化 企業が構築すべき「動的防御」の姿とは - EnterpriseZine",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16cVd3aDNHakJpalYzTEhUdzFQeXBEM1d6MFc5Q196cENFazlwM2V1LUwtRExlODlWY1JiTlJuYktxaHB0dE5CRmVNYnhSdVJYOTVIVnZNUVU3UQ?oc=5",
-      "summary": "フロンティアAIで攻撃が高度化／国家間のサイバー戦もAIで激化 企業が構築すべき「動的防御」の姿とは&nbsp;&nbsp;EnterpriseZine",
-      "date": "2026-07-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBta1BmVFN2VG1fbkRWRm1ISmIyS3pCZHRrdWpkanNXVmtld0hMaElDVmdmaG9MdXRWN2Q0ZHd4WFUxME1Wa2pJSFJiUDVONWZTanRjd1RTWHRqblNmSmtPOVZ5TXRlWHBka0c0?oc=5",
-      "summary": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞&nbsp;&nbsp;時事ドットコム",
-      "date": "2026-07-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催 (2026年7月17日掲載) - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9TTDdPVGhsRS14QU81YXp2Nm14dzhuM1dMcXJlZGJ3cmZYbTI5QU92bndDVkNReEsxMWFxZDl5LWpUTVpoWGlDblFSYzBqVXAtTlNlLTJQRkUwLVlCUm8xcTZn?oc=5",
-      "summary": "プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催 (2026年7月17日掲載)&nbsp;&nbsp;ライブドアニュース",
+      "title": "「侵害前提」の時代におけるサービスセキュリティ ―“不正アクセスを防ぐ”から“利用を継続的に制御する”経営へ - PwC",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeXN6ckZ0N3V1d1drVzFkOW1xTXptbjVhSmFEc25DSzI1SEQtUkQxN0RVZUV2YzNtVEhHeF9JYkd6ZEtodFFLcllRQVBBYnFtWFREMm11dW1xdDdHS3F6T0d3aUkzN295a28zc1dMM29VNmVFWURBeXpWcm85VHRjV3dkejlVanVzaTQ3a1VqWDFNTFJLZ1lxcDlUSFhaM0h1MTlfclZXZw?oc=5",
+      "summary": "「侵害前提」の時代におけるサービスセキュリティ ―“不正アクセスを防ぐ”から“利用を継続的に制御する”経営へ&nbsp;&nbsp;PwC",
       "date": "2026-07-17",
       "source": "Google News JP",
       "language": "日本語",
@@ -341,24 +350,6 @@
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
-    },
-    {
-      "title": "New ClickLock macOS malware traps users into revealing login password",
-      "url": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/",
-      "summary": "A new macOS information-stealing malware dubbed ClickLock terminates all visible processes to force users into entering their system login password. [...]",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
-      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
-      "summary": "The Coca-Cola Company disclosed today that a ransomware attack impacting its Fairlife dairy subsidiary has disrupted operations, temporarily suspending production of Fairlife products across the Unite",
-      "date": "2026-07-16",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "ISC Stormcast For Thursday, July 16th, 2026 https://isc.sans.edu/podcastdetail/10010, (Thu, Jul 16th)",
@@ -460,9 +451,9 @@
       "category": "alert"
     },
     {
-      "title": "パナソニックHD流「脱縦割りセキュリティ」、世界200超工場に展開「自社運営SOC」とは - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5abGdYR2hhZTZ3MUZJVlNhZmpnTzBkazhURHNlUDZzOXBHY1c3bGlsSmFhb3BTUVhaOXBjSE1uMEh6VnpiZnM2YnU2LUZueFE?oc=5",
-      "summary": "パナソニックHD流「脱縦割りセキュリティ」、世界200超工場に展開「自社運営SOC」とは&nbsp;&nbsp;ビジネス+IT",
+      "title": "X Mile／「ロジポケ」でパスキー認証が可能に、サイバーセキュリティを強化 - 物流ニュースのLNEWS",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yZWJ6ajhTQ3g1clRYSWVPa0l4UjRaVFYtWVVVcnRka1pGMGRObDVEVmVraUVlNkxfb0FtcFNYSTVmM3Z4d1Z2b2ZpbWtoWTRXTHdkVw?oc=5",
+      "summary": "X Mile／「ロジポケ」でパスキー認証が可能に、サイバーセキュリティを強化&nbsp;&nbsp;物流ニュースのLNEWS",
       "date": "2026-07-16",
       "source": "Google News JP",
       "language": "日本語",
@@ -541,24 +532,6 @@
       "category": "analysis"
     },
     {
-      "title": "ランサムウェア攻撃の“お金事情” 侵入コストはたった6.6万円？ 米初代サイバー長官が実態明かす - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EcVlqak1XbW1PdWFhbVJPeURvY0VRRVc2bHBIRGp6OUtqb3hNYVF3NldUZWhpUmdZQ2RYdE95ajduRDViSEI4Y1NjUjBHR2lZOUZiTEwxYkVsTk40UUdYOXRvVjVDNGdjSDJKX3NnbXowazV4NjVtMnhzRzIwbXM?oc=5",
-      "summary": "ランサムウェア攻撃の“お金事情” 侵入コストはたった6.6万円？ 米初代サイバー長官が実態明かす&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-07-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「国産だから安心」はもう通用しない？ セキュリティ新基準「日本度」の詳細を深掘り：58社・55製品が参加表明 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEOFNWWEJ3a3FEWnNFcjdqQllHYnZNT0N6NXQ3Y0tUNG9Nbl8tV0tVNHdmNkFnOUFSbVJHX0doaXFpaWw0a19GcGI3Tno1U3EzblNvOUJDejBmaWhQUk5LWjVNYWIyOVdYTTRqdzUyWE1fZw?oc=5",
-      "summary": "「国産だから安心」はもう通用しない？ セキュリティ新基準「日本度」の詳細を深掘り：58社・55製品が参加表明&nbsp;&nbsp;ITmedia",
-      "date": "2026-07-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "Microsoft 製品の脆弱性対策について(2026年7月)",
       "url": "https://www.ipa.go.jp/security/security-alert/2026/0715-ms.html",
       "summary": "",
@@ -602,6 +575,24 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
+    },
+    {
+      "title": "日立システムズと三井物産セキュアディレクション、 サイバーセキュリティ領域で協業を開始 - hitachi-systems.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KN2l4Q3dGWWNRalBSYmtrYXVzVzdQdkg2bmpfTDVwVElUcTNKWDZNcDI3Y0hJOGthai1WdEwwQlRBc1NaVng3QWdqcExiSTkxaDlaRkF0Q1oxZFdjV2hSeDJKNjQ2UQ?oc=5",
+      "summary": "日立システムズと三井物産セキュアディレクション、 サイバーセキュリティ領域で協業を開始&nbsp;&nbsp;hitachi-systems.com",
+      "date": "2026-07-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "GMOサイバーセキュリティ byイエラエ、脆弱性対策の優先順位の付け方に関するオンラインセミナー 8 / 5 開催 - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WdEZSQlpOQ2tsX2l0THB3YUd5enh5ZnkyWHVFcEVpMjltYklDZE1fZllMMnpGUWdDNGE2TXJSZFBGQXNZMHlRU2Y5UW40emdyYk5UMUQ5VXA0dTQ3eTh6c0JGeURTbmdkNi1PSw?oc=5",
+      "summary": "GMOサイバーセキュリティ byイエラエ、脆弱性対策の優先順位の付け方に関するオンラインセミナー 8 / 5 開催&nbsp;&nbsp;ScanNetSecurity",
+      "date": "2026-07-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "お知らせ：JPCERT/CC Eyes「APT-C-60による2026年の攻撃」",
@@ -649,6 +640,15 @@
       "category": "analysis"
     },
     {
+      "title": "令和8年度医療機関向けサイバーセキュリティ対策研修を開始 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GdmIydXdPZml0N2VmeXUzVWFRS1o4T2htanF4bGYyZ3dZZUg3ZlREY2l5U2RXN1JSQjNZbWlGaWtQSE5QdDZ1ZUprOHJQNXhtaW14V2FqZloyNlBTZS1TdjBNNzdkUzVIMFE?oc=5",
+      "summary": "令和8年度医療機関向けサイバーセキュリティ対策研修を開始&nbsp;&nbsp;PR TIMES",
+      "date": "2026-07-13",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Wireshark 4.6.7 Released, (Sat, Jul 11th)",
       "url": "https://isc.sans.edu/diary/rss/33146",
       "summary": "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.&#xd;",
@@ -694,15 +694,6 @@
       "category": "analysis"
     },
     {
-      "title": "アフラック生命保険への不正アクセスについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/08/232742",
-      "summary": "2026年6月30日、アフラック生命保険株式会社は、契約者向けサイト「アフラック よりそうネット」等のシステムに対する第三者による不正アクセスにより、顧客および代理店関連の個人情報が漏えいしたと公表しました。その後、金融庁による報告徴求命令の受領を経て、7月13日には「第二報」として発生日・漏えい件数の訂正が公表されています。ここでは関連する情報をまとめます。 顧客約440万人・代理店約4万店に影",
-      "date": "2026-07-08",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most",
@@ -728,6 +719,15 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
+    },
+    {
+      "title": "サイバーセキュリティ人材育成プロジェクト - jica.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNNXdhMVN1bTRGTkdCdWRKSzVjZHJ3aVVlNGZSWFFoSFZnejFpUnMwdERnQnAyOUIwcS0wRmc3U3JjdjNYbUpGdmhMazJOR2JyT251Um1R?oc=5",
+      "summary": "サイバーセキュリティ人材育成プロジェクト&nbsp;&nbsp;jica.go.jp",
+      "date": "2026-07-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "更新：Windows 10のサポート終了に伴う注意喚起",
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/7/18 6:20:05"
+  "updated": "2026/7/19 6:21:22"
 }
