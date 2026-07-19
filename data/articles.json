@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "title": "WordPress Coreの脆弱性 CVE-2026-63030 / CVE-2026-60137 (通称「wp2shell」)についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/19/181822",
+      "summary": "2026年7月17日、WordPressを開発するWordPress.orgは、WordPress Coreに認証不要のリモートコード実行(RCE)に至る深刻な脆弱性が確認されたとして、セキュリティリリース版WordPress 7.0.2を公開し、対象バージョンを利用するサイトに自動更新システム経由での強制アップデートを有効化する対応を取りました。これら2件の脆弱性を組み合わせた攻撃は、発見者によ",
+      "date": "2026-07-19",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+      "summary": "F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched ",
+      "date": "2026-07-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+      "url": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+      "summary": "Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to",
+      "date": "2026-07-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+      "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+      "summary": "A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public dis",
+      "date": "2026-07-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers abuse ViPNet software to target Russian govt agencies",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/",
+      "summary": "An advanced threat actor is abusing the update mechanism for the ViPNet private networking product suite to target Russian organizations, including government agencies. [...]",
+      "date": "2026-07-19",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Scans for Hikvision Intelligent Security API, (Sun, Jul 19th)",
+      "url": "https://isc.sans.edu/diary/rss/33164",
+      "summary": "We have been following issues with Hikvision cameras for a long, long time. Like many similar products, Hikvision cameras have a long history of vulnerabilities and are often targeted by internet-wide",
+      "date": "2026-07-19",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
       "title": "佐川急便「スマートクラブ」における会員情報の誤表示についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/07/18/191222",
       "summary": "2026年7月18日、佐川急便株式会社は、会員制Webサービス「スマートクラブ」の配達予定通知メールで、利用者本人の画面に別の利用者の氏名・メールアドレス等が表示される事象が発生し、約7万人の個人情報に影響が及んだ可能性があると公表しました。ここでは関連する情報をまとめます。 配達予定通知メールに別人の情報が表示 佐川急便は2026年7月15日夕方頃、会員制Webサービス「スマートクラブ」の配達予",
@@ -12,7 +66,7 @@
     {
       "title": "Update now: 7-Zip fixes RCE flaw exploitable with malicious archives",
       "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/",
-      "summary": "7-Zip version 26.02 was released to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed files. [...]",
+      "summary": "7-Zip version 26.02 was released on June 25 to fix a remote code execution vulnerability that could allow attackers to execute malicious code by convincing users to open specially crafted compressed f",
       "date": "2026-07-18",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -43,15 +97,6 @@
       "date": "2026-07-18",
       "source": "Bleeping Computer",
       "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "パナソニックHD流「脱縦割りセキュリティ」、世界200超工場に展開「自社運営SOC」とは - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5abGdYR2hhZTZ3MUZJVlNhZmpnTzBkazhURHNlUDZzOXBHY1c3bGlsSmFhb3BTUVhaOXBjSE1uMEh6VnpiZnM2YnU2LUZueFE?oc=5",
-      "summary": "パナソニックHD流「脱縦割りセキュリティ」、世界200超工場に展開「自社運営SOC」とは&nbsp;&nbsp;ビジネス+IT",
-      "date": "2026-07-18",
-      "source": "Google News JP",
-      "language": "日本語",
       "category": "news"
     },
     {
@@ -154,33 +199,6 @@
       "category": "news"
     },
     {
-      "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-      "url": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-      "summary": "Military forces are under increasing pressure to field autonomous capabilities faster than ever before. Across the U.S., UK, and NATO, new investment, evolving defense strategies, and accelerated acqu",
-      "date": "2026-07-17",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
-      "url": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
-      "summary": "Armenia has held a Russian tourist named Aleksandr Ermakov in a detention center since June 28, on a U.S. extradition request for a REvil ransomware suspect named Aleksandr Ermakov. His wife, Maria Yu",
-      "date": "2026-07-17",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
-      "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-      "summary": "ACR Stealer, an infostealer in circulation since 2024, is walking out of enterprise networks with saved browser passwords, live session tokens, PDFs, Microsoft 365 documents, and files from synced One",
-      "date": "2026-07-17",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Abbott probes two cyber incidents amid extortion claims",
       "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
       "summary": "Abbott Laboratories is investigating two separate cybersecurity incidents after confirming unauthorized access to internal legacy Exact Sciences systems in its Cancer Diagnostics business, while also ",
@@ -226,15 +244,6 @@
       "category": "news"
     },
     {
-      "title": "Windows Server 2022 reach end of mainstream support in 90 days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reach-end-of-mainstream-support-in-90-days/",
-      "summary": "Microsoft announced that Windows Server 2022 will reach the mainstream end date in October 2026, but will switch to extended support and continue receiving security updates for five more years. [...]",
-      "date": "2026-07-17",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, July 17th, 2026 https://isc.sans.edu/podcastdetail/10012, (Fri, Jul 17th)",
       "url": "https://isc.sans.edu/diary/rss/33162",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -262,6 +271,15 @@
       "category": "news"
     },
     {
+      "title": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞 - NEC",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pdXJfODhZSVJsQzYwNTE1MlQ5YXdOTy1vNEREbnJFRUQwdk4yS2pKdDFsbExCYU9naERralBfMlBtc1R4ZFRUTWNOSWc4aE1RSXVpd3hXY2hCUjNMTzhtaG1OZTNrOWJKQXdhV0V3?oc=5",
+      "summary": "NEC、次世代サイバーセキュリティサービス「CyIOC」がMM総研大賞2026にて最優秀賞&nbsp;&nbsp;NEC",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "サイバーセキュリティ広報啓発イベント ～ねぇ待って！そのまま進めて大丈夫？～ - 東京都公式アプリ",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxOW8xNG9ScUJ2SXlVSDNDaEY2MHE4TERteXB4d1V2anh3OTRMejI5dERiaXZSREcyTGlTRTZwUlF0OFlVR2xtdVNvU1dtT2E5emVMa0syckhvaU9Hd3FkMmp1OE9vQjFFRWc?oc=5",
       "summary": "サイバーセキュリティ広報啓発イベント ～ねぇ待って！そのまま進めて大丈夫？～&nbsp;&nbsp;東京都公式アプリ",
@@ -274,6 +292,15 @@
       "title": "「侵害前提」の時代におけるサービスセキュリティ ―“不正アクセスを防ぐ”から“利用を継続的に制御する”経営へ - PwC",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeXN6ckZ0N3V1d1drVzFkOW1xTXptbjVhSmFEc25DSzI1SEQtUkQxN0RVZUV2YzNtVEhHeF9JYkd6ZEtodFFLcllRQVBBYnFtWFREMm11dW1xdDdHS3F6T0d3aUkzN295a28zc1dMM29VNmVFWURBeXpWcm85VHRjV3dkejlVanVzaTQ3a1VqWDFNTFJLZ1lxcDlUSFhaM0h1MTlfclZXZw?oc=5",
       "summary": "「侵害前提」の時代におけるサービスセキュリティ ―“不正アクセスを防ぐ”から“利用を継続的に制御する”経営へ&nbsp;&nbsp;PwC",
+      "date": "2026-07-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "プレスリリース：プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催（PR TIMES） - 毎日新聞",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16VVBzRHNpNDZOay1HbGFKUm1ld05oM1NibTRyQTBPRDliVEVsNVdxbFp6U3VOZ0IzVWludmZqWHBXV2V0Z2dsc0tjR2pmakVVMFQyejNfVk95NHUxeWtFWmRoLUlJNlQz?oc=5",
+      "summary": "プレスリリース：プレス発表 「東北サイバーセキュリティシンポジウム2026」を仙台市で開催（PR TIMES）&nbsp;&nbsp;毎日新聞",
       "date": "2026-07-17",
       "source": "Google News JP",
       "language": "日本語",
@@ -451,15 +478,6 @@
       "category": "alert"
     },
     {
-      "title": "X Mile／「ロジポケ」でパスキー認証が可能に、サイバーセキュリティを強化 - 物流ニュースのLNEWS",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4yZWJ6ajhTQ3g1clRYSWVPa0l4UjRaVFYtWVVVcnRka1pGMGRObDVEVmVraUVlNkxfb0FtcFNYSTVmM3Z4d1Z2b2ZpbWtoWTRXTHdkVw?oc=5",
-      "summary": "X Mile／「ロジポケ」でパスキー認証が可能に、サイバーセキュリティを強化&nbsp;&nbsp;物流ニュースのLNEWS",
-      "date": "2026-07-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "注意喚起: 2026年7月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (公開)",
       "url": "https://www.jpcert.or.jp/at/2026/at260020.html",
       "summary": "",
@@ -577,15 +595,6 @@
       "category": "analysis"
     },
     {
-      "title": "日立システムズと三井物産セキュアディレクション、 サイバーセキュリティ領域で協業を開始 - hitachi-systems.com",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5KN2l4Q3dGWWNRalBSYmtrYXVzVzdQdkg2bmpfTDVwVElUcTNKWDZNcDI3Y0hJOGthai1WdEwwQlRBc1NaVng3QWdqcExiSTkxaDlaRkF0Q1oxZFdjV2hSeDJKNjQ2UQ?oc=5",
-      "summary": "日立システムズと三井物産セキュアディレクション、 サイバーセキュリティ領域で協業を開始&nbsp;&nbsp;hitachi-systems.com",
-      "date": "2026-07-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "GMOサイバーセキュリティ byイエラエ、脆弱性対策の優先順位の付け方に関するオンラインセミナー 8 / 5 開催 - ScanNetSecurity",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1WdEZSQlpOQ2tsX2l0THB3YUd5enh5ZnkyWHVFcEVpMjltYklDZE1fZllMMnpGUWdDNGE2TXJSZFBGQXNZMHlRU2Y5UW40emdyYk5UMUQ5VXA0dTQ3eTh6c0JGeURTbmdkNi1PSw?oc=5",
       "summary": "GMOサイバーセキュリティ byイエラエ、脆弱性対策の優先順位の付け方に関するオンラインセミナー 8 / 5 開催&nbsp;&nbsp;ScanNetSecurity",
@@ -640,28 +649,10 @@
       "category": "analysis"
     },
     {
-      "title": "令和8年度医療機関向けサイバーセキュリティ対策研修を開始 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GdmIydXdPZml0N2VmeXUzVWFRS1o4T2htanF4bGYyZ3dZZUg3ZlREY2l5U2RXN1JSQjNZbWlGaWtQSE5QdDZ1ZUprOHJQNXhtaW14V2FqZloyNlBTZS1TdjBNNzdkUzVIMFE?oc=5",
-      "summary": "令和8年度医療機関向けサイバーセキュリティ対策研修を開始&nbsp;&nbsp;PR TIMES",
-      "date": "2026-07-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "Wireshark 4.6.7 Released, (Sat, Jul 11th)",
       "url": "https://isc.sans.edu/diary/rss/33146",
       "summary": "Wireshark release 4.6.7 fixes 12 vulnerabilities and 16 bugs.&#xd;",
       "date": "2026-07-11",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "My Stack Simulator, (Wed, Jul 8th)",
-      "url": "https://isc.sans.edu/diary/rss/33138",
-      "summary": "The stack is a memory region where a program stores temporary data -&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xc2&#x3b;&&#x23&#x3b;x26&#x3b;&#x23&#x3b;xa0&#x3b;like local variables and return addresses. Think o",
-      "date": "2026-07-10",
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
@@ -685,21 +676,30 @@
       "category": "analysis"
     },
     {
-      "title": "廃棄処分されたHDDのネットオークション流出についてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/09/052821",
-      "summary": "2026年6月8日、独立行政法人国立病院機構は、北海道医療センターと北海道がんセンターが廃棄処分を委託していたハードディスク(HDD)の一部が適切に破砕されないままインターネットオークションに流出し、患者・職員の個人情報が外部に漏えいした可能性があると公表しました。同日、機構は廃棄物処理業者を刑事告発したことも明らかにしています。ここでは関連する情報をまとめます。 発覚まで1年、廃棄HDDがネット",
-      "date": "2026-07-08",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
       "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most",
       "date": "2026-07-08",
       "source": "Krebs on Security",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "AI時代のサイバーセキュリティーとは | 日本経済新聞 電子版特集（PR） - ps.nikkei.com",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5CSE4wcEVPRnFsV3dpdTBsX0F1eHc2ZHdQY09vemp4dTJ4d2ZwNUV5V1ctVF8xdDVrY3I0RDI1MEw4Umk3ckZiLXU5MFNjOUJtWVE?oc=5",
+      "summary": "AI時代のサイバーセキュリティーとは | 日本経済新聞 電子版特集（PR）&nbsp;&nbsp;ps.nikkei.com",
+      "date": "2026-07-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "学生対象サイバーセキュリティコンテスト「TRICON4S」開催について - pref.ibaraki.jp",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Gc2FabTk5VFNubTRDeG1senNRNHltWUdtRFJuRkEzU0YtMVJGSkRKem1tQlNtdm94aU9Yd1ZYYmtHenJqWHVhLVJLRlJVSWJyOS1vZTFlRXRjVEVrN1M2bzVjZTVYQnpKWTRKX0tTRDhtTW8?oc=5",
+      "summary": "学生対象サイバーセキュリティコンテスト「TRICON4S」開催について&nbsp;&nbsp;pref.ibaraki.jp",
+      "date": "2026-07-07",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -1232,5 +1232,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/7/19 6:21:22"
+  "updated": "2026/7/20 6:21:34"
 }
