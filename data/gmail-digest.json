@@ -2,29 +2,31 @@
   "notifications": [
     {
       "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "リンクされている Google アカウントへのアクセスが Gmail MCP Server に許可されました。アクセスを許可した覚えがない場合は、このアクティビティをご確認のうえ、アカウントを保護してください。",
-      "date": "2026-07-18 11:44",
-      "messageId": "19f731ce31522a2a"
+      "from": "Google <noreply@google.com>",
+      "subject": "702895 を使用して再設定用のメールアドレスを設定してください",
+      "snippet": "botton891@gmail.com があなたのメールアドレスを再設定用のメールアドレスとして使用することを希望しています。以下のコードを使用して、massa.saka2010@gmail.com を再設定用のメールアドレスとして設定する手続きを完了してください。（コード有効期限24時間）",
+      "date": "2026-07-20 19:40",
+      "messageId": "19f7f1c99c53c17b",
+      "note": "指定検索クエリ（no-reply@accounts.google.com / security-noreply@google.com）には含まれない noreply@google.com からの通知だが、セキュリティ上重要なため補足収集。心当たりのない第三者アカウント botton891@gmail.com が本アドレスを復旧用に登録しようとしている。要対応。"
     }
   ],
   "googleSecurityAlerts": [
     {
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "リンクされている Google アカウントへのアクセスが Gmail MCP Server に許可されました。",
-      "date": "2026-07-18 11:44",
-      "messageId": "19f731ce31522a2a",
-      "note": "本日のセキュリティタスク自身によるGmail MCPのOAuth許可通知。想定内。"
+      "from": "Google <noreply@google.com>",
+      "subject": "702895 を使用して再設定用のメールアドレスを設定してください",
+      "snippet": "botton891@gmail.com があなたのメールアドレスを再設定用のメールアドレスとして使用することを希望しています。",
+      "date": "2026-07-20 19:40",
+      "messageId": "19f7f1c99c53c17b",
+      "severity": "attention",
+      "note": "コードを絶対に入力しないこと。心当たりがなければメール内「メールアドレスを削除」から自アドレスの登録解除を行う。"
     }
   ],
   "sourceStatus": {
-    "google_security": "1件あり（no-reply@accounts.google.com、過去24時間）。内容は「Gmail MCP ServerにGoogleアカウントアクセスを許可」通知 — 本タスク自身のOAuth連携によるもので想定内。心当たりのないログイン検知・パスワード変更はなし。",
-    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）。継続して0件 → 配信停止・アドレス変更の可能性。要確認。",
+    "google_security": "指定クエリ（no-reply@accounts.google.com OR security-noreply@google.com、newer_than:1d）では0件。ただし noreply@google.com から復旧用メールアドレス確認コード通知を1件検知（要注意・上記参照）。",
+    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）。念のため過去7日間でも検索したが0件 → 配信停止またはアドレス変更の可能性が高い。要確認。",
     "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）。",
     "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）。",
     "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）。"
   },
-  "updated": "2026-07-19 07:00"
+  "updated": "2026-07-21 07:00"
 }
