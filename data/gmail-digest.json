@@ -1,32 +1,111 @@
 {
   "notifications": [
     {
-      "type": "google",
-      "from": "Google <noreply@google.com>",
-      "subject": "702895 を使用して再設定用のメールアドレスを設定してください",
-      "snippet": "botton891@gmail.com があなたのメールアドレスを再設定用のメールアドレスとして使用することを希望しています。以下のコードを使用して、massa.saka2010@gmail.com を再設定用のメールアドレスとして設定する手続きを完了してください。（コード有効期限24時間）",
-      "date": "2026-07-20 19:40",
-      "messageId": "19f7f1c99c53c17b",
-      "note": "指定検索クエリ（no-reply@accounts.google.com / security-noreply@google.com）には含まれない noreply@google.com からの通知だが、セキュリティ上重要なため補足収集。心当たりのない第三者アカウント botton891@gmail.com が本アドレスを復旧用に登録しようとしている。要対応。"
+      "type": "newsletter",
+      "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
+      "subject": "Scan BASIC [2026-07-21 Vol.1631-1/1] エクセル非表示機能による情報漏えい別パターン",
+      "snippet": "毎週月曜朝8時（今週は火曜）配信の Scan BASIC メルマガ。今号はエクセルの非表示機能（非表示行・列、非表示シート等）に起因する情報漏えいの別パターンを解説。",
+      "date": "2026-07-21 08:26",
+      "messageId": "19f81da518cbff54"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISACA東京支部 <tky-jimukyoku@isaca.gr.jp>",
+      "subject": "【ISACA東京支部】　2026年7月例会オンラインセミナーのご案内",
+      "snippet": "2026年7月例会オンラインセミナー（ライブ配信）のご案内。参加は会員限定ページ「ビデオセミナーの一覧」内の登録フォームから事前登録が必要。会員番号 02604 宛。",
+      "date": "2026-07-21 13:27",
+      "messageId": "19f82ed888fc81a6"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2 <official@connect.isc2.org>",
+      "subject": "Reminder – Vote in ISC2 Board Election",
+      "snippet": "ISC2 理事会選挙の投票リマインダー（Official Communication）。会員は期限内の投票が必要。",
+      "date": "2026-07-22 00:01",
+      "messageId": "19f85357b8544646"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック AIエフェクト <xtech-aie@nikkeibp.co.jp>",
+      "subject": "セキュリティーの破滅はいつ起きるのか、高まる警戒",
+      "snippet": "脆弱性調査に秀でた「Claude Mythos」の登場以降、主要なOS・Webブラウザー製品の脆弱性修正件数が驚くほど増加。AIによる脆弱性発見の加速がもたらすリスクを日経BP AI・データラボ所長が解説。",
+      "date": "2026-07-22 06:01",
+      "messageId": "19f867c2bbe9f464"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック 金融DXインサイド <xtech-fdx@nikkeibp.co.jp>",
+      "subject": "ドコモ金融新会社、銀行と証券の「距離」を縮められるか",
+      "snippet": "NTTドコモの金融持ち株会社 NTTドコモ・フィナンシャルグループが2026年7月1日に事業開始。銀行・証券連携の戦略を解説。",
+      "date": "2026-07-22 06:00",
+      "messageId": "19f867aa41a43d39"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス <business@nikkeibp.co.jp>",
+      "subject": "全東信の粉飾、見逃した63地銀／ファーウェイの「秘密拠点」 - 日経ビジネス（7/22）",
+      "snippet": "全東信の粉飾決算を見逃した63地銀の実態、ファーウェイの秘密拠点、「AIで消える」営業職争奪戦など。",
+      "date": "2026-07-22 05:32",
+      "messageId": "19f8661102d2e613"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック PC/モバイル <xtech-pcmobile@nikkeibp.co.jp>",
+      "subject": "燃えにくい次世代モバイルバッテリー／Excelの「自動化」は本当に元が取れるのか",
+      "snippet": "総務省が初の電波オークション、無料のEaseUSでCドライブを丸ごとバックアップ、「uBlock Origin Lite」で広告とトラッカーをブロック など。",
+      "date": "2026-07-22 06:07",
+      "messageId": "19f868114aaf2f97"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック IT最新ニュース <xtech-news@nikkeibp.co.jp>",
+      "subject": "中国ムーンショットAIが最新モデル「Kimi K3」公開／ソフトバンクが新オフィスを開設予定",
+      "snippet": "みずほFGがAIエージェント3000体構想、富士通がファナックなどとフィジカルAIで提携、衛星を用いた量子鍵配送の実現へ など。",
+      "date": "2026-07-21 12:22",
+      "messageId": "19f82b1e8ac86722"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック IT最前線 <xtech-it@nikkeibp.co.jp>",
+      "subject": "「最新のAIサーバーを置けない」、NVIDIAの進化に追いつかない日本の法規制",
+      "snippet": "NVIDIA GPU搭載の次世代AIサーバーが日本のデータセンターに設置できなくなる懸念。専門家が法規制の遅れに警鐘を鳴らす。",
+      "date": "2026-07-21 07:06",
+      "messageId": "19f81914c4ab4170"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック Active <xtech-ac@nikkeibp.co.jp>",
+      "subject": "最新のAIエージェント活用例、商談準備を45秒に短縮した金融機関も",
+      "snippet": "SFAのフル活用で年間2万時間を削減、「DXをやって終わり」にしない組織のつくり方、Teamsの「下書き」で送信忘れ防止 など。",
+      "date": "2026-07-21 09:40",
+      "messageId": "19f821df3c0b6e64"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック ウイークリー・セレクト <xtech-e@nikkeibp.co.jp>",
+      "subject": "ニデックのデータセンター冷却、モーター技術が武器／「AI頼み」は危うい",
+      "snippet": "アクセンチュアの「コンサル不要論」への回答、データドリブン経営を左右するリーダーの判断力 など。",
+      "date": "2026-07-21 12:30",
+      "messageId": "19f82b9d1014994e"
     }
   ],
-  "googleSecurityAlerts": [
+  "googleSecurityAlerts": [],
+  "sourceStatus": {
+    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、newer_than:1d で0件）。補足で from:google.com newer_than:2d も確認したが、該当は「NotebookLM is now Gemini Notebook」（GeminiNotebook-noreply@google.com, 2026-07-21 07:34）1件のみでセキュリティ通知ではない。",
+    "ScanNetSecurity": "1件（Scan BASIC Vol.1631）。前回7/21は0件だったが今回受信を確認 → 配信は継続中。前回の「配信停止の可能性」懸念は解消。",
+    "ISACA_Tokyo": "1件（7月例会オンラインセミナー案内）。",
+    "ISC2_Japan": "1件（理事会選挙 投票リマインダー）。",
+    "Nikkei_BP_group": "26件ヒット。うち編集系ニュースレター8本を収録し、tgml-10 / tgml-nmsys 等の広告・セミナー告知メール18本は除外。"
+  },
+  "carryOver": [
     {
-      "from": "Google <noreply@google.com>",
       "subject": "702895 を使用して再設定用のメールアドレスを設定してください",
-      "snippet": "botton891@gmail.com があなたのメールアドレスを再設定用のメールアドレスとして使用することを希望しています。",
+      "from": "Google <noreply@google.com>",
       "date": "2026-07-20 19:40",
       "messageId": "19f7f1c99c53c17b",
       "severity": "attention",
-      "note": "コードを絶対に入力しないこと。心当たりがなければメール内「メールアドレスを削除」から自アドレスの登録解除を行う。"
+      "note": "前回（7/21）digest で検知した件の継続監視。心当たりのない第三者アカウント botton891@gmail.com が本アドレスを復旧用アドレスとして登録しようとした。今回の24時間検索では続報なし。コードを入力していないことの確認を推奨。"
     }
   ],
-  "sourceStatus": {
-    "google_security": "指定クエリ（no-reply@accounts.google.com OR security-noreply@google.com、newer_than:1d）では0件。ただし noreply@google.com から復旧用メールアドレス確認コード通知を1件検知（要注意・上記参照）。",
-    "ScanNetSecurity": "メールなし（scan@netsecurity.ne.jp、過去24時間で0件）。念のため過去7日間でも検索したが0件 → 配信停止またはアドレス変更の可能性が高い。要確認。",
-    "ISACA_Tokyo": "メールなし（tky-jimukyoku@isaca.gr.jp、過去24時間で0件）。",
-    "ISC2_Japan": "メールなし（connect.isc2.org、過去24時間で0件）。",
-    "Nikkei_BP_group": "メールなし（nikkeibp.co.jp / xtech-ac@nikkeibp.co.jp、過去24時間で0件）。"
-  },
-  "updated": "2026-07-21 07:00"
+  "updated": "2026-07-22 07:30 JST"
 }
