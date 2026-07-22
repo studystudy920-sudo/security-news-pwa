@@ -1,111 +1,252 @@
 {
   "notifications": [
     {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "セキュリティ通知",
+      "snippet": "Windows での新しいログイン studystudy920@gmail.com Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。",
+      "date": "2026-07-22 13:59",
+      "messageId": "19f8a1f728edde87"
+    },
+    {
       "type": "newsletter",
       "from": "ScanNetSecurity <scan@netsecurity.ne.jp>",
-      "subject": "Scan BASIC [2026-07-21 Vol.1631-1/1] エクセル非表示機能による情報漏えい別パターン",
-      "snippet": "毎週月曜朝8時（今週は火曜）配信の Scan BASIC メルマガ。今号はエクセルの非表示機能（非表示行・列、非表示シート等）に起因する情報漏えいの別パターンを解説。",
-      "date": "2026-07-21 08:26",
-      "messageId": "19f81da518cbff54"
+      "subject": "Scan 特別号 [2026-07-22] そのバックアップは、復旧まで見据えた設計になっていますか",
+      "snippet": "今回は、7月28日(火)に開催されるデータレジリエンスを考えるカンファレンスをご紹介します。",
+      "date": "2026-07-22 02:13",
+      "messageId": "19f879947745a195"
     },
     {
       "type": "newsletter",
       "from": "ISACA東京支部 <tky-jimukyoku@isaca.gr.jp>",
-      "subject": "【ISACA東京支部】　2026年7月例会オンラインセミナーのご案内",
-      "snippet": "2026年7月例会オンラインセミナー（ライブ配信）のご案内。参加は会員限定ページ「ビデオセミナーの一覧」内の登録フォームから事前登録が必要。会員番号 02604 宛。",
-      "date": "2026-07-21 13:27",
-      "messageId": "19f82ed888fc81a6"
+      "subject": "【ISACA東京支部：他団体ご案内】【第310回SAAJ月例セミナー】のお知らせ",
+      "snippet": "認定NPO法人日本システム監査人協会 第310回SAAJ月例セミナー テーマ：「JISQ38500:2026及びJISQ38503:2026の紹介とISO規格の動向およびシステム管理基準ガイドラインについて」日時：2026年9月14日(月)18:30～",
+      "date": "2026-07-22 05:01",
+      "messageId": "19f883315552ebce"
     },
     {
       "type": "newsletter",
-      "from": "ISC2 <official@connect.isc2.org>",
-      "subject": "Reminder – Vote in ISC2 Board Election",
-      "snippet": "ISC2 理事会選挙の投票リマインダー（Official Communication）。会員は期限内の投票が必要。",
-      "date": "2026-07-22 00:01",
-      "messageId": "19f85357b8544646"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック AIエフェクト <xtech-aie@nikkeibp.co.jp>",
-      "subject": "セキュリティーの破滅はいつ起きるのか、高まる警戒",
-      "snippet": "脆弱性調査に秀でた「Claude Mythos」の登場以降、主要なOS・Webブラウザー製品の脆弱性修正件数が驚くほど増加。AIによる脆弱性発見の加速がもたらすリスクを日経BP AI・データラボ所長が解説。",
-      "date": "2026-07-22 06:01",
-      "messageId": "19f867c2bbe9f464"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック 金融DXインサイド <xtech-fdx@nikkeibp.co.jp>",
-      "subject": "ドコモ金融新会社、銀行と証券の「距離」を縮められるか",
-      "snippet": "NTTドコモの金融持ち株会社 NTTドコモ・フィナンシャルグループが2026年7月1日に事業開始。銀行・証券連携の戦略を解説。",
-      "date": "2026-07-22 06:00",
-      "messageId": "19f867aa41a43d39"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス <business@nikkeibp.co.jp>",
-      "subject": "全東信の粉飾、見逃した63地銀／ファーウェイの「秘密拠点」 - 日経ビジネス（7/22）",
-      "snippet": "全東信の粉飾決算を見逃した63地銀の実態、ファーウェイの秘密拠点、「AIで消える」営業職争奪戦など。",
-      "date": "2026-07-22 05:32",
-      "messageId": "19f8661102d2e613"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック PC/モバイル <xtech-pcmobile@nikkeibp.co.jp>",
-      "subject": "燃えにくい次世代モバイルバッテリー／Excelの「自動化」は本当に元が取れるのか",
-      "snippet": "総務省が初の電波オークション、無料のEaseUSでCドライブを丸ごとバックアップ、「uBlock Origin Lite」で広告とトラッカーをブロック など。",
-      "date": "2026-07-22 06:07",
-      "messageId": "19f868114aaf2f97"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT最新ニュース <xtech-news@nikkeibp.co.jp>",
-      "subject": "中国ムーンショットAIが最新モデル「Kimi K3」公開／ソフトバンクが新オフィスを開設予定",
-      "snippet": "みずほFGがAIエージェント3000体構想、富士通がファナックなどとフィジカルAIで提携、衛星を用いた量子鍵配送の実現へ など。",
-      "date": "2026-07-21 12:22",
-      "messageId": "19f82b1e8ac86722"
+      "from": "日経クロステック IT注目記事メール <xtech-pickup@nikkeibp.co.jp>",
+      "subject": "ニチレイを攻撃した「ランサムハウス」とは何者か？／AIエージェントによる「ランサムウエア攻撃」出現",
+      "snippet": "データセンターでリチウムイオン蓄電池が急増／日本IBMがAI駆動開発に本腰／「残念なセキュリティー」を招く要件定義の落とし穴／リチウムイオン電池、「燃焼の3要素」が内部でそろう危険性",
+      "date": "2026-07-22 07:32",
+      "messageId": "19f88bdb0fc14717"
     },
     {
       "type": "newsletter",
       "from": "日経クロステック IT最前線 <xtech-it@nikkeibp.co.jp>",
-      "subject": "「最新のAIサーバーを置けない」、NVIDIAの進化に追いつかない日本の法規制",
-      "snippet": "NVIDIA GPU搭載の次世代AIサーバーが日本のデータセンターに設置できなくなる懸念。専門家が法規制の遅れに警鐘を鳴らす。",
-      "date": "2026-07-21 07:06",
-      "messageId": "19f81914c4ab4170"
+      "subject": "データセンターでリチウムイオン蓄電池が急増、政府が規制の矛盾解消を検討：日経クロステック IT最前線",
+      "snippet": "AIエージェントによる「ランサムウエア攻撃」出現／「残念なセキュリティー」を招く要件定義の落とし穴／日本IBMがAI駆動開発に本腰",
+      "date": "2026-07-21 22:10",
+      "messageId": "19f86babb9a2da4a"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック IT最新ニュース <xtech-news@nikkeibp.co.jp>",
+      "subject": "日本IBMがAI駆動開発に本腰／NTTドコモビジネスがNutanixを用いた仮想化基盤：日経クロステック IT最新ニュースメール",
+      "snippet": "データセンターでリチウムイオン蓄電池が急増／「残念なセキュリティー」を招く要件定義の落とし穴／ソフトバンクが2026年秋に新オフィスを開設 など",
+      "date": "2026-07-22 03:46",
+      "messageId": "19f87ee91101e875"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
+      "subject": "SaaSの利用拡大が招くリスクに対処、強固な認証・アクセス基盤を設計する【日経BP Topics】",
+      "snippet": "企業向けSaaSアプリに不可欠なもの、強固な認証・アクセス管理を確保する！ クラウドの普及でSaaS型の企業向け業務アプリケーションが拡大。",
+      "date": "2026-07-21 21:44",
+      "messageId": "19f86a3649fa46a4"
     },
     {
       "type": "newsletter",
       "from": "日経クロステック Active <xtech-ac@nikkeibp.co.jp>",
-      "subject": "最新のAIエージェント活用例、商談準備を45秒に短縮した金融機関も",
-      "snippet": "SFAのフル活用で年間2万時間を削減、「DXをやって終わり」にしない組織のつくり方、Teamsの「下書き」で送信忘れ防止 など。",
-      "date": "2026-07-21 09:40",
-      "messageId": "19f821df3c0b6e64"
+      "subject": "待ったなしの新リース会計基準、最大の難所「リース期間」をどう判断する？：日経クロステック Active",
+      "snippet": "「フィジカルAI」10.5兆円投資の意味／マルコメが社内規定をクラウドで一元管理／ワンクリックで定型メール自動転記／Excelの「IF関数」に未来はあるのか",
+      "date": "2026-07-22 00:47",
+      "messageId": "19f874b31a2cd1ff"
     },
     {
       "type": "newsletter",
-      "from": "日経クロステック ウイークリー・セレクト <xtech-e@nikkeibp.co.jp>",
-      "subject": "ニデックのデータセンター冷却、モーター技術が武器／「AI頼み」は危うい",
-      "snippet": "アクセンチュアの「コンサル不要論」への回答、データドリブン経営を左右するリーダーの判断力 など。",
-      "date": "2026-07-21 12:30",
-      "messageId": "19f82b9d1014994e"
-    }
-  ],
-  "googleSecurityAlerts": [],
-  "sourceStatus": {
-    "google_security": "メールなし（no-reply@accounts.google.com / security-noreply@google.com、newer_than:1d で0件）。補足で from:google.com newer_than:2d も確認したが、該当は「NotebookLM is now Gemini Notebook」（GeminiNotebook-noreply@google.com, 2026-07-21 07:34）1件のみでセキュリティ通知ではない。",
-    "ScanNetSecurity": "1件（Scan BASIC Vol.1631）。前回7/21は0件だったが今回受信を確認 → 配信は継続中。前回の「配信停止の可能性」懸念は解消。",
-    "ISACA_Tokyo": "1件（7月例会オンラインセミナー案内）。",
-    "ISC2_Japan": "1件（理事会選挙 投票リマインダー）。",
-    "Nikkei_BP_group": "26件ヒット。うち編集系ニュースレター8本を収録し、tgml-10 / tgml-nmsys 等の広告・セミナー告知メール18本は除外。"
-  },
-  "carryOver": [
+      "from": "日経クロステック Active <xtech-ac@nikkeibp.co.jp>",
+      "subject": "AIエージェントのメリットは？ 経営幹部の質問に端的に答えるための準備資料：日経クロステック Active",
+      "snippet": "エージェント型AIで業務プロセスを再構築／「横浜DX戦略」を成功に導いた開発基盤／マルコメが社内規定をクラウドで一元管理",
+      "date": "2026-07-21 22:36",
+      "messageId": "19f86d27c4bfa34b"
+    },
     {
-      "subject": "702895 を使用して再設定用のメールアドレスを設定してください",
-      "from": "Google <noreply@google.com>",
-      "date": "2026-07-20 19:40",
-      "messageId": "19f7f1c99c53c17b",
-      "severity": "attention",
-      "note": "前回（7/21）digest で検知した件の継続監視。心当たりのない第三者アカウント botton891@gmail.com が本アドレスを復旧用アドレスとして登録しようとした。今回の24時間検索では続報なし。コードを入力していないことの確認を推奨。"
+      "type": "newsletter",
+      "from": "日経ビジネス <business@nikkeibp.co.jp>",
+      "subject": "ファーウェイCEOは81歳 見えぬ後継／データで浮かぶ日中韓ホルムズ対策 - 日経ビジネス（7/23）",
+      "snippet": "「物言う株主」対応で自民新提言／鰻の成瀬・山本社長「私の限界」 Editor's EYE ニュースを突く～取材の現場から",
+      "date": "2026-07-22 20:32",
+      "messageId": "19f8b878935f4788"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス <business@nikkeibp.co.jp>",
+      "subject": "鰻の成瀬・山本社長「私の限界」／データで解析 中国半導体の目論見 - 日経ビジネス（7/22）",
+      "snippet": "ホテル業界に公取委警告／全東信破綻 粉飾見逃した金融機関 Update 夕刊",
+      "date": "2026-07-22 08:16",
+      "messageId": "19f88e57d10738c9"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス <business@nikkeibp.co.jp>",
+      "subject": "総投票数1位 役職者は、なぜ偉そうか／2位 氷河期世代にしわ寄せ - 日経ビジネス（7/22）",
+      "snippet": "齋藤ジン氏「貧しくなる道選んだ日本」／JALパーサー飲酒問題 Update 号外 6月総投票数ランキング",
+      "date": "2026-07-22 03:35",
+      "messageId": "19f87e436beea25c"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー <tgml-10@nikkeibp.co.jp>",
+      "subject": "【参加特典：1000円分】ヤマハ,イオンフィナンシャルサービス,MIXI,関通のITインフラ担当者が登壇！【BPセミナー】",
+      "snippet": "ITインフラSummit 2026 Summer ～AIエージェント時代に不可欠なITインフラの条件とは～【7月29日(水)・30日(木) オンライン開催】情シス必見、サイバー攻撃やリスクに備えるIT-BCPアプローチ",
+      "date": "2026-07-22 00:45",
+      "messageId": "19f8748cc6818c52"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP 金融DXレポート <tgml-nmsys@nikkeibp.co.jp>",
+      "subject": "金融機関60社のDX投資意向を独自調査【金融DX市場予測レポート2026-2030】誌面サンプル無料",
+      "snippet": "生成AI活用、サイバーセキュリティー対策… 銀行、保険、証券など先進73社のDX戦略を独自調査・取材で明らかに。",
+      "date": "2026-07-22 02:53",
+      "messageId": "19f87be7bbf2f20a"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経NETWORK倶楽部 <nnwclub@nikkeibp.co.jp>",
+      "subject": "全員にAmazonギフト券を進呈、「ネットワークの実態調査2026」にご協力ください【日経NETWORK倶楽部メール（号外）】",
+      "snippet": "恒例の「ネットワークの実態調査2026」を実施中です。本メールや雑誌「日経NETWORK」の読者に回答いただくアンケートです。",
+      "date": "2026-07-22 02:54",
+      "messageId": "19f87bf11cad702e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
+      "subject": "Azureの支払額が減る！ エイベックスが月800万を650万にできたワケ【日経BP Topics】",
+      "snippet": "いつの間にかAzureの料金が膨張！ そうなる前に取り組む「コスト最適化」",
+      "date": "2026-07-21 22:42",
+      "messageId": "19f86d7fc00b47be"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
+      "subject": "AI活用を加速するために必要な「AIインフラ」とは何か、カギを握る基盤設計【日経BP Topics】",
+      "snippet": "企業によるAI活用は、実験段階から本格的な業務利用へと進んでいる。",
+      "date": "2026-07-22 01:44",
+      "messageId": "19f877f1e5762bb2"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
+      "subject": "顧客対応でのAIエージェント活用法、人への引き継ぎや後処理業務を効率化【日経BP Topics】",
+      "snippet": "生成AIを、コンタクトセンター／コールセンターをはじめとする顧客対応業務で活用する動き。",
+      "date": "2026-07-21 22:48",
+      "messageId": "19f86de1b5abdd29"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
+      "subject": "全社を挙げて取り組んだDXが浸透・定着しない！ その2大障壁と打開策【日経BP Topics】",
+      "snippet": "「DXの成果が浸透・定着した」企業は何割？ 調査にみる2大障壁と打開策",
+      "date": "2026-07-21 22:40",
+      "messageId": "19f86d6c3ed6f69d"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics <tgml-10@nikkeibp.co.jp>",
+      "subject": "レンタルPCを採用した効果、「管理工数を4分の1」にした企業は何を簡略化した【日経BP Topics】",
+      "snippet": "PC管理業務は、調達から設定、技術サポートまで工数がかさむ。導入3社に見るレンタルPCの具体的成果。",
+      "date": "2026-07-21 21:41",
+      "messageId": "19f86a0a50c827df"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー <tgml-10@nikkeibp.co.jp>",
+      "subject": "8/25開催無料ウェビナー、AI-Readyデータ基盤の構築法を公開【BPセミナー】",
+      "snippet": "データ連携・品質改善・セキュリティ強化まで、AI-Readyの実践知を一気通貫で網羅。8月25日(火)13時～オンライン開催。",
+      "date": "2026-07-22 00:45",
+      "messageId": "19f874907f6eab3b"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー <tgml-10@nikkeibp.co.jp>",
+      "subject": "【東京開催DX総合展】4編集長ライブ・極言暴論ライブなど注目企画を紹介【BPセミナー】",
+      "snippet": "未来をつくるテクノロジー展 日経クロステックNEXT 東京 2026、来場登録《早期》受付スタート。",
+      "date": "2026-07-22 01:46",
+      "messageId": "19f87806d6935e58"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー <tgml-nmsys@nikkeibp.co.jp>",
+      "subject": "車載高速通信“国内随一”のイベント！7/28・29大阪開催◆車載Ethernet2026",
+      "snippet": "講演×参加者交流会×展示会を実施。SDVやE2Eの切り札、進化する「車載Ethernet」。",
+      "date": "2026-07-22 02:34",
+      "messageId": "19f87aca1006ae38"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー <tgml-nmsys@nikkeibp.co.jp>",
+      "subject": "現地体験型プログラムで五感全部で学べる★若者に選ばれるネッツトヨタ南国、強さの理由とは？",
+      "snippet": "現地訪問でネッツトヨタ南国に学ぶ 社員幸福度が高く、採用に困らず、自然に人が成長する会社のつくり方【第4期】",
+      "date": "2026-07-22 02:59",
+      "messageId": "19f87c3842048d7e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー <tgml-nmsys@nikkeibp.co.jp>",
+      "subject": "7/25開催 残席わずか【女性役員・部長の集い】深い学びと良質なネットワーキング、充実の1日を",
+      "snippet": "NikkeiBP Executive Women カンファレンス 第3回 2026年7月25日(土) 10:00-18:30",
+      "date": "2026-07-22 02:47",
+      "messageId": "19f87b8b74b50e2d"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP 調査 <res@nikkeibp.co.jp>",
+      "subject": "【NikkeiBP】「IoTシステム／IoTセンサー調査」重ねてのご案内⇒対象者全員に謝礼",
+      "snippet": "『IoTシステム／IoTセンサー調査』重ねてのご案内～ご回答者全員に図書カードNEXT（500円分）を差し上げます～",
+      "date": "2026-07-22 01:58",
+      "messageId": "19f878b72bcce867"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail <tgml-10@nikkeibp.co.jp>",
+      "subject": "豪華賞品あり｜UCC、トライアル、旭化成のデジタル経営戦略【日経BP Mail】",
+      "snippet": "「ITmedia デジタル戦略EXPO 2026 夏」見逃し配信を実施中。8月5日（水）閉幕。",
+      "date": "2026-07-21 21:50",
+      "messageId": "19f86a8e61fb3b05"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail <tgml-10@nikkeibp.co.jp>",
+      "subject": "【大卒年収調査】TOEICスコアと年収の相関関係を公開【日経BP Mail】",
+      "snippet": "無料オンラインセミナー：参加申し込み本日締め切り！",
+      "date": "2026-07-21 23:42",
+      "messageId": "19f870edc6377f1c"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail <tgml-10@nikkeibp.co.jp>",
+      "subject": "ダメ上司がやりがち？現場を止める“間違った変革”と、本当にやるべきこと【日経BP Mail】",
+      "snippet": "「慣れたやり方」は変えなくていい！現場を止めない、改革の新常識。",
+      "date": "2026-07-21 22:50",
+      "messageId": "19f86dfeec132ac1"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail <tgml-10@nikkeibp.co.jp>",
+      "subject": "【北海道のコンパクトシティ】四半世紀も人口が横ばいで推移する不思議な町の魅力とは？【日経BP Mail】",
+      "snippet": "２万人の町に乳業大手が巨額投資、役場とまちおこしのキーパーソンに聞く。",
+      "date": "2026-07-21 21:49",
+      "messageId": "19f86a80cc75f46a"
     }
   ],
-  "updated": "2026-07-22 07:30 JST"
+  "sources": [
+    { "name": "Googleセキュリティ通知", "count": 1 },
+    { "name": "ScanNetSecurity", "count": 1 },
+    { "name": "ISACA東京支部", "count": 1 },
+    { "name": "ISC2 Japan (connect.isc2.org)", "count": 0 },
+    { "name": "日経BP系（日経クロステック／日経ビジネス／日経BP Topics ほか）", "count": 27 }
+  ],
+  "updated": "2026-07-23 07:00"
 }
