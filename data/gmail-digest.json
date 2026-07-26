@@ -1,28 +1,11 @@
 {
-  "notifications": [
-    {
-      "type": "google",
-      "from": "Google (no-reply@accounts.google.com)",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "Windows での新しいログイン。Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。ログインに心当たりがない場合はアカウント保護の手続きを案内。",
-      "date": "2026-07-25 19:51",
-      "messageId": "19f98e7386fc77f9"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック (xtech-sp@nikkeibp.co.jp)",
-      "subject": "【週刊日経クロステック Special】ＡＩエージェントで陥りがちなケースと課題 ほか",
-      "snippet": "週刊日経クロステック Special 2026.7.25。今週のピックアップ情報－おすすめサイト「AIエージェント時代の“コスト爆発”防げ」ほか、IT/製造業/建築/土木関連の製品・サービスやイベント情報を案内。",
-      "date": "2026-07-25 09:08",
-      "messageId": "19f969a0c7458912"
-    }
-  ],
+  "notifications": [],
   "sources": [
-    { "name": "Googleセキュリティ通知", "count": 1 },
+    { "name": "Googleセキュリティ通知", "count": 0 },
     { "name": "ScanNetSecurity", "count": 0 },
     { "name": "ISACA東京支部", "count": 0 },
     { "name": "ISC2 Japan (connect.isc2.org)", "count": 0 },
-    { "name": "日経BP系（日経クロステック／日経ビジネス／日経BP Topics ほか）", "count": 1 }
+    { "name": "日経BP系（日経クロステック／日経ビジネス／日経BP Topics ほか）", "count": 0 }
   ],
-  "updated": "2026-07-26 07:00"
+  "updated": "2026-07-27 07:00"
 }
