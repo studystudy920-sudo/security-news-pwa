@@ -1,26 +1,122 @@
 {
   "notifications": [
     {
-      "type": "google",
-      "from": "Google アカウント (no-reply@accounts.google.com)",
-      "subject": "セキュリティ通知",
-      "snippet": "Windows での新しいログイン studystudy920@gmail.com Windows デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。",
-      "date": "2026-07-28 20:39",
-      "messageId": "19fa88581c521c38"
+      "type": "newsletter",
+      "from": "日経ビジネス (business@nikkeibp.co.jp)",
+      "subject": "マラッカ海峡「通航料構想」／隈研吾が「経年劣化批判」に回答 - 日経ビジネス（7/30）",
+      "snippet": "セブン＆アイの北米復活／ダイキン、冷房バブルで人材枯渇 Editor's EYE ニュースを突く～取材の現場から ウェブで表示 2026.7.30 熊野 信一郎日経ビジネス編集長 熊本県で28日に発生した地震は現地の生活やインフラ、企業活動に大きな影響を及ぼしています。",
+      "date": "2026-07-30 05:32",
+      "messageId": "19faf93ebe2b624c"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2 (info@connect.isc2.org)",
+      "subject": "Master the Cyber Skills Employers are Seeking",
+      "snippet": "Learn how ISC2 Certificates can boost your career View as webpage Grow Your Skills with the NEW ISC2 Certificates Showcase the Cyber Skills Employers Need Advance your cybersecurity career with ISC2",
+      "date": "2026-07-29 22:01",
+      "messageId": "19fadf79c716de70"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2 Asia-Pacific (isc2asia@connect.isc2.org)",
+      "subject": "Start Your CCSP Journey This September",
+      "snippet": "Prepare for CCSP with live evening classes designed to fit around your work schedule. View as webpage Hero Image Cloud security skills continue to be in high demand, and the Certified Cloud Security",
+      "date": "2026-07-29 19:21",
+      "messageId": "19fad64dc77b159f"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2 Asia-Pacific (isc2asia@connect.isc2.org)",
+      "subject": "Your Next Step After CISSP Starts This September",
+      "snippet": "Build on your CISSP and prepare for CCSP with evening training designed for working professionals. View as webpage Hero Image Dear Masakazu, As a CISSP, you're already recognized for your",
+      "date": "2026-07-29 19:12",
+      "messageId": "19fad5d254a8f622"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス (business@nikkeibp.co.jp)",
+      "subject": "熊本地震　ソニー、ルネサスは停止／TSMCは新工場建設中断 - 日経ビジネス（7/29）",
+      "snippet": "地震で金融機関ダウン／武田、キムCEO新体制が挑むIR Update 夕刊 ウェブで表示 2026.7.29 熊本地震 ソニー、ルネサスは停止／TSMCは新工場建設中断 EDITOR'S PICK 熊本県で震度７ ソニーやルネサスは停止、ローソンやファミマ社長が現地入り",
+      "date": "2026-07-29 17:24",
+      "messageId": "19facf96eeb3cfd3"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック (xtech-pickup@nikkeibp.co.jp)",
+      "subject": "熊本地震の被災情報集約へガバメントAI「源内」提供／ドコモが金融を刷新強化：日経クロステック IT注目記事メール",
+      "snippet": "情報・通信企業15社の給与ランキング／熊本地震で「JAPANローミング」発動／AI攻撃にAIで対抗、Microsoftが新システム／NotebookLM上級者向け「ExtendLM」／熊本地震で金融機関に影響、ATMや店舗営業が一部休止",
+      "date": "2026-07-29 16:33",
+      "messageId": "19faccb0d83c32bf"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2 (official@connect.isc2.org)",
+      "subject": "All set! 🛒 Your Order 142026072936209727 has been processed.",
+      "snippet": "Explore your dashboard to manage your order, schedule your exam, and more. View as webpage Thank you for your purchase, Masakazu Sakane! Your order has been successfully processed.",
+      "date": "2026-07-29 14:34",
+      "messageId": "19fac5e3d774356a"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック (xtech-news@nikkeibp.co.jp)",
+      "subject": "熊本地震で金融機関に影響／東武・ダイキン・ノジマの現場に見たLumada協創：日経クロステック IT最新ニュースメール",
+      "snippet": "AI攻撃にAIで対抗、Microsoftが新システム／日立がAI駆動開発を加速、生産性3割向上へ／石狩市でデータセンターの企業連合／熊本県の一部で通信障害発生、地震の影響／日産証券が金融業務をローコードで内製 など",
+      "date": "2026-07-29 13:48",
+      "messageId": "19fac339050032cc"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail (tgml-nmsys@nikkeibp.co.jp)",
+      "subject": "IRに関するランキング・各企業の取り組み事例まで丸わかり　【日経BP Insight】",
+      "snippet": "◎［新連載］IR発信力ランキングを公開 AI半導体銘柄が大躍進、キオクシアも登場 日経ビジネスは2024年、25年に続いて日経平均株価の構成企業225社の投資家向け広報（IR）に関する調査を、1万1000人の個人投資家を対象に実施しました。",
+      "date": "2026-07-29 12:09",
+      "messageId": "19fabd90fa81facf"
     },
     {
       "type": "newsletter",
       "from": "ISACA東京支部 (tky-jimukyoku@isaca.gr.jp)",
-      "subject": "【ISACA東京支部】 Control Community  Vol.04, 2026",
-      "snippet": "ISACA TOKYO / OSAKA / NAGOYA / FUKUOKA Control Community Vol.04, 2026（2026/7/28）電子メール版コントロール コミュニティ (eCC)",
-      "date": "2026-07-28 14:01",
-      "messageId": "19fa719c139bcc08"
+      "subject": "「サイバーセキュリティ能力構築支援に係る情報通信産業の国際展開支援に関する調査の請負」： サイバーセキュリティ関連製品・サービスのASEAN地域における国際展開支援対象事業者の公募",
+      "snippet": "＜公募ページへのリンク＞ 総務省では、ASEAN地域におけるサイバーセキュリティ能力の向上及び我が国事業者の国際展開を支援するため、サイバーセキュリティ関連製品・サービスを有する事業者を対象に、ASEAN地域でのオンライン研修又は対面演習を通じた国際展開支援事業を実施します。",
+      "date": "2026-07-29 12:05",
+      "messageId": "19fabd5f04fbc476"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail (tgml-nmsys@nikkeibp.co.jp)",
+      "subject": "【9月4日開催】冷却技術の転換点。実装フェーズに入った「磁気冷却」最前線",
+      "snippet": "脱炭素・省エネルギーへの社会的要請が世界規模で加速する中、従来の冷却技術は転換点を迎えています。家電や産業機器、データセンターなどで広く採用されてきた圧縮式冷凍サイクルには、フロン系冷媒による温室効果、コンプレッサーの高いエネルギー消費、騒音といった課題が残されています。",
+      "date": "2026-07-29 12:00",
+      "messageId": "19fabd0e1fa0778c"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail (tgml-nmsys@nikkeibp.co.jp)",
+      "subject": "9/29開講 ITアーキテクト養成講座◆必須スキルが身につくトップエンジニア育成の決定版【日経BP Mail】",
+      "snippet": "日経BP Mail 2026年7月29日 （発信：日経BP） 全体を俯瞰して、強く、しなやかなシステムを作る。現場で今もっとも求められている真のITアーキテクトになれます！ 確実に力がつくと人気の講座 9/29開講！ ITアーキテクト養成講座【第18期】",
+      "date": "2026-07-29 11:57",
+      "messageId": "19fabceb32715c6e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail (tgml-nmsys@nikkeibp.co.jp)",
+      "subject": "【若手・中堅社員向け】リーダーに必要な力を身につける3講座をご紹介｜日経BP",
+      "snippet": "2009年の開塾以来、5000名以上の修了生を輩出する『日経ビジネス課長塾』。課長塾は、ミドルマネージャーを対象とした管理職研修ですが、そのエッセンスを活かした若手・中堅社員の方向けのプログラム『次世代リーダーパワーアップ集中講座』もご用意しています。",
+      "date": "2026-07-29 11:54",
+      "messageId": "19fabcb3ec8391c6"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail (tgml-nmsys@nikkeibp.co.jp)",
+      "subject": "トップランナーが語るAIデータセンター省電力化の中核技術◆9/3開催 光電融合、最新動向とビジネスチャンス",
+      "snippet": "AIデータセンター省電力化の中核技術を徹底解説 光電融合、最新動向とビジネスチャンス IBM・NTT・Google出資の新興が集結、トップランナーが語る光電融合エコシステムとCPO実装の最前線 日時：2026年9月3日(木) 10:30～17:00",
+      "date": "2026-07-29 11:41",
+      "messageId": "19fabc00cd2980da"
     },
     {
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "AIエージェントを組み込んだCRMの効果、リアルな顧客対応例を動画で解説【日経BP Topics】",
-      "snippet": "業務アプリケーションに関するおすすめ情報をお届けします。AIエージェントを組み込んだCRMの効果、リアルな顧客対応例を動画で解説。社内業務の効率化は喫緊の課題だ。",
+      "snippet": "業務アプリケーションに関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料/動画 AIエージェントを組み込んだCRMの効果、リアルな顧客対応例を動画で解説 社内業務の効率化は喫緊の課題だ。例えば金融業界",
       "date": "2026-07-29 10:42",
       "messageId": "19fab8a11187ed02"
     },
@@ -28,7 +124,7 @@
       "type": "newsletter",
       "from": "日経クロステック Active (xtech-ac@nikkeibp.co.jp)",
       "subject": "AI導入が成果につながらない理由、成功の鍵は「AI-Readyなデータ環境」：日経クロステック Active",
-      "snippet": "学習院大・守島教授が語る「全員戦力化」／AIで面倒なブラウザー操作を自動化／Excelでこれからも使う「IF関数」／独自LLMでプロテインAIに挑むMOLCURE",
+      "snippet": "学習院大・守島教授が語る「全員戦力化」／AIで面倒なブラウザー操作を自動化／Excelでこれからも使う「IF関数」／独自LLMでプロテインAIに挑むMOLCURE 日経クロステック Activeメール 2026-07-29配信【注目のセミナー・記事 IT版】",
       "date": "2026-07-29 09:53",
       "messageId": "19fab5ca3cec44ca"
     },
@@ -36,7 +132,7 @@
       "type": "newsletter",
       "from": "日経BP Mail (tgml-10@nikkeibp.co.jp)",
       "subject": "長野県・白馬「日本民宿発祥の地」のいま、第二のニセコと呼ばれるが…【日経BP Mail】",
-      "snippet": "大自然に包まれ農家民宿で本物を学ぶ、JA大北。都市農村交流が、2つの観点から再評価されている。一つは、教育の観点。",
+      "snippet": "大自然に包まれ農家民宿で本物を学ぶ、JA大北(PR) 今号の見出記事はこちらです こんな修学旅行がしたかった！ 大自然に包まれ農家民宿で本物を学ぶ、JA大北 都市農村交流が、2つの観点から再評価されている。",
       "date": "2026-07-29 09:44",
       "messageId": "19fab54fd1c92f4f"
     },
@@ -44,7 +140,7 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "AIを組み込んだローコードツールの威力、市民開発とセキュリティ強化を両立【日経BP Topics】",
-      "snippet": "開発・運用に関するおすすめ情報をお届けします。AIを組み込んだローコードツールの威力、市民開発とセキュリティ強化を両立。",
+      "snippet": "開発・運用に関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料 AIを組み込んだローコードツールの威力、市民開発とセキュリティ強化を両立 企業が競争力を高めて成長を続けるには、業務をデジタル化して効率",
       "date": "2026-07-29 09:43",
       "messageId": "19fab541dc6ebd22"
     },
@@ -52,7 +148,7 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "4つの不満で顧客体験価値は台無しに、カスタマーサービス調査で得た発見5選【日経BP Topics】",
-      "snippet": "業務アプリケーションに関するおすすめ情報をお届けします。企業にとって製品・サービスを通して顧客が感じる体験が重要に。",
+      "snippet": "業務アプリケーションに関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料 4つの不満で顧客体験価値は台無しに、カスタマーサービス調査で得た発見5選 企業にとって製品・サービスを通して顧客が感じる体験",
       "date": "2026-07-29 09:42",
       "messageId": "19fab524fb8912c6"
     },
@@ -60,7 +156,7 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "積水化成が脆弱性対応を大幅加速、3カ月半で構築したセキュリティ基盤が奏功【日経BP Topics】",
-      "snippet": "セキュリティに関するおすすめ情報をお届けします。脆弱性対応の重要性は理解していても、DX（デジタル変革）推進と両立させるのは難しい。",
+      "snippet": "セキュリティに関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料 積水化成が脆弱性対応を大幅加速、3カ月半で構築したセキュリティ基盤が奏功 脆弱性対応の重要性は理解していても、DX（デジタル変革）推進",
       "date": "2026-07-29 09:39",
       "messageId": "19fab4fbb8f84d84"
     },
@@ -68,7 +164,7 @@
       "type": "newsletter",
       "from": "日経BPセミナー (tgml-10@nikkeibp.co.jp)",
       "subject": "AIエージェント時代に必須のAI-Ready、企業の現在地と対策を解説【BPセミナー】",
-      "snippet": "データ連携・品質・セキュリティを網羅。日経クロステック Active『DX勝者の選択』8月25日(火)13時～オンライン開催。",
+      "snippet": "データ連携・品質・セキュリティを網羅(PR) 日経クロステック Active『DX勝者の選択』あなたの会社は「AI-Ready」？ 最大の難関「データ環境づくり」解決法【8月25日(火)13時～オンライン開催】",
       "date": "2026-07-29 08:45",
       "messageId": "19fab1eb37c8f220"
     },
@@ -76,7 +172,7 @@
       "type": "newsletter",
       "from": "日経BPセミナー (tgml-10@nikkeibp.co.jp)",
       "subject": "顧客データが経営を動かす　AI時代の小売り経営戦略、進化する顧客体験を徹底議論【BPセミナー】",
-      "snippet": "進化する小売り最前線 小売業の「次の一手」とは。【8/21 札幌】Japan DX/AI Conference 地域発・実装AI革命。",
+      "snippet": "進化する小売り最前線 小売業の「次の一手」とは(PR) ★【8/21 札幌】Japan DX/AI Conference 地域発・実装AI革命──社会課題を解く\"現場DX\"の最前線へ",
       "date": "2026-07-29 08:43",
       "messageId": "19fab1cf5f3b1722"
     },
@@ -84,7 +180,7 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "Amazonギフトカード5000円が抽選で当たる！ セキュリティ運用に関する実態調査【日経BP Topics】",
-      "snippet": "セキュリティ運用に関する実態調査ご協力のお願い。日経クロステック Active 会員を対象にしたセキュリティ運用に関する実態調査（提供：ラピッド…）。",
+      "snippet": "セキュリティ運用に関する実態調査 ●日経BP Topics：2026/07/29（発信：日経BP）★抽選で20名様にAmazonギフトカードが当たる！★ セキュリティ運用に関する実態調査 ご協力のお願い この度、日経クロステック Active 会員の皆様を対象に",
       "date": "2026-07-29 08:38",
       "messageId": "19fab17e05490828"
     },
@@ -92,7 +188,7 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "本格運用に耐えるAIインフラの作り方、推論から大規模学習まで段階的に拡張【日経BP Topics】",
-      "snippet": "AI・データ活用に関するおすすめ情報。AI活用を加速するために必要な「AIインフラ」とは何か、カギを握る基盤設計。",
+      "snippet": "AI・データ活用に関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料 AI活用を加速するために必要な「AIインフラ」とは何か、カギを握る基盤設計 企業によるAI活用は、実験段階から本格的な業務利用へと",
       "date": "2026-07-29 08:37",
       "messageId": "19fab175883d4f28"
     },
@@ -100,15 +196,15 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "労働基準法見直しで「働き方」が大転換、ITで支援する職場の新ルール徹底【日経BP Topics】",
-      "snippet": "業務アプリケーションに関するおすすめ情報。約40年ぶりの労働基準法の見直し、新ルールの詳細と企業に求められる対応とは。",
+      "snippet": "業務アプリケーションに関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料 約40年ぶりの労働基準法の見直し、新ルールの詳細と企業に求められる対応とは 労働者の働き方を規定する労働基準法が抜本的に改正",
       "date": "2026-07-29 08:37",
       "messageId": "19fab1711410ea07"
     },
     {
       "type": "newsletter",
       "from": "日経BP Mail (tgml-10@nikkeibp.co.jp)",
-      "subject": "AIを使いこなす「正しい指示」とは？シーン別“そのまま使える”プロンプト集【日経BP Mail】",
-      "snippet": "生成AIを賢く使う、実践術を公開！無料で資料ダウンロード（日経ID会員情報で簡単に）。",
+      "subject": "AIを使いこなす「正しい指示」とは？シーン別\"そのまま使える\"プロンプト集【日経BP Mail】",
+      "snippet": "生成AIを賢く使う、実践術を公開！(PR) 無料で資料ダウンロード！＊日経ID会員情報で簡単に＊ ※「bizplay」のダウンロードフォームへ遷移します。",
       "date": "2026-07-29 07:52",
       "messageId": "19faaede70a61417"
     },
@@ -116,7 +212,7 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "メール攻撃対策にかかる工数が課題に、「行動解析AI」で現場の手間を抑制【日経BP Topics】",
-      "snippet": "「AIにはAIで対抗」、手数を抑える使い方とは？メール攻撃対策にかかる工数が課題に、行動解析AIで現場の手間を抑制。",
+      "snippet": "★おすすめ情報をお届けします。●日経BP Topics：2026/07/29（発信：日経BP）「AIにはAIで対抗」、手数を抑える使い方とは？",
       "date": "2026-07-29 07:46",
       "messageId": "19faae8d57f7e827"
     },
@@ -124,7 +220,7 @@
       "type": "newsletter",
       "from": "日経クロステック Active (xtech-ac@nikkeibp.co.jp)",
       "subject": "ERPとPLMに次ぐ第3の基幹システムに、製造業のヨコオが整備したIT基盤：日経クロステック Active",
-      "snippet": "パナソニック系企業が減らした「内向きの仕事」／AIを本当の労働力にする方法／Excelでこれからも使う「IF関数」／画面分割でネット検索が激変",
+      "snippet": "パナソニック系企業が減らした「内向きの仕事」／AIを本当の労働力にする方法／Excelでこれからも使う「IF関数」／画面分割でネット検索が激変 日経クロステック Activeメール 2026-07-29配信【注目の製品・記事 IT版】",
       "date": "2026-07-29 07:45",
       "messageId": "19faae7499e1d493"
     },
@@ -132,15 +228,15 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "脆弱性が多すぎて全対応は無理、限られたリソースで効果的に対処するには【日経BP Topics】",
-      "snippet": "年4.8万件の脆弱性に全対応するのはもはや不可能！最新の管理手法を動画解説。2025年は年間の脆弱性公表が4.8万件を突破。",
+      "snippet": "セキュリティに関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料/動画 年4.8万件の脆弱性に全対応するのはもはや不可能！ 最新の管理手法を動画解説 2025年は年間の脆弱性公表が4.8万件を突破し、",
       "date": "2026-07-29 07:41",
       "messageId": "19faae39beb2add5"
     },
     {
       "type": "newsletter",
-      "from": "日経クロステック IT最前線 (xtech-it@nikkeibp.co.jp)",
+      "from": "日経クロステック IT (xtech-it@nikkeibp.co.jp)",
       "subject": "日立は共に悩み答えを探す、東武・ダイキン・ノジマの現場に見たLumada協創の実像：日経クロステック IT最前線",
-      "snippet": "平均年間給与は6社が1000万円超／熊本県の一部で通信障害発生／Sakana AIは推論時スケーリング手法を考案／ドコモが金融を刷新強化",
+      "snippet": "平均年間給与は6社が1000万円超／熊本県の一部で通信障害発生／Sakana AIは推論時スケーリング手法を考案／ドコモが金融を刷新強化 日経XTECH IT最前線 by 日経クロステック 2026.7.29",
       "date": "2026-07-29 07:10",
       "messageId": "19faac75becf7f57"
     },
@@ -148,7 +244,7 @@
       "type": "newsletter",
       "from": "日経BP Mail (tgml-10@nikkeibp.co.jp)",
       "subject": "【良い意味で異様な都市構造！？】専門家が北海道のある町に注目し提唱した「中標津モデル」が地域創生のヒントに？【日経BP Mail】",
-      "snippet": "人口2万2千人にもかかわらず、根室管内の内陸中心都市として機能する中標津町。地方都市の新たな可能性。",
+      "snippet": "人口2万2千人にもかかわらず、根室管内の内陸中心都市として機能する中標津町(PR)【地方都市の新たな可能性】専門家が北海道のある町に注目し提唱した「中標津モデル」が地域創生のヒントに？",
       "date": "2026-07-29 06:50",
       "messageId": "19faab566cc34147"
     },
@@ -156,7 +252,7 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "ハードの価格高騰でもDXは止めるな！ なぜハイブリッドクラウドが効くのか【日経BP Topics】",
-      "snippet": "インフラ整備に関するおすすめ情報。ハード高騰でDXが停滞？ ITインフラのコスト問題を解消するクラウド活用術。",
+      "snippet": "インフラ整備に関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料 ハード高騰でDXが停滞？ ITインフラのコスト問題を解消するクラウド活用術 ハードウエアの価格高騰が止まらない。",
       "date": "2026-07-29 06:46",
       "messageId": "19faab15bcb9d843"
     },
@@ -164,129 +260,10 @@
       "type": "newsletter",
       "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
       "subject": "生成AIでセキュリティ対策を強化せよ！ 効率を向上させるカギをマンガで解説【日経BP Topics】",
-      "snippet": "セキュリティに関するおすすめ情報。生成AIを活用したセキュリティ強化策、少人数で対応できる方法をマンガで解説。",
+      "snippet": "セキュリティに関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料 生成AIを活用したセキュリティ強化策、少人数で対応できる方法をマンガで解説 セキュリティ対策の強化は待ったなしだ。",
       "date": "2026-07-29 06:43",
       "messageId": "19faaaf0d3b2b3f2"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック PC/モバイル (xtech-pcmobile@nikkeibp.co.jp)",
-      "subject": "変換候補をAIが説明する「Copilot Keyboard」／生成AI時代に重要性が高まるサンドボックス：日経クロステック PC/モバイルメール",
-      "snippet": "全固体モバイルバッテリーの電解質は難燃性／ロジクールのプレゼンター「Spotlight 2」／日本語処理に定評のある「Claude」／防犯カメラの録画中断トラブルを自力解決",
-      "date": "2026-07-29 06:05",
-      "messageId": "19faa8c45e4764c7"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック 金融DXインサイド (xtech-fdx@nikkeibp.co.jp)",
-      "subject": "日本IBM村田新社長、「変化を生み出す側」への変革の難路",
-      "snippet": "日本IBMは8月1日付で村田将輝副社長が社長に昇格する人事を発表しました。1979年生まれの46歳と異例の若さですが、次期社長として本命視されていた人物です。",
-      "date": "2026-07-29 06:01",
-      "messageId": "19faa887ef256aa9"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック AIエフェクト (xtech-aie@nikkeibp.co.jp)",
-      "subject": "AIの恩恵があるのは、高スキル人材か低スキル人材か？",
-      "snippet": "AI（人工知能）が労働市場に与える影響に関する考察が深まっています。AIが単純に人の仕事を奪うのではなく、AIが人を…",
-      "date": "2026-07-29 06:00",
-      "messageId": "19faa87a544c51e8"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス (business@nikkeibp.co.jp)",
-      "subject": "石炭火力を3年ぶりに長期販売／花王・TOTO「伝わるIR」とは - 日経ビジネス（7/29）",
-      "snippet": "最先端AIの評価機関を立ち上げよ／「ねんきん定期便」談合で自己破産。Editor's EYE 熊野信一郎 日経ビジネス編集長。",
-      "date": "2026-07-29 05:32",
-      "messageId": "19faa6d8c8649e81"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス (business@nikkeibp.co.jp)",
-      "subject": "「ねんきん定期便」談合で自己破産／マンジャロ痩身利用は認めない - 日経ビジネス（7/28）",
-      "snippet": "IR発信力が企業価値に直結／ストップ安、キオクシアはどうなる。「ねんきん定期便」談合が打撃、情報用紙の老舗がペーパーレス化進展で破産。",
-      "date": "2026-07-28 17:30",
-      "messageId": "19fa7d878eeb8c45"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT注目記事 (xtech-pickup@nikkeibp.co.jp)",
-      "subject": "石狩市でデータセンターの企業連合／日立Lumada10年の曲折と東原氏の執念：日経クロステック IT注目記事メール",
-      "snippet": "日本IBM社長に村田氏／千葉銀行など5行がマネロン検知AIを実装検討／OpenAIが競技プログラミングで人間圧倒／大阪ガスがAI駆動開発基盤を内製",
-      "date": "2026-07-28 17:12",
-      "messageId": "19fa7c8a78eb17b3"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック ウイークリー・セレクト (xtech-e@nikkeibp.co.jp)",
-      "subject": "馬頭広重美術館、再生の舞台裏　木ルーバー劣化に隈研吾氏が出した答え／ユーグレナ出雲社長、ミドリムシを推し続けた20年",
-      "snippet": "中国がスパコン性能で首位奪回／富士通メインフレームは残り約500台／試練続きの関空、毎日1億円流出のコロナ禍。",
-      "date": "2026-07-28 12:27",
-      "messageId": "19fa6c3d71121cf9"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経NETWORK倶楽部 (nnwclub@nikkeibp.co.jp)",
-      "subject": "ネットワーク技術を広く深く押さえるならネスペ試験【日経NETWORK倶楽部メール（vol.410）】",
-      "snippet": "GPU搭載ノートパソコンを買ったのに／他人事ではない家庭向けIoT機器への攻撃。日経NETWORK編集長の井上です。",
-      "date": "2026-07-28 12:16",
-      "messageId": "19fa6b9c89fc232a"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス (business@nikkeibp.co.jp)",
-      "subject": "本日19時開催　キオクシアの勢いは続くのか、メモリー市況の先行きを解説 - 日経ビジネス（7/28）",
-      "snippet": "日経ビジネスLIVEの予定をお知らせします。キオクシアホールディングスなどメモリー半導体大手の行方はこの先どうなるのでしょうか。",
-      "date": "2026-07-28 12:15",
-      "messageId": "19fa6b849b2e34cc"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT最新ニュース (xtech-news@nikkeibp.co.jp)",
-      "subject": "日本IBM社長に「本命」村田将輝氏／OpenAIが競技プログラミングで人間圧倒：日経クロステック IT最新ニュースメール",
-      "snippet": "千葉銀行など5行の次期勘定系、マネロン検知AIを実装検討／分子量子ビット、単一光子による量子制御を実現／世界半導体売上高、26年5月は前年同月比2倍",
-      "date": "2026-07-28 12:05",
-      "messageId": "19fa6afb02a9201f"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT最前線 号外 (xtech-it@nikkeibp.co.jp)",
-      "subject": "髙木美帆×坂本花織のスペシャルトークが実現！／本日開催、アドビが法務契約書業務のAI活用を解説／「AI品質部長」がダメ出し：IT最前線号外",
-      "snippet": "三井住友フィナンシャルグループ＆ライオンが基調講演「IT Japan 2026」／アドビが語る、法務の契約書業務におけるAI活用。",
-      "date": "2026-07-28 11:55",
-      "messageId": "19fa6a62708625f2"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BPセミナー (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "【9月開催】『地頭力を鍛える』著者から直接学ぶ思考の拡げ方、半日講座｜日経BP",
-      "snippet": "ベストセラー「地頭力を鍛える」の著者から直接学べる思考の拡げ方。知識や経験は年齢を重ねるごとに増えているはずなのに…",
-      "date": "2026-07-28 11:51",
-      "messageId": "19fa6a282ef60524"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BPセミナー (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "現地訪問セミナーでその秘密を学ぶ★若者に選ばれるネッツトヨタ南国　強さの理由とは？",
-      "snippet": "現地訪問でネッツトヨタ南国に学ぶ。社員幸福度が高く、採用に困らず、自然に人が成長する会社のつくり方【第4期】2026年11月25日・26日。",
-      "date": "2026-07-28 11:42",
-      "messageId": "19fa69a2eb3ce66e"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BPセミナー (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "部門や業種は不問！人的ミス再発防止に最適◆9/8開催「なぜなぜ分析」演習付きセミナー実践編",
-      "snippet": "累計受講者5000名超！ヒューマンエラー再発防止にすぐ役立つと大人気の講座です。製造や物流などのプロセスにおける様々なリスクが表面化。",
-      "date": "2026-07-28 11:37",
-      "messageId": "19fa69602fbcac6c"
     }
   ],
-  "sources": [
-    { "name": "Googleセキュリティ通知", "count": 1 },
-    { "name": "ScanNetSecurity", "count": 0 },
-    { "name": "ISACA東京支部", "count": 1 },
-    { "name": "ISC2 Japan (connect.isc2.org)", "count": 0 },
-    { "name": "日経BP系（日経クロステック／日経ビジネス／日経BP Topics ほか）", "count": 33 }
-  ],
-  "updated": "2026-07-29 07:00"
+  "updated": "2026-07-30 06:13"
 }
