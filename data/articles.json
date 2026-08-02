@@ -1,6 +1,60 @@
 {
   "articles": [
     {
+      "title": "大阪・関西万博関連ドメインの一部で起きているドロップキャッチについてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/02/165033",
+      "summary": "2026年7月29日、公益社団法人2025年日本国際博覧会協会は、過去に大阪・関西万博の関連事業で専用サイトとして使用していた複数のドメインについて「既に運用を終了しております」としたうえで、現在これらのドメインを使ったURLやメールアドレスが使われていても協会の事業とは全く関係ないと注意喚起しました。piyokangoが実際に確認したところ、旧用途とは無関係なコンテンツの表示や外部サイトへの転送",
+      "date": "2026-08-02",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "COLDCARD wallet RNG flaw likely linked to $88 million Bitcoin theft",
+      "url": "https://www.bleepingcomputer.com/news/security/coldcard-wallet-rng-flaw-likely-linked-to-88-million-bitcoin-theft/",
+      "summary": "A vulnerability in COLDCARD hardware wallet firmware allowed attackers to steal an estimated $88.6 million in Bitcoin from thousands of wallets whose seeds were generated using a flawed random number ",
+      "date": "2026-08-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Google Chrome may soon block New Tab hijacker extensions by default",
+      "url": "https://www.bleepingcomputer.com/news/google/google-chrome-may-soon-block-new-tab-hijacker-extensions-by-default/",
+      "summary": "Google is preparing a new Chrome security feature that would block policy-installed extensions from hijacking the New Tab page or changing the default search engine. [...]",
+      "date": "2026-08-02",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Atomic MacOS (AMOS) stealer infection, (Sun, Aug 2nd)",
+      "url": "https://isc.sans.edu/diary/rss/33208",
+      "summary": "Introduction&#xd;",
+      "date": "2026-08-02",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "フロンティアAIモデル登場で企業が理解すべきセキュリティのこと--ガートナーに聞く - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA1ZGQ0UmNnUjY3TG8wUkFuVEV0Tm81amhuUXpLSEhYNjZITFo1c3ZOS1diZzJjODFIbHhoNU04NVZ4VjFnc2FCcS1UM0d2LVNyMkRR?oc=5",
+      "summary": "フロンティアAIモデル登場で企業が理解すべきセキュリティのこと--ガートナーに聞く&nbsp;&nbsp;ZDNET Japan",
+      "date": "2026-08-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「DNSセキュリティはすべての基礎」福岡大学も認めるInfobloxの技術だが、なぜEASM市場へ？ - EnterpriseZine",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00cWk5RUMwaE9MN3FXamVkUGdvdjBoTzAteUxld3NDOWN3MWxERDV4eFZOYUtrc3NTRGJXY2tkWnVPUmVMSUYyRDdGNUw5WWNTV2VGWTF3?oc=5",
+      "summary": "「DNSセキュリティはすべての基礎」福岡大学も認めるInfobloxの技術だが、なぜEASM市場へ？&nbsp;&nbsp;EnterpriseZine",
+      "date": "2026-08-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "米国ミネソタ州の水道システムへのサイバー攻撃についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/08/02/021509",
       "summary": "2026年7月28日、米国ミネソタ州の情報システムを所管するMinnesota IT Services(MNIT)は、同州内の複数の地域水道システムの運用技術(OT)を標的とした協調的なサイバー攻撃があったと公表しました。給水塔や浄水場の遠隔監視・制御システムが操作不能になるなどの影響が生じ、影響を受けた自治体の一部では浄水場が一時停止しました。その後、FBI・環境保護庁(EPA)やCISAが注意",
@@ -138,7 +192,7 @@
     {
       "title": "Rakuten Driveで発生した不審な通知についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/07/31/171928",
-      "summary": "2026年7月30日、Rakuten Drive(楽天ドライブ)は公式ヘルプセンターで、同サービスから送信されたように見える不審なプッシュ通知が表示される事象について緊急調査を行っていると公表しました。翌31日には楽天モバイル株式会社も自社サイトで同事象について発表しました。両者とも利用者に対し、該当する通知やポップアップを開いたり操作したりしないよう呼びかけています。ここでは2026年7月31日",
+      "summary": "2026年7月30日、Rakuten Drive(楽天ドライブ)は公式ヘルプセンターで、同サービスから送信されたように見える不審なプッシュ通知が表示される事象について緊急調査を行っていると公表しました。翌31日には楽天モバイルも自社サイトで同事象について発表し、同日夕方の更新で、この通知が偽のGoogleログインページへ誘導したりビットコインを請求する画面を表示したりする可能性があることを明らかに",
       "date": "2026-07-31",
       "source": "piyolog",
       "language": "日本語",
@@ -271,15 +325,6 @@
       "category": "news"
     },
     {
-      "title": "Anthropic's Claude breached 3 orgs, uploaded PyPI malware during tests",
-      "url": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/",
-      "summary": "One of Anthropic's Claude models built and uploaded a malicious Python package to PyPI during a botched security evaluation, where it ran on 15 real systems and stole credentials from a security vendo",
-      "date": "2026-07-31",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "zipdump.py: Metadata Encoding, (Fri, Jul 31st)",
       "url": "https://isc.sans.edu/diary/rss/33202",
       "summary": "I was asked for help with a problem similar to the following.&#xd;",
@@ -298,18 +343,9 @@
       "category": "analysis"
     },
     {
-      "title": "サイバーセキュリティ戦略本部 - 首相官邸",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Wajd2VHpvMFpobTVBVFh6N09PYm9ZWW4wSFNaNEMyMGtTTjJhV3lwRHBITHlWcDlvVjNiRFNOcUdiT2pIdERFMGhfRUlxanZiUjBRei1jSkQwSmZ1RUNrUXVrMGtGbzlFVE9nNmlHbw?oc=5",
-      "summary": "サイバーセキュリティ戦略本部&nbsp;&nbsp;首相官邸",
-      "date": "2026-07-31",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ対策本部かたる偽メール急増、ウィルス感染おそれ 警視庁が注意喚起（産経新聞） - Yahoo!ニュース",
+      "title": "サイバーセキュリティ対策本部かたる偽メール急増、ウィルス感染おそれ 警視庁が注意喚起（産経新聞） - news.yahoo.co.jp",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBGV19KT1p3V3ExYlh0YlBLd2lWaFpXV0RiSHF4NVhZWERrYnBXb3lKaVlIdnlzTy1peWJFNWkzYWJkbTlabmktRjhGSUdOOTVlaEdBaml3OEI3TW93OEdkcUM4SWstMHJ3bjE0UU8wdTZtVjhCQ2xvZTAtaFA2UG8?oc=5",
-      "summary": "サイバーセキュリティ対策本部かたる偽メール急増、ウィルス感染おそれ 警視庁が注意喚起（産経新聞）&nbsp;&nbsp;Yahoo!ニュース",
+      "summary": "サイバーセキュリティ対策本部かたる偽メール急増、ウィルス感染おそれ 警視庁が注意喚起（産経新聞）&nbsp;&nbsp;news.yahoo.co.jp",
       "date": "2026-07-31",
       "source": "Google News JP",
       "language": "日本語",
@@ -325,9 +361,27 @@
       "category": "news"
     },
     {
-      "title": "GMOサイバーセキュリティ byイエラエ、「DEF CON Aerospace Village」で衛星ハッキング体験コンテンツを展示 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aUjVneDNfMUx6NXZtanhvZ05JWXZkcW9rcVdhZW15ZGdXM3JrR3loUnVGRmUydC01X1ozOU9PaC1TM2tnMkdyRms1c1JKcHhMQ1Rray1KZy1OdDM0LW5TbmxUZ2NVOVRNMFE?oc=5",
-      "summary": "GMOサイバーセキュリティ byイエラエ、「DEF CON Aerospace Village」で衛星ハッキング体験コンテンツを展示&nbsp;&nbsp;PR TIMES",
+      "title": "AIはサイバー攻撃の“支援者”から“実行者”へ--チェック・ポイント、「AIセキュリティレポート」 - news.yahoo.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93WFBtcXNaRmhiRXJMMWU0aVg4SFJJWWswdnR6VS1yV1lobS1qc0hhLTFBNEV1RXppLWg2V1NkQktTUi1wZlllMzhQWER5WjhzX2dfWTJkWk00VjJ5d1Ayd0lSS2NMQVctTXo3QnRmWXZEZXZvMEEzeXRMNk5JeE0?oc=5",
+      "summary": "AIはサイバー攻撃の“支援者”から“実行者”へ--チェック・ポイント、「AIセキュリティレポート」&nbsp;&nbsp;news.yahoo.co.jp",
+      "date": "2026-07-31",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "政府がサイバーセキュリティに新方針「脅威ハンティング」を柱に - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBuajJrWTF5b09UTlV5ZkRaQnRPM3VwbkNaN0c0MGFiX1ZNbzlRX0thcEVkZ0tTMkpXeVRyZDdWc0hTaWZlTTF3aUpfLU1KN2RRMGxPUXBSTQ?oc=5",
+      "summary": "政府がサイバーセキュリティに新方針「脅威ハンティング」を柱に&nbsp;&nbsp;TBS NEWS DIG",
+      "date": "2026-07-31",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ戦略本部 - 首相官邸",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Wajd2VHpvMFpobTVBVFh6N09PYm9ZWW4wSFNaNEMyMGtTTjJhV3lwRHBITHlWcDlvVjNiRFNOcUdiT2pIdERFMGhfRUlxanZiUjBRei1jSkQwSmZ1RUNrUXVrMGtGbzlFVE9nNmlHbw?oc=5",
+      "summary": "サイバーセキュリティ戦略本部&nbsp;&nbsp;首相官邸",
       "date": "2026-07-31",
       "source": "Google News JP",
       "language": "日本語",
@@ -343,27 +397,9 @@
       "category": "news"
     },
     {
-      "title": "基調講演に名和 利男 氏・辻 伸弘 氏が登壇！ MOTEX、サイバーセキュリティイベント「LANSCOPE DAYS.2026 SUMMER」を9月17日（木）にオンライン開催 - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9wRTFPYU1wU1FGdGNGOC0xWlpkOVhfVktwUFdNLVh2cFhjbVViNFlLbUI3b1RhejhzM3kwd0N0bUJiZS1hUTlZdjAwNV8wRnVrOUtsc09WUkpZTTZoUktWWE1PNm5pYU1odXc4c25mTFo1MmNi?oc=5",
-      "summary": "基調講演に名和 利男 氏・辻 伸弘 氏が登壇！ MOTEX、サイバーセキュリティイベント「LANSCOPE DAYS.2026 SUMMER」を9月17日（木）にオンライン開催&nbsp;&nbsp;Excite エキサイト",
-      "date": "2026-07-31",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "政府がサイバーセキュリティに新方針「脅威ハンティング」を柱に（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1qSzdTdHA4MGpMVnZNc05VblJNZkVidXAzOExGQ0xVbzV6SXN0LXpTblRtcUQ1aW1kTExqNUYxaUZaV1dxMm5STDZMS1FWX3JFRjdHbFNISkRvemo2aVgzeUUwSnNDWjdrdXhkRkh3NjY1Q0NpbVNCNGhMMmtiaXc?oc=5",
-      "summary": "政府がサイバーセキュリティに新方針「脅威ハンティング」を柱に（TBS NEWS DIG Powered by JNN）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-07-31",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIはサイバー攻撃の“支援者”から“実行者”へ--チェック・ポイント、「AIセキュリティレポート」 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93WFBtcXNaRmhiRXJMMWU0aVg4SFJJWWswdnR6VS1yV1lobS1qc0hhLTFBNEV1RXppLWg2V1NkQktTUi1wZlllMzhQWER5WjhzX2dfWTJkWk00VjJ5d1Ayd0lSS2NMQVctTXo3QnRmWXZEZXZvMEEzeXRMNk5JeE0?oc=5",
-      "summary": "AIはサイバー攻撃の“支援者”から“実行者”へ--チェック・ポイント、「AIセキュリティレポート」&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "「AlmaLinux 9.2」がセキュリティ認証取得、企業の“OS選定”にどう影響する？ - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fdHUxdk50ZHFWZGM2Zk5CeEpNcGNBOVBva3hOelZ6Ynh3V2lTcHNEVDB6c2lqTHN3aFZVdV9PcjItQy1qcERyNThTTGQtNFRjdFFGaThsa2txMFVkbGMyUV9xelc5WWtadFZEaUFfMElHdw?oc=5",
+      "summary": "「AlmaLinux 9.2」がセキュリティ認証取得、企業の“OS選定”にどう影響する？&nbsp;&nbsp;ITmedia",
       "date": "2026-07-31",
       "source": "Google News JP",
       "language": "日本語",
@@ -420,15 +456,6 @@
       "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user'",
       "date": "2026-07-30",
       "source": "Krebs on Security",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "South Korea fines telco giant KT $39 million for customer data breach",
-      "url": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/",
-      "summary": "South Korea's Personal Information Protection Commission (PIPC) has fined telecommunications giant KT Corporation KRW 53.979 billion ($39 million) over data protection violations. [...]",
-      "date": "2026-07-30",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -595,15 +622,6 @@
       "category": "analysis"
     },
     {
-      "title": "なぜ対策を重ねても被害が減らないのか - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1SFBTQkJjZ0RlTk5tVkFYSU8yZkRRLUxEVEQwQWNUbTIwbUloOTNoODVnMFdNQ2JjU1Y1Zm16RHJQTmJPUUcxVkFZNm9hLURsdUFr?oc=5",
-      "summary": "なぜ対策を重ねても被害が減らないのか&nbsp;&nbsp;ZDNET Japan",
-      "date": "2026-07-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "OpenAIのAIモデルが自律的に行ったとされるサイバー攻撃についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/07/29/051323",
       "summary": "OpenAIは2026年7月21日、評価中の自社AIモデルがテスト環境から抜け出し、Hugging Faceのシステムへ侵入していたことを確認したと公表しました。Hugging Faceはこれに先立つ同月16日、自律型AIエージェントによるとみられる侵入を検知・対応していたことを公式に開示していました。OpenAIとHugging Face CEOはこれを「前例のない」自律的サイバー攻撃と位置づけ",
@@ -626,15 +644,6 @@
       "url": "https://isc.sans.edu/diary/rss/33190",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "date": "2026-07-28",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "Java Spring Boot \"heapdump\" scans, (Mon, Jul 27th)",
-      "url": "https://isc.sans.edu/diary/rss/33188",
-      "summary": "Spring Boot exposes the endpoint \"/actuator/heapdump\" to collect debug information. By default, the endpoint will return a file heapdump.hprof, which includes a binary heapdump that can be used to ana",
-      "date": "2026-07-27",
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
@@ -680,15 +689,6 @@
       "url": "https://piyolog.hatenadiary.jp/entry/2026/07/18/191222",
       "summary": "2026年7月18日、佐川急便株式会社は、会員制Webサービス「スマートクラブ」の配達予定通知メールで、利用者本人の画面に別の利用者の氏名・メールアドレス等が表示される事象が発生し、約7万人の個人情報に影響が及んだ可能性があると公表しました。ここでは関連する情報をまとめます。 配達予定通知メールに別人の情報が表示 佐川急便は2026年7月15日夕方頃、会員制Webサービス「スマートクラブ」の配達予",
       "date": "2026-07-18",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
-      "title": "Amazon CloudFrontの障害についてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/07/17/142812",
-      "summary": "2026年7月16日夕方、Amazon Web Services(AWS)のコンテンツ配信サービス「Amazon CloudFront」で障害が発生しました。PayPayなど、自社基盤への影響を確認・公表した事業者が国内外に見られたほか、ニコニコなど同じ時間帯に不具合が生じたサービスもありました。AWSは障害の原因について、CloudFront内部でVPC Originsへの接続を処理するサーバー",
-      "date": "2026-07-17",
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/8/2 6:21:42"
+  "updated": "2026/8/3 6:21:45"
 }
