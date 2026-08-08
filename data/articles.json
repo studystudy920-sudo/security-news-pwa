@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+      "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+      "summary": "Attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data that a signed-in user can access, then send it to an outside server. Two security firms found that ",
+      "date": "2026-08-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+      "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+      "summary": "New research shows content inside an email can escape its message boundary and interfere with the webmail interface. Across attack chains spanning Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail, an",
+      "date": "2026-08-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
+      "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
+      "summary": "Metabase has warned that a maximum-severity security flaw impacting its business intelligence and data visualization software package has been exploited in the wild as a zero-day. The vulnerability (C",
+      "date": "2026-08-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
+      "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
+      "summary": "N-able has released a fresh round of hotfixes for N‑central as part of its investigation into ongoing exploitation of a recently disclosed security flaw in the Remote Monitoring and Management (RMM) p",
+      "date": "2026-08-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
+      "url": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a critical-severity security flaw impacting Progress Kemp LoadMaster to its Known Exploited Vulnerabilities (KEV) catal",
+      "date": "2026-08-08",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers breach TrueConf to trojanize client installers with backdoors",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-trueconf-to-trojanize-client-installers-with-backdoors/",
+      "summary": "The Head Mare hacktivist group has been exploiting vulnerabilities in unpatched TrueConf video conferencing servers to replace client installers with malicious versions that deliver backdoors. [...]",
+      "date": "2026-08-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "dissecto、HydraVisionにエージェント型AIワークフローを導入し、サイバーセキュリティ検証を加速 - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkeWVydnUtTE82UmpUVzFGY1NtOE5Rem10Ui1wR2JCOHlJNFIzM3RXenljLTZRNEdqUkZYNjlySVBzTURHNzhmNlR0aW5PRmNJUjlYMkV2eUROTThrRHpWVDdpSllnTzVJaVdN?oc=5",
+      "summary": "dissecto、HydraVisionにエージェント型AIワークフローを導入し、サイバーセキュリティ検証を加速&nbsp;&nbsp;時事ドットコム",
+      "date": "2026-08-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "有価証券報告書の中で47％の企業が「サイバー攻撃」に言及 AIがセキュリティ上の脅威に（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ZYXVNMTZpN0R5ejZHcWVidk9RWHlhamRsQ3pyUXB1UTg2VDkyTVJkRmNzNGItTnVQLVZsR25IMk1yUGNhck1pTGpMeDFjSThIbnVsNThrLVpCMVRpNnFVZkxUNjQ0a0ZEbFVMVFpBNjVqaHpRUzdUSEZGMG5aMjg?oc=5",
+      "summary": "有価証券報告書の中で47％の企業が「サイバー攻撃」に言及 AIがセキュリティ上の脅威に（TBS CROSS DIG with Bloomberg）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-08-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "OpenSSLのOCSPレスポンス検証におけるクライアント側のメモリリークの脆弱性（CVE-2026-54876）",
       "url": "https://jvn.jp/vu/JVNVU92139835/",
       "summary": "OpenSSL ProjectからOpenSSL Security Advisory [5th August 2026]が公開されました。",
@@ -57,7 +129,7 @@
     {
       "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
       "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-      "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services is attributed to a data extortion group known as UNC6671. \"UNC6671 continues to rely on voice phi",
+      "summary": "A recent wave of cyber attacks targeting financial services, private equity, and professional services has been attributed to a data extortion group known as UNC6671. \"UNC6671 continues to rely on voi",
       "date": "2026-08-07",
       "source": "The Hacker News",
       "language": "英語",
@@ -76,51 +148,6 @@
       "title": "Growing Up The Hard Way",
       "url": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
       "summary": "Open Source had a great childhood. For two decades it got to be a kid. It ran around barefoot, gave everything away, trusted strangers, and never once thought about who was watching. It ran the kind o",
-      "date": "2026-08-07",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
-      "url": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-      "summary": "A use-after-free bug in Linux's SCTP networking code can be turned into full root on a host, and Tencent researchers say they used it to escape a container and reach the machine underneath. The flaw h",
-      "date": "2026-08-07",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-      "url": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-      "summary": "Security researcher Malcolm Stagg has disclosed a new attack class called&nbsp;NatJack&nbsp;that manipulates network address translation (NAT) connection state to hijack active TCP sessions, spoof DNS",
-      "date": "2026-08-07",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-      "url": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-      "summary": "Cybersecurity researchers have called attention to an active \"widespread email-driven phishing campaign\" that employs adversary-in-the-middle (AitM) techniques to take control of Microsoft 365 account",
-      "date": "2026-08-07",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-      "url": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-      "summary": "PortSwigger says HTTP Terminator, an artificial intelligence (AI)-assisted research system built by James Kettle, generated and proved new HTTP desynchronization techniques after exploring 30,000 cand",
-      "date": "2026-08-07",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-      "url": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-      "summary": "Entra ID researcher Dirk-jan Mollema demonstrated that malware already running in a signed-in Windows session can silently use the victim's Windows Hello for Business key to authenticate to Microsoft ",
       "date": "2026-08-07",
       "source": "The Hacker News",
       "language": "英語",
@@ -208,6 +235,24 @@
       "category": "alert"
     },
     {
+      "title": "中国製ルータ20機種に「隠しバックドア」、世界10万台超か…35秒ごとに外部通信判明 - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkVUF1aDE0TGpTZWNOS196TVdLR2MtTHV3UnQ2Q1R0WnBpN1V1dHJnTHNpV3ZmUDg4dkYyb3llak5ReU5WcWFGOUNyeDlIcTFNa1RJ?oc=5",
+      "summary": "中国製ルータ20機種に「隠しバックドア」、世界10万台超か…35秒ごとに外部通信判明&nbsp;&nbsp;ビジネス+IT",
+      "date": "2026-08-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "中国製ルーター20機種で情報盗むためのバックドア見つかる 米セキュリティー会社発表｜Infoseekニュース - news.infoseek.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBmeW1XNWxneUZ0ZE5INWhFYWJobVlMeHgtelNnb2pMNzV5S3M5RTlUMHdTWm5EMEk4ZjFMMUdvVk12TnZWRi15LVE5dWttMkNWRnhKUzhXSTAxQ2p5Z1dIVFlnSDk?oc=5",
+      "summary": "中国製ルーター20機種で情報盗むためのバックドア見つかる 米セキュリティー会社発表｜Infoseekニュース&nbsp;&nbsp;news.infoseek.co.jp",
+      "date": "2026-08-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "企業社員を標的に音声フィッシングを繰り返し、複数のデータ漏えいサイトを使い分けて恐喝する脅威アクター「UNC6671」についてGoogleのサイバーセキュリティ部門が報告 - GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaUllT1dKN2gyUG56X0tqMFdvT2hzSnNqby1oT1NLcjJnVS1DeEVqWDVOM2dzN3ZRNDI1Rk1JUktEakZ1NDY3NDFHalFOTkFadXFyalJtd1VNLW8zejRNcUt3S0dZV1hJdFBsVGxYcGkzVHU5S1FPUXg2b3V2aDBKbC1KTXNhcUs3bFE?oc=5",
       "summary": "企業社員を標的に音声フィッシングを繰り返し、複数のデータ漏えいサイトを使い分けて恐喝する脅威アクター「UNC6671」についてGoogleのサイバーセキュリティ部門が報告&nbsp;&nbsp;GIGAZINE",
@@ -217,18 +262,18 @@
       "category": "news"
     },
     {
-      "title": "メタAI、評価中に外部サービスの脆弱性を悪用 - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xTGZrNG9DeUxadjZnOTF5N01xMjlGdmE1SEVUZlZXWnBnajBUenZka3Vvc3QtZ2p5RmF1YVZudXRrRTFDcE1CZ0loT2c0eU51RlRJ?oc=5",
-      "summary": "メタAI、評価中に外部サービスの脆弱性を悪用&nbsp;&nbsp;ビジネス+IT",
+      "title": "OpenAI、次期モデル「Astra」の一部開発を停止 「Critical」級サイバー能力の可能性否定できず（ITmedia NEWS） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UQTU3SXRwOUJCVWExR1N5ZHBDbVZfbzBUXy1NVUVGMEVWazVfdm5hc1JNeWZVdUxzVUVoMlJNZDB2QjI5d1gzaUduSVlNckthWFdEM09RQkVUR0xDUWRfNXp3RlZwcHpLeVo2UHlVaEdzTHc4MWVSOVZESEFzc00?oc=5",
+      "summary": "OpenAI、次期モデル「Astra」の一部開発を停止 「Critical」級サイバー能力の可能性否定できず（ITmedia NEWS）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-08-07",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "dissecto、HydraVisionにエージェント型AIワークフローを導入し、サイバーセキュリティ検証を加速 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBkeWVydnUtTE82UmpUVzFGY1NtOE5Rem10Ui1wR2JCOHlJNFIzM3RXenljLTZRNEdqUkZYNjlySVBzTURHNzhmNlR0aW5PRmNJUjlYMkV2eUROTThrRHpWVDdpSllnTzVJaVdN?oc=5",
-      "summary": "dissecto、HydraVisionにエージェント型AIワークフローを導入し、サイバーセキュリティ検証を加速&nbsp;&nbsp;時事ドットコム",
+      "title": "ChatGPTユーザー4割が離脱 プライバシーを守るイノベーションがネット利用を変革している - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb2NPeG9RMUFKcWluQ0U2cjFYcXV1RWVWbzZ0YnVRZmxoMkpicFhvMzI5SEdIVVJOMUZIMFV0TVVDQ1lpOVVEeUdwQlFaVjJDcFRrLVJMX0xwZFdCOXhRbVlIM3hqbnVKMlVpWUJrT3FDWldza2tDaG9kVjZSeE1EVXdNOXFqbFFl?oc=5",
+      "summary": "ChatGPTユーザー4割が離脱 プライバシーを守るイノベーションがネット利用を変革している&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-08-07",
       "source": "Google News JP",
       "language": "日本語",
@@ -289,15 +334,6 @@
       "category": "news"
     },
     {
-      "title": "New TONTOU CPU attack bypasses Spectre v2 fixes, leaks Linux password hashes",
-      "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/",
-      "summary": "Researchers found a way to bypass recent mitigations for Spectre v2 speculative execution side-channel attacks and developed an exploit to leak secrets from Linux machines. [...]",
-      "date": "2026-08-06",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Thursday, August 6th, 2026 https://isc.sans.edu/podcastdetail/10040, (Thu, Aug 6th)",
       "url": "https://isc.sans.edu/diary/rss/33222",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -352,36 +388,9 @@
       "category": "news"
     },
     {
-      "title": "売れるネット広告社グループ（9235）、サイバーセキュリティの新サービス『セキュリティハッキング診断』を提供開始！～AI時代の新リスクに、攻撃者視点の実践的な脆弱性診断で応答～ - 写真・画像(1/1) - 西日本新聞me",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9fUWZGN0ZqanJQT1N1RUVrVVlyY1QxX0pfYUctdFJ6QzJ4M0dBblpVUVFuNXBxMFNRRGFicHFKSkVNSGlub1djQml0dEtPRnBEVmxNMHdURQ?oc=5",
-      "summary": "売れるネット広告社グループ（9235）、サイバーセキュリティの新サービス『セキュリティハッキング診断』を提供開始！～AI時代の新リスクに、攻撃者視点の実践的な脆弱性診断で応答～ - 写真・画像(1/1)&nbsp;&nbsp;西日本新聞me",
-      "date": "2026-08-06",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "セキュリティ人材の実践的育成に強み--英Hack The Box、日本市場で展開強化 - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4yTDd4MXhST2wyd0FSMXNlNGRHZHhId3FBY3RTTVFBcFVPU2pLWExHbW5hLWZGcVNzVFZpaVE2MTFQVmJUeDRGcE9mT2ZFMHk4V25z?oc=5",
-      "summary": "セキュリティ人材の実践的育成に強み--英Hack The Box、日本市場で展開強化&nbsp;&nbsp;ZDNET Japan",
-      "date": "2026-08-06",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "売れるネット広告社グループ[9235]：サイバーセキュリティの新サービス『セキュリティハッキング診断』を提供開始！～AI時代の新リスクに、攻撃者視点の実践的な脆弱性診断で応答～ 2026年8月6日(適時開示) ：日経会社情報DIGITAL - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VMFNjY1V2Ql9XRkswbkZXcW1yeEg2dThyX09scjVWRHZJS2w2cmZuRS01cmVaNEFDanlISWlCWG01ckZTRDJHaVpON1R4SVNOM1hvRElER3k1UzZLbV81MjhBaFFBM0F0Snc?oc=5",
-      "summary": "売れるネット広告社グループ[9235]：サイバーセキュリティの新サービス『セキュリティハッキング診断』を提供開始！～AI時代の新リスクに、攻撃者視点の実践的な脆弱性診断で応答～ 2026年8月6日(適時開示) ：日経会社情報DIGITAL&nbsp;&nbsp;日本経済新聞",
-      "date": "2026-08-06",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Deel、AIサイバーセキュリティの先駆企業Clarityを買収AI時代に対応した人材認証・セキュリティ基盤の構築を加速 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8xMVE2MnlJb0IxUVNxZTFmMWVCeWtlUzZBNXpYcUh0bmFyVUVYS1NqMXJvXzFnNXZ1UkwyS19pdE9peHk2eHR2V0NOaHd2WGNHelBsYlVxNWxKWi01MFQ2dV81SHk4VTJ3WUdOWjhzelhLSS1RTk0tNno5QQ?oc=5",
-      "summary": "Deel、AIサイバーセキュリティの先駆企業Clarityを買収AI時代に対応した人材認証・セキュリティ基盤の構築を加速&nbsp;&nbsp;産経ニュース",
+      "title": "売れるネット広告社グループ（9235）、サイバーセキュリティの新サービス『セキュリティハッキング診断』を提供開始！～AI時代の新リスクに、攻撃者視点の実践的な脆弱性診断で応答～ - 西日本新聞me",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5fUmk0YzFobnBzWnZrYktPdWwyeEp2a1ZOTGhkczJwbFRPUHpFQ0w3TGtGc0FmT2RaZGE1ck5MejV6SERQd0ZXZmJ5N01DM3M0Q051cGV3?oc=5",
+      "summary": "売れるネット広告社グループ（9235）、サイバーセキュリティの新サービス『セキュリティハッキング診断』を提供開始！～AI時代の新リスクに、攻撃者視点の実践的な脆弱性診断で応答～&nbsp;&nbsp;西日本新聞me",
       "date": "2026-08-06",
       "source": "Google News JP",
       "language": "日本語",
@@ -521,15 +530,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "あなたに合う「セキュリティのお仕事」を探そう！学生＆転職者向けサイバーセキュリティ職種診断ツールが本日公開！ - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vM21lTXZwRGc1eUtEcUJESkpiTUNYX2tlU25PaVZYcXJGUDdlSFNabTFnRl9yTXNrdXVXRzVmLWRDVWk0RHF2RGNHOGxGWVhSX0xJNnhfMVNLclhzb1ZXNXNQNFVQVk5meGc?oc=5",
-      "summary": "あなたに合う「セキュリティのお仕事」を探そう！学生＆転職者向けサイバーセキュリティ職種診断ツールが本日公開！&nbsp;&nbsp;PR TIMES",
-      "date": "2026-08-04",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "注意喚起: Ruby on RailsのActive Storageにおけるリモートコード実行につながる脆弱性（CVE-2026-66066）に関する注意喚起 (更新)",
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/8/8 6:47:26"
+  "updated": "2026/8/9 6:37:03"
 }
