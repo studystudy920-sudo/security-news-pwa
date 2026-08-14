@@ -1,6 +1,141 @@
 {
   "articles": [
     {
+      "title": "注意喚起: MetabaseのSQLインジェクションの脆弱性（CVE-2026-72898）に関する注意喚起 (公開)",
+      "url": "https://www.jpcert.or.jp/at/2026/at260023.html",
+      "summary": "",
+      "date": "2026-08-14",
+      "source": "JPCERT/CC",
+      "language": "日本語",
+      "category": "alert"
+    },
+    {
+      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年08月13日）",
+      "url": "https://jvn.jp/vu/JVNVU97860021/",
+      "summary": "2026年08月13日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
+      "date": "2026-08-14",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "アジア政府機関を標的にした多エージェントAI攻撃フレームワークについてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/14/115527",
+      "summary": "イスラエルのセキュリティ企業Dream Securityは2026年8月12日、アジアの政府機関を標的に、2つのオープンソースAIエージェント基盤上に構築された近自律的な攻撃フレームワークを解析したとするレポートを公表しました。*1 ここでは関連する情報をまとめます。 HermesとOpenClawを転用した多エージェント攻撃フレームワーク Dreamの観測によれば、攻撃フレームワークはHerme",
+      "date": "2026-08-14",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "Who&#8217;s Tracking You? Use This New Service to Find Out",
+      "url": "https://krebsonsecurity.com/2026/08/whos-tracking-you-use-this-new-service-to-find-out/",
+      "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but",
+      "date": "2026-08-14",
+      "source": "Krebs on Security",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers arrested over €30M bank fraud exploiting service provider flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/",
+      "summary": "Four cybercriminals were arrested in Brazil, and three others were charged in Europe over allegations that they exploited a vulnerability at a service provider, allowing them to withdraw funds from Co",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers exploit macOS Screen Sharing flaw to deploy Monero miner",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/",
+      "summary": "The Netherlands' National Cyber Security Centre (NCSC) is warning that hackers are actively exploiting a macOS authentication bypass vulnerability after public exploit code emerged. [...]",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "The Modern Attack Chain: Rethinking Google Workspace Security in the Age of AI",
+      "url": "https://www.bleepingcomputer.com/news/security/the-modern-attack-chain-rethinking-google-workspace-security-in-the-age-of-ai/",
+      "summary": "Google Workspace attacks do not always begin with phishing. Stolen OAuth tokens can provide another path into Gmail, Drive, and connected systems. Material Security explains why organizations need def",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Max severity SAP Commerce Cloud flaw now targeted in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/",
+      "summary": "A maximum-severity SAP Commerce Cloud remote code execution vulnerability patched three days ago is already being targeted in attacks, according to threat intelligence company Defused. [...]",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Shell investigates 'potential incident' after Clop data theft claims",
+      "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/",
+      "summary": "Oil giant Shell has confirmed it is investigating a potential security incident after the Clop ransomware gang claimed it stole 89GB of data. [...]",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "RingCentral data breach exposed info of 1.6 million accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
+      "summary": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Data analyst sent to prison for stealing data, extorting employer",
+      "url": "https://www.bleepingcomputer.com/news/security/data-analyst-sent-to-prison-for-stealing-data-extorting-employer/",
+      "summary": "A former data analyst contractor for Brightly Software has been sentenced to two years in prison for targeting his employer in a $2.5 million extortion scheme. [...]",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Apple sends new ‘Threat Notification’ alerts over mercenary spyware attacks",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/",
+      "summary": "You're not alone if you just received an \"Apple Threat Notification\" saying it detected a \"mercenary spyware attack targeted at your iPhone.\" [...]",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ISC Stormcast For Friday, August 14th, 2026 https://isc.sans.edu/podcastdetail/10052, (Fri, Aug 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33246",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-08-14",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "自動車サイバーセキュリティ市場：セキュリティの種類、コンポーネントの種類、車種、導入形態、エンドユーザー別―2026年～2032年の世界市場予測 | 株式会社グローバルインフォメーション - アットプレス",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE52dlR1bVNfZjA4OGNicTNTb29ONWpKemlqeHJLeWJsOHUxeUl6YnNMSWFpaTJRUGVxMUNROThIS0dSSFZzdGZkNWVPX0ZSU2M?oc=5",
+      "summary": "自動車サイバーセキュリティ市場：セキュリティの種類、コンポーネントの種類、車種、導入形態、エンドユーザー別―2026年～2032年の世界市場予測 | 株式会社グローバルインフォメーション&nbsp;&nbsp;アットプレス",
+      "date": "2026-08-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキ - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15bWN6U2xQN3lmV1ZHbFR0NGVRdTV5S3VweEQ5LTVJU0JhSlJodUl4OG0zTllqaDFTWTZ1djJyNVFsclNieENFTjJEX180QVI0dkZmdG5SZmFZMTVUclJiT1V3bm53cTJSTmc?oc=5",
+      "summary": "サイバーセキ&nbsp;&nbsp;日本経済新聞",
+      "date": "2026-08-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "お知らせ：CyberNewsFlash「JetBrains TeamCity（オンプレミス版）におけるリモートコード実行につながる脆弱性（CVE-2026-63077）について」",
       "url": "https://www.jpcert.or.jp/newsflash/2026081301.html",
       "summary": "",
@@ -58,78 +193,6 @@
       "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
       "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
       "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers breach govt webmail while running parallel crypto fraud",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-govt-webmail-while-running-parallel-crypto-fraud/",
-      "summary": "The Jewelbug hacker group has been carrying out espionage operations targeting governments and militaries while also engaging in cryptocurrency fraud. [...]",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft patches LegacyHive Windows zero-day vulnerability",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/",
-      "summary": "Microsoft has released security patches to address a Windows zero-day vulnerability known as \"LegacyHive,\" disclosed after the July 2026 Patch Tuesday. [...]",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "AI 'watermark removers' flood the web. Almost none can prove they work.",
-      "url": "https://www.bleepingcomputer.com/news/security/ai-watermark-removers-flood-the-web-almost-none-can-prove-they-work/",
-      "summary": "Multiple 'watermark removers' have surfaced days after Anthropic began watermarking text generated by Claude, including an open source project with over 4,500 GitHub stars and paid AI detection evasio",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Critical VMware vCenter RCE flaw exploited for reverse SSH access",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/",
-      "summary": "A recently patched critical vulnerability (CVE-2026-59310) in VMware vCenter Syslog Server is being exploited in an active campaign to deploy a reverse SSH tool for persistence and remote access. [...",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Trezor discloses data breach affecting nearly 14,000 customers",
-      "url": "https://www.bleepingcomputer.com/news/security/trezor-discloses-data-breach-affecting-nearly-14-000-customers/",
-      "summary": "Hardware wallet manufacturer Trezor disclosed a data breach affecting nearly 14,000 of its customers after ShipMonk, its shipping and logistics provider, was hacked [...]",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
-      "url": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
-      "summary": "AI coding tools can introduce unvetted or hallucinated open source dependencies faster than traditional security reviews can keep pace. ActiveState explains why organizations should govern packages at",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "White House taps security firms for offensive hack-back operations",
-      "url": "https://www.bleepingcomputer.com/news/security/white-house-taps-security-firms-for-offensive-hack-back-operations/",
-      "summary": "A new White House memo signed by U.S. President Donald Trump instructs the National Coordination Center (NCC) to establish a program that would allow private security companies to apply for approval t",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "WhatsApp rolls out new feature that flags potential scam messages",
-      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-rolls-out-new-feature-that-flags-potential-scam-messages/",
-      "summary": "WhatsApp has begun rolling out a new optional \"Scam Alert\" feature, which uses a local machine learning model to warn users when scammers are targeting them. [...]",
       "date": "2026-08-13",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -244,36 +307,27 @@
       "category": "alert"
     },
     {
+      "title": "サイバーセキュリティクラウド 中小企業におけるサプライチェーン攻撃対策 Webサーバー防御と継続的な脆弱性管理 - 週刊BCN＋",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xY0NieEJyQUVnRDRIdk9SR3lVemdnVU9QQjE0cjVjdDJDZVctN2hHMzFacF9NblFwNmJJZDNMYmF4VFdueVlDX2MwUjlPUXlOQ3EwbmV0NjlFai12UmN2V1RhWU1JNE9lRUtfOGU1Ylh6LUFSUnc?oc=5",
+      "summary": "サイバーセキュリティクラウド 中小企業におけるサプライチェーン攻撃対策 Webサーバー防御と継続的な脆弱性管理&nbsp;&nbsp;週刊BCN＋",
+      "date": "2026-08-13",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ市場：構成要素、セキュリティの種類、組織規模、導入モデル、業界別―2026年～2032年の世界市場予測 - Newscast.jp",
+      "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBEZks5ZU9YUkdIc1p2b2tmSUJUdjZRbW9RZTlfUjJCbDAzTzdCWnlvdWR3X2RSQkpaY2xPQUtFdnpYbXN4T2t3?oc=5",
+      "summary": "サイバーセキュリティ市場：構成要素、セキュリティの種類、組織規模、導入モデル、業界別―2026年～2032年の世界市場予測&nbsp;&nbsp;Newscast.jp",
+      "date": "2026-08-13",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "サイバーセキュリティの次なる最前線、「行動の背後にいる人間」を検証する - Forbes JAPAN",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15NmJPNGFET3BsTWJEcUhRTWYxOU1BREtVYnNqRnRIek02WUstd0lPcW5xOUl3V2F6cy1uWVhlaEN5dFRVRzVld01wTGR2STRLVXNwbzdBdk1JQQ?oc=5",
       "summary": "サイバーセキュリティの次なる最前線、「行動の背後にいる人間」を検証する&nbsp;&nbsp;Forbes JAPAN",
-      "date": "2026-08-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Cyble、2026年版「Inc. 5000」で576位、ARRはわずか2年余りで3倍超に増加 - CNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE83UHo3NzZfZllRYUhHdzdVQmRZV1Zfai1BN1A2ZWpfR1hGMFBtOHdkTDF2WHIyU3lfU1FremItcnRCR0ZSWjVsWjFHRV9PNnFWZGc?oc=5",
-      "summary": "Cyble、2026年版「Inc. 5000」で576位、ARRはわずか2年余りで3倍超に増加&nbsp;&nbsp;CNET Japan",
-      "date": "2026-08-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "Agentic AI時代のサイバー脅威に共同防衛で備える「AironWorks Frontliners 2026」カンファレンス開催決定 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MQXAyb1NlZU5QNWtDejQwZEx0cy1vSklnLV9BUUVQWEEtaGpLRzBabk1vVnIzM2JoWExUV3JRV1FFTndRNmJyeHI5QWlJcEhZSjdiWk1iT05ITzFLaXZhaGczdkFJc2pnRGxJ?oc=5",
-      "summary": "Agentic AI時代のサイバー脅威に共同防衛で備える「AironWorks Frontliners 2026」カンファレンス開催決定&nbsp;&nbsp;時事ドットコム",
-      "date": "2026-08-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ市場：構成要素、セキュリティの種類、組織規模、導入モデル、業界別―2026年～2032年の世界市場予測 - アットプレス",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hQ3NHODBuUFQ5aU96azhwU1RJQ0lFUWRQQy10Q1U3b3ZncXVhT0VWVGthcDFNN0RRQzRodFNBYWRtTjlmd2szMVFQS2FSc2c?oc=5",
-      "summary": "サイバーセキュリティ市場：構成要素、セキュリティの種類、組織規模、導入モデル、業界別―2026年～2032年の世界市場予測&nbsp;&nbsp;アットプレス",
       "date": "2026-08-13",
       "source": "Google News JP",
       "language": "日本語",
@@ -442,24 +496,6 @@
       "category": "news"
     },
     {
-      "title": "OpenAIがサイバーセキュリティ特化AI「GPT-5.6 Cyber」を発表＆「GPT-5.6 Solのセーフガード未適用版」をセキュリティ研究者向けに提供開始 - GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YSTNzbmkwSlNQdXFyWlJ3dUMzZFFIRmJ1Mm5fWTFCYzAxdmd1YlkzZTY3cXlvU1hQOXNFTHNUR1F4QkRtNmRSbno2VTBPQzVPZ3h1Nmhxd1lFMFRKc3c?oc=5",
-      "summary": "OpenAIがサイバーセキュリティ特化AI「GPT-5.6 Cyber」を発表＆「GPT-5.6 Solのセーフガード未適用版」をセキュリティ研究者向けに提供開始&nbsp;&nbsp;GIGAZINE",
-      "date": "2026-08-12",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "医療機器サイバーセキュリティソリューション市場、セキュリティ態勢の自動評価がイノベーションを促進し成長 - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qNXFKNnN5eGs2WHo4RXRTS18yZm1MN2prTTJfT3NaRlNNdlNGUG9mbER4bWhsTFEzcl9udTF2aGh2eFpfbmZDSUt0ajZXRGxIS2k3NDlab0dRNTJVZWd0Q0ppbw?oc=5",
-      "summary": "医療機器サイバーセキュリティソリューション市場、セキュリティ態勢の自動評価がイノベーションを促進し成長&nbsp;&nbsp;ライブドアニュース",
-      "date": "2026-08-12",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "Microsoft 製品の脆弱性対策について(2026年8月)",
       "url": "https://www.ipa.go.jp/security/security-alert/2026/0812-ms.html",
       "summary": "",
@@ -523,9 +559,9 @@
       "category": "news"
     },
     {
-      "title": "OpenAI、サイバー防御「Daybreak」を赤青2階層に 特化型「GPT-5.6-Cyber」投入（ITmedia NEWS） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE43TU1KNzJIenk2N1F1VU8zNVRzU28xRzFwT0NQWFZ0YkwxNzlyM0EzMGoxbzZzR2otYWk3QXpqV0FuY3FxYmJ1Yi1sT0FyWFg4U2RlcGF2OXZKRlR1bHBEM1pMb3pCZ1NQdWpTM09ldkpPMVBFVTV3MEd4Z0FHcVU?oc=5",
-      "summary": "OpenAI、サイバー防御「Daybreak」を赤青2階層に 特化型「GPT-5.6-Cyber」投入（ITmedia NEWS）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "OpenAI、サイバーセキュリティ特化モデル「GPT-5.6-Cyber」を発表 - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nSFBoeHhJcEZzZXNYRU9TNk5iTGRwUDM0c3VCUDd6RFZhUjhhdjlMSEdqMm11ZlVkMzgwZEN1c3JfVzlKZzNUNDBXbVItbWxTNUVv?oc=5",
+      "summary": "OpenAI、サイバーセキュリティ特化モデル「GPT-5.6-Cyber」を発表&nbsp;&nbsp;ビジネス+IT",
       "date": "2026-08-11",
       "source": "Google News JP",
       "language": "日本語",
@@ -586,15 +622,6 @@
       "category": "vuln"
     },
     {
-      "title": "CISA ICS Advisory / ICS Medical Advisory（2026年08月06日）",
-      "url": "https://jvn.jp/vu/JVNVU92842469/",
-      "summary": "2026年08月06日（現地時間）、米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "date": "2026-08-07",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
       "title": "Zbtlink製ルータに出荷時組み込まれていたバックドアについてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/08/08/020650",
       "summary": "2026年8月5日、米国セキュリティ企業のVulnCheckは、中国Zbtlink製ルータの出荷時ファームウェアに遠隔操作用のインプラント「ENDLESSDOORS」が組み込まれていたとする調査結果を公開しました。対象の実装は外部から侵害を受けて仕込まれたものではなく、出荷された時点からベンダ自身によって組み込まれていたとされています。Zbtlinkはこの指摘に対し独自の説明を示しており、Vuln",
@@ -607,15 +634,6 @@
       "title": "Linux Shell Forensic: Let&#x3f;s Dive Into Atuin&#x21;, (Fri, Aug 7th)",
       "url": "https://isc.sans.edu/diary/rss/33226",
       "summary": "UNIX systems (including Linux) are well-known to record a lot of activities in many different locations. But there is one domain where they definitely lack of \"modern\" logging: shells. Most shells pro",
-      "date": "2026-08-07",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "ISC Stormcast For Friday, August 7th, 2026 https://isc.sans.edu/podcastdetail/10042, (Fri, Aug 7th)",
-      "url": "https://isc.sans.edu/diary/rss/33224",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "date": "2026-08-07",
       "source": "SANS ISC",
       "language": "英語",
@@ -685,15 +703,6 @@
       "category": "analysis"
     },
     {
-      "title": "大阪・関西万博関連ドメインの一部で起きているドロップキャッチについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/02/165033",
-      "summary": "2026年7月29日、公益社団法人2025年日本国際博覧会協会は、過去に大阪・関西万博の関連事業で専用サイトとして使用していた複数のドメインについて「既に運用を終了しております」としたうえで、現在これらのドメインを使ったURLやメールアドレスが使われていても協会の事業とは全く関係ないと注意喚起しました。piyokangoが実際に確認したところ、旧用途とは無関係なコンテンツの表示や外部サイトへの転送",
-      "date": "2026-08-02",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
       "title": "注意喚起: 2026年7月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (更新)",
       "url": "https://www.jpcert.or.jp/at/2026/at260020.html",
       "summary": "",
@@ -701,6 +710,15 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
+    },
+    {
+      "title": "サイバーセキュリティ戦略本部 - 首相官邸",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Wajd2VHpvMFpobTVBVFh6N09PYm9ZWW4wSFNaNEMyMGtTTjJhV3lwRHBITHlWcDlvVjNiRFNOcUdiT2pIdERFMGhfRUlxanZiUjBRei1jSkQwSmZ1RUNrUXVrMGtGbzlFVE9nNmlHbw?oc=5",
+      "summary": "サイバーセキュリティ戦略本部&nbsp;&nbsp;首相官邸",
+      "date": "2026-07-31",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "お知らせ：JPCERT/CC Eyes「TSUBAMEレポート Overflow（2026年4～6月）」",
@@ -836,24 +854,6 @@
       "source": "Krebs on Security",
       "language": "英語",
       "category": "news"
-    },
-    {
-      "title": "&#8216;Popa&#8217; Botnet Linked to Publicly-Traded Israeli Firm",
-      "url": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-s",
-      "date": "2026-06-18",
-      "source": "Krebs on Security",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-63）に関する注意喚起 (公開)",
-      "url": "https://www.jpcert.or.jp/at/2026/at260018.html",
-      "summary": "",
-      "date": "2026-06-10",
-      "source": "JPCERT/CC",
-      "language": "日本語",
-      "category": "alert"
     },
     {
       "title": "Check Point Software Technologies製品の脆弱性対策について(CVE-2026-50751)",
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/8/14 6:53:50"
+  "updated": "2026/8/15 6:31:14"
 }
