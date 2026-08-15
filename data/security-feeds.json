@@ -1,6 +1,51 @@
 {
   "feeds": [
     {
+      "title": "注意喚起: NetScaler ADCおよびNetScaler Gatewayにおけるリモートコード実行につながる脆弱性（CVE-2026-8452）に関する注意喚起 (公開)",
+      "url": "https://www.jpcert.or.jp/at/2026/at260024.html",
+      "summary": "",
+      "date": "2026-08-15",
+      "source": "JPCERT/CC",
+      "language": "日本語",
+      "category": "alert"
+    },
+    {
+      "title": "New Evooo1Bot Linux botnet turns routers into traffic relay nodes",
+      "url": "https://www.bleepingcomputer.com/news/security/new-evooo1bot-linux-botnet-turns-routers-into-traffic-relay-nodes/",
+      "summary": "A new Mirai-based modular Linux botnet malware called Evooo1Bot has been targeting internet-facing gateway devices, turning them into SOCKS5 traffic relay nodes. [...]",
+      "date": "2026-08-15",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "2026年半ばに押さえるべきサイバーセキュリティと新たな脅威への対応 - Forbes JAPAN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vc3JKbWVtb2E3Z0E3UEJNOHlLX0dmQ3dFTWdEZl9seGxWMTRxc1Zva19EcmlkeE5rODd5UENNLXMwd3JGRUI4dDlTdG50cE54cE94S3JGOWdFdw?oc=5",
+      "summary": "2026年半ばに押さえるべきサイバーセキュリティと新たな脅威への対応&nbsp;&nbsp;Forbes JAPAN",
+      "date": "2026-08-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ機関が、企業の脆弱性によるリスクについて警告を発した。 - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWUd0a0hqUVVtSFItdlVRNUJxQ01oWDAxekowaUhVak5YQ2I5eDdSQk1WdU5LOXpESWJaZVNUZUlYdUNJSjhjU3IwN3ptWE1VWnEySXRucHdGZi1KNTA3cUx4amhHcmZZcERheHdnVkVVMFR0dmcwekE4a3Q4QTZhWGZRbkFzOE9oSUtmN0V3?oc=5",
+      "summary": "サイバーセキュリティ機関が、企業の脆弱性によるリスクについて警告を発した。&nbsp;&nbsp;Vietnam.vn",
+      "date": "2026-08-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "ReYuu Japan、ネクスト・セキュリティを連結子会社化 - リユース経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE41dThxUklBcVItejhTUU9zZ1hZZE1LdXdIMXVJMS1ycUNnaG9XbzU0WlpRR0l4MlZscTUxcndmMy1lbjNHNzZIeVNRcllTY1EtQ1d2NHFiTTAwbHd0UWh3cENJTQ?oc=5",
+      "summary": "ReYuu Japan、ネクスト・セキュリティを連結子会社化&nbsp;&nbsp;リユース経済新聞",
+      "date": "2026-08-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "注意喚起: MetabaseのSQLインジェクションの脆弱性（CVE-2026-72898）に関する注意喚起 (公開)",
       "url": "https://www.jpcert.or.jp/at/2026/at260023.html",
       "summary": "",
@@ -19,6 +64,24 @@
       "category": "vuln"
     },
     {
+      "title": "医療機器会社社員による患者X線画像の持ち出しについてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/15/080406",
+      "summary": "医療機器会社の社員が、手術室で撮影した患者のX線画像を社内で共有していたとみられる問題が明らかになっています。2026年8月12日、ある大学病院が画像の不適切な撮影と持ち出しについて公表したのに続き、朝日新聞が同様の画像撮影は大学病院など9医療機関に及んでいたと報じています。ここでは関連する情報をまとめます。 患者X線画像の医療機器会社への流出疑い 大阪公立大学医学部附属病院は2026年8月12日",
+      "date": "2026-08-14",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "AIが生成した脆弱性修正パッチの品質検証結果についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/15/075403",
+      "summary": "1Passwordの研究チームが、大規模言語モデルが生成する脆弱性修正パッチの品質を検証した結果を公表しました。実在する複雑な脆弱性を対象に複数のフロンティアAIモデルへパッチ生成を行わせたところ、完全に修正できた割合は限定的で、修正の過程で新たな脆弱性を作り込む例も確認されたとしています。ここでは関連する情報をまとめます。 実在する6件の脆弱性で検証 1Passwordの社内研究チームであるOf",
+      "date": "2026-08-14",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
       "title": "アジア政府機関を標的にした多エージェントAI攻撃フレームワークについてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/08/14/115527",
       "summary": "イスラエルのセキュリティ企業Dream Securityは2026年8月12日、アジアの政府機関を標的に、2つのオープンソースAIエージェント基盤上に構築された近自律的な攻撃フレームワークを解析したとするレポートを公表しました。*1 ここでは関連する情報をまとめます。 HermesとOpenClawを転用した多エージェント攻撃フレームワーク Dreamの観測によれば、攻撃フレームワークはHerme",
@@ -33,6 +96,15 @@
       "summary": "It can be daunting to determine who's responsible for showing ads on the websites we visit, or who's harvesting data from the mobile apps we use every day. That information is already semi-public, but",
       "date": "2026-08-14",
       "source": "Krebs on Security",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "How Anthropic plans to watermark Claude's AI-generated text",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/how-anthropic-plans-to-watermark-claudes-ai-generated-text/",
+      "summary": "It could soon become easier to identify AI-generated content, even if it's not the usual \"It's Not X, it's Y\" type of post you'd come across on LinkedIn and other socials. [...]",
+      "date": "2026-08-14",
+      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -127,15 +199,6 @@
       "category": "news"
     },
     {
-      "title": "サイバーセキ - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15bWN6U2xQN3lmV1ZHbFR0NGVRdTV5S3VweEQ5LTVJU0JhSlJodUl4OG0zTllqaDFTWTZ1djJyNVFsclNieENFTjJEX180QVI0dkZmdG5SZmFZMTVUclJiT1V3bm53cTJSTmc?oc=5",
-      "summary": "サイバーセキ&nbsp;&nbsp;日本経済新聞",
-      "date": "2026-08-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "お知らせ：CyberNewsFlash「JetBrains TeamCity（オンプレミス版）におけるリモートコード実行につながる脆弱性（CVE-2026-63077）について」",
       "url": "https://www.jpcert.or.jp/newsflash/2026081301.html",
       "summary": "",
@@ -177,24 +240,6 @@
       "summary": "Threat actors have begun to exploit a newly disclosed Microsoft SharePoint vulnerability following the release of a proof-of-concept (PoC) code. The vulnerability in question is CVE-2026-55040 (CVSS s",
       "date": "2026-08-13",
       "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Ukraine shuts down 94 fraudulent call centers, seize millions in cash",
-      "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/",
-      "summary": "Authorities in Ukraine shut down 94 fraudulent call centers across the country that lured people into investment scams or tried to obtain access to bank accounts. [...]",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Akira hackers disable EDR with Safe Mode, steal data but fail to encrypt",
-      "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/",
-      "summary": "An Akira ransomware affiliate disabled the endpoint detection and response (EDR) solution on a compromised system by restarting the machine into Safe Mode with Networking. [...]",
-      "date": "2026-08-13",
-      "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
@@ -307,27 +352,9 @@
       "category": "alert"
     },
     {
-      "title": "サイバーセキュリティクラウド 中小企業におけるサプライチェーン攻撃対策 Webサーバー防御と継続的な脆弱性管理 - 週刊BCN＋",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xY0NieEJyQUVnRDRIdk9SR3lVemdnVU9QQjE0cjVjdDJDZVctN2hHMzFacF9NblFwNmJJZDNMYmF4VFdueVlDX2MwUjlPUXlOQ3EwbmV0NjlFai12UmN2V1RhWU1JNE9lRUtfOGU1Ylh6LUFSUnc?oc=5",
-      "summary": "サイバーセキュリティクラウド 中小企業におけるサプライチェーン攻撃対策 Webサーバー防御と継続的な脆弱性管理&nbsp;&nbsp;週刊BCN＋",
-      "date": "2026-08-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "サイバーセキュリティ市場：構成要素、セキュリティの種類、組織規模、導入モデル、業界別―2026年～2032年の世界市場予測 - Newscast.jp",
       "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBEZks5ZU9YUkdIc1p2b2tmSUJUdjZRbW9RZTlfUjJCbDAzTzdCWnlvdWR3X2RSQkpaY2xPQUtFdnpYbXN4T2t3?oc=5",
       "summary": "サイバーセキュリティ市場：構成要素、セキュリティの種類、組織規模、導入モデル、業界別―2026年～2032年の世界市場予測&nbsp;&nbsp;Newscast.jp",
-      "date": "2026-08-13",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティの次なる最前線、「行動の背後にいる人間」を検証する - Forbes JAPAN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE15NmJPNGFET3BsTWJEcUhRTWYxOU1BREtVYnNqRnRIek02WUstd0lPcW5xOUl3V2F6cy1uWVhlaEN5dFRVRzVld01wTGR2STRLVXNwbzdBdk1JQQ?oc=5",
-      "summary": "サイバーセキュリティの次なる最前線、「行動の背後にいる人間」を検証する&nbsp;&nbsp;Forbes JAPAN",
       "date": "2026-08-13",
       "source": "Google News JP",
       "language": "日本語",
@@ -559,15 +586,6 @@
       "category": "news"
     },
     {
-      "title": "OpenAI、サイバーセキュリティ特化モデル「GPT-5.6-Cyber」を発表 - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nSFBoeHhJcEZzZXNYRU9TNk5iTGRwUDM0c3VCUDd6RFZhUjhhdjlMSEdqMm11ZlVkMzgwZEN1c3JfVzlKZzNUNDBXbVItbWxTNUVv?oc=5",
-      "summary": "OpenAI、サイバーセキュリティ特化モデル「GPT-5.6-Cyber」を発表&nbsp;&nbsp;ビジネス+IT",
-      "date": "2026-08-11",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "LINE PC版（Windows版）のインストーラにおけるDLL読み込みに関する脆弱性",
       "url": "https://jvn.jp/jp/JVN40467227/",
       "summary": "LINEヤフー株式会社が提供するLINE PC版（Windows版）のインストーラには、DLL読み込みに関する脆弱性が存在します。",
@@ -676,15 +694,6 @@
       "category": "analysis"
     },
     {
-      "title": "公衆Wi-Fiの接続案内画面を悪用した攻撃活動CaptiveCrunchについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/04/183114",
-      "summary": "Microsoft Threat Intelligenceは2026年7月31日、ホテルや会議施設などが提供する公衆Wi-Fi(キャプティブポータル)の通信を操作し、偽のブラウザやOSのアップデート画面等を通じてマルウェアを配布し、認証情報やセッション情報を窃取する攻撃活動「CaptiveCrunch」を公表しました。また、ReliaQuest Threat Researchも7月23日、同様の攻",
-      "date": "2026-08-04",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
       "title": "注意喚起: Ruby on RailsのActive Storageにおけるリモートコード実行につながる脆弱性（CVE-2026-66066）に関する注意喚起 (更新)",
       "url": "https://www.jpcert.or.jp/at/2026/at260021.html",
       "summary": "",
@@ -692,15 +701,6 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
-    },
-    {
-      "title": "Unit 42が報告したAI悪用の自律型攻撃キャンペーンについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/04/025755",
-      "summary": "Palo Alto NetworksのUnit 42は2026年7月30日、中国語話者の脅威アクターが大規模言語モデルDeepSeekをHermes Agentフレームワーク経由の自律的な攻撃オペレータとして運用し、Telegramから指示を与えるだけで標的の列挙から侵入の試行までを人手の介在なくこなしていたとする観測レポートを公表しました。ここでは関連する情報をまとめます。 DeepSeekをH",
-      "date": "2026-08-03",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
     },
     {
       "title": "注意喚起: 2026年7月マイクロソフトセキュリティ更新プログラムに関する注意喚起 (更新)",
@@ -745,6 +745,15 @@
       "date": "2026-07-22",
       "source": "Krebs on Security",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ相談窓口の相談状況［2026年第2四半期（4月～6月）］ | 情報セキュリティ - ipa.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB4MmRPUEJzbnJ1QXA0Z0lfNjFpSWJOZk5Qb0VlM2NFN0t6ejh6OWRLamRRbjFpa3NZZUhMdENoSUxKcEFxb3ZzMjh4NUV3a3dGOTJXYnc5MmZiN2d4Um5yMGl6UVBrbEF0a21US0g0RzRxa2s?oc=5",
+      "summary": "サイバーセキュリティ相談窓口の相談状況［2026年第2四半期（4月～6月）］ | 情報セキュリティ&nbsp;&nbsp;ipa.go.jp",
+      "date": "2026-07-22",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -834,15 +843,6 @@
       "summary": "",
       "date": "2026-06-25",
       "source": "IPA",
-      "language": "日本語",
-      "category": "alert"
-    },
-    {
-      "title": "注意喚起: Fortinet製品に関連する認証情報の漏えいに関する注意喚起 (公開)",
-      "url": "https://www.jpcert.or.jp/at/2026/at260019.html",
-      "summary": "",
-      "date": "2026-06-23",
-      "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
     },
@@ -1148,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/8/15 6:31:14"
+  "updated": "2026/8/16 6:27:35"
 }
