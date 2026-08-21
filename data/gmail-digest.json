@@ -1,188 +1,20 @@
 {
   "notifications": [
     {
-      "type": "newsletter",
-      "from": "xtech-ac@nikkeibp.co.jp",
-      "subject": "あなたの会社はAI-Ready？ 鍵を握る「データ環境づくり」の肝を徹底解剖：日経クロステック Active",
-      "snippet": "ベンダー依存7割の現実を断つ／AI時代に見直す「本当に作るべきマニュアル」とは？／コンサル企業が27年卒就活生に人気／2人に1人がAIの影響で転職を意識。日経クロステック Activeメール 2026-08-21配信 注目のセミナー・記事 IT版",
-      "date": "2026-08-21 07:53",
-      "messageId": "1a0216135d7270e7"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-10@nikkeibp.co.jp",
-      "subject": "メール攻撃対策にかかる工数が課題に、「行動解析AI」で現場の手間を抑制【日経BP Topics】",
-      "snippet": "『AIvsAI』は当たり前の時代、次世代メール攻撃対策。メール攻撃対策は必須、だが手数はかけられない…解決策になるAIの使い方",
-      "date": "2026-08-21 07:47",
-      "messageId": "1a0215b8ae37d916"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-10@nikkeibp.co.jp",
-      "subject": "クライアント環境を守るDaaS、ソブリンクラウドとの連携で実現するデータ保護【日経BP Topics】",
-      "snippet": "デスクトップ環境の進化。PC高騰、AI時代を勝ち抜く端末・インフラ最適化",
-      "date": "2026-08-21 07:42",
-      "messageId": "1a02156a9503781f"
-    },
-    {
-      "type": "newsletter",
-      "from": "xtech-it@nikkeibp.co.jp",
-      "subject": "NTT・スカパーJSATが挑む「衛星間光通信」、宇宙データセンターに向け開発：日経クロステック IT最前線",
-      "snippet": "従量課金で気付けば「AI貧乏」／AIの「学習データ作成サービス」の進化がすごい。宇宙DCには衛星間で大量データを通信する光通信網が欠かせない",
-      "date": "2026-08-21 07:09",
-      "messageId": "1a02138b4ab30050"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-10@nikkeibp.co.jp",
-      "subject": "締切迫る！全て受講無料：JAL、ライオン、味の素の社長講演、栗山英樹も登壇！【BPセミナー】",
-      "snippet": "AIを“使わない”選択もあり！？日経BP主催「IT Japan 2026」8/26～8/28",
-      "date": "2026-08-21 06:51",
-      "messageId": "1a0212854d25e211"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-10@nikkeibp.co.jp",
-      "subject": "澤 円氏│なぜ日本企業は停滞したか(Amazonギフトカード特典付)【日経BP Mail】",
-      "snippet": "イノベーションを起こすために必要な3つの視点とは。TECH+ データ×イノベーションEXPO 2026 Sep.（9/15-16 無料Web開催）",
-      "date": "2026-08-21 06:44",
-      "messageId": "1a02121b9e10df4a"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-10@nikkeibp.co.jp",
-      "subject": "生成AIで強化するカスタマーサービス、問題の自動解決や顧客の感情分析が可能に【日経BP Topics】",
-      "snippet": "業務アプリケーションに関するおすすめ情報。生成AIを顧客サービスにどう生かす？ 6400人調査が示す活用法のヒント",
-      "date": "2026-08-21 06:43",
-      "messageId": "1a0212104d2a0da6"
-    },
-    {
-      "type": "newsletter",
-      "from": "xtech-das@nikkeibp.co.jp",
-      "subject": "複雑な問題は生成AIの力を借りて解こう",
-      "snippet": "日経XTECH デジタル＆スキルアップ。制約条件の多い問題をプログラムで解くのは大変。その例の1つが「シフト表作成」",
-      "date": "2026-08-21 06:01",
-      "messageId": "1a020fa58af7c2a4"
-    },
-    {
-      "type": "newsletter",
-      "from": "business@nikkeibp.co.jp",
-      "subject": "オリンパス子会社、ジョブ型リストラで訴訟沙汰／ホンダ系J-MAX、中国CATLで脱ケイレツ - 日経ビジネス（8/21）",
-      "snippet": "富士通・オムロン、新人成長に注力／「SSBJ開示」義務化で増す虚偽記載リスク。Editor's EYE 編集長の視点",
-      "date": "2026-08-21 05:32",
-      "messageId": "1a020dfd9c9959fa"
-    },
-    {
-      "type": "newsletter",
-      "from": "business@nikkeibp.co.jp",
-      "subject": "VW・BMW、中国EV猛威で最大規模の人員削減／AI暴走・サイバー攻撃になすべきこと - 日経ビジネス（8/20）",
-      "snippet": "セリア社長「社員の8割はパートから」／カスハラ対策10月義務化、働き盛り男性が要注意。AI暴走・サイバー攻撃になすべきこと",
-      "date": "2026-08-20 17:15",
-      "messageId": "1a01e3d0bf56ccc4"
-    },
-    {
-      "type": "newsletter",
-      "from": "xtech-pickup@nikkeibp.co.jp",
-      "subject": "ANAの国内線システム刷新で空港混乱／宇宙データセンターの鍵「ビット反転対策」：日経クロステック IT注目記事メール",
-      "snippet": "過剰な外資警戒は競争力喪失につながる／デジ庁など7省庁がSNS大手5社に詐欺広告の対策要請／「一人情シス」を支える国産セキュリティー／マッチングアプリ対面回帰の必然",
-      "date": "2026-08-20 16:33",
-      "messageId": "1a01e16b25bebc98"
-    },
-    {
-      "type": "newsletter",
-      "from": "xtech-ac@nikkeibp.co.jp",
-      "subject": "1位は「グーグルの新ノートPC「Googlebook」、Chromebookの成功を継続できるか」　人気記事ランキング：日経クロステック Active",
-      "snippet": "Excelの古顔「IF関数」に未来はあるのか／ベンダー丸投げから自前開発へ／IT系就職人気ランキング／見落としがちなWi-Fiルーター設定",
-      "date": "2026-08-20 13:16",
-      "messageId": "1a01d628ba668865"
-    },
-    {
-      "type": "newsletter",
-      "from": "xtech-news@nikkeibp.co.jp",
-      "subject": "デジ庁など7省庁がSNS大手5社に詐欺広告の対策要請／「一人情シス」を支える国産セキュリティー：日経クロステック IT最新ニュースメール",
-      "snippet": "AWSジャパンが地域創生プログラム「LEAP」を発表／NECの製造業変革コンセプト「MX」 など",
-      "date": "2026-08-20 12:18",
-      "messageId": "1a01d2d64002cb02"
-    },
-    {
-      "type": "newsletter",
-      "from": "xtech-e@nikkeibp.co.jp",
-      "subject": "いよいよ来週開催「IT Japan 2026」／AI時代の勝ち組の条件とは？「AIリーダーズ会議 2026 Autumn」／日本発の「秘匿AI」基盤が本格始動：ウイークリー・セレクト号外",
-      "snippet": "Googleが語る、AI vs AI の最前線「AIリーダーズ会議 2026 Autumn」。中外製薬やNTTデータ、Googleが登壇",
-      "date": "2026-08-20 12:02",
-      "messageId": "1a01d1efc9f675ae"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-nmsys@nikkeibp.co.jp",
-      "subject": "【10月開講＠大阪】実践から「協働する力」を体感！チーム作りを学ぶ2日間研修",
-      "snippet": "能力の高い部下にチーム作りを学んでほしい／個々の力とチームの力の最大化を両立してほしい など",
-      "date": "2026-08-20 11:53",
-      "messageId": "1a01d1691381dace"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-nmsys@nikkeibp.co.jp",
-      "subject": "選ばれる中小・地方企業★大手にはできない、中小企業ならではの新卒採用手法とは？",
-      "snippet": "新卒採用戦線の最新動向から若者の労働観やキャリア観への対応策、「選ばれる会社」になるための情報発信や選考方法まで（2026/11/13 東京・新橋）",
-      "date": "2026-08-20 11:45",
-      "messageId": "1a01d0f2d0f57acf"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-nmsys@nikkeibp.co.jp",
-      "subject": "事業機会創出のヒント満載！トップランナーが解説◆9/3開催 光電融合、最新動向とビジネスチャンス",
-      "snippet": "AIデータセンター省電力化の中核技術を徹底解説。IBM・NTT・Google出資の新興が集結、CPO実装の最前線（9/3 TKPガーデンシティ）",
-      "date": "2026-08-20 11:33",
-      "messageId": "1a01d0406f47abd1"
-    },
-    {
-      "type": "newsletter",
-      "from": "xtech-ac@nikkeibp.co.jp",
-      "subject": "著作権侵害と情報漏洩、生成AIの2大リスクを解消する社内ルール整備の手順：日経クロステック Active",
-      "snippet": "“犯収法”規則改正を弁護士が解説／IT人材不足！ 即効の対策とは／「スマホを内線利用」の効果。2027年4月の犯収法規則改正解説あり",
-      "date": "2026-08-20 09:42",
-      "messageId": "1a01c9e3c936454a"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-10@nikkeibp.co.jp",
-      "subject": "AI活用が成熟した業界に学ぶ、先行企業がリードをさらに拡大できた理由【日経BP Topics】",
-      "snippet": "AI活用で先行する金融業界、世界16カ国4473社の最新調査で見えたこと",
-      "date": "2026-08-20 08:56",
-      "messageId": "1a01c74ca4e72d6e"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-10@nikkeibp.co.jp",
-      "subject": "経営幹部の「AIエージェント」への疑問を解決、CIOが用意すべき想定回答案【日経BP Topics】",
-      "snippet": "AIエージェントのメリットを説明できますか？ 経営幹部攻略のためのヒント集",
-      "date": "2026-08-20 08:56",
-      "messageId": "1a01c748e63a3c30"
-    },
-    {
-      "type": "newsletter",
-      "from": "tgml-10@nikkeibp.co.jp",
-      "subject": "【9/8】日経ESG会議◆伊藤邦雄氏,経団連副会長,三菱地所,JA全農,農中,他登壇【BPセミナー】",
-      "snippet": "日経SDGs/ESG会議─サステナビリティ・トランジション（9/8 10:00～14:30）AI×ESGで企業価値を高める経営の最前線",
-      "date": "2026-08-20 08:49",
-      "messageId": "1a01c6e77f2e52f1"
-    },
-    {
-      "type": "newsletter",
-      "from": "xtech-ac@nikkeibp.co.jp",
-      "subject": "10年間DXできなかった会社が、なぜ「全社員AIワーカー企業」になれたのか：日経クロステック Active",
-      "snippet": "開幕まで6日！WBC優勝監督・栗山英樹氏も登壇／プロフェッショナルデジタルスキル試験予想問題／CopilotとExcelでデータ分析",
-      "date": "2026-08-20 08:47",
-      "messageId": "1a01c6bf9927e911"
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "studystudy920@gmail.com のセキュリティ通知",
+      "snippet": "Windows での新しいログイン。studystudy920@gmail.com の Google アカウントへ Windows デバイスから新しいログインが検出されました。ご自身によるものであれば対応不要。（再設定用アドレス massa.saka2010@gmail.com 宛のコピー）",
+      "date": "2026-08-21 11:02",
+      "messageId": "1a0220e0012fa638"
     }
   ],
-  "updated": "2026-08-21 08:15",
+  "updated": "2026-08-22 06:15",
   "sourceResults": [
     {
       "source": "Googleセキュリティ通知 (no-reply@accounts.google.com / security-noreply@google.com)",
-      "count": 0,
-      "note": "該当メールなし"
+      "count": 1,
+      "note": "Windows での新しいログイン検知（2026-08-21 11:02 JST）"
     },
     {
       "source": "ScanNetSecurity (scan@netsecurity.ne.jp)",
@@ -190,9 +22,9 @@
       "note": "該当メールなし"
     },
     {
-      "source": "日経BP / 日経クロステック (nikkeibp.co.jp)",
-      "count": 22,
-      "note": "過去24時間で22件"
+      "source": "日経BP / 日経クロステック (nikkeibp.co.jp, xtech-ac@nikkeibp.co.jp)",
+      "count": 0,
+      "note": "該当メールなし（※接続アカウント変更の影響の可能性あり。accountWarning 参照）"
     },
     {
       "source": "ISACA東京支部 (tky-jimukyoku@isaca.gr.jp)",
@@ -204,5 +36,11 @@
       "count": 0,
       "note": "該当メールなし"
     }
-  ]
+  ],
+  "accountWarning": {
+    "detected": true,
+    "connectedAccount": "massa.saka2010@gmail.com",
+    "expectedAccount": "studystudy920@gmail.com",
+    "detail": "Gmail MCP の接続先が massa.saka2010@gmail.com になっています。昨日(2026-08-21)の実行では nikkeibp 系メルマガが22件取得できていましたが、本日は from:nikkeibp.co.jp newer_than:2d でも0件。当該メルマガは studystudy920@gmail.com 宛のため、アカウント切り替えが原因と推定されます。Gmail MCP の再認証（studystudy920@gmail.com）を推奨します。"
+  }
 }
