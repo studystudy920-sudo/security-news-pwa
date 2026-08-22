@@ -1,6 +1,42 @@
 {
   "articles": [
     {
+      "title": "ビルド時に不正コードが実行されるRustパッケージの改ざんについてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/23/033006",
+      "summary": "Rustのパッケージレジストリcrates.ioで、広く使われている3つのクレートが改ざんされ、依存関係に追加されたタイポスクワットパッケージのビルドスクリプトを通じて、ビルドしただけでペイロードが実行される事案が2026年8月20日に発生しました。Rustプロジェクトと複数のセキュリティ企業が、手口の詳細や影響範囲を相次いで公表しています。ここでは関連する情報をまとめます。 広く使われる3クレー",
+      "date": "2026-08-22",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+      "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+      "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country.",
+      "date": "2026-08-22",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers infect Android car head units with proxy botnet malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+      "summary": "A supply-chain attack targeting Android-based car head units is using a legitimate device-update app to spread malware that enlists compromised devices in a proxy botnet or uses them for ad fraud. [..",
+      "date": "2026-08-22",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Named Pipes Under Attack: Securing Windows Interprocess Communication",
+      "url": "https://www.bleepingcomputer.com/news/security/named-pipes-under-attack-securing-windows-interprocess-communication/",
+      "summary": "Windows named pipes provide fast interprocess communication, but weak access controls can expose privileged services to untrusted processes. ThreatLocker explains how endpoint verification, command au",
+      "date": "2026-08-22",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
       "title": "UNIVERGE IX-R/IX-Vシリーズルータにおける重要な機能に対する認証の欠如の脆弱性",
       "url": "https://jvn.jp/jp/JVN81414813/",
       "summary": "日本電気株式会社が提供するUNIVERGE IX-R/IX-Vシリーズルータには、重要な機能に対する認証の欠如の脆弱性が存在します。",
@@ -163,7 +199,7 @@
       "category": "news"
     },
     {
-      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "title": "Microsoft patches max severity code execution, privilege escalation flaws",
       "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
       "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
       "date": "2026-08-21",
@@ -175,15 +211,6 @@
       "title": "Hackers abuse FTP server banners to deliver new Windows malware",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
       "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
-      "date": "2026-08-21",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "SickKids data breach exposes employee and job applicant info",
-      "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
-      "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-pa",
       "date": "2026-08-21",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -226,36 +253,18 @@
       "category": "alert"
     },
     {
-      "title": "ランサムウェアによる平均業務停止期間が36日に長期化--「セキュリティ成熟度と被害の実態調査」 - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1aSnlHbVlmamxEcDExcUFIMGpxNjA2b205ZUZnaDVWZHBOeXp2bUJrWXNqRzlRWGZoajF1NDFIeUcxT3h4T1htUzF0dlBsTW9vYTNV?oc=5",
-      "summary": "ランサムウェアによる平均業務停止期間が36日に長期化--「セキュリティ成熟度と被害の実態調査」&nbsp;&nbsp;ZDNET Japan",
+      "title": "企業が実装すべきサイバーセキュリティ・ガバナンス体系 ― 法律・政策・ガイドラインを「自社がやるべきこと」へ翻訳する ― - ctc-g.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSUVQVy04U29ZLS1IOFp0cXVIazh0T2xqMVYwQzBrdGJ0b085emMtNU01ZEprRml0TWgyQmc0ZkM2c1l4Ynk5b29OUkpoU1doaC1vUVRqdERiVzlwa0hKZnZ2VmVBYkctSGVocmtwXzN4bi1BcGR1SHpITzE1TEJMUw?oc=5",
+      "summary": "企業が実装すべきサイバーセキュリティ・ガバナンス体系 ― 法律・政策・ガイドラインを「自社がやるべきこと」へ翻訳する ―&nbsp;&nbsp;ctc-g.co.jp",
       "date": "2026-08-21",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "NTQとCyStack、グローバル企業向けエンドツーエンド型サイバーセキュリティを提供する合弁会社「Sentrix」を設立 - 産経ニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBOOWd3eFMtX2VyS1NFaWMtU1UwNWRZSTdtOFdIV2JkcmwwMHM0SGE4QXA2QU85OG1UcmZkenNISlZzWURvN3duWXVlcTJrdmMzcFRvX0luU1dQa2VUSnUzaVdYbXBkWkxlMmJ4bHMyWnhFT0VkWndsNTZfMA?oc=5",
-      "summary": "NTQとCyStack、グローバル企業向けエンドツーエンド型サイバーセキュリティを提供する合弁会社「Sentrix」を設立&nbsp;&nbsp;産経ニュース",
-      "date": "2026-08-21",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "鉄道サイバーセキュリティ市場：提供形態、セキュリティの種類、導入形態、エンドユーザー、用途別―2026年～2032年の世界市場予測 - アットプレス",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BSmRfQ0VfR3dHelp1X29SRlVaNjBvZkc0RE5pT2hMZnpEeTZVbV9BckU3cXNUOXNNN1hnbUNZQ1dqRnZiS29TRldlNFllbWc?oc=5",
-      "summary": "鉄道サイバーセキュリティ市場：提供形態、セキュリティの種類、導入形態、エンドユーザー、用途別―2026年～2032年の世界市場予測&nbsp;&nbsp;アットプレス",
-      "date": "2026-08-21",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "特殊詐欺269件「技術と知識で撲滅へ」トレンドマイクロと佐賀県が全国初の協定【佐賀県】｜佐賀のニュース - サガテレビ",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sYTVhUjNhSzUzUDE3SVpVMTd6WjNXemtZTGRUUDRNRVRKc1FyZWpDNGdud3Fnd0h3ZWRBMEhlV2trT3p3eExDZkhqdVFza3pIZ0h1OXA3Rzh6VzVvSkFLMEhR?oc=5",
-      "summary": "特殊詐欺269件「技術と知識で撲滅へ」トレンドマイクロと佐賀県が全国初の協定【佐賀県】｜佐賀のニュース&nbsp;&nbsp;サガテレビ",
+      "title": "サイバーセキュリティクラウド、耐量子計算機暗号PQCの技術検証開始 WAF対応目指す - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ORkJUVlljRFBTWmlDLUc4ZDBLOFRqUWVVamNENExIcDhrMU9kTmdUQ0w1cTlMZmVmYmRuWDF3cXZleDRJdjZWX3U1ZEM3WVlod1Jz?oc=5",
+      "summary": "サイバーセキュリティクラウド、耐量子計算機暗号PQCの技術検証開始 WAF対応目指す&nbsp;&nbsp;ビジネス+IT",
       "date": "2026-08-21",
       "source": "Google News JP",
       "language": "日本語",
@@ -307,24 +316,6 @@
       "category": "news"
     },
     {
-      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-      "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-      "summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header che",
-      "date": "2026-08-20",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
-      "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
-      "date": "2026-08-20",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Using Microsoft Graph and Powershell - Risk Detection Commands, (Thu, Aug 20th)",
       "url": "https://isc.sans.edu/diary/rss/33266",
       "summary": "Building on the last diary on Using MS Graph and Powershell, let&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s look at \"Risky\" logins.&#xd;",
@@ -370,27 +361,9 @@
       "category": "alert"
     },
     {
-      "title": "東京海上HDは“セキュリティ格差”をどう埋めた？40人で24社を守る「バーチャル要員」 - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TVnJiODdmeC00OXBHeGQ0MnhuMmZpZ0Y0YUxsUEVhUXdWTWgwX2NjazBBbUF3RUllWkhPUjg0QjczVlZHcHRLZDdqUVhzX0E?oc=5",
-      "summary": "東京海上HDは“セキュリティ格差”をどう埋めた？40人で24社を守る「バーチャル要員」&nbsp;&nbsp;ビジネス+IT",
-      "date": "2026-08-20",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "世界的マルウェア研究者・忠鉢洋輔氏が講師・監修を務める 高度サイバーセキュリティ人材向け「マルウェア解析トレーニング」を提供開始 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA0aFFuYUtVTmdWQTJ1QUY1a2N0NU5XZ214WFFxcmtSR0ZzNVRWeDFUczMxTXBxVzktUUFOWDhkVGQxOXg3SUZRTS0yY2tqNnJkRlhXM2dLWFl6VUpaRl93c1cyVDJ4aktNTnpV?oc=5",
-      "summary": "世界的マルウェア研究者・忠鉢洋輔氏が講師・監修を務める 高度サイバーセキュリティ人材向け「マルウェア解析トレーニング」を提供開始&nbsp;&nbsp;時事ドットコム",
-      "date": "2026-08-20",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【セキュリティ ニュース】地域を超えるサイバー攻撃、日チェコ協力で高まるレジリエンス（1ページ目 / 全3ページ） - Security NEXT",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1fbHlISzZHLTl2TnpMdUtoX2FROVNEY2k3QnA5Szg4aWl5b3B1aERyb1RMTmpyMnlPUE8zUXhiZ3JCSUZjemNmNndtU3g?oc=5",
-      "summary": "【セキュリティ ニュース】地域を超えるサイバー攻撃、日チェコ協力で高まるレジリエンス（1ページ目 / 全3ページ）&nbsp;&nbsp;Security NEXT",
+      "title": "サイバーセキュリティ広報啓発キャンペーン ～ねぇ待って！そのまま進めて大丈夫？～ - 東京都公式アプリ",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3SEZndGVURWl5X3JBVG93dUt0bXJFX3RrNFNzV3psT2k0dXMtWTE1R3dLR1R1NGVndkpzc0FhMVpBMTA2T2RYQUh1N0dBNm51X0h0WkJEUHIyN2NpMGY0dmV2cDJUVFhxVXc?oc=5",
+      "summary": "サイバーセキュリティ広報啓発キャンペーン ～ねぇ待って！そのまま進めて大丈夫？～&nbsp;&nbsp;東京都公式アプリ",
       "date": "2026-08-20",
       "source": "Google News JP",
       "language": "日本語",
@@ -469,24 +442,6 @@
       "category": "alert"
     },
     {
-      "title": "高度なAIのサイバー攻撃、どう対策？ 企業が知るべき「スピード格差」の埋め方（ITmedia NEWS） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE90ZHJUWTZ2VWVxQXBERE5jNXNXaEJjYm82WXlkcE1LeXBrVm9ld0ZtcTlGVXNjWWhEaW9NY0VXSGZJMmJCdkRxVktyOXREMEtiem5VN3VNNVF3UmFyYmVRLXJKS0k3UTdSSlVVOVhCOVZuNzV5Vm50VUliWDVMajQ?oc=5",
-      "summary": "高度なAIのサイバー攻撃、どう対策？ 企業が知るべき「スピード格差」の埋め方（ITmedia NEWS）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-08-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "OpenAI、自らAI開発を減速 「安全より競争」を止められるか - ASCII.jp",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5sTmF0emZxLXF2eW9ucjlQMUF1UnFFWU5fV0hYTjNmLUV3aVFTTkpvdVVSZzBFZlY3M3JtUHhxcUJrVm5KSUE5M1h5VDJRbHhaLXFLTw?oc=5",
-      "summary": "OpenAI、自らAI開発を減速 「安全より競争」を止められるか&nbsp;&nbsp;ASCII.jp",
-      "date": "2026-08-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "Apache Alluraにおけるサーバサイドリクエストフォージェリの脆弱性",
       "url": "https://jvn.jp/jp/JVN06609828/",
       "summary": "The Apache Software Foundationが提供するApache Alluraには、サーバサイドリクエストフォージェリの脆弱性が存在します。",
@@ -541,9 +496,9 @@
       "category": "alert"
     },
     {
-      "title": "セキュリティの世界に“人間”が飛び込む今が最高の時 ～ CTF 生まれ CTF 育ち モヒカン准教授が教えるエージェント時代の脆弱性発見 - ScanNetSecurity",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aUHNIeU9fZkhxTkZDUzJacy1Rc0pNTGtoNE5URDdMWlNkSGdtUGM5QnkyeWpqQVZubnJNVUpheG9ZY203ZzRsRW9vSi1HM2lVTXhxUE04RGdHLUFVS1NWcUlFQU85cDJPcGxqXw?oc=5",
-      "summary": "セキュリティの世界に“人間”が飛び込む今が最高の時 ～ CTF 生まれ CTF 育ち モヒカン准教授が教えるエージェント時代の脆弱性発見&nbsp;&nbsp;ScanNetSecurity",
+      "title": "「長州サイバーセキュリティシンポジウム 2026」協賛と出展のお知らせ【8 月 27 日開催】｜お知らせ - サイバートラスト",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBsVjRDZG9SbXBiZEdHX1pRUHEyajZKRE40eEhxMWxzZmQ5dk16aWY5M0JXWTFLTWF6MGoxWVNUbjJ0WlFJSklIOWFQWVpFYnpoZ25TV0hXNFMzTTJlMGtfTVhNM0RKdUh3SndN?oc=5",
+      "summary": "「長州サイバーセキュリティシンポジウム 2026」協賛と出展のお知らせ【8 月 27 日開催】｜お知らせ&nbsp;&nbsp;サイバートラスト",
       "date": "2026-08-18",
       "source": "Google News JP",
       "language": "日本語",
@@ -575,6 +530,33 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
+    },
+    {
+      "title": "東北サイバーセキュリティシンポジウム2026 - ipa.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZYlZvcG5xWFVjOVFEeTNUQldEQ3UzTG5GMlNGUTJmN2ZvSVc1S3R4ZTdEWk5OcmNLZ3NXS3F4SW1nSHR0aTlsd3RNdzEwUVVTVEFRTGdNZ0lMenUtQ215RThma0FOMFFYaS1GVjNB?oc=5",
+      "summary": "東北サイバーセキュリティシンポジウム2026&nbsp;&nbsp;ipa.go.jp",
+      "date": "2026-08-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティで資格や経験よりも重要な3つのスキル - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HVjgyeGZLeEZ1Q3JXUWxZVnl0Y0VkOGQ0NjZjcTI0WG5ZdGhLRDBUVGFVTVhDWE80TkJtejlWQlZxdmp3cnBCUzBrOXNqZ0JBaVl3?oc=5",
+      "summary": "サイバーセキュリティで資格や経験よりも重要な3つのスキル&nbsp;&nbsp;ZDNET Japan",
+      "date": "2026-08-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "第9回サイバーセキュリティ・リレー講座 - kansai.meti.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd2NuQUxUaEU5ZUF4UXFCMnctSnh6VDZxTWl1MHd0YmlncWV5M2JwNUdhRDluSlhjQ3pFcVhlQWs0aXdTWWNPX1htWm90SGJLYUY5VnQzX29idU9ZNGhBZGIzUC1iSGtOcEk5NUZZNG41cXMwU0xZSFVOZHRXQmhBcDBRNXctTWctMlhMaUFneDF5QURQOXJHZE1wVndwRGR5WkE?oc=5",
+      "summary": "第9回サイバーセキュリティ・リレー講座&nbsp;&nbsp;kansai.meti.go.jp",
+      "date": "2026-08-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "北朝鮮IT労働者とみられる人物とわかって採用した調査についてまとめてみた",
@@ -658,15 +640,6 @@
       "category": "alert"
     },
     {
-      "title": "所在不明になった徳島県の住基ネットHDDについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/14/020048",
-      "summary": "2026年8月10日、徳島県は、住民基本台帳ネットワークシステム(住基ネット)の機器更改に伴いリース事業者へ返却した外付けハードディスク2台が、再委託先の事業者施設で所在不明になり、データを消去しないまま誤って廃棄された可能性が高いと公表しました。ハードディスクには住基ネットの操作履歴が記録されており、個人情報が含まれていたとしています。同日、リース事業者と再委託先もそれぞれ経緯を公表しました。こ",
-      "date": "2026-08-13",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
       "title": "Siemens Desigo DXR and PXC Controllers",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-08",
       "summary": "View CSAF Summary A vulnerability in Desigo DXR and PXC controllers has been identified that could allow an attacker to cause denial of service conditions by sending malformed BACnet packets. Recovery",
@@ -712,6 +685,24 @@
       "category": "news"
     },
     {
+      "title": "【生成AIにつぶされない強みをもつ企業も】サイバー攻撃の脅威に対抗できる「国産サイバーセキュリティ関連銘柄」5選 - 現代ビジネス",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wRzhxSjZNd0xNV1BwbDNadVJhUkRXWXRXVXF5ak9FSFZGY3dhWmtKNUxFVGxrQThvUlVFaC1BN1VFRndwaWh2LWFyRHZnOEtmMmo3N2phQ3M?oc=5",
+      "summary": "【生成AIにつぶされない強みをもつ企業も】サイバー攻撃の脅威に対抗できる「国産サイバーセキュリティ関連銘柄」5選&nbsp;&nbsp;現代ビジネス",
+      "date": "2026-08-04",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ2026決定、対策強化を「日本成長戦略」の大前提に - 日経クロステック",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQZGdYUEktOF80cUt2M0k2eG92VlZzN29wQndXZlBNLVR6WTJjTnVLZlp5MGhxWFVNX1dQYU51aHdvV0U2X1BRMmxVZWtqV0lFRk54YkJzR1pnU1FY?oc=5",
+      "summary": "サイバーセキュリティ2026決定、対策強化を「日本成長戦略」の大前提に&nbsp;&nbsp;日経クロステック",
+      "date": "2026-08-04",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "注意喚起: Ruby on RailsのActive Storageにおけるリモートコード実行につながる脆弱性（CVE-2026-66066）に関する注意喚起 (更新)",
       "url": "https://www.jpcert.or.jp/at/2026/at260021.html",
       "summary": "",
@@ -728,6 +719,15 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
+    },
+    {
+      "title": "サイバーセキュリティ戦略本部 - 首相官邸",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Wajd2VHpvMFpobTVBVFh6N09PYm9ZWW4wSFNaNEMyMGtTTjJhV3lwRHBITHlWcDlvVjNiRFNOcUdiT2pIdERFMGhfRUlxanZiUjBRei1jSkQwSmZ1RUNrUXVrMGtGbzlFVE9nNmlHbw?oc=5",
+      "summary": "サイバーセキュリティ戦略本部&nbsp;&nbsp;首相官邸",
+      "date": "2026-07-31",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "お知らせ：JPCERT/CC Eyes「TSUBAMEレポート Overflow（2026年4～6月）」",
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/8/22 6:30:48"
+  "updated": "2026/8/23 6:28:17"
 }
