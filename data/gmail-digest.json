@@ -1,46 +1,43 @@
 {
-  "notifications": [
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "Windows での新しいログイン。studystudy920@gmail.com の Google アカウントへ Windows デバイスから新しいログインが検出されました。ご自身によるものであれば対応不要。（再設定用アドレス massa.saka2010@gmail.com 宛のコピー）",
-      "date": "2026-08-21 11:02",
-      "messageId": "1a0220e0012fa638"
-    }
-  ],
-  "updated": "2026-08-22 06:15",
+  "notifications": [],
+  "updated": "2026-08-23 06:15",
   "sourceResults": [
     {
       "source": "Googleセキュリティ通知 (no-reply@accounts.google.com / security-noreply@google.com)",
-      "count": 1,
-      "note": "Windows での新しいログイン検知（2026-08-21 11:02 JST）"
+      "count": 0,
+      "note": "過去24時間の新規通知なし。直近の通知は2026-08-21 11:02 JST（Windows新規ログイン、messageId 1a0220e0012fa638）で、これは前回ダイジェスト済み・24時間ウィンドウ外。"
     },
     {
       "source": "ScanNetSecurity (scan@netsecurity.ne.jp)",
       "count": 0,
-      "note": "該当メールなし"
+      "note": "該当メールなし（14日間遡っても0件 → accountWarning 参照）"
     },
     {
       "source": "日経BP / 日経クロステック (nikkeibp.co.jp, xtech-ac@nikkeibp.co.jp)",
       "count": 0,
-      "note": "該当メールなし（※接続アカウント変更の影響の可能性あり。accountWarning 参照）"
+      "note": "該当メールなし（14日間遡っても0件 → accountWarning 参照）"
     },
     {
       "source": "ISACA東京支部 (tky-jimukyoku@isaca.gr.jp)",
       "count": 0,
-      "note": "該当メールなし"
+      "note": "該当メールなし（14日間遡っても0件 → accountWarning 参照）"
     },
     {
       "source": "ISC2 Japan (connect.isc2.org)",
       "count": 0,
-      "note": "該当メールなし"
+      "note": "該当メールなし（14日間遡っても0件 → accountWarning 参照）"
     }
   ],
   "accountWarning": {
     "detected": true,
     "connectedAccount": "massa.saka2010@gmail.com",
     "expectedAccount": "studystudy920@gmail.com",
-    "detail": "Gmail MCP の接続先が massa.saka2010@gmail.com になっています。昨日(2026-08-21)の実行では nikkeibp 系メルマガが22件取得できていましたが、本日は from:nikkeibp.co.jp newer_than:2d でも0件。当該メルマガは studystudy920@gmail.com 宛のため、アカウント切り替えが原因と推定されます。Gmail MCP の再認証（studystudy920@gmail.com）を推奨します。"
+    "daysUnresolved": 2,
+    "detail": "2日連続で Gmail MCP の接続先が massa.saka2010@gmail.com のままです。本日 to:massa.saka2010@gmail.com の検索で受信トレイ全般が返る一方、to:studystudy920@gmail.com では massa.saka2010 から studystudy920 への送信済みメールしか返らないことから、接続アカウントを特定・確認しました。セキュリティ系メルマガ4ソースはいずれも14日遡及で0件であり、メールが届いていないのではなく別アカウント(studystudy920)に届いているため参照できない状態です。Gmail MCP を studystudy920@gmail.com で再認証するまで、本ダイジェストのメルマガ欄は空のままになります。",
+    "verification": [
+      "from:nikkeibp.co.jp newer_than:14d → 0件",
+      "from:(scan@netsecurity.ne.jp OR tky-jimukyoku@isaca.gr.jp OR connect.isc2.org) newer_than:14d → 0件",
+      "newer_than:2d（無条件）→ 15件取得（MCP接続自体は正常に稼働）"
+    ]
   }
 }
