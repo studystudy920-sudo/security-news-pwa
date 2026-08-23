@@ -1,6 +1,15 @@
 {
   "feeds": [
     {
+      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
+      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
+      "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
+      "date": "2026-08-23",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
       "title": "ビルド時に不正コードが実行されるRustパッケージの改ざんについてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/08/23/033006",
       "summary": "Rustのパッケージレジストリcrates.ioで、広く使われている3つのクレートが改ざんされ、依存関係に追加されたタイポスクワットパッケージのビルドスクリプトを通じて、ビルドしただけでペイロードが実行される事案が2026年8月20日に発生しました。Rustプロジェクトと複数のセキュリティ企業が、手口の詳細や影響範囲を相次いで公表しています。ここでは関連する情報をまとめます。 広く使われる3クレー",
@@ -208,15 +217,6 @@
       "category": "news"
     },
     {
-      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
-      "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
-      "date": "2026-08-21",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Who Got Missed in the MFA Rollout&#x3f; More Powershell &#x2b; Graph &#x2b; Entra scripting&#x21;, (Fri, Aug 21st)",
       "url": "https://isc.sans.edu/diary/rss/33272",
       "summary": "In every MFA rollout, there will come a time where you think you are closing in on \"done\", and some automation to list what&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s left would be handy. Something quic",
@@ -256,6 +256,15 @@
       "title": "企業が実装すべきサイバーセキュリティ・ガバナンス体系 ― 法律・政策・ガイドラインを「自社がやるべきこと」へ翻訳する ― - ctc-g.co.jp",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSUVQVy04U29ZLS1IOFp0cXVIazh0T2xqMVYwQzBrdGJ0b085emMtNU01ZEprRml0TWgyQmc0ZkM2c1l4Ynk5b29OUkpoU1doaC1vUVRqdERiVzlwa0hKZnZ2VmVBYkctSGVocmtwXzN4bi1BcGR1SHpITzE1TEJMUw?oc=5",
       "summary": "企業が実装すべきサイバーセキュリティ・ガバナンス体系 ― 法律・政策・ガイドラインを「自社がやるべきこと」へ翻訳する ―&nbsp;&nbsp;ctc-g.co.jp",
+      "date": "2026-08-21",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "(株)サイバーセキュリティクラウド【4493】：掲示板 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ybWhGZzdocmFjLUZMTXZiTWFxN3NqaDBQMGVaV3ZMOUlLOFA4TXU2dzRuMVRraVp6NW1ud0ZBeGFibG5oQmtDNTRMcjFnTnFBZThJUWVjVWtqQQ?oc=5",
+      "summary": "(株)サイバーセキュリティクラウド【4493】：掲示板&nbsp;&nbsp;Yahoo!ファイナンス",
       "date": "2026-08-21",
       "source": "Google News JP",
       "language": "日本語",
@@ -361,9 +370,9 @@
       "category": "alert"
     },
     {
-      "title": "サイバーセキュリティ広報啓発キャンペーン ～ねぇ待って！そのまま進めて大丈夫？～ - 東京都公式アプリ",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3SEZndGVURWl5X3JBVG93dUt0bXJFX3RrNFNzV3psT2k0dXMtWTE1R3dLR1R1NGVndkpzc0FhMVpBMTA2T2RYQUh1N0dBNm51X0h0WkJEUHIyN2NpMGY0dmV2cDJUVFhxVXc?oc=5",
-      "summary": "サイバーセキュリティ広報啓発キャンペーン ～ねぇ待って！そのまま進めて大丈夫？～&nbsp;&nbsp;東京都公式アプリ",
+      "title": "サイバーセキュリティお助け隊サービス（新類型） - meti.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZjJmOTQzZ2NVMkVMdTBJX3g2SkstSkY0X29BLXFKMVk0bmhQZkotQWtGajh0R2lxVWt1bVZPczFfN2ZJMFc5V1Y1OXlITEVRbm9kelpqUU9EWTR4N01ERHhQaE1JUlpSNFBNVVNOS2MwZw?oc=5",
+      "summary": "サイバーセキュリティお助け隊サービス（新類型）&nbsp;&nbsp;meti.go.jp",
       "date": "2026-08-20",
       "source": "Google News JP",
       "language": "日本語",
@@ -544,15 +553,6 @@
       "title": "サイバーセキュリティで資格や経験よりも重要な3つのスキル - ZDNET Japan",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9HVjgyeGZLeEZ1Q3JXUWxZVnl0Y0VkOGQ0NjZjcTI0WG5ZdGhLRDBUVGFVTVhDWE80TkJtejlWQlZxdmp3cnBCUzBrOXNqZ0JBaVl3?oc=5",
       "summary": "サイバーセキュリティで資格や経験よりも重要な3つのスキル&nbsp;&nbsp;ZDNET Japan",
-      "date": "2026-08-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "第9回サイバーセキュリティ・リレー講座 - kansai.meti.go.jp",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd2NuQUxUaEU5ZUF4UXFCMnctSnh6VDZxTWl1MHd0YmlncWV5M2JwNUdhRDluSlhjQ3pFcVhlQWs0aXdTWWNPX1htWm90SGJLYUY5VnQzX29idU9ZNGhBZGIzUC1iSGtOcEk5NUZZNG41cXMwU0xZSFVOZHRXQmhBcDBRNXctTWctMlhMaUFneDF5QURQOXJHZE1wVndwRGR5WkE?oc=5",
-      "summary": "第9回サイバーセキュリティ・リレー講座&nbsp;&nbsp;kansai.meti.go.jp",
       "date": "2026-08-17",
       "source": "Google News JP",
       "language": "日本語",
@@ -1148,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/8/23 6:28:17"
+  "updated": "2026/8/24 6:28:11"
 }
