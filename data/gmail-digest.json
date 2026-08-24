@@ -1,53 +1,42 @@
 {
-  "notifications": [
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "botton891@gmail.com のセキュリティ通知",
-      "snippet": "これは、botton891@gmail.com に送られたセキュリティ通知のコピーです。massa.saka2010@gmail.com は、このアカウントの再設定用のメールアドレスです。新しいパスキーがアカウントに追加されました。パスキーを追加した覚えがない場合は、アカウントが不正に使用されている可能性があります。",
-      "date": "2026-08-23 18:55",
-      "messageId": "1a02e0c58085bbe7",
-      "severity": "high",
-      "actionRequired": "botton891@gmail.com に新しいパスキーが追加されました。心当たりがない場合は当該アカウントに直接ログインし、パスキー・復旧情報・ログイン履歴を確認してください。メール内のリンクはフィッシングの可能性を排除できないため、myaccount.google.com を手入力して確認することを推奨します。"
-    }
-  ],
-  "updated": "2026-08-24 06:15",
+  "notifications": [],
+  "updated": "2026-08-25 06:15",
   "sourceResults": [
     {
       "source": "Googleセキュリティ通知 (no-reply@accounts.google.com / security-noreply@google.com)",
-      "count": 1,
-      "note": "2026-08-23 18:55 JST に1件。botton891@gmail.com へのパスキー追加通知のコピー（massa.saka2010@gmail.com が復旧用アドレスとして登録されているため転送されたもの）。"
+      "count": 0,
+      "note": "メールなし（過去24時間で0件）。前日 2026-08-23 のパスキー追加通知（botton891@gmail.com 宛のコピー）以降、新規の通知は届いていません。"
     },
     {
       "source": "ScanNetSecurity (scan@netsecurity.ne.jp)",
       "count": 0,
-      "note": "メールなし（21日間遡っても0件 → accountWarning 参照）"
+      "note": "メールなし（30日間遡っても0件 → accountWarning 参照）"
     },
     {
       "source": "日経BP / 日経クロステック (nikkeibp.co.jp, xtech-ac@nikkeibp.co.jp)",
       "count": 0,
-      "note": "メールなし（21日間遡っても0件 → accountWarning 参照）"
+      "note": "メールなし（30日間遡っても0件 → accountWarning 参照）"
     },
     {
       "source": "ISACA東京支部 (tky-jimukyoku@isaca.gr.jp)",
       "count": 0,
-      "note": "メールなし（21日間遡っても0件 → accountWarning 参照）"
+      "note": "メールなし（30日間遡っても0件 → accountWarning 参照）"
     },
     {
       "source": "ISC2 Japan (connect.isc2.org)",
       "count": 0,
-      "note": "メールなし（21日間遡っても0件 → accountWarning 参照）"
+      "note": "メールなし（30日間遡っても0件 → accountWarning 参照）"
     }
   ],
   "accountWarning": {
     "detected": true,
     "connectedAccount": "massa.saka2010@gmail.com",
     "expectedAccount": "studystudy920@gmail.com",
-    "daysUnresolved": 3,
-    "detail": "3日連続で Gmail MCP の接続先が massa.saka2010@gmail.com のままです。本日取得した全メール（newer_than:1d で25件）はすべて massa.saka2010 宛の受信トレイであり、Googleセキュリティ通知の To: ヘッダも massa.saka2010@gmail.com でした。セキュリティ系メルマガ4ソースは21日遡及でも0件で、これはメールが届いていないのではなく studystudy920@gmail.com 側に届いているため参照できない状態です。Gmail MCP を studystudy920@gmail.com で再認証するまで、本ダイジェストのメルマガ欄は空のままになります。",
+    "daysUnresolved": 4,
+    "detail": "4日連続で Gmail MCP の接続先が massa.saka2010@gmail.com のままです。本日も newer_than:1d（無条件）で25件取得できており MCP 接続自体は正常ですが、取得内容はすべて massa.saka2010 宛の受信トレイ（通販・宿泊予約系メルマガ）でした。セキュリティ系メルマガ4ソースは遡及期間を30日に延長しても0件で、これはメールが配信されていないのではなく studystudy920@gmail.com 側に届いているため参照できない状態です。Gmail MCP を studystudy920@gmail.com で再認証するまで、本ダイジェストのメルマガ欄は空のままになります。",
     "verification": [
-      "read_email(1a02e0c58085bbe7) の To: ヘッダ → massa.saka2010@gmail.com（接続アカウントを直接確認）",
-      "from:(scan@netsecurity.ne.jp OR nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp OR tky-jimukyoku@isaca.gr.jp OR connect.isc2.org) newer_than:21d → 0件",
+      "read_email(1a033b14f602b337) の To: ヘッダ → massa.saka2010@gmail.com（接続アカウントを直接確認）",
+      "from:(scan@netsecurity.ne.jp OR nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp OR tky-jimukyoku@isaca.gr.jp OR connect.isc2.org) newer_than:30d → 0件（前日の21日から遡及期間を延長しても変化なし）",
       "newer_than:1d（無条件）→ 25件取得（MCP接続自体は正常に稼働）"
     ]
   }
