@@ -1,43 +1,272 @@
 {
-  "notifications": [],
-  "updated": "2026-08-25 06:15",
+  "notifications": [
+    {
+      "type": "newsletter",
+      "from": "日経クロステック PC/モバイル (xtech-pcmobile@nikkeibp.co.jp)",
+      "subject": "炎天下のスマホは操作不能になることも／新型Galaxy Z Fold、標準とUltraで変わる使い勝手：日経クロステック PC/モバイルメール",
+      "snippet": "iPhoneをWindowsパソコンのWebカメラに／AIパソコンDGX Sparkを使ってみよう／通信大手が「コンビニ」に急接近／カラー電子ペーパータブレット「Bigme B10」／見えてきた「究極のARグラス」 など",
+      "date": "2026-08-26 06:06",
+      "messageId": "1a03abf81231ba83"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック 金融DXインサイド (xtech-fdx@nikkeibp.co.jp)",
+      "subject": "大和ネクスト銀行はオリックス銀行の「クラウド資産」を生かせるか",
+      "snippet": "楽天銀行やドコモSMTBネット銀行（旧住信SBIネット銀行）に続く規模のインターネット銀行が誕生へ。大和ネクスト銀行はオリックス銀行の発行済み全株式を取得し完全子会社化したと発表しました。",
+      "date": "2026-08-26 06:02",
+      "messageId": "1a03abb107cc5592"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック AIエフェクト (xtech-aie@nikkeibp.co.jp)",
+      "subject": "Googleを退社したディーン氏が語る、Geminiが出遅れた理由",
+      "snippet": "私にとって2026年8月の最大のニュースは、Jeff Dean氏が米Googleを退社したことでした。そのディーン氏が退社直後に行った外部での講演に、今回は着目したいと思います。",
+      "date": "2026-08-26 06:01",
+      "messageId": "1a03abad93f635f2"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス (business@nikkeibp.co.jp)",
+      "subject": "ソニーの脱・年功序列／千葉豪雨に間に合わなかった排水ポンプ - 日経ビジネス（8/26）",
+      "snippet": "永久磁石リサイクルの行方／全150ジョブ「図鑑」でキャリア磨くKDDI。現場人材や資材・機器の不足による建設や生産への影響が、災害対策の面でも表面化しつつあります。",
+      "date": "2026-08-26 05:32",
+      "messageId": "1a03a9f877fb91b1"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス (business@nikkeibp.co.jp)",
+      "subject": "150ジョブ掲載、KDDIの「図鑑」／工場のAI制御、ここが危険 - 日経ビジネス（8/25）",
+      "snippet": "なぜ売れた、岡山の「しょうゆソフト」／広がる「ヘリウム再利用」。ジョブ型雇用の落とし穴、KDDIが150ジョブの「図鑑」でキャリア磨き、AIで職務定義書つくる動きも。",
+      "date": "2026-08-25 17:10",
+      "messageId": "1a037f887092ebc7"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック IT注目記事 (xtech-pickup@nikkeibp.co.jp)",
+      "subject": "中国AIモデル「Kimi K3」もサンドボックス脱出／三菱UFJ銀行が口座開設プロセスを再設計：日経クロステック IT注目記事メール",
+      "snippet": "政府や自治体のシステム運用経費「3割削減」／デロイトがオントロジーの構築・活用サービスを提供開始／増える防衛産業への転職／「2025年の崖」を克服したJFEホールディングス社長 など",
+      "date": "2026-08-25 16:46",
+      "messageId": "1a037e2ead2597a0"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック ウイークリー・セレクト (xtech-e@nikkeibp.co.jp)",
+      "subject": "ホテルからのMicrosoft 365利用が危ない、公衆Wi-Fi機器への侵害を警告／熊本地震の全半壊建物、解体より修復の支援を",
+      "snippet": "電動車時代のエンジン高級車／「不正アクセス」に他責の響き／ソニー、新構造で「壊れないレーザー」。出張時、宿泊したホテルの公衆Wi-Fi経由でのMicrosoft 365利用に警告。",
+      "date": "2026-08-25 12:22",
+      "messageId": "1a036f11ddc02e8b"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック IT最新ニュース (xtech-news@nikkeibp.co.jp)",
+      "subject": "1FINITYが光伝送装置の世界シェア10％へ／KDDI、売れる商業施設づくりをAIで支援：日経クロステック IT最新ニュースメール",
+      "snippet": "デロイトがオントロジーの構築・活用サービス／三菱UFJ銀行が口座開設プロセスを再設計／IBM「量子優位性の時代に入った」 など",
+      "date": "2026-08-25 12:21",
+      "messageId": "1a036efaf2baced5"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス (business@nikkeibp.co.jp)",
+      "subject": "キーエンス流経営の知恵を一気読み - 日経ビジネス（8/25）",
+      "snippet": "外出ゼロで「どぶ板」営業／400円のマスクをいくらで売るか。営業×AI、キーエンス流、新卒女性のトップ営業に密着。",
+      "date": "2026-08-25 12:14",
+      "messageId": "1a036e9939a8db04"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック IT最前線号外 (xtech-it@nikkeibp.co.jp)",
+      "subject": "明日開幕「IT Japan 2026」、プロ野球界のレジェンドらが登壇！／なぜ今、磁気冷却が注目されるのか？／「IT主権」捨てた日本企業と官公庁：IT最前線号外",
+      "snippet": "IT Japan Award 2026グランプリ受賞企業が脱レガシーを語る／「磁気冷却」最前線を徹底解説！ 8月26日～28日オンライン開催。",
+      "date": "2026-08-25 11:53",
+      "messageId": "1a036d6cc512cf7c"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP セミナー (tgml-nmsys@nikkeibp.co.jp)",
+      "subject": "残席急減！人為ミス撲滅の定番セミナー◆9/8開催「なぜなぜ分析」演習付きセミナー実践編",
+      "snippet": "累計受講者5000名超！ヒューマンエラー再発防止にすぐ役立つと大人気の講座です。製造や物流などのプロセスにおける様々なリスクが表面化し、業績や信用の…",
+      "date": "2026-08-25 11:46",
+      "messageId": "1a036d03af316d5e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP セミナー (tgml-nmsys@nikkeibp.co.jp)",
+      "subject": "【9月開催】『地頭力を鍛える』著者から直接学ぶ思考の拡げ方、半日講座｜日経BP",
+      "snippet": "自分や部下の視野の狭さを改善したい方、新たな企画を考えることを求められている方向け。ベストセラー「地頭力を鍛える」の著者から直接学べる思考の拡げ方。",
+      "date": "2026-08-25 11:40",
+      "messageId": "1a036ca3f35c8d1e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP セミナー (tgml-nmsys@nikkeibp.co.jp)",
+      "subject": "AIデータセンター省電力化の切り札を多面的に解説◆9/3開催 光電融合、最新動向とビジネスチャンス",
+      "snippet": "AIデータセンター省電力化の中核技術を徹底解説。IBM・NTT・Google出資の新興が集結、トップランナーが語る光電融合エコシステムとCPO実装の最前線。9/3開催。",
+      "date": "2026-08-25 11:34",
+      "messageId": "1a036c4eb06d75d4"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
+      "subject": "「AI活用は経営課題」セキュリティーと統制を前提に、クラウドストレージを企業AI基盤へ進化【日経BP Topics】",
+      "snippet": "セキュリティーと統制を前提に、クラウドストレージを企業AI基盤へ進化させる「DirectCloud」。ギフトがあたるアンケート実施中。",
+      "date": "2026-08-25 09:45",
+      "messageId": "1a03660cc244b7cd"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック Active (xtech-ac@nikkeibp.co.jp)",
+      "subject": "運用・管理部門の負荷軽減に寄与するPC調達方法とは？ 「借りると高い」は本当か：日経クロステック Active",
+      "snippet": "AI PCを800台導入したトヨタ系マーケ会社／油圧機器のカヤバがPC運用管理サービスを採用／Wi-Fiルーターの電気代はどれだけかかる？／グーグルの新ノートPC",
+      "date": "2026-08-25 09:42",
+      "messageId": "1a0365ea9f656c06"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
+      "subject": "ベストプラクティスを組み込んだ「型」が、数値管理を経営の武器に変える【日経BP Topics】",
+      "snippet": "ERP刷新は予算管理変革の好機。おすすめ情報をお届けします。",
+      "date": "2026-08-25 09:38",
+      "messageId": "1a0365afb36a59af"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
+      "subject": "ローカルで動く「エッジAI」を支える技術とは、ハイブリッドAI実用化の鍵に【日経BP Topics】",
+      "snippet": "AIもハイブリッドへ、エッジAIの進化がもたらすAI活用の最新動向を動画で解説。日本におけるAI活用は、本格的なフェーズへと…",
+      "date": "2026-08-25 09:37",
+      "messageId": "1a036598c5d5eb6a"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP セミナー (tgml-10@nikkeibp.co.jp)",
+      "subject": "【東京開催】ヒューマノイドロボ「Unitree G1」を分解　最新AIを体感しよう【BPセミナー】",
+      "snippet": "AI専門展《抽選特典あり》。未来をつくるテクノロジー展 日経クロステックNEXT 東京 2026「AIリーダーズEXPO 東京 2026」。",
+      "date": "2026-08-25 08:48",
+      "messageId": "1a0362d67d286f8d"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP セミナー (tgml-10@nikkeibp.co.jp)",
+      "subject": "「侵入される前提」で考える時代へ 被害を最小化するサイバーレジリエンス最前線【BPセミナー】",
+      "snippet": "サイバーレジリエンス＆情報セキュリティー戦略セミナー2026 ～AI駆動時代のサイバーセキュリティー対策～ 9月9日（水）13:00～16:05／9月10日（木）13:00～17:25。",
+      "date": "2026-08-25 08:48",
+      "messageId": "1a0362cfc587fc11"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
+      "subject": "システム部門をAIエージェントが変える、人が介在しない「自律型IT」の実力【日経BP Topics】",
+      "snippet": "人が介在しない「自律型IT」とは？ AIエージェントで変わるIT部門の働き方。AIエージェントによってIT部門の業務は大きく変わり…",
+      "date": "2026-08-25 08:47",
+      "messageId": "1a0362c1c1c1aac6"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP セミナー (tgml-10@nikkeibp.co.jp)",
+      "subject": "明日開催！AX（AI経営変革）が日本を変える─経営トップ30名超の戦略を知る3日間【BPセミナー】",
+      "snippet": "申込殺到！全28講演が受講無料。日経BP主催「IT Japan 2026」8/26～8/28。IT Japan Awardグランプリ受賞、空前の大規模プロジェクト完遂の舞台裏（JFEスチール）。",
+      "date": "2026-08-25 07:41",
+      "messageId": "1a035efc87690fb4"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
+      "subject": "行動解析AIで見抜くメール攻撃、従業員と相手の送受信に潜む「異常」を検知【日経BP Topics】",
+      "snippet": "コストをかけられないメール攻撃対策に新視点。メール攻撃を撃退する「行動解析AI」、異常検知から対策までを自動化。",
+      "date": "2026-08-25 07:39",
+      "messageId": "1a035ee4c115ce2b"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック Active (xtech-ac@nikkeibp.co.jp)",
+      "subject": "発火相次ぐモバイルバッテリー、なぜアンカーは従来型電池を採用？：日経クロステック Active",
+      "snippet": "弁護士ドットコムが実践するクラウド監視術／品質要件を工数見積もりにどう織り込むか／服装に破れたジーンズや短パンはあり？／情報処理試験の新試験予想問題集",
+      "date": "2026-08-25 07:38",
+      "messageId": "1a035ed0ad18b89e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック IT最前線 (xtech-it@nikkeibp.co.jp)",
+      "subject": "三菱UFJ銀行が口座開設プロセスを再設計、JPKIが本人確認の中心に：日経クロステック IT最前線",
+      "snippet": "2027年4月施行の法令改正で、金融機関における本人確認が大きく変わる。政府や自治体のシステム運用経費「3割削減」／DGX Sparkの本命用途は「ローカル推論」。",
+      "date": "2026-08-25 07:08",
+      "messageId": "1a035d1757354433"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
+      "subject": "AIエージェントが動作するプラットフォームの条件、「データの流動性」とは？【日経BP Topics】",
+      "snippet": "自律型AIを止めないエンタープライズ級データインフラ基盤の在り方と、最新リリースで提供される機能について解説。",
+      "date": "2026-08-25 06:46",
+      "messageId": "1a035bd9fc55fcf6"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
+      "subject": "電話での問い合わせをFAQやチャットに誘導、藤沢市役所が市民サービスを効率化【日経BP Topics】",
+      "snippet": "藤沢市役所のDX事例、市民サービス改善と業務効率化を同時実現した仕組みとは。神奈川県の藤沢市役所は、44万人を超える市民への…",
+      "date": "2026-08-25 06:46",
+      "messageId": "1a035bd7c49de4f0"
+    }
+  ],
+  "updated": "2026-08-26 06:15",
   "sourceResults": [
     {
       "source": "Googleセキュリティ通知 (no-reply@accounts.google.com / security-noreply@google.com)",
       "count": 0,
-      "note": "メールなし（過去24時間で0件）。前日 2026-08-23 のパスキー追加通知（botton891@gmail.com 宛のコピー）以降、新規の通知は届いていません。"
+      "note": "メールなし（過去24時間で0件）。新しいログイン検知・パスワード変更・アプリアクセス許可等の通知は届いていません。"
     },
     {
       "source": "ScanNetSecurity (scan@netsecurity.ne.jp)",
       "count": 0,
-      "note": "メールなし（30日間遡っても0件 → accountWarning 参照）"
+      "note": "メールなし（過去24時間で0件）。Gmail接続アカウントが studystudy920@gmail.com に是正されたため、これは純粋に配信がなかったことを意味します。"
     },
     {
       "source": "日経BP / 日経クロステック (nikkeibp.co.jp, xtech-ac@nikkeibp.co.jp)",
-      "count": 0,
-      "note": "メールなし（30日間遡っても0件 → accountWarning 参照）"
+      "count": 26,
+      "note": "26件受信。日経クロステック各紙（IT最前線／Active／金融DXインサイド／AIエフェクト／ウイークリーセレクト／PCモバイル）、日経ビジネス、日経BP Topics・セミナー案内を含む。"
     },
     {
       "source": "ISACA東京支部 (tky-jimukyoku@isaca.gr.jp)",
       "count": 0,
-      "note": "メールなし（30日間遡っても0件 → accountWarning 参照）"
+      "note": "メールなし（過去24時間で0件）"
     },
     {
       "source": "ISC2 Japan (connect.isc2.org)",
       "count": 0,
-      "note": "メールなし（30日間遡っても0件 → accountWarning 参照）"
+      "note": "メールなし（過去24時間で0件）"
     }
   ],
-  "accountWarning": {
-    "detected": true,
-    "connectedAccount": "massa.saka2010@gmail.com",
-    "expectedAccount": "studystudy920@gmail.com",
-    "daysUnresolved": 4,
-    "detail": "4日連続で Gmail MCP の接続先が massa.saka2010@gmail.com のままです。本日も newer_than:1d（無条件）で25件取得できており MCP 接続自体は正常ですが、取得内容はすべて massa.saka2010 宛の受信トレイ（通販・宿泊予約系メルマガ）でした。セキュリティ系メルマガ4ソースは遡及期間を30日に延長しても0件で、これはメールが配信されていないのではなく studystudy920@gmail.com 側に届いているため参照できない状態です。Gmail MCP を studystudy920@gmail.com で再認証するまで、本ダイジェストのメルマガ欄は空のままになります。",
-    "verification": [
-      "read_email(1a033b14f602b337) の To: ヘッダ → massa.saka2010@gmail.com（接続アカウントを直接確認）",
-      "from:(scan@netsecurity.ne.jp OR nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp OR tky-jimukyoku@isaca.gr.jp OR connect.isc2.org) newer_than:30d → 0件（前日の21日から遡及期間を延長しても変化なし）",
-      "newer_than:1d（無条件）→ 25件取得（MCP接続自体は正常に稼働）"
-    ]
-  }
+  "accountStatus": {
+    "resolved": true,
+    "connectedAccount": "studystudy920@gmail.com",
+    "detail": "前日まで4日連続で発生していた「Gmail MCP の接続先が massa.saka2010@gmail.com になっている」問題は解消しました。本日取得した全26件の To: ヘッダが studystudy920@gmail.com であることを確認済みで、日経BP系メルマガが正常に取得できています。ScanNetSecurity / ISACA東京支部 / ISC2 Japan の0件は、アカウント不整合ではなく実際に配信がなかったためです。",
+    "previousDaysUnresolved": 4
+  },
+  "highlights": [
+    {
+      "priority": "high",
+      "title": "ホテルからのMicrosoft 365利用が危ない、公衆Wi-Fi機器への侵害を警告",
+      "reason": "公衆Wi-Fi機器への侵害が確認されており、出張時のM365アクセスが標的に。出張時テレワーク規程・条件付きアクセス設定の見直し材料。",
+      "messageId": "1a036f11ddc02e8b"
+    },
+    {
+      "priority": "high",
+      "title": "三菱UFJ銀行が口座開設プロセスを再設計、JPKIが本人確認の中心に",
+      "reason": "2027年4月施行の法令改正で金融機関の本人確認（eKYC／犯収法）が大きく変わる。AML/CFT業務に直結する規制動向。",
+      "messageId": "1a035d1757354433"
+    },
+    {
+      "priority": "medium",
+      "title": "中国AIモデル「Kimi K3」もサンドボックス脱出",
+      "reason": "LLMのサンドボックスエスケープ事例。社内AI利用ガバナンス／AIセキュリティの論点。",
+      "messageId": "1a037e2ead2597a0"
+    },
+    {
+      "priority": "medium",
+      "title": "サイバーレジリエンス＆情報セキュリティー戦略セミナー2026（9/9・9/10）",
+      "reason": "「侵入される前提」でのAI駆動時代の対策。CPE取得の検討候補。",
+      "messageId": "1a0362cfc587fc11"
+    }
+  ]
 }
