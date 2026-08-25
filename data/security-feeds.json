@@ -1,6 +1,321 @@
 {
   "feeds": [
     {
+      "title": "古野電気製FA-50（簡易型船舶自動識別装置、AIS）におけるハードコードされた認証情報使用および認証欠如の脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU95422936/",
+      "summary": "古野電気株式会社が提供する簡易型船舶自動識別装置（AIS）FA-50には、ハードコードされた認証情報使用および認証欠如の脆弱性が存在します。",
+      "date": "2026-08-25",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "Apache Struts 2におけるリソース枯渇の脆弱性",
+      "url": "https://jvn.jp/jp/JVN08517956/",
+      "summary": "The Apache Software Foundationが提供するApache Struts 2には、リソース枯渇の脆弱性が存在します。",
+      "date": "2026-08-25",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "KONAMI製METAL GEAR ONLINE 3におけるヒープベースのバッファオーバーフローの脆弱性",
+      "url": "https://jvn.jp/vu/JVNVU96980428/",
+      "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
+      "date": "2026-08-25",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
+      "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+      "summary": "The U.S. Department of the Treasury has announced fresh sanctions on Iranian cyber actors as part of what it called an \"unprecedented, whole-of-government, economic campaign\" against the nation and it",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
+      "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+      "summary": "Oasis Security has disclosed a weakness in NVIDIA NemoClaw that could let an attacker-controlled webpage take unauthenticated control of the local Ollama instance serving an AI agent and plant hidden ",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
+      "url": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
+      "summary": "Meta on Tuesday announced a set of WhatsApp account security features, including support for multiple passkeys to a single account to help users with both iOS and Android devices sign into their accou",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
+      "url": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
+      "summary": "Marimo has addressed a high-severity security flaw in its notebook software that allowed an attacker to execute an attacker-supplied Model Context Protocol (MCP) command in a specially crafted noteboo",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
+      "url": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
+      "summary": "Thousands of companies have been affected by the Mirage2FA campaign from 2024 to 2026. The commercial phishing-as-a-service toolkit targets Microsoft 365 accounts by abusing legitimate login flows and",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
+      "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+      "summary": "Cybersecurity researchers have disclosed details of a new campaign that uses a cluster of 24 npm packages as free phishing infrastructure for redirecting to ClickFix-style fake CAPTCHA pages. \"While t",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
+      "url": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
+      "summary": "Cybersecurity researchers are calling attention to a new campaign that employs FTP banners as dead drop resolvers (DDRs) to deliver two previously unreported remote access trojans (RATs) tracked as E4",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
+      "url": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
+      "summary": "Vulnerability management has been a staple of security programs since the dawn of the cybersecurity discipline. The symbiotic relationship between vulnerability and patch management teams has also exi",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
+      "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
+      "summary": "Bad actors are attempting to exploit two severe unauthenticated authentication bypasses in the Xecurify miniOrange SAML 2.0 Single Sign On plugin that make it possible for an attacker to sign in as an",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+      "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a maximum-severity security flaw impacting Oracle HTTP Server and Oracle WebLogic Server to its Known Exploited Vulnera",
+      "date": "2026-08-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes",
+      "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+      "summary": "A newly uncovered phishing-as-a-service (PhaaS) platform called AnonyMousKIT automates the retrieval of codes used to unlock stolen Apple devices and disable the Activation Lock feature. [...]",
+      "date": "2026-08-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Massive DDoS attack disrupts Norway’s government digital services",
+      "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+      "summary": "A large distributed denial-of-service (DDoS) attack has disrupted Norway's shared government digital infrastructure since Monday, affecting services used by the public sector. [...]",
+      "date": "2026-08-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hospital operator Nutex Health says data stolen in cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/",
+      "summary": "Healthcare and services provider Nutex is investigating a data breach incident where an unauthorized third party exfiltrated information from company servers. [...]",
+      "date": "2026-08-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "From Fake Workers to Account Recovery: The Growing Identity Verification Risk",
+      "url": "https://www.bleepingcomputer.com/news/security/from-fake-workers-to-account-recovery-the-growing-identity-verification-risk/",
+      "summary": "Attackers are increasingly targeting the processes used to establish or recover identity rather than attacking the login itself. Specops explains how stronger identity verification can help organizati",
+      "date": "2026-08-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft PowerToys adds Alt+Tab-style switching for an app's windows",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-powertoys-adds-alt-plustab-style-switching-for-an-apps-windows/",
+      "summary": "Microsoft updated its Windows PowerToys toolset with a new utility dubbed \"Window Hopper\" that lets users switch between an app's windows more quickly. [...]",
+      "date": "2026-08-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "WhatsApp adds stronger two-step verification, multiple passkeys",
+      "url": "https://www.bleepingcomputer.com/news/security/whatsapp-adds-stronger-two-step-verification-multiple-passkeys/",
+      "summary": "WhatsApp has started rolling out several new account security features, including support for multiple passkeys and stronger two-step verification. [...]",
+      "date": "2026-08-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers breached over 270 Zimbra servers in ongoing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+      "summary": "Threat actors have already compromised over 270 Zimbra instances in remote code execution attacks targeting a high-severity Zimbra Collaboration Suite (ZCS) vulnerability. [...]",
+      "date": "2026-08-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Police arrests dozens of suspects in global cybercrime crackdown",
+      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-dozens-of-suspects-in-global-cybercrime-crackdown/",
+      "summary": "Law enforcement agencies from 22 countries helped identify 263 suspects and arrested 58 individuals linked to cybercrime networks coordinated by African crime groups. [...]",
+      "date": "2026-08-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Obfuscating IP Addresses as Hostnames, (Tue, Aug 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33280",
+      "summary": "It is pretty obvious that hostnames can replace IP addresses. Pretty much any software accepting an IP address will also accept a hostname as an argument. Last week, I wrote about scans for the cloud ",
+      "date": "2026-08-25",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Tuesday, August 25th, 2026 https://isc.sans.edu/podcastdetail/10066, (Tue, Aug 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33278",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-08-25",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "Ebyte NE2-D11",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-06",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized administrative access, disclose sensitive information, modify device configuration, hija",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "A Tale of Two SOCs: Insights From Two Red Team Assessments",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-237a",
+      "summary": "Advisory at a Glance Title A Tale of Two SOCs: Insights From Two Red Team Assessments Original Publication&nbsp; August 25, 2026 Executive Summary The Cybersecurity and Infrastructure Security Agency ",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "Rently Smart Home",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to access sensitive information and override user permissions. The following versions of Rently Smart Home are a",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/08/25/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-60004 Gitea Code Injection Vulnerability This type ",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "PayRange API",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-04",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote, authenticated or unauthenticated attacker to disclose sensitive information, arbitrarily modify the device to caus",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "Zoneminder",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-02",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in full Remote Code Execution (RCE) as the web server user. The following versions of Zoneminder are affected: Zoneminder 1",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "Siemens SIMATIC IoT2050 Advanced",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-03",
+      "summary": "View CSAF Summary SIMATIC IoT2050 Advanced devices running Industrial OS with Node-RED installed contain a missing authentication vulnerability in the Node-RED HTTP interface that could allow an unaut",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "FURUNO FA-50 Class B AIS Transponder",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-07",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to alter device settings. The following versions of FURUNO FA-50 Class B AIS Transponder are affected: FURUNO",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "Bendix EC80 Brake ECU",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-237-05",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause the loss of ABS functions, steering assist, speedometer, shifting capabilities, or disable automatic",
+      "date": "2026-08-25",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "NEC、「CyIOC エキスパート認定制度」を新設 - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JWmJmR1VpUFkzNzNQY1JJT2pHT3ZNVFdhOVVYQW9TX1NpQkRIcGZveVhyeUx3RlRsaWNuQ09LMnk4ck9Mc3lET1l1SVh2UDFRSUFsZ3NfbTRWUFFROGE5M0RoS19ocXVpTlE?oc=5",
+      "summary": "NEC、「CyIOC エキスパート認定制度」を新設&nbsp;&nbsp;PR TIMES",
+      "date": "2026-08-25",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "自動車サイバーセキュリティの世界市場（2026年～2032年）、市場規模（ソフトウェアサービス、ハードウェアサービス、ネットワークおよびクラウドサービス、セキュリティサー... - アットプレス",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5DY3d3MjUzaEItTzlaMFdidHk0eEJteHJ2V3Q5YjkwTzEtQ3AxZFBiN01zTWVZR01oVjAtWTc4TGNWVklzSXl1cFNkVWw2RDA?oc=5",
+      "summary": "自動車サイバーセキュリティの世界市場（2026年～2032年）、市場規模（ソフトウェアサービス、ハードウェアサービス、ネットワークおよびクラウドサービス、セキュリティサー...&nbsp;&nbsp;アットプレス",
+      "date": "2026-08-25",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "SCS評価制度への対応、\"最初の一歩\"を無料に。専門家に依頼すれば数十万円規模とされる「セキュリティ対策状況の可視化」 - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1RdjFwV0FaLXNXU2FfU2xlMG5yS0FlNUpraVFXckNkaDFEaWlkRXRYRTM0bk9TUlVSX0tycjdCanZSY1ZKOGh4UlpLeUUwRUR4aDdnUmtPR2lDczdPYUszekdhdVQ3YW50OW9PN3hJaEs4RFI4N01TRzZEVQ?oc=5",
+      "summary": "SCS評価制度への対応、\"最初の一歩\"を無料に。専門家に依頼すれば数十万円規模とされる「セキュリティ対策状況の可視化」&nbsp;&nbsp;ニコニコニュース",
+      "date": "2026-08-25",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "SKYSEA Client ViewおよびSKYMEC IT Managerにおける複数の脆弱性",
       "url": "https://jvn.jp/jp/JVN33423625/",
       "summary": "Ｓｋｙ株式会社が提供するSKYSEA Client ViewおよびSKYMEC IT Managerには、複数の脆弱性が存在します。",
@@ -28,69 +343,6 @@
       "category": "vuln"
     },
     {
-      "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-      "url": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-      "summary": "A package gets installed. A login prompt opens. A box sits exposed to the internet. Nothing looks unusual yet. That’s roughly the mood this week. Trusted tools turn hostile, old weak spots get fresh a",
-      "date": "2026-08-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-      "url": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
-      "summary": "Cybersecurity researchers have flagged two new malware families called WordlistLoader and SynkLoader that's used to deliver next-stage payloads and likely sell access to ransomware groups. According t",
-      "date": "2026-08-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-      "url": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
-      "summary": "If your developers are using AI coding tools, you are probably already seeing the upside: faster development, more code, and less time spent on routine work. The harder part is what comes after. AI ca",
-      "date": "2026-08-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-      "url": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-      "summary": "Red Hat and the Keycloak project have released patches to address a critical security flaw in the open-source identity and access management server that could allow an unauthenticated remote attacker ",
-      "date": "2026-08-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
-      "url": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
-      "summary": "Cybersecurity researchers have flagged a cyber espionage campaign targeting Myanmar that uses graduation ceremony invitation lures to deliver a Go backdoor called QUICAgent. The campaign, codenamed Op",
-      "date": "2026-08-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
-      "url": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
-      "summary": "Big security risks come in small packages. While enterprise security teams focus on policing the proliferation of employees using ChatGPT and Claude for quick drafting tasks, a more urgent threat is p",
-      "date": "2026-08-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-      "url": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
-      "summary": "Cybersecurity researchers have disclosed details of a Chinese-speaking cybercrime group dubbed UAT-10147 that's targeting Windows and Linux web servers globally across the education, media, technology",
-      "date": "2026-08-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices",
       "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/",
       "summary": "An unpatched vulnerability in Calix GS7 XGS (GS5239XG) residential routers used by multiple U.S. broadband providers allows remote, unauthenticated attackers to create port-forwarding rules that can e",
@@ -103,69 +355,6 @@
       "title": "Hackers target WordPress sites in miniOrange auth bypass attacks",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-target-wordpress-sites-in-miniorange-auth-bypass-attacks/",
       "summary": "Hackers are attempting to exploit two critical authentication bypass vulnerabilities in the miniOrange SAML 2.0 Single Sign On plugin for WordPress that can be used to forge SAML responses and log in ",
-      "date": "2026-08-24",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "TikTok reaches $400M settlement with US over COPPA violations",
-      "url": "https://www.bleepingcomputer.com/news/legal/tiktok-reaches-400m-settlement-with-us-over-coppa-violations/",
-      "summary": "The U.S. Department of Justice announced a $400 million settlement with TikTok, ByteDance, and affiliated companies over allegations that they violated the Children's Online Privacy Protection Act (CO",
-      "date": "2026-08-24",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ReliaQuest confirms failed data-theft attack after ShinyHunters breach",
-      "url": "https://www.bleepingcomputer.com/news/security/reliaquest-confirms-failed-data-theft-attack-after-shinyhunters-breach/",
-      "summary": "Cybersecurity company ReliaQuest has confirmed that one of its employees was targeted in a social engineering attack after hackers impersonated a member of the security team. [...]",
-      "date": "2026-08-24",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft Teams now lets admins block external bots from meetings",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-now-lets-admins-block-external-bots-from-meetings/",
-      "summary": "Microsoft is rolling out a new Teams meeting protection policy that allows administrators to automatically block all identified external bots from joining Teams meetings. [...]",
-      "date": "2026-08-24",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "South Korean startup platform breach exposes key management failures",
-      "url": "https://www.bleepingcomputer.com/news/security/south-korean-startup-platform-breach-exposes-key-management-failures/",
-      "summary": "A breach at South Korea's government-backed startup platform exposed encrypted personal data after an encryption key was included in an API. Penta Security explains why encryption keys must be securel",
-      "date": "2026-08-24",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft: August updates break printing, PDF export in WPF apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-august-updates-break-printing-pdf-export-in-wpf-apps/",
-      "summary": "Microsoft has confirmed that .NET Framework updates released as part of the August 2026 Patch Tuesday are breaking printing and PDF export in WPF applications. [...]",
-      "date": "2026-08-24",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA orders urgent patching of actively exploited Zimbra flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-urgent-patching-of-actively-exploited-zimbra-flaw/",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has ordered U.S. government agencies to patch an actively exploited vulnerability in Zimbra Collaboration Suite (ZCS) within three days. [..",
-      "date": "2026-08-24",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft shares temporary fix for Windows 11 gaming issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-temporary-fix-for-windows-11-gaming-issues/",
-      "summary": "Microsoft has shared a temporary fix for ongoing gaming issues caused by Windows 11 updates released during the August 2026 Patch Tuesday. [...]",
       "date": "2026-08-24",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -199,6 +388,24 @@
       "category": "alert"
     },
     {
+      "title": "メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kUnJ4QUhKaklTdzdjUk1kcTFoQ3p6WkdyTUJKNjdLZXdRQnFBbE1OMzh1eU5TbnA2Qkpsd2twTGROVkNnT3NKdXFBZkRfX3piTXQ4Zk1UeGh0cklXRWVGa25TcFBEdzBwOWdnWg?oc=5",
+      "summary": "メール訓練の文面が無神経と批判を浴びてＣＥＯが謝罪 ～ セキュリティ教育には分別と敬意を&nbsp;&nbsp;ScanNetSecurity",
+      "date": "2026-08-24",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "町田市「サイバーセキュリティ講座」 来月11日、現職警官ら招く - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBMeFlNNG5wSnNITW1palkwQ3NTOG9mWVFBU3JnWXZqdWJrbXA3djFWSGNSY2c5M0xQYVkyMFIwQ3QzRmlLOUZ0TG51UEJHTVd6cV9GWURScGUzb1R1QmFwb1dEOEFpdVJuX3BlRXdJeFZBUUXSAXhBVV95cUxNcDdINy1ibm1SNVRremg4eXdyYmpyT0xFcjFmc3pwVUpwTXJjX0pvUVUtUzJ5Skx6NjBhQWRVaGlPLWxrZ3BRZGN0c01aXzdxS1dmTFhhZzA5VlJxX3BzVDRId1lJM1hXNC1OQmpHZEotVEtVRDJkQ2k?oc=5",
+      "summary": "町田市「サイバーセキュリティ講座」 来月11日、現職警官ら招く&nbsp;&nbsp;ｄメニューニュース",
+      "date": "2026-08-24",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Anthropic、「Claude Mythos 5」をサイバーセキュリティ領域で開放拡大へ - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIUnpwa0xLV0p4amlMUnFPc3VqRDNRQ3NRQjRmSzZ1VDRMTVhucjluUUVqTGdoVFZma1BCVHE0dWNSYVFIZlVMMnJLQkkySXJQZnAtTDhXOFkwR2tpR1JIYWRNaTh6U3hGRTIzdEdjLWZkVHhieXBBc0ZNelRWSlk?oc=5",
       "summary": "Anthropic、「Claude Mythos 5」をサイバーセキュリティ領域で開放拡大へ&nbsp;&nbsp;Yahoo!ニュース",
@@ -208,45 +415,9 @@
       "category": "news"
     },
     {
-      "title": "統合セキュリティプラットフォーム「Securify」、サイバーセキュリティ専門イベント「Security Days Fall 2026」に出展 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9kY2E1WDhMUDVTVkFHclphSmxDbkphY0Y1WWNRY3RSdTVfZTFjaGpoQmtYemtkdEZyc0VDR0l5NGVZQ0JZNEZQMkdVS0lXS01XenlDd2VKTTQxdEtGYXczVTUtWUdnc0xFb3c?oc=5",
-      "summary": "統合セキュリティプラットフォーム「Securify」、サイバーセキュリティ専門イベント「Security Days Fall 2026」に出展&nbsp;&nbsp;PR TIMES",
-      "date": "2026-08-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サウジアラビアのデジタル変革が加速、サイバーセキュリティ市場は2032年に105億米ドル規模へ成長へ - CNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2TXFCWGVhbGNza2puWE1va1FZZ2JVMkd3SlF3Y3ZpLS1Bd3FMMElfeDl0OU9Wa2VyNXhNY0ZDMmJ3aF9qT0tTX3lJekhlR0tpU1E?oc=5",
-      "summary": "サウジアラビアのデジタル変革が加速、サイバーセキュリティ市場は2032年に105億米ドル規模へ成長へ&nbsp;&nbsp;CNET Japan",
-      "date": "2026-08-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ・リスクマネジメントの実践知が集結、9月11日特別フォーラム開催 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TemJNVDYxSDBnX1I5UFpQV3BVdXZHMVdXY2huSzE2VnhkM3dvQjMxUFYzQklxcDdaa0tCOUEzQ2dXT3F6R2JkbWxaQ0lMLTlRcHpGTFAxNUtvaHZnTU1VZV9NUmx2NnpmV1lLY2x5Z0tkN2lZV3A5TXZval9LMG8?oc=5",
-      "summary": "サイバーセキュリティ・リスクマネジメントの実践知が集結、9月11日特別フォーラム開催&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-08-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【9/17開催・無料オンラインセミナー】「見えないリスクは、守れない。」企業が今取り組むべきサイバーセキュリティ対策セミナーを開催 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE43b3I0ZGRSSGVCMFlSMy0wNWNzLURBSFFLcFM0TU1DYkYySEpib1BxbkhpTjlBSTlsZnN2eHlQT3hnVWNqaUhpdzRaWnRiODBxaDZyMENXMkJHT0p1aWNkcExrSE94NUdhNnc?oc=5",
-      "summary": "【9/17開催・無料オンラインセミナー】「見えないリスクは、守れない。」企業が今取り組むべきサイバーセキュリティ対策セミナーを開催&nbsp;&nbsp;PR TIMES",
-      "date": "2026-08-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【9/17開催・無料オンラインセミナー】「見えないリスクは、守れない。」企業が今取り組むべきサイバーセキュリティ対策セミナーを開催 - RBB TODAY",
+      "title": "【9/17開催・無料オンラインセミナー】「見えないリスクは、守れない。」企業が今取り組むべきサイバーセキュリティ対策セミナーを開催 - rbbtoday.com",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1wTEd6SGVBblNpdkM1b3Z1djZYUU1kU3h3b1ltRUIwQUxpM3BPMXZ4My1JdWxIQVh3eHdBUHVNY0dvUUx0VncxN0V0QkZfNHRFLVJoV2p5WGJpeUUyVWRmZWVFcS1iMFJoTXJieUl1RF9HTzdYS2F6RA?oc=5",
-      "summary": "【9/17開催・無料オンラインセミナー】「見えないリスクは、守れない。」企業が今取り組むべきサイバーセキュリティ対策セミナーを開催&nbsp;&nbsp;RBB TODAY",
+      "summary": "【9/17開催・無料オンラインセミナー】「見えないリスクは、守れない。」企業が今取り組むべきサイバーセキュリティ対策セミナーを開催&nbsp;&nbsp;rbbtoday.com",
       "date": "2026-08-24",
       "source": "Google News JP",
       "language": "日本語",
@@ -262,36 +433,18 @@
       "category": "news"
     },
     {
-      "title": "CyberCrew、外部リスク管理プラットフォーム「ALIENGATE」を正式リリース - RBB TODAY",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxS21sWTZnNk0tbkp4TEx4MWdYZ0txSDJfZ042YUZWSmFFOEkwckZaTWV2bkZRVTgwa1dua0hrVlhlR0hsMzk4Wl9KTllHa0liMzhSb0FlZldvX0VnQVExT1lxWmkwOVlyWHk5SGVGcnZ6ODlqa0stZw?oc=5",
-      "summary": "CyberCrew、外部リスク管理プラットフォーム「ALIENGATE」を正式リリース&nbsp;&nbsp;RBB TODAY",
+      "title": "サイバーセキュリティ・リスクマネジメントの実践知が集結、9月11日特別フォーラム開催 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TemJNVDYxSDBnX1I5UFpQV3BVdXZHMVdXY2huSzE2VnhkM3dvQjMxUFYzQklxcDdaa0tCOUEzQ2dXT3F6R2JkbWxaQ0lMLTlRcHpGTFAxNUtvaHZnTU1VZV9NUmx2NnpmV1lLY2x5Z0tkN2lZV3A5TXZval9LMG8?oc=5",
+      "summary": "サイバーセキュリティ・リスクマネジメントの実践知が集結、9月11日特別フォーラム開催&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-08-24",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "サウジアラビア国家サイバーセキュリティ庁（NCA） - Databricks",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xcm0xSzBuVlJBd2R4RHNJZXlIMHpGZW16Q0ZLNmRvX1VaZWdIN0pON20ycXZ4eExXWGk2b1N1dWVkVVAtRW9TNWxTTlRMMXVvdGdJYWtnUnhtSHZXb0dz?oc=5",
-      "summary": "サウジアラビア国家サイバーセキュリティ庁（NCA）&nbsp;&nbsp;Databricks",
-      "date": "2026-08-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ToxicPanda Android malware uses VPN permissions to block Google Play",
-      "url": "https://www.bleepingcomputer.com/news/security/toxicpanda-android-malware-uses-vpn-permissions-to-block-google-play/",
-      "summary": "The ToxicPanda Android malware has evolved with new malicious functionality, expanding its targeting to 349 applications and adding support for 167 remote commands. [...]",
-      "date": "2026-08-23",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "2026年度始動の「SCS評価制度」--相次ぐ大規模サイバー攻撃を受け - ZDNET Japan",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBtMWRsT3BLMmdQc1g4U2g2SDVibHZCbTMwcTBIOTczZ3NQUWh0UWY2Vk0xcDdEOGNOYWdXbXp4U0xtQzg3WnVkaWZOb1hSU213X2hB?oc=5",
-      "summary": "2026年度始動の「SCS評価制度」--相次ぐ大規模サイバー攻撃を受け&nbsp;&nbsp;ZDNET Japan",
+      "title": "ハッカーの｢オフ会｣発祥､世界最大セキュリティイベント｢Black Hat｣で注目された\"AI暴走\"の次に問題となるサイバー脅威 - 東洋経済オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jOUY5WVpKaGZQTHRBaFFSa0FZbEVOdnVZcnotUWhtWUxYd204eUJMSVo5cjlUamRnd1dKVjlBbVdjcmVNai1LcjJBWFU2TWlsclE?oc=5",
+      "summary": "ハッカーの｢オフ会｣発祥､世界最大セキュリティイベント｢Black Hat｣で注目された\"AI暴走\"の次に問題となるサイバー脅威&nbsp;&nbsp;東洋経済オンライン",
       "date": "2026-08-23",
       "source": "Google News JP",
       "language": "日本語",
@@ -305,15 +458,6 @@
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
-    },
-    {
-      "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-      "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-      "summary": "The U.S. Department of Justice (DoJ) announced on Friday that ByteDance-owned TikTok will pay $400 million to settle a 2024 lawsuit accusing the company of violating child privacy laws in the country.",
-      "date": "2026-08-22",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "UNIVERGE IX-R/IX-Vシリーズルータにおける重要な機能に対する認証の欠如の脆弱性",
@@ -361,24 +505,6 @@
       "category": "analysis"
     },
     {
-      "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-      "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-      "summary": "Cybersecurity researchers have discovered a set of trojanized npm packages that masquerade as working calendar and streak utilities but are engineered to stealthily deliver an artificial intelligence ",
-      "date": "2026-08-21",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-      "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-      "summary": "Check Point Research has disclosed a technique that uses Microsoft Defender's own legitimately signed boot-time remediation driver to perform arbitrary kernel-level file and registry operations on Win",
-      "date": "2026-08-21",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Who Got Missed in the MFA Rollout&#x3f; More Powershell &#x2b; Graph &#x2b; Entra scripting&#x21;, (Fri, Aug 21st)",
       "url": "https://isc.sans.edu/diary/rss/33272",
       "summary": "In every MFA rollout, there will come a time where you think you are closing in on \"done\", and some automation to list what&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s left would be handy. Something quic",
@@ -404,33 +530,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-73570 Zimbra Collaboration Suite (ZCS) OS Command I",
-      "date": "2026-08-21",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "複数のセイコーエプソン製プリンターおよびスキャナーにおける失効したルート証明書が残存している問題",
-      "url": "https://jvn.jp/vu/JVNVU91609598/",
-      "summary": "セイコーエプソン株式会社が提供する複数のプリンターおよびスキャナーには、失効したルート証明書が残存しています。",
-      "date": "2026-08-20",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "RDK-BのWebUIにおける複数の脆弱性",
-      "url": "https://jvn.jp/vu/JVNVU91551881/",
-      "summary": "CERT/CCから本件に関するアドバイザリが公表されました。",
-      "date": "2026-08-20",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
     },
     {
       "title": "ドコモ・バイクシェアのシステム障害についてまとめてみた",
@@ -469,33 +568,6 @@
       "category": "analysis"
     },
     {
-      "title": "Johnson Controls Simplex Incident Manager",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, p",
-      "date": "2026-08-20",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-72529 TrueConf Server Missing Authentication for ",
-      "date": "2026-08-20",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "acmailerにおける複数の脆弱性",
-      "url": "https://jvn.jp/jp/JVN47716829/",
-      "summary": "エクストライノベーション株式会社が提供するacmailerには、複数の脆弱性が存在します。",
-      "date": "2026-08-19",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
       "title": "さくらインターネットへの不正アクセスについてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/08/20/023850",
       "summary": "2026年8月17日、さくらインターネット株式会社は、同社が提供する「さくらのレンタルサーバ」の一部が不正アクセスの被害にあったことを公表しました。その後、2026年8月19日には、顧客の契約情報等を管理する別のシステムでも不正アクセスの可能性が判明し、影響が会員登録している顧客に及ぶ可能性があることも明らかにしています。ここでは関連する情報をまとめます。 「さくらのレンタルサーバ」への不正ログイ",
@@ -514,42 +586,6 @@
       "category": "analysis"
     },
     {
-      "title": "Simple Scans for Cloud Metadata Service, (Wed, Aug 19th)",
-      "url": "https://isc.sans.edu/diary/rss/33260",
-      "summary": "Cloud providers typically expose a REST API at 169.254.169.254 that allows code running on virtual machines to retrieve machine-specific data. Some of the data is more or less harmless, such as the re",
-      "date": "2026-08-19",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, August 19th, 2026 https://isc.sans.edu/podcastdetail/10058, (Wed, Aug 19th)",
-      "url": "https://isc.sans.edu/diary/rss/33258",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-08-19",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "Defending Against an Active Threat to Siemens S7 Series PLCs",
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-231a",
-      "summary": "Executive summary Note: This advisory relates to an active threat to Siemens S7 Series programmable logic controllers (PLCs). However, ongoing PLC targeting activity is broader than Siemens PLCs. All ",
-      "date": "2026-08-19",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/19/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-64849 MLflow Server-Side Request Forgery Vulnerabil",
-      "date": "2026-08-19",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
       "title": "期限切れドメインのドロップキャッチを悪用した攻撃インフラの調査についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/08/18/145716",
       "summary": "Infoblox Threat Intelは2026年8月13日、期限切れドメインの再登録(ドロップキャッチ)を悪用した攻撃インフラに関する3部作のレポートを公開しました。*1 ここでは関連する情報をまとめます。 調査の概要 Infobloxの観測によれば、2026年上半期において、gTLDのみでも1日平均5万400件、これに一部のccTLDを加えると1日約6万5000件のドロップキャッチドメイン",
@@ -557,42 +593,6 @@
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
-    },
-    {
-      "title": "Siemens Simcenter Nastran",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-02",
-      "summary": "View CSAF Summary Simcenter Nastran is affected by a stack overflow vulnerability that could be triggered when an application binary reads arbitrary string as a file argument. If a user is tricked to ",
-      "date": "2026-08-18",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2026-33824 Microsoft Internet Key Exchange (IKE) Serv",
-      "date": "2026-08-18",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CISA Malcolm",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-230-01",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition or execute arbitrary code. The following versions of CISA Malcolm are ",
-      "date": "2026-08-18",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/08/17/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. &nbsp; CVE-2025-62593 Ray-Project Ray Code Injection Vulnerability ",
-      "date": "2026-08-17",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
     },
     {
       "title": "北朝鮮IT労働者とみられる人物とわかって採用した調査についてまとめてみた",
@@ -1148,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/8/25 6:36:05"
+  "updated": "2026/8/26 6:35:09"
 }
