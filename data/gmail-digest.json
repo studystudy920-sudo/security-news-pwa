@@ -1,41 +1,294 @@
 {
-  "notifications": [],
-  "updated": "2026-08-27 06:15",
+  "notifications": [
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス",
+      "fromAddress": "business@nikkeibp.co.jp",
+      "subject": "日立・最高益も徳永社長「焦燥」の理由／NVIDIA「ジェンスンの数学」 - 日経ビジネス（8/28）",
+      "snippet": "中国、人型ロボ疾走「日本は部品優位生かせ」／LINEヤフー、育休中にもスキルアップ。日立製作所・徳永俊昭社長へのインタビューで印象深かったのは強い危機感です。",
+      "date": "2026-08-28 05:32",
+      "messageId": "1a044ec6ac0d40a0"
+    },
+    {
+      "type": "newsletter",
+      "from": "ISC2",
+      "fromAddress": "info@connect.isc2.org",
+      "subject": "Level Up Your Cyber Skills with ISC2 Certificates",
+      "snippet": "Go at your own pace with flexible learning. Grow Your Skills with NEW ISC2 Certificates - Build Your Cybersecurity Skills and Advance Your Career.",
+      "date": "2026-08-28 03:02",
+      "messageId": "1a04462ef52bef2e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス",
+      "fromAddress": "business@nikkeibp.co.jp",
+      "subject": "花王CLO、運べなくなるリスクへの挑戦／改訂CGコードで終わる 還元頼みの株価対策 - 日経ビジネス（8/27）",
+      "snippet": "キーエンス流「やめる気づき」の効果／経営層を動かすか 人的資本の新・国際規格。花王・森CLOの経営教室「逆ROICツリーで物流現場の改善を企業価値に」。",
+      "date": "2026-08-27 17:19",
+      "messageId": "1a0424d671a6deab"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック",
+      "fromAddress": "xtech-pickup@nikkeibp.co.jp",
+      "subject": "NVIDIAは売上高2倍超、2026年5～7月期／AIが考え人が従う「逆ケンタウロス」の罠：日経クロステック IT注目記事メール",
+      "snippet": "富士通がAI時代のサイバー防衛戦略／MUFGがデジタル相続支援／ネオクラウドで世界狙うソフトバンク／JPKIを応用した「デジタル逝去判定」／暗黙知を構造化するデータ設計。",
+      "date": "2026-08-27 16:32",
+      "messageId": "1a04222d3b31a11a"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック",
+      "fromAddress": "xtech-news@nikkeibp.co.jp",
+      "subject": "オードリー・タンが警告、「逆ケンタウロス」の罠／JPKIを応用した「デジタル逝去判定」：日経クロステック IT最新ニュースメール",
+      "snippet": "CTCが台湾SIerと合弁、TSMCなど台湾半導体企業にシステム構築／10部門で前回1位企業が連覇達成、日経コンピュータの第31回顧客満足度調査 など。",
+      "date": "2026-08-27 12:53",
+      "messageId": "1a0415a5facba24c"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経ビジネス",
+      "fromAddress": "business@nikkeibp.co.jp",
+      "subject": "9/1～2に無料開催「AIリーダーズ会議」三菱UFJFG、フジクラ登壇 - 日経ビジネス（8/27）",
+      "snippet": "オードリー・タン「AIを『親友』にするな」／AIの暴走を防ぐには。AIの暴走・サイバー攻撃を防ぐために企業が今すぐやるべきこと。",
+      "date": "2026-08-27 12:14",
+      "messageId": "1a04136b8bcaf2be"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック",
+      "fromAddress": "xtech-e@nikkeibp.co.jp",
+      "subject": "人型ロボを分解展示／光電融合やAI経済圏の基調講演／磁気冷却の最前線を解説：ウイークリー・セレクト号外",
+      "snippet": "9月29～30日「日経クロステックNEXT 東京 2026」リアル開催。生成AIやAIエージェント、フィジカルAI、量子コンピューター、光電融合の最新動向。",
+      "date": "2026-08-27 12:02",
+      "messageId": "1a0412b0ff28538a"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP",
+      "fromAddress": "tgml-nmsys@nikkeibp.co.jp",
+      "subject": "【若手・中堅社員向け】リーダーに必要な力を身につける3講座をご紹介｜日経BP",
+      "snippet": "2009年の開塾以来、5000名以上の修了生を輩出する『日経ビジネス課長塾』。次世代リーダーパワーアップ集中講座のご案内。",
+      "date": "2026-08-27 11:53",
+      "messageId": "1a04122f13d4878b"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP",
+      "fromAddress": "tgml-nmsys@nikkeibp.co.jp",
+      "subject": "選ばれる中小・地方企業セミナー開催★大手にはできない、中小企業ならではの新卒採用手法とは？",
+      "snippet": "新卒採用戦線の最新動向から若者の労働観やキャリア観への対応策、「選ばれる会社」になるための情報発信や選考方法まで学べる１日です。",
+      "date": "2026-08-27 11:48",
+      "messageId": "1a0411e8cb0e6c14"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP",
+      "fromAddress": "tgml-nmsys@nikkeibp.co.jp",
+      "subject": "10/9開催 自社に最適なAI導入&利活用実現に◆生成AIとAIエージェントの導入＆業務活用 実践講座",
+      "snippet": "AIの技術動向と進化予測を提示し、活用法・事例を解説。文書を学習させたQ&Aエージェントを演習で構築。2026年10月9日(金)開催。",
+      "date": "2026-08-27 11:42",
+      "messageId": "1a0411962ea5d1f8"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "AIエージェントが切り開く小売店の未来、商品案内もシフト調整も簡単に【日経BP Topics】",
+      "snippet": "小売店で、来店客から「ネット動画で見た、ネジを一瞬で締める工具はどこ」と聞かれたら。AIエージェント活用の資料/動画。",
+      "date": "2026-08-27 10:48",
+      "messageId": "1a040e774ff54593"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Mail",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "農業界にギャルが来た! 女性農業者に伴走しきった「ＪＡいがふるさと」【日経BP Mail】",
+      "snippet": "起業家精神を農業に！ 創造と努力の成功譚。三重県伊賀市内で瑞雲ファームを経営する中井奈緒美氏の事例。",
+      "date": "2026-08-27 10:46",
+      "messageId": "1a040e616dd76f85"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "JTBが進めたデジタル改革、業務フロー標準化と生成AIによる顧客対応の刷新【日経BP Topics】",
+      "snippet": "1912年に旅行案内をする組織として誕生したJTBの、業務フロー標準化と生成AIによる顧客対応刷新の取り組み。",
+      "date": "2026-08-27 10:45",
+      "messageId": "1a040e4e7b4c3947"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "既存のビジネスフローにAIを組み込む、現場主導の業務改善を加速させる仕組み【日経BP Topics】",
+      "snippet": "AIを導入しているにもかかわらず、一部の従業員しか活用していない。業務の「中」にAIを組み込み組織に定着させる方法。",
+      "date": "2026-08-27 09:42",
+      "messageId": "1a040ab3f6ff656e"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "日経ESG会議(9/8)◆一橋大学 伊藤氏,経団連副会長,三菱地所,JA,農中,他【BPセミナー】",
+      "snippet": "日経SDGs/ESG会議─サステナビリティ・トランジション。AI×ESGで企業価値を高める経営の最前線。9月8日(火)開催。",
+      "date": "2026-08-27 09:41",
+      "messageId": "1a040aaae08b5874"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "【EC運営者がいま知るべき】AIエージェントが商品を探し、比較、発注～決済まで！エージェンティックコマースの時代【BPセミナー】",
+      "snippet": "AIに選ばれるために！LINEヤフーやMUFG、Stripeなどの事例から商機とリスク、対応策を徹底解説。",
+      "date": "2026-08-27 09:38",
+      "messageId": "1a040a795e54a84b"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック Active",
+      "fromAddress": "xtech-ac@nikkeibp.co.jp",
+      "subject": "フィジカルAIの最前線に迫る、人型ロボット「Unitree G1」徹底分解・分析：日経クロステック Active",
+      "snippet": "人型ロボット部品画像を約180点掲載／開発環境・NVIDIAエコシステムとの連携／発火相次ぐモバイルバッテリー／プロジェクトの生産性を左右する品質要件。",
+      "date": "2026-08-27 09:38",
+      "messageId": "1a040a731802d5d1"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BPセミナー",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "被害を防ぐことから、事業を守ることへ～最新サイバーレジリエンス【BPセミナー】",
+      "snippet": "サイバーレジリエンス＆情報セキュリティー戦略セミナー2026 ～AI駆動時代のサイバーセキュリティー対策～。侵入される前提で考える被害最小化。9/9-10開催。",
+      "date": "2026-08-27 08:43",
+      "messageId": "1a040758ae985fd2"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "AI支援で一変する顧客対応、オペレーター画面に利用実績や回答案を自動表示【日経BP Topics】",
+      "snippet": "社内業務の効率化は喫緊の課題だ。例えば金融業界におけるAIエージェントを組み込んだCRMの効果を動画で解説。",
+      "date": "2026-08-27 08:39",
+      "messageId": "1a04071f272faa2d"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "生成AIが支援する「顧客対応の品質向上」、6400人調査で分かった期待と懸念【日経BP Topics】",
+      "snippet": "生成AIの登場によって、顧客サービスはどう変わるのか。6400人調査が示す活用法のヒント。",
+      "date": "2026-08-27 08:35",
+      "messageId": "1a0406df42f4f53f"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "Amazonギフトカード5000円分が抽選で当たる！ セキュリティ運用に関する実態調査【日経BP Topics】",
+      "snippet": "日経クロステック Active 会員を対象としたセキュリティ運用に関する実態調査（提供：ラピッドセブン）へのご協力のお願い。",
+      "date": "2026-08-27 08:35",
+      "messageId": "1a0406ddd1deed16"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "クラウド／オンプレミス／エッジのAIが連携する、「ハイブリッドAI」の威力【日経BP Topics】",
+      "snippet": "日本におけるAI活用は本格的なフェーズへ。エッジAIの進化がもたらすAI活用の最新動向を動画で解説。",
+      "date": "2026-08-27 07:49",
+      "messageId": "1a04043c1dbe3ead"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック Active",
+      "fromAddress": "xtech-ac@nikkeibp.co.jp",
+      "subject": "外観はガラケーでもLINEに対応！ 注目製品「ケースマ」を使ってみた：日経クロステック Active",
+      "snippet": "戸田建設がAzureのコストを月額で2割削減／ポスターからパッケージまでAIにお任せ／新人育成は「職場で回す」時代に。",
+      "date": "2026-08-27 07:43",
+      "messageId": "1a0403e10e772055"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経BP Topics",
+      "fromAddress": "tgml-10@nikkeibp.co.jp",
+      "subject": "サイバー攻撃を効率的に予測・排除・阻止！ 押さえておきたい10のアプローチ【日経BP Topics】",
+      "snippet": "サイバー攻撃者は、非効率的なプロセス、人的ミス、新たな脆弱性を狙う。押さえておきたい10のアプローチを解説。",
+      "date": "2026-08-27 07:43",
+      "messageId": "1a0403dba89f5a0d"
+    },
+    {
+      "type": "newsletter",
+      "from": "日経クロステック",
+      "fromAddress": "xtech-it@nikkeibp.co.jp",
+      "subject": "ネオクラウドで世界狙うソフトバンク、国内は地域分散でフィジカルAI支援：日経クロステック IT最前線",
+      "snippet": "JPKIを応用した「デジタル逝去判定」／人の介入なく長期間AIを働かせられるか／AIが考え人が従う「逆ケンタウロス」の罠。",
+      "date": "2026-08-27 07:09",
+      "messageId": "1a0401f618a7c38e"
+    }
+  ],
+  "updated": "2026-08-28 06:15",
   "sourceResults": [
     {
       "source": "Googleセキュリティ通知 (no-reply@accounts.google.com / security-noreply@google.com)",
       "count": 0,
-      "note": "過去24時間で0件。ただし接続先アカウント不整合のため「配信なし」とは断定できません。参考: 14日間に広げると2件ヒット（8/23 botton891@gmail.com のセキュリティ通知、8/21 studystudy920@gmail.com のセキュリティ通知）。いずれも24時間の対象範囲外。"
+      "note": "過去24時間で0件。今回は正しいアカウント(studystudy920@gmail.com)を参照できているため、真に配信がなかったと判断できます。"
     },
     {
       "source": "ScanNetSecurity (scan@netsecurity.ne.jp)",
       "count": 0,
-      "note": "過去24時間で0件。14日間に拡大しても0件。接続先が massa.saka2010@gmail.com になっているため、購読先である studystudy920@gmail.com の受信内容を取得できていない可能性が高い。"
+      "note": "過去24時間で0件。7日間に拡大すると2件（8/26 Scan特別号=長野日報社ランサム被害対応、8/24 Scan BASIC Vol.1636）。いずれも24時間の対象範囲外。BASICは毎週月曜朝8時配信。"
     },
     {
       "source": "日経BP / 日経クロステック (nikkeibp.co.jp, xtech-ac@nikkeibp.co.jp)",
-      "count": 0,
-      "note": "過去24時間で0件。前日(8/26)は同一クエリで26件取得できていたにもかかわらず、7日間に拡大しても0件。日刊メルマガが7日間途絶えることは考えにくく、アカウント不整合の再発を示す最も強い証拠。"
+      "count": 24,
+      "note": "過去24時間で24件。日経ビジネス3件、日経クロステック系5件、日経BP Topics/セミナー16件。"
     },
     {
       "source": "ISACA東京支部 (tky-jimukyoku@isaca.gr.jp)",
       "count": 0,
-      "note": "過去24時間で0件。14日間に拡大しても0件。上記と同じくアカウント不整合の影響下にあり、真に配信がなかったかは確認できません。"
+      "note": "過去24時間で0件。7日間に拡大すると1件（8/21 第48回システム監査実務セミナー案内）。24時間の対象範囲外。"
     },
     {
       "source": "ISC2 Japan (connect.isc2.org)",
-      "count": 0,
-      "note": "過去24時間で0件。14日間に拡大しても0件。上記と同じくアカウント不整合の影響下にあり、真に配信がなかったかは確認できません。"
+      "count": 1,
+      "note": "過去24時間で1件（ISC2 Certificates の案内）。"
     }
   ],
   "accountStatus": {
-    "resolved": false,
-    "regressed": true,
+    "resolved": true,
+    "regressed": false,
     "expectedAccount": "studystudy920@gmail.com",
-    "connectedAccount": "massa.saka2010@gmail.com",
-    "detail": "前日(8/26)に一度解消した Gmail MCP の接続先アカウント不整合が本日再発しました。本日取得したメールの To: ヘッダを実際に確認したところ、Coincheck通知が To: massa.saka2010@gmail.com、エイジレス社の求人連絡が To: Masakazu Sakane <massa.saka2010@gmail.com> となっており、期待される studystudy920@gmail.com ではありません。このため本日の全ソース0件という結果は「メールが届いていない」ことを意味せず、「購読アカウントを参照できていない」ことを意味します。検証手順: (1) 対象2クエリはいずれも0件 (2) 制御クエリ newer_than:2d は15件返すためツール自体は正常動作 (3) from:nikkeibp.co.jp を7日間に拡大しても0件だが前日は26件取得済み (4) 実メールの To: ヘッダが massa.saka2010@gmail.com であることを確認。対応: Gmail コネクタの接続アカウントを studystudy920@gmail.com に再接続する必要があります（ユーザー操作が必要なためタスク内では変更していません）。",
-    "previousDaysUnresolved": 4,
-    "verifiedBy": "To: ヘッダの直接確認（messageId: 1a03d7c5c158245f, 1a03e14f8bb0e319）"
+    "connectedAccount": "studystudy920@gmail.com",
+    "detail": "5日間続いていたアカウント不整合の原因が特定され、回避されました。Gmail MCP コネクタが2系統存在し、mcp__gmail__ 系は massa.saka2010@gmail.com に、Gmailコネクタ(search_threads/get_message)系は studystudy920@gmail.com に接続されています。本日は後者を使用したため購読メールを正常に取得できました。検証: 取得した全スレッドの toRecipients が studystudy920@gmail.com であることを確認済み。",
+    "previousDaysUnresolved": 0,
+    "verifiedBy": "全スレッドの toRecipients ヘッダが studystudy920@gmail.com であることを確認",
+    "toolNote": "mcp__gmail__search_emails は massa.saka2010@gmail.com に接続されており対象クエリは0件を返します。今後は Gmailコネクタ(search_threads) を使用してください。"
   },
-  "highlights": []
+  "highlights": [
+    {
+      "title": "サイバーレジリエンス＆情報セキュリティー戦略セミナー2026（9/9-10 開催）",
+      "why": "侵入される前提で被害を最小化する防御・復旧アプローチ。本日のSC試験テーマ（インシデント対応）と直結。",
+      "messageId": "1a040758ae985fd2"
+    },
+    {
+      "title": "サイバー攻撃を効率的に予測・排除・阻止！ 押さえておきたい10のアプローチ",
+      "why": "攻撃者が狙う非効率プロセス・人的ミス・脆弱性への対処法。脆弱性管理の実務参考。",
+      "messageId": "1a0403dba89f5a0d"
+    },
+    {
+      "title": "富士通がAI時代のサイバー防衛戦略／AIの暴走を防ぐために企業が今すぐやるべきこと",
+      "why": "AI駆動時代のセキュリティガバナンス。コンプライアンス業務でのAIリスク管理に関連。",
+      "messageId": "1a04222d3b31a11a"
+    },
+    {
+      "title": "ISC2 Certificates（新しい認定プログラム）",
+      "why": "CCSP/CCSK 等のセキュリティ資格取得の関心領域に合致。",
+      "messageId": "1a04462ef52bef2e"
+    },
+    {
+      "title": "【参考・24h外】長野日報社のランサムウェア被害対応 実録（9/9オンライン、視聴無料）",
+      "why": "実インシデント対応の一次事例。本日のSC学習テーマの実例として有用。",
+      "messageId": "1a03be9b47a3c8bb"
+    }
+  ]
 }
