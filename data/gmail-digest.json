@@ -1,45 +1,17 @@
 {
-  "notifications": [
-    {
-      "type": "google",
-      "from": "Google アカウント",
-      "fromAddress": "no-reply@accounts.google.com",
-      "subject": "セキュリティ通知（アカウントへの新しいログイン）",
-      "snippet": "あなたの Google アカウント（studystudy920@gmail.com）への新しいログインが検出されました。ご自身によるものであれば対応不要。心当たりがない場合はアカウント保護の手続きを案内。",
-      "date": "2026-08-29 21:52",
-      "messageId": "1a04d944e6fb2ff2"
-    },
-    {
-      "type": "google",
-      "from": "Google アカウント",
-      "fromAddress": "no-reply@accounts.google.com",
-      "subject": "Google アカウントが復元されました",
-      "snippet": "アカウントのご利用を再開いただきありがとうございます。誰かが変更を行ったためにアカウントがロックされたと考えられる場合は、アカウントを確認し、保護してください。",
-      "date": "2026-08-29 21:52",
-      "messageId": "1a04d9447eb77ed0"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Special",
-      "fromAddress": "xtech-sp@nikkeibp.co.jp",
-      "subject": "【週刊日経クロステック Special】サイバー被害例から学ぶレジリエンスの要点 ほか",
-      "snippet": "セキュリティ枠の新着は「サイバー被害例から学ぶレジリエンスの要点」「SASEの真価を引き出す運用の最適解」「テレワークの安全性を高める8つのアクション」。9/9-10にサイバーレジリエンス＆情報セキュリティー戦略セミナー2026（AI駆動時代の対策、オンライン）。",
-      "date": "2026-08-29 09:09",
-      "messageId": "1a04ad94ffa52875"
-    }
-  ],
+  "notifications": [],
   "sources": [
-    { "name": "Google セキュリティ通知", "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d", "count": 2 },
+    { "name": "Google セキュリティ通知", "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d", "count": 0 },
     { "name": "ScanNetSecurity", "query": "from:scan@netsecurity.ne.jp newer_than:1d", "count": 0 },
-    { "name": "日経BP（日経クロステック等）", "query": "from:nikkeibp.co.jp newer_than:1d", "count": 1 },
+    { "name": "日経BP（日経クロステック等）", "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d", "count": 0 },
     { "name": "ISACA東京支部", "query": "from:tky-jimukyoku@isaca.gr.jp newer_than:1d", "count": 0 },
     { "name": "ISC2 Japan", "query": "from:connect.isc2.org newer_than:1d", "count": 0 }
   ],
   "studyTheme": {
-    "day": 0,
-    "dayName": "日曜",
-    "theme": "総合復習・模擬問題",
-    "icon": "📝"
+    "day": 1,
+    "dayName": "月曜",
+    "theme": "ネットワークセキュリティ",
+    "icon": "🌐"
   },
-  "updated": "2026-08-30"
+  "updated": "2026-08-31"
 }
