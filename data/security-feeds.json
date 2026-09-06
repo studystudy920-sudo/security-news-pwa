@@ -1,6 +1,78 @@
 {
   "feeds": [
     {
+      "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+      "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+      "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, accordi",
+      "date": "2026-09-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+      "url": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+      "summary": "Elastic Security Labs has documented four previously unreported programs associated with REVSTEALER, an emerging Windows information stealer, that remain on an infected machine after the stealer delet",
+      "date": "2026-09-06",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Attackers conceal phishing lures using invisible Unicode characters",
+      "url": "https://www.bleepingcomputer.com/news/security/attackers-conceal-phishing-lures-using-invisible-unicode-characters/",
+      "summary": "Threat actors have adopted the ASCII smuggling technique in phishing campaigns, using invisible Unicode characters to evade email security filters. [...]",
+      "date": "2026-09-06",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical MikroTik Vulnerability - Patch Now, (Sun, Sep 6th)",
+      "url": "https://isc.sans.edu/diary/rss/33314",
+      "summary": "Mikrotik released a patch late last week for an already-exploited vulnerability. The vulnerability allows an SSH authentication bypass and is already being exploited. At this point, assume compromise.",
+      "date": "2026-09-06",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "中国製パワコン、サイバーセキュリティ対応は十分？ - xtech.nikkei.com",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sWjJnSERDYjlzZnFjRHN0TTk2OW4walRiSi1rMTFIcDJjc2dsaFBPZXJwTXdLdnJTS243VGluZHQycTBVLU9YMVZpSWdGcGxwTEQ5TzlxVnZleC1oNkNNUnFpNjNQZkdmalU5YQ?oc=5",
+      "summary": "中国製パワコン、サイバーセキュリティ対応は十分？&nbsp;&nbsp;xtech.nikkei.com",
+      "date": "2026-09-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバー攻撃からの防御支援に商機…ＩＴ各社、ＡＩで弱点検出・修正 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpdDhLSUQ3LU5vaTg4R2VTQlFaRWZoTGJTV0ZuRkdyM0VLekpkTk96OFJpVVllUXV4WDctemtSZVVMWmgyMFdySVk4ZWlHY2VwbEhla052ZzJSRTctbVlUVWhNUGtIY0UxQUxBRHhZWFFsQQ?oc=5",
+      "summary": "サイバー攻撃からの防御支援に商機…ＩＴ各社、ＡＩで弱点検出・修正&nbsp;&nbsp;Infoseek",
+      "date": "2026-09-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "実業家のマイキー佐野氏が、AIによる攻防激化で刻々と塗り替わるサイバーセキュリティ投資の勢力図を丁寧に紐解く - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VN0IwUTEyWG13dU5zSTZUaV9uRUszTXZGb3IwMU1NZGdlY2tHcjU0NW1adVhvZVJRNVhSdWVmcmZ0VC1tRkRuYlhhMDFJMThsTk1VaHl2enNqcU9zM1c0?oc=5",
+      "summary": "実業家のマイキー佐野氏が、AIによる攻防激化で刻々と塗り替わるサイバーセキュリティ投資の勢力図を丁寧に紐解く&nbsp;&nbsp;ライブドアニュース",
+      "date": "2026-09-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "PwC Japan、サイバーセキュリティ業務を「AI前提」に再構築するサービスを提供開始 - PwC",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR0lHTlNXYWtSZk9RWFRNbklVYnU5UjJNcEYwa2doQ3JpYXRueTMxZWxMNGJzME9wRDV6QmE3eElGOFUwRTVmc1VKM3V4eWtUbVd5eGptSkpxY0c1alZZZWljRHFxSGZYU3hMZnpjek1rdGZXOEZPTWE2VmFxWk9vMjhveTZ5ejVi?oc=5",
+      "summary": "PwC Japan、サイバーセキュリティ業務を「AI前提」に再構築するサービスを提供開始&nbsp;&nbsp;PwC",
+      "date": "2026-09-06",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "大阪高裁で起きたMicrosoft Teams チーム作成時の大量誤登録についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/09/05/103543",
       "summary": "2026年9月4日、大阪高等裁判所は、特定の事件に関するMicrosoft Teamsのチームを作成する際に誤って約6000アカウントを登録し、通知からチームにアクセスした場合にメンバーのユーザー名やメールアドレスが一時的に相互に確認できる状態になっていたと公表し、謝罪しました。ここでは関連する情報をまとめます。 Teamsチーム作成時にメンバー外を誤登録 裁判所は資料の共有などにMicrosof",
@@ -89,6 +161,24 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
+    },
+    {
+      "title": "サイバーセキュリティ対策、佐賀県警・専門家ら助言 中小企業・自治体向けセミナー 佐賀市 | まちの話題 | 佐賀県のニュース - 佐賀新聞",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfUS16TW5iMVFSTnJ0ZURBaUxYUlduQ0JDWlZvZWR5UnpLc204VmtmZC11LUtBeU53V0R3RVBKaUhPRWxEeWFUb2ZSU1dGS0lBZjNSTXJB?oc=5",
+      "summary": "サイバーセキュリティ対策、佐賀県警・専門家ら助言 中小企業・自治体向けセミナー 佐賀市 | まちの話題 | 佐賀県のニュース&nbsp;&nbsp;佐賀新聞",
+      "date": "2026-09-05",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ株式オープン＜3カ月決算型＞(為替ヘッジなし)【03311252】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWZ0pRaW43Tk8zZGs4bVpHM3V4Q1N5NDVzOTROUUpIVllqVjcwMWRxNDh0RTlKalZIWUdPMnctQmJWVVdFWFJycXpYWEk5S01jMlZxZQ?oc=5",
+      "summary": "サイバーセキュリティ株式オープン＜3カ月決算型＞(為替ヘッジなし)【03311252】：基準価格・投資信託情報&nbsp;&nbsp;Yahoo!ファイナンス",
+      "date": "2026-09-05",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "エクシングCPTrans-ME-Xにおける複数の脆弱性",
@@ -181,24 +271,6 @@
       "category": "news"
     },
     {
-      "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-      "url": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-      "summary": "A previously undocumented Linux toolkit has been found compiled directly into the trojanized HAProxy load balancers of two South Korean organizations, where it intercepted web traffic and served alter",
-      "date": "2026-09-04",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-      "url": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-      "summary": "Threat actors are exploiting two critical security flaws in WordPress plugins Super Forms and Elementor Pro, according to findings from Wordfence. The vulnerabilities in question are - CVE-2026-14894 ",
-      "date": "2026-09-04",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "IDScan sued over alleged data breach affecting 153 million drivers",
       "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
       "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
@@ -280,6 +352,24 @@
       "category": "alert"
     },
     {
+      "title": "サイバーセキュリティで協定 千葉県警と千葉県警備業協会 情報共有などで連携（チバテレ） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wWDNQVGFUTkw0dG1Hbk53VEtaRnJha2NnQXVNaFd3UUxNaE1QdGotUlpfR3k2ek1RMEFodktxUThQQjFWUmJNYVJTQ0Q3RnZrREZfMXBHWU4zazVzeHdLYzlDS3NTUUpYek1BVzR3UXl5akJ5dDF0SUM0MUdER2M?oc=5",
+      "summary": "サイバーセキュリティで協定 千葉県警と千葉県警備業協会 情報共有などで連携（チバテレ）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-09-04",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "【聴講無料】「攻撃者視点から考えるＡＩ時代のサイバーセキュリティ」～攻撃手法の歴史から学ぶ～ (2026年9月4日掲載) - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kWXBLYTZGTlg3cUxKV0pOOVdMdjBOTkRLZks2b285UDFieUY3eHhZTm5IYXpvdW41bXNodkJ3WExCRWxRTXBmZ0VjUlhKZVR2cWJiVEJMYldCVFJuUTVuT0xn?oc=5",
+      "summary": "【聴講無料】「攻撃者視点から考えるＡＩ時代のサイバーセキュリティ」～攻撃手法の歴史から学ぶ～ (2026年9月4日掲載)&nbsp;&nbsp;ライブドアニュース",
+      "date": "2026-09-04",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Apache Tomcatにおける複数の脆弱性(2026年8月25日)",
       "url": "https://jvn.jp/vu/JVNVU96149019/",
       "summary": "The Apache Software Foundationから、Apache Tomcatの10件の脆弱性に対してアドバイザリが公開されました。",
@@ -332,15 +422,6 @@
       "source": "JVN",
       "language": "日本語",
       "category": "vuln"
-    },
-    {
-      "title": "French hospital fined €500,000 after breach exposes data of 727,000",
-      "url": "https://www.bleepingcomputer.com/news/security/french-hospital-fined-500-000-after-breach-exposes-data-of-727-000/",
-      "summary": "France's data protection authority (CNIL) has fined Hôpital privé de la Loire €500,000 ($580,000) for failing to adequately protect patients' and their relatives' data. [...]",
-      "date": "2026-09-03",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "Honeypot-Omaha and batch.py &#x5b;Guest Diary&#x5d;, (Wed, Sep 2nd)",
@@ -442,6 +523,24 @@
       "category": "alert"
     },
     {
+      "title": "米OpenAIが次世代モデル「GPT-6 Astra」を正式発表 初めて最高水準のサイバーセキュリティリスクに分類 - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2T0ptQjJ2aTJvb1d6Q3ZMblhBamV0UzNTVkQ2SndSd3lWb1J4bUE1akdjMnJfaGNqaHhIaVBrWXNNYmpuRWFldzBBX0hnc0FGcmdR?oc=5",
+      "summary": "米OpenAIが次世代モデル「GPT-6 Astra」を正式発表 初めて最高水準のサイバーセキュリティリスクに分類&nbsp;&nbsp;ビジネス+IT",
+      "date": "2026-09-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "GMOサイバーセキュリティ byイエラエ、AIによる「実証型」脆弱性診断を提供開始～未知の脆弱性を探索し、実際に攻撃が成立するかまで自動検証～ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ - gmo-cybersecurity.com",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YSW1YWUZWcTltRnc0elhBQmVoVmtucVBYZlc5bjhodW95ekFQeU5CZ0dxdnlPSThNNlhfWXBFNVdOTW1vRVJ0U0hGdFZWa0pJT1g3ODh2RQ?oc=5",
+      "summary": "GMOサイバーセキュリティ byイエラエ、AIによる「実証型」脆弱性診断を提供開始～未知の脆弱性を探索し、実際に攻撃が成立するかまで自動検証～ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ&nbsp;&nbsp;gmo-cybersecurity.com",
+      "date": "2026-09-03",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "ISC Stormcast For Wednesday, September 2nd, 2026 https://isc.sans.edu/podcastdetail/10078, (Wed, Sep 2nd)",
       "url": "https://isc.sans.edu/diary/rss/33304",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -500,15 +599,6 @@
       "url": "https://isc.sans.edu/diary/rss/33296",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
       "date": "2026-08-31",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "YARA-X 1.20.0 Release, (Sun, Aug 30th)",
-      "url": "https://isc.sans.edu/diary/rss/33288",
-      "summary": "YARA-X&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s 1.20.0 release brings 14 improvements and 13 bugfixes.&#xd;",
-      "date": "2026-08-30",
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
@@ -1058,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/9/6 7:45:28"
+  "updated": "2026/9/7 7:50:42"
 }
