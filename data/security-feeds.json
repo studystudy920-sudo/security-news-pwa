@@ -1,6 +1,249 @@
 {
   "feeds": [
     {
+      "title": "鳥取県の放射線監視システムへのランサムウェア攻撃についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/09/07/090941",
+      "summary": "2026年9月3日、鳥取県は、同県が運用する環境放射線モニタリングシステムがサイバー攻撃(ランサムウェアによる攻撃)を受け、システムの主監視局内の電子ファイルが暗号化される被害が発生したと公表しました。同システムは、放射線量率や気象等のデータを収集、監視するためのもので、遠隔地のバックアップ用サーバーは被害を免れており、放射線モニタリングやほかの県庁システムへの影響はないとしています。ここでは関連",
+      "date": "2026-09-07",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+      "url": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+      "summary": "Cybersecurity researchers have disclosed details of a complex Chromium-based post-exploitation toolkit called PEEP that masquerades as a bookmarks extension for the web browser. \"Requiring prior admin",
+      "date": "2026-09-07",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+      "url": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+      "summary": "Threat hunters have disclosed details of a widespread data theft and extortion threat cluster that's targeting Microsoft 365 and other software-as-a-service (SaaS) offerings through information techno",
+      "date": "2026-09-07",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+      "url": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+      "summary": "Turning off email images should at least stop the pictures. This week, attackers had a workaround: a scannable QR code built out of text. It still appears, even with images blocked. A small detail, bu",
+      "date": "2026-09-07",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+      "url": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+      "summary": "If managing security across multiple cloud providers wasn't hard enough, each one fails in a different way. For the 2026 Cloud Security Index, Intruder analyzed misconfiguration data from 3,000 organi",
+      "date": "2026-09-07",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+      "url": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+      "summary": "Cybersecurity researchers have disclosed details of worm-like activity that abuses ConnectWise ScreenConnect to distribute a malicious Visual Basic Script (VBScript) payload to newly connected systems",
+      "date": "2026-09-07",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+      "url": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+      "summary": "A TantoSec proof-of-concept turns an AES-CBC \"padding oracle\" in Telerik UI for ASP.NET AJAX into unauthenticated remote code execution — but only against applications in a specific non-default config",
+      "date": "2026-09-07",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+      "url": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+      "summary": "Every on-premises N-central build below 2026.3.1.14 — including servers updated to Hotfix 3 a day earlier — needs Hotfix 4. N-able's incident notice says the flaw has been exploited in the wild; its r",
+      "date": "2026-09-07",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+      "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+      "summary": "Cybersecurity researchers have unpacked JSCeal, a sophisticated compiled V8 JavaScript (JSC) malware with credential harvesting, surveillance, and traffic-interception capabilities. \"The payloads are ",
+      "date": "2026-09-07",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Magento StyleSmuggler zero-day exploited to deploy Linux backdoor",
+      "url": "https://www.bleepingcomputer.com/news/security/magento-stylesmuggler-zero-day-exploited-to-deploy-linux-backdoor/",
+      "summary": "A zero-day vulnerability dubbed \"StyleSmuggler\" affecting all versions of Magento and Adobe Commerce is being exploited in attacks to deploy a backdoor. [...]",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "BigBear Microsoft 365 phishing service bypassed MFA at 258 organizations",
+      "url": "https://www.bleepingcomputer.com/news/security/bigbear-microsoft-365-phishing-service-bypassed-mfa-at-258-organizations/",
+      "summary": "A phishing-as-a-service framework called BigBear 2.0 has been used to bypass multi-factor authentication at 258 organizations and steal more than 5,000 Microsoft 365 credentials. [...]",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Mathspace discloses data breach affecting over 1 million people",
+      "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+      "summary": "Online maths learning platform Mathspace disclosed over the weekend that attackers stole data from more than 1 million students, staff, and parents after breaching its Metabase internal reporting syst",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Trezor data breach impact now reaches 81,000 customers",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-data-breach-impact-now-reaches-81-000-customers/",
+      "summary": "Cryptocurrency hardware wallet maker Trezor says an August data breach at its shipping and logistics provider, ShipMonk, affects an additional 67,000 U.S. customers. [...]",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ChatGPT can now connect to your personal apps to mimic writing style",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-can-now-connect-to-your-personal-apps-to-mimic-writing-style/",
+      "summary": "OpenAI appears to be testing a new \"Writing Style\" feature for ChatGPT that can learn how you write by looking at examples from your connected apps. [...]",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers exploit new MikroTik RouterOS flaws to hijack routers",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-new-mikrotik-routeros-flaws-to-hijack-routers/",
+      "summary": "Hackers are exploiting a chain of two recently disclosed vulnerabilities in MikroTik routers to take control of devices with SSH services exposed to the internet. [...]",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ConnectWise warns of new ScreenConnect flaw without patch",
+      "url": "https://www.bleepingcomputer.com/news/security/connectwise-warns-of-new-screenconnect-flaw-without-patch/",
+      "summary": "ConnectWise has shared temporary mitigation measures for a new ScreenConnect Remote Access vulnerability that it plans to patch later this week. [...]",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "N-able patches max severity N-central flaw amid ongoing attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
+      "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution (RCE) flaw affecting its N-central remote monitoring and management (RMM) platform. [...]",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ChatGPT Astra is now rolling out to $20 Plus subscription",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/chatgpt-astra-is-now-rolling-out-to-20-plus-subscription/",
+      "summary": "OpenAI is now rolling out ChatGPT Astra, its most powerful model to date, to those with a $20 Plus subscription, but there's no word on when free users will get access.. [...]",
+      "date": "2026-09-07",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "国境から半導体へ、AIが変えた地政学リスク GMOイエラエ・奥野氏が語る「止まらない社会」の設計思想 - jbpress.ismedia.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE56M3JrZTVtR2ZQRUtFU1FFODZ2MzN3OXZLVS1Wb1c3WmtNaWxRVERVbjRic2RpWEh6RG80M0ZreVhCSzNIMmptMnBuMWdWQ0NkRU03NWJ3?oc=5",
+      "summary": "国境から半導体へ、AIが変えた地政学リスク GMOイエラエ・奥野氏が語る「止まらない社会」の設計思想&nbsp;&nbsp;jbpress.ismedia.jp",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」 - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91bTdEcXNEZkFZTEdVLTN5NlROWEdKXzAzcFRVZ09Sb2JKM2xTYUw4LU1lamd1U3NCdFRKS0dmUnFVVll2d01rMzFYTE5IX1YxWDR3TFNyOHA1VW5WQkNEenFUUzA4SUpqcEtHdA?oc=5",
+      "summary": "ダークネット観測パケット数が過去最高を更新、10年前から10倍に増大 ～ 総務省「令和8年版情報通信白書」&nbsp;&nbsp;ScanNetSecurity",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバー攻撃の「被害経験なし」企業は約 6 割へ減少 ～ 東商2026年アンケート調査 - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52bXpXUUpPRnl5R0FvbF9LQUJfcDZJaVBVbzBBQklybjhVdUJGQm9GLXdaSlNPdnZydm92TElucFhTMGtZakhCTk1HemhOeEwyaGpXTUdSZHdSazFBRXdsaXVORC1WMGpCdzJDbg?oc=5",
+      "summary": "サイバー攻撃の「被害経験なし」企業は約 6 割へ減少 ～ 東商2026年アンケート調査&nbsp;&nbsp;ScanNetSecurity",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "人はリスクではなく“資産” ―― イスラエル国防軍元CISOが示す「AI時代の3ステップ」（アスキー） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10Q2EwVlpMNGswXzFmNnhyOU9wTVUxdXNEQkN1QzhVTllnZUc3cEdrUWdqVzBER1ZBSEdHNFZqcGlaOEhUTHB6ck9zRnpIYkExYmNDcGZvczloNFdoZHUtN0c5SWZ6bXpoSW5vQlNCY3A2anRBQXhSb1NPS1FLNzA?oc=5",
+      "summary": "人はリスクではなく“資産” ―― イスラエル国防軍元CISOが示す「AI時代の3ステップ」（アスキー）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "チェック・ポイント、OpenAIの「Daybreak」をセキュリティプラットフォーム全体に導入 - ASCII.jp",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE03YUNVby1VcG9HcFRWUkRUSTh2U3pSdUhNTndmbHdLVElmVHV6b3Ywa2lLTG9mU2lJWnV6cF9GUWVRcm82Q0NyaU8ydzZWRFktTWxyeg?oc=5",
+      "summary": "チェック・ポイント、OpenAIの「Daybreak」をセキュリティプラットフォーム全体に導入&nbsp;&nbsp;ASCII.jp",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバー攻撃の侵入口となる「シャドーIT」を自動検出 社内・工場に潜む“見えないIT資産”とリスクを可視化する「Mit - ニコニコニュース",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0ybllhQnFVRGJxdzNTcHhDd1ZCeEtNT0M5VW1udzhNdkFudFIwR2ZGdWFRMTlEcmtkb2RFVFZMQ0dYWUlNZUpEaWNGaEpjNmRla0hTRnNVb3lhZ1djM1J5VGctRE5Sal9UTXJ4SE9FT2NOMnNLRDhtMTMwRQ?oc=5",
+      "summary": "サイバー攻撃の侵入口となる「シャドーIT」を自動検出 社内・工場に潜む“見えないIT資産”とリスクを可視化する「Mit&nbsp;&nbsp;ニコニコニュース",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "チェック・ポイント、OpenAIのフロンティアAIモデルをセキュリティプラットフォーム全体に統合 - EnterpriseZine",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0RjJ6VnVGV0JOalp6V3huOUpWekhiVXNLMXJEazZ6S1hYNVp2aUZmelB2YWhtVndWVjlZc01tMkQzV0thUGw0TzFtZVhmdHAtd1pvc0x3?oc=5",
+      "summary": "チェック・ポイント、OpenAIのフロンティアAIモデルをセキュリティプラットフォーム全体に統合&nbsp;&nbsp;EnterpriseZine",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "PwC Japan、サイバーセキュリティ業務を「AI前提」に再構築するサービスを提供開始 - PwC",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR0lHTlNXYWtSZk9RWFRNbklVYnU5UjJNcEYwa2doQ3JpYXRueTMxZWxMNGJzME9wRDV6QmE3eElGOFUwRTVmc1VKM3V4eWtUbVd5eGptSkpxY0c1alZZZWljRHFxSGZYU3hMZnpjek1rdGZXOEZPTWE2VmFxWk9vMjhveTZ5ejVi?oc=5",
+      "summary": "PwC Japan、サイバーセキュリティ業務を「AI前提」に再構築するサービスを提供開始&nbsp;&nbsp;PwC",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "厚労省、病院のサイバーセキュリティ対策に137億円を概算要求 外部接続点の集約化や専門人材活用を支援 - 合同会社ロケットボーイズ",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObmJKZV9Hb3JQUW50czRzeXc5bVhMMFlORllCTHpTZGltZm9ZRHpkdFVTa2pwZmJNTGMzYk5QMS05Qm1ZUDlILXNvM1pWNmJtMWdsVGRjVFg2MkFjaHhDMjRVTnFkbjMxaTFCcW4xdGdYTGtqY2NWQlppTUlOQmtlM3JOaHNwTU9EdG0xV19DRQ?oc=5",
+      "summary": "厚労省、病院のサイバーセキュリティ対策に137億円を概算要求 外部接続点の集約化や専門人材活用を支援&nbsp;&nbsp;合同会社ロケットボーイズ",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
       "url": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
       "summary": "Attackers are exploiting MikroTik routers with their Secure Shell (SSH) remote-access service, which is reachable from the internet, to gain full administrative control without authentication, accordi",
@@ -37,36 +280,9 @@
       "category": "analysis"
     },
     {
-      "title": "中国製パワコン、サイバーセキュリティ対応は十分？ - xtech.nikkei.com",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sWjJnSERDYjlzZnFjRHN0TTk2OW4walRiSi1rMTFIcDJjc2dsaFBPZXJwTXdLdnJTS243VGluZHQycTBVLU9YMVZpSWdGcGxwTEQ5TzlxVnZleC1oNkNNUnFpNjNQZkdmalU5YQ?oc=5",
-      "summary": "中国製パワコン、サイバーセキュリティ対応は十分？&nbsp;&nbsp;xtech.nikkei.com",
-      "date": "2026-09-06",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバー攻撃からの防御支援に商機…ＩＴ各社、ＡＩで弱点検出・修正 - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpdDhLSUQ3LU5vaTg4R2VTQlFaRWZoTGJTV0ZuRkdyM0VLekpkTk96OFJpVVllUXV4WDctemtSZVVMWmgyMFdySVk4ZWlHY2VwbEhla052ZzJSRTctbVlUVWhNUGtIY0UxQUxBRHhZWFFsQQ?oc=5",
-      "summary": "サイバー攻撃からの防御支援に商機…ＩＴ各社、ＡＩで弱点検出・修正&nbsp;&nbsp;Infoseek",
-      "date": "2026-09-06",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "実業家のマイキー佐野氏が、AIによる攻防激化で刻々と塗り替わるサイバーセキュリティ投資の勢力図を丁寧に紐解く - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9VN0IwUTEyWG13dU5zSTZUaV9uRUszTXZGb3IwMU1NZGdlY2tHcjU0NW1adVhvZVJRNVhSdWVmcmZ0VC1tRkRuYlhhMDFJMThsTk1VaHl2enNqcU9zM1c0?oc=5",
-      "summary": "実業家のマイキー佐野氏が、AIによる攻防激化で刻々と塗り替わるサイバーセキュリティ投資の勢力図を丁寧に紐解く&nbsp;&nbsp;ライブドアニュース",
-      "date": "2026-09-06",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "PwC Japan、サイバーセキュリティ業務を「AI前提」に再構築するサービスを提供開始 - PwC",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR0lHTlNXYWtSZk9RWFRNbklVYnU5UjJNcEYwa2doQ3JpYXRueTMxZWxMNGJzME9wRDV6QmE3eElGOFUwRTVmc1VKM3V4eWtUbVd5eGptSkpxY0c1alZZZWljRHFxSGZYU3hMZnpjek1rdGZXOEZPTWE2VmFxWk9vMjhveTZ5ejVi?oc=5",
-      "summary": "PwC Japan、サイバーセキュリティ業務を「AI前提」に再構築するサービスを提供開始&nbsp;&nbsp;PwC",
+      "title": "中国製パワコン、サイバーセキュリティ対応は十分？（3ページ目） - 日経クロステック",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mUUZXUE1KV2sxd0lEX0h5dFFacDJRSGJVdkp3a3BOdlcyNHRzaXpyaFpVU0xxUGZXcHZUSjVlcEZMc3l4QjRyWDZKQ0laSVk0LWlTZHFoczBlM2VDQU1sSVM3RmlZRHBJby1RSVE1cGh6Zw?oc=5",
+      "summary": "中国製パワコン、サイバーセキュリティ対応は十分？（3ページ目）&nbsp;&nbsp;日経クロステック",
       "date": "2026-09-06",
       "source": "Google News JP",
       "language": "日本語",
@@ -82,78 +298,6 @@
       "category": "analysis"
     },
     {
-      "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
-      "url": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
-      "summary": "Attackers are exploiting a new unpatched vulnerability in Magento Open Source and Adobe Commerce that lets them run malicious code on an online store's server without logging in, Dutch e-commerce secu",
-      "date": "2026-09-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
-      "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
-      "summary": "JetBrains is urging Cadence users to revoke and rotate all credentials following a security incident last month in which unidentified threat actors exploited a recently disclosed critical vulnerabilit",
-      "date": "2026-09-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
-      "url": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
-      "summary": "Broadcom has released security updates for two security flaws impacting VMware Workstation and Fusion, including one critical bug that could result in arbitrary code execution under certain conditions",
-      "date": "2026-09-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
-      "url": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
-      "summary": "Hardware wallet manufacturer Trezor on Friday disclosed that another 67,000 customers from the U.S. have been impacted in a breach at its shipping provider ShipMonk. The exposed information includes c",
-      "date": "2026-09-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
-      "url": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
-      "summary": "A group of AI safety researchers says a fleet of autonomous agents that identified themselves as OpenAI systems left about 18,000 posts on a dormant 25-year-old German wiki between May and July 2026, ",
-      "date": "2026-09-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-      "url": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-      "summary": "Threat actors are exploiting the newly disclosed PaperCut flaws to facilitate credential theft in attacks targeting the education sector in the U.S. and Europe. The Arctic Wolf Adversary Research Team",
-      "date": "2026-09-05",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Over 5,400 hacked sites serve ClickFix payloads stored on the blockchain",
-      "url": "https://www.bleepingcomputer.com/news/security/over-5-400-hacked-sites-serve-clickfix-payloads-stored-on-the-blockchain/",
-      "summary": "A massive cybercriminal operation is leveraging thousands of compromised small-business websites to deliver ClickFix payloads stored in smart contracts on the BNB Smart Chain (BSC). [...]",
-      "date": "2026-09-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "OpenAI admits it didn't disclose rogue AI wiki hijacking incident",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-admits-it-didnt-disclose-rogue-ai-wiki-hijacking-incident/",
-      "summary": "OpenAI admits it did not disclose an incident where autonomous AI agents hijacked a German wiki, created 18,000 posts, shared answers, and bypassed restrictions, saying it treated the activity as mode",
-      "date": "2026-09-05",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "numbat - AI agent observability, (Fri, Sep 4th)",
       "url": "https://isc.sans.edu/diary/rss/33312",
       "summary": "&#xd;",
@@ -161,24 +305,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "サイバーセキュリティ対策、佐賀県警・専門家ら助言 中小企業・自治体向けセミナー 佐賀市 | まちの話題 | 佐賀県のニュース - 佐賀新聞",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfUS16TW5iMVFSTnJ0ZURBaUxYUlduQ0JDWlZvZWR5UnpLc204VmtmZC11LUtBeU53V0R3RVBKaUhPRWxEeWFUb2ZSU1dGS0lBZjNSTXJB?oc=5",
-      "summary": "サイバーセキュリティ対策、佐賀県警・専門家ら助言 中小企業・自治体向けセミナー 佐賀市 | まちの話題 | 佐賀県のニュース&nbsp;&nbsp;佐賀新聞",
-      "date": "2026-09-05",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ株式オープン＜3カ月決算型＞(為替ヘッジなし)【03311252】：基準価格・投資信託情報 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWZ0pRaW43Tk8zZGs4bVpHM3V4Q1N5NDVzOTROUUpIVllqVjcwMWRxNDh0RTlKalZIWUdPMnctQmJWVVdFWFJycXpYWEk5S01jMlZxZQ?oc=5",
-      "summary": "サイバーセキュリティ株式オープン＜3カ月決算型＞(為替ヘッジなし)【03311252】：基準価格・投資信託情報&nbsp;&nbsp;Yahoo!ファイナンス",
-      "date": "2026-09-05",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "エクシングCPTrans-ME-Xにおける複数の脆弱性",
@@ -253,87 +379,6 @@
       "category": "analysis"
     },
     {
-      "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-      "url": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-      "summary": "Microsoft is alerting of a \"high-volume phishing campaign\" that's using invisible Unicode tag characters to bypass email filters. \"Instead of using these characters to hide instructions from people wh",
-      "date": "2026-09-04",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-      "url": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-      "summary": "PostgreSQL has released updates to address a security flaw that allows an account with the REPLICATION attribute to run arbitrary code as the operating-system user running the database server. The fla",
-      "date": "2026-09-04",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "IDScan sued over alleged data breach affecting 153 million drivers",
-      "url": "https://www.bleepingcomputer.com/news/security/idscan-sued-over-alleged-data-breach-affecting-153-million-drivers/",
-      "summary": "Multiple lawsuits have been filed against identity verification company IDScan after hackers allegedly breached the service and offered to sell more than 153 million driver's licenses. [...]",
-      "date": "2026-09-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Critical Citrix NetScaler auth bypass now leveraged in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-critical-citrix-netscaler-auth-bypass-in-attacks/",
-      "summary": "Attackers have begun targeting a critical-severity Citrix NetScaler auth bypass flaw (CVE-2026-19490) in the wild, according to vulnerability intelligence company Previdian. [...]",
-      "date": "2026-09-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft says some users can’t open the Teams desktop client",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-some-users-cant-open-the-teams-desktop-client/",
-      "summary": "Microsoft is working to resolve a known issue that causes delays or blocks some users from opening the Microsoft Teams desktop client on Windows systems. [...]",
-      "date": "2026-09-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "39 New Methods That Compromise Passkey Authentication",
-      "url": "https://www.bleepingcomputer.com/news/security/39-new-methods-that-compromise-passkey-authentication/",
-      "summary": "Passkeys eliminate many password-based attacks, but researchers have documented 39 methods for compromising authentication built around them. Token explains how attackers can abuse authentication prom",
-      "date": "2026-09-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New CrowdStrike 'FalconFlank' zero-day grants SYSTEM privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/new-crowdstrike-falconflank-zero-day-grants-system-privileges/",
-      "summary": "An anonymous security researcher who uses the \"Nightmare Eclipse\" handle released a CrowdStrike Falcon zero-day exploit named \"FalconFlank\" that lets attackers escalate privileges on up-to-date Window",
-      "date": "2026-09-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Exchange Online outage causes email delays, 'Server busy' errors",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/exchange-online-outage-causes-email-delays-server-busy-errors/",
-      "summary": "Microsoft is working to resolve an ongoing Exchange Online outage that is delaying email sent to and received from external domains. [...]",
-      "date": "2026-09-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Google warns of new Chrome zero-day flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/google-warns-of-new-chrome-zero-day-flaw-exploited-in-attacks/",
-      "summary": "Google has updated the Chrome browser to address an actively exploited high-severity zero-day flaw in the V8 engine and 11 other vulnerabilities. [...]",
-      "date": "2026-09-04",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, September 4th, 2026 https://isc.sans.edu/podcastdetail/10082, (Fri, Sep 4th)",
       "url": "https://isc.sans.edu/diary/rss/33310",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -350,24 +395,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "サイバーセキュリティで協定 千葉県警と千葉県警備業協会 情報共有などで連携（チバテレ） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wWDNQVGFUTkw0dG1Hbk53VEtaRnJha2NnQXVNaFd3UUxNaE1QdGotUlpfR3k2ek1RMEFodktxUThQQjFWUmJNYVJTQ0Q3RnZrREZfMXBHWU4zazVzeHdLYzlDS3NTUUpYek1BVzR3UXl5akJ5dDF0SUM0MUdER2M?oc=5",
-      "summary": "サイバーセキュリティで協定 千葉県警と千葉県警備業協会 情報共有などで連携（チバテレ）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-09-04",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【聴講無料】「攻撃者視点から考えるＡＩ時代のサイバーセキュリティ」～攻撃手法の歴史から学ぶ～ (2026年9月4日掲載) - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kWXBLYTZGTlg3cUxKV0pOOVdMdjBOTkRLZks2b285UDFieUY3eHhZTm5IYXpvdW41bXNodkJ3WExCRWxRTXBmZ0VjUlhKZVR2cWJiVEJMYldCVFJuUTVuT0xn?oc=5",
-      "summary": "【聴講無料】「攻撃者視点から考えるＡＩ時代のサイバーセキュリティ」～攻撃手法の歴史から学ぶ～ (2026年9月4日掲載)&nbsp;&nbsp;ライブドアニュース",
-      "date": "2026-09-04",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "Apache Tomcatにおける複数の脆弱性(2026年8月25日)",
@@ -523,24 +550,6 @@
       "category": "alert"
     },
     {
-      "title": "米OpenAIが次世代モデル「GPT-6 Astra」を正式発表 初めて最高水準のサイバーセキュリティリスクに分類 - ビジネス+IT",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2T0ptQjJ2aTJvb1d6Q3ZMblhBamV0UzNTVkQ2SndSd3lWb1J4bUE1akdjMnJfaGNqaHhIaVBrWXNNYmpuRWFldzBBX0hnc0FGcmdR?oc=5",
-      "summary": "米OpenAIが次世代モデル「GPT-6 Astra」を正式発表 初めて最高水準のサイバーセキュリティリスクに分類&nbsp;&nbsp;ビジネス+IT",
-      "date": "2026-09-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "GMOサイバーセキュリティ byイエラエ、AIによる「実証型」脆弱性診断を提供開始～未知の脆弱性を探索し、実際に攻撃が成立するかまで自動検証～ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ - gmo-cybersecurity.com",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9YSW1YWUZWcTltRnc0elhBQmVoVmtucVBYZlc5bjhodW95ekFQeU5CZ0dxdnlPSThNNlhfWXBFNVdOTW1vRVJ0U0hGdFZWa0pJT1g3ODh2RQ?oc=5",
-      "summary": "GMOサイバーセキュリティ byイエラエ、AIによる「実証型」脆弱性診断を提供開始～未知の脆弱性を探索し、実際に攻撃が成立するかまで自動検証～ | 脆弱性診断（セキュリティ診断）のGMOサイバーセキュリティ byイエラエ&nbsp;&nbsp;gmo-cybersecurity.com",
-      "date": "2026-09-03",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Wednesday, September 2nd, 2026 https://isc.sans.edu/podcastdetail/10078, (Wed, Sep 2nd)",
       "url": "https://isc.sans.edu/diary/rss/33304",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -635,15 +644,6 @@
       "url": "https://piyolog.hatenadiary.jp/entry/2026/08/22/033313",
       "summary": "2026年7月8日、オーストラリアの通信大手Telstraのモバイル網で全国的な通信障害が発生し、通話とデータ通信に加えて、緊急通報番号Triple Zeroへの接続にも影響が生じました。当初の障害は同日中に対応が完了したものの、緊急通報に関連する問題は複数の段階を経て、完全な収束までに数日を要しています。Telstraは、ネットワークの時刻同期を担うサーバの保守作業後の再起動で機器の日付が誤って",
       "date": "2026-08-21",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
-      "title": "ドコモ・バイクシェアのシステム障害についてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/08/20/113237",
-      "summary": "2026年8月4日、株式会社ドコモ・バイクシェアは、8月1日の新システムへの切替後に生じた不具合により、安定したサービス提供の見通しが立たないとして全国でサービス提供を一時停止したと公表しました。同社は8月13日までに全国全エリアでサービスを順次再開し、8月18日には障害の原因と再発防止策、返金対応をまとめた報告を公表しています。ここでは関連する情報をまとめます。 延期の末に決定したシステム移行日",
-      "date": "2026-08-20",
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
@@ -1148,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/9/7 7:50:42"
+  "updated": "2026/9/8 8:24:33"
 }
