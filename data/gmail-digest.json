@@ -1,11 +1,28 @@
 {
-  "notifications": [],
-  "sources": [
-    { "name": "Google セキュリティ通知", "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d", "count": 0, "note": "24時間内は該当メールなし。参考：2026-09-07 18:24「重大なセキュリティ通知」（保存したパスワードの一部がデータ侵害で漏洩、Googleアカウント自体への影響なし。パスワードマネージャーで変更推奨）" },
-    { "name": "ScanNetSecurity", "query": "from:scan@netsecurity.ne.jp newer_than:1d", "count": 0, "note": "該当メールなし（48時間内も0件）" },
-    { "name": "日経BP／日経クロステック", "query": "from:nikkeibp.co.jp newer_than:1d", "count": 0, "note": "該当メールなし（72時間内も0件。前日取得分のメッセージもメールボックスから消えており、ゴミ箱にもなし。配信停止・フィルタ・削除の可能性あり）" },
-    { "name": "ISACA東京支部", "query": "from:tky-jimukyoku@isaca.gr.jp newer_than:1d", "count": 0, "note": "該当メールなし（48時間内も0件）" },
-    { "name": "ISC2 Japan", "query": "from:connect.isc2.org newer_than:1d", "count": 0, "note": "該当メールなし（48時間内も0件）" }
+  "notifications": [
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "Google アカウントが復元されました",
+      "snippet": "（再設定用アドレス宛のコピー）studystudy920@gmail.com アカウントが復元されました。誰かが変更を行ったためにアカウントがロックされたと考えられる場合は、アカウントを確認し、保護してください。",
+      "date": "2026-09-12 00:17",
+      "messageId": "1a0910be5098ae80"
+    },
+    {
+      "type": "google",
+      "from": "Google <no-reply@accounts.google.com>",
+      "subject": "studystudy920@gmail.com のセキュリティ通知",
+      "snippet": "（再設定用アドレス宛のコピー）アカウントへの新しいログイン：あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。",
+      "date": "2026-09-12 00:17",
+      "messageId": "1a0910be77d56b9e"
+    }
   ],
-  "updated": "2026-09-11 06:15"
+  "sources": [
+    { "name": "Google セキュリティ通知", "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d", "count": 2, "note": "「アカウントが復元されました」＋「新しいログイン」が同時刻（2026-09-12 00:17 JST）に受信。本人操作か要確認" },
+    { "name": "ScanNetSecurity", "query": "from:scan@netsecurity.ne.jp newer_than:1d", "count": 0, "note": "該当メールなし" },
+    { "name": "日経BP／日経クロステック", "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d", "count": 0, "note": "該当メールなし" },
+    { "name": "ISACA東京支部", "query": "from:tky-jimukyoku@isaca.gr.jp newer_than:1d", "count": 0, "note": "該当メールなし" },
+    { "name": "ISC2 Japan", "query": "from:connect.isc2.org newer_than:1d", "count": 0, "note": "該当メールなし" }
+  ],
+  "updated": "2026-09-12 06:10"
 }
