@@ -1,6 +1,42 @@
 {
   "feeds": [
     {
+      "title": "Attackers Use Passkey Phishing to Hijack Microsoft Cloud Accounts and Exfiltrate Data",
+      "url": "https://thehackernews.com/2026/09/attackers-use-passkey-phishing-to.html",
+      "summary": "Microsoft has disclosed details of two campaigns in which threat actors are abusing third-party email delivery infrastructure to blast financial fraud scam messages and using passkey-themed social eng",
+      "date": "2026-09-13",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers exploit Tencent app flaw to deploy GrayRabbit malware",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-tencent-app-flaw-to-deploy-grayrabbit-malware/",
+      "summary": "Threat actors linked to a China-aligned espionage group are exploiting a critical vulnerability (CVE-2026-51990) in Tencent's Sogou Input Method for Windows to deploy the GrayRabbit backdoor. [...]",
+      "date": "2026-09-13",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "厚労省、DX関連政策を政策統括官の下に集約 保険データ企画室の所掌事務を移管（2026年8月7日） - 社会保険研究所",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5ma0xnQW9iS3Q5N0F1N3ZiRVRPWlVVeFJGdTFva1dyVy1WN1l6M3c1ZFFjNmN1QzZlTHl0a2lUUnBsUjZtVnZqdVBRQlBvYU5Cb1Zr?oc=5",
+      "summary": "厚労省、DX関連政策を政策統括官の下に集約 保険データ企画室の所掌事務を移管（2026年8月7日）&nbsp;&nbsp;社会保険研究所",
+      "date": "2026-09-13",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "Arctic Wolf「2026年AI ＆ サイバーセキュリティ トレンドレポート」を発表、AI時代に向けてセキュリティ運用の刷新を急ぐ企業における「AI信頼ギャップ」が浮き彫りに - news.infoseek.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kcHZycTg4R1ZUb3Rkd0dsZDFjM3lEWWt0cjhrQzg4NjN1WkcwOTNfSTJFNzFEd2FzV2pzVjZZbG1hQ0hQeFBpVTJEYWxMSEtYd0FuWHdGbmhKVjJ1NVB0dmpSTXUxZ01iMEJmQnhOVXV2Zw?oc=5",
+      "summary": "Arctic Wolf「2026年AI ＆ サイバーセキュリティ トレンドレポート」を発表、AI時代に向けてセキュリティ運用の刷新を急ぐ企業における「AI信頼ギャップ」が浮き彫りに&nbsp;&nbsp;news.infoseek.co.jp",
+      "date": "2026-09-13",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "CISA Adds 5 Actively Exploited Artifactory, ScreenConnect, and RouterOS Flaws to KEV",
       "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
       "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added five security flaws impacting JFrog Artifactory, ConnectWise ScreenConnect, and MikroTik RouterOS to its Known Exploited Vuln",
@@ -127,15 +163,6 @@
       "category": "news"
     },
     {
-      "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-      "url": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-      "summary": "A China-linked hacking group exploited a flaw in Sogou Input Method, one of the most widely used tools for typing Chinese characters on Windows, to install a backdoor on victims' computers, security c",
-      "date": "2026-09-11",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
       "summary": "Anthropic says multiple threat groups, including the financially motivated and state-sponsored espionage groups linked to Russia and China, tried to abuse its Claude AI model for malicious purposes. [",
@@ -208,15 +235,6 @@
       "category": "news"
     },
     {
-      "title": "Conti ransomware gang member sentenced to 4 years in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/conti-ransomware-gang-member-sentenced-to-four-years-in-prison/",
-      "summary": "A Ukrainian national has been sentenced to four years in prison for his role in Conti ransomware attacks between 2021 and 2022. [...]",
-      "date": "2026-09-11",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "The Self-Expanding Stolen Inference Supply Chain: An AI Agent Harvesting and Re-Serving LLM Access, (Fri, Sep 11th)",
       "url": "https://isc.sans.edu/diary/rss/33332",
       "summary": "I identified an attacker using a semi-autonomous coding agent to run an offensive operation: finding poorly secured LLM resale gateways, acquiring API access through ordinary web flaws and account far",
@@ -253,24 +271,6 @@
       "category": "alert"
     },
     {
-      "title": "サイバー攻撃への対応力向上を 宮崎市で企業を対象とした講習会（MRT宮崎放送） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1wZXhqSHRlZU41WnJYLWJyUC1YT0J0aExMTmRpN1VPcTJGeVpvVXlheTVtVTdjSm94NHg5ZmFEMmZOUXpYRnNCZ1A3T29sRjFCcDlxTVJlV0xCb016MmU5TkhfWl9uUG83VjJMVEtfb0twRkVUNTlpQ1ljTlhCbFk?oc=5",
-      "summary": "サイバー攻撃への対応力向上を 宮崎市で企業を対象とした講習会（MRT宮崎放送）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-09-11",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "インテルとフォーティネットが戦略的提携：サイバーセキュリティのイノベーションを推進し、グローバルサプライチェーンを強靭化 - 沖縄タイムス社",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1X3VVWDlXOFRLUjJPX1gxbWQ3clRXbkM0dHRVX0ZsZkdOWENMbTRVWHNlbUdCM3dBVWNaSDhnRDdpbU1DNjhJdktLeUJYY1BxNkN2NXhpYnAyVWltOEE?oc=5",
-      "summary": "インテルとフォーティネットが戦略的提携：サイバーセキュリティのイノベーションを推進し、グローバルサプライチェーンを強靭化&nbsp;&nbsp;沖縄タイムス社",
-      "date": "2026-09-11",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "サイバーセキュリティ特化の展示会＆セミナー「Security Days Fall 2026」が10月開催 - 窓の杜",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tbFhmTk80NFdsclJrbndEcWVtdkhGbHpRLWlXeDZkQ1FDMkdVckdyd2JTZDZoWWZnUnVzVXZFb3h0WUw5cThPTnowT0NhaE5ndEZOODVtYklISnpiSFBtTVVZNW1BdEZr?oc=5",
       "summary": "サイバーセキュリティ特化の展示会＆セミナー「Security Days Fall 2026」が10月開催&nbsp;&nbsp;窓の杜",
@@ -280,18 +280,9 @@
       "category": "news"
     },
     {
-      "title": "AIがサイバーセキュリティ業界を再編、Wedbushが注目銘柄を選定 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1XTERyMWlOVDhGMlNHckhxOWJ6NmpyZDF3aWp6MjV2Rll5RmZPYzVMUlRyeDFkbFFmXzhXeDRBcDlZN2F3UjJiV2hSSHd6cTNzcGc3WVpmWG05anhqMzJub3NteG45NGFqd0g3S3hoOURWblVrdXU4?oc=5",
-      "summary": "AIがサイバーセキュリティ業界を再編、Wedbushが注目銘柄を選定 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "date": "2026-09-11",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "フォーティネット、Virtue AIの買収により継続的なAI保護を推進 - 新潟日報",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iTG1yV25sblZ6OFFwZ1oxdFpNbDd4NXhURlhhT3pSNkpOamNObjkwcVprMHQwNWgxZDRDdnlBLTItMW5YbzVHeTl5YjRpY0MtYmM0YmF4Z3IzZk9NSUE?oc=5",
-      "summary": "フォーティネット、Virtue AIの買収により継続的なAI保護を推進&nbsp;&nbsp;新潟日報",
+      "title": "自動車サイバーセキュリティの世界市場（2026年～2032年）、市場規模（ソフトウェアサービス、ハードウェアサービス、ネットワークおよびクラウドサービス、セキュリティサービスおよびフレームワーク）・分析レポートを発表 - Newscast.jp",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ld0ZrUGpDN3pRbzlzZnZYN0xaaUZSckZvYjMwem5ocGo3LUpmWjdEVjdWWWMwaTk3M0xTU1dYbkxKbEpTbThMTExmeWwtZ2c?oc=5",
+      "summary": "自動車サイバーセキュリティの世界市場（2026年～2032年）、市場規模（ソフトウェアサービス、ハードウェアサービス、ネットワークおよびクラウドサービス、セキュリティサービスおよびフレームワーク）・分析レポートを発表&nbsp;&nbsp;Newscast.jp",
       "date": "2026-09-11",
       "source": "Google News JP",
       "language": "日本語",
@@ -406,45 +397,36 @@
       "category": "alert"
     },
     {
-      "title": "CISAが6年ぶりに内部脅威対策ガイドを改訂 新たに加わった「AIの手口」：セキュリティニュースアラート - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tZ1VzSjYyRmhneW9QUEU4eWdWRnkxdE50MmlGSVpnV1N1NjYwX2VkWmlueXFWcUQ5b1JDNkR2V2FVVm5PZWFqaVBVdHdCWlRCaU9TVnpsNmhkUTV4S0JmQmZ4RENtYkVHT2lBTzV5ZnpYVWNU?oc=5",
-      "summary": "CISAが6年ぶりに内部脅威対策ガイドを改訂 新たに加わった「AIの手口」：セキュリティニュースアラート&nbsp;&nbsp;ITmedia",
+      "title": "NVIDIA と CrowdStrike がエージェント型サイバーセキュリティの最前線を強化 - NVIDIA | Japan Blog",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4xR0xTbF85THhTb2tKbXZWZ00yX1oxamJLOEpxQ1BTbGF4MnRfdDl0RzBfTncybERXWDNRazgxVV9mRUwxdGlHWkpXUXdZN056U2Z0eVk0RVVEeFdlYzhVcy1aRGROajRZdmVsUnhfUkdGdw?oc=5",
+      "summary": "NVIDIA と CrowdStrike がエージェント型サイバーセキュリティの最前線を強化&nbsp;&nbsp;NVIDIA | Japan Blog",
       "date": "2026-09-10",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "シリコン・モーション、ISO/SAE 21434自動車サイバーセキュリティプロセス認証を取得 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nNFBxUHg3a3Zld2loU2stODNHNE1rTHg5TnJEY2hfSklrdUk4RW8tZnBmY0czSDN1Ym5kc1NSSWNLQm1BUXN0RUtodkFobEUtb3poYXRDVmctQmpISXJHTVFvcEtIUUs3Vnc?oc=5",
-      "summary": "シリコン・モーション、ISO/SAE 21434自動車サイバーセキュリティプロセス認証を取得&nbsp;&nbsp;PR TIMES",
+      "title": "OTセキュリティ責任は経営陣へ ～ フォーティネット最新レポートが明かす現状と課題 - scan.netsecurity.ne.jp",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52MkVoc0VKcUUxZDBwdFNGNXZsdS1sdC1ZMDZva0VrLUNia242MXhtSUE4X3FGMXF3SHlCVTg2ZnI5UGdDMC1CTmtuS0xyZHZ3U19uR1NiVzJFV2Qwdy11Mzc5bk5yTU5TSXlzUQ?oc=5",
+      "summary": "OTセキュリティ責任は経営陣へ ～ フォーティネット最新レポートが明かす現状と課題&nbsp;&nbsp;scan.netsecurity.ne.jp",
       "date": "2026-09-10",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "日本はマルウェア攻撃の検知件数で世界10位、NordVPN「2026年上半期サイバー脅威レポート」（INTERNET Watch） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15YzlnMFQ5SnpDdjZ6WkdCcS13M3RUNTZ2V3BFT2lqa1VVbDdvX2d3SGNOakhWYzVGMUNKREJpRHk5QVJpcF9fNFNzTFBBMmdwTWVCRUViVXVrdnVFdV82X2tYU0dGTUkxcU5wU3daTmJaeTVhYlFieVNkM3l5Mnc?oc=5",
-      "summary": "日本はマルウェア攻撃の検知件数で世界10位、NordVPN「2026年上半期サイバー脅威レポート」（INTERNET Watch）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "パナソニック オートモーティブシステムズがAI時代のSDVにおける新たなサイバーセキュリティ課題を提起 ～ISC2 SECURE Japan 2026で講演～ | 車載関連 | 製品・サービス | トピックス - Panasonic Newsroom Global",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9GQmdsYVpaS3lBRW8tbWIxNjNiZHFiU3dGLTY4QVRtWC1uZUNDbkhrTWVheE11RWtubFhXV2NSVkpmWnU1c055aDhZSEN2RUZnZEdDTlhn?oc=5",
+      "summary": "パナソニック オートモーティブシステムズがAI時代のSDVにおける新たなサイバーセキュリティ課題を提起 ～ISC2 SECURE Japan 2026で講演～ | 車載関連 | 製品・サービス | トピックス&nbsp;&nbsp;Panasonic Newsroom Global",
       "date": "2026-09-10",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "日本はコンプライアンス先行、サイバー防御のレジリエンスに課題--Arctic Wolf調査 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8xRWNheXk1ZnRocTNNcGdnbmMtc05zYk5vcUdoLTYxaDEyYzBlZlZZOXJYc3RkdHN6YTE2N3Z5bEhGamphNjBsLWJnT2pyTUt6YmF1Rm82c2I4NTJaMGRja0gwMHYyN0l6YmY1SWRXcE5LQmtHM3Blc09PSnY4UTg?oc=5",
-      "summary": "日本はコンプライアンス先行、サイバー防御のレジリエンスに課題--Arctic Wolf調査&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-09-10",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "パナソニック オートモーティブシステムズがAI時代のSDVにおける新たなサイバーセキュリティ課題を提起 ～ISC2 SECURE Japan 2026で講演～ - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE44bnJlWGNRekwwNkh5T01iMUhlQzRtUmdobmFGUWc2dUp4aTBMZzRKblJ4bkpWb0Z1SzVoWC1Qajg1M1dXQjhpbTZNZV8wOTYtUF84cXlMNUZna3RfTUI2Z1BhZkVUTDNmUmc?oc=5",
-      "summary": "パナソニック オートモーティブシステムズがAI時代のSDVにおける新たなサイバーセキュリティ課題を提起 ～ISC2 SECURE Japan 2026で講演～&nbsp;&nbsp;PR TIMES",
+      "title": "警察庁、前サイバー捜査課長を懲戒免職 捜査費百数十万円を私的流用か、ユーロポール 派遣中から不正疑い - 合同会社ロケットボーイズ",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSURiZDRHQTBqVnh5SVh6RXZhN2V1MERpYWxFZHpYd3RxTFo2cXpVVmU3cDU2ekJBWV9naVZpTDFGLTNYU0NEVzRJM0o0U1ptOXN3REZJRVc5bzNCRjZ2SmpNS1pneWQySEZ2QlZDZTVjZjJfMzB6bUYwd2RmLWZEX3llRV9PSHc4aFkw?oc=5",
+      "summary": "警察庁、前サイバー捜査課長を懲戒免職 捜査費百数十万円を私的流用か、ユーロポール 派遣中から不正疑い&nbsp;&nbsp;合同会社ロケットボーイズ",
       "date": "2026-09-10",
       "source": "Google News JP",
       "language": "日本語",
@@ -685,6 +667,15 @@
       "category": "news"
     },
     {
+      "title": "PwC Japan、サイバーセキュリティ業務を「AI前提」に再構築するサービスを提供開始 - PwC",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR0lHTlNXYWtSZk9RWFRNbklVYnU5UjJNcEYwa2doQ3JpYXRueTMxZWxMNGJzME9wRDV6QmE3eElGOFUwRTVmc1VKM3V4eWtUbVd5eGptSkpxY0c1alZZZWljRHFxSGZYU3hMZnpjek1rdGZXOEZPTWE2VmFxWk9vMjhveTZ5ejVi?oc=5",
+      "summary": "PwC Japan、サイバーセキュリティ業務を「AI前提」に再構築するサービスを提供開始&nbsp;&nbsp;PwC",
+      "date": "2026-09-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Two Alleged &#8216;TeamPCP&#8217; Hackers Arrested in Australia",
       "url": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
       "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply ch",
@@ -772,6 +763,15 @@
       "date": "2026-08-06",
       "source": "Krebs on Security",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "【生成AIにつぶされない強みをもつ企業も】サイバー攻撃の脅威に対抗できる「国産サイバーセキュリティ関連銘柄」5選 - 現代ビジネス",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4wRzhxSjZNd0xNV1BwbDNadVJhUkRXWXRXVXF5ak9FSFZGY3dhWmtKNUxFVGxrQThvUlVFaC1BN1VFRndwaWh2LWFyRHZnOEtmMmo3N2phQ3M?oc=5",
+      "summary": "【生成AIにつぶされない強みをもつ企業も】サイバー攻撃の脅威に対抗できる「国産サイバーセキュリティ関連銘柄」5選&nbsp;&nbsp;現代ビジネス",
+      "date": "2026-08-04",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -1148,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/9/13 7:56:06"
+  "updated": "2026/9/14 8:04:04"
 }
