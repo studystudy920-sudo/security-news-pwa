@@ -1,28 +1,11 @@
 {
-  "notifications": [
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "Google アカウントが復元されました",
-      "snippet": "（再設定用アドレス宛のコピー）studystudy920@gmail.com アカウントのご利用を再開いただきありがとうございます。誰かが変更を行ったためにアカウントがロックされたと考えられる場合は、アカウントを確認し、保護してください。",
-      "date": "2026-09-12 10:18",
-      "messageId": "1a093317f4acd201"
-    },
-    {
-      "type": "google",
-      "from": "Google <no-reply@accounts.google.com>",
-      "subject": "studystudy920@gmail.com のセキュリティ通知",
-      "snippet": "（再設定用アドレス宛のコピー）アカウントへの新しいログイン：あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。",
-      "date": "2026-09-12 10:18",
-      "messageId": "1a0933184507edf8"
-    }
-  ],
+  "notifications": [],
   "sources": [
-    { "name": "Google セキュリティ通知", "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d", "count": 2, "note": "「アカウントが復元されました」＋「新しいログイン」が同時刻（2026-09-12 10:18 JST）に再度受信。前日分と同一スレッドで、2日連続の復元＋新規ログイン。本人操作か要確認" },
+    { "name": "Google セキュリティ通知", "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d", "count": 0, "note": "過去24時間の該当メールなし。直近は 2026-09-11 15:17 GMT と 2026-09-12 01:18 GMT に「アカウントが復元されました」＋「新しいログイン」が各1組（計4通）。本人操作か未確認なら要確認" },
     { "name": "ScanNetSecurity", "query": "from:scan@netsecurity.ne.jp newer_than:1d", "count": 0, "note": "該当メールなし" },
     { "name": "日経BP／日経クロステック", "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d", "count": 0, "note": "該当メールなし" },
     { "name": "ISACA東京支部", "query": "from:tky-jimukyoku@isaca.gr.jp newer_than:1d", "count": 0, "note": "該当メールなし" },
     { "name": "ISC2 Japan", "query": "from:connect.isc2.org newer_than:1d", "count": 0, "note": "該当メールなし" }
   ],
-  "updated": "2026-09-13 06:10"
+  "updated": "2026-09-14 06:10"
 }
