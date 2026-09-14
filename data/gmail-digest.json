@@ -1,11 +1,32 @@
 {
-  "notifications": [],
+  "notifications": [
+    { "type": "newsletter", "from": "日経BP（BPセミナー）", "subject": "日清・荏原・JFE…AI活用・全社DXの「壁」をどう越える？｜今月末・東京開催【BPセミナー】", "snippet": "条件達成で1000円分の抽選特典(PR) 《特典対象》セッション3つ以上の事前登録＋受講で抽選500名様に【1000円分デジタルギフト】 日経クロステックNEXT 東京 2026 9/29・30東京開催", "date": "2026-09-15 07:50", "messageId": "1a0a21d1d63e5f5e" },
+    { "type": "newsletter", "from": "日経BP Topics", "subject": "富士通が社内サービスデスクを刷新、AIエージェントが対応しナレッジを自動生成【日経BP Topics】", "snippet": "AI・データ活用に関するおすすめ情報(PR) 富士通が挑む「AI変革」、9万人の業務を支えるサービスデスク業務改革の全貌", "date": "2026-09-15 07:46", "messageId": "1a0a219913b7bc6e" },
+    { "type": "newsletter", "from": "日経クロステック Active", "subject": "OPPOが折り畳みスマホを日本初投入　限りなく折り目ゼロ、価格は30万円超：日経クロステック Active", "snippet": "セミオーダー型の開発基盤を採用／「変化に強いERP」とは／3大クラウドを日本パートナーが評価／注目の無料セミナー：サプライチェーン強化に向けたセキュリティ対策評価制度", "date": "2026-09-15 07:36", "messageId": "1a0a21062c4c489a" },
+    { "type": "newsletter", "from": "日経クロステック IT最前線", "subject": "Anthropic「Mythos」、18時間で8件の攻撃手法を構築　OSS防御は追いつくか：日経クロステック IT最前線", "snippet": "ソフトベンダーも無視できない欧州CRA／「プロデジ試験」はどうなるか予想／今後利用すべき技術で「AIネイティブ開発」が初登場1位／OSSの危機を描く特集", "date": "2026-09-15 07:06", "messageId": "1a0a1f57a4109359" },
+    { "type": "newsletter", "from": "日経BP Topics", "subject": "サヨナラ「時代遅れのCRM」、AIエージェントでつくるスマートな顧客対応【日経BP Topics】", "snippet": "業務アプリケーションに関するおすすめ情報(PR) AIエージェント時代に最適な顧客管理とは？ 従来のCRMの問題点とその解決方法", "date": "2026-09-15 06:46", "messageId": "1a0a1e2719dedb62" },
+    { "type": "newsletter", "from": "日経BP Topics", "subject": "コーポレート部門の業務を生成AIで刷新、従業員の満足度と生産性を高める工夫【日経BP Topics】", "snippet": "業務アプリケーションに関するおすすめ情報(PR) 従業員満足度を高める生成AI活用ガイド、個別のツール導入はむしろマイナスに", "date": "2026-09-15 06:40", "messageId": "1a0a1dd97a2d9428" },
+    { "type": "newsletter", "from": "日経ビジネス", "subject": "中部電力で相次ぐ不祥事／バンダイナムコ、「ガンダム」支えた自己資本 - 日経ビジネス（9/15）", "snippet": "トヨタ、人型バスケロボ開発秘話／10億円の社債を20分で完売 Editor's EYE：「無借金＝健全経営」という常識が揺らいでいます", "date": "2026-09-15 05:32", "messageId": "1a0a19ecee244f61" },
+    { "type": "newsletter", "from": "日経ビジネス", "subject": "IDOM、10億円の社債を20分で完売／セブン銀行社長が描く未来 - 日経ビジネス（9/14）", "snippet": "光電融合、AI時代の切り札／デザイン業の倒産急増、26年上期2.7倍 夕刊 EDITOR'S PICK 攻める資金調達", "date": "2026-09-14 17:16", "messageId": "1a09efcda47eed41" },
+    { "type": "newsletter", "from": "日経クロステック IT注目記事", "subject": "AIデバイドの敗者となる日本企業／「OSSの危機」知らないこと自体がリスク：日経クロステック IT注目記事メール", "snippet": "AI全振りで気象サービス変革、ウェザーニューズ社長の信念／大学発新興が5年で倍増／欧州CRAが26年9月に脆弱性報告を義務化／ビジネス変革に向けてAI活用が焦点に", "date": "2026-09-14 16:33", "messageId": "1a09ed5a4038c273" },
+    { "type": "newsletter", "from": "日経ビジネス", "subject": "週間人気1位　37歳現場監督、年収1000万円超に／2位　P＆G、入社6日で責任者に - 日経ビジネス（9/14）", "snippet": "20代の若者、防衛事業で10億円超を調達／エスカレーター片側空け 号外 先週の人気記事ランキング", "date": "2026-09-14 12:18", "messageId": "1a09dec0b21e8db0" },
+    { "type": "newsletter", "from": "日経クロステック IT最新ニュース", "subject": "欧州CRAが26年9月に脆弱性報告を義務化／知財分析で見たフィジカルAI開発：日経クロステック IT最新ニュースメール", "snippet": "「OSSの危機」がAIで増幅／国の機関の業務環境GSSに不正侵入、24万6000件漏洩の恐れ／AIエージェントによる攻撃出現、VPN以外も標的に／ITモダナイズに乗り遅れるな", "date": "2026-09-14 12:14", "messageId": "1a09de87792f6945" },
+    { "type": "newsletter", "from": "日経ビジネス課長塾", "subject": "自宅でも身につけられるリーダーシップ｜人気研修『課長塾』をオンデマンド受講", "snippet": "2009年の開塾以来、5000名以上の修了生を輩出する『日経ビジネス課長塾』。研修を受けに行くことが難しい方に向けた『課長塾オンデマンド』のご案内", "date": "2026-09-14 11:36", "messageId": "1a09dc5d209d68f2" },
+    { "type": "newsletter", "from": "日経ビジネス課長塾", "subject": "自律した若手が育つ！リーダーに必要な力を身につける2講座をご紹介｜日経BP", "snippet": "課長塾のエッセンスを活かした若手・中堅社員向けプログラム『次世代リーダーパワーアップ集中講座』のご案内", "date": "2026-09-14 11:35", "messageId": "1a09dc5870a4a6c0" },
+    { "type": "newsletter", "from": "ISACA東京支部（ITGI-Japan）", "subject": "【日本ITガバナンス協会からのお知らせ】ITGI-Japan 設立20周年記念カンファレンス（講演のご紹介①）", "snippet": "ITGI Japan Conference 2026 設立20周年記念カンファレンスを11月17日（火）に現地聴講とオンラインライブ配信のハイブリッド形式で開催", "date": "2026-09-14 11:34", "messageId": "1a09dc3cc6910173" },
+    { "type": "newsletter", "from": "日経BP Topics", "subject": "製造業のための「次世代の予算管理」、実績との分断を防ぎ経営指標を可視化【日経BP Topics】", "snippet": "おすすめ情報(PR) 「実績」と「計画」を経営判断につなげる", "date": "2026-09-14 09:33", "messageId": "1a09d5589620d3d0" },
+    { "type": "newsletter", "from": "日経クロステック Active", "subject": "Mythos級AIが検出した脅威に短時間で対応、効果的なパッチ適用の仕組みとは：日経クロステック Active", "snippet": "AIの進化で一変した脆弱性対策／「正規IDを奪う攻撃」に耐えられるか／Excel新関数で簡潔に高度な文字列操作／Microsoftが用意した4つの「頭脳」", "date": "2026-09-14 09:32", "messageId": "1a09d541103eefad" },
+    { "type": "newsletter", "from": "日経BP（BPセミナー）", "subject": "ヒューマノイドロボット「Unitree G1」を分解　最新AIを体感する専門展【BPセミナー】", "snippet": "条件達成で1000円分の抽選特典(PR) 日経クロステックNEXT 東京 2026《AIリーダーズEXPO 東京 2026》9/29・30東京開催", "date": "2026-09-14 08:39", "messageId": "1a09d23eeee2f3ab" },
+    { "type": "newsletter", "from": "日経BP Topics", "subject": "味の素子会社が年1600時間を削減、Excelと紙による管理から脱却【日経BP Topics】", "snippet": "業務アプリケーションに関するおすすめ情報(PR) 味の素子会社が年間1600時間の工数削減、自作アプリで脱Excel・ペーパーレス", "date": "2026-09-14 08:38", "messageId": "1a09d229d146981e" },
+    { "type": "newsletter", "from": "日経BP Topics", "subject": "【DL特典あり】クラウド移行で失敗しない、コストと運用負荷を抑える方法とは？【日経BP Topics】", "snippet": "クラウドに関するおすすめ情報(PR) 5分で理解、クラウド移行でコスト削減とセキュリティ強化を両立する策とは？ VMwareのライセンス体系変更などをきっかけに", "date": "2026-09-14 08:35", "messageId": "1a09d20372434167" },
+    { "type": "newsletter", "from": "ScanNetSecurity", "subject": "Scan BASIC [2026-09-14 Vol.1639-1/1] 「SCS評価制度」におけるサプライチェーンセキュリティとアイデンティティ管理", "snippet": "毎週月曜朝8時配信のScan BASICメルマガ。特集：「SCS評価制度」におけるサプライチェーンセキュリティとアイデンティティ管理", "date": "2026-09-14 08:26", "messageId": "1a09d1815445b019" }
+  ],
   "sources": [
-    { "name": "Google セキュリティ通知", "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d", "count": 0, "note": "過去24時間の該当メールなし。直近は 2026-09-11 15:17 GMT と 2026-09-12 01:18 GMT に「アカウントが復元されました」＋「新しいログイン」が各1組（計4通）。本人操作か未確認なら要確認" },
-    { "name": "ScanNetSecurity", "query": "from:scan@netsecurity.ne.jp newer_than:1d", "count": 0, "note": "該当メールなし" },
-    { "name": "日経BP／日経クロステック", "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d", "count": 0, "note": "該当メールなし" },
-    { "name": "ISACA東京支部", "query": "from:tky-jimukyoku@isaca.gr.jp newer_than:1d", "count": 0, "note": "該当メールなし" },
+    { "name": "Google セキュリティ通知", "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d", "count": 0, "note": "過去24時間の該当メールなし" },
+    { "name": "ScanNetSecurity", "query": "from:scan@netsecurity.ne.jp newer_than:1d", "count": 1, "note": "Scan BASIC Vol.1639（SCS評価制度特集）" },
+    { "name": "日経BP／日経クロステック", "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d", "count": 18, "note": "うちPR・セミナー・研修案内が10通" },
+    { "name": "ISACA東京支部", "query": "from:tky-jimukyoku@isaca.gr.jp newer_than:1d", "count": 1, "note": "ITGI Japan Conference 2026（11/17）案内" },
     { "name": "ISC2 Japan", "query": "from:connect.isc2.org newer_than:1d", "count": 0, "note": "該当メールなし" }
   ],
-  "updated": "2026-09-14 06:10"
+  "updated": "2026-09-15 08:03"
 }
