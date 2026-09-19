@@ -1,6 +1,141 @@
 {
   "articles": [
     {
+      "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+      "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+      "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an inte",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+      "url": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+      "summary": "A new CVE drops. Your scanner finds it. The severity score looks ugly. But that still does not answer the question that matters: Can it actually be exploited in your environment? Mythos-class AI is co",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+      "url": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+      "summary": "Identity visibility is a starting point for modern identity security, because stolen and misused credentials are among the most frequently reported initial access vectors in breach research, including",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
+      "summary": "SolarWinds has released security updates to address a high-severity flaw in Access Rights Manager (ARM) that, if successfully exploited, could lead to an unauthenticated remote code execution vulnerab",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+      "summary": "A critical vulnerability impacting Orkes Conductor is being actively exploited in the wild, according to Fortinet. The vulnerability in question is CVE-2026-58138 (CVSS v3.1 score: 9.8/CVSS v4 score: ",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+      "url": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+      "summary": "Google's Gemini model has become the latest artificial intelligence (AI) system to access the internet and break into other companies during a cybersecurity evaluation. The development was first repor",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
+      "url": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
+      "summary": "An attacker copied about 170 of CrowdSec's private GitHub repositories on May 22 using the account of an employee who had just left, CrowdSec&nbsp;said on September 18. The French security company had",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added three security flaws impacting the Linux kernel to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence o",
+      "date": "2026-09-19",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+      "url": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+      "summary": "BragJack, a proof-of-concept attack from Forever Security's Gal Weizman, hijacks the AI assistants in Chrome, Edge, Opera Neon, Perplexity Comet, and Claude in Chrome using one malicious extension. Th",
+      "date": "2026-09-19",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "North Korean WaterPlum hackers infected 30,000 devices worldwide",
+      "url": "https://www.bleepingcomputer.com/news/security/north-korean-waterplum-hackers-infected-30-000-devices-worldwide/",
+      "summary": "A joint law enforcement advisory warns that the North Korean hacking group WaterPlum compromised at least 30,000 devices worldwide from December 2025 through July 2026 and transferred more than $10.7 ",
+      "date": "2026-09-19",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ShinyHunters hacks Clop leak site, threatens to extort ransomware gang",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacks-clop-leak-site-threatens-to-extort-ransomware-gang/",
+      "summary": "The ShinyHunters extortion gang breached the Clop (aka Cl0p) ransomware operation's data leak site, defacing the Tor site and allegedly stealing server data and the private keys for its onion service.",
+      "date": "2026-09-19",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Viral AI actress' hotline face-scans every caller, watches their mood",
+      "url": "https://www.bleepingcomputer.com/news/security/viral-ai-actress-hotline-face-scans-every-caller-watches-their-mood/",
+      "summary": "AI actress Tilly Norwood went viral after glitching into Chinese on Piers Morgan Uncensored last night. Her \"Talking Tilly\" video call service face-scans every caller for an 18+ age check, senses call",
+      "date": "2026-09-19",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33352",
+      "summary": "In June 2026 the IETF published RFC 10008&#x5b;1&#x5d;, defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/3) but it&#x27s the first new standard HTTP verb s",
+      "date": "2026-09-19",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "取締役会がサイバーセキュリティを主導するための5つの重要提言 - Forbes JAPAN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hNk44NnFld2R2Z3ZfcUZZRS1JOGVtN2xTMlJfbi1FQXpFb1JtUmJRMHAwNGV0Ynh4d3VxQTBKUkEyVF9sZzBpMkZZUEtNTUlQSTd2TG1RNHZ2dw?oc=5",
+      "summary": "取締役会がサイバーセキュリティを主導するための5つの重要提言&nbsp;&nbsp;Forbes JAPAN",
+      "date": "2026-09-19",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「AI攻撃が怖い」でも実際の原因は別 中小企業の47％が経験したサイバー被害、本当の落とし穴（ITmedia ビジネスオンライン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdFN0Wk9sdHZVWWNRMEQyUDQxUUpxRHF6Q00ydlNKdDFLRFN1bUFpRFlMWjNhN3pBUlBCOUxGamVPQVZ0UTkyM2FSZlN1bU5sSldieExYQUNUTmRuX2ZCX0ZncmluU0RBZTNSMnRDTW1rNGhZQk1ReHhvYVJBWEVHV3VreTE0bzR2?oc=5",
+      "summary": "「AI攻撃が怖い」でも実際の原因は別 中小企業の47％が経験したサイバー被害、本当の落とし穴（ITmedia ビジネスオンライン）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-09-19",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "ISC BINDにおける複数の脆弱性（2026年9月）",
       "url": "https://jvn.jp/vu/JVNVU97703430/",
       "summary": "ISC（Internet Systems Consortium）から、ISC BINDの複数の脆弱性が公開されました。",
@@ -40,69 +175,6 @@
       "title": "New WordPress Click2Shell Flaw Forces Theme Installs, Can Chain to Code Execution",
       "url": "https://thehackernews.com/2026/09/new-wordpress-click2shell-flaw-forces.html",
       "summary": "WordPress today released patches to fix a new set of vulnerabilities in its core software, one of which could allow a crafted web link, opened by a logged-in administrator, to install a theme from the",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Transparent Tribe Deploys New Rust Backdoor Using Private GitHub Repositories for C2",
-      "url": "https://thehackernews.com/2026/09/transparent-tribe-deploys-new-rust.html",
-      "summary": "The Pakistan-aligned threat group tracked as Transparent Tribe (aka APT36 and Earth Karkaddan) has been attributed to a fresh set of cyber attacks targeting government and defense entities in India an",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
-      "url": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
-      "summary": "Microsoft has released fixes for a maximum-severity security flaw in Azure AI Foundry that could be exploited to achieve privilege escalation. No customer action is required. The vulnerability, tracke",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "An Abandoned CDN Domain Was Re-Registered. Thousands of Sites Still Call It.",
-      "url": "https://thehackernews.com/2026/09/an-abandoned-cdn-domain-was-re.html",
-      "summary": "In July 2025, someone registered a domain that used to belong to a content delivery network.&nbsp; The CDN had been wound down years earlier, and the domain it served assets from was allowed to expire",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
-      "url": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
-      "summary": "A flaw in four widely used AI coding agents lets someone who controls a plugin's code repository swap the plugin an agent installs for a malicious one, even when the agent locked that plugin to a spec",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
-      "url": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
-      "summary": "Cybersecurity researchers have discovered a cluster of 13 npm packages that have been found to deliver a previously undocumented JavaScript stealer codenamed WeaselBiscuit. The new malware family, per",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
-      "url": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
-      "summary": "A financially motivated threat actor has been linked to the development and distribution of a JavaScript (JS)-based information stealer known as PhantomRaven via the npm package registry. \"The develop",
-      "date": "2026-09-18",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
-      "url": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
-      "summary": "Cybersecurity researchers have flagged a new Android malware called RatHat that's assessed to be operated by China-based threat actors and features an artificial intelligence (AI)-powered system to na",
       "date": "2026-09-18",
       "source": "The Hacker News",
       "language": "英語",
@@ -163,33 +235,6 @@
       "category": "news"
     },
     {
-      "title": "New Check Point flaw lets hackers execute code with root privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-critical-flaw-lets-hackers-execute-code-as-root/",
-      "summary": "Check Point Software has released security updates to address a critical vulnerability that can let attackers execute code with root privileges on management systems. [...]",
-      "date": "2026-09-18",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft fixes broken copy and paste for Excel 2016 users",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-broken-copy-and-paste-for-excel-2016-users/",
-      "summary": "Microsoft has fixed a known issue that causes copy-and-paste failures for some Excel users after installing the September 2026 KB5002914 security update. [...]",
-      "date": "2026-09-18",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "HTTP QUERY Method: The Grey Zone Between GET And POST., (Fri, Sep 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33352",
-      "summary": "In June 2026 the IETF published RFC 10008&#x5b;1&#x5d;, defining a new HTTP method: \"QUERY\". The HTTP protocol faced already by changes (HTTP/2, HTTP/2) but it&#x27s the first new standard HTTP verb s",
-      "date": "2026-09-18",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
       "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
       "url": "https://isc.sans.edu/diary/rss/33350",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -217,54 +262,45 @@
       "category": "alert"
     },
     {
-      "title": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pQ1lxQk0xdkd2MlJzYUV3UUdTMEtRRUVPc3ZibDFqZXZ1ckxteHozVE5nWXAzX3RzcmVjcFJlbFdGa3pXT1FrX0FJTno3MUZYb1IxUGoxM0NHQ3ZWSWlMUERmSHZyem9wNFE?oc=5",
-      "summary": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択&nbsp;&nbsp;PR TIMES近年のサイバー攻撃の傾向や対策を確認 静岡市で企業の担当者に向けたサイバーセキュリティーのセミナーが開かれる&nbsp;&nbsp;Yahoo!ニュースサイバー対策、試される中小 来春にも評価制度、合格には「星3個」 支援ビジネス広がる&nbsp;&nbsp;日本経",
+      "title": "アンソロピックのClaude、「OpenAIのハッキング」に成功──セキュリティ研究者らが報告 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLVVB0eUF0OGhsTVAwOTRZZ18yYjVuR0hRTm1ueThlNWN6SVppbkk1M05UQ3I2UDdweHBkWms3cFpyZDNHLTFfYlRJU1RkQ3Jza1FQUmhxOFVOOHdJUGJDVDFYdE1KYXY2VHU4ZXBhX2syWEowd2hfSXMweXZ4Z1E?oc=5",
+      "summary": "アンソロピックのClaude、「OpenAIのハッキング」に成功──セキュリティ研究者らが報告&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-09-18",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "プレスリリース：GMOサイバーセキュリティ byイエラエ、台湾TRAPA Securityへ出資 実戦型サイバー演習サービスを日本国内で独占提供へ（PR TIMES） - 毎日新聞",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oODUyUDJTOFhoZVRINjJKOG1xWWxGMTRRRjVKSnlQMmc3Z1dPNGdNVEZsckFWTS1NeXVQb0gwWkhQWVR6azhmbVNiYnNnSV9UY2lmMmZuZ0hCZDIzVXRwaktUWmxuT05x?oc=5",
-      "summary": "プレスリリース：GMOサイバーセキュリティ byイエラエ、台湾TRAPA Securityへ出資 実戦型サイバー演習サービスを日本国内で独占提供へ（PR TIMES）&nbsp;&nbsp;毎日新聞",
+      "title": "グーグルのGemini AIがサイバーセキュリティテスト中に3社のシステムに侵入 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtazctdUVJRkszS3ZUbkQ0MXNuTEkyQUxrc1E5QVgzdmM3NVlseG1Tamp4ZDFoTW1VeWVFMHFWQ1doS2RDeHJXQjhzRUJabjhaVHVzSVp0VjRscnlvakdJelZQa29hSlhSMGc?oc=5",
+      "summary": "グーグルのGemini AIがサイバーセキュリティテスト中に3社のシステムに侵入 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
       "date": "2026-09-18",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "CybleとUAEのCyber Security Council、国家レベルの脅威インテリジェンス能力強化に向けたMOUを締結 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBNUVhGNUtDZFhZbzM5Z2tBc09MNDRnWkJsZWVWbzRuSFo1QXhtUkxRVEJ0R3ZWNlpnQnUwbC1VVUhUZnBpSnFKTUZCU2g0TkZpX0J4TEZZaWRaR1VU?oc=5",
-      "summary": "CybleとUAEのCyber Security Council、国家レベルの脅威インテリジェンス能力強化に向けたMOUを締結&nbsp;&nbsp;時事ドットコム",
+      "title": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択 - 時事ドットコム",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DcHk1alh5MFNjWTJjc2prYTFRUGNXa2xkaUZBQXVWZ3RLM0xaZ2FKQnBIRDdiLUVXWjZtXzd0V0dWNUdVVWtmeEtJQjFfVk1Bc3VJV2hvVG9aRV9Dc09hVWx4YTg2bWpWcC1n?oc=5",
+      "summary": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択&nbsp;&nbsp;時事ドットコム",
       "date": "2026-09-18",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "韓国でAIサイバー攻撃に警戒、脆弱性発見から攻撃まで「数十分」…国境越えた共同防御へ - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9icGRfeVVmMFd4N2RpNnhSZVVGS1M5Sl9YRkVCMGJlV2lEaWl1ZF83WWRSVEJ4TmtMVXBScjFLbHA1bGR6RnptTm9WbVlOUWoxa05lUzNCejR4djQzX1RiTWtON0rSAWpBVV95cUxPOTFKZi11SDBMZmhGMERyU3hWQ0JncWlsY0FUY29CU1ZaOElPa2tKTWl3MGt1S1JVc0FBeXFvMGtIdUJaQ2NCRzhFd0Uway1TVWQyRE5XY1hpQ2hKanRMSkt0cFRFanBoODJn?oc=5",
-      "summary": "韓国でAIサイバー攻撃に警戒、脆弱性発見から攻撃まで「数十分」…国境越えた共同防御へ&nbsp;&nbsp;Infoseek",
+      "title": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択 (2026年9月18日掲載) - ライブドアニュース",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hU1ZkMXUyeW1kWjRLT09qSlFJbk83cUh3TWIxOG1WRFVNMDFSaERHRTJORDA3bXBMNHVWazFSa1RaakhOc285a3VYdFIzLVhOQnpNNTRFVk55ZEhkYVh1S0dn?oc=5",
+      "summary": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択 (2026年9月18日掲載)&nbsp;&nbsp;ライブドアニュース",
       "date": "2026-09-18",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "EUサイバーレジリエンス法（CRA）対応の組み込み向けリアルタイムOS「SCIOPTA」国内提供開始。堅牢なメッセージパッシングとSBOMにより、製造業のサイバーセキュリティ対策と法への準拠を強力支援 - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYRzhoZ05GQ09tOTRPTlA1a0tIZ0xoVmZ6S29VZ1htZTk2aDVKa19YRkg1LVpsb29ESTJoU0s3YUlyakl0bW94RTIxQkRkbHJvT081ZmNJZEV6cFh4dHJlS2tiSTh5QzVuN0E?oc=5",
-      "summary": "EUサイバーレジリエンス法（CRA）対応の組み込み向けリアルタイムOS「SCIOPTA」国内提供開始。堅牢なメッセージパッシングとSBOMにより、製造業のサイバーセキュリティ対策と法への準拠を強力支援&nbsp;&nbsp;Excite エキサイト",
-      "date": "2026-09-18",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「サイバーセキュリティお助け隊サービス」 実証事業を開始 - J-Net21[中小企業ビジネス支援サイト]",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5X24wTnphZUNMS2s0Q0ZURGZXRi1RVFFkaklxRWM5TUlRa0h5bjdrcjcteHROVkcwTUc1bTI5Qmd2T002dzRFY2wzbDZ6Nk1aMFNnVjZTSXZWc1VSTU41Vl9xYw?oc=5",
-      "summary": "「サイバーセキュリティお助け隊サービス」 実証事業を開始&nbsp;&nbsp;J-Net21[中小企業ビジネス支援サイト]",
+      "title": "韓国情報保護産業協会、国産サイバーセキュリティーAI「K-ミュトス」開発へ…ネイバー陣営との協力模索 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03dE9xWDkxTzE4ZUlQbWVraEJIdXpERENUNHJabldoM0VNMW1VLV9QM3djWXQ4bGF4dkI0Ri1SRTFzTFdIU25yZ0g1WFMzVEs4T3U5MVpYaks1VlhselVPdVZFSE_SAWpBVV95cUxNNTYzMENsd1RzSnlPQkdRVzRtS0tjZ1pVblY0eER6T2lFb094NnJjbngzWkxDXzJjT3lKRVZ6aW9NRkEyVkU0YXRSODdYNGZTS3Y1MC1TcjMyZXFOb3UtT051QnZUZ21BbTZn?oc=5",
+      "summary": "韓国情報保護産業協会、国産サイバーセキュリティーAI「K-ミュトス」開発へ…ネイバー陣営との協力模索&nbsp;&nbsp;Infoseek",
       "date": "2026-09-18",
       "source": "Google News JP",
       "language": "日本語",
@@ -314,33 +350,6 @@
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
-    },
-    {
-      "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
-      "url": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
-      "summary": "A critical vulnerability in Check Point's Security Management and Log Servers could allow an attacker without login credentials to run code as root on those servers over the network. The Security Mana",
-      "date": "2026-09-17",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "New RatHat Android malware uses AI to automate device control",
-      "url": "https://www.bleepingcomputer.com/news/security/new-rathat-android-malware-uses-ai-to-automate-device-control/",
-      "summary": "A new Android malware called RatHat has been discovered, targeting users with an AI-powered subsystem that helps operators remotely navigate compromised devices. [...]",
-      "date": "2026-09-17",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "OpenAI details more cases of AI agents taking unauthorized actions",
-      "url": "https://www.bleepingcomputer.com/news/security/openai-details-more-cases-of-ai-agents-taking-unauthorized-actions/",
-      "summary": "OpenAI has presented new examples of what they call \"AI model misalignment\" from the past six months, including unauthorized file uploads, following self-generated instructions, hiding mistakes, and l",
-      "date": "2026-09-17",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
     },
     {
       "title": "LausivLoader analysis, or how to pass data between malware stages, (Thu, Sep 17th)",
@@ -433,27 +442,9 @@
       "category": "alert"
     },
     {
-      "title": "ホワイトハウス、サイバーセキュリティ研究支援のインキュベーター設立を検討 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Oak1OV1ZzdTdFWXNMd3hHZnJUNEkzMUNRN2ZaZzlrRnc3UFBrOUpnNFk3UDlDR1gyR0ZOQlJMaEJGRklIek1OLWFOdGtqZXRuNkVTVV9EMkZ2ZnpsUWJidTFNelhueHZOS3FyM1R6QlM?oc=5",
-      "summary": "ホワイトハウス、サイバーセキュリティ研究支援のインキュベーター設立を検討 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "date": "2026-09-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "中国のハッカー企業ZRONは盗んだ外国の政府情報をAIシステムを使ってより理解しやすいものにして販売している - GIGAZINE",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45Um5FcnIyUjRPMF9WRzNPa3VnTWlzVU5ZUExjNG5LVG5menpDRjYzdXNLMlkxV1VpMElTX1Bja0RnbXVUUDBJd2NzSTlvQXYtM2JXelplNlJ4Um1YTTk4anVabHBJLWM?oc=5",
       "summary": "中国のハッカー企業ZRONは盗んだ外国の政府情報をAIシステムを使ってより理解しやすいものにして販売している&nbsp;&nbsp;GIGAZINE",
-      "date": "2026-09-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ATENジャパン、「ものづくりワールド大阪 製造業サイバーセキュリティ展」に出展 - ニコニコニュース",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5xZTZNS3dQQXhuSXRGd2hrT3diZ2ZOUGlyM1hrVzJfNk5NNnlrVi00STlKYnZ3VjJCQ0RtQlB4NUp5SXB5Z0hOQzh0NjM5UzFTaXVnNGFFVThHVC00RGRJX190UUlwUVBxQlRPVlhxZmMxZkdRWXYySGZaMA?oc=5",
-      "summary": "ATENジャパン、「ものづくりワールド大阪 製造業サイバーセキュリティ展」に出展&nbsp;&nbsp;ニコニコニュース",
       "date": "2026-09-17",
       "source": "Google News JP",
       "language": "日本語",
@@ -523,9 +514,18 @@
       "category": "analysis"
     },
     {
-      "title": "サイバーセキュリティ関連銘柄が注目？ AI開発減速論でどうなる？ - SBI証券",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeUMyYTFpbUFPMFhlWDdrcGVGeUkwWDJjLWx0NXBoZHU4SDRZTWZpQ0MtRUZfRFM5NWl6dmw1QnpZdkd0SFE1ZXNpbHpVQUxSLS1fN1NKRUl0N2RHcHhJcjZrZmFUTTRkRFRLVVFIdmYyVUE3NDFJS1JWektwMXJYUmFB?oc=5",
-      "summary": "サイバーセキュリティ関連銘柄が注目？ AI開発減速論でどうなる？&nbsp;&nbsp;SBI証券",
+      "title": "サイバー対策、試される中小 来春にも評価制度、合格には「星3個」 支援ビジネス広がる - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZQTNqWjFLRUhpamdJRDZnbEY4N1A2bWxLenZtdGNITEdraFRrT1FrbHJiQ1J1RDg1enFRUm5GejBXY2NDTVduRzBOeTVkUmt5RjNKUlZTeUFPQzZlY3FUWUdlTFpDZTZoS0FRdQ?oc=5",
+      "summary": "サイバー対策、試される中小 来春にも評価制度、合格には「星3個」 支援ビジネス広がる&nbsp;&nbsp;日本経済新聞",
+      "date": "2026-09-16",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "GMOあおぞらネット銀行「週1で経営陣らセキュリティ会議」、CISOが明かすシステム内製化にこだわる理由と「攻守の両立術」 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUHZsWXQzdWlCYlhFdmZ0VjZDUHNoTUdjNmMxYzUzVjRjRlFMMUpZYlNzaExRVmxVa2J1ZUxjdzl2WThBSVN4WU5WM2o5VnF4UzA2RjIxelEzVk1lTDFCcVNmdGJHVkl1YmI5SWZsdm9qQkV0WUNCdjUyUndlNlFIYUZiNDNsdnow?oc=5",
+      "summary": "GMOあおぞらネット銀行「週1で経営陣らセキュリティ会議」、CISOが明かすシステム内製化にこだわる理由と「攻守の両立術」&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-09-16",
       "source": "Google News JP",
       "language": "日本語",
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/9/19 8:10:14"
+  "updated": "2026/9/20 7:51:18"
 }
