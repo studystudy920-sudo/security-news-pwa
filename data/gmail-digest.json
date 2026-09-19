@@ -1,43 +1,53 @@
 {
-  "notifications": [],
+  "notifications": [
+    {
+      "type": "google",
+      "from": "Google (no-reply@accounts.google.com)",
+      "subject": "セキュリティ通知",
+      "snippet": "Apple iPhone での新しいログイン — Apple iPhone デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。",
+      "date": "2026-09-19 12:45",
+      "messageId": "1a0b7c558e48dadf"
+    },
+    {
+      "type": "newsletter",
+      "from": "週刊日経クロステック Special (xtech-sp@nikkeibp.co.jp)",
+      "subject": "【週刊日経クロステック Special】メールの「すり抜け攻撃」を防ぐ次の一手 ほか",
+      "snippet": "週刊日経クロステック Special 2026.9.19 — 今週のピックアップ情報：奈良市が描くＡＩを活用した行政ＤＸの未来 ほか",
+      "date": "2026-09-19 09:07",
+      "messageId": "1a0b6fd804ae0b6a"
+    }
+  ],
   "sources": [
     {
       "name": "Google セキュリティ通知",
       "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d",
-      "count": 0,
-      "note": "該当メールなし。クエリの疎通は確認済み（14日窓では6件ヒット、直近は2026-09-14『Googleアカウントの一部のデータをmcafee.comと共有しました』）。24時間以内の新規通知は無し。"
+      "count": 1,
+      "note": "Apple iPhone からの新しいログイン検知 1件（未読）。"
     },
     {
       "name": "ScanNetSecurity",
       "query": "from:scan@netsecurity.ne.jp newer_than:1d",
       "count": 0,
-      "note": "該当メールなし。14日窓でも0件のため、接続アカウント（studystudy920@gmail.com）には配信されていない可能性が高い。"
+      "note": "メールなし"
     },
     {
-      "name": "日経BP／日経クロステック",
+      "name": "日経BP / 日経クロステック",
       "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d",
-      "count": 0,
-      "note": "該当メールなし。7日窓でも0件。本文キーワード『日経クロステック』検索では自己送信のダイジェストメールのみ一致し、日経BP発のメルマガ本体は当アカウントに存在しない。"
+      "count": 1,
+      "note": "週刊日経クロステック Special 1件。"
     },
     {
       "name": "ISACA東京支部",
       "query": "from:tky-jimukyoku@isaca.gr.jp newer_than:1d",
       "count": 0,
-      "note": "該当メールなし。14日窓でも0件。"
+      "note": "メールなし"
     },
     {
       "name": "ISC2 Japan",
       "query": "from:connect.isc2.org newer_than:1d",
       "count": 0,
-      "note": "該当メールなし。14日窓でも0件。"
+      "note": "メールなし"
     }
   ],
-  "collection": {
-    "account": "studystudy920@gmail.com",
-    "tool": "gmail MCP (search_emails / read_email)",
-    "windowHours": 24,
-    "totalCount": 0,
-    "warning": "メルマガ系4ソース（ScanNetSecurity・日経BP・ISACA東京支部・ISC2）は14日窓でも0件。これらは接続中のstudystudy920@gmail.comではなく、別アカウント（massa.saka2010@gmail.com）宛に配信されている可能性が高い。前回digestに記録されていたmessageId（例: 1a0a8b46c4145edd）を read_email で直接参照したところ『Requested entity was not found』となり、当アカウントには存在しないことを確認済み。メルマガを収集対象に戻すには、当該アカウントのGmailコネクタ接続が必要。"
-  },
-  "updated": "2026-09-18 06:11"
+  "updated": "2026-09-20 06:10"
 }
