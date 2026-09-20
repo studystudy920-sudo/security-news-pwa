@@ -1,6 +1,33 @@
 {
   "feeds": [
     {
+      "title": "Malicious npm packages evade install-script defenses at runtime",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-npm-packages-evade-install-script-defenses-at-runtime/",
+      "summary": "An ongoing npm malware campaign involving the 'indexed-btree' package shows how threat actors bypass supply chain defenses by hiding malicious code in a package's normal runtime behavior rather than i",
+      "date": "2026-09-20",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+      "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+      "summary": "Researchers escaped OpenAI's Codex sandbox two ways, one running commands on a developer's machine from its most locked-down mode. OpenAI has patched both. [...]",
+      "date": "2026-09-20",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "「Mythos」が見せたサイバーセキュリティの一大変革【第108回】 - デジタルクロス",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FTjgyMjI2UDdHSGphbGVtcGhPal9nTjBnd1MweHJSaGdrRW5kOHVQOXREdldqWnNzMzFocXZJNnI2NzVPYjhvMVVpaDZFQTBTaFdQMEtNMUNkMkREMUZSR2IzaHhnOUJNY0E4c0pOTHAxekdJRVVaNA?oc=5",
+      "summary": "「Mythos」が見せたサイバーセキュリティの一大変革【第108回】&nbsp;&nbsp;デジタルクロス",
+      "date": "2026-09-20",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
       "url": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
       "summary": "Three researchers at the security firm&nbsp;Hacktron&nbsp;used Anthropic's Claude Opus 5 to chain two flaws and take over the ChatGPT and Codex accounts of several OpenAI employees, then reach an inte",
@@ -118,24 +145,6 @@
       "category": "analysis"
     },
     {
-      "title": "取締役会がサイバーセキュリティを主導するための5つの重要提言 - Forbes JAPAN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1hNk44NnFld2R2Z3ZfcUZZRS1JOGVtN2xTMlJfbi1FQXpFb1JtUmJRMHAwNGV0Ynh4d3VxQTBKUkEyVF9sZzBpMkZZUEtNTUlQSTd2TG1RNHZ2dw?oc=5",
-      "summary": "取締役会がサイバーセキュリティを主導するための5つの重要提言&nbsp;&nbsp;Forbes JAPAN",
-      "date": "2026-09-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「AI攻撃が怖い」でも実際の原因は別 中小企業の47％が経験したサイバー被害、本当の落とし穴（ITmedia ビジネスオンライン） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdFN0Wk9sdHZVWWNRMEQyUDQxUUpxRHF6Q00ydlNKdDFLRFN1bUFpRFlMWjNhN3pBUlBCOUxGamVPQVZ0UTkyM2FSZlN1bU5sSldieExYQUNUTmRuX2ZCX0ZncmluU0RBZTNSMnRDTW1rNGhZQk1ReHhvYVJBWEVHV3VreTE0bzR2?oc=5",
-      "summary": "「AI攻撃が怖い」でも実際の原因は別 中小企業の47％が経験したサイバー被害、本当の落とし穴（ITmedia ビジネスオンライン）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-09-19",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "ISC BINDにおける複数の脆弱性（2026年9月）",
       "url": "https://jvn.jp/vu/JVNVU97703430/",
       "summary": "ISC（Internet Systems Consortium）から、ISC BINDの複数の脆弱性が公開されました。",
@@ -217,24 +226,6 @@
       "category": "news"
     },
     {
-      "title": "Webinar: Which Google Workspace security controls actually matter?",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-which-google-workspace-security-controls-actually-matter/",
-      "summary": "Fast-growing companies face countless recommendations for securing Google Workspace, but not every control provides the same value. This webinar examines real-world breaches to explore which security ",
-      "date": "2026-09-18",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft fixes bug behind ‘Defender Antivirus is turned off’ alerts",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-bug-behind-defender-antivirus-is-turned-off-alerts/",
-      "summary": "Microsoft has resolved a known issue that causes incorrect alerts warning that Defender Antivirus was turned off after installing recent updates. [...]",
-      "date": "2026-09-18",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, September 18th, 2026 https://isc.sans.edu/podcastdetail/10100, (Fri, Sep 18th)",
       "url": "https://isc.sans.edu/diary/rss/33350",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -262,45 +253,9 @@
       "category": "alert"
     },
     {
-      "title": "アンソロピックのClaude、「OpenAIのハッキング」に成功──セキュリティ研究者らが報告 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLVVB0eUF0OGhsTVAwOTRZZ18yYjVuR0hRTm1ueThlNWN6SVppbkk1M05UQ3I2UDdweHBkWms3cFpyZDNHLTFfYlRJU1RkQ3Jza1FQUmhxOFVOOHdJUGJDVDFYdE1KYXY2VHU4ZXBhX2syWEowd2hfSXMweXZ4Z1E?oc=5",
-      "summary": "アンソロピックのClaude、「OpenAIのハッキング」に成功──セキュリティ研究者らが報告&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-09-18",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "グーグルのGemini AIがサイバーセキュリティテスト中に3社のシステムに侵入 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtazctdUVJRkszS3ZUbkQ0MXNuTEkyQUxrc1E5QVgzdmM3NVlseG1Tamp4ZDFoTW1VeWVFMHFWQ1doS2RDeHJXQjhzRUJabjhaVHVzSVp0VjRscnlvakdJelZQa29hSlhSMGc?oc=5",
-      "summary": "グーグルのGemini AIがサイバーセキュリティテスト中に3社のシステムに侵入 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "date": "2026-09-18",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9DcHk1alh5MFNjWTJjc2prYTFRUGNXa2xkaUZBQXVWZ3RLM0xaZ2FKQnBIRDdiLUVXWjZtXzd0V0dWNUdVVWtmeEtJQjFfVk1Bc3VJV2hvVG9aRV9Dc09hVWx4YTg2bWpWcC1n?oc=5",
-      "summary": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択&nbsp;&nbsp;時事ドットコム",
-      "date": "2026-09-18",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択 (2026年9月18日掲載) - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5hU1ZkMXUyeW1kWjRLT09qSlFJbk83cUh3TWIxOG1WRFVNMDFSaERHRTJORDA3bXBMNHVWazFSa1RaakhOc285a3VYdFIzLVhOQnpNNTRFVk55ZEhkYVh1S0dn?oc=5",
-      "summary": "フォーバル、IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」の実証事業者に採択 (2026年9月18日掲載)&nbsp;&nbsp;ライブドアニュース",
-      "date": "2026-09-18",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "韓国情報保護産業協会、国産サイバーセキュリティーAI「K-ミュトス」開発へ…ネイバー陣営との協力模索 - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE03dE9xWDkxTzE4ZUlQbWVraEJIdXpERENUNHJabldoM0VNMW1VLV9QM3djWXQ4bGF4dkI0Ri1SRTFzTFdIU25yZ0g1WFMzVEs4T3U5MVpYaks1VlhselVPdVZFSE_SAWpBVV95cUxNNTYzMENsd1RzSnlPQkdRVzRtS0tjZ1pVblY0eER6T2lFb094NnJjbngzWkxDXzJjT3lKRVZ6aW9NRkEyVkU0YXRSODdYNGZTS3Y1MC1TcjMyZXFOb3UtT051QnZUZ21BbTZn?oc=5",
-      "summary": "韓国情報保護産業協会、国産サイバーセキュリティーAI「K-ミュトス」開発へ…ネイバー陣営との協力模索&nbsp;&nbsp;Infoseek",
+      "title": "「サイバーセキュリティお助け隊サービス」 実証事業を開始 - J-Net21[中小企業ビジネス支援サイト]",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5X24wTnphZUNMS2s0Q0ZURGZXRi1RVFFkaklxRWM5TUlRa0h5bjdrcjcteHROVkcwTUc1bTI5Qmd2T002dzRFY2wzbDZ6Nk1aMFNnVjZTSXZWc1VSTU41Vl9xYw?oc=5",
+      "summary": "「サイバーセキュリティお助け隊サービス」 実証事業を開始&nbsp;&nbsp;J-Net21[中小企業ビジネス支援サイト]",
       "date": "2026-09-18",
       "source": "Google News JP",
       "language": "日本語",
@@ -442,15 +397,6 @@
       "category": "alert"
     },
     {
-      "title": "中国のハッカー企業ZRONは盗んだ外国の政府情報をAIシステムを使ってより理解しやすいものにして販売している - GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45Um5FcnIyUjRPMF9WRzNPa3VnTWlzVU5ZUExjNG5LVG5menpDRjYzdXNLMlkxV1VpMElTX1Bja0RnbXVUUDBJd2NzSTlvQXYtM2JXelplNlJ4Um1YTTk4anVabHBJLWM?oc=5",
-      "summary": "中国のハッカー企業ZRONは盗んだ外国の政府情報をAIシステムを使ってより理解しやすいものにして販売している&nbsp;&nbsp;GIGAZINE",
-      "date": "2026-09-17",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "QNDにおける複数の脆弱性",
       "url": "https://jvn.jp/jp/JVN95825631/",
       "summary": "クオリティソフト株式会社が提供するQNDには、複数の脆弱性が存在します。",
@@ -514,18 +460,36 @@
       "category": "analysis"
     },
     {
-      "title": "サイバー対策、試される中小 来春にも評価制度、合格には「星3個」 支援ビジネス広がる - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZQTNqWjFLRUhpamdJRDZnbEY4N1A2bWxLenZtdGNITEdraFRrT1FrbHJiQ1J1RDg1enFRUm5GejBXY2NDTVduRzBOeTVkUmt5RjNKUlZTeUFPQzZlY3FUWUdlTFpDZTZoS0FRdQ?oc=5",
-      "summary": "サイバー対策、試される中小 来春にも評価制度、合格には「星3個」 支援ビジネス広がる&nbsp;&nbsp;日本経済新聞",
+      "title": "サイバーセキュリティ関連銘柄が注目？ AI開発減速論でどうなる？ - SBI証券",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeUMyYTFpbUFPMFhlWDdrcGVGeUkwWDJjLWx0NXBoZHU4SDRZTWZpQ0MtRUZfRFM5NWl6dmw1QnpZdkd0SFE1ZXNpbHpVQUxSLS1fN1NKRUl0N2RHcHhJcjZrZmFUTTRkRFRLVVFIdmYyVUE3NDFJS1JWektwMXJYUmFB?oc=5",
+      "summary": "サイバーセキュリティ関連銘柄が注目？ AI開発減速論でどうなる？&nbsp;&nbsp;SBI証券",
       "date": "2026-09-16",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "GMOあおぞらネット銀行「週1で経営陣らセキュリティ会議」、CISOが明かすシステム内製化にこだわる理由と「攻守の両立術」 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUHZsWXQzdWlCYlhFdmZ0VjZDUHNoTUdjNmMxYzUzVjRjRlFMMUpZYlNzaExRVmxVa2J1ZUxjdzl2WThBSVN4WU5WM2o5VnF4UzA2RjIxelEzVk1lTDFCcVNmdGJHVkl1YmI5SWZsdm9qQkV0WUNCdjUyUndlNlFIYUZiNDNsdnow?oc=5",
-      "summary": "GMOあおぞらネット銀行「週1で経営陣らセキュリティ会議」、CISOが明かすシステム内製化にこだわる理由と「攻守の両立術」&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "サイバーセキュリティ株式オープン＜3カ月決算型＞(為替ヘッジなし)【03311252】：基準価格・投資信託情報 - Yahoo!ファイナンス",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBWZ0pRaW43Tk8zZGs4bVpHM3V4Q1N5NDVzOTROUUpIVllqVjcwMWRxNDh0RTlKalZIWUdPMnctQmJWVVdFWFJycXpYWEk5S01jMlZxZQ?oc=5",
+      "summary": "サイバーセキュリティ株式オープン＜3カ月決算型＞(為替ヘッジなし)【03311252】：基準価格・投資信託情報&nbsp;&nbsp;Yahoo!ファイナンス",
+      "date": "2026-09-16",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AIホワイトハッカー byGMOとは？サイバーセキュリティに特化したAI基盤 - gmo-cybersecurity.com",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SN1JyV2xGdWpyWVZfS0UxUTEtZFRncU9MRW9WVlNsSHhJZnJqZThWMGI4VUw4ZGtwMEJqZGtiUjg2WnByNnlqMzIzM3ZmckZTSTk1dnd0YzMyYXg2SGs5Q284UWNBN1dOTVVfdTR6VEI?oc=5",
+      "summary": "AIホワイトハッカー byGMOとは？サイバーセキュリティに特化したAI基盤&nbsp;&nbsp;gmo-cybersecurity.com",
+      "date": "2026-09-16",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "中小企業のSCS評価制度 ★3 ★4 取得を無償で支援 ～ サイバーセキュリティお助け隊サービス（新類型）実証事業 - ScanNetSecurity",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzQjhUSzdRaVVCQ2hxOG15dW1VMnVxUFBUMmNlcXhiYTg0YVNuUk96QmRMbkpheXQzbjJFVEJRSDFHRFVHOGVfc0dQMUtjUjVCeGI2SVphWGV2NjRDUWl1Y1o3ejhIWHozajl1Sg?oc=5",
+      "summary": "中小企業のSCS評価制度 ★3 ★4 取得を無償で支援 ～ サイバーセキュリティお助け隊サービス（新類型）実証事業&nbsp;&nbsp;ScanNetSecurity",
       "date": "2026-09-16",
       "source": "Google News JP",
       "language": "日本語",
@@ -586,6 +550,15 @@
       "category": "analysis"
     },
     {
+      "title": "サイバーセキュリティお助け隊サービス（新類型） - meti.go.jp",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBOZjJmOTQzZ2NVMkVMdTBJX3g2SkstSkY0X29BLXFKMVk0bmhQZkotQWtGajh0R2lxVWt1bVZPczFfN2ZJMFc5V1Y1OXlITEVRbm9kelpqUU9EWTR4N01ERHhQaE1JUlpSNFBNVVNOS2MwZw?oc=5",
+      "summary": "サイバーセキュリティお助け隊サービス（新類型）&nbsp;&nbsp;meti.go.jp",
+      "date": "2026-09-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Apple Updates Everything, (Mon, Sep 14th)",
       "url": "https://isc.sans.edu/diary/rss/33336",
       "summary": "Today, Apple released its annual update across all its operating systems. With that, Apple not only released new features but also patched 261 different vulnerabilities. This is the most vulnerabiliti",
@@ -602,6 +575,15 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
+    },
+    {
+      "title": "攻撃者より先に動くサイバーセキュリティへ - kddi-research.jp",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5DaW1fSXN1ZXhWYU9fd014MXhUaEZJVkE3TGhIYk5oeVRLOXJRY1dQN1BKWkoyZ3JSZ29ZS0RxZlJPZE9haVh0eVRXNzg1OEI3cXJTQTVvYk9JdVZubWkzYUE3Y0RadUhjQTgtVHlhVU40RDJSdEtoSw?oc=5",
+      "summary": "攻撃者より先に動くサイバーセキュリティへ&nbsp;&nbsp;kddi-research.jp",
+      "date": "2026-09-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "デジタル庁のガバメントソリューションサービス(GSS)への不正アクセスについてまとめてみた",
@@ -685,6 +667,15 @@
       "category": "analysis"
     },
     {
+      "title": "サイバーセキュリティの取組 - pref.ibaraki.jp",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9EYTV0end3azRtSmJpRkNnZk13UExjT2VmV3BUc0MyUW9KX1lsaE1KZERIdDFBcG5zZTg4SWhtdGNTWnkyYnJNMG5RS1NXaEE2SHpLR1FfWmhIMGlnRXIza2hWMXE0bG96X1EwS0FMcFY3S00?oc=5",
+      "summary": "サイバーセキュリティの取組&nbsp;&nbsp;pref.ibaraki.jp",
+      "date": "2026-09-07",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "大阪高裁で起きたMicrosoft Teams チーム作成時の大量誤登録についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/09/05/103543",
       "summary": "2026年9月4日、大阪高等裁判所は、特定の事件に関するMicrosoft Teamsのチームを作成する際に誤って約6000アカウントを登録し、通知からチームにアクセスした場合にメンバーのユーザー名やメールアドレスが一時的に相互に確認できる状態になっていたと公表し、謝罪しました。ここでは関連する情報をまとめます。 Teamsチーム作成時にメンバー外を誤登録 裁判所は資料の共有などにMicrosof",
@@ -692,6 +683,15 @@
       "source": "piyolog",
       "language": "日本語",
       "category": "analysis"
+    },
+    {
+      "title": "日本最大級のサイバーセキュリティ国際会議 「CODE BLUE 2026」講演公募(CFP)から 厳選された27本を採択！ - アットプレス",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1HNS1saC1udzVqU3dMZHA4UXBMblM2VHFaS1hoMFYwYjlJdVdVeXNtYV9NdTF2TUNqYkgwSjZOMjJ1dDRXeTg3RTZsSGctQQ?oc=5",
+      "summary": "日本最大級のサイバーセキュリティ国際会議 「CODE BLUE 2026」講演公募(CFP)から 厳選された27本を採択！&nbsp;&nbsp;アットプレス",
+      "date": "2026-09-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
@@ -1148,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/9/20 7:51:18"
+  "updated": "2026/9/21 8:08:09"
 }
