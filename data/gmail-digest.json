@@ -4,17 +4,17 @@
       "type": "google",
       "from": "Google (no-reply@accounts.google.com)",
       "subject": "セキュリティ通知",
-      "snippet": "Apple iPhone での新しいログイン — Apple iPhone デバイスで、あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。",
-      "date": "2026-09-19 12:45",
-      "messageId": "1a0b7c558e48dadf"
+      "snippet": "アカウントへの新しいログイン studystudy920@gmail.com — あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。ログインに心当たりがない場合は、アカウントを保護していただけるようサポートします。",
+      "date": "2026-09-20 07:41",
+      "messageId": "1a0bbd5388e70396"
     },
     {
       "type": "newsletter",
-      "from": "週刊日経クロステック Special (xtech-sp@nikkeibp.co.jp)",
-      "subject": "【週刊日経クロステック Special】メールの「すり抜け攻撃」を防ぐ次の一手 ほか",
-      "snippet": "週刊日経クロステック Special 2026.9.19 — 今週のピックアップ情報：奈良市が描くＡＩを活用した行政ＤＸの未来 ほか",
-      "date": "2026-09-19 09:07",
-      "messageId": "1a0b6fd804ae0b6a"
+      "from": "日経ビジネス (business@nikkeibp.co.jp)",
+      "subject": "高収益企業キーエンスを貫く思考法「性弱説」を学べる記事を一気読み - 日経ビジネス（9/21）",
+      "snippet": "Editor's EYE 2026.9.21 — 予算未達時、担当者の謝罪だけで終わらせない／社員にマイルを貯めさせない理由。キーエンス流「性弱説経営」を学べる記事を一気読み。",
+      "date": "2026-09-21 05:31",
+      "messageId": "1a0c0848106c14be"
     }
   ],
   "sources": [
@@ -22,7 +22,7 @@
       "name": "Google セキュリティ通知",
       "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d",
       "count": 1,
-      "note": "Apple iPhone からの新しいログイン検知 1件（未読）。"
+      "note": "新しいログイン検知 1件（未読）。デバイス名の記載なし。心当たりがなければ myaccount.google.com のセキュリティ診断で確認を。"
     },
     {
       "name": "ScanNetSecurity",
@@ -34,7 +34,7 @@
       "name": "日経BP / 日経クロステック",
       "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d",
       "count": 1,
-      "note": "週刊日経クロステック Special 1件。"
+      "note": "日経ビジネス Editor's EYE 1件。経営テーマでセキュリティ関連の内容ではない。"
     },
     {
       "name": "ISACA東京支部",
@@ -49,5 +49,5 @@
       "note": "メールなし"
     }
   ],
-  "updated": "2026-09-20 06:10"
+  "updated": "2026-09-21 06:10"
 }
