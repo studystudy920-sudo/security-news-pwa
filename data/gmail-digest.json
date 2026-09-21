@@ -1,28 +1,20 @@
 {
   "notifications": [
     {
-      "type": "google",
-      "from": "Google (no-reply@accounts.google.com)",
-      "subject": "セキュリティ通知",
-      "snippet": "アカウントへの新しいログイン studystudy920@gmail.com — あなたの Google アカウントへの新しいログインが検出されました。ご自身によるものであれば、何もする必要はありません。ログインに心当たりがない場合は、アカウントを保護していただけるようサポートします。",
-      "date": "2026-09-20 07:41",
-      "messageId": "1a0bbd5388e70396"
-    },
-    {
       "type": "newsletter",
       "from": "日経ビジネス (business@nikkeibp.co.jp)",
-      "subject": "高収益企業キーエンスを貫く思考法「性弱説」を学べる記事を一気読み - 日経ビジネス（9/21）",
-      "snippet": "Editor's EYE 2026.9.21 — 予算未達時、担当者の謝罪だけで終わらせない／社員にマイルを貯めさせない理由。キーエンス流「性弱説経営」を学べる記事を一気読み。",
-      "date": "2026-09-21 05:31",
-      "messageId": "1a0c0848106c14be"
+      "subject": "無印良品のイヤホンが売れる理由　ニトリ出身者が語る商品開発の妙 - 日経ビジネス（9/22）",
+      "snippet": "Editor's EYE 2026.9.22 — 無印良品はなぜ好調か？ 前社長・堂前氏の戦略／賞与に差つけず「安心チャレンジ」。特集「反撃のMUJI」良品計画、「三方よし」深化で最高益。",
+      "date": "2026-09-22 05:32",
+      "messageId": "1a0c5ab731989584"
     }
   ],
   "sources": [
     {
       "name": "Google セキュリティ通知",
       "query": "from:(no-reply@accounts.google.com OR security-noreply@google.com) newer_than:1d",
-      "count": 1,
-      "note": "新しいログイン検知 1件（未読）。デバイス名の記載なし。心当たりがなければ myaccount.google.com のセキュリティ診断で確認を。"
+      "count": 0,
+      "note": "メールなし"
     },
     {
       "name": "ScanNetSecurity",
@@ -34,7 +26,7 @@
       "name": "日経BP / 日経クロステック",
       "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d",
       "count": 1,
-      "note": "日経ビジネス Editor's EYE 1件。経営テーマでセキュリティ関連の内容ではない。"
+      "note": "日経ビジネス Editor's EYE 1件。経営テーマ（良品計画）でセキュリティ関連の内容ではない。"
     },
     {
       "name": "ISACA東京支部",
@@ -49,5 +41,5 @@
       "note": "メールなし"
     }
   ],
-  "updated": "2026-09-21 06:10"
+  "updated": "2026-09-22 06:12"
 }
