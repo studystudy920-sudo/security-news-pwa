@@ -1,14 +1,5 @@
 {
-  "notifications": [
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス (business@nikkeibp.co.jp)",
-      "subject": "無印良品のイヤホンが売れる理由　ニトリ出身者が語る商品開発の妙 - 日経ビジネス（9/22）",
-      "snippet": "Editor's EYE 2026.9.22 — 無印良品はなぜ好調か？ 前社長・堂前氏の戦略／賞与に差つけず「安心チャレンジ」。特集「反撃のMUJI」良品計画、「三方よし」深化で最高益。",
-      "date": "2026-09-22 05:32",
-      "messageId": "1a0c5ab731989584"
-    }
-  ],
+  "notifications": [],
   "sources": [
     {
       "name": "Google セキュリティ通知",
@@ -25,8 +16,8 @@
     {
       "name": "日経BP / 日経クロステック",
       "query": "from:(nikkeibp.co.jp OR xtech-ac@nikkeibp.co.jp) newer_than:1d",
-      "count": 1,
-      "note": "日経ビジネス Editor's EYE 1件。経営テーマ（良品計画）でセキュリティ関連の内容ではない。"
+      "count": 0,
+      "note": "メールなし"
     },
     {
       "name": "ISACA東京支部",
@@ -41,5 +32,5 @@
       "note": "メールなし"
     }
   ],
-  "updated": "2026-09-22 06:12"
+  "updated": "2026-09-23 06:12"
 }
