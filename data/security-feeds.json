@@ -1,183 +1,246 @@
 {
   "feeds": [
     {
-      "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-      "url": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
-      "summary": "Attackers exploited a previously unknown flaw in Check Point's Security Management Server in a handful of targeted attacks on July 23,&nbsp;the company said. The flaw, CVE-2026-93616, allows an attack",
-      "date": "2026-09-22",
+      "title": "Attackers Use Malicious Terraform Providers to Deliver Go Malware via HashiCorp Registry",
+      "url": "https://thehackernews.com/2026/09/attackers-use-malicious-terraform.html",
+      "summary": "Cybersecurity researchers have disclosed Go-based malware distributed via two Go Modules and two Terraform providers, marking the first time threat actors are using the centralized repository hosted b",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-      "url": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
-      "summary": "WordPress has fixed a critical flaw in its core software that lets an attacker with no account make a site load a PHP file from outside its theme folders. On some servers, that can go further, allowin",
-      "date": "2026-09-22",
+      "title": "A Leaked GitLab Issue Email Address Lets Anyone Push Code and Run CI Jobs as You",
+      "url": "https://thehackernews.com/2026/09/a-leaked-gitlab-issue-email-address.html",
+      "summary": "The private email address GitLab gives you for filing issues by email is a credential. Anyone who gets it can email a patch that GitLab commits in your name, to any branch you can push to, including m",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-      "url": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
-      "summary": "Cybersecurity researchers have disclosed details of a malicious npm package named \"tw-pkgprobe-7731\" that masquerades as a security tool targeting developers integrating Twilio into their applications",
-      "date": "2026-09-22",
+      "title": "MikroTrick Chain Let Attackers Take Over MikroTik Routers Without a Password or SSH Key",
+      "url": "https://thehackernews.com/2026/09/mikrotrick-chain-let-attackers-take.html",
+      "summary": "Two MikroTik RouterOS SSH vulnerabilities chained together let attackers take full administrative control of Internet-exposed routers without a password, SSH key, or completed authentication. The chai",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-      "url": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-      "summary": "Microsoft on Tuesday announced the takedown of the EvilTokens device code phishing service that it said used artificial intelligence (AI) \"at every step of the attack chain.\" The action, carried out w",
-      "date": "2026-09-22",
+      "title": "This Windows Malware is Built to Let Up to Four AI Models Vote on Its Next Move",
+      "url": "https://thehackernews.com/2026/09/windows-malware-is-built-to-let-up-to.html",
+      "summary": "A Windows malware called CLOSEDQUORUM is built to take orders from a vote of up to four AI models instead of an attacker's server,&nbsp;Cisco Talos said&nbsp;on September 22. The models can choose to ",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-      "url": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-      "summary": "A critical vulnerability in&nbsp;Bifrost, an open-source AI gateway that routes requests to more than 20 LLM providers, allows an unauthenticated attacker to run arbitrary commands on the gateway serv",
-      "date": "2026-09-22",
+      "title": "Compromised MemTensor Packages Deliver sckit Credential Stealer via npm and PyPI",
+      "url": "https://thehackernews.com/2026/09/compromised-memtensor-packages-deliver.html",
+      "summary": "Unknown threat actors have managed to compromise two legitimate MemTensor packages across the npm and Python Package Index (PyPI) repositories to push a platform-specific Go-based implant dubbed sckit",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-      "url": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-      "summary": "A zero-day proof-of-concept tool that stops Microsoft Defender from installing platform and signature updates by filling all available disk space was&nbsp;published on GitHub&nbsp;on September 19. The",
-      "date": "2026-09-22",
+      "title": "New cPanel Flaw Lets a Hosting Account Run Code as Root, Take Full Server Control",
+      "url": "https://thehackernews.com/2026/09/new-cpanel-flaw-lets-hosting-account_0272795595.html",
+      "summary": "A flaw in cPanel's&nbsp;CalDAV and CardDAV service&nbsp;lets anyone with a cPanel hosting account run code as root and take \"full control of the server,\" the company said on September 22. A&nbsp;secon",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-      "url": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
-      "summary": "Security teams have spent decades asking whether an identity has too much access. AI agents raise a harder question: how can we determine which paths an autonomous system can discover, given the acces",
-      "date": "2026-09-22",
+      "title": "545 Hackers Tested It First. Now XRanges for AI Scores Your Security Agent",
+      "url": "https://thehackernews.com/2026/09/545-hackers-tested-it-first-now-xranges.html",
+      "summary": "Autonomous security agents are getting good at finding bugs. Nobody has a good way to measure how good. Point one at a realistic target and what comes back is a report the agent wrote about itself: co",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
-      "url": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
-      "summary": "Attackers are exploiting a new flaw in on-premises VeloCloud Orchestrator (VCO), the server that manages the Edge devices in a VeloCloud SD-WAN, Arista said on September 22. The flaw, tracked as CVE-2",
-      "date": "2026-09-22",
+      "title": "Anthropic and OpenAI Models Still Attempt Restricted Actions in Safety Tests",
+      "url": "https://thehackernews.com/2026/09/anthropic-and-openai-models-still.html",
+      "summary": "Anthropic and OpenAI on Tuesday announced new models, with both artificial intelligence (AI) companies noting that they are continuing to invest in improving alignment to combat risky behavior. Opus 5",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
-      "url": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
-      "summary": "When the Digital Operational Resilience Act (DORA) became enforceable across the European Union in January 2025, it triggered an administrative sprint. Financial entities spent the first year establis",
-      "date": "2026-09-22",
+      "title": "Exploit Released for Unpatched Ubuntu Linux Flaw Enabling Host-Root Container Escape",
+      "url": "https://thehackernews.com/2026/09/exploit-released-for-unpatched-ubuntu.html",
+      "summary": "A use-after-free in the Linux kernel's AF_UNIX socket subsystem can be used to escape a container and gain root on the host, security firm DepthFirst&nbsp;said in research published September 22. The ",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-      "url": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
-      "summary": "A new flaw in the Linux kernel's KVM virtualization code for ARM64 processors can leave a freed piece of host memory exposed to a guest virtual machine on hosts with nested virtualization enabled. The",
-      "date": "2026-09-22",
+      "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+      "url": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+      "summary": "Attackers are exploiting a critical flaw in F5 BIG-IP Access Policy Manager (APM) that lets them run code on a BIG-IP system without logging in, F5 says. The flaw,&nbsp;CVE-2026-94127, affects only sy",
+      "date": "2026-09-23",
       "source": "The Hacker News",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Rogue external MFA providers can steal passwords during logins",
-      "url": "https://www.bleepingcomputer.com/news/security/rogue-external-mfa-providers-can-steal-passwords-during-logins/",
-      "summary": "Security researchers developed an attack that lets hackers with privileged access register a rogue external MFA provider that steals users' passwords during legitimate login attempts. [...]",
-      "date": "2026-09-22",
+      "title": "Placeholder domain used in dev docs now serves ClickFix attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/placeholder-domain-used-in-dev-docs-now-serves-clickfix-attacks/",
+      "summary": "The \"third-party.com\" domain, commonly used as a placeholder in developer documentation and code examples, is serving a fake Cloudflare verification page that attempts to trick Windows users into exec",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Sweden fines Miljödata $183,000 over breach affecting 2.2 million",
-      "url": "https://www.bleepingcomputer.com/news/security/sweden-fines-milj-data-183-000-over-breach-affecting-22-million/",
-      "summary": "Sweden's data privacy regulator, IMY, has imposed a $183,000 (SEK 1.8 million) fine on IT systems provider Miljödata for inadequate security measures leading to a breach in August 2025 affecting 2.2 m",
-      "date": "2026-09-22",
+      "title": "New RemControl Android banking malware targets users in Europe and Canada",
+      "url": "https://www.bleepingcomputer.com/news/security/new-remcontrol-android-banking-malware-targets-users-in-europe-and-canada/",
+      "summary": "A new Android malware-as-a-service (MaaS) platform called RemControl is targeting users through malvertising campaigns that impersonate the TVTap IPTV application. [...]",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Chinese hackers exploit WordPress, Zyxel flaws to steal govt data",
-      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-exploit-multiple-technologies-to-steal-govt-data/",
-      "summary": "A Chinese-speaking threat actor has been exploiting vulnerabilities in ZyXEL GS1900 Smart Managed Switches and WordPress to steal sensitive data from 996 devices and more than 18,500 records stored in",
-      "date": "2026-09-22",
+      "title": "Check Point warns of hackers exploiting Security Gateway VPN RCE flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-warns-of-hackers-exploiting-security-gateway-vpn-rce-flaw/",
+      "summary": "Cybersecurity company Check Point has confirmed active exploitation of CVE-2026-85102, a pre-authentication remote code execution (RCE) vulnerability in the VPN certificate-handling functionality of i",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "ShinyHunters claims FBI hack, data theft in PeopleSoft zero-day breach",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-fbi-hack-data-theft-in-peoplesoft-zero-day-breach/",
-      "summary": "The ShinyHunters extortion gang claims it breached FBI systems using a new Oracle PeopleSoft zero-day vulnerability, gaining access to internal services and stealing sensitive data on employees and jo",
-      "date": "2026-09-22",
+      "title": "Hackers start exploiting critical WordPress flaw for code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-start-exploiting-critical-wordpress-flaw-for-code-execution/",
+      "summary": "Threat actors have moved from probing WordPress sites vulnerable to CVE-2026-87902 to exploiting the flaw to write files to disk that execute shell commands when accessed. [...]",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
-      "url": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
-      "summary": "A new Windows malware named ClosedQuorum uses Google Gemini, DeepSeek, Qwen, and Mistral AI models to autonomously determine the actions to take during post-compromise stages of an attack. [...]",
-      "date": "2026-09-22",
+      "title": "Malicious AI agents steal 600K credit cards, infect 100+ sites with skimmers",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-ai-agents-steal-600k-credit-cards-infect-100-plus-sites-with-skimmers/",
+      "summary": "A financially motivated threat actor is using open-source AI agent frameworks to attack hundreds of online retailers at scale, stealing more than 600,000 credit card records. [...]",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Reducing shadow IT visibility gaps with Wazuh",
-      "url": "https://www.bleepingcomputer.com/news/security/reducing-shadow-it-visibility-gaps-with-wazuh/",
-      "summary": "Shadow IT can leave security teams unaware of unmanaged endpoints, unauthorized software, and other assets that fall outside existing monitoring. Wazuh explains how endpoint inventory, agentless monit",
-      "date": "2026-09-22",
+      "title": "InfraTrust report warns network management systems under attack",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-network-management-systems-under-attack/",
+      "summary": "Attackers are increasingly targeting the management systems used to control enterprise infrastructure, with several critical vulnerabilities actively exploited before or shortly after vendors disclose",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Check Point warns of Management Server zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-management-server-zero-day-exploited-in-attacks/",
-      "summary": "Check Point Software released emergency hotfixes to address a critical Security Management Server vulnerability that could let attackers run arbitrary scripts. [...]",
-      "date": "2026-09-22",
+      "title": "How One Kubernetes YAML Can Hand Over a GCP Organization",
+      "url": "https://www.bleepingcomputer.com/news/security/how-one-kubernetes-yaml-can-hand-over-a-gcp-organization/",
+      "summary": "A Kubernetes user with limited permissions can potentially gain control of an entire Google Cloud organization by exploiting the authority granted to Google Kubernetes Config Connector. Varonis explai",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "EvilTokens PhaaS disrupted after compromising 12,000 Microsoft accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/eviltokens-phaas-disrupted-after-compromising-12-000-microsoft-accounts/",
-      "summary": "The EvilTokens platform that compromised more than 12,000 Microsoft accounts at over 10,000 organizations has been disrupted in an effort led by Microsoft's Digital Crimes Unit (DCU). [...]",
-      "date": "2026-09-22",
+      "title": "Arista patches actively exploited VeloCloud Orchestrator zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-actively-exploited-velocloud-orchestrator-zero-day/",
+      "summary": "Arista Networks has released security patches for a zero-day flaw that is being actively exploited and affects VeloCloud Orchestrator (VCO) On-Prem deployments. [...]",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "Webinar tomorrow: Inside real-world Google Workspace breaches",
-      "url": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-inside-real-world-google-workspace-breaches/",
-      "summary": "Tomorrow's webinar examines real Google Workspace breaches involving social engineering and malicious OAuth applications, from initial access through the critical first hours of incident response. Lea",
-      "date": "2026-09-22",
+      "title": "Microsoft: September Windows updates break Always On VPN connections",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-windows-updates-break-always-on-vpn-connections/",
+      "summary": "Microsoft warned that the September 2026 security updates may also break Always On VPN connections on some Windows 11 systems. [...]",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
       "category": "news"
     },
     {
-      "title": "D-Link warns of max severity zero-day bug in DIR-822A routers",
-      "url": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-max-severity-zero-day-bug-in-dir-822a-routers/",
-      "summary": "D-Link warned customers of a maximum-severity vulnerability (CVE-2026-86296) with public proof-of-concept (PoC) exploit code and no patch, affecting legacy DIR-822A dual-band Wi-Fi routers. [...]",
-      "date": "2026-09-22",
+      "title": "Ryuk ransomware member sentenced to 24 months in prison",
+      "url": "https://www.bleepingcomputer.com/news/security/ryuk-ransomware-member-sentenced-to-24-months-in-prison/",
+      "summary": "An Armenian man was sentenced to 24 months in prison and 3 years of supervised release for hacking U.S. companies and encrypting their systems in Ryuk ransomware attacks. [...]",
+      "date": "2026-09-23",
       "source": "Bleeping Computer",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Macfinger ClickFix campaign, (Tue, Sep 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33360",
+      "summary": "Introduction&#xd;",
+      "date": "2026-09-23",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "ISC Stormcast For Wednesday, September 23rd, 2026 https://isc.sans.edu/podcastdetail/10106, (Wed, Sep 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33362",
+      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+      "date": "2026-09-23",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "Considerations for Critical Infrastructure Operators Working With Third-Party ICS Integrators",
+      "url": "https://www.cisa.gov/resources-tools/resources/considerations-critical-infrastructure-operators-working-third-party-ics-integrators",
+      "summary": "Introduction The Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA)—hereafter referred to as the “authoring agencies”—have published this fact sheet to h",
+      "date": "2026-09-23",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "ミュトス騒動から何を学ぶか エージェンティックAI時代のサイバーセキュリティ対策 - ビジネスネットワーク",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90NkhkYzF0NjZ4UGNOWW96NXN5X2dWcHBQb2hFSk1QcEFvc05fNnExaHVQNHZlZDFGa2RxVjkyZ2dueW1rbFlqNnpEUTBkOVRBWUcw?oc=5",
+      "summary": "ミュトス騒動から何を学ぶか エージェンティックAI時代のサイバーセキュリティ対策&nbsp;&nbsp;ビジネスネットワーク",
+      "date": "2026-09-23",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "｢人を変えて守るセキュリティはうまくいかない｣､元国連CISOが壮絶な経験を経て辿り着いた組織防衛の解 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EdE96Nk51ZFZOcmdESC03aFMtNW9tX1hDSThpZ05BR0FZMkVNTVlqd2Z0U3FpM1cxZUhrMlg1ZkI3TEtmTDdnWkFEaDlzR2dURno2V1pHY1MyOW9rMWhmaThjdE9scENjNmVVMEo2ZG8?oc=5",
+      "summary": "｢人を変えて守るセキュリティはうまくいかない｣､元国連CISOが壮絶な経験を経て辿り着いた組織防衛の解&nbsp;&nbsp;Infoseek",
+      "date": "2026-09-23",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "包括的な医療サイバーセキュリティ市場レポート：地域分析と成長予測 2026年〜2033年 - pando.life",
+      "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8tZzJWWXFMalV6dXBmdncxNWljUGtrY3Uya20wQlBsaVV1dHd0WjlxVGY1WTBFWkxUYXJURlh0TFZ6TDNsQVB2NVV3?oc=5",
+      "summary": "包括的な医療サイバーセキュリティ市場レポート：地域分析と成長予測 2026年〜2033年&nbsp;&nbsp;pando.life",
+      "date": "2026-09-23",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "WordPress 7.1.2、2016年から存在する重大な脆弱性を修正 - Pasquale Pillitteri",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSTdzZmpjRFd6elhjdE90ODJmbkljdll2Ulc3MDZPWklrTXZoc25GTWh3ZXVmRXZnMm1MODBvRlhSTWd5RWVPTHpTaU1XMXVKWG9GaUpmU0hhSDM5elFsZVdTeDk1QThReFo0aGhRaWZER2pVbGdkT01zcTNIOW5rcTlrZ0hadVdPQ2dHbTlqa1dTQzZ3VmFSMklR?oc=5",
+      "summary": "WordPress 7.1.2、2016年から存在する重大な脆弱性を修正&nbsp;&nbsp;Pasquale Pillitteri",
+      "date": "2026-09-23",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -206,15 +269,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "Siemens Industrial Edge Management",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
-      "summary": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user cred",
-      "date": "2026-09-22",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
     },
     {
       "title": "OpenPLC Runtime v3",
@@ -262,6 +316,15 @@
       "category": "alert"
     },
     {
+      "title": "Siemens Industrial Edge Management",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-06",
+      "summary": "View CSAF Summary Industrial Edge Management contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to perform full account takeover by resetting user cred",
+      "date": "2026-09-22",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
       "title": "Siemens Desigo CC family",
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
       "summary": "View CSAF Summary A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially craf",
@@ -289,45 +352,18 @@
       "category": "alert"
     },
     {
-      "title": "lwIP TCP/IP Stack MQTT Client Application",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT Client Application a",
+      "title": "サイバーセキュリティ能力はミュトス級、Claude Opus 5.5提供開始——API料金はOpus 5比20%引き下げ - BRIDGE（ブリッジ）",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9iVWltTWwzV3hRU0YzRUQyc3FBWWtONkVlWWtnVjcxZ2MxTFFpT0k2bWMzakg0MzhvdXFhNkV2Q2hndWwzZV9pc0hxZ3pCUjdIbjFQdHZFSURIdlJQcHdJV1BkZnhCTm5QSEhKNWk5TDg?oc=5",
+      "summary": "サイバーセキュリティ能力はミュトス級、Claude Opus 5.5提供開始——API料金はOpus 5比20%引き下げ&nbsp;&nbsp;BRIDGE（ブリッジ）",
       "date": "2026-09-22",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "世界規模の最新調査によると、産業組織の3分の1以上がサイバーセキュリティ･リスクを成長阻害の主要因と認識 - 時事ドットコム",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MT040VnlHdjlteXZTcnhjOW9kaGZYOGRRTnNzcmxFdXptdjZydy1neGxvQ1pxRnY5RldRcWd3NnhDMnhzM3Zzalo3SVRLR0Y3YmJISmFHWHBZVjBY?oc=5",
       "summary": "世界規模の最新調査によると、産業組織の3分の1以上がサイバーセキュリティ･リスクを成長阻害の主要因と認識&nbsp;&nbsp;時事ドットコム",
-      "date": "2026-09-22",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIの安全懸念がサイバーセキュリティ需要を押し上げ、主要銘柄が上昇 執筆 - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE00UnVtd2JwMFZSODR6RFRXakg3LXZnMVZCelpDYzNGSlN6UE9tX0RUUUNTYTFUYXplTE0xLWotUHZuX2V1QWx3LWZoZXZKdEx6ZTgxZFd6UWF4dENhQk1uREZYTU5pajltWUhTclprVlp3WFdESklJ?oc=5",
-      "summary": "AIの安全懸念がサイバーセキュリティ需要を押し上げ、主要銘柄が上昇 執筆&nbsp;&nbsp;Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-      "date": "2026-09-22",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "安価なスマートグラスの中には、セキュリティ上の問題を引き起こすものがある。 - Malwarebytes",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNczJ4cEtveG9mNVZTcWM2TGJkRWVId0NuSTc3c05TMG8xTTB6aTZSaHdqRE9KOWowajlNZ2JTOUJKZDFfaU85T1hmU2tWLWFTZ3FxYXIxMGlSQ0NVVnFpQUtjUUpTVkJpQmlHOFpRc2hycHIyeFdra181TWJENGh5bWdWNU4wc0dub2JCNXJ5QWQzNGNpZVdYYkd3ZVV3R3M?oc=5",
-      "summary": "安価なスマートグラスの中には、セキュリティ上の問題を引き起こすものがある。&nbsp;&nbsp;Malwarebytes",
-      "date": "2026-09-22",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ、フロンティアAIの実践試験場に…韓国も『セキュリティ特化モデル』で対応 - jp.ajunews.com",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOdDAxQnhrRjZRaWp6VWFrc0NxbnJGQkVXdDIxRTFETXVyXzJoTG10VjhKN19COEJOdWRvY0Noa1dYeWczUG5wYzVVcDAtTDBLZ3RUdVdMMVh1WDQ?oc=5",
-      "summary": "サイバーセキュリティ、フロンティアAIの実践試験場に…韓国も『セキュリティ特化モデル』で対応&nbsp;&nbsp;jp.ajunews.com",
       "date": "2026-09-22",
       "source": "Google News JP",
       "language": "日本語",
@@ -404,24 +440,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "「サイバーセキュリティお助け隊サービス」 実証事業を開始 - J-Net21[中小企業ビジネス支援サイト]",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5X24wTnphZUNMS2s0Q0ZURGZXRi1RVFFkaklxRWM5TUlRa0h5bjdrcjcteHROVkcwTUc1bTI5Qmd2T002dzRFY2wzbDZ6Nk1aMFNnVjZTSXZWc1VSTU41Vl9xYw?oc=5",
-      "summary": "「サイバーセキュリティお助け隊サービス」 実証事業を開始&nbsp;&nbsp;J-Net21[中小企業ビジネス支援サイト]",
-      "date": "2026-09-18",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "(株)サイバーセキュリティクラウド【4493】：掲示板 - Yahoo!ファイナンス",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ybWhGZzdocmFjLUZMTXZiTWFxN3NqaDBQMGVaV3ZMOUlLOFA4TXU2dzRuMVRraVp6NW1ud0ZBeGFibG5oQmtDNTRMcjFnTnFBZThJUWVjVWtqQQ?oc=5",
-      "summary": "(株)サイバーセキュリティクラウド【4493】：掲示板&nbsp;&nbsp;Yahoo!ファイナンス",
-      "date": "2026-09-18",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "スマートフォンアプリ「東北電力 よりそうｅねっと」におけるハードコードされた暗号鍵使用の脆弱性",
@@ -521,24 +539,6 @@
       "source": "Krebs on Security",
       "language": "英語",
       "category": "news"
-    },
-    {
-      "title": "Scans Targeting Hospitality Applications, (Wed, Sep 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33344",
-      "summary": "Earlier today, I noted an odd request showing up in our \"First Seen\" report:&#xd;",
-      "date": "2026-09-16",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "ISC Stormcast For Wednesday, September 16th, 2026 https://isc.sans.edu/podcastdetail/10096, (Wed, Sep 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33342",
-      "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-09-16",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
     },
     {
       "title": "サイバーセキュリティ関連銘柄が注目？ AI開発減速論でどうなる？ - SBI証券",
@@ -1148,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/9/23 8:33:18"
+  "updated": "2026/9/24 8:33:27"
 }
