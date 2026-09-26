@@ -1,6 +1,114 @@
 {
   "feeds": [
     {
+      "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+      "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+      "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.",
+      "date": "2026-09-26",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+      "url": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+      "summary": "Google is warning of renewed mass exploitation of a known security vulnerability in Oracle PeopleSoft as part of a campaign targeting multiple sectors globally. The ShinyHunters-linked activity involv",
+      "date": "2026-09-26",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+      "url": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+      "summary": "The way we talk about AI agents is shifting, and the way we implement them requires an even more fundamental shift. While earlier discourse focused on how quickly organizations could stand up agents a",
+      "date": "2026-09-26",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
+      "url": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
+      "summary": "Details have emerged about a high-severity security flaw in the Elementor Website Builder WordPress plugin that could be exploited by an unauthenticated attacker to create rogue administrator accounts",
+      "date": "2026-09-26",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "SharePoint RCE and MikroTik RouterOS Flaws Actively Exploited in the Wild",
+      "url": "https://thehackernews.com/2026/09/sharepoint-rce-and-mikrotik-routeros.html",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Microsoft SharePoint and Mikrotik RouterOS to its Known Exploited Vulnerabilities (KEV) ca",
+      "date": "2026-09-26",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Kiteworks Urges Customers to Shut Down Systems for 9 Hours Over Possible Cyber Attack",
+      "url": "https://thehackernews.com/2026/09/kiteworks-urges-customers-to-shut-down.html",
+      "summary": "Kiteworks (formerly Accellion) is urging customers to shut down their systems as a precautionary measure for nine hours over the weekend after it received threat intelligence about an imminent cyber a",
+      "date": "2026-09-26",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ShinyHunters uses WAF bypass trick in Oracle PeopleSoft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-uses-waf-bypass-trick-in-oracle-peoplesoft-attacks/",
+      "summary": "The ShinyHunters extortion gang is using a URL-encoding trick to bypass web application firewall rules that mitigate the Oracle PeopleSoft CVE-2026-35273 flaw, allowing the threat actors to resume wid",
+      "date": "2026-09-26",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Claude Opus 5.5 uses 95% fewer em dashes, but its answers are getting longer",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-opus-55-uses-95-percent-fewer-em-dashes-but-its-answers-are-getting-longer/",
+      "summary": "Anthropic's Claude Opus 5.5 appears to be changing how it writes, with new analysis showing fewer obvious AI writing patterns, shorter sentences, and simpler wording compared with Opus 5. [...]",
+      "date": "2026-09-26",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Microsoft pauses KB5002907 update after Office license deactivations",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/",
+      "summary": "Microsoft has paused the rollout of the KB5002907 Microsoft 365 update after users report that it deactivated, or in some cases completely removed, perpetual Office 2016 and Office 2019 installations.",
+      "date": "2026-09-26",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "GitHub Actions re-enabled with Mini Shai-Hulud payload still active",
+      "url": "https://www.bleepingcomputer.com/news/security/github-actions-re-enabled-with-mini-shai-hulud-payload-still-active/",
+      "summary": "Two third-party GitHub Actions previously compromised in a Mini Shai-Hulud campaign were re-enabled by their maintainer and remained accessible for more than a week despite still pointing to malicious",
+      "date": "2026-09-26",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+      "summary": "OpenAI says its AI agents uploaded user-provided images to third-party image-hosting services while carrying out research and evaluation tasks. [...]",
+      "date": "2026-09-26",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "台湾へのサイバー攻撃、1日平均約260万回、「脅威を商機に」とデジタル相 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QREtsdFZtalJFMVREaHpOd0NOSUROLWRtVzU2MEVfdkJ4eWljQ0Y4Qlk3T01LY2t0dzhxTzNwTjJKc2R4XzJtZGYyR3ZKeWlIb1BjUTNreGRGVEp6T2Y1Ri1JZTB6XzlBT3c?oc=5",
+      "summary": "台湾へのサイバー攻撃、1日平均約260万回、「脅威を商機に」とデジタル相&nbsp;&nbsp;Infoseek",
+      "date": "2026-09-26",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "baserCMS用プラグイン「アドオンマイグレーター」 における信頼できない制御領域からの機能の組み込みに関する脆弱性",
       "url": "https://jvn.jp/jp/JVN21754394/",
       "summary": "baserCMSユーザー会が提供するbaserCMS用プラグイン「アドオンマイグレーター」 には、信頼できない制御領域からの機能の組み込みに関する脆弱性が存在します。",
@@ -118,33 +226,6 @@
       "category": "news"
     },
     {
-      "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
-      "url": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
-      "summary": "The Canadian Centre for Cyber Security has warned that a now-patched Roundcube Webmail vulnerability is being actively exploited in the wild. The vulnerability in question is CVE-2026-48842 (CVSS scor",
-      "date": "2026-09-25",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
-      "url": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
-      "summary": "A flaw in Cloudflare Containers let a paying customer read data that other customers' containers had left behind on the same server, Cloudflare and the researchers who found it said on Thursday. The d",
-      "date": "2026-09-25",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
-      "url": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA), on Thursday, added two critical security flaws impacting WSO2 and Adobe Commerce and Magento to its Known Exploited Vulnerabilities (K",
-      "date": "2026-09-25",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
       "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
       "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was senten",
@@ -199,51 +280,6 @@
       "category": "news"
     },
     {
-      "title": "OpenAI is preparing a $500 ChatGPT Pro Max plan with faster Codex",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-a-500-chatgpt-pro-max-plan-with-faster-codex/",
-      "summary": "OpenAI appears to be preparing a new ChatGPT Pro Max subscription that could cost $500 per month, but it's unclear when it'll begin rolling out. [...]",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "With the Rise of AI Agents, SOC 2 Should Adapt or Risk Irrelevance",
-      "url": "https://www.bleepingcomputer.com/news/security/with-the-rise-of-ai-agents-soc-2-should-adapt-or-risk-irrelevance/",
-      "summary": "AI agents can operate through human credentials and take actions that existing SOC 2 controls may not distinguish from human activity. Token Security explains why SOC 2 needs to adapt to address the s",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft plans to deprecate Windows Deployment Services",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-deprecate-windows-deployment-services-after-windows-server-2025/",
-      "summary": "Microsoft announced it will deprecate the Windows Deployment Services (WDS) server role starting with the next Windows Server release. [...]",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Rydox marketplace admin pleads guilty, faces 22 years in prison",
-      "url": "https://www.bleepingcomputer.com/news/security/rydox-marketplace-admin-pleads-guilty-faces-22-years-in-prison/",
-      "summary": "A Kosovar national has pleaded guilty to operating Rydox, a large illegal online marketplace that sold stolen personal information, login credentials, credit card details, and cybercrime tools. [...]",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Microsoft: Recent Windows updates cause desktop loading issues",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-recent-windows-updates-cause-desktop-loading-issues/",
-      "summary": "Microsoft has confirmed that some users may experience desktop loading issues, including black screens, after installing the August 2026 preview updates and subsequent updates. [...]",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "A Closer Look at Malware From the Macfinger ClickFix Campaign, (Fri, Sep 25th)",
       "url": "https://isc.sans.edu/diary/rss/33368",
       "summary": "Introduction&#xd;",
@@ -280,26 +316,8 @@
       "category": "alert"
     },
     {
-      "title": "富士通とKELA、能動的サイバー防御支援サービスを開始 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JdDZPdjJ5d0FEaGJ2TmlTOUFGaEF5QWxzaDQ0TGlIUjU2TGpnZXZqa21JSjZwWThZQzRfSlJiNGxCRmRhMXFNVE0tTFdhbzFFWVY5QlZqR296VGJZd3Vmd3diVDMwNERnc1p2cUJHQnFIbUUzdFZIeWlHQWtRZ2c?oc=5",
-      "summary": "富士通とKELA、能動的サイバー防御支援サービスを開始&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-09-25",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "LRM、愛知県の中小企業向けにサイバーセキュリティ対策として「月次セミナー」と「出張研修」を無料提供 - 神戸新聞",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBybEp5VE5EM1htb1Yzd2Z0NWJSWWRMYmhhNTJDNENYNkx4YXRlNXRONkRQTTNYMnZDZndQSWJ0UC1PSTU4V0VTUE9nMVpJTmpuRnF4aXFUa2tRVzlJWTU2LW56V0drcXBzM19SREFPVFQ?oc=5",
-      "summary": "LRM、愛知県の中小企業向けにサイバーセキュリティ対策として「月次セミナー」と「出張研修」を無料提供&nbsp;&nbsp;神戸新聞",
-      "date": "2026-09-25",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "フォーバル---IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」に採択 - 株探",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tYkVHVGFYcTZwWU9Gc3FQTlh0VXZ3WTUySWVaUF9SWFEzWlYwUHJzX0NUM2RJY1pDZUx0MkFPWG12WnRwS1pScmZoZzd4V0paZTVEc3VUSFpCVUFnZjhJOWtB?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54RmFsV0ktNEdUVXdtYTAyeU5iX3pteDZ5V2ViLW5HWU42emVFeVFUYmxwcXZxNXliY1BkS0xiWmpmRlEyUFlTUVcxRElWTnFYckE?oc=5",
       "summary": "フォーバル---IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」に採択&nbsp;&nbsp;株探",
       "date": "2026-09-25",
       "source": "Google News JP",
@@ -307,27 +325,27 @@
       "category": "news"
     },
     {
-      "title": "株式会社ハートビーツ、サイバーセキュリティに特化した国内最大級の展示会「Security Days Fall 2026 福岡」に出展 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zUWJiYWs0emRCXzZSYnJNcmxUWjVnLVhGdk1FQVNnV0lrdG1IZUJJVDg3WEZCNWpYa0VHemtzRFBWYVJQM2NvLWwyUlUyNDE4MUVuMW1jdTJoVDRJZmJZTkw2SVBEOHRONVE?oc=5",
-      "summary": "株式会社ハートビーツ、サイバーセキュリティに特化した国内最大級の展示会「Security Days Fall 2026 福岡」に出展&nbsp;&nbsp;PR TIMES",
+      "title": "ChatGPTなどのAIに企業の偽の連絡先を出力させユーザーを詐欺へと導くサイバー攻撃「Dark Sourcery」 - GIGAZINE",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3JkRWRpVVF1U2FFTlpwVEp0LWdPelNjNjh2NmFCSW0xMWtpQXU3eXJjTXNUU1F6anVWdEROTktLT19Ed0JqOGxqYUdOOEhRZi01Y1VRV2FnTlRsamtMWXo4SEd3VnlIVWNjSC1UVmh4VGFnNzYxenlQWGE5bVp0dEp3?oc=5",
+      "summary": "ChatGPTなどのAIに企業の偽の連絡先を出力させユーザーを詐欺へと導くサイバー攻撃「Dark Sourcery」&nbsp;&nbsp;GIGAZINE",
       "date": "2026-09-25",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "【10/16開催】株式会社アイロバ、[Security Days Fall 2026]にてBLUE Sphereを出展【無料セキュリティ診断も実施】 - RBB TODAY",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wM3g0d3h5ODVBTmZyQkkwQVdpYy1LS3pqWHI0bC0zRjBiM2RWb2hocGtqUFhJQlFTaEd6UVFFYzZnMlRLeWUxNDNsVW9HTmd3SkZ6S05VN2hIclZCTVl4WU80QlRUeXBuUjdyR3lpRG91bTJLYmFsVw?oc=5",
-      "summary": "【10/16開催】株式会社アイロバ、[Security Days Fall 2026]にてBLUE Sphereを出展【無料セキュリティ診断も実施】&nbsp;&nbsp;RBB TODAY",
+      "title": "富士通CFOが語った「これからの10年」と同社ならではの「強み」 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMW5mX3hjcVczRkRjTWhNbHRhRUp0RUdzOFVPc04tWlloZHQwX0FiWENVZGs0d3o4bm9ZWkpBaTh1U3RaYkVsWWZOeDBfTU5Na3lVNDd0Y3pBeWkzc1FkX1p1YnZLNGN0TmtSbHdOdUtidHl0c1N5TlFXdWwzRkhxdF9MMVh5R1J0?oc=5",
+      "summary": "富士通CFOが語った「これからの10年」と同社ならではの「強み」&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-09-25",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "現代のサイバーセキュリティ人材戦略に不可欠な要素 - ASCII.jp",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53aUJ1am1kei1lSVNWcUVhR2JfZUZSRVJ2cDRtdUN3WV9meVJYUkx5Q1JpTjFkTVJOQ012czNHdGZNWk9yWmgyMVB3bVlTcDMyTzZhZA?oc=5",
-      "summary": "現代のサイバーセキュリティ人材戦略に不可欠な要素&nbsp;&nbsp;ASCII.jp",
+      "title": "【10/16開催】株式会社アイロバ、[Security Days Fall 2026]にてBLUE Sphereを出展【無料セキュリティ診断も実施】 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OZi1TbWtZVWZaY19XcURKV2FoSE1wUW15OEVzWk4yNG8taEJrZm8teFB5Z0trTXZXMUxQemdlUUEwODBvVi1ZR1RMeEE2bFIzQUhYVG1XeUwxQXluWElBVE1MNXVxTTRhVnpxYWsxUHBaZw?oc=5",
+      "summary": "【10/16開催】株式会社アイロバ、[Security Days Fall 2026]にてBLUE Sphereを出展【無料セキュリティ診断も実施】&nbsp;&nbsp;Infoseek",
       "date": "2026-09-25",
       "source": "Google News JP",
       "language": "日本語",
@@ -406,33 +424,6 @@
       "category": "analysis"
     },
     {
-      "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
-      "url": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
-      "summary": "A OnePlus 15 running the latest OxygenOS can be rooted by a malicious app the owner installs, one that asks for no special permissions. A researcher, Rasmus Moorats,&nbsp;chained two flaws in OnePlus'",
-      "date": "2026-09-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
-      "url": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
-      "summary": "This week, the dangerous stuff keeps arriving dressed as something boring. An update. A login box. A search answer. A coding tool. A link you have clicked a hundred times before. That is the thread ru",
-      "date": "2026-09-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
-      "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
-      "summary": "The \"third-party[.]com\" domain, commonly used as a documentation placeholder, has been observed serving a ClickFix lure to Windows browsers while displaying a harmless decoy to other users. \"third-par",
-      "date": "2026-09-24",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "One URL, Three Different Tricks, (Thu, Sep 24th)",
       "url": "https://isc.sans.edu/diary/rss/33366",
       "summary": "Yesterday, we received a phishing email with an interesting link. At first sight, it looks like garbage, but every piece of it has been carefully crafted to confuse basic security controls. Here is th",
@@ -496,9 +487,18 @@
       "category": "news"
     },
     {
-      "title": "ペンタセキュリティ、サイバーセキュリティ専門イベント「Security Days Fall 2026 Nagoya」にて講演 - Excite エキサイト",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBCdFBfQUJIa1BzNjFWNEg3NW9Sdmk4TlpNOXVzT1F5OWFCN0ZiUkxXM29fU2p4Z2gyRS1uaVVLVGYzeF9xY1lwbkpVYTlEZDNTVFIteGV2UzI2STBnQWU5Mk9TTWdPaHRHVXhyT3VxUmZCRXZT?oc=5",
-      "summary": "ペンタセキュリティ、サイバーセキュリティ専門イベント「Security Days Fall 2026 Nagoya」にて講演&nbsp;&nbsp;Excite エキサイト",
+      "title": "早稲田大学比較法研究所、10月4日に公開講演会「医療DXとサイバーセキュリティ」をハイブリッド開催（ScanNetSecurity） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14dm8zd0wtamcwYWNCN051SmxFY2FkMTF5WkhPQkZ6YnIwODV5bVNnaVZTMnF5cktsVjNHXzlKOXhBWE9fVDliektYSmFaQWxsUjJELUVzNkgxc3I1dW53S0YtVGdvR0xVZUowNVI5LXZ0TWs3THVMRTFaWkVOZ3c?oc=5",
+      "summary": "早稲田大学比較法研究所、10月4日に公開講演会「医療DXとサイバーセキュリティ」をハイブリッド開催（ScanNetSecurity）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-09-24",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "中国のハッカーがAIで100社超を攻撃、過去最大級のAIハッキング - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Fa2NOaV9EM0hEUWJzQ1VoS25kV3d3SEFPYU1kZjdySnFoczg4RVJ5UW9DNUVsR3JIU0ZPQzdvZGRzcVA4SklGMUZjSWdWbUI2SUdzZDNPVHp6M2lGbENWQnNDbmhSRlNYR1NkanJRUXZveGRKaFlIUTF1WllFUlU?oc=5",
+      "summary": "中国のハッカーがAIで100社超を攻撃、過去最大級のAIハッキング&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-09-24",
       "source": "Google News JP",
       "language": "日本語",
@@ -508,15 +508,6 @@
       "title": "銀行システム｢停止前夜｣､AIが暴く脆弱性と大量パッチ･･･現場で強まる危機感｢いつ能動的停止になってもおかしくない｣ - 東洋経済オンライン",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41dEVwMGVWWWdYRWUzR2c4ZUQzbjhsbV9EcTlWUTMxbkJXdUJ5dkpUaXhPUUFBTlVFZHZ0UlVUMW1XVTlXV0VJVk40d2JkdGtURE1XcElHMEg1TzNOVEJ3?oc=5",
       "summary": "銀行システム｢停止前夜｣､AIが暴く脆弱性と大量パッチ･･･現場で強まる危機感｢いつ能動的停止になってもおかしくない｣&nbsp;&nbsp;東洋経済オンライン",
-      "date": "2026-09-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "世界規模の最新調査によると、産業組織の3分の1以上がサイバーセキュリティ･リスクを成長阻害の主要因と認識 - 沖縄タイムス社",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA0ZHhheHNHRDRCNWhFcHFiaE5PZ0FGRDZBZS1meEU5d3lxMDJ3SmRGLXVJOUlfUzhWbnA5c2dXX09mRmhaOFpUNkRxNVZSNG80THItYXNkM1VsRnZ5Zmc?oc=5",
-      "summary": "世界規模の最新調査によると、産業組織の3分の1以上がサイバーセキュリティ･リスクを成長阻害の主要因と認識&nbsp;&nbsp;沖縄タイムス社",
       "date": "2026-09-24",
       "source": "Google News JP",
       "language": "日本語",
@@ -548,6 +539,15 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
+    },
+    {
+      "title": "｢人を変えて守るセキュリティはうまくいかない｣､元国連CISOが壮絶な経験を経て辿り着いた組織防衛の解 - 東洋経済オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hMXRwRUJkYldKWW1DMFBOVXRnOGVsMUpTS1h0VFhBMEZXN1hIWXJzSGd2NGFxdWk5ZmpMMlFXSmgxWm5uXzhIUTh2UDJLSDhEQ1AwWWxqSnVqSTRJYnVJ?oc=5",
+      "summary": "｢人を変えて守るセキュリティはうまくいかない｣､元国連CISOが壮絶な経験を経て辿り着いた組織防衛の解&nbsp;&nbsp;東洋経済オンライン",
+      "date": "2026-09-23",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
@@ -1148,5 +1148,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/9/26 8:55:11"
+  "updated": "2026/9/27 8:28:44"
 }
