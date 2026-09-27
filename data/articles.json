@@ -1,6 +1,114 @@
 {
   "articles": [
     {
+      "title": "AIエージェントによる利用者画像の外部サイト投稿についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/09/28/082600",
+      "summary": "2026年9月25日、OpenAIは研究環境で稼働するAIエージェントが本来送信すべきでないデータを第三者サービスへ送信していたことを公表し、その中で利用者がアップロードした画像が画像ホスティングサイトに投稿されていたことも明らかにしました。ここでは関連する情報をまとめます。 利用者の画像を画像ホスティングサイトへ投稿 OpenAIは9月25日、研究環境のAIエージェントが訓練や評価のデータを第三",
+      "date": "2026-09-27",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "楽天証券のシステム不具合による意図しない資金移動についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/09/28/015556",
+      "summary": "2026年9月25日、楽天証券は国内株式信用取引で「投資あんしんサービス」を利用する一部の顧客において、システム不具合により意図しない資金振替が発生していたと公表しました。ここでは関連する情報をまとめます。 自動スイープの誤作動で資金移動 楽天証券の「投資あんしんサービス」は、銀行口座と証券口座を連携する「マネーブリッジ」を利用し信用取引口座を持つ顧客向けの無料サービスで、あらかじめ設定した保証金",
+      "date": "2026-09-27",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+      "summary": "Two critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway that allow remote code execution have been exploited in the wild, Citrix confirmed on September 27. It released fixes for bot",
+      "date": "2026-09-27",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "OpenAI is preparing “o,” an always-on ChatGPT assistant that could handle email",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-is-preparing-o-an-always-on-chatgpt-assistant-that-could-handle-email/",
+      "summary": "OpenAI is testing a new always-on assistant called \"o\", and references to the unannounced feature briefly showed up on the company's website. [...]",
+      "date": "2026-09-27",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Citrix confirms two NetScaler RCE zero-days exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+      "summary": "Citrix has confirmed that two critical NetScaler remote code execution vulnerabilities, tracked as CVE-2026-88771 and CVE-2026-88772, are being exploited in attacks and that it has released security u",
+      "date": "2026-09-27",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+      "summary": "Cloudflare has fixed a vulnerability in Containers and Sandboxes that allowed customers with a Workers Paid account to recover residual data from other customers' containers on the same physical host.",
+      "date": "2026-09-27",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Anthropic turns Claude into an AI marketplace with 2,000+ plugins and connectors",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+      "summary": "Anthropic has just announced a new Claude Marketplace, and it brings all AI-related tools into one place, including plugins, connectors, agents, and more. [...]",
+      "date": "2026-09-27",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Wireshark 4.6.9 Released, (Sun, Sep 27th)",
+      "url": "https://isc.sans.edu/diary/rss/33372",
+      "summary": "Wireshark release 4.6.9 fixes 19 vulnerabilities and 16 bugs.&#xd;",
+      "date": "2026-09-27",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "Critical Zero-Day Vulnerabilities Exploited in Citrix NetScaler ADC, Gateway",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/critical-zero-day-vulnerabilities-exploited-citrix-netscaler-adc-gateway",
+      "summary": "CISA is amplifying Citrix’s disclosure of eight new vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway products: CVE-2026-88771, CVE-2026-88772, CVE-2026-88773, CVE-2026-88774",
+      "date": "2026-09-27",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/09/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added two new vulnerabilities to its&nbsp;Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-88771 Citrix NetScaler Improper Input Validation Vu",
+      "date": "2026-09-27",
+      "source": "CISA",
+      "language": "英語",
+      "category": "alert"
+    },
+    {
+      "title": "日本のサイバーセキュリティ市場調査レポート ― 規模、シェア、需要拡大の傾向と展望（2026年～2034年） - アットプレス",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wN3F0eDdaZERnYmlpWGFkanR1Tm9zUkFXV0tac3ZncEJCVXFzUXlDUDdtdlZFMXJac3FIaW03T1Axd2w1UU5TamNPREhmMWM?oc=5",
+      "summary": "日本のサイバーセキュリティ市場調査レポート ― 規模、シェア、需要拡大の傾向と展望（2026年～2034年）&nbsp;&nbsp;アットプレス",
+      "date": "2026-09-27",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "日本のサイバーセキュリティ市場調査レポート ― 規模、シェア、需要拡大の傾向と展望（2026年～2034年） - Newscast.jp",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WRnhTdGFVNC1Dd0QycDZUNDd4alJpa05qYnlwUUpOcUhOYjNLRUMyalNSLXRKQ0E3WDdndENBRHFYWUhyRFM1U2VfV1c1VkE?oc=5",
+      "summary": "日本のサイバーセキュリティ市場調査レポート ― 規模、シェア、需要拡大の傾向と展望（2026年～2034年）&nbsp;&nbsp;Newscast.jp",
+      "date": "2026-09-27",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
       "url": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
       "summary": "The Psychedelic Stealer malware distributed via compromised Ukrainian websites using ClickFix-style Cloudflare verification checks is part of a wider malware-as-a-service (MaaS) platform called Lunex.",
@@ -217,15 +325,6 @@
       "category": "news"
     },
     {
-      "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
-      "url": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
-      "summary": "Cryptocurrency exchange Bitget said suspected North Korean threat actors have stolen $351.6 million from its hot and warm wallets.&nbsp; \"At 18:31 UTC on September 24, 2026, Bitget's security systems ",
-      "date": "2026-09-25",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "U.S. Soldier Gets 70 Months in Prison for AT&#038;T, Verizon Extortions",
       "url": "https://krebsonsecurity.com/2026/09/u-s-soldier-gets-70-months-in-prison-for-att-verizon-extortions/",
       "summary": "A U.S. Army soldier who pleaded guilty to hacking into multiple telecommunications companies and stealing mobile call and text metadata for more than 100 million AT&#038;T customers in 2024 was senten",
@@ -238,42 +337,6 @@
       "title": "Kiteworks urges 6-hour server shutdown over potential zero-day attacks",
       "url": "https://www.bleepingcomputer.com/news/security/kiteworks-urges-6-hour-server-shutdown-over-potential-zero-day-attacks/",
       "summary": "Secure file-sharing software company Kiteworks is urging customers worldwide to temporarily shut down their servers on Saturday for a six-hour window after receiving threat intelligence warning of a p",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ShinyHunters hacked Clop leak site using Grav CMS path traversal flaw",
-      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hacked-clop-leak-site-using-grav-cms-path-traversal-flaw/",
-      "summary": "The Clop ransomware gang has moved its data leak site to a new Tor address after confirming its previous server was compromised and defaced through an unpatched Grav CMS flaw that BleepingComputer has",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Elementor WordPress flaw lets attackers create admin accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/elementor-wordpress-flaw-lets-attackers-create-admin-accounts/",
-      "summary": "A cross-site request forgery (CSRF) vulnerability in the Elementor plugin for WordPress could allow an unauthenticated attacker to create administrator accounts. [...]",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA warns of Sharepoint, WSO2, Adobe Commerce flaws exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-sharepoint-wso2-adobe-commerce-flaws-exploited-in-attacks/",
-      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) warns that hackers are exploiting a critical authentication bypass vulnerability (CVE-2026-5430) affecting multiple products from enterprise",
-      "date": "2026-09-25",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Anthropic rolls out up to $250 in free Claude Code credits, but only for cloud sessions",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-rolls-out-up-to-250-in-free-claude-code-credits-but-only-for-cloud-sessions/",
-      "summary": "Anthropic now allows you to run Claude Code via cloud sessions without signing up for the research preview, and it's offering up to $250 in free usage credits, so more users can give it a try. [...]",
       "date": "2026-09-25",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -316,18 +379,9 @@
       "category": "alert"
     },
     {
-      "title": "フォーバル---IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」に採択 - 株探",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54RmFsV0ktNEdUVXdtYTAyeU5iX3pteDZ5V2ViLW5HWU42emVFeVFUYmxwcXZxNXliY1BkS0xiWmpmRlEyUFlTUVcxRElWTnFYckE?oc=5",
-      "summary": "フォーバル---IPA「サイバーセキュリティお助け隊サービス（新類型）実証事業」に採択&nbsp;&nbsp;株探",
-      "date": "2026-09-25",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ChatGPTなどのAIに企業の偽の連絡先を出力させユーザーを詐欺へと導くサイバー攻撃「Dark Sourcery」 - GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3JkRWRpVVF1U2FFTlpwVEp0LWdPelNjNjh2NmFCSW0xMWtpQXU3eXJjTXNUU1F6anVWdEROTktLT19Ed0JqOGxqYUdOOEhRZi01Y1VRV2FnTlRsamtMWXo4SEd3VnlIVWNjSC1UVmh4VGFnNzYxenlQWGE5bVp0dEp3?oc=5",
-      "summary": "ChatGPTなどのAIに企業の偽の連絡先を出力させユーザーを詐欺へと導くサイバー攻撃「Dark Sourcery」&nbsp;&nbsp;GIGAZINE",
+      "title": "【10/16開催】株式会社アイロバ、[Security Days Fall 2026]にてBLUE Sphereを出展【無料セキュリティ診断も実施】 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OZi1TbWtZVWZaY19XcURKV2FoSE1wUW15OEVzWk4yNG8taEJrZm8teFB5Z0trTXZXMUxQemdlUUEwODBvVi1ZR1RMeEE2bFIzQUhYVG1XeUwxQXluWElBVE1MNXVxTTRhVnpxYWsxUHBaZw?oc=5",
+      "summary": "【10/16開催】株式会社アイロバ、[Security Days Fall 2026]にてBLUE Sphereを出展【無料セキュリティ診断も実施】&nbsp;&nbsp;Infoseek",
       "date": "2026-09-25",
       "source": "Google News JP",
       "language": "日本語",
@@ -343,9 +397,18 @@
       "category": "news"
     },
     {
-      "title": "【10/16開催】株式会社アイロバ、[Security Days Fall 2026]にてBLUE Sphereを出展【無料セキュリティ診断も実施】 - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5OZi1TbWtZVWZaY19XcURKV2FoSE1wUW15OEVzWk4yNG8taEJrZm8teFB5Z0trTXZXMUxQemdlUUEwODBvVi1ZR1RMeEE2bFIzQUhYVG1XeUwxQXluWElBVE1MNXVxTTRhVnpxYWsxUHBaZw?oc=5",
-      "summary": "【10/16開催】株式会社アイロバ、[Security Days Fall 2026]にてBLUE Sphereを出展【無料セキュリティ診断も実施】&nbsp;&nbsp;Infoseek",
+      "title": "富士通、能動的サイバー防御の対応を支援するセキュリティーサービスを提供開始 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fUFlGTzJSQngyN0tOeFlSdUdrUnpyWWdlTXF3T09la3F6OWJZN1c3Q3UzVThpa05ya29tNUpzYlhZVl80dnlCWTJZMXpEaWxMdlRCZklzVndfZG5LYjJxZUV5b9IBaEFVX3lxTE9LS1JYOC1DR0Jac0pmZ0lBeDFVNkZVQVFlSm1PeVZUWTZSLW9ZNXM0Z3h4RG5mT1drT0NhRnRZak9jQ213YTgxaFZlNjBndXZmZUtwU2tpampVMTBmU0JZdzF6aGdQdVRO?oc=5",
+      "summary": "富士通、能動的サイバー防御の対応を支援するセキュリティーサービスを提供開始&nbsp;&nbsp;Infoseek",
+      "date": "2026-09-25",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "株式会社ハートビーツ、サイバーセキュリティに特化した国内最大級の展示会「Security Days Fall 2026 福岡」に出展 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1LeDg0TFpRQmFmUkhDUnBzSWJXZTVwTUlxdVJ0MjNoM3Myc2JDbW56Qm5saUdGMl9zNGdjMVJrUkt2RV93S3J6MWtEZ3NhWXpScWFCbHY1MHlkOFE0aFkxWW1tQ2RGTU16dlc5NHBWWDlqQQ?oc=5",
+      "summary": "株式会社ハートビーツ、サイバーセキュリティに特化した国内最大級の展示会「Security Days Fall 2026 福岡」に出展&nbsp;&nbsp;Infoseek",
       "date": "2026-09-25",
       "source": "Google News JP",
       "language": "日本語",
@@ -478,15 +541,6 @@
       "category": "alert"
     },
     {
-      "title": "｢AIサイバーセキュリティ｣関連銘柄を紹介！ AIによるハッキング対策に有効な、AIエージェントを使った次世代サイバーセキュリティ｢Agentic SOC｣などに注目 - ダイヤモンド・オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81VUwzTWxTZ1FJUW8tVkhKSFRNWV9MeHJ3MkdlYVlhZzVwUkJzZGRoWWxjNWc0eVVOWlljVEQ5eVgyM2VfaGdDR2QwVVBLN01hME5V?oc=5",
-      "summary": "｢AIサイバーセキュリティ｣関連銘柄を紹介！ AIによるハッキング対策に有効な、AIエージェントを使った次世代サイバーセキュリティ｢Agentic SOC｣などに注目&nbsp;&nbsp;ダイヤモンド・オンライン",
-      "date": "2026-09-24",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "早稲田大学比較法研究所、10月4日に公開講演会「医療DXとサイバーセキュリティ」をハイブリッド開催（ScanNetSecurity） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14dm8zd0wtamcwYWNCN051SmxFY2FkMTF5WkhPQkZ6YnIwODV5bVNnaVZTMnF5cktsVjNHXzlKOXhBWE9fVDliektYSmFaQWxsUjJELUVzNkgxc3I1dW53S0YtVGdvR0xVZUowNVI5LXZ0TWs3THVMRTFaWkVOZ3c?oc=5",
       "summary": "早稲田大学比較法研究所、10月4日に公開講演会「医療DXとサイバーセキュリティ」をハイブリッド開催（ScanNetSecurity）&nbsp;&nbsp;Yahoo!ニュース",
@@ -496,9 +550,9 @@
       "category": "news"
     },
     {
-      "title": "中国のハッカーがAIで100社超を攻撃、過去最大級のAIハッキング - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Fa2NOaV9EM0hEUWJzQ1VoS25kV3d3SEFPYU1kZjdySnFoczg4RVJ5UW9DNUVsR3JIU0ZPQzdvZGRzcVA4SklGMUZjSWdWbUI2SUdzZDNPVHp6M2lGbENWQnNDbmhSRlNYR1NkanJRUXZveGRKaFlIUTF1WllFUlU?oc=5",
-      "summary": "中国のハッカーがAIで100社超を攻撃、過去最大級のAIハッキング&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "｢AIサイバーセキュリティ｣関連銘柄を紹介！ AIによるハッキング対策に有効な、AIエージェントを使った次世代サイバーセキュリティ｢Agentic SOC｣などに注目 - ダイヤモンド・オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE81VUwzTWxTZ1FJUW8tVkhKSFRNWV9MeHJ3MkdlYVlhZzVwUkJzZGRoWWxjNWc0eVVOWlljVEQ5eVgyM2VfaGdDR2QwVVBLN01hME5V?oc=5",
+      "summary": "｢AIサイバーセキュリティ｣関連銘柄を紹介！ AIによるハッキング対策に有効な、AIエージェントを使った次世代サイバーセキュリティ｢Agentic SOC｣などに注目&nbsp;&nbsp;ダイヤモンド・オンライン",
       "date": "2026-09-24",
       "source": "Google News JP",
       "language": "日本語",
@@ -541,15 +595,6 @@
       "category": "alert"
     },
     {
-      "title": "｢人を変えて守るセキュリティはうまくいかない｣､元国連CISOが壮絶な経験を経て辿り着いた組織防衛の解 - 東洋経済オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hMXRwRUJkYldKWW1DMFBOVXRnOGVsMUpTS1h0VFhBMEZXN1hIWXJzSGd2NGFxdWk5ZmpMMlFXSmgxWm5uXzhIUTh2UDJLSDhEQ1AwWWxqSnVqSTRJYnVJ?oc=5",
-      "summary": "｢人を変えて守るセキュリティはうまくいかない｣､元国連CISOが壮絶な経験を経て辿り着いた組織防衛の解&nbsp;&nbsp;東洋経済オンライン",
-      "date": "2026-09-23",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "The Truth about GET and HTTP Standards, (Tue, Sep 22nd)",
       "url": "https://isc.sans.edu/diary/rss/33358",
       "summary": "On Friday, Xavier talked about the newly introduced HTTP Query method. This new method was introduced to allow \"GET\" requests that include a body. The main reason for this was that GET requests typica",
@@ -586,33 +631,6 @@
       "category": "alert"
     },
     {
-      "title": "lwIP TCP/IP Stack MQTT Client Application",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT Client Application a",
-      "date": "2026-09-22",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/22/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-85102 Check Point Multiple Products Improper Certificat",
-      "date": "2026-09-22",
-      "source": "CISA",
-      "language": "英語",
-      "category": "alert"
-    },
-    {
-      "title": "TerminalFix: PNG Steganography, (Mon, Sep 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33318",
-      "summary": "Microsoft Security Research published an interesting blog post \"TerminalFix campaign deploys a reverse tunnel through multistage intrusion\" about a malware campaign. The aspect that I want to take a c",
-      "date": "2026-09-21",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
       "title": "NTTドコモによるAmazonへの顧客情報の無断提供についてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/09/17/150301",
       "summary": "2026年9月16日、NTTドコモは、Amazonプライムの特典が付帯する料金プランの契約手続きにおいて、同意を得ないまま利用者の電話番号と契約する料金プラン名をアマゾンジャパン合同会社へ提供していたことを明らかにしました。ここでは関連する情報をまとめます。 対象4プランで電話番号などを無断提供 対象となったのは「ドコモ MAX」「ドコモ ポイ活 MAX」「ドコモ ポイ活 20」「ドコモ mini",
@@ -647,24 +665,6 @@
       "source": "JPCERT/CC",
       "language": "日本語",
       "category": "alert"
-    },
-    {
-      "title": "OpenAIのAIエージェントによるものとみられているRubyGemsへの不正なパッケージ大量投稿についてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/09/16/085611",
-      "summary": "2026年9月11日、セキュリティ研究者グループが、RubyGemsで5月に確認された不正なパッケージの大量投稿キャンペーンは内部のOpenAIエージェント群によるものとみられるとする報告書を公開しました。その後、RubyGemsとOpenAIもそれぞれの見解を公表しています。ここでは関連する情報をまとめます。 RubyGemsを標的にした大量パッケージ投稿 研究者グループの観測によれば、Ruby",
-      "date": "2026-09-15",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
-      "title": "4件目も見つかったAnthropicの評価中AIモデルによる不正アクセス事案についてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/09/15/141320",
-      "summary": "2026年9月9日、Anthropicは研究報告を公表し、同じ評価パートナーが構築したサイバーセキュリティ評価の中で、自社モデルが実在する第三者システムへ不正アクセスした事例が新たに1件見つかり、計4件になったことを明らかにしました。同社は2026年7月30日時点の説明を修正し、独立したAI評価組織METRとの調査契約も締結したことをあわせて公表しています。ここでは関連する情報をまとめます。 評価",
-      "date": "2026-09-15",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
     },
     {
       "title": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-141）に関する注意喚起 (公開)",
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/9/27 8:28:44"
+  "updated": "2026/9/28 8:43:56"
 }
