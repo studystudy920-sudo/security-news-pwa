@@ -1,31 +1,4 @@
 {
-  "notifications": [
-    {"type": "newsletter", "from": "日経ビジネス", "subject": "中国製ヒト型ロボ、世界シェア8割／ニデック、減損6321億円 - 日経ビジネス（10/1）", "snippet": "家庭のサブスク支出15年で1.6倍／カスハラ対策義務化 Editor's EYE ヒューマノイドの競争は、EVがたどった道を思わせます。中国勢はEVで築いた部品供給網や量産力を武器に…", "date": "2026-10-01 05:32", "messageId": "1a0f404a34348b8d"},
-    {"type": "newsletter", "from": "日経ビジネス", "subject": "混迷ニデック、新社長は「ミニ永守型」／米中首脳「作り笑いの緊張緩和」 - 日経ビジネス（9/30）", "snippet": "鈴木敏文氏は、朝礼「昼」改／スペースX流IT開発 Update 夕刊 混迷のニデック、岸田社長が辞任 後任に「ミニ永守型」戒田理夫氏…", "date": "2026-09-30 17:19", "messageId": "1a0f165765c49471"},
-    {"type": "newsletter", "from": "日経クロステック IT注目記事", "subject": "FDEに5つの疑問、客先常駐SEとの違い／AIの年間予算が半年弱で枯渇「トークン爆発」：日経クロステック IT注目記事メール", "snippet": "NTTデータ、AI駆動で支援物資管理システム／AIが発見した脆弱性は約3万件、修正済みはわずか421件／中国にもAI脅威論、軸は「政権の安全」／統計数理研がプライバシー保護の新技術…", "date": "2026-09-30 16:34", "messageId": "1a0f13c74e5a2f01"},
-    {"type": "newsletter", "from": "日経NETWORK倶楽部", "subject": "「思った通りに制御したい」ならAIエージェントには任せられないかも【日経NETWORK倶楽部メール（vol.412）】", "snippet": "強みは「安さ」や「日本語対応」だけじゃない／トラブルの芽は後からでも生まれる 「IT資格とキャリアに関する実態調査」実施中 ～最後のネスペ試験が間近…", "date": "2026-09-30 16:30", "messageId": "1a0f138cc2edd610"},
-    {"type": "newsletter", "from": "日経BP Topics", "subject": "AIを収益・生産性・顧客体験の向上に結びつけた企業は一握り、その差は何か？【日経BP Topics】", "snippet": "10月14日（水）開催セミナー Boomi World Tour 東京 2026…", "date": "2026-09-30 14:34", "messageId": "1a0f0cf063cc74d9"},
-    {"type": "newsletter", "from": "日経クロステック IT最新ニュース", "subject": "統計数理研がプライバシー保護の新技術／NTTデータ、AI駆動で支援物資管理システム：日経クロステック IT最新ニュースメール", "snippet": "中国にもAI脅威論、軸は「政権の安全」／タイムズカー、最大660万件の個人情報が漏洩／脱VMwareの「受け皿」を各社提案…", "date": "2026-09-30 12:54", "messageId": "1a0f07390aac5ecb"},
-    {"type": "newsletter", "from": "日経BP（日経ウーマン）", "subject": "松村北斗×今田美桜　キャリアを重ねて見えてきた「新しい景色」【無料トライアル実施中】法人専用特別プランのご案内", "snippet": "日経ウーマン Web法人プランのご案内。女性の活躍促進やダイバーシティ推進に役立つ情報…", "date": "2026-09-30 12:20", "messageId": "1a0f0540175af670"},
-    {"type": "newsletter", "from": "日経ビジネス", "subject": "新たな気づき1位　EV市場成長の第2幕／2位　オードリー・タン氏の警告 - 日経ビジネス（9/30）", "snippet": "オリンパス子会社「ジョブ型リストラ」／AIを「親友」にするな 8月新たな気づきがあった記事ランキング…", "date": "2026-09-30 12:12", "messageId": "1a0f04c6903a5e8f"},
-    {"type": "newsletter", "from": "日経BP 調査・分析レポート", "subject": "◆光電融合/シリコンフォトニクス未来戦略◆設計技術、光集積/製造技術の未来ほか", "snippet": "『光電融合/シリコンフォトニクス未来戦略』技術・市場展望とビジネスチャンス データセンターのデバイス設計・製造…", "date": "2026-09-30 12:08", "messageId": "1a0f048c39cf85a4"},
-    {"type": "newsletter", "from": "日経ビジネス エグゼクティブ研修", "subject": "著名アクティビスト「セス・フィッシャー氏（オアシス・マネジメントCIO）」が来日！日本企業の経営・統治手法を独自分析！（日経ビジネス・エグゼクティブ研修）", "snippet": "日経ビジネスが、実践的な「アクティビスト対策講座」を11月に開講。企業防衛戦略の要諦…", "date": "2026-09-30 11:41", "messageId": "1a0f030288063bd7"},
-    {"type": "newsletter", "from": "NIKKEI Tech Foresight", "subject": "【2ヵ月無料キャンペーン中】GPU間は光接続へ、銅線限界「今が分岐点」　NVIDIA・TSMC　/ 車載LiDAR淘汰の後　苦しい日米欧、中国はロボでも急成長　ほか", "snippet": "10/28（水）まで 2ヵ月無料！秋割キャンペーン実施中 NIKKEI Tech Foresight LIVE開催決定 AI半導体、変革期を占う…", "date": "2026-09-30 11:34", "messageId": "1a0f02a042e0dde0"},
-    {"type": "newsletter", "from": "日経不動産マーケット情報", "subject": "野村不動産、築地の大学校舎を取得/　那須と箱根のホテル4物件を売却、日本ハウスHD＜日経不動産マーケット情報＞", "snippet": "日経不動産マーケット情報の注目記事を一挙ご紹介します。【売買】築地の大学校舎を取得、野村不動産…", "date": "2026-09-30 11:34", "messageId": "1a0f029fa28affab"},
-    {"type": "newsletter", "from": "日経クロステック Active", "subject": "サイバー攻撃に対抗する「行動解析AI」、従業員のメールに潜む異常を検知：日経クロステック Active", "snippet": "フィッシングメールのターゲットは経営者／レガシー言語を知る社員がいなくなる問題への対策／日本IBMとNECのメインフレーム活用策…", "date": "2026-09-30 09:40", "messageId": "1a0efc13562f5ed2"},
-    {"type": "newsletter", "from": "日経BP Topics", "subject": "AI活用の全社展開に成功した自動車部品メーカー、効果を発揮した施策とは？【日経BP Topics】", "snippet": "AI・データ活用に関するおすすめ情報をお届けします(PR) AI活用の全社展開に成功した自動車部品メーカー…", "date": "2026-09-30 09:33", "messageId": "1a0efbb3e33c0d41"},
-    {"type": "newsletter", "from": "日経BP セミナー", "subject": "コンタクトセンター2026年の羅針盤、AI活用最前線を一挙公開（参加特典あり）【BPセミナー】", "snippet": "AI時代のコールセンター/コンタクトセンター ソリューション2026 ～顧客の声を企業戦略・製品開発に活かす～…", "date": "2026-09-30 08:37", "messageId": "1a0ef87a00dbb191"},
-    {"type": "newsletter", "from": "日経BP Topics", "subject": "【DL特典あり】クラウド移行でコスト半減の実例も、確実に成果をあげるための3つのポイント【日経BP Topics】", "snippet": "クラウドに関するおすすめ情報(PR) コストが半減した例も、クラウド移行成功の鍵は徹底したアセスメントにあり…", "date": "2026-09-30 08:34", "messageId": "1a0ef856c86d8d20"},
-    {"type": "newsletter", "from": "日経クロステック Active", "subject": "片山さつき財務大臣が基調講演、「AI国家戦略時代」に求められる変革力：日経クロステック Active", "snippet": "富士通メインフレームは残り約500台／居残り理由の未入力で叱られた／基準生産性は「技術要件」で揺れる…", "date": "2026-09-30 08:34", "messageId": "1a0ef84aa0317167"},
-    {"type": "newsletter", "from": "日経クロステック Active", "subject": "エヌビディアが語る「オンプレ生成AI」の未来、その歩みと今後の展望：日経クロステック Active", "snippet": "今求められる「両利きの経営×AI」とは？／工数見積もりの精度を5つの項目でチェック／出向するIT子会社の勤務ルールに不満…", "date": "2026-09-30 07:49", "messageId": "1a0ef5c3f94c3d2c"},
-    {"type": "newsletter", "from": "日経BP Mail", "subject": "片山財務相が語るAI時代の統治とは？ 日本企業の変革は果たして進むか【日経BP Mail】", "snippet": "全員にAmazonギフトカード進呈(PR) ServiceNow国内最大級DXフォーラム開催…", "date": "2026-09-30 07:48", "messageId": "1a0ef5ae9313e5b3"},
-    {"type": "newsletter", "from": "日経BP Topics", "subject": "【記事閲覧特典あり】社員を変革に巻き込む、トップリーダーたちが明かすDX成功の鉄則【日経BP Topics】", "snippet": "セミナー動画アーカイブ 【経営課題解決シンポジウムPREMIUM】DX & AI Insight 2026…", "date": "2026-09-30 07:47", "messageId": "1a0ef5a0e1bc0b64"},
-    {"type": "newsletter", "from": "日経BP セミナー", "subject": "明日開催！製造現場の未来を変えるAI活用戦略セミナー【BPセミナー】", "snippet": "Automotive Digital Forum 2026 ～人×AIが共に進化し続ける次世代ものづくりDX～ 10月1日（木）14:30-16:50 開催…", "date": "2026-09-30 07:44", "messageId": "1a0ef572fe76061f"},
-    {"type": "newsletter", "from": "日経BP Topics", "subject": "AI推進で直面する「使えるデータがない」問題、解決策は業務のデジタル化【日経BP Topics】", "snippet": "AI・データ活用に関するおすすめ情報(PR) AI活用が進まない原因は「データ不足」にあり…", "date": "2026-09-30 07:42", "messageId": "1a0ef55944aca28d"},
-    {"type": "newsletter", "from": "日経クロステック IT最前線", "subject": "AIの年間予算が半年弱で枯渇、企業を襲う「トークン爆発」：日経クロステック IT最前線", "snippet": "FDEに5つの疑問、客先常駐SEとの違いは／富士通・IBM・日立がAI駆動モダナイズ加速 1年分のAI予算をわずか5カ月半で使い切る…", "date": "2026-09-30 07:11", "messageId": "1a0ef392caafb2a4"},
-    {"type": "newsletter", "from": "日経BP Topics", "subject": "「AI PC」は何がすごいのか、複数タスクや画像生成を処理するNPUの威力【日経BP Topics】", "snippet": "PC／クライアントに関するおすすめ情報(PR) AI PCが本領を発揮する場面とは？ 生産性を高めリスクを抑える仕組みを解説…", "date": "2026-09-30 06:49", "messageId": "1a0ef25255c6de53"},
-    {"type": "newsletter", "from": "日経BP Topics", "subject": "ハードの価格高騰でもDXは止めるな！ なぜハイブリッドクラウドが効くのか【日経BP Topics】", "snippet": "インフラ整備に関するおすすめ情報(PR) ハード高騰でDXが停滞？ ITインフラのコスト問題を解消するクラウド活用術…", "date": "2026-09-30 06:46", "messageId": "1a0ef22a38562767"},
-    {"type": "newsletter", "from": "日経BP Mail", "subject": "【日本発のフィジカルＡＩ】国産ヒューマノイドで世界へ、ロボットスタートアップの挑戦【日経BP Mail】", "snippet": "ヒューマノイド量産化を目指して三菱自動車との協業もスタート(PR) 国産ヒューマノイドで世界へ…", "date": "2026-09-30 06:36", "messageId": "1a0ef18e2735b85b"}
-  ],
-  "updated": "2026-10-01 06:12"
+  "notifications": [],
+  "updated": "2026-10-02 06:12"
 }
