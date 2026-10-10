@@ -1,189 +1,21 @@
 {
   "notifications": [
     {
-      "type": "google",
-      "from": "Google (no-reply@accounts.google.com)",
-      "subject": "Google アカウントが復元されました",
-      "snippet": "アカウントが復元されました studystudy920@gmail.com アカウントのご利用を再開いただきありがとうございます 誰かが変更を行ったためにアカウントがロックされたと考えられる場合は、アカウントを確認し、保護してください。",
-      "date": "2026-10-09 22:00",
-      "messageId": "1a120c06baf41d05"
+      "type": "newsletter",
+      "from": "ISC2 (info@connect.isc2.org)",
+      "subject": "Grow Your Skills with the New Threat Handling Foundations Certificate",
+      "snippet": "Build core competencies in threat handling and DFIR. Detect, Investigate and Respond to Evolving Threats with the NEW Threat Handling Foundations Certificate",
+      "date": "2026-10-11 01:03",
+      "messageId": "1a1268e5a32a0a8b"
     },
     {
       "type": "newsletter",
-      "from": "日経ビジネス (business@nikkeibp.co.jp)",
-      "subject": "特集 ゼンショー、逆転の法則／AIで電力需要急増、原子力PPAも - 日経ビジネス（10/10）",
-      "snippet": "「後発から1位」の力 ゼッテリアでマックに挑む／米国でもすしで市場席巻 2026.10.10 特集 ゼンショー、逆転の法則／AIで電力需要急増、原子力PPAも",
-      "date": "2026-10-10 05:32",
-      "messageId": "1a1225db48525991"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ビジネス (business@nikkeibp.co.jp)",
-      "subject": "ファストリが追うZARAの強さ／「ゼッテリア」マック超えに挑む - 日経ビジネス（10/9）",
-      "snippet": "AI需要で急拡大するメモリー市場／パートにも賞与で離職率低下 Update 夕刊 2026.10.9 ファストリが追うZARAの強さ／「ゼッテリア」マック超えに挑む",
-      "date": "2026-10-09 17:33",
-      "messageId": "1a11fcc3c1a68584"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック (xtech-pickup@nikkeibp.co.jp)",
-      "subject": "国の業務IT環境GSSで不正アクセス／IDCFクラウド障害、別環境での再構築を案内：日経クロステック IT注目記事メール",
-      "snippet": "相次ぐ大規模な情報漏洩、AI使うサイバー攻撃激化の前触れか／ローソンで個人情報漏洩、自動検知すり抜け人手の調査で発覚／中国AI「Qwen」の挙動をローカル環境で試す",
-      "date": "2026-10-09 16:38",
-      "messageId": "1a11f999ee042285"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
-      "subject": "AI活用で躍動するUCC、「コーヒーと顧客」の接点から見えた新たな事実とは？【日経BP Topics】",
-      "snippet": "10月20日（火）開催セミナー ●日経BP Topics：2026/10/09（発信：日経BP） PR Treasure Data Connected World 2026 - Empower",
-      "date": "2026-10-09 13:38",
-      "messageId": "1a11ef4e2716c013"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック (xtech-news@nikkeibp.co.jp)",
-      "subject": "大規模な情報漏洩、AI使う攻撃激化の前触れか／ローソン、個人情報215万件漏洩：日経クロステック IT最新ニュースメール",
-      "snippet": "常識外のランダムグラフ型ネットワーク／企業向けルーター・UTMの導入ランキングを公開／中国AI「Qwen」の挙動をローカル環境で試す ■緊急特集 相次ぐ情報漏洩",
-      "date": "2026-10-09 13:07",
-      "messageId": "1a11ed8287e6fee7"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック (xtech-d@nikkeibp.co.jp)",
-      "subject": "［特集］AI時代こそ在宅勤務からオフィス出社回帰、GMO熊谷正寿会長が対面重視",
-      "snippet": "カバーストーリー「出社回帰の波、シン・オフィス戦略」の執筆を終え、改めて全文を読み返してみて気付いたことがある。「フリーアドレス」という言葉が記事中にほとんど登場しなかった。",
-      "date": "2026-10-09 12:15",
-      "messageId": "1a11ea8f6faccfce"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経ウーマン (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "「ぎりぎり」人間が「すぐやる」人間に変わる方法◆自分時間を生む「正しい手放し方」～日経ウーマン Web 秋の学び応援キャンペーン実施中！～",
-      "snippet": "いつも締め切りぎりぎり、SNSのだらだら見…時間の「悪癖」を断ち切る実践テク 「ぎりぎり」人間が「すぐやる」人間に変わる方法 見積もり時間は3倍に",
-      "date": "2026-10-09 12:11",
-      "messageId": "1a11ea4f79c4cc7c"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "◆世界水素ビジネス未来戦略◆水素利活用の実態・意向調査/640社の回答を分析",
-      "snippet": "『世界水素ビジネス未来戦略』 水素利活用640社・意向調査、コスト低減への道筋 市場規模、水素ビジネス・エコシステム 日経225企業分析",
-      "date": "2026-10-09 11:53",
-      "messageId": "1a11e948ca5e2d8f"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "異業種リーダーとの切磋琢磨｜11月開講　経営人材養成の100日間研修｜日経BP",
-      "snippet": "“変革”を起こせる熱い情熱を持ったリーダーを養成── 日経BPがお送りする次期経営幹部養成プログラム『未来100日道場』。",
-      "date": "2026-10-09 11:48",
-      "messageId": "1a11e9019fb5e058"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BOOK PLUS (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "■みんなのための都市開発とは？",
-      "snippet": "『都市づくりスキーム図鑑 コモンズ生む世界の注目開発21』 北崎朋希 編著 有田智一 監修 都市づくりスキーム研究会 著 全国の書店、オンライン書店で好評発売中！",
-      "date": "2026-10-09 11:47",
-      "messageId": "1a11e8ed39ba5192"
-    },
-    {
-      "type": "newsletter",
-      "from": "NIKKEI Tech Foresight (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "【2ヵ月無料キャンペーン中】核融合の業界地図、4方式と世界プロジェクト　日本は部材/ AI半導体の27年、推論で独自進化　ラピダスにも追い風　ほか",
-      "snippet": "10/28（水）まで 2ヵ月無料！秋割キャンペーン実施中 10月22日（木）12:10～13:00 【NIKKEI Tech Foresight LIVE開催決定！】 AI半導体、変革期を占う",
-      "date": "2026-10-09 11:35",
-      "messageId": "1a11e848566b3744"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経コンピュータ (tgml-nmsys@nikkeibp.co.jp)",
-      "subject": "ダークサイドAI/ 1000万円超は6社に 給与ランキング2026【日経コンピュータ10/1号】",
-      "snippet": "「日経コンピュータ」2026年10月1日号はこちら いつもご愛読いただき、誠にありがとうございます。日経コンピュータは2026年9月17日号より、製本方式を「中綴じ」に変更",
-      "date": "2026-10-09 11:34",
-      "messageId": "1a11e839534f98cb"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Active (xtech-ac@nikkeibp.co.jp)",
-      "subject": "経営層を名指しで狙うフィッシング攻撃、新たな脅威「VENOM」の正体：日経クロステック Active",
-      "snippet": "メール攻撃を防ぐ現場の手間を削減／迫る「AIがAIからモノを買う」時代／AIを相談相手にして判断材料を増やす／Wi-Fiルーターは購入とレンタルどちらがお得？",
-      "date": "2026-10-09 09:37",
-      "messageId": "1a11e185926a89ba"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
-      "subject": "ITサポート業務にこそAI、解決策の提案から文書化・再利用まで一挙に省力化【日経BP Topics】",
-      "snippet": "AI・データ活用に関するおすすめ情報をお届けします●日経BP Topics(PR) 注目の資料 ITサポート業務にこそAI、解決策の提案から文書化・再利用まで一挙に省力化",
-      "date": "2026-10-09 09:32",
-      "messageId": "1a11e13e36e590ff"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Active (xtech-ac@nikkeibp.co.jp)",
-      "subject": "あなたはAIに使われる人材？ それともAIを使いこなす人材？ その分かれ目は：日経クロステック Active",
-      "snippet": "もれなくAmazonギフトカード進呈！／Wi-Fiルーターは購入とレンタルどちらがお得？／プロジェクトの「玉砕」防ぐ／AIエージェントが暴走し本番データを全削除",
-      "date": "2026-10-09 08:35",
-      "messageId": "1a11ddf122c074d3"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
-      "subject": "＜記事閲覧でギフトが当たる＞AIエージェントは機能しない！ そう言い切れるワケと実務的AIの実現方法とは【日経BP Topics】",
-      "snippet": "★Amazonギフトカードが当たる●日経BP Topics：2026/10/09（発信：日経BP） PR 【経営課題解決シンポジウムPREMIUM】 DX & AI Insight",
-      "date": "2026-10-09 08:33",
-      "messageId": "1a11dddbeecac327"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
-      "subject": "ランサム攻撃を受けても事業を止めない、「サイバーBCP」をいかに確立するのか【日経BP Topics】",
-      "snippet": "★オンデマンドセミナー動画 ●日経BP Topics：2026/10/09（発信：日経BP） PR 【オンデマンドセミナー動画】 サイバーインテリジェンス セキュリティーマネジメント",
-      "date": "2026-10-09 07:45",
-      "messageId": "1a11db1d5bcc3643"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック Active (xtech-ac@nikkeibp.co.jp)",
-      "subject": "その在庫の量は本当に適正？ 収益を圧迫するムダを断つ在庫管理の工夫：日経クロステック Active",
-      "snippet": "セブン‐イレブンが仕掛けるAI戦略／信頼を損なったNTTドコモのネットワーク品質／若手の離職「やりがいなし」がトップに／企業AIの「闇落ち」を防げ",
-      "date": "2026-10-09 07:43",
-      "messageId": "1a11dafc9952aec9"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経クロステック IT最前線 (xtech-it@nikkeibp.co.jp)",
-      "subject": "中国AI「Qwen」の挙動をローカル環境で試す、小型のモデルでも実用的：日経クロステック IT最前線",
-      "snippet": "国の業務IT環境GSSで不正アクセス／企業向けルーター・UTMの導入ランキング 2026.10.9 中国AI「Qwen」の挙動をローカル環境で試す、小型のモデルでも実用的",
-      "date": "2026-10-09 07:04",
-      "messageId": "1a11d8bae1465959"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BPセミナー (tgml-10@nikkeibp.co.jp)",
-      "subject": "コンタクトセンター2026年の羅針盤、AI活用最前線を一挙公開（参加特典あり）【BPセミナー】",
-      "snippet": "アンケート回答でもれなくAmazonギフトカード進呈(PR) AI時代のコールセンター/コンタクトセンター ソリューション2026 ～顧客の声を企業戦略・製品開発に活かす～",
-      "date": "2026-10-09 06:47",
-      "messageId": "1a11d7c825a7b5d6"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP Mail (tgml-10@nikkeibp.co.jp)",
-      "subject": "片山さつき氏がAIと変革の未来を語る、経営・現場へのメッセージ 【日経BP Mail】",
-      "snippet": "全員にAmazonギフトカード進呈(PR) 「日本企業のAI活用・業務変革事例が一堂に集まる、ServiceNow国内最大級DXフォーラム開催！」",
-      "date": "2026-10-09 06:46",
-      "messageId": "1a11d7b73f2c7866"
-    },
-    {
-      "type": "newsletter",
-      "from": "日経BP Topics (tgml-10@nikkeibp.co.jp)",
-      "subject": "AI駆動開発で生産性は10倍以上に！ 最大のメリットが効率化だけでない理由とは【日経BP Topics】",
-      "snippet": "AI・データ活用に関するおすすめ情報をお届けします●日経BP Topics(PR) ここまで来た「AI駆動開発」、先行企業CEOが語る最大のメリットと限界点",
-      "date": "2026-10-09 06:44",
-      "messageId": "1a11d79c52c9280e"
+      "from": "日経クロステック (xtech-sp@nikkeibp.co.jp)",
+      "subject": "【週刊日経クロステック Special】SDV開発に先手を取る次世代開発基盤とは ほか",
+      "snippet": "週刊日経クロステック Special 2026.10.10 今週のピックアップ情報－おすすめサイト：メールの「すり抜け攻撃」を防ぐ次の一手 ほか",
+      "date": "2026-10-10 09:08",
+      "messageId": "1a1232403bbd337c"
     }
   ],
-  "updated": "2026-10-10T06:15:51+09:00"
+  "updated": "2026-10-11 06:12"
 }
