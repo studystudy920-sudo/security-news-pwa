@@ -1,12 +1,111 @@
 {
   "articles": [
     {
-      "title": "FBI Arrests Founder of Ransomware Negotiation Firm",
+      "title": "AnthropicのAIモデルが米国政府サイトへ意図しない送信を行っていた事案についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/012014",
+      "summary": "2026年10月9日、Anthropicは、評価や社内利用の中で自社のAIモデルClaudeが実在のウェブサイトやシステムに対して意図しない行動をとっていたとする報告を公表しました。一部は米国の政府機関のサイトが関係するとしています。ここでは関連する情報をまとめます。 実在のサイトに作用した4類型の行動 Anthropicは2026年10月9日、「Investigating unintended ",
+      "date": "2026-10-10",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "Yandexのデータセンター障害についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/011521",
+      "summary": "2026年10月8日、ロシアIT大手が運営するYandex Cloudはru-central1-bで電源が途絶し、サービスが利用できない状態になっていると告知しました。その後、Yandexはデータセンターがドローン攻撃を受けて火災が起き、稼働が完全に停止したと公表しています。ここでは関連する情報をまとめます。 ru-central1-b の電源障害 以下、Yandex Cloudの告知の時刻はモス",
+      "date": "2026-10-10",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "国内で相次ぐ不正アクセスに対する注意喚起についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/11/004353",
+      "summary": "2026年10月7日から9日にかけて、個人情報保護委員会、JPCERT/CC、国家サイバー統括室、IPAなどの各機関が、国内組織で相次ぐ不正アクセスによる個人情報の漏えいを受けた注意喚起を公表しました。ここでは関連する情報をまとめます。 BIツールや従業員向けシステムも被害に JPCERT/CCは10月8日に公開した注意喚起で、「2026年9月前後」に国内組織で不正アクセスによる個人情報等の漏えい",
+      "date": "2026-10-10",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
+      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
+      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to i",
+      "date": "2026-10-10",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
+      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
+      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misa",
+      "date": "2026-10-10",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
       "url": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
       "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that ",
       "date": "2026-10-10",
       "source": "Krebs on Security",
       "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on th",
+      "date": "2026-10-10",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
+      "summary": "The cyberattacks that shook the South Korean financial sector earlier this month were launched by a Chinese hacker using the ARTEX AI penetration testing suite and Claude agents. [...]",
+      "date": "2026-10-10",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
+      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
+      "summary": "Traditional attack surface management helps organizations discover exposed assets, but visibility alone is not enough to address threats. Criminal IP introduces AITEM, an AI-powered approach that conn",
+      "date": "2026-10-10",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33414",
+      "summary": "The Traffic Light Protocol (TLP)&#x5b;1&#x5d;, which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if ",
+      "date": "2026-10-10",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "サイバーセキュリティー強化を図る米政府 中露の攻撃で高まる懸念 - Forbes JAPAN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zQ3AxZGxuUnhaNnR5VVg3dXlmdUd5YnA1QjJzQWExS3NqbU9ZdE1zNkM2YzE4RFRBQzhnV0lJa2I3Y0VlUWV1ZEtXN3B5MWVKcWdPc1dMWnk1UQ?oc=5",
+      "summary": "サイバーセキュリティー強化を図る米政府 中露の攻撃で高まる懸念&nbsp;&nbsp;Forbes JAPAN",
+      "date": "2026-10-10",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバーセキュリティ強化を図る米政府 中露の攻撃で高まる懸念 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54cXlUR1YtUmtMQjY3cXFlY1hJSnBYLUtDV0t6dWJ3Q2UxXzhOQ1hydGRTanpDc0ZGd09aZ1RBWjU3UE55c3RvdUJ1SEJPdkJhbC1ybTNEdWFmWTRiLVVUREhMRFA5NzhXSDJ4ZngzWURIVGhXNWZ0LVlGcGVveUU?oc=5",
+      "summary": "サイバーセキュリティ強化を図る米政府 中露の攻撃で高まる懸念&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-10-10",
+      "source": "Google News JP",
+      "language": "日本語",
       "category": "news"
     },
     {
@@ -118,24 +217,6 @@
       "category": "news"
     },
     {
-      "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
-      "url": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
-      "summary": "As enterprises race to deploy autonomous AI agents to accelerate business, a new report reveals they are tethered to security architectures built for a different era. The \"Horizons of Identity Securit",
-      "date": "2026-10-09",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "GoBalance Flaw Lets Attackers Hijack .onion Addresses by Recovering Tor-Format Keys",
-      "url": "https://thehackernews.com/2026/10/gobalance-flaw-lets-attackers-hijack.html",
-      "summary": "A bug in GoBalance, a tool many dark-web sites use to stay reachable during attacks, lets anyone work out the secret key that controls a site's .onion address using only public information, and then t",
-      "date": "2026-10-09",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
       "summary": "Hackers are abusing legitimate Bing search-result redirects as click URLs in Google search ads to direct users to fake Claude installers that deliver ClickFix attacks. [...]",
@@ -199,33 +280,6 @@
       "category": "news"
     },
     {
-      "title": "Microsoft: Outdated Windows devices will stop receiving security updates",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-outdated-windows-devices-will-lose-security-protection-next-year/",
-      "summary": "Microsoft says devices running unsupported versions of Windows will stop receiving security updates after next year's Windows Update certificate rotation. [...]",
-      "date": "2026-10-09",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Citrix warns admins to patch new NetScaler RCE flaw immediately",
-      "url": "https://www.bleepingcomputer.com/news/security/citrix-warns-admins-to-patch-new-netscaler-rce-flaw-immediately/",
-      "summary": "Citrix has warned IT administrators to patch systems immediately against a new critical vulnerability affecting NetScaler ADC networking appliances and NetScaler Gateway secure remote access solutions",
-      "date": "2026-10-09",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers get $1,262,000 for 98 zero-days at Pwn2Own Ireland",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-earn-1262000-for-98-zero-days-at-pwn2own-ireland/",
-      "summary": "The Pwn2Own Ireland 2026 hacking contest has concluded, with hackers collecting $1,262,000 in rewards after exploiting 98 zero-day flaws. [...]",
-      "date": "2026-10-09",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, October 9th, 2026 https://isc.sans.edu/podcastdetail/10130, (Fri, Oct 9th)",
       "url": "https://isc.sans.edu/diary/rss/33412",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -235,9 +289,18 @@
       "category": "analysis"
     },
     {
-      "title": "「サイバー空間は非常事態だ」と官民連携での対応強化を政府に要請…自民・国家サイバーセキュリティ戦略本部 - 読売新聞",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xeFJmZ3dRRXdOV3RacV8tSDVzTFNKY01Kc0w5WXBreWxIY0Y1QzktU1puWEttTUpqb0x1MS1MbzMwSXF6ODNTakpXbEN6Z3J5eWlkcjlCd1ZhS0RZaHdlOGdZcGZYUQ?oc=5",
-      "summary": "「サイバー空間は非常事態だ」と官民連携での対応強化を政府に要請…自民・国家サイバーセキュリティ戦略本部&nbsp;&nbsp;読売新聞",
+      "title": "サイバー攻撃で急遽テーマ化｢セキュリティ｣関連銘柄の探し方 - 四季報オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mX09DSk1EUGtkVk5GbWhTc3U1MVU4bWozQmhwSW83d2Zta2duT2tIajhJRG10SUZLY09fczRfSVctb1BCQnNHcGxNSElkcksxTWE4ZmEzNA?oc=5",
+      "summary": "サイバー攻撃で急遽テーマ化｢セキュリティ｣関連銘柄の探し方&nbsp;&nbsp;四季報オンライン",
+      "date": "2026-10-09",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "■りゅうせきフロントラインがサイバーセキュリティー講座 - 琉球新報デジタル",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBIWWF6RjBVdkE4OEFUMVlvZ2hYQ2RFVTRVRWtXV2Qtb0otOFg5ci1HbW9hSTZxa1FXZHlwZ0txSFhZV1N1QUd5Um9mU29IUXZKNUp2MG43NmdQblVncE9tak13?oc=5",
+      "summary": "■りゅうせきフロントラインがサイバーセキュリティー講座&nbsp;&nbsp;琉球新報デジタル",
       "date": "2026-10-09",
       "source": "Google News JP",
       "language": "日本語",
@@ -253,27 +316,18 @@
       "category": "news"
     },
     {
-      "title": "ツーストーンが買い気配､サイバーセキュリティ領域参入を材料視 - 四季報オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zb2Vad0Z3cXVSM0lYaHEzcU9wZHRoMGpDM2FoQk5CeGJLTS04X0pGSUdFTWNzblR3bVEwaUJybkhnaG03YTJFLU15TmdNTXdpLUQ2SXlQZw?oc=5",
-      "summary": "ツーストーンが買い気配､サイバーセキュリティ領域参入を材料視&nbsp;&nbsp;四季報オンライン",
+      "title": "「サイバー空間は非常事態だ」と官民連携での対応強化を政府に要請…自民・国家サイバーセキュリティ戦略本部 - 読売新聞",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1xeFJmZ3dRRXdOV3RacV8tSDVzTFNKY01Kc0w5WXBreWxIY0Y1QzktU1puWEttTUpqb0x1MS1MbzMwSXF6ODNTakpXbEN6Z3J5eWlkcjlCd1ZhS0RZaHdlOGdZcGZYUQ?oc=5",
+      "summary": "「サイバー空間は非常事態だ」と官民連携での対応強化を政府に要請…自民・国家サイバーセキュリティ戦略本部&nbsp;&nbsp;読売新聞",
       "date": "2026-10-09",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "石川県警も企業にパスワードなど対策の徹底を呼び掛け 官民一体となってサイバーセキュリティ強化へ協議会 - TBS NEWS DIG",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12ZzM2WlZSWG5XR0tvaVlfV2J5UTdjWE5CUTVEZ3dVOVJzVjZ0eC1LMEg3X3hmLTF4UEhyeDRzOVpiLVY1MkJMY28wOGZkbHpmYlBaamxBTklReHUyTVg4eDhPZ2N5TkU?oc=5",
-      "summary": "石川県警も企業にパスワードなど対策の徹底を呼び掛け 官民一体となってサイバーセキュリティ強化へ協議会&nbsp;&nbsp;TBS NEWS DIG",
-      "date": "2026-10-09",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "ギブリー、AI時代のサイバーセキュリティ人材を定義する「サイバーセキュリティスキル標準 2026」を公開 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rakpueXJYWVQwVGNRMWJUX0RfTmZqeE1zcVYxdmFtTlo5VWthSVgxeFl5YThBa0xIb3hjQ0hsT196em93djdzN1hUSXY1Vm0xaHBzNGhZYzVxd1pHNS0xMW9Rd1FnQmY4R0E?oc=5",
-      "summary": "ギブリー、AI時代のサイバーセキュリティ人材を定義する「サイバーセキュリティスキル標準 2026」を公開&nbsp;&nbsp;PR TIMES",
+      "title": "Tenable日本法人トップが説く「AI時代のサイバーセキュリティで何が起きるか」 - ZDNET Japan",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tSE5XVzNqNzRyYWkzSnBzMEc3UjdjZktCZVRJZXBsLXdjeDRSdjU1TE9Sd1FzVVdvOGxfQVlNNU0yZFE3eHRiU0JncEgyamVmd0FzN1pR?oc=5",
+      "summary": "Tenable日本法人トップが説く「AI時代のサイバーセキュリティで何が起きるか」&nbsp;&nbsp;ZDNET Japan",
       "date": "2026-10-09",
       "source": "Google News JP",
       "language": "日本語",
@@ -379,27 +433,9 @@
       "category": "news"
     },
     {
-      "title": "「日本のセキュリティは世界最悪」国際ハッカー集団・Qilinが単独取材で指摘した日本の脆弱性 もし“暴走AI”がハッキングしたら…【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9RWUJUM0FmdkhlVHFmaGthVy02YmV4cDFNRkdBV3BObGlhWWJ2eFp1NVo0SjBDNVYtUFd4MG5ZYU93S21zcDRGWFZGZFIzLTdwd0NIRUZGcEZ5eHNZVkZOUkUtYUlOVkpwLXVrQXhDd2doSnBkLXdrWkFrVmZ5LW8?oc=5",
-      "summary": "「日本のセキュリティは世界最悪」国際ハッカー集団・Qilinが単独取材で指摘した日本の脆弱性 もし“暴走AI”がハッキングしたら…【news23】（TBS NEWS DIG Powered by JNN）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-10-08",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "サイバー攻撃で495の企業や自治体で影響 独自検証“AIハッキング”の実態 - テレ朝NEWS",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE93MEpZQy1zMmREcW5TRUNjTGJDc2Y5UHl1NWs3dHNMVFZNSlEwZ0NrNGlSLVlObGFPckJKaW1ncXJmMEZHTk94VERQWGt4LVVoOHBGOTJzRnQ0eDhOdUxKSVU4Z0tJM2kzRzBpTjE2Qy1fQQ?oc=5",
-      "summary": "サイバー攻撃で495の企業や自治体で影響 独自検証“AIハッキング”の実態&nbsp;&nbsp;テレ朝NEWS東京都がサイバーセキュリティー強化へ 全国で相次ぐ不正アクセスによる情報漏洩を受け&nbsp;&nbsp;ｄメニューニュース「情報セキュリティ」が６位、全世界で不正アクセスと情報漏洩が拡大中＜注目テーマ＞&nbsp;&nbsp;株探",
-      "date": "2026-10-08",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "CSC、「2026年サイバーセキュリティ・ブレイクスルー・アワード」の脅威インテリジェンス・イノベーション部門で受賞 - 時事ドットコム",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9QY3BTSTJRWVVsYU9rcFBVZGZxQXNFdHRoNEJyamZHdzd3V09kVWFTYjEyZjNoQUxjQjJSWlY0aldXTmtjSE12X1NqMGxkV19HRFlSTmxRX1laMm1POG5jOVBHMA?oc=5",
-      "summary": "CSC、「2026年サイバーセキュリティ・ブレイクスルー・アワード」の脅威インテリジェンス・イノベーション部門で受賞&nbsp;&nbsp;時事ドットコム",
+      "summary": "サイバー攻撃で495の企業や自治体で影響 独自検証“AIハッキング”の実態&nbsp;&nbsp;テレ朝NEWS",
       "date": "2026-10-08",
       "source": "Google News JP",
       "language": "日本語",
@@ -532,33 +568,6 @@
       "category": "vuln"
     },
     {
-      "title": "シンテックホズミの元社員2人が逮捕された営業秘密漏えい事件についてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/07/072551",
-      "summary": "2026年10月5日、愛知県警は、トヨタ自動車の子会社シンテックホズミの元社員の男女2人を、同社の営業秘密を漏らしたなどとして不正競争防止法違反の疑いで逮捕し、発表しました。ここでは関連する情報をまとめます。 元上司と元部下の2人を逮捕 シンテックホズミは愛知県みよし市に本社を置く搬送用機械装置メーカーで、株主はトヨタ自動車(70%)など(出典: 1, 2)。県警は5日、同社の元社員で元上司の男(",
-      "date": "2026-10-06",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
-      "title": "AIペネトレーションテストツール「ARTEX」についてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/06/121225",
-      "summary": "2026年10月2日、韓国のセキュリティ企業の研究者が、韓国国内の複数の対象への攻撃で使われたウェブサーバーの一部のHTMLから「ARTEX」の名を含む文字列が確認されたとSNSに投稿しました。ARTEXはGitHubで公開されていたAIペネトレーションテストツールです。ここでは関連する情報をまとめます。 ARTEXとは ARTEXは、開発者がGitHubで公開していたオープンソースのAIペネトレ",
-      "date": "2026-10-06",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
-      "title": "韓国の金融機関で相次いだ不正アクセスについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/06/103019",
-      "summary": "2026年10月1日、新韓銀行は、顧客の融資申込に関する情報が外部に流出したと公表しました。その後、他の金融機関でも情報流出の公表が相次ぎ、金融当局による金融業界全体への緊急点検の要請も行われています。ここでは関連する情報をまとめます。 複数の金融機関で情報流出 新韓銀行は10月1日、融資募集人向けのサービスから約2万5,000人の情報が流出したと公表した(出典: 8, 9)。その後、他の金融機関",
-      "date": "2026-10-06",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
       "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
       "url": "https://isc.sans.edu/diary/rss/33400",
       "summary": "It seems that a trend started&#x26;#xe2;&#x26;#x80;&#x26;#xa6; I continue my journey discovering more RMM (\"Remote Management &#x26; Monitoring\") tools abused by threat actors&#x21; A few days ago, I ",
@@ -653,15 +662,6 @@
       "url": "https://isc.sans.edu/diary/rss/33396",
       "summary": "For an experiment, I created a script &#x5b;1&#x5d; that parses and send the TTY logs collected from actors or bots activity that run various commands after they successfully login the DShield sensor.",
       "date": "2026-10-05",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "User Agent Strings Curiosities, (Sun, Oct 4th)",
-      "url": "https://isc.sans.edu/diary/rss/33394",
-      "summary": "Sometimes I have to smile, or my interest is triggered, when I review new User Agent Strings in the honeypot logs.&#xd;",
-      "date": "2026-10-04",
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/10/10 9:40:08"
+  "updated": "2026/10/11 9:10:39"
 }
