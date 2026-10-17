@@ -1,6 +1,51 @@
 {
   "articles": [
     {
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded ",
+      "date": "2026-10-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud B",
+      "date": "2026-10-17",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants. [...]",
+      "date": "2026-10-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system. [...]",
+      "date": "2026-10-17",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "相次ぐ不正アクセス､注目の｢サイバーセキュリティ｣12銘柄 - 四季報オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XVUdTQ3d0VUFKZzZEWTlBVWVyM240X3RtWVNBVkhtamFxMGVOUF9iOE9tajFRb2NJbG5TWlhmTDFLQXRpRFhuVktuZ2xNYTJYV0xrdGsyWQ?oc=5",
+      "summary": "相次ぐ不正アクセス､注目の｢サイバーセキュリティ｣12銘柄&nbsp;&nbsp;四季報オンライン",
+      "date": "2026-10-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "CISA ICS Advisory / ICS Medical Advisory（2026年10月15日）",
       "url": "https://jvn.jp/vu/JVNVU96928590/",
       "summary": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
@@ -244,24 +289,6 @@
       "category": "news"
     },
     {
-      "title": "【報道関係者向け】サイバーインシデント説明会｜VLCセキュリティ - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1LalJIX3dNNzdFSFRPQjNEMXhDaEJ2MTJ1THp4N1luams0N1pHUzZfRmY3X2hHNGhaSzVBSkFsZm5WOVBKeDFtcHRLcXFJVWhGRnowMURhUjJHSzAzVlJFMV9xcEQ1WlU2cFE?oc=5",
-      "summary": "【報道関係者向け】サイバーインシデント説明会｜VLCセキュリティ&nbsp;&nbsp;PR TIMES",
-      "date": "2026-10-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【サイバーセキュリティレポート】狙われたのは自社ではなくても被害は起きる ～2026年9・10月 国内情報漏洩117件の分析～ - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE14MmJTVWlmaUlVbWVMMXFUbEYwd0dqMzdMRzNCTzVQdEtjRS0zQUZfY2tCSzhSbXBTay05NlNyU3Z3NC1oTTBwZ0l5UXRiZU5PY1p5V1Z4dXI5Qi1xaHFIamVzWFkxNVNkLWRwNUhsOGdKdw?oc=5",
-      "summary": "【サイバーセキュリティレポート】狙われたのは自社ではなくても被害は起きる ～2026年9・10月 国内情報漏洩117件の分析～&nbsp;&nbsp;Infoseek",
-      "date": "2026-10-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "お知らせ：JPCERT/CC Eyes「連続不正アクセス事案の攻撃手法に関する調査」",
       "url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
       "summary": "",
@@ -334,45 +361,9 @@
       "category": "analysis"
     },
     {
-      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-      "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud ",
-      "date": "2026-10-15",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-      "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories. The rest gets inter",
-      "date": "2026-10-15",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
       "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
       "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
-      "date": "2026-10-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Android gets AI defenses against messaging scams, fake calls",
-      "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
-      "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices. [...]",
-      "date": "2026-10-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
-      "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims' internet connections through a commercial residential proxy network. [...]",
       "date": "2026-10-15",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -451,27 +442,9 @@
       "category": "alert"
     },
     {
-      "title": "女子高専生がサイバーセキュリティ演習に挑戦、NECが実践型イベントを開催（こどもとIT） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9fZUFmY1VzZDJvdGFiWkkxdzNHN3h1Sm14bjE5bzVNcDZhMlJWT3RqYlNJM1d6RHUzOThUbFJSWjZsdk9hYmZoaGp6QS1TUVRkd0hld2VpRTZ1TUNKT09hMjFBRVh6RWVKS21tX2k2SDdtdTBGTDVRV1A4dE1zVXc?oc=5",
-      "summary": "女子高専生がサイバーセキュリティ演習に挑戦、NECが実践型イベントを開催（こどもとIT）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-10-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "NEC、高専女子学生向けセキュリティイベント「2026 K-SEC CAMP FOR GIRLS」を開催 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAzaDVfRjRlR3hnQkNtbXFfSzRGU2pUYnNScmtHYldHUjdQbDRBMThhMDJ2ZlJJcHF2VGdYX3BfMHJmMjJQREJOXzhjdVhMUENzcmgtQzRiaHpjbWw0bnREMkxtaXBXV21lcHc?oc=5",
-      "summary": "NEC、高専女子学生向けセキュリティイベント「2026 K-SEC CAMP FOR GIRLS」を開催&nbsp;&nbsp;PR TIMES",
-      "date": "2026-10-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "女子高専生がサイバーセキュリティ演習に挑戦、NECが実践型イベントを開催 - 千葉テレビ放送株式会社",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LQ08waU1nN2ZndGFLazlvVjc2aHBMdVpNbV9PRUxHQXBnMWE1SGhXa0Q5dmZWNDczUzRGQUNBRG5GUzVPT2RFR3ZDV3F5RDU5VFpCc1gzT3RBOWJvR3c4?oc=5",
-      "summary": "女子高専生がサイバーセキュリティ演習に挑戦、NECが実践型イベントを開催&nbsp;&nbsp;千葉テレビ放送株式会社",
+      "title": "不正アクセス事件多発で人気化する「サイバーセキュリティ関連銘柄」の投資妙味 ストップ高が続出でも「まだ“初動”の段階」「ピークはまだまだ先」と株価上昇期待高まる（マネーポストWEB） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3ejdsYXlBaDU0Z3JqQ1ZKN3drR3hXbnQzcG11Y09PYUFNVWk2a1JBQjBIdmR0cGdnLTZnVnc0LXk3UnNtOUlRWW5vQmZkcXpBT1gyQ1ZwaG9ab2x2Ung5ak1TMWYxYTl0c2VHS0dSVmNhYkFUai0wQUdnQlkzSGs?oc=5",
+      "summary": "不正アクセス事件多発で人気化する「サイバーセキュリティ関連銘柄」の投資妙味 ストップ高が続出でも「まだ“初動”の段階」「ピークはまだまだ先」と株価上昇期待高まる（マネーポストWEB）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-10-15",
       "source": "Google News JP",
       "language": "日本語",
@@ -481,6 +454,24 @@
       "title": "日本中サイバー攻撃は大丈夫？そんな中で注目したい2つの銘柄 - 四季報オンライン",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5Wk9uM0hBclo3OWE0bV9NUnFlWTM5dl8wNm1UTHAtU0N0Q2VMS0N3Q2F3a0JoSjEzVGRHVVFvVGF2TUpTMzRqZm1wZ0d0dXU1SXc0QTYzVQ?oc=5",
       "summary": "日本中サイバー攻撃は大丈夫？そんな中で注目したい2つの銘柄&nbsp;&nbsp;四季報オンライン",
+      "date": "2026-10-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AIによる相次ぐハッキング事件は「AIの暴走」ではなく「AI企業がセキュリティの基本を無視しているため」という指摘 - GIGAZINE",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2aU5zQXpEeUJGcDAxQU9KS2JRems2eXhJZlhIMmxiZk1SWUNPb0NWZk9RdTNyMWhIWE10YW5wM19TNnhQZ1luNWxmTDdJeXZ2U3I1bXQtX185a1owYjFFWkV5bzNfdTlab2FKRmhB?oc=5",
+      "summary": "AIによる相次ぐハッキング事件は「AIの暴走」ではなく「AI企業がセキュリティの基本を無視しているため」という指摘&nbsp;&nbsp;GIGAZINE",
+      "date": "2026-10-15",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AGEST、急増するサイバーセキュリティ攻撃や情報漏えいへの緊急対策としてAIセキュリティ防衛プラットフォーム「AGEST ZERO SHIELD」一部機能を活用した支援プランを特別価格で50社へ提供｜Infoseekニュース - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qRkt0T05NQ3JOV0xDX2dqZVlkZDRUcFZEVF8wU3ZmWUtjWW80YlR6c2ItN21kQm9VdG5HSGZRTnlCdWVLc2xtWWlnaVltUjJoZmhrTzE2VGpNRXJSNmV5eUdtaFc2Yk1Ya3Y2dVpiTWk5QQ?oc=5",
+      "summary": "AGEST、急増するサイバーセキュリティ攻撃や情報漏えいへの緊急対策としてAIセキュリティ防衛プラットフォーム「AGEST ZERO SHIELD」一部機能を活用した支援プランを特別価格で50社へ提供｜Infoseekニュース&nbsp;&nbsp;Infoseek",
       "date": "2026-10-15",
       "source": "Google News JP",
       "language": "日本語",
@@ -557,6 +548,15 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
+    },
+    {
+      "title": "タイムズカー、焼肉きんぐ…情報漏洩ラッシュが追い風「サイバーセキュリティー5銘柄」の実名 - 現代ビジネス",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzOXg5aHhSaGlfbmRaRWRXczViVlFtQ3NxWmZndU9pVTROc3g3UEpVcFVTQlBOSmpqeVZPVTZwam9TTTlJdGVVeEhqdmt3UG8?oc=5",
+      "summary": "タイムズカー、焼肉きんぐ…情報漏洩ラッシュが追い風「サイバーセキュリティー5銘柄」の実名&nbsp;&nbsp;現代ビジネス",
+      "date": "2026-10-14",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
     },
     {
       "title": "Microsoft 製品の脆弱性対策について(2026年10月)",
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/10/17 8:25:01"
+  "updated": "2026/10/18 7:59:26"
 }
