@@ -1,6 +1,105 @@
 {
   "articles": [
     {
+      "title": "ホテル客室に隠したPCからのフィッシングメール送信事件についてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/19/033010",
+      "summary": "2026年10月15日、兵庫県警はホテルの客室に隠したパソコンからフィッシングメールを大量に送信した疑いで、中国籍の男を逮捕しました。ここでは関連する情報をまとめます。 客室の冷蔵庫の裏にPCを設置 兵庫県警は2026年10月15日、中国籍の無職の男(39、神戸市在住)を偽計業務妨害などの疑いで逮捕(出典: 2, 3)。逮捕容疑には建造物侵入も含まれる(出典: 6, 8)。県警は男の認否を明らかに",
+      "date": "2026-10-18",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "運営指定の遠隔操作ソフト導入を参加条件とされたセキュリティイベントについてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/19/032554",
+      "summary": "2026年10月12日、Elastic Security Labsは、暗号資産やWeb3の創業者を狙う偽のアクセラレーター「Apex Accelerator」が悪性のnpmパッケージで端末を狙っていたと公表しました。同じ名称の運営がTOKEN2049期間中の催しで参加の条件としてセキュリティ製品の導入を迫ったとする申告も出ています。ここでは関連する情報をまとめます。 偽アクセラレーターApex A",
+      "date": "2026-10-18",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to ",
+      "date": "2026-10-18",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "summary": "Attackers are targeting an OS command injection vulnerability in SiteGuard Server Edition that lets them execute commands as root or SYSTEM on affected servers. [...]",
+      "date": "2026-10-18",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33434",
+      "summary": "Here is the YARA rule I used to detect \"Orphaned VBA Projects Inside DWG Files\".&#xd;",
+      "date": "2026-10-18",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "なぜ日本ばかりが狙われるのか？ サイバー攻撃が集中する本当の理由 #エキスパートトピ（森井昌克） - エキスパート - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaW02Q2NJOWtfUVRBTndGWi1FMjhlRUlrNW8wZXhsdWJhWGFEdTJtVnliWEs4bUF4aUxUR2dCYXhTazNnWVZhZ0ZyWFVsVjhQaUY4amR6Rmw4Yms2RjlWaG9yaDZ6REcwTVZHWExtZjZGQVRrNkVPdlBsdUQxS3ZDNWttS2FZZmRW?oc=5",
+      "summary": "なぜ日本ばかりが狙われるのか？ サイバー攻撃が集中する本当の理由 #エキスパートトピ（森井昌克） - エキスパート&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-10-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "急遽テーマ化したサイバーセキュリティ関連の\"伏兵銘柄\" - 四季報オンライン",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9sMHlCNzFianktWHVnS3I5ZnBRdVd2aTlqTmxWUXM2ZVNTSnU0T2ozakJ0bEJWRmtpNXFfNklLdFU1a3NLeWpTV3hKZFRzd2c4NV80N3B6TQ?oc=5",
+      "summary": "急遽テーマ化したサイバーセキュリティ関連の\"伏兵銘柄\"&nbsp;&nbsp;四季報オンライン",
+      "date": "2026-10-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AI時代におけるサイバー攻撃に備えろ！ NECが注力する次世代セキュリティとは：製造ITニュース - MONOist",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1POVNiSVJNaXBRYlp0T0t5M3ZJR3l3YkZvZ2xiUHdvcExhZXB0UFc0Q1paV3ZBVC1meVdNX0VyUDZTLVpEMnNNWGxQdjIwQjQxQlB0R183VEpGUk9uUnZyLXlHeWQxNkt1X2VxM0d1VQ?oc=5",
+      "summary": "AI時代におけるサイバー攻撃に備えろ！ NECが注力する次世代セキュリティとは：製造ITニュース&nbsp;&nbsp;MONOist",
+      "date": "2026-10-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "サイバー防衛、海外依存深く 横国大が人材育成で新拠点 - 日本経済新聞",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTzd3MElLWUhCcWdHZEZVYWJ3Sl9YWjZVX3MyUnRDendSVGNaQ1dYVGtPc0tLbGx4OVlHaG5fVnl6N2pidGJDZjFJeUxsYXdxWGtPdnk0ZF8tc29LWXhyeXM3RmxBZW5ld2YyMzVySGFQbVZiVnVPbHJDTjZSclVxRHUzODg3Q1FSQXpTSg?oc=5",
+      "summary": "サイバー防衛、海外依存深く 横国大が人材育成で新拠点&nbsp;&nbsp;日本経済新聞",
+      "date": "2026-10-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AIが悪用される時代の「サイバー空間の治安」をどう守るか――シンガポール「SICW 2026」に見る脅威と対策の最前線 - クラウド Watch",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBuUjN6amV5ZldBUzZ0UjdrRkV0d2JkWGRmdGJvOHBubEx5YXFhRlh4VGRMVTRvNU1LZllSR1FfcDdoSGJ2dks4SlZhZWswYnBNYkFrcTlrZWtVMzgtUTQxbUx1MDRYdnVS?oc=5",
+      "summary": "AIが悪用される時代の「サイバー空間の治安」をどう守るか――シンガポール「SICW 2026」に見る脅威と対策の最前線&nbsp;&nbsp;クラウド Watch",
+      "date": "2026-10-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "米紙が報じる「日本がサイバー攻撃の格好の標的になる理由」（クーリエ・ジャポン） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zdmNiVndvLWFxTG5JNHZwd25TdV9FRnZJZ05fSWZjbjhuMnZlNXRYNlFTTHlZYmJWb0h0OWNSY0l3MXBKSklsUEtBaVFUMDE1ZE9CTkRBQkJvR0FZa3hRbkJwd1pFb3JjUUJycy1nV2VseFJjRXRmU3Q1UUllb0U?oc=5",
+      "summary": "米紙が報じる「日本がサイバー攻撃の格好の標的になる理由」（クーリエ・ジャポン）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-10-18",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
       "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX. The package, named \"imgdecode,\" was uploaded ",
@@ -40,6 +139,15 @@
       "title": "相次ぐ不正アクセス､注目の｢サイバーセキュリティ｣12銘柄 - 四季報オンライン",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5XVUdTQ3d0VUFKZzZEWTlBVWVyM240X3RtWVNBVkhtamFxMGVOUF9iOE9tajFRb2NJbG5TWlhmTDFLQXRpRFhuVktuZ2xNYTJYV0xrdGsyWQ?oc=5",
       "summary": "相次ぐ不正アクセス､注目の｢サイバーセキュリティ｣12銘柄&nbsp;&nbsp;四季報オンライン",
+      "date": "2026-10-17",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AI時代に相次ぐ企業へのサイバー攻撃 浮き彫りになった「基本対策」の難しさ 専門家が解説 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBwZElOQjNxVF9fdDVCemdCNldiaTZQeGFHcnRKVlZTR3M5Mi0tU2xON2VOQXAyRUVqUlpzTEhpMk45emI3cm9nQXp1WG1EYVM4Y2huMjN6aDcwc2xBd2V4cVMxMDNhR1VKRENjZ3Vpai1iY2lfdHVJSG4zWWNIVTQ?oc=5",
+      "summary": "AI時代に相次ぐ企業へのサイバー攻撃 浮き彫りになった「基本対策」の難しさ 専門家が解説&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-10-17",
       "source": "Google News JP",
       "language": "日本語",
@@ -121,15 +229,6 @@
       "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
       "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
       "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In&nbsp;said in an advisory&nbsp;on Oc",
-      "date": "2026-10-16",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH. The attack invo",
       "date": "2026-10-16",
       "source": "The Hacker News",
       "language": "英語",
@@ -253,36 +352,18 @@
       "category": "alert"
     },
     {
-      "title": "サイバー防衛弱小国ニッポン》巧妙化するハッカー集団の攻撃に政府は打つ手なし 100億円以上の税金を投じた「国家サイバー統括室」は何をしていたのか（マネーポストWEB - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9SLXV6M00zUFo5VXRnNi02VlF3WjRpX2ZJUW5KczAtbGV5MXIxNDlPSWhQMUFRakVic1RTV1U3YjVpRzQ3RmJZQ2ZQamFGai0zSEEyRmNhdGd4TW9aTlU1V2d3U1ZjeS13RzF6NFRvR2pvYjd2UjRfMUxtMWVIdG8?oc=5",
-      "summary": "サイバー防衛弱小国ニッポン》巧妙化するハッカー集団の攻撃に政府は打つ手なし 100億円以上の税金を投じた「国家サイバー統括室」は何をしていたのか（マネーポストWEB&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "マクニカホールディングス＜3132＞、サイバーセキュリティサービスのUAE・CyberSec IT Consultingを子会社化 - Excite エキサイト",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE14aWU5YkJ4SEtzVWc0ZGRoai01OFdXTGRLdFdOTWNlZ3ZJaVUyckEwRGdsR2hHU0swRkIxdEJRajFabzMyNFc2Zkw5WjB1UHNib3FVSmY5YnNBQzBBdFBESGFaWEZ6cVk?oc=5",
+      "summary": "マクニカホールディングス＜3132＞、サイバーセキュリティサービスのUAE・CyberSec IT Consultingを子会社化&nbsp;&nbsp;Excite エキサイト",
       "date": "2026-10-16",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "不正アクセスによる相次ぐ情報漏えいを受け「サイバーセキュリティ戦略本部会議」開催＝静岡県 - TBS NEWS DIG",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9SXzVvN0pZN3loWDhzWWhsbHNISGdycTJWSVVNMU9wOFQxRkpKTjN2Wm9zVEN4ZHVpNlhnTzlWdEJoa0M3LUUwUEhrU0tjQkNZU09VQ3lsdmtjbXQ2TFQ2dkNsRWU?oc=5",
-      "summary": "不正アクセスによる相次ぐ情報漏えいを受け「サイバーセキュリティ戦略本部会議」開催＝静岡県&nbsp;&nbsp;TBS NEWS DIG",
-      "date": "2026-10-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "マクニカホールディングス＜3132＞、サイバーセキュリティサービスのUAE・CyberSec IT Consultingを子会社化 - ｄメニューニュース",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQR2Mwd2ZMNmMzMmU1aDVtMFE1aDU3NG9BSm5jT21HZVhJTFJvMHg4RjhCaVJ3NmRVS2VzQ1lDUEtmWV8wSVpmZC1kVWlES3ZWNnFSa0ttcVE2dG5SRmEwcW5mQ3NxdEZENHlzWjVPZkR3NTJyRlJPYW90bWI1SjdBdllR0gGHAUFVX3lxTE9sWEJ1NzZXWDVCbmZtUVFFaFRQbEdLSWVkNHdPbTUwdVdUeEJWbW9lV1pPaU9reVJmUEFoY0FtTUxrNm0tNW9QZzYzeHBlenF1T0NEOWNCMUxzX0hWQzExaWVKbHBBVmExN0xvdldMdW94aHROZW9sTnZ0dW43TTBhblFjcllUMA?oc=5",
-      "summary": "マクニカホールディングス＜3132＞、サイバーセキュリティサービスのUAE・CyberSec IT Consultingを子会社化&nbsp;&nbsp;ｄメニューニュース",
-      "date": "2026-10-16",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【サイバーセキュリティレポート】狙われたのは⾃社ではなくても被害は起きる 〜2026年9・10月 国内情報漏洩117件の分析〜 - PR TIMES",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1McHNlcG1LdFp6QkdxMGxUYzJnSTNVVzU1RHM2VUFXdEdrVXBTNzN2LVNkTGkzdjJzanhXN1pPRkVBdFUyZEsxV1ZHQkcxNWtxemRvVXNpTlZJSzFzWE1xV3RVb3NqYl9Oemc?oc=5",
-      "summary": "【サイバーセキュリティレポート】狙われたのは⾃社ではなくても被害は起きる 〜2026年9・10月 国内情報漏洩117件の分析〜&nbsp;&nbsp;PR TIMES",
+      "title": "不正アクセスによる相次ぐ情報漏えいを受け「サイバーセキュリティ戦略本部会議」開催=静岡県（静岡放送（SBS）） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5qcGNzQ3JzcWNKOTBEV2ExU0JVYlRiUWhFcVFuNXRaVE1xQjR5RnVkcXE2ZkdFNlBlQmpXYlJlV2pYZkNlLW80NWx4SkY4bVp4bjZuMUZpVWlkWllaVllac3o2X2dSam1IemtNZFhOSkoySElmVkFRelZFWDBOWjQ?oc=5",
+      "summary": "不正アクセスによる相次ぐ情報漏えいを受け「サイバーセキュリティ戦略本部会議」開催=静岡県（静岡放送（SBS））&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-10-16",
       "source": "Google News JP",
       "language": "日本語",
@@ -361,15 +442,6 @@
       "category": "analysis"
     },
     {
-      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
-      "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud. [...]",
-      "date": "2026-10-15",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Panchan's Mining Island &#x5b;Guest Diary&#x5d;, (Wed, Oct 14th)",
       "url": "https://isc.sans.edu/diary/rss/33426",
       "summary": "&#x5b;This is a Guest Diary by Zachary Norwood, an ISC intern as part of the SANS.edu BACS program&#x5d;&#xd;",
@@ -442,42 +514,6 @@
       "category": "alert"
     },
     {
-      "title": "不正アクセス事件多発で人気化する「サイバーセキュリティ関連銘柄」の投資妙味 ストップ高が続出でも「まだ“初動”の段階」「ピークはまだまだ先」と株価上昇期待高まる（マネーポストWEB） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3ejdsYXlBaDU0Z3JqQ1ZKN3drR3hXbnQzcG11Y09PYUFNVWk2a1JBQjBIdmR0cGdnLTZnVnc0LXk3UnNtOUlRWW5vQmZkcXpBT1gyQ1ZwaG9ab2x2Ung5ak1TMWYxYTl0c2VHS0dSVmNhYkFUai0wQUdnQlkzSGs?oc=5",
-      "summary": "不正アクセス事件多発で人気化する「サイバーセキュリティ関連銘柄」の投資妙味 ストップ高が続出でも「まだ“初動”の段階」「ピークはまだまだ先」と株価上昇期待高まる（マネーポストWEB）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-10-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "日本中サイバー攻撃は大丈夫？そんな中で注目したい2つの銘柄 - 四季報オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA5Wk9uM0hBclo3OWE0bV9NUnFlWTM5dl8wNm1UTHAtU0N0Q2VMS0N3Q2F3a0JoSjEzVGRHVVFvVGF2TUpTMzRqZm1wZ0d0dXU1SXc0QTYzVQ?oc=5",
-      "summary": "日本中サイバー攻撃は大丈夫？そんな中で注目したい2つの銘柄&nbsp;&nbsp;四季報オンライン",
-      "date": "2026-10-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AIによる相次ぐハッキング事件は「AIの暴走」ではなく「AI企業がセキュリティの基本を無視しているため」という指摘 - GIGAZINE",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2aU5zQXpEeUJGcDAxQU9KS2JRems2eXhJZlhIMmxiZk1SWUNPb0NWZk9RdTNyMWhIWE10YW5wM19TNnhQZ1luNWxmTDdJeXZ2U3I1bXQtX185a1owYjFFWkV5bzNfdTlab2FKRmhB?oc=5",
-      "summary": "AIによる相次ぐハッキング事件は「AIの暴走」ではなく「AI企業がセキュリティの基本を無視しているため」という指摘&nbsp;&nbsp;GIGAZINE",
-      "date": "2026-10-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AGEST、急増するサイバーセキュリティ攻撃や情報漏えいへの緊急対策としてAIセキュリティ防衛プラットフォーム「AGEST ZERO SHIELD」一部機能を活用した支援プランを特別価格で50社へ提供｜Infoseekニュース - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qRkt0T05NQ3JOV0xDX2dqZVlkZDRUcFZEVF8wU3ZmWUtjWW80YlR6c2ItN21kQm9VdG5HSGZRTnlCdWVLc2xtWWlnaVltUjJoZmhrTzE2VGpNRXJSNmV5eUdtaFc2Yk1Ya3Y2dVpiTWk5QQ?oc=5",
-      "summary": "AGEST、急増するサイバーセキュリティ攻撃や情報漏えいへの緊急対策としてAIセキュリティ防衛プラットフォーム「AGEST ZERO SHIELD」一部機能を活用した支援プランを特別価格で50社へ提供｜Infoseekニュース&nbsp;&nbsp;Infoseek",
-      "date": "2026-10-15",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "注意喚起: SiteGuard Server EditionにおけるOSコマンドインジェクションの脆弱性（CVE-2026-106931）に関する注意喚起 (公開)",
       "url": "https://www.jpcert.or.jp/at/2026/at260032.html",
       "summary": "",
@@ -548,15 +584,6 @@
       "source": "SANS ISC",
       "language": "英語",
       "category": "analysis"
-    },
-    {
-      "title": "タイムズカー、焼肉きんぐ…情報漏洩ラッシュが追い風「サイバーセキュリティー5銘柄」の実名 - 現代ビジネス",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAzOXg5aHhSaGlfbmRaRWRXczViVlFtQ3NxWmZndU9pVTROc3g3UEpVcFVTQlBOSmpqeVZPVTZwam9TTTlJdGVVeEhqdmt3UG8?oc=5",
-      "summary": "タイムズカー、焼肉きんぐ…情報漏洩ラッシュが追い風「サイバーセキュリティー5銘柄」の実名&nbsp;&nbsp;現代ビジネス",
-      "date": "2026-10-14",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
     },
     {
       "title": "Microsoft 製品の脆弱性対策について(2026年10月)",
@@ -658,15 +685,6 @@
       "category": "news"
     },
     {
-      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33414",
-      "summary": "The Traffic Light Protocol (TLP)&#x5b;1&#x5d;, which is now in its second incarnation, is a wonderful standard that enables one to easily communicate whether information may be shared further (and if ",
-      "date": "2026-10-10",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
       "title": "注意喚起: 直近で相次いでいる国内組織における不正アクセスに関する注意喚起 (更新)",
       "url": "https://www.jpcert.or.jp/at/2026/at260030.html",
       "summary": "",
@@ -679,15 +697,6 @@
       "title": "コミューンの「Commune」への不正アクセスについてまとめてみた",
       "url": "https://piyolog.hatenadiary.jp/entry/2026/10/10/075729",
       "summary": "2026年10月9日、コミューンは、同社が運営する「Commune」「Commune for Work」が外部の第三者による不正アクセスを受け、一部のコミュニティで会員情報が外部の第三者に漏えいしたと公表しました。ここでは関連する情報をまとめます。 全コミュニティを停止 不正アクセスは2026年10月5日18時ごろに始まった。コミューンは10月6日にこれを検知し、通信遮断と防御措置を実施*1。(出",
-      "date": "2026-10-09",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
-    },
-    {
-      "title": "光回線代理店営業担当による競合事業者への不正アクセスについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/09/165507",
-      "summary": "2026年10月8日、警視庁は光回線の販売代理店「オフィシャル」の営業担当2人を、競合する事業者の顧客マイページに不正アクセスした疑いで逮捕したと発表しました。ここでは関連する情報をまとめます。 営業担当2人の逮捕 警視庁サイバー犯罪対策課は10月8日、埼玉県所沢市の光回線販売代理店「オフィシャル」の営業担当の40歳と38歳の2人を、不正アクセス禁止法違反と不正競争防止法違反(営業秘密の取得、使用",
       "date": "2026-10-09",
       "source": "piyolog",
       "language": "日本語",
@@ -719,15 +728,6 @@
       "source": "IPA",
       "language": "日本語",
       "category": "alert"
-    },
-    {
-      "title": "デンマークのCPR登録簿への不正アクセスについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/09/073842",
-      "summary": "2026年10月5日、デンマークの研究、教育、デジタル化省は、同国の中央個人登録(CPR)で、大量の登録者の情報に第三者が不正にアクセスしたと公表しました。ここでは関連する情報をまとめます。 民間企業の正規アクセスを悪用した情報取得 研究、教育、デジタル化省(Forsknings-, Uddannelses- og Digitaliseringsministeriet)は10月5日、CPRの管理主",
-      "date": "2026-10-08",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
     },
     {
       "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/10/18 7:59:26"
+  "updated": "2026/10/19 7:57:30"
 }
