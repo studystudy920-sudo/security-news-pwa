@@ -1,6 +1,69 @@
 {
   "articles": [
     {
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week. The attack require",
+      "date": "2026-10-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and",
+      "date": "2026-10-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models. \"B",
+      "date": "2026-10-25",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer's Downloads folder that tricked an AI coding agent into installing a rogue npm package. [...]",
+      "date": "2026-10-25",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
+      "summary": "YARA-X&&#x23&#x3b;x26&#x3b;&#x23&#x3b;39&#x3b;s 1.22.0 release brings 11 improvements and 9 bugfixes.&#xd;",
+      "date": "2026-10-25",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "サイバーセキュリティ専門家が解説するPHPの脆弱性から情報を守る方法 - Business Insider Japan",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOFhPVl8wcS1CMmJlamZDUjF0djFPZVE5RGpfX05mOXRFazhBcXAzLTFxeEtqckdSTXdtXzJBQzJETjh5ZGptU2wzQWJCTG93WmduTmY1ZngwdlgxaFlwYWxYWUplRFRONnJFS1JNSGxVQ2NRc2lIXzkyQUhURWtYV0tDWlVTTVJ5amcxM1h5ckxtaUtVTHJOR210NTZzNXJFS3ZRY2pn?oc=5",
+      "summary": "サイバーセキュリティ専門家が解説するPHPの脆弱性から情報を守る方法&nbsp;&nbsp;Business Insider Japan",
+      "date": "2026-10-25",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「能動的サイバー防御」とは：サイバー攻撃を未然に防ぎ、被害拡大を防止するための取り組み【今週のキーワード】 - INTERNET Watch",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83Mm90eEFXMm5pN2xTanAzM0NReDZOaWtsUGJ5TWtzVWNid0xtZndkcmFXci1ZbDZ6SXZfd2djdlZ0dkh3c0E5OEdjbk5DRDVHYlVMUkdlenIzRjh4R1hGdnlWTXRDT2dtZE5yY3NPYWp5S21YYVk5SA?oc=5",
+      "summary": "「能動的サイバー防御」とは：サイバー攻撃を未然に防ぎ、被害拡大を防止するための取り組み【今週のキーワード】&nbsp;&nbsp;INTERNET Watch",
+      "date": "2026-10-25",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
       "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
       "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python&nbsp;Brotli&nbsp;and&nbsp;brotlicffi&nbsp;packages, and Envoy p",
@@ -55,9 +118,27 @@
       "category": "news"
     },
     {
-      "title": "57.4%が不正ログインの実被害または大量試行を検知【かっこ「Web・ECサイトのセキュリティ実態調査」】（日本ネット経済新聞） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE96ZzFGZ0RzODFDSzI3RzNBSzFOYy03ZW5SdFlEQ1JmZVNVUF8zMlNtcDR2aW1fcnJiLWNRSzVKd2JpbmhaNGZzZm90d2VPMFd5Z01jd0xoMFd6LWNjT1p1Mm5NakMzdUNqb0xqTmNaeGhZX0FQZVpkSmw0c01PRFE?oc=5",
-      "summary": "57.4%が不正ログインの実被害または大量試行を検知【かっこ「Web・ECサイトのセキュリティ実態調査」】（日本ネット経済新聞）&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "PHP脆弱性で「トレンドマイクロ」が逆行高…日経平均急落でも買われたサイバーセキュリティー関連5銘柄 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SV3h6S21nS25zQ0UzQ1U2XzVBRTFNdTZ6X0dqMFhCckNwdnlJNUxJcXd6dTRvNXJwRTdDNUI2NzlmSkJWWlRFcExxd0RTWHlxUU8xTjdhenlYNGVOZkJXazhadlNub2FzQ2JtNHV3ZkVGQTRaVmhkSVJaSTRPQk0?oc=5",
+      "summary": "PHP脆弱性で「トレンドマイクロ」が逆行高…日経平均急落でも買われたサイバーセキュリティー関連5銘柄&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-10-24",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "GMO緊急要請の「能動的サイバー防御」、政府側は慎重な姿勢（朝日新聞） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BbUZoRFlpOGpnaGJpb0tPVVNxMWpsV21BQ05PMG14MzlmdTRFUFljcm91MngyQkhPMmR6TXF3ZFhoenljc1lzRVJRWWF4Sm1XaEl1UV9BaTllRXlVaXA5TWdQVmtkeGpLdTdla2VVend0RFZJQWxmUGlrUk5zZVU?oc=5",
+      "summary": "GMO緊急要請の「能動的サイバー防御」、政府側は慎重な姿勢（朝日新聞）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-10-24",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "不正アクセス被害のGMO「能動的サイバー防御」を要請も、現行法制度では限界か 国家による攻撃元サーバーの無力化を要請 - ビジネス+IT",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8tdk5CUHFFMkV1UE5jdEd6Um90TmdFYjJnVklkVU5kTUZhRUliaGVKb0xyQ1N2UGUtS25kUWRKYnZhSVFuTmJKY2NPSmFzXzhLaUVN?oc=5",
+      "summary": "不正アクセス被害のGMO「能動的サイバー防御」を要請も、現行法制度では限界か 国家による攻撃元サーバーの無力化を要請&nbsp;&nbsp;ビジネス+IT",
       "date": "2026-10-24",
       "source": "Google News JP",
       "language": "日本語",
@@ -73,9 +154,9 @@
       "category": "news"
     },
     {
-      "title": "デジタル人材育成へ サイバーセキュリティの競技大会 - TBS NEWS DIG",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE05Y05nRlRGV2k2dzl0RFl4aG5GZHB5blFISTJMUXdMM2huQVZyaXBUMV9ET2VwTnM1djVTRGJTeFRUN241UUh6U0tBeURNbkxLZlc0OWdBdWxfVUNZZllkSGRXTkJiaWM?oc=5",
-      "summary": "デジタル人材育成へ サイバーセキュリティの競技大会&nbsp;&nbsp;TBS NEWS DIG",
+      "title": "デジタル人材育成へ サイバーセキュリティの競技大会 - au Webポータル",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5BMUw1dGx2b1NHWlNSMGt6Z3hWVVB2eHJhQmxpaHNRQ2JPaXpFZlRxZWg1Zm1FOUktUzFHQ3UxWFhWT1UwRjVFUVdfU3RzblQxZUhnT3pyTXRIb2ZLS0hDTGR4TGF1dm9qM2Noa0FR?oc=5",
+      "summary": "デジタル人材育成へ サイバーセキュリティの競技大会&nbsp;&nbsp;au Webポータル",
       "date": "2026-10-24",
       "source": "Google News JP",
       "language": "日本語",
@@ -148,33 +229,6 @@
       "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
       "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
       "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab pa",
-      "date": "2026-10-23",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
-      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
-      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups. Central to the operation is an \"A",
-      "date": "2026-10-23",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
-      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
-      "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls. \"Ar",
-      "date": "2026-10-23",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
-      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws. The new issue, assigned CVE-2026-115560, affects o",
       "date": "2026-10-23",
       "source": "The Hacker News",
       "language": "英語",
@@ -289,27 +343,9 @@
       "category": "alert"
     },
     {
-      "title": "自民党国家サイバーセキュリティ戦略本部長が赤沢経産大臣に提言書を提出「もれなくカバーして」 経済産業省を訪問 - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9aTlRSSlJ2d2YxWXJFdlYzeWhrdkw2eDRaendtVmJtX3lvbEd2Vk1lQ0xUeXNzZHNxUDZyVGNtMVRuUU9kdWNkVXpXRzhZbGRWVEhtUk0yRXlTWkVnT1VoUHVqdlNXVlhPWUdYV21ZbV9ocnJHWlNPTXVOSEVXQ2s?oc=5",
-      "summary": "自民党国家サイバーセキュリティ戦略本部長が赤沢経産大臣に提言書を提出「もれなくカバーして」 経済産業省を訪問&nbsp;&nbsp;Yahoo!ニュース赤沢経産大臣「オフホワイトハッカーを集める」 来月サイバーセキュリティ専門チームの立ち上げを指示&nbsp;&nbsp;TBS NEWS DIG自由民主党・国家サイバーセキュリティ戦略本部による提言申入れ&nbsp;&nbsp;首相官邸",
-      "date": "2026-10-23",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "CFOはサイバーセキュリティの意思決定に加わるべきだ - Forbes JAPAN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DUFh0ZHE1cUhpcDlhalRBeFpmMEZTZ0swTklHQzNObGtjRnZwN25IbElTeXBVelF3RW1sck84Rmx2SjBrZC1lck1SZFVmUGlhb0FMcGNGTXNTZw?oc=5",
-      "summary": "CFOはサイバーセキュリティの意思決定に加わるべきだ&nbsp;&nbsp;Forbes JAPAN",
-      "date": "2026-10-23",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "『実践サイバーセキュリティ入門講座』が半額でセール中！最大75％OFFのKindle本「読書の秋セール」開催！ - 窓の杜",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCejI3WUcxRTgzM1p1LTkzdDBDSXB6dzFRS2xRcHZQdTJqWFo0Y0lXZDJxU1NPeEJycWstM3hqUy0xbWxEYzVoMzNpZTh2ZExob1pacFpyR2ppTHVYOHV0NFE2NWZtVEVVbnNQcDBfVEFCdmpZcEE?oc=5",
-      "summary": "『実践サイバーセキュリティ入門講座』が半額でセール中！最大75％OFFのKindle本「読書の秋セール」開催！&nbsp;&nbsp;窓の杜",
+      "title": "自民党国家サイバーセキュリティ戦略本部長が赤沢経産大臣に提言書を提出「もれなくカバーして」 経済産業省を訪問 - TBS NEWS DIG",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBnQjBrNmMxVWp4a3BMcjZmclZ3aWNxcXBZTnRGWjRUNDdlajgxU1Y3clViQ1FyQS13MEJKeDd5RDlVWVJURUxoanNWNHZQYmpIVzNwQnp3cTRYdGtFc1psTkFFenY5QW95eS01NXBmbGpaWjdT?oc=5",
+      "summary": "自民党国家サイバーセキュリティ戦略本部長が赤沢経産大臣に提言書を提出「もれなくカバーして」 経済産業省を訪問&nbsp;&nbsp;TBS NEWS DIG自民党の平国家サイバーセキュリティ戦略本部長 経産省に提言（日テレNEWS NNN）&nbsp;&nbsp;Yahoo!ニュース国家サイバーセキュリティ戦略本部が提言を申し入れ | 政策 | ニュース&nbsp;&nbsp;自由民主党",
       "date": "2026-10-23",
       "source": "Google News JP",
       "language": "日本語",
@@ -424,15 +460,6 @@
       "category": "news"
     },
     {
-      "title": "Capcom confirms data breach affecting 11.7 million accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
-      "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information. [...]",
-      "date": "2026-10-22",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Thursday, October 22nd, 2026 https://isc.sans.edu/podcastdetail/10146, (Thu, Oct 22nd)",
       "url": "https://isc.sans.edu/diary/rss/33446",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -514,27 +541,9 @@
       "category": "alert"
     },
     {
-      "title": "「スーパーの冷蔵設備が50度に」フランスの店舗襲ったサイバー攻撃の正体 弱点だらけだったセキュリティ対策 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFByWVNXREw0bkN3eWx5VS04T0ZDSTdOdGN2dF9lQW5mOThTZDlpVEhGNVB5d2pVYVNBWHpCalh3eVRCYkZWQUppbGJCVHZzZWhPTkF3MzVfUkIta2hxQ3EyRk9vNUpNUUF1RlE?oc=5",
-      "summary": "「スーパーの冷蔵設備が50度に」フランスの店舗襲ったサイバー攻撃の正体 弱点だらけだったセキュリティ対策&nbsp;&nbsp;ITmedia",
-      "date": "2026-10-22",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "トレンド---大幅続伸、「PHP」の脆弱性発見でサイバーセキュリティ関連賑わう - 株探",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IQzBZU29oQ2lkM2FCb0ZCUGpnc1g3R1AzVll2b0E2TTVMMTBPdjJXTFhleHBvUkxMeXFkWnk4YTlnWC1fc1RpNTk5ZHFXRmR0ZjVSMW9pUU9iN01DbjJseQ?oc=5",
-      "summary": "トレンド---大幅続伸、「PHP」の脆弱性発見でサイバーセキュリティ関連賑わう&nbsp;&nbsp;株探高市総理、サイバーセキュリティの本を出していた しかも“PHP”から：明日から使えるITトリビア&nbsp;&nbsp;ITmediaPHP脆弱性で「トレンドマイクロ」が逆行高…日経平均急落でも買われたサイバーセキュリティー関連5銘柄&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-10-22",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "AI悪用で激増中のサイバー攻撃に企業はどう対応すべきか、「2つの急所」と方向性を専門家が解説 - ダイヤモンド・オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9DR1lQem1ORkh4akZWM25rQ3daQThOblBtb2Q0X3EyNjdTaGwxVW5vbXlGLUplYmhpQjhtSjJYdDREY0ttdWNFWVp1YkPSAU9BVV95cUxObldwU3dVNkZxcHdFWDBXcFZpVmhoUkt5VWk4TWtQbXNkOElxTTlWNzcyb0dvbzBfMnd0Vi0wYXJvZm1DeElIb0h3RWU2SnVj?oc=5",
-      "summary": "AI悪用で激増中のサイバー攻撃に企業はどう対応すべきか、「2つの急所」と方向性を専門家が解説&nbsp;&nbsp;ダイヤモンド・オンライン",
+      "title": "高市総理、サイバーセキュリティの本を出していた しかも“PHP”から：明日から使えるITトリビア - ITmedia",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE03ajZjX1doS2tnRXgtMG9iU2hPSktRV25MdmZkNDRDY1VwcTBGanhKNkZDaEFlSC0zbW5vTDhGVEVTdjYxd2MtemVwV0pnbVdxdEFKVjNHYkNSeVdiSU1FbGlWb05MVWNTeHc?oc=5",
+      "summary": "高市総理、サイバーセキュリティの本を出していた しかも“PHP”から：明日から使えるITトリビア&nbsp;&nbsp;ITmedia",
       "date": "2026-10-22",
       "source": "Google News JP",
       "language": "日本語",
@@ -715,15 +724,6 @@
       "title": "ISC Stormcast For Friday, October 16th, 2026 https://isc.sans.edu/podcastdetail/10140, (Fri, Oct 16th)",
       "url": "https://isc.sans.edu/diary/rss/33432",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-10-16",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33430",
-      "summary": "I believe the cybersecurity industry may be approaching AI security the wrong way.&#xd;",
       "date": "2026-10-16",
       "source": "SANS ISC",
       "language": "英語",
@@ -1241,5 +1241,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/10/25 8:03:26"
+  "updated": "2026/10/26 8:07:56"
 }
