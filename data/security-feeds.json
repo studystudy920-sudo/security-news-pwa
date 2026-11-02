@@ -1,6 +1,132 @@
 {
   "feeds": [
     {
+      "title": "Siemens製品に対するアップデート（2026年10月）",
+      "url": "https://jvn.jp/vu/JVNVU90141693/",
+      "summary": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "date": "2026-11-02",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "Track、高度なサイバーセキュリティ能力を測定する「生成AIを活用した実践的サイバーセキュリティ問題」をリリース - PR TIMES",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tbWRUck9fZURjajJEUVFhX1gyeW9mZllTN3VveVRIekVSSlRjM1ZnVmtXcjQ5cU1QMmxuWm5pa0NnYVllLVU1TmZLMTBQaUY4UkpmVTJIb3BBWWZjTm8tdUtoeUdiU0RZM1E?oc=5",
+      "summary": "Track、高度なサイバーセキュリティ能力を測定する「生成AIを活用した実践的サイバーセキュリティ問題」をリリース&nbsp;&nbsp;PR TIMES",
+      "date": "2026-11-02",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the net",
+      "date": "2026-11-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that ",
+      "date": "2026-11-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as",
+      "date": "2026-11-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia. The activity, detailed by Kaspersky ",
+      "date": "2026-11-01",
+      "source": "The Hacker News",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record",
+      "date": "2026-11-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20-21, prompting the open-source project to rebuild its GitLab server and reset all",
+      "date": "2026-11-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+      "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex. [...]",
+      "date": "2026-11-01",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "OneNote File Extraction, (Sun, Nov 1st)",
+      "url": "https://isc.sans.edu/diary/rss/33478",
+      "summary": "Recently, I had to extract embedded files from a set of OneNote files (extension .one).&#xd;",
+      "date": "2026-11-01",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "「サイバーパンデミックの前兆！？」 国は守れるか キーマン平将明・自民党国家サイバーセキュリティ戦略本部長を直撃【未公開インタビュー】｜Newsモーニングサテライト（モーサテ） - テレ東BIZ",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5CZUhUdHpjcGJROF82aG84ejNJSUhYdkVwMDRzWlhXdWtxSDhyMFltdEZaU1RMcmpWQTNELVJ4YkZpTnpFNXdkMTJORzI1ajBESWxQS2Vib3Fwdi1aYkdpa2J3?oc=5",
+      "summary": "「サイバーパンデミックの前兆！？」 国は守れるか キーマン平将明・自民党国家サイバーセキュリティ戦略本部長を直撃【未公開インタビュー】｜Newsモーニングサテライト（モーサテ）&nbsp;&nbsp;テレ東BIZ",
+      "date": "2026-11-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "AIと量子の時代、サイバーセキュリティは「先手」で守る - Forbes JAPAN",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pa0FGVzZSZDE0N1VJY29wajlkOENKZWl4SmNMeWxDX0ZKUnJfdWJLMWRheV9GdjNfMTl2NnhuWjNPS2JKU2F6RGtleUV1cWY3ZzJncy1fdnRDZw?oc=5",
+      "summary": "AIと量子の時代、サイバーセキュリティは「先手」で守る&nbsp;&nbsp;Forbes JAPAN",
+      "date": "2026-11-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "国家サイバー統括室が「サイバー対応特設サイト」、相談窓口や関係機関の情報・SNSアカウントまとめ公開 - INTERNET Watch",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1DbUx1aXgxUlRvTVVmWlN5RVJKeGZMTnU3TlBjdE0xVzctSzMyclp2T19iYjJmbUdhMGloN3BxRko0TlgyRTBUeEk1SUg2cmpRNkZPaHQ1dTVYU3RVVFBfSWdFV0dySFVYYUxV?oc=5",
+      "summary": "国家サイバー統括室が「サイバー対応特設サイト」、相談窓口や関係機関の情報・SNSアカウントまとめ公開&nbsp;&nbsp;INTERNET Watch",
+      "date": "2026-11-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "国家サイバー統括室が「サイバー対応特設サイト」、相談窓口や関係機関の情報・SNSアカウントまとめ公開 - 千葉テレビ放送株式会社",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9Eb1JlUzAyYVVfekRTRjRSbjF1aGZjS1E5blUtSGIxREpWT05MLU5NYkxrcjhKUkhQRS1ndnJfVzZhX2Y5TXFQa1ZKa3FUUGFXSkRzR1lrQXdoc3o2QUFR?oc=5",
+      "summary": "国家サイバー統括室が「サイバー対応特設サイト」、相談窓口や関係機関の情報・SNSアカウントまとめ公開&nbsp;&nbsp;千葉テレビ放送株式会社",
+      "date": "2026-11-01",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
       "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
       "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data. However, the company noted that the br",
@@ -109,6 +235,24 @@
       "category": "analysis"
     },
     {
+      "title": "日本政府、サイバー防衛強化へ米AI大手に高度AIモデル提供要請へ（ビジネス＋IT） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9PbF92R3lUSEJKeGNyanBSOWgtbTRfWUdmb0J2dGowQlZQZ2l5cU5jWnJZQTExUXBSNG5iSzVTZnFqU080QXZLTUVpcHpKMkJpSnotNFczWjV3Ry1DeWJuTXprV1dUMlpxZFFDb0Q4dXkxY0FUUUJRazhuWjB4Tlk?oc=5",
+      "summary": "日本政府、サイバー防衛強化へ米AI大手に高度AIモデル提供要請へ（ビジネス＋IT）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-10-31",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "2年前に脆弱性指摘 GMO社長2日に会見へ 幹部「もっと十分な対応取るべきだった」（テレビ朝日系（ANN）） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83LU5qcFZGdjY1N2djNHRtd1Z1QS1KaHhYU2lOdTlza3NUaUV0bjEzRlJkdVlnQkloVEJTUjhELW41NExQdGE2MU5uUnhuMDR6Mnc5MHpFN0J6QWdrZDJxRDR3MlQ5SURMeFYzZFpkckNCZEZ2dW5GdkVOQUZoS0k?oc=5",
+      "summary": "2年前に脆弱性指摘 GMO社長2日に会見へ 幹部「もっと十分な対応取るべきだった」（テレビ朝日系（ANN））&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-10-31",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "AIで巧妙化する、高齢者狙いの詐欺。5人の専門家が教える「危険信号」の見抜き方（海外） - Yahoo!ニュース",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFByM2xsNXNsT2laWTJKZGI1MENRMFVrTUJOZVdMMURacmN2aE8xTDN2el9ic0w3a0dYQTRSR0dGYVV3MHQ0c3VUYXllSkxiYllCZHZuSzBLVHNhdDR4YktCdDhFNExwVVlWZzFFd0VMN2w4Q29WOE5VckEyTEtwM1k?oc=5",
       "summary": "AIで巧妙化する、高齢者狙いの詐欺。5人の専門家が教える「危険信号」の見抜き方（海外）&nbsp;&nbsp;Yahoo!ニュース",
@@ -181,42 +325,6 @@
       "category": "news"
     },
     {
-      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-      "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released. The vulnerability, which does not have a CVE identifier, rel",
-      "date": "2026-10-30",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-      "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-      "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported. Trezor has not yet ex",
-      "date": "2026-10-30",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-      "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-      "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t br",
-      "date": "2026-10-30",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-      "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-      "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been&nbsp;sentenced by a U.S. federal court&nbsp;to 42 months in prison for his role in a hacking conspiracy that targete",
-      "date": "2026-10-30",
-      "source": "The Hacker News",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
       "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
       "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Mult",
@@ -229,33 +337,6 @@
       "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
       "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
       "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia. [...]",
-      "date": "2026-10-30",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
-      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
-      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to mal",
-      "date": "2026-10-30",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
-      "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
-      "summary": "Flaws in SS7 and Diameter signaling protocols can allow attackers to track phone locations, intercept calls and SMS verification codes, and impersonate subscribers without compromising their devices. ",
-      "date": "2026-10-30",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
-      "title": "CISA says max severity GitLab flaw now exploited in the wild",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-      "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
       "date": "2026-10-30",
       "source": "Bleeping Computer",
       "language": "英語",
@@ -280,45 +361,9 @@
       "category": "alert"
     },
     {
-      "title": "政府、サイバー対策で米AIにモデル提供拡大を要請 システム脆弱性点検 - 日本経済新聞",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zdkdRX2NUSHdUMEJ0VzhXQ0VsM3hEUHVTSGk4M1NLM1NORkZpT3NuaHRabXNHcTFtYllBeVNNOE0weVRISzh2MGtILTZkeEZSa2tMRlF6ZWs2VUZHRDh0SzNZWHgySGtjbk5sSQ?oc=5",
-      "summary": "政府、サイバー対策で米AIにモデル提供拡大を要請 システム脆弱性点検&nbsp;&nbsp;日本経済新聞",
-      "date": "2026-10-30",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "不正アクセスによる情報漏えい等の事案を踏まえたセキュリティ対策の徹底について（注意喚起） - 厚生労働省",
       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oYjRiZlR4bnZ4UC1pUDNPVnVBSXFaM2ZxQVFIRl9UUDdlSUNXQXhzT1RxVVVGa2MwMHcwWjV4UkRiZFNnNjEtWFlEaUlPWlFvZG4xRU80bURHcmc?oc=5",
       "summary": "不正アクセスによる情報漏えい等の事案を踏まえたセキュリティ対策の徹底について（注意喚起）&nbsp;&nbsp;厚生労働省",
-      "date": "2026-10-30",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【政調】政府に「サイバーセキュリティ対策の強化」を緊急要請 - 立憲民主党",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9WV2xtVnJSTzdjTWw0cGVULTVMZ01FV2dfaW5MRHhwVWF5eVpDTTJPVjdxcjltMGRVVGkxdWoybWlpV1M4SEhGQk9mQUdaUHJF?oc=5",
-      "summary": "【政調】政府に「サイバーセキュリティ対策の強化」を緊急要請&nbsp;&nbsp;立憲民主党",
-      "date": "2026-10-30",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "【INTLOOP】経済産業省「SCS評価制度」対応に向けたサイバーセキュリティ成熟度評価・実装計画策定支援を提供開始 - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9sR3RPekF3Z2VYc2lROVV6LWN3ZXF1TzdxZUZpeUlZSUw3aUFZaktMVnF0amFDNWpJU1FTTEx1SnZQXzhqZmM0TF9TbVNIYVFNNGItLVhyWG14MmZibE5NZVI4MmFUa0QxWXJOUEhzbjJCdw?oc=5",
-      "summary": "【INTLOOP】経済産業省「SCS評価制度」対応に向けたサイバーセキュリティ成熟度評価・実装計画策定支援を提供開始&nbsp;&nbsp;Infoseek",
-      "date": "2026-10-30",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "キヤノンITS、「いま知るべきサイバーセキュリティ」をテーマにラウンドテーブル、企業に求められるサイバー攻撃対策など解説 - ライブドアニュース",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVTjV0UEk5Y2c2dTZpUm9Ka2dWZGxheE1XcldhRnZadE1vQ2lvWHNlZTZyVndxZHVfTElVbER5c1pqcWtuSlZoWWZvM1p2bzg0OXNNRmRacW90NFJWOWlV?oc=5",
-      "summary": "キヤノンITS、「いま知るべきサイバーセキュリティ」をテーマにラウンドテーブル、企業に求められるサイバー攻撃対策など解説&nbsp;&nbsp;ライブドアニュース",
       "date": "2026-10-30",
       "source": "Google News JP",
       "language": "日本語",
@@ -415,18 +460,9 @@
       "category": "alert"
     },
     {
-      "title": "情報漏えい2026年だけで延べ3億件超 去年の10倍に急増 セキュリティ会社調査（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE94V0JDTFF6N1hVZ2VSakNzQ3ZCREJpNm01ZUl6anhKdGZ2YTJRQWRHMkdVd3lSTUw3SVF5VENpaHREV3NOMGYxSFNhNV9XT2cxa2VSUXc4dkdBbF92b19ER25pbTBVcEZoU05LOXBXTVc2TDBwcnJSbk9xaWNBbkU?oc=5",
-      "summary": "情報漏えい2026年だけで延べ3億件超 去年の10倍に急増 セキュリティ会社調査（TBS NEWS DIG Powered by JNN）&nbsp;&nbsp;Yahoo!ニュース",
-      "date": "2026-10-29",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "「自社都合」のセキュリティ対策になっていないか 相次ぐ情報漏えい、安否を分ける3つの対策（1/3 ページ） - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1lOXE3ckFTbDlVUGMwdGxwR1lDLW5sR0ZuTFdJRjFZcEJ1NXRBeFMzQW9XTzFfM1dOZzlLd1VFMVhyU29wc1YwVDRoOW9iOU9nODBkc1RhSm56MWhCM01zOXYwYzdQQW96Sm05NVh5a0Rzdw?oc=5",
-      "summary": "「自社都合」のセキュリティ対策になっていないか 相次ぐ情報漏えい、安否を分ける3つの対策（1/3 ページ）&nbsp;&nbsp;ITmedia",
+      "title": "AIの無差別不正アクセスを迎え撃つ\"サイバーセキュリティ銘柄\"を今こそ買え!!（週プレNEWS） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeEo2bGZSWlI4SGZCTndWeDEwOUQ2eWNBQUNlZDdUTFNIV1h1VzQxT1dlNUo5bEJ5bERKalBrWnRpNVYyNDg4VTIwdmIxSTgxYWNFMi0yeW9qWHhCWURzaTM0UHpWM3d1TnhjeUJ5cXp3VkNGY3p1ZzN5Tkdra1lmczcyQ2hUSmdf?oc=5",
+      "summary": "AIの無差別不正アクセスを迎え撃つ\"サイバーセキュリティ銘柄\"を今こそ買え!!（週プレNEWS）&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-10-29",
       "source": "Google News JP",
       "language": "日本語",
@@ -514,36 +550,9 @@
       "category": "alert"
     },
     {
-      "title": "「異常検知はもう通用しない」 フロンティアAIが覆すセキュリティの前提、ガートナーが警鐘 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE80dUNuY3RwNDdhNUwwUFBGOUdQNGxoTlFIVnFXbGhYTFhuT0oxYVZCSjNGUjVhTUNjUVBrcTdDbm9TYWtPbzVYbVcxTDVSNkhYQTlXeFlteUgzNDloT3NKZVk4N0ljNW5maHpqNi0tYmN4dw?oc=5",
-      "summary": "「異常検知はもう通用しない」 フロンティアAIが覆すセキュリティの前提、ガートナーが警鐘&nbsp;&nbsp;ITmedia",
-      "date": "2026-10-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "｢情報流出はまだかわいいもの｣サイバー攻撃の本番はこれからだ…専門家が説く｢業務を止める｣経営者の覚悟の必要性 - 東洋経済オンライン",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE16LUdfZERyeUttY1hwQnRwa1ZCZmg3R3psSFFSTkdvUVB4WW5aNm91ODRtMjF6THZ5Q29ab2hxQ195cG43VEVJb1ZKMFlQbi14M2VFbVBzVFJac0k?oc=5",
-      "summary": "｢情報流出はまだかわいいもの｣サイバー攻撃の本番はこれからだ…専門家が説く｢業務を止める｣経営者の覚悟の必要性&nbsp;&nbsp;東洋経済オンライン",
-      "date": "2026-10-28",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "GROWIにおける複数の脆弱性",
       "url": "https://jvn.jp/jp/JVN51223238/",
       "summary": "株式会社GROWIが提供するGROWIには、複数の脆弱性が存在します。",
-      "date": "2026-10-27",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "Sleipnir Mobile for Androidのユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性",
-      "url": "https://jvn.jp/jp/JVN90463048/",
-      "summary": "フェンリル株式会社が提供するSleipnir Mobile for Androidには、ユーザーインターフェースにおいて偽のアドレスバーなどを表示される脆弱性が存在します。",
       "date": "2026-10-27",
       "source": "JVN",
       "language": "日本語",
@@ -562,15 +571,6 @@
       "title": "ISC Stormcast For Tuesday, October 27th, 2026 https://isc.sans.edu/podcastdetail/10152, (Tue, Oct 27th)",
       "url": "https://isc.sans.edu/diary/rss/33462",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
-      "date": "2026-10-27",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
-      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
-      "url": "https://isc.sans.edu/diary/rss/33458",
-      "summary": "Apple today released patches for 304 vulnerabilties. This number is still in line with prior Apple updates, and comes just about a month after the last apple update.&#xd;",
       "date": "2026-10-27",
       "source": "SANS ISC",
       "language": "英語",
@@ -1139,5 +1139,5 @@
       "category": "news"
     }
   ],
-  "updated": "2026/11/1 8:59:41"
+  "updated": "2026/11/2 9:29:54"
 }
