@@ -1,6 +1,78 @@
 {
   "articles": [
     {
+      "title": "Siemens製品に対するアップデート（2026年11月）",
+      "url": "https://jvn.jp/vu/JVNVU98354779/",
+      "summary": "Siemensから各製品向けのアドバイザリが公表されました。",
+      "date": "2026-11-09",
+      "source": "JVN",
+      "language": "日本語",
+      "category": "vuln"
+    },
+    {
+      "title": "ドコモオンラインショップとMy docomoへの不正アクセスについてまとめてみた",
+      "url": "https://piyolog.hatenadiary.jp/entry/2026/11/09/090504",
+      "summary": "2026年11月5日、ドコモは、ドコモオンラインショップとMy docomoへの不正アクセスで顧客情報が流出したことを確認したと公表しました。ここでは関連する情報をまとめます。 経路遮断と一時再開の後に再停止 ドコモオンラインショップとMy docomoでは、2026年11月4日10時30分頃にアラートを検知して対応を始め、攻撃経路を遮断してMy docomoを一時再開した。同日23時台に不正アク",
+      "date": "2026-11-09",
+      "source": "piyolog",
+      "language": "日本語",
+      "category": "analysis"
+    },
+    {
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized ",
+      "date": "2026-11-08",
+      "source": "Bleeping Computer",
+      "language": "英語",
+      "category": "news"
+    },
+    {
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33498",
+      "summary": "Our honeypots use \"Cowrie\" to collect SSH data. With the emergence of the \"sshole\" vulnerability last week, we are now seeing an increase in attempts to exploit the vulnerability. Our data is a bit li",
+      "date": "2026-11-08",
+      "source": "SANS ISC",
+      "language": "英語",
+      "category": "analysis"
+    },
+    {
+      "title": "沖縄県警、サイバーセキュリティー事業のアクシオンと協定締結（琉球新報） - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1iZ3pwU2RJLVlsQkNkX3BqOUpKZm1zV3NZc1RLeGJmVUM4MXlkcTdNcU4teHZGeDczRXNNdDVXMjFodkxHQWVkbU5iQVBHRS1oSmpVSk43QkxSWVpsdEJya1J0eEJBTFI3NXdkNEtFTWZZUktsLTcyR1I1dGMwV2M?oc=5",
+      "summary": "沖縄県警、サイバーセキュリティー事業のアクシオンと協定締結（琉球新報）&nbsp;&nbsp;Yahoo!ニュース",
+      "date": "2026-11-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "「サイバーセキュリティ特別相談窓口」設置 県内の中小企業の対応を支援 /秋田 - ｄメニューニュース",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1pblRuaG9IcUJueWdnaDEyMkpieExGLV9kMUJRRUtrbFpwMjRvbUVoM2hHZGgyZ2Q5M3UxR2tlaFB3OVJON0NlT1RPN2hvS1drMGJZa1FUcEgzRVlabXBTbVlBUVQydC1zdUUxSdIBckFVX3lxTE9ualNlYmFXa0lMX3N6c3FRSkxrRGhwRnhOdlFDQTc1eDA1YW44bnlxX2FzYVpSSFMzVk5BSmtwaERiOUxMdENDeEFPWUtELXYweG9FQXljTG16aks5ckZ2QmwwR3I0MEdtRk1kTExySEJsZw?oc=5",
+      "summary": "「サイバーセキュリティ特別相談窓口」設置 県内の中小企業の対応を支援 /秋田&nbsp;&nbsp;ｄメニューニュース",
+      "date": "2026-11-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "セキュリティ関連書籍9タイトルを11月5日より全文無料公開！最新刊『1週間でサイバーセキュリティの基礎が学べる本』など実務書から入門書まで - Excite エキサイト",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tUUl1cWp4TjFLQXZOV0hMemR2VGpteFZaSlFnUTk1Y3pXV053ZV9YaFJ3M1BsMzRJZzJuRHVaMXpZTURaamg0eXVCTnNBWUJ1TzN5YVRPdTJxZVVuMkFiRGlsN3R6MW82MzVUNHVoaDlaNm1u?oc=5",
+      "summary": "セキュリティ関連書籍9タイトルを11月5日より全文無料公開！最新刊『1週間でサイバーセキュリティの基礎が学べる本』など実務書から入門書まで&nbsp;&nbsp;Excite エキサイト",
+      "date": "2026-11-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
+      "title": "【日本初】高市政権の「サイバーセキュリティ緊急対策パッケージ」にサイカルトラストの特許群で対応。AIエージェント行為の実行前保留とAI診断の実施証明の特許を実施許諾込みで提供し、即日対応化を支援 - Infoseek",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE0yNldUVzdPQ19KMDRvcmZUcldDYzgtU2d5YmN0WkxPZGZreXNsMTNjVVBza01aUFJ0bDhrWVpTVjNKempWc3llTW13N3liNXVIR0pmODI5ZnJYMW00VHktMG1sUnY4RmVoaUhzMHBfTUdrdw?oc=5",
+      "summary": "【日本初】高市政権の「サイバーセキュリティ緊急対策パッケージ」にサイカルトラストの特許群で対応。AIエージェント行為の実行前保留とAI診断の実施証明の特許を実施許諾込みで提供し、即日対応化を支援&nbsp;&nbsp;Infoseek",
+      "date": "2026-11-08",
+      "source": "Google News JP",
+      "language": "日本語",
+      "category": "news"
+    },
+    {
       "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
       "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
       "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them. When a user selects \"Yes, and don't ask a",
@@ -46,27 +118,9 @@
       "category": "news"
     },
     {
-      "title": "サイバーセキュリティの机上演習で検証すべきは計画だけではない - Forbes JAPAN",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jcmEweFZhTXQwWlEwdjczNWpqczViTHUxR0dtX2RMQzB6Z3UxY0dlOUxia0NQU1EtYWFkbDdmZVgwaFNIOVpiUWs5Nkp2NHVuZVcxd0cxNzlOdw?oc=5",
-      "summary": "サイバーセキュリティの机上演習で検証すべきは計画だけではない&nbsp;&nbsp;Forbes JAPAN",
-      "date": "2026-11-07",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
       "title": "CISA ICS Advisory / ICS Medical Advisory（2026年11月05日）",
       "url": "https://jvn.jp/vu/JVNVU90841469/",
       "summary": "米国CISAがCISA ICS Advisory / ICS Medical Advisoryを公表しました。",
-      "date": "2026-11-06",
-      "source": "JVN",
-      "language": "日本語",
-      "category": "vuln"
-    },
-    {
-      "title": "Siemens製品に対するアップデート（2026年11月）",
-      "url": "https://jvn.jp/vu/JVNVU98354779/",
-      "summary": "Siemensから各製品向けのアドバイザリが公表されました。",
       "date": "2026-11-06",
       "source": "JVN",
       "language": "日本語",
@@ -217,15 +271,6 @@
       "category": "news"
     },
     {
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-      "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-      "date": "2026-11-06",
-      "source": "Bleeping Computer",
-      "language": "英語",
-      "category": "news"
-    },
-    {
       "title": "ISC Stormcast For Friday, November 6th, 2026 https://isc.sans.edu/podcastdetail/10168, (Fri, Nov 6th)",
       "url": "https://isc.sans.edu/diary/rss/33494",
       "summary": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
@@ -244,18 +289,18 @@
       "category": "alert"
     },
     {
-      "title": "政府、サイバー緊急対策に約100億円 基幹インフラの攻撃情報は同日中の集約目指す - Yahoo!ニュース",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92TTNFQXZNeHVVZ3RSb1ZuMXZ1VEFZQTJtSjdPUldxRkw3LTByUDF0NXVVckFBc2ZQZG5RZVZzcXJrdHk0VW03LW50c3BEdzJmUW1LUzU0OXBKOGdOZWdLYkZPUmRmbVJOdnFlby1nX1o1OXR5czFRbl90T1VFX1k?oc=5",
-      "summary": "政府、サイバー緊急対策に約100億円 基幹インフラの攻撃情報は同日中の集約目指す&nbsp;&nbsp;Yahoo!ニュース",
+      "title": "県警が民間企業とサイバーセキュリティで協力 沖縄 - Yahoo!ニュース",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3OFl0SmZZT0x4OGt4YUJsM3pndU81Tlh1b29fbGNJSnFndWcxdldwZEh6azlxT1VNNmt0cFVFRGc0ZlYtNEJKYmE3c3VWN2lIamh5WEpsQ0lCTUwtRUg0dlRaa0FaU1F5V0hvcFNQNTQ5ZGVHN3g4WE9EekhHb28?oc=5",
+      "summary": "県警が民間企業とサイバーセキュリティで協力 沖縄&nbsp;&nbsp;Yahoo!ニュース",
       "date": "2026-11-06",
       "source": "Google News JP",
       "language": "日本語",
       "category": "news"
     },
     {
-      "title": "サイバーセキュリティに関する関係閣僚会議 | 総理の一日 - 首相官邸",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yZzgzNjVVMDNHY3hSX0NDdVlGeGlGSjRiM1BCdTZiMzVoRlJRYkpzYzIxN3YtWlpiYzBnS0ZiNi1SMnpaZURMUXZKUWJac3FWbUpLcDBnYUMxVWxhV2NBdHZRNjFBVlZEWlB4WjVseWJTbHc?oc=5",
-      "summary": "サイバーセキュリティに関する関係閣僚会議 | 総理の一日&nbsp;&nbsp;首相官邸",
+      "title": "政府、「サイバーセキュリティ緊急対策パッケージ」策定 予備費から100億円 - Impress Watch",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBQM3BaZVV6bU92MVZGTVdzakxUQVNtaThRNnJlYjZOV0Fhb2ZxSUZHZnlIRlN5Nmd5SU1XQ2dia1d0V1FwYTlpNFJKYjYyRnVFNnpMRHdUV3I3NVhRUlkxZmQ2VWk?oc=5",
+      "summary": "政府、「サイバーセキュリティ緊急対策パッケージ」策定 予備費から100億円&nbsp;&nbsp;Impress Watch",
       "date": "2026-11-06",
       "source": "Google News JP",
       "language": "日本語",
@@ -271,9 +316,9 @@
       "category": "news"
     },
     {
-      "title": "カウリス代表・島津敦好、自民党「金融調査会」および「金融サイバーセキュリティー勉強会」に有識者として登壇 - Infoseek",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hZkwtZ0x6X2hmLThlbEQ5Q2RYZlNONTJOTmVDTl9Za0k1LWVoVFRoMnpYSHpMTlVzSjlwdGN4X2lBNFp1TWFrVWR5a2VpaVlic1NHTzlKbjNQd0ZfYmNLRFZoaUc0SURBaVNLTGdwTlB0dw?oc=5",
-      "summary": "カウリス代表・島津敦好、自民党「金融調査会」および「金融サイバーセキュリティー勉強会」に有識者として登壇&nbsp;&nbsp;Infoseek",
+      "title": "サイバーセキュリティに関する関係閣僚会議 | 総理の一日 - 首相官邸",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9yZzgzNjVVMDNHY3hSX0NDdVlGeGlGSjRiM1BCdTZiMzVoRlJRYkpzYzIxN3YtWlpiYzBnS0ZiNi1SMnpaZURMUXZKUWJac3FWbUpLcDBnYUMxVWxhV2NBdHZRNjFBVlZEWlB4WjVseWJTbHc?oc=5",
+      "summary": "サイバーセキュリティに関する関係閣僚会議 | 総理の一日&nbsp;&nbsp;首相官邸",
       "date": "2026-11-06",
       "source": "Google News JP",
       "language": "日本語",
@@ -352,36 +397,9 @@
       "category": "alert"
     },
     {
-      "title": "セキュリティ関連書籍9冊を全文無料公開 インプレスが5日間限定 - Impress Watch",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKWURFQ1FHYnFSSTNEQWVEVmVDRHFKaTllTFFzUlppWWVQbVRMRnpHZFVLTWFyN0tEOVp3VG9Vc3hnRTBQblpQenBHb0pFM1Yza01nUm5CMGN0RWs1WnlqaWVqWVk?oc=5",
-      "summary": "セキュリティ関連書籍9冊を全文無料公開 インプレスが5日間限定&nbsp;&nbsp;Impress Watch",
-      "date": "2026-11-05",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "予算1億円→「137億円」へ急拡大 厚労省が医療サイバー防衛を異例の強化 - ITmedia",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBObFVfMWVjUXdKRWdtVVJ2V21MczZZQjdFM0tZOTJsNWtvRFg2ano5anZLNEZvRGFfYkM0LWF1S3FmU3B1RTY1WmJLRVVFaDhaLTJFVmRzZ0VMNkxBUkhsQ3EyVXlLV3hRVGkwM3NYVHVQZw?oc=5",
-      "summary": "予算1億円→「137億円」へ急拡大 厚労省が医療サイバー防衛を異例の強化&nbsp;&nbsp;ITmedia",
-      "date": "2026-11-05",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "政府、サイバーセキュリティ対策で100億円の予備費使用を決定 - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM1FtcnROTFJUdlZVcWtnNEJmX0pEWk41RE1JR1I5d3pCS0Z5Ylg2dzlmbC1fZTB0VzJFSVA1d1g5UjFyUHFnejBBT29EaG1Hek11SVZNRGo3TXJsbGRIc0xWSFI2TklCNlN3eEJEZ240ckJzWEhDbmc2aXNvNHVsQ050Yw?oc=5",
-      "summary": "政府、サイバーセキュリティ対策で100億円の予備費使用を決定&nbsp;&nbsp;Reuters",
-      "date": "2026-11-05",
-      "source": "Google News JP",
-      "language": "日本語",
-      "category": "news"
-    },
-    {
-      "title": "サイバーセキュリティ対策を強化した産業用ロボット向けコントローラ「Fシリーズコントローラ S-type」を発売 - 川崎重工業株式会社",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SQ0o5Q2ZKdUdvODRWZG5ubk1NVWpNTlY5Yy1FT2M4Q0ttdGNIdG9ad3NDc2Z1Z0RJeVVyNkFPT093UFZzRFk2Y0ZQVmhiVmZxWlVZVXY3QU0zSUVnR2dJZElpbWtHdWpP?oc=5",
-      "summary": "サイバーセキュリティ対策を強化した産業用ロボット向けコントローラ「Fシリーズコントローラ S-type」を発売&nbsp;&nbsp;川崎重工業株式会社",
+      "title": "GPT‑6 Cyber：アライメントを備えたサイバーセキュリティエージェントの新境地 - OpenAI",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kTWREcG00STJ3SEUzRURmR3RUc2xlQjNPQWNRaUY3NC16Y0kxNHVyYXFfYkd6QU53dXZrZzlwWkpqVFZlV0FoZzhyTUpXUjQ1X1g2RWNpVlNJMUdrYmpJbDlxb1VwZw?oc=5",
+      "summary": "GPT‑6 Cyber：アライメントを備えたサイバーセキュリティエージェントの新境地&nbsp;&nbsp;OpenAI",
       "date": "2026-11-05",
       "source": "Google News JP",
       "language": "日本語",
@@ -577,15 +595,6 @@
       "category": "analysis"
     },
     {
-      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
-      "url": "https://isc.sans.edu/diary/rss/33476",
-      "summary": "Wireshark Release Candidate 5.0.0 was published: soon we can expect a new major version of Wireshark.&#xd;",
-      "date": "2026-10-31",
-      "source": "SANS ISC",
-      "language": "英語",
-      "category": "analysis"
-    },
-    {
       "title": "お知らせ：オープンリゾルバー確認サイト長期メンテナンスのお知らせ",
       "url": "https://www.jpcert.or.jp/maintenance20261030.html",
       "summary": "",
@@ -665,15 +674,6 @@
       "source": "CISA",
       "language": "英語",
       "category": "alert"
-    },
-    {
-      "title": "Amadeus の旅客サービスシステムへの不正アクセスについてまとめてみた",
-      "url": "https://piyolog.hatenadiary.jp/entry/2026/10/28/214917",
-      "summary": "2026年10月28日、日本航空と日本トランスオーシャン航空は、旅客サービスシステムの委託先であるAmadeusのシステムへの不正アクセスにより、顧客の予約情報の一部が外部から参照された形跡があったと公表しました。ここでは関連する情報をまとめます。 アマデウス経由で日韓の航空会社に影響 日本航空と日本トランスオーシャン航空は、予約、発券、搭乗手続きなどを統合的に処理する旅客サービスシステムの委託先",
-      "date": "2026-10-28",
-      "source": "piyolog",
-      "language": "日本語",
-      "category": "analysis"
     },
     {
       "title": "注意喚起: BrotliのC言語実装における境界外書き込みの脆弱性（CVE-2026-111497）に関する注意喚起 (公開)",
@@ -1223,5 +1223,5 @@
       "date": ""
     }
   ],
-  "updated": "2026/11/8 9:21:20"
+  "updated": "2026/11/9 9:41:20"
 }
